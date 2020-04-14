@@ -2,16 +2,34 @@ version: '3'
 services:
   db:
     image: postgres:11.5
+#    deploy:
+#      placement:
+#        constraints:
+#          - node.labels.namalabel == labelnya
+    networks:
+      - moodle
     environment:
       POSTGRES_USER: moodle
       POSTGRES_PASSWORD: pass_CLOUD
     volumes:
+      - db-data:/var/lib/postgresql/data
+#comment ini jika deploy lagi dengan data yang sudah tersimpan
       - ./moodlecloud.sql:/docker-entrypoint-initdb.d/init.sql
   redis:
     image: redis:5.0.5-alpine
+    networks:
+      - moodle
   moodlecloud:
     image: sudarko/moodlecloud:0.1 
+    networks:
+      - moodle
     volumes:
       - ./config.php:/var/www/html/config.php
+      - moodledata:/var/www/moodledata
     ports:
       - "8088:80"
+networks:
+  moodle:
+volumes:
+  db-data:
+  moodledata:

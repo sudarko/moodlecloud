@@ -59,7 +59,7 @@ CREATE TABLE public.mdl_analytics_indicator_calc (
 );
 
 
-ALTER TABLE public.mdl_analytics_indicator_calc OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_indicator_calc OWNER TO sister;
 
 --
 -- Name: TABLE mdl_analytics_indicator_calc; Type: COMMENT; Schema: public; Owner: sister
@@ -80,7 +80,7 @@ CREATE SEQUENCE public.mdl_analytics_indicator_calc_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_indicator_calc_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_indicator_calc_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_analytics_indicator_calc_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -108,7 +108,7 @@ CREATE TABLE public.mdl_analytics_models (
 );
 
 
-ALTER TABLE public.mdl_analytics_models OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_models OWNER TO sister;
 
 --
 -- Name: TABLE mdl_analytics_models; Type: COMMENT; Schema: public; Owner: sister
@@ -129,7 +129,7 @@ CREATE SEQUENCE public.mdl_analytics_models_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_models_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_models_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_analytics_models_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -157,7 +157,7 @@ CREATE TABLE public.mdl_analytics_models_log (
 );
 
 
-ALTER TABLE public.mdl_analytics_models_log OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_models_log OWNER TO sister;
 
 --
 -- Name: TABLE mdl_analytics_models_log; Type: COMMENT; Schema: public; Owner: sister
@@ -178,7 +178,7 @@ CREATE SEQUENCE public.mdl_analytics_models_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_models_log_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_models_log_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_analytics_models_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -203,7 +203,7 @@ CREATE TABLE public.mdl_analytics_predict_samples (
 );
 
 
-ALTER TABLE public.mdl_analytics_predict_samples OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_predict_samples OWNER TO sister;
 
 --
 -- Name: TABLE mdl_analytics_predict_samples; Type: COMMENT; Schema: public; Owner: sister
@@ -224,7 +224,7 @@ CREATE SEQUENCE public.mdl_analytics_predict_samples_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_predict_samples_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_predict_samples_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_analytics_predict_samples_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -246,7 +246,7 @@ CREATE TABLE public.mdl_analytics_prediction_actions (
 );
 
 
-ALTER TABLE public.mdl_analytics_prediction_actions OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_prediction_actions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_analytics_prediction_actions; Type: COMMENT; Schema: public; Owner: sister
@@ -267,7 +267,7 @@ CREATE SEQUENCE public.mdl_analytics_prediction_actions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_prediction_actions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_prediction_actions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_analytics_prediction_actions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -295,7 +295,7 @@ CREATE TABLE public.mdl_analytics_predictions (
 );
 
 
-ALTER TABLE public.mdl_analytics_predictions OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_predictions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_analytics_predictions; Type: COMMENT; Schema: public; Owner: sister
@@ -316,7 +316,7 @@ CREATE SEQUENCE public.mdl_analytics_predictions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_predictions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_predictions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_analytics_predictions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -340,7 +340,7 @@ CREATE TABLE public.mdl_analytics_train_samples (
 );
 
 
-ALTER TABLE public.mdl_analytics_train_samples OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_train_samples OWNER TO sister;
 
 --
 -- Name: TABLE mdl_analytics_train_samples; Type: COMMENT; Schema: public; Owner: sister
@@ -361,7 +361,7 @@ CREATE SEQUENCE public.mdl_analytics_train_samples_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_train_samples_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_train_samples_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_analytics_train_samples_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -383,7 +383,7 @@ CREATE TABLE public.mdl_analytics_used_analysables (
 );
 
 
-ALTER TABLE public.mdl_analytics_used_analysables OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_used_analysables OWNER TO sister;
 
 --
 -- Name: TABLE mdl_analytics_used_analysables; Type: COMMENT; Schema: public; Owner: sister
@@ -404,7 +404,7 @@ CREATE SEQUENCE public.mdl_analytics_used_analysables_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_used_analysables_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_used_analysables_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_analytics_used_analysables_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -426,7 +426,7 @@ CREATE TABLE public.mdl_analytics_used_files (
 );
 
 
-ALTER TABLE public.mdl_analytics_used_files OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_used_files OWNER TO sister;
 
 --
 -- Name: TABLE mdl_analytics_used_files; Type: COMMENT; Schema: public; Owner: sister
@@ -447,7 +447,7 @@ CREATE SEQUENCE public.mdl_analytics_used_files_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_used_files_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_analytics_used_files_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_analytics_used_files_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -493,7 +493,7 @@ CREATE TABLE public.mdl_assign (
 );
 
 
-ALTER TABLE public.mdl_assign OWNER TO moodle;
+ALTER TABLE public.mdl_assign OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assign; Type: COMMENT; Schema: public; Owner: sister
@@ -518,7 +518,7 @@ CREATE TABLE public.mdl_assign_grades (
 );
 
 
-ALTER TABLE public.mdl_assign_grades OWNER TO moodle;
+ALTER TABLE public.mdl_assign_grades OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assign_grades; Type: COMMENT; Schema: public; Owner: sister
@@ -539,7 +539,7 @@ CREATE SEQUENCE public.mdl_assign_grades_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_grades_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assign_grades_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assign_grades_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -560,7 +560,7 @@ CREATE SEQUENCE public.mdl_assign_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assign_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assign_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -585,7 +585,7 @@ CREATE TABLE public.mdl_assign_overrides (
 );
 
 
-ALTER TABLE public.mdl_assign_overrides OWNER TO moodle;
+ALTER TABLE public.mdl_assign_overrides OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assign_overrides; Type: COMMENT; Schema: public; Owner: sister
@@ -606,7 +606,7 @@ CREATE SEQUENCE public.mdl_assign_overrides_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_overrides_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assign_overrides_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assign_overrides_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -629,7 +629,7 @@ CREATE TABLE public.mdl_assign_plugin_config (
 );
 
 
-ALTER TABLE public.mdl_assign_plugin_config OWNER TO moodle;
+ALTER TABLE public.mdl_assign_plugin_config OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assign_plugin_config; Type: COMMENT; Schema: public; Owner: sister
@@ -650,7 +650,7 @@ CREATE SEQUENCE public.mdl_assign_plugin_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_plugin_config_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assign_plugin_config_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assign_plugin_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -676,7 +676,7 @@ CREATE TABLE public.mdl_assign_submission (
 );
 
 
-ALTER TABLE public.mdl_assign_submission OWNER TO moodle;
+ALTER TABLE public.mdl_assign_submission OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assign_submission; Type: COMMENT; Schema: public; Owner: sister
@@ -697,7 +697,7 @@ CREATE SEQUENCE public.mdl_assign_submission_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_submission_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assign_submission_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assign_submission_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -722,7 +722,7 @@ CREATE TABLE public.mdl_assign_user_flags (
 );
 
 
-ALTER TABLE public.mdl_assign_user_flags OWNER TO moodle;
+ALTER TABLE public.mdl_assign_user_flags OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assign_user_flags; Type: COMMENT; Schema: public; Owner: sister
@@ -743,7 +743,7 @@ CREATE SEQUENCE public.mdl_assign_user_flags_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_user_flags_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assign_user_flags_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assign_user_flags_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -763,7 +763,7 @@ CREATE TABLE public.mdl_assign_user_mapping (
 );
 
 
-ALTER TABLE public.mdl_assign_user_mapping OWNER TO moodle;
+ALTER TABLE public.mdl_assign_user_mapping OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assign_user_mapping; Type: COMMENT; Schema: public; Owner: sister
@@ -784,7 +784,7 @@ CREATE SEQUENCE public.mdl_assign_user_mapping_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_user_mapping_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assign_user_mapping_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assign_user_mapping_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -806,7 +806,7 @@ CREATE TABLE public.mdl_assignfeedback_comments (
 );
 
 
-ALTER TABLE public.mdl_assignfeedback_comments OWNER TO moodle;
+ALTER TABLE public.mdl_assignfeedback_comments OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assignfeedback_comments; Type: COMMENT; Schema: public; Owner: sister
@@ -827,7 +827,7 @@ CREATE SEQUENCE public.mdl_assignfeedback_comments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignfeedback_comments_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assignfeedback_comments_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assignfeedback_comments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -855,7 +855,7 @@ CREATE TABLE public.mdl_assignfeedback_editpdf_annot (
 );
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_annot OWNER TO moodle;
+ALTER TABLE public.mdl_assignfeedback_editpdf_annot OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assignfeedback_editpdf_annot; Type: COMMENT; Schema: public; Owner: sister
@@ -876,7 +876,7 @@ CREATE SEQUENCE public.mdl_assignfeedback_editpdf_annot_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_annot_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assignfeedback_editpdf_annot_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assignfeedback_editpdf_annot_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -902,7 +902,7 @@ CREATE TABLE public.mdl_assignfeedback_editpdf_cmnt (
 );
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_cmnt OWNER TO moodle;
+ALTER TABLE public.mdl_assignfeedback_editpdf_cmnt OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assignfeedback_editpdf_cmnt; Type: COMMENT; Schema: public; Owner: sister
@@ -923,7 +923,7 @@ CREATE SEQUENCE public.mdl_assignfeedback_editpdf_cmnt_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_cmnt_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assignfeedback_editpdf_cmnt_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assignfeedback_editpdf_cmnt_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -944,7 +944,7 @@ CREATE TABLE public.mdl_assignfeedback_editpdf_queue (
 );
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_queue OWNER TO moodle;
+ALTER TABLE public.mdl_assignfeedback_editpdf_queue OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assignfeedback_editpdf_queue; Type: COMMENT; Schema: public; Owner: sister
@@ -965,7 +965,7 @@ CREATE SEQUENCE public.mdl_assignfeedback_editpdf_queue_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_queue_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assignfeedback_editpdf_queue_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assignfeedback_editpdf_queue_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -987,7 +987,7 @@ CREATE TABLE public.mdl_assignfeedback_editpdf_quick (
 );
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_quick OWNER TO moodle;
+ALTER TABLE public.mdl_assignfeedback_editpdf_quick OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assignfeedback_editpdf_quick; Type: COMMENT; Schema: public; Owner: sister
@@ -1008,7 +1008,7 @@ CREATE SEQUENCE public.mdl_assignfeedback_editpdf_quick_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_quick_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assignfeedback_editpdf_quick_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assignfeedback_editpdf_quick_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1029,7 +1029,7 @@ CREATE TABLE public.mdl_assignfeedback_file (
 );
 
 
-ALTER TABLE public.mdl_assignfeedback_file OWNER TO moodle;
+ALTER TABLE public.mdl_assignfeedback_file OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assignfeedback_file; Type: COMMENT; Schema: public; Owner: sister
@@ -1050,7 +1050,7 @@ CREATE SEQUENCE public.mdl_assignfeedback_file_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignfeedback_file_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assignfeedback_file_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assignfeedback_file_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1086,7 +1086,7 @@ CREATE TABLE public.mdl_assignment (
 );
 
 
-ALTER TABLE public.mdl_assignment OWNER TO moodle;
+ALTER TABLE public.mdl_assignment OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assignment; Type: COMMENT; Schema: public; Owner: sister
@@ -1107,7 +1107,7 @@ CREATE SEQUENCE public.mdl_assignment_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignment_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assignment_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assignment_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1138,7 +1138,7 @@ CREATE TABLE public.mdl_assignment_submissions (
 );
 
 
-ALTER TABLE public.mdl_assignment_submissions OWNER TO moodle;
+ALTER TABLE public.mdl_assignment_submissions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assignment_submissions; Type: COMMENT; Schema: public; Owner: sister
@@ -1159,7 +1159,7 @@ CREATE SEQUENCE public.mdl_assignment_submissions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignment_submissions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assignment_submissions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assignment_submissions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1182,7 +1182,7 @@ CREATE TABLE public.mdl_assignment_upgrade (
 );
 
 
-ALTER TABLE public.mdl_assignment_upgrade OWNER TO moodle;
+ALTER TABLE public.mdl_assignment_upgrade OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assignment_upgrade; Type: COMMENT; Schema: public; Owner: sister
@@ -1203,7 +1203,7 @@ CREATE SEQUENCE public.mdl_assignment_upgrade_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignment_upgrade_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assignment_upgrade_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assignment_upgrade_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1224,7 +1224,7 @@ CREATE TABLE public.mdl_assignsubmission_file (
 );
 
 
-ALTER TABLE public.mdl_assignsubmission_file OWNER TO moodle;
+ALTER TABLE public.mdl_assignsubmission_file OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assignsubmission_file; Type: COMMENT; Schema: public; Owner: sister
@@ -1245,7 +1245,7 @@ CREATE SEQUENCE public.mdl_assignsubmission_file_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignsubmission_file_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assignsubmission_file_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assignsubmission_file_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1267,7 +1267,7 @@ CREATE TABLE public.mdl_assignsubmission_onlinetext (
 );
 
 
-ALTER TABLE public.mdl_assignsubmission_onlinetext OWNER TO moodle;
+ALTER TABLE public.mdl_assignsubmission_onlinetext OWNER TO sister;
 
 --
 -- Name: TABLE mdl_assignsubmission_onlinetext; Type: COMMENT; Schema: public; Owner: sister
@@ -1288,7 +1288,7 @@ CREATE SEQUENCE public.mdl_assignsubmission_onlinetext_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignsubmission_onlinetext_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_assignsubmission_onlinetext_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_assignsubmission_onlinetext_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1316,7 +1316,7 @@ CREATE TABLE public.mdl_attendance (
 );
 
 
-ALTER TABLE public.mdl_attendance OWNER TO moodle;
+ALTER TABLE public.mdl_attendance OWNER TO sister;
 
 --
 -- Name: TABLE mdl_attendance; Type: COMMENT; Schema: public; Owner: sister
@@ -1337,7 +1337,7 @@ CREATE SEQUENCE public.mdl_attendance_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_attendance_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_attendance_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1363,7 +1363,7 @@ CREATE TABLE public.mdl_attendance_log (
 );
 
 
-ALTER TABLE public.mdl_attendance_log OWNER TO moodle;
+ALTER TABLE public.mdl_attendance_log OWNER TO sister;
 
 --
 -- Name: TABLE mdl_attendance_log; Type: COMMENT; Schema: public; Owner: sister
@@ -1384,7 +1384,7 @@ CREATE SEQUENCE public.mdl_attendance_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_log_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_attendance_log_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_attendance_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1424,7 +1424,7 @@ CREATE TABLE public.mdl_attendance_sessions (
 );
 
 
-ALTER TABLE public.mdl_attendance_sessions OWNER TO moodle;
+ALTER TABLE public.mdl_attendance_sessions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_attendance_sessions; Type: COMMENT; Schema: public; Owner: sister
@@ -1445,7 +1445,7 @@ CREATE SEQUENCE public.mdl_attendance_sessions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_sessions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_attendance_sessions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_attendance_sessions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1472,7 +1472,7 @@ CREATE TABLE public.mdl_attendance_statuses (
 );
 
 
-ALTER TABLE public.mdl_attendance_statuses OWNER TO moodle;
+ALTER TABLE public.mdl_attendance_statuses OWNER TO sister;
 
 --
 -- Name: TABLE mdl_attendance_statuses; Type: COMMENT; Schema: public; Owner: sister
@@ -1493,7 +1493,7 @@ CREATE SEQUENCE public.mdl_attendance_statuses_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_statuses_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_attendance_statuses_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_attendance_statuses_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1516,7 +1516,7 @@ CREATE TABLE public.mdl_attendance_tempusers (
 );
 
 
-ALTER TABLE public.mdl_attendance_tempusers OWNER TO moodle;
+ALTER TABLE public.mdl_attendance_tempusers OWNER TO sister;
 
 --
 -- Name: TABLE mdl_attendance_tempusers; Type: COMMENT; Schema: public; Owner: sister
@@ -1537,7 +1537,7 @@ CREATE SEQUENCE public.mdl_attendance_tempusers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_tempusers_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_attendance_tempusers_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_attendance_tempusers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1564,7 +1564,7 @@ CREATE TABLE public.mdl_attendance_warning (
 );
 
 
-ALTER TABLE public.mdl_attendance_warning OWNER TO moodle;
+ALTER TABLE public.mdl_attendance_warning OWNER TO sister;
 
 --
 -- Name: TABLE mdl_attendance_warning; Type: COMMENT; Schema: public; Owner: sister
@@ -1585,7 +1585,7 @@ CREATE TABLE public.mdl_attendance_warning_done (
 );
 
 
-ALTER TABLE public.mdl_attendance_warning_done OWNER TO moodle;
+ALTER TABLE public.mdl_attendance_warning_done OWNER TO sister;
 
 --
 -- Name: TABLE mdl_attendance_warning_done; Type: COMMENT; Schema: public; Owner: sister
@@ -1606,7 +1606,7 @@ CREATE SEQUENCE public.mdl_attendance_warning_done_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_warning_done_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_attendance_warning_done_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_attendance_warning_done_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1627,7 +1627,7 @@ CREATE SEQUENCE public.mdl_attendance_warning_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_warning_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_attendance_warning_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_attendance_warning_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1654,7 +1654,7 @@ CREATE TABLE public.mdl_auth_oauth2_linked_login (
 );
 
 
-ALTER TABLE public.mdl_auth_oauth2_linked_login OWNER TO moodle;
+ALTER TABLE public.mdl_auth_oauth2_linked_login OWNER TO sister;
 
 --
 -- Name: TABLE mdl_auth_oauth2_linked_login; Type: COMMENT; Schema: public; Owner: sister
@@ -1675,7 +1675,7 @@ CREATE SEQUENCE public.mdl_auth_oauth2_linked_login_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_auth_oauth2_linked_login_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_auth_oauth2_linked_login_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_auth_oauth2_linked_login_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1708,7 +1708,7 @@ CREATE TABLE public.mdl_backup_controllers (
 );
 
 
-ALTER TABLE public.mdl_backup_controllers OWNER TO moodle;
+ALTER TABLE public.mdl_backup_controllers OWNER TO sister;
 
 --
 -- Name: TABLE mdl_backup_controllers; Type: COMMENT; Schema: public; Owner: sister
@@ -1729,7 +1729,7 @@ CREATE SEQUENCE public.mdl_backup_controllers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_backup_controllers_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_backup_controllers_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_backup_controllers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1752,7 +1752,7 @@ CREATE TABLE public.mdl_backup_courses (
 );
 
 
-ALTER TABLE public.mdl_backup_courses OWNER TO moodle;
+ALTER TABLE public.mdl_backup_courses OWNER TO sister;
 
 --
 -- Name: TABLE mdl_backup_courses; Type: COMMENT; Schema: public; Owner: sister
@@ -1773,7 +1773,7 @@ CREATE SEQUENCE public.mdl_backup_courses_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_backup_courses_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_backup_courses_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_backup_courses_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1795,7 +1795,7 @@ CREATE TABLE public.mdl_backup_logs (
 );
 
 
-ALTER TABLE public.mdl_backup_logs OWNER TO moodle;
+ALTER TABLE public.mdl_backup_logs OWNER TO sister;
 
 --
 -- Name: TABLE mdl_backup_logs; Type: COMMENT; Schema: public; Owner: sister
@@ -1816,7 +1816,7 @@ CREATE SEQUENCE public.mdl_backup_logs_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_backup_logs_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_backup_logs_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_backup_logs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1859,7 +1859,7 @@ CREATE TABLE public.mdl_badge (
 );
 
 
-ALTER TABLE public.mdl_badge OWNER TO moodle;
+ALTER TABLE public.mdl_badge OWNER TO sister;
 
 --
 -- Name: TABLE mdl_badge; Type: COMMENT; Schema: public; Owner: sister
@@ -1883,7 +1883,7 @@ CREATE TABLE public.mdl_badge_backpack (
 );
 
 
-ALTER TABLE public.mdl_badge_backpack OWNER TO moodle;
+ALTER TABLE public.mdl_badge_backpack OWNER TO sister;
 
 --
 -- Name: TABLE mdl_badge_backpack; Type: COMMENT; Schema: public; Owner: sister
@@ -1904,7 +1904,7 @@ CREATE SEQUENCE public.mdl_badge_backpack_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_backpack_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_badge_backpack_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_badge_backpack_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1928,7 +1928,7 @@ CREATE TABLE public.mdl_badge_competencies (
 );
 
 
-ALTER TABLE public.mdl_badge_competencies OWNER TO moodle;
+ALTER TABLE public.mdl_badge_competencies OWNER TO sister;
 
 --
 -- Name: TABLE mdl_badge_competencies; Type: COMMENT; Schema: public; Owner: sister
@@ -1949,7 +1949,7 @@ CREATE SEQUENCE public.mdl_badge_competencies_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_competencies_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_badge_competencies_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_badge_competencies_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1972,7 +1972,7 @@ CREATE TABLE public.mdl_badge_criteria (
 );
 
 
-ALTER TABLE public.mdl_badge_criteria OWNER TO moodle;
+ALTER TABLE public.mdl_badge_criteria OWNER TO sister;
 
 --
 -- Name: TABLE mdl_badge_criteria; Type: COMMENT; Schema: public; Owner: sister
@@ -1993,7 +1993,7 @@ CREATE SEQUENCE public.mdl_badge_criteria_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_criteria_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_badge_criteria_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_badge_criteria_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2015,7 +2015,7 @@ CREATE TABLE public.mdl_badge_criteria_met (
 );
 
 
-ALTER TABLE public.mdl_badge_criteria_met OWNER TO moodle;
+ALTER TABLE public.mdl_badge_criteria_met OWNER TO sister;
 
 --
 -- Name: TABLE mdl_badge_criteria_met; Type: COMMENT; Schema: public; Owner: sister
@@ -2036,7 +2036,7 @@ CREATE SEQUENCE public.mdl_badge_criteria_met_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_criteria_met_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_badge_criteria_met_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_badge_criteria_met_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2057,7 +2057,7 @@ CREATE TABLE public.mdl_badge_criteria_param (
 );
 
 
-ALTER TABLE public.mdl_badge_criteria_param OWNER TO moodle;
+ALTER TABLE public.mdl_badge_criteria_param OWNER TO sister;
 
 --
 -- Name: TABLE mdl_badge_criteria_param; Type: COMMENT; Schema: public; Owner: sister
@@ -2078,7 +2078,7 @@ CREATE SEQUENCE public.mdl_badge_criteria_param_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_criteria_param_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_badge_criteria_param_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_badge_criteria_param_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2103,7 +2103,7 @@ CREATE TABLE public.mdl_badge_endorsement (
 );
 
 
-ALTER TABLE public.mdl_badge_endorsement OWNER TO moodle;
+ALTER TABLE public.mdl_badge_endorsement OWNER TO sister;
 
 --
 -- Name: TABLE mdl_badge_endorsement; Type: COMMENT; Schema: public; Owner: sister
@@ -2124,7 +2124,7 @@ CREATE SEQUENCE public.mdl_badge_endorsement_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_endorsement_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_badge_endorsement_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_badge_endorsement_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2144,7 +2144,7 @@ CREATE TABLE public.mdl_badge_external (
 );
 
 
-ALTER TABLE public.mdl_badge_external OWNER TO moodle;
+ALTER TABLE public.mdl_badge_external OWNER TO sister;
 
 --
 -- Name: TABLE mdl_badge_external; Type: COMMENT; Schema: public; Owner: sister
@@ -2165,7 +2165,7 @@ CREATE SEQUENCE public.mdl_badge_external_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_external_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_badge_external_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_badge_external_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2186,7 +2186,7 @@ CREATE SEQUENCE public.mdl_badge_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_badge_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_badge_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2211,7 +2211,7 @@ CREATE TABLE public.mdl_badge_issued (
 );
 
 
-ALTER TABLE public.mdl_badge_issued OWNER TO moodle;
+ALTER TABLE public.mdl_badge_issued OWNER TO sister;
 
 --
 -- Name: TABLE mdl_badge_issued; Type: COMMENT; Schema: public; Owner: sister
@@ -2232,7 +2232,7 @@ CREATE SEQUENCE public.mdl_badge_issued_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_issued_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_badge_issued_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_badge_issued_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2255,7 +2255,7 @@ CREATE TABLE public.mdl_badge_manual_award (
 );
 
 
-ALTER TABLE public.mdl_badge_manual_award OWNER TO moodle;
+ALTER TABLE public.mdl_badge_manual_award OWNER TO sister;
 
 --
 -- Name: TABLE mdl_badge_manual_award; Type: COMMENT; Schema: public; Owner: sister
@@ -2276,7 +2276,7 @@ CREATE SEQUENCE public.mdl_badge_manual_award_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_manual_award_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_badge_manual_award_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_badge_manual_award_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2296,7 +2296,7 @@ CREATE TABLE public.mdl_badge_related (
 );
 
 
-ALTER TABLE public.mdl_badge_related OWNER TO moodle;
+ALTER TABLE public.mdl_badge_related OWNER TO sister;
 
 --
 -- Name: TABLE mdl_badge_related; Type: COMMENT; Schema: public; Owner: sister
@@ -2317,7 +2317,7 @@ CREATE SEQUENCE public.mdl_badge_related_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_related_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_badge_related_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_badge_related_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2362,7 +2362,7 @@ CREATE TABLE public.mdl_bigbluebuttonbn (
 );
 
 
-ALTER TABLE public.mdl_bigbluebuttonbn OWNER TO moodle;
+ALTER TABLE public.mdl_bigbluebuttonbn OWNER TO sister;
 
 --
 -- Name: TABLE mdl_bigbluebuttonbn; Type: COMMENT; Schema: public; Owner: sister
@@ -2383,7 +2383,7 @@ CREATE SEQUENCE public.mdl_bigbluebuttonbn_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_bigbluebuttonbn_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_bigbluebuttonbn_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_bigbluebuttonbn_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2408,7 +2408,7 @@ CREATE TABLE public.mdl_bigbluebuttonbn_logs (
 );
 
 
-ALTER TABLE public.mdl_bigbluebuttonbn_logs OWNER TO moodle;
+ALTER TABLE public.mdl_bigbluebuttonbn_logs OWNER TO sister;
 
 --
 -- Name: TABLE mdl_bigbluebuttonbn_logs; Type: COMMENT; Schema: public; Owner: sister
@@ -2429,7 +2429,7 @@ CREATE SEQUENCE public.mdl_bigbluebuttonbn_logs_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_bigbluebuttonbn_logs_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_bigbluebuttonbn_logs_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_bigbluebuttonbn_logs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2451,7 +2451,7 @@ CREATE TABLE public.mdl_block (
 );
 
 
-ALTER TABLE public.mdl_block OWNER TO moodle;
+ALTER TABLE public.mdl_block OWNER TO sister;
 
 --
 -- Name: TABLE mdl_block; Type: COMMENT; Schema: public; Owner: sister
@@ -2474,7 +2474,7 @@ CREATE TABLE public.mdl_block_community (
 );
 
 
-ALTER TABLE public.mdl_block_community OWNER TO moodle;
+ALTER TABLE public.mdl_block_community OWNER TO sister;
 
 --
 -- Name: TABLE mdl_block_community; Type: COMMENT; Schema: public; Owner: sister
@@ -2495,7 +2495,7 @@ CREATE SEQUENCE public.mdl_block_community_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_community_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_block_community_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_block_community_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2516,7 +2516,7 @@ CREATE SEQUENCE public.mdl_block_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_block_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_block_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2545,7 +2545,7 @@ CREATE TABLE public.mdl_block_instances (
 );
 
 
-ALTER TABLE public.mdl_block_instances OWNER TO moodle;
+ALTER TABLE public.mdl_block_instances OWNER TO sister;
 
 --
 -- Name: TABLE mdl_block_instances; Type: COMMENT; Schema: public; Owner: sister
@@ -2566,7 +2566,7 @@ CREATE SEQUENCE public.mdl_block_instances_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_instances_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_block_instances_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_block_instances_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2591,7 +2591,7 @@ CREATE TABLE public.mdl_block_positions (
 );
 
 
-ALTER TABLE public.mdl_block_positions OWNER TO moodle;
+ALTER TABLE public.mdl_block_positions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_block_positions; Type: COMMENT; Schema: public; Owner: sister
@@ -2612,7 +2612,7 @@ CREATE SEQUENCE public.mdl_block_positions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_positions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_block_positions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_block_positions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2636,7 +2636,7 @@ CREATE TABLE public.mdl_block_recent_activity (
 );
 
 
-ALTER TABLE public.mdl_block_recent_activity OWNER TO moodle;
+ALTER TABLE public.mdl_block_recent_activity OWNER TO sister;
 
 --
 -- Name: TABLE mdl_block_recent_activity; Type: COMMENT; Schema: public; Owner: sister
@@ -2657,7 +2657,7 @@ CREATE SEQUENCE public.mdl_block_recent_activity_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_recent_activity_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_block_recent_activity_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_block_recent_activity_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2679,7 +2679,7 @@ CREATE TABLE public.mdl_block_recentlyaccesseditems (
 );
 
 
-ALTER TABLE public.mdl_block_recentlyaccesseditems OWNER TO moodle;
+ALTER TABLE public.mdl_block_recentlyaccesseditems OWNER TO sister;
 
 --
 -- Name: TABLE mdl_block_recentlyaccesseditems; Type: COMMENT; Schema: public; Owner: sister
@@ -2700,7 +2700,7 @@ CREATE SEQUENCE public.mdl_block_recentlyaccesseditems_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_recentlyaccesseditems_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_block_recentlyaccesseditems_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_block_recentlyaccesseditems_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2726,7 +2726,7 @@ CREATE TABLE public.mdl_block_rss_client (
 );
 
 
-ALTER TABLE public.mdl_block_rss_client OWNER TO moodle;
+ALTER TABLE public.mdl_block_rss_client OWNER TO sister;
 
 --
 -- Name: TABLE mdl_block_rss_client; Type: COMMENT; Schema: public; Owner: sister
@@ -2747,7 +2747,7 @@ CREATE SEQUENCE public.mdl_block_rss_client_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_rss_client_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_block_rss_client_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_block_rss_client_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2767,7 +2767,7 @@ CREATE TABLE public.mdl_blog_association (
 );
 
 
-ALTER TABLE public.mdl_blog_association OWNER TO moodle;
+ALTER TABLE public.mdl_blog_association OWNER TO sister;
 
 --
 -- Name: TABLE mdl_blog_association; Type: COMMENT; Schema: public; Owner: sister
@@ -2788,7 +2788,7 @@ CREATE SEQUENCE public.mdl_blog_association_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_blog_association_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_blog_association_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_blog_association_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2814,7 +2814,7 @@ CREATE TABLE public.mdl_blog_external (
 );
 
 
-ALTER TABLE public.mdl_blog_external OWNER TO moodle;
+ALTER TABLE public.mdl_blog_external OWNER TO sister;
 
 --
 -- Name: TABLE mdl_blog_external; Type: COMMENT; Schema: public; Owner: sister
@@ -2835,7 +2835,7 @@ CREATE SEQUENCE public.mdl_blog_external_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_blog_external_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_blog_external_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_blog_external_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2863,7 +2863,7 @@ CREATE TABLE public.mdl_book (
 );
 
 
-ALTER TABLE public.mdl_book OWNER TO moodle;
+ALTER TABLE public.mdl_book OWNER TO sister;
 
 --
 -- Name: TABLE mdl_book; Type: COMMENT; Schema: public; Owner: sister
@@ -2891,7 +2891,7 @@ CREATE TABLE public.mdl_book_chapters (
 );
 
 
-ALTER TABLE public.mdl_book_chapters OWNER TO moodle;
+ALTER TABLE public.mdl_book_chapters OWNER TO sister;
 
 --
 -- Name: TABLE mdl_book_chapters; Type: COMMENT; Schema: public; Owner: sister
@@ -2912,7 +2912,7 @@ CREATE SEQUENCE public.mdl_book_chapters_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_book_chapters_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_book_chapters_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_book_chapters_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2933,7 +2933,7 @@ CREATE SEQUENCE public.mdl_book_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_book_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_book_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_book_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2956,7 +2956,7 @@ CREATE TABLE public.mdl_cache_filters (
 );
 
 
-ALTER TABLE public.mdl_cache_filters OWNER TO moodle;
+ALTER TABLE public.mdl_cache_filters OWNER TO sister;
 
 --
 -- Name: TABLE mdl_cache_filters; Type: COMMENT; Schema: public; Owner: sister
@@ -2977,7 +2977,7 @@ CREATE SEQUENCE public.mdl_cache_filters_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_cache_filters_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_cache_filters_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_cache_filters_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3000,7 +3000,7 @@ CREATE TABLE public.mdl_cache_flags (
 );
 
 
-ALTER TABLE public.mdl_cache_flags OWNER TO moodle;
+ALTER TABLE public.mdl_cache_flags OWNER TO sister;
 
 --
 -- Name: TABLE mdl_cache_flags; Type: COMMENT; Schema: public; Owner: sister
@@ -3021,7 +3021,7 @@ CREATE SEQUENCE public.mdl_cache_flags_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_cache_flags_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_cache_flags_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_cache_flags_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3044,7 +3044,7 @@ CREATE TABLE public.mdl_capabilities (
 );
 
 
-ALTER TABLE public.mdl_capabilities OWNER TO moodle;
+ALTER TABLE public.mdl_capabilities OWNER TO sister;
 
 --
 -- Name: TABLE mdl_capabilities; Type: COMMENT; Schema: public; Owner: sister
@@ -3065,7 +3065,7 @@ CREATE SEQUENCE public.mdl_capabilities_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_capabilities_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_capabilities_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_capabilities_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3092,7 +3092,7 @@ CREATE TABLE public.mdl_chat (
 );
 
 
-ALTER TABLE public.mdl_chat OWNER TO moodle;
+ALTER TABLE public.mdl_chat OWNER TO sister;
 
 --
 -- Name: TABLE mdl_chat; Type: COMMENT; Schema: public; Owner: sister
@@ -3113,7 +3113,7 @@ CREATE SEQUENCE public.mdl_chat_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_chat_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_chat_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_chat_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3137,7 +3137,7 @@ CREATE TABLE public.mdl_chat_messages (
 );
 
 
-ALTER TABLE public.mdl_chat_messages OWNER TO moodle;
+ALTER TABLE public.mdl_chat_messages OWNER TO sister;
 
 --
 -- Name: TABLE mdl_chat_messages; Type: COMMENT; Schema: public; Owner: sister
@@ -3161,7 +3161,7 @@ CREATE TABLE public.mdl_chat_messages_current (
 );
 
 
-ALTER TABLE public.mdl_chat_messages_current OWNER TO moodle;
+ALTER TABLE public.mdl_chat_messages_current OWNER TO sister;
 
 --
 -- Name: TABLE mdl_chat_messages_current; Type: COMMENT; Schema: public; Owner: sister
@@ -3182,7 +3182,7 @@ CREATE SEQUENCE public.mdl_chat_messages_current_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_chat_messages_current_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_chat_messages_current_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_chat_messages_current_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3203,7 +3203,7 @@ CREATE SEQUENCE public.mdl_chat_messages_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_chat_messages_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_chat_messages_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_chat_messages_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3232,7 +3232,7 @@ CREATE TABLE public.mdl_chat_users (
 );
 
 
-ALTER TABLE public.mdl_chat_users OWNER TO moodle;
+ALTER TABLE public.mdl_chat_users OWNER TO sister;
 
 --
 -- Name: TABLE mdl_chat_users; Type: COMMENT; Schema: public; Owner: sister
@@ -3253,7 +3253,7 @@ CREATE SEQUENCE public.mdl_chat_users_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_chat_users_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_chat_users_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_chat_users_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3288,7 +3288,7 @@ CREATE TABLE public.mdl_choice (
 );
 
 
-ALTER TABLE public.mdl_choice OWNER TO moodle;
+ALTER TABLE public.mdl_choice OWNER TO sister;
 
 --
 -- Name: TABLE mdl_choice; Type: COMMENT; Schema: public; Owner: sister
@@ -3310,7 +3310,7 @@ CREATE TABLE public.mdl_choice_answers (
 );
 
 
-ALTER TABLE public.mdl_choice_answers OWNER TO moodle;
+ALTER TABLE public.mdl_choice_answers OWNER TO sister;
 
 --
 -- Name: TABLE mdl_choice_answers; Type: COMMENT; Schema: public; Owner: sister
@@ -3331,7 +3331,7 @@ CREATE SEQUENCE public.mdl_choice_answers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_choice_answers_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_choice_answers_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_choice_answers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3352,7 +3352,7 @@ CREATE SEQUENCE public.mdl_choice_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_choice_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_choice_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_choice_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3374,7 +3374,7 @@ CREATE TABLE public.mdl_choice_options (
 );
 
 
-ALTER TABLE public.mdl_choice_options OWNER TO moodle;
+ALTER TABLE public.mdl_choice_options OWNER TO sister;
 
 --
 -- Name: TABLE mdl_choice_options; Type: COMMENT; Schema: public; Owner: sister
@@ -3395,7 +3395,7 @@ CREATE SEQUENCE public.mdl_choice_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_choice_options_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_choice_options_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_choice_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3423,7 +3423,7 @@ CREATE TABLE public.mdl_cohort (
 );
 
 
-ALTER TABLE public.mdl_cohort OWNER TO moodle;
+ALTER TABLE public.mdl_cohort OWNER TO sister;
 
 --
 -- Name: TABLE mdl_cohort; Type: COMMENT; Schema: public; Owner: sister
@@ -3444,7 +3444,7 @@ CREATE SEQUENCE public.mdl_cohort_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_cohort_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_cohort_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_cohort_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3465,7 +3465,7 @@ CREATE TABLE public.mdl_cohort_members (
 );
 
 
-ALTER TABLE public.mdl_cohort_members OWNER TO moodle;
+ALTER TABLE public.mdl_cohort_members OWNER TO sister;
 
 --
 -- Name: TABLE mdl_cohort_members; Type: COMMENT; Schema: public; Owner: sister
@@ -3486,7 +3486,7 @@ CREATE SEQUENCE public.mdl_cohort_members_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_cohort_members_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_cohort_members_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_cohort_members_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3512,7 +3512,7 @@ CREATE TABLE public.mdl_comments (
 );
 
 
-ALTER TABLE public.mdl_comments OWNER TO moodle;
+ALTER TABLE public.mdl_comments OWNER TO sister;
 
 --
 -- Name: TABLE mdl_comments; Type: COMMENT; Schema: public; Owner: sister
@@ -3533,7 +3533,7 @@ CREATE SEQUENCE public.mdl_comments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_comments_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_comments_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_comments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3567,7 +3567,7 @@ CREATE TABLE public.mdl_competency (
 );
 
 
-ALTER TABLE public.mdl_competency OWNER TO moodle;
+ALTER TABLE public.mdl_competency OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency; Type: COMMENT; Schema: public; Owner: sister
@@ -3592,7 +3592,7 @@ CREATE TABLE public.mdl_competency_coursecomp (
 );
 
 
-ALTER TABLE public.mdl_competency_coursecomp OWNER TO moodle;
+ALTER TABLE public.mdl_competency_coursecomp OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_coursecomp; Type: COMMENT; Schema: public; Owner: sister
@@ -3613,7 +3613,7 @@ CREATE SEQUENCE public.mdl_competency_coursecomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_coursecomp_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_coursecomp_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_coursecomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3636,7 +3636,7 @@ CREATE TABLE public.mdl_competency_coursecompsetting (
 );
 
 
-ALTER TABLE public.mdl_competency_coursecompsetting OWNER TO moodle;
+ALTER TABLE public.mdl_competency_coursecompsetting OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_coursecompsetting; Type: COMMENT; Schema: public; Owner: sister
@@ -3657,7 +3657,7 @@ CREATE SEQUENCE public.mdl_competency_coursecompsetting_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_coursecompsetting_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_coursecompsetting_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_coursecompsetting_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3688,7 +3688,7 @@ CREATE TABLE public.mdl_competency_evidence (
 );
 
 
-ALTER TABLE public.mdl_competency_evidence OWNER TO moodle;
+ALTER TABLE public.mdl_competency_evidence OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_evidence; Type: COMMENT; Schema: public; Owner: sister
@@ -3709,7 +3709,7 @@ CREATE SEQUENCE public.mdl_competency_evidence_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_evidence_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_evidence_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_evidence_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3739,7 +3739,7 @@ CREATE TABLE public.mdl_competency_framework (
 );
 
 
-ALTER TABLE public.mdl_competency_framework OWNER TO moodle;
+ALTER TABLE public.mdl_competency_framework OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_framework; Type: COMMENT; Schema: public; Owner: sister
@@ -3760,7 +3760,7 @@ CREATE SEQUENCE public.mdl_competency_framework_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_framework_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_framework_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_framework_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3781,7 +3781,7 @@ CREATE SEQUENCE public.mdl_competency_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3806,7 +3806,7 @@ CREATE TABLE public.mdl_competency_modulecomp (
 );
 
 
-ALTER TABLE public.mdl_competency_modulecomp OWNER TO moodle;
+ALTER TABLE public.mdl_competency_modulecomp OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_modulecomp; Type: COMMENT; Schema: public; Owner: sister
@@ -3827,7 +3827,7 @@ CREATE SEQUENCE public.mdl_competency_modulecomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_modulecomp_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_modulecomp_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_modulecomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3857,7 +3857,7 @@ CREATE TABLE public.mdl_competency_plan (
 );
 
 
-ALTER TABLE public.mdl_competency_plan OWNER TO moodle;
+ALTER TABLE public.mdl_competency_plan OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_plan; Type: COMMENT; Schema: public; Owner: sister
@@ -3878,7 +3878,7 @@ CREATE SEQUENCE public.mdl_competency_plan_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_plan_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_plan_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_plan_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3902,7 +3902,7 @@ CREATE TABLE public.mdl_competency_plancomp (
 );
 
 
-ALTER TABLE public.mdl_competency_plancomp OWNER TO moodle;
+ALTER TABLE public.mdl_competency_plancomp OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_plancomp; Type: COMMENT; Schema: public; Owner: sister
@@ -3923,7 +3923,7 @@ CREATE SEQUENCE public.mdl_competency_plancomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_plancomp_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_plancomp_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_plancomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3946,7 +3946,7 @@ CREATE TABLE public.mdl_competency_relatedcomp (
 );
 
 
-ALTER TABLE public.mdl_competency_relatedcomp OWNER TO moodle;
+ALTER TABLE public.mdl_competency_relatedcomp OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_relatedcomp; Type: COMMENT; Schema: public; Owner: sister
@@ -3967,7 +3967,7 @@ CREATE SEQUENCE public.mdl_competency_relatedcomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_relatedcomp_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_relatedcomp_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_relatedcomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3994,7 +3994,7 @@ CREATE TABLE public.mdl_competency_template (
 );
 
 
-ALTER TABLE public.mdl_competency_template OWNER TO moodle;
+ALTER TABLE public.mdl_competency_template OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_template; Type: COMMENT; Schema: public; Owner: sister
@@ -4015,7 +4015,7 @@ CREATE SEQUENCE public.mdl_competency_template_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_template_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_template_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_template_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4038,7 +4038,7 @@ CREATE TABLE public.mdl_competency_templatecohort (
 );
 
 
-ALTER TABLE public.mdl_competency_templatecohort OWNER TO moodle;
+ALTER TABLE public.mdl_competency_templatecohort OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_templatecohort; Type: COMMENT; Schema: public; Owner: sister
@@ -4059,7 +4059,7 @@ CREATE SEQUENCE public.mdl_competency_templatecohort_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_templatecohort_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_templatecohort_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_templatecohort_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4083,7 +4083,7 @@ CREATE TABLE public.mdl_competency_templatecomp (
 );
 
 
-ALTER TABLE public.mdl_competency_templatecomp OWNER TO moodle;
+ALTER TABLE public.mdl_competency_templatecomp OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_templatecomp; Type: COMMENT; Schema: public; Owner: sister
@@ -4104,7 +4104,7 @@ CREATE SEQUENCE public.mdl_competency_templatecomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_templatecomp_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_templatecomp_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_templatecomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4131,7 +4131,7 @@ CREATE TABLE public.mdl_competency_usercomp (
 );
 
 
-ALTER TABLE public.mdl_competency_usercomp OWNER TO moodle;
+ALTER TABLE public.mdl_competency_usercomp OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_usercomp; Type: COMMENT; Schema: public; Owner: sister
@@ -4152,7 +4152,7 @@ CREATE SEQUENCE public.mdl_competency_usercomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_usercomp_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_usercomp_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_usercomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4178,7 +4178,7 @@ CREATE TABLE public.mdl_competency_usercompcourse (
 );
 
 
-ALTER TABLE public.mdl_competency_usercompcourse OWNER TO moodle;
+ALTER TABLE public.mdl_competency_usercompcourse OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_usercompcourse; Type: COMMENT; Schema: public; Owner: sister
@@ -4199,7 +4199,7 @@ CREATE SEQUENCE public.mdl_competency_usercompcourse_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_usercompcourse_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_usercompcourse_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_usercompcourse_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4226,7 +4226,7 @@ CREATE TABLE public.mdl_competency_usercompplan (
 );
 
 
-ALTER TABLE public.mdl_competency_usercompplan OWNER TO moodle;
+ALTER TABLE public.mdl_competency_usercompplan OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_usercompplan; Type: COMMENT; Schema: public; Owner: sister
@@ -4247,7 +4247,7 @@ CREATE SEQUENCE public.mdl_competency_usercompplan_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_usercompplan_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_usercompplan_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_usercompplan_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4273,7 +4273,7 @@ CREATE TABLE public.mdl_competency_userevidence (
 );
 
 
-ALTER TABLE public.mdl_competency_userevidence OWNER TO moodle;
+ALTER TABLE public.mdl_competency_userevidence OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_userevidence; Type: COMMENT; Schema: public; Owner: sister
@@ -4294,7 +4294,7 @@ CREATE SEQUENCE public.mdl_competency_userevidence_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_userevidence_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_userevidence_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_userevidence_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4317,7 +4317,7 @@ CREATE TABLE public.mdl_competency_userevidencecomp (
 );
 
 
-ALTER TABLE public.mdl_competency_userevidencecomp OWNER TO moodle;
+ALTER TABLE public.mdl_competency_userevidencecomp OWNER TO sister;
 
 --
 -- Name: TABLE mdl_competency_userevidencecomp; Type: COMMENT; Schema: public; Owner: sister
@@ -4338,7 +4338,7 @@ CREATE SEQUENCE public.mdl_competency_userevidencecomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_userevidencecomp_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_competency_userevidencecomp_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_competency_userevidencecomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4358,7 +4358,7 @@ CREATE TABLE public.mdl_config (
 );
 
 
-ALTER TABLE public.mdl_config OWNER TO moodle;
+ALTER TABLE public.mdl_config OWNER TO sister;
 
 --
 -- Name: TABLE mdl_config; Type: COMMENT; Schema: public; Owner: sister
@@ -4379,7 +4379,7 @@ CREATE SEQUENCE public.mdl_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_config_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_config_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4403,7 +4403,7 @@ CREATE TABLE public.mdl_config_log (
 );
 
 
-ALTER TABLE public.mdl_config_log OWNER TO moodle;
+ALTER TABLE public.mdl_config_log OWNER TO sister;
 
 --
 -- Name: TABLE mdl_config_log; Type: COMMENT; Schema: public; Owner: sister
@@ -4424,7 +4424,7 @@ CREATE SEQUENCE public.mdl_config_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_config_log_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_config_log_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_config_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4445,7 +4445,7 @@ CREATE TABLE public.mdl_config_plugins (
 );
 
 
-ALTER TABLE public.mdl_config_plugins OWNER TO moodle;
+ALTER TABLE public.mdl_config_plugins OWNER TO sister;
 
 --
 -- Name: TABLE mdl_config_plugins; Type: COMMENT; Schema: public; Owner: sister
@@ -4466,7 +4466,7 @@ CREATE SEQUENCE public.mdl_config_plugins_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_config_plugins_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_config_plugins_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_config_plugins_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4489,7 +4489,7 @@ CREATE TABLE public.mdl_context (
 );
 
 
-ALTER TABLE public.mdl_context OWNER TO moodle;
+ALTER TABLE public.mdl_context OWNER TO sister;
 
 --
 -- Name: TABLE mdl_context; Type: COMMENT; Schema: public; Owner: sister
@@ -4510,7 +4510,7 @@ CREATE SEQUENCE public.mdl_context_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_context_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_context_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_context_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4531,7 +4531,7 @@ CREATE TABLE public.mdl_context_temp (
 );
 
 
-ALTER TABLE public.mdl_context_temp OWNER TO moodle;
+ALTER TABLE public.mdl_context_temp OWNER TO sister;
 
 --
 -- Name: TABLE mdl_context_temp; Type: COMMENT; Schema: public; Owner: sister
@@ -4579,7 +4579,7 @@ CREATE TABLE public.mdl_course (
 );
 
 
-ALTER TABLE public.mdl_course OWNER TO moodle;
+ALTER TABLE public.mdl_course OWNER TO sister;
 
 --
 -- Name: TABLE mdl_course; Type: COMMENT; Schema: public; Owner: sister
@@ -4610,7 +4610,7 @@ CREATE TABLE public.mdl_course_categories (
 );
 
 
-ALTER TABLE public.mdl_course_categories OWNER TO moodle;
+ALTER TABLE public.mdl_course_categories OWNER TO sister;
 
 --
 -- Name: TABLE mdl_course_categories; Type: COMMENT; Schema: public; Owner: sister
@@ -4631,7 +4631,7 @@ CREATE SEQUENCE public.mdl_course_categories_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_categories_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_course_categories_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_course_categories_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4653,7 +4653,7 @@ CREATE TABLE public.mdl_course_completion_aggr_methd (
 );
 
 
-ALTER TABLE public.mdl_course_completion_aggr_methd OWNER TO moodle;
+ALTER TABLE public.mdl_course_completion_aggr_methd OWNER TO sister;
 
 --
 -- Name: TABLE mdl_course_completion_aggr_methd; Type: COMMENT; Schema: public; Owner: sister
@@ -4674,7 +4674,7 @@ CREATE SEQUENCE public.mdl_course_completion_aggr_methd_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_completion_aggr_methd_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_course_completion_aggr_methd_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_course_completion_aggr_methd_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4698,7 +4698,7 @@ CREATE TABLE public.mdl_course_completion_crit_compl (
 );
 
 
-ALTER TABLE public.mdl_course_completion_crit_compl OWNER TO moodle;
+ALTER TABLE public.mdl_course_completion_crit_compl OWNER TO sister;
 
 --
 -- Name: TABLE mdl_course_completion_crit_compl; Type: COMMENT; Schema: public; Owner: sister
@@ -4719,7 +4719,7 @@ CREATE SEQUENCE public.mdl_course_completion_crit_compl_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_completion_crit_compl_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_course_completion_crit_compl_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_course_completion_crit_compl_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4746,7 +4746,7 @@ CREATE TABLE public.mdl_course_completion_criteria (
 );
 
 
-ALTER TABLE public.mdl_course_completion_criteria OWNER TO moodle;
+ALTER TABLE public.mdl_course_completion_criteria OWNER TO sister;
 
 --
 -- Name: TABLE mdl_course_completion_criteria; Type: COMMENT; Schema: public; Owner: sister
@@ -4767,7 +4767,7 @@ CREATE SEQUENCE public.mdl_course_completion_criteria_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_completion_criteria_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_course_completion_criteria_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_course_completion_criteria_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4792,7 +4792,7 @@ CREATE TABLE public.mdl_course_completion_defaults (
 );
 
 
-ALTER TABLE public.mdl_course_completion_defaults OWNER TO moodle;
+ALTER TABLE public.mdl_course_completion_defaults OWNER TO sister;
 
 --
 -- Name: TABLE mdl_course_completion_defaults; Type: COMMENT; Schema: public; Owner: sister
@@ -4813,7 +4813,7 @@ CREATE SEQUENCE public.mdl_course_completion_defaults_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_completion_defaults_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_course_completion_defaults_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_course_completion_defaults_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4837,7 +4837,7 @@ CREATE TABLE public.mdl_course_completions (
 );
 
 
-ALTER TABLE public.mdl_course_completions OWNER TO moodle;
+ALTER TABLE public.mdl_course_completions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_course_completions; Type: COMMENT; Schema: public; Owner: sister
@@ -4858,7 +4858,7 @@ CREATE SEQUENCE public.mdl_course_completions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_completions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_course_completions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_course_completions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4881,7 +4881,7 @@ CREATE TABLE public.mdl_course_format_options (
 );
 
 
-ALTER TABLE public.mdl_course_format_options OWNER TO moodle;
+ALTER TABLE public.mdl_course_format_options OWNER TO sister;
 
 --
 -- Name: TABLE mdl_course_format_options; Type: COMMENT; Schema: public; Owner: sister
@@ -4902,7 +4902,7 @@ CREATE SEQUENCE public.mdl_course_format_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_format_options_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_course_format_options_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_course_format_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4923,7 +4923,7 @@ CREATE SEQUENCE public.mdl_course_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_course_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_course_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4961,7 +4961,7 @@ CREATE TABLE public.mdl_course_modules (
 );
 
 
-ALTER TABLE public.mdl_course_modules OWNER TO moodle;
+ALTER TABLE public.mdl_course_modules OWNER TO sister;
 
 --
 -- Name: TABLE mdl_course_modules; Type: COMMENT; Schema: public; Owner: sister
@@ -4985,7 +4985,7 @@ CREATE TABLE public.mdl_course_modules_completion (
 );
 
 
-ALTER TABLE public.mdl_course_modules_completion OWNER TO moodle;
+ALTER TABLE public.mdl_course_modules_completion OWNER TO sister;
 
 --
 -- Name: TABLE mdl_course_modules_completion; Type: COMMENT; Schema: public; Owner: sister
@@ -5006,7 +5006,7 @@ CREATE SEQUENCE public.mdl_course_modules_completion_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_modules_completion_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_course_modules_completion_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_course_modules_completion_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5027,7 +5027,7 @@ CREATE SEQUENCE public.mdl_course_modules_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_modules_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_course_modules_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_course_modules_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5052,7 +5052,7 @@ CREATE TABLE public.mdl_course_published (
 );
 
 
-ALTER TABLE public.mdl_course_published OWNER TO moodle;
+ALTER TABLE public.mdl_course_published OWNER TO sister;
 
 --
 -- Name: TABLE mdl_course_published; Type: COMMENT; Schema: public; Owner: sister
@@ -5073,7 +5073,7 @@ CREATE SEQUENCE public.mdl_course_published_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_published_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_course_published_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_course_published_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5099,7 +5099,7 @@ CREATE TABLE public.mdl_course_request (
 );
 
 
-ALTER TABLE public.mdl_course_request OWNER TO moodle;
+ALTER TABLE public.mdl_course_request OWNER TO sister;
 
 --
 -- Name: TABLE mdl_course_request; Type: COMMENT; Schema: public; Owner: sister
@@ -5120,7 +5120,7 @@ CREATE SEQUENCE public.mdl_course_request_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_request_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_course_request_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_course_request_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5147,7 +5147,7 @@ CREATE TABLE public.mdl_course_sections (
 );
 
 
-ALTER TABLE public.mdl_course_sections OWNER TO moodle;
+ALTER TABLE public.mdl_course_sections OWNER TO sister;
 
 --
 -- Name: TABLE mdl_course_sections; Type: COMMENT; Schema: public; Owner: sister
@@ -5168,7 +5168,7 @@ CREATE SEQUENCE public.mdl_course_sections_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_sections_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_course_sections_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_course_sections_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5222,7 +5222,7 @@ CREATE TABLE public.mdl_data (
 );
 
 
-ALTER TABLE public.mdl_data OWNER TO moodle;
+ALTER TABLE public.mdl_data OWNER TO sister;
 
 --
 -- Name: TABLE mdl_data; Type: COMMENT; Schema: public; Owner: sister
@@ -5247,7 +5247,7 @@ CREATE TABLE public.mdl_data_content (
 );
 
 
-ALTER TABLE public.mdl_data_content OWNER TO moodle;
+ALTER TABLE public.mdl_data_content OWNER TO sister;
 
 --
 -- Name: TABLE mdl_data_content; Type: COMMENT; Schema: public; Owner: sister
@@ -5268,7 +5268,7 @@ CREATE SEQUENCE public.mdl_data_content_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_data_content_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_data_content_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_data_content_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5301,7 +5301,7 @@ CREATE TABLE public.mdl_data_fields (
 );
 
 
-ALTER TABLE public.mdl_data_fields OWNER TO moodle;
+ALTER TABLE public.mdl_data_fields OWNER TO sister;
 
 --
 -- Name: TABLE mdl_data_fields; Type: COMMENT; Schema: public; Owner: sister
@@ -5322,7 +5322,7 @@ CREATE SEQUENCE public.mdl_data_fields_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_data_fields_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_data_fields_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_data_fields_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5343,7 +5343,7 @@ CREATE SEQUENCE public.mdl_data_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_data_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_data_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_data_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5367,7 +5367,7 @@ CREATE TABLE public.mdl_data_records (
 );
 
 
-ALTER TABLE public.mdl_data_records OWNER TO moodle;
+ALTER TABLE public.mdl_data_records OWNER TO sister;
 
 --
 -- Name: TABLE mdl_data_records; Type: COMMENT; Schema: public; Owner: sister
@@ -5388,7 +5388,7 @@ CREATE SEQUENCE public.mdl_data_records_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_data_records_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_data_records_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_data_records_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5414,7 +5414,7 @@ CREATE TABLE public.mdl_editor_atto_autosave (
 );
 
 
-ALTER TABLE public.mdl_editor_atto_autosave OWNER TO moodle;
+ALTER TABLE public.mdl_editor_atto_autosave OWNER TO sister;
 
 --
 -- Name: TABLE mdl_editor_atto_autosave; Type: COMMENT; Schema: public; Owner: sister
@@ -5435,7 +5435,7 @@ CREATE SEQUENCE public.mdl_editor_atto_autosave_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_editor_atto_autosave_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_editor_atto_autosave_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_editor_atto_autosave_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5487,7 +5487,7 @@ CREATE TABLE public.mdl_enrol (
 );
 
 
-ALTER TABLE public.mdl_enrol OWNER TO moodle;
+ALTER TABLE public.mdl_enrol OWNER TO sister;
 
 --
 -- Name: TABLE mdl_enrol; Type: COMMENT; Schema: public; Owner: sister
@@ -5512,7 +5512,7 @@ CREATE TABLE public.mdl_enrol_flatfile (
 );
 
 
-ALTER TABLE public.mdl_enrol_flatfile OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_flatfile OWNER TO sister;
 
 --
 -- Name: TABLE mdl_enrol_flatfile; Type: COMMENT; Schema: public; Owner: sister
@@ -5533,7 +5533,7 @@ CREATE SEQUENCE public.mdl_enrol_flatfile_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_flatfile_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_flatfile_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_enrol_flatfile_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5554,7 +5554,7 @@ CREATE SEQUENCE public.mdl_enrol_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_enrol_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5590,7 +5590,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_consumer (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_consumer OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_consumer OWNER TO sister;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_consumer; Type: COMMENT; Schema: public; Owner: sister
@@ -5611,7 +5611,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_consumer_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_consumer_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_consumer_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_enrol_lti_lti2_consumer_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5635,7 +5635,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_context (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_context OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_context OWNER TO sister;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_context; Type: COMMENT; Schema: public; Owner: sister
@@ -5656,7 +5656,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_context_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_context_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_context_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_enrol_lti_lti2_context_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5677,7 +5677,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_nonce (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_nonce OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_nonce OWNER TO sister;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_nonce; Type: COMMENT; Schema: public; Owner: sister
@@ -5698,7 +5698,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_nonce_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_nonce_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_nonce_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_enrol_lti_lti2_nonce_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5724,7 +5724,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_resource_link (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_resource_link OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_resource_link OWNER TO sister;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_resource_link; Type: COMMENT; Schema: public; Owner: sister
@@ -5745,7 +5745,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_resource_link_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_resource_link_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_resource_link_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_enrol_lti_lti2_resource_link_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5767,7 +5767,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_share_key (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_share_key OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_share_key OWNER TO sister;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_share_key; Type: COMMENT; Schema: public; Owner: sister
@@ -5788,7 +5788,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_share_key_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_share_key_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_share_key_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_enrol_lti_lti2_share_key_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5811,7 +5811,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_tool_proxy (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_tool_proxy OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_tool_proxy OWNER TO sister;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_tool_proxy; Type: COMMENT; Schema: public; Owner: sister
@@ -5832,7 +5832,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_tool_proxy_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_tool_proxy_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_tool_proxy_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_enrol_lti_lti2_tool_proxy_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5855,7 +5855,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_user_result (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_user_result OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_user_result OWNER TO sister;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_user_result; Type: COMMENT; Schema: public; Owner: sister
@@ -5876,7 +5876,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_user_result_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_user_result_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_lti2_user_result_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_enrol_lti_lti2_user_result_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5896,7 +5896,7 @@ CREATE TABLE public.mdl_enrol_lti_tool_consumer_map (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_tool_consumer_map OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_tool_consumer_map OWNER TO sister;
 
 --
 -- Name: TABLE mdl_enrol_lti_tool_consumer_map; Type: COMMENT; Schema: public; Owner: sister
@@ -5917,7 +5917,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_tool_consumer_map_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_tool_consumer_map_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_tool_consumer_map_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_enrol_lti_tool_consumer_map_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5953,7 +5953,7 @@ CREATE TABLE public.mdl_enrol_lti_tools (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_tools OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_tools OWNER TO sister;
 
 --
 -- Name: TABLE mdl_enrol_lti_tools; Type: COMMENT; Schema: public; Owner: sister
@@ -5974,7 +5974,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_tools_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_tools_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_tools_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_enrol_lti_tools_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6003,7 +6003,7 @@ CREATE TABLE public.mdl_enrol_lti_users (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_users OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_users OWNER TO sister;
 
 --
 -- Name: TABLE mdl_enrol_lti_users; Type: COMMENT; Schema: public; Owner: sister
@@ -6024,7 +6024,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_users_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_users_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_lti_users_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_enrol_lti_users_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6062,7 +6062,7 @@ CREATE TABLE public.mdl_enrol_paypal (
 );
 
 
-ALTER TABLE public.mdl_enrol_paypal OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_paypal OWNER TO sister;
 
 --
 -- Name: TABLE mdl_enrol_paypal; Type: COMMENT; Schema: public; Owner: sister
@@ -6083,7 +6083,7 @@ CREATE SEQUENCE public.mdl_enrol_paypal_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_paypal_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_enrol_paypal_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_enrol_paypal_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6123,7 +6123,7 @@ CREATE TABLE public.mdl_event (
 );
 
 
-ALTER TABLE public.mdl_event OWNER TO moodle;
+ALTER TABLE public.mdl_event OWNER TO sister;
 
 --
 -- Name: TABLE mdl_event; Type: COMMENT; Schema: public; Owner: sister
@@ -6144,7 +6144,7 @@ CREATE SEQUENCE public.mdl_event_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_event_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_event_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_event_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6171,7 +6171,7 @@ CREATE TABLE public.mdl_event_subscriptions (
 );
 
 
-ALTER TABLE public.mdl_event_subscriptions OWNER TO moodle;
+ALTER TABLE public.mdl_event_subscriptions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_event_subscriptions; Type: COMMENT; Schema: public; Owner: sister
@@ -6192,7 +6192,7 @@ CREATE SEQUENCE public.mdl_event_subscriptions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_event_subscriptions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_event_subscriptions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_event_subscriptions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6217,7 +6217,7 @@ CREATE TABLE public.mdl_events_handlers (
 );
 
 
-ALTER TABLE public.mdl_events_handlers OWNER TO moodle;
+ALTER TABLE public.mdl_events_handlers OWNER TO sister;
 
 --
 -- Name: TABLE mdl_events_handlers; Type: COMMENT; Schema: public; Owner: sister
@@ -6238,7 +6238,7 @@ CREATE SEQUENCE public.mdl_events_handlers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_events_handlers_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_events_handlers_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_events_handlers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6260,7 +6260,7 @@ CREATE TABLE public.mdl_events_queue (
 );
 
 
-ALTER TABLE public.mdl_events_queue OWNER TO moodle;
+ALTER TABLE public.mdl_events_queue OWNER TO sister;
 
 --
 -- Name: TABLE mdl_events_queue; Type: COMMENT; Schema: public; Owner: sister
@@ -6283,7 +6283,7 @@ CREATE TABLE public.mdl_events_queue_handlers (
 );
 
 
-ALTER TABLE public.mdl_events_queue_handlers OWNER TO moodle;
+ALTER TABLE public.mdl_events_queue_handlers OWNER TO sister;
 
 --
 -- Name: TABLE mdl_events_queue_handlers; Type: COMMENT; Schema: public; Owner: sister
@@ -6304,7 +6304,7 @@ CREATE SEQUENCE public.mdl_events_queue_handlers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_events_queue_handlers_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_events_queue_handlers_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_events_queue_handlers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6325,7 +6325,7 @@ CREATE SEQUENCE public.mdl_events_queue_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_events_queue_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_events_queue_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_events_queue_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6350,7 +6350,7 @@ CREATE TABLE public.mdl_external_functions (
 );
 
 
-ALTER TABLE public.mdl_external_functions OWNER TO moodle;
+ALTER TABLE public.mdl_external_functions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_external_functions; Type: COMMENT; Schema: public; Owner: sister
@@ -6371,7 +6371,7 @@ CREATE SEQUENCE public.mdl_external_functions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_external_functions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_external_functions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_external_functions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6399,7 +6399,7 @@ CREATE TABLE public.mdl_external_services (
 );
 
 
-ALTER TABLE public.mdl_external_services OWNER TO moodle;
+ALTER TABLE public.mdl_external_services OWNER TO sister;
 
 --
 -- Name: TABLE mdl_external_services; Type: COMMENT; Schema: public; Owner: sister
@@ -6419,7 +6419,7 @@ CREATE TABLE public.mdl_external_services_functions (
 );
 
 
-ALTER TABLE public.mdl_external_services_functions OWNER TO moodle;
+ALTER TABLE public.mdl_external_services_functions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_external_services_functions; Type: COMMENT; Schema: public; Owner: sister
@@ -6440,7 +6440,7 @@ CREATE SEQUENCE public.mdl_external_services_functions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_external_services_functions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_external_services_functions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_external_services_functions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6461,7 +6461,7 @@ CREATE SEQUENCE public.mdl_external_services_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_external_services_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_external_services_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_external_services_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6484,7 +6484,7 @@ CREATE TABLE public.mdl_external_services_users (
 );
 
 
-ALTER TABLE public.mdl_external_services_users OWNER TO moodle;
+ALTER TABLE public.mdl_external_services_users OWNER TO sister;
 
 --
 -- Name: TABLE mdl_external_services_users; Type: COMMENT; Schema: public; Owner: sister
@@ -6505,7 +6505,7 @@ CREATE SEQUENCE public.mdl_external_services_users_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_external_services_users_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_external_services_users_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_external_services_users_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6535,7 +6535,7 @@ CREATE TABLE public.mdl_external_tokens (
 );
 
 
-ALTER TABLE public.mdl_external_tokens OWNER TO moodle;
+ALTER TABLE public.mdl_external_tokens OWNER TO sister;
 
 --
 -- Name: TABLE mdl_external_tokens; Type: COMMENT; Schema: public; Owner: sister
@@ -6556,7 +6556,7 @@ CREATE SEQUENCE public.mdl_external_tokens_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_external_tokens_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_external_tokens_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_external_tokens_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6582,7 +6582,7 @@ CREATE TABLE public.mdl_favourite (
 );
 
 
-ALTER TABLE public.mdl_favourite OWNER TO moodle;
+ALTER TABLE public.mdl_favourite OWNER TO sister;
 
 --
 -- Name: TABLE mdl_favourite; Type: COMMENT; Schema: public; Owner: sister
@@ -6603,7 +6603,7 @@ CREATE SEQUENCE public.mdl_favourite_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_favourite_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_favourite_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_favourite_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6637,7 +6637,7 @@ CREATE TABLE public.mdl_feedback (
 );
 
 
-ALTER TABLE public.mdl_feedback OWNER TO moodle;
+ALTER TABLE public.mdl_feedback OWNER TO sister;
 
 --
 -- Name: TABLE mdl_feedback; Type: COMMENT; Schema: public; Owner: sister
@@ -6661,7 +6661,7 @@ CREATE TABLE public.mdl_feedback_completed (
 );
 
 
-ALTER TABLE public.mdl_feedback_completed OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_completed OWNER TO sister;
 
 --
 -- Name: TABLE mdl_feedback_completed; Type: COMMENT; Schema: public; Owner: sister
@@ -6682,7 +6682,7 @@ CREATE SEQUENCE public.mdl_feedback_completed_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_completed_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_completed_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_feedback_completed_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6707,7 +6707,7 @@ CREATE TABLE public.mdl_feedback_completedtmp (
 );
 
 
-ALTER TABLE public.mdl_feedback_completedtmp OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_completedtmp OWNER TO sister;
 
 --
 -- Name: TABLE mdl_feedback_completedtmp; Type: COMMENT; Schema: public; Owner: sister
@@ -6728,7 +6728,7 @@ CREATE SEQUENCE public.mdl_feedback_completedtmp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_completedtmp_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_completedtmp_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_feedback_completedtmp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6749,7 +6749,7 @@ CREATE SEQUENCE public.mdl_feedback_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_feedback_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6779,7 +6779,7 @@ CREATE TABLE public.mdl_feedback_item (
 );
 
 
-ALTER TABLE public.mdl_feedback_item OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_item OWNER TO sister;
 
 --
 -- Name: TABLE mdl_feedback_item; Type: COMMENT; Schema: public; Owner: sister
@@ -6800,7 +6800,7 @@ CREATE SEQUENCE public.mdl_feedback_item_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_item_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_item_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_feedback_item_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6820,7 +6820,7 @@ CREATE TABLE public.mdl_feedback_sitecourse_map (
 );
 
 
-ALTER TABLE public.mdl_feedback_sitecourse_map OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_sitecourse_map OWNER TO sister;
 
 --
 -- Name: TABLE mdl_feedback_sitecourse_map; Type: COMMENT; Schema: public; Owner: sister
@@ -6841,7 +6841,7 @@ CREATE SEQUENCE public.mdl_feedback_sitecourse_map_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_sitecourse_map_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_sitecourse_map_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_feedback_sitecourse_map_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6862,7 +6862,7 @@ CREATE TABLE public.mdl_feedback_template (
 );
 
 
-ALTER TABLE public.mdl_feedback_template OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_template OWNER TO sister;
 
 --
 -- Name: TABLE mdl_feedback_template; Type: COMMENT; Schema: public; Owner: sister
@@ -6883,7 +6883,7 @@ CREATE SEQUENCE public.mdl_feedback_template_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_template_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_template_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_feedback_template_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6906,7 +6906,7 @@ CREATE TABLE public.mdl_feedback_value (
 );
 
 
-ALTER TABLE public.mdl_feedback_value OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_value OWNER TO sister;
 
 --
 -- Name: TABLE mdl_feedback_value; Type: COMMENT; Schema: public; Owner: sister
@@ -6927,7 +6927,7 @@ CREATE SEQUENCE public.mdl_feedback_value_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_value_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_value_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_feedback_value_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6950,7 +6950,7 @@ CREATE TABLE public.mdl_feedback_valuetmp (
 );
 
 
-ALTER TABLE public.mdl_feedback_valuetmp OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_valuetmp OWNER TO sister;
 
 --
 -- Name: TABLE mdl_feedback_valuetmp; Type: COMMENT; Schema: public; Owner: sister
@@ -6971,7 +6971,7 @@ CREATE SEQUENCE public.mdl_feedback_valuetmp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_valuetmp_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_feedback_valuetmp_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_feedback_valuetmp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6999,7 +6999,7 @@ CREATE TABLE public.mdl_file_conversion (
 );
 
 
-ALTER TABLE public.mdl_file_conversion OWNER TO moodle;
+ALTER TABLE public.mdl_file_conversion OWNER TO sister;
 
 --
 -- Name: TABLE mdl_file_conversion; Type: COMMENT; Schema: public; Owner: sister
@@ -7020,7 +7020,7 @@ CREATE SEQUENCE public.mdl_file_conversion_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_file_conversion_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_file_conversion_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_file_conversion_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7057,7 +7057,7 @@ CREATE TABLE public.mdl_files (
 );
 
 
-ALTER TABLE public.mdl_files OWNER TO moodle;
+ALTER TABLE public.mdl_files OWNER TO sister;
 
 --
 -- Name: TABLE mdl_files; Type: COMMENT; Schema: public; Owner: sister
@@ -7078,7 +7078,7 @@ CREATE SEQUENCE public.mdl_files_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_files_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_files_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_files_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7100,7 +7100,7 @@ CREATE TABLE public.mdl_files_reference (
 );
 
 
-ALTER TABLE public.mdl_files_reference OWNER TO moodle;
+ALTER TABLE public.mdl_files_reference OWNER TO sister;
 
 --
 -- Name: TABLE mdl_files_reference; Type: COMMENT; Schema: public; Owner: sister
@@ -7121,7 +7121,7 @@ CREATE SEQUENCE public.mdl_files_reference_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_files_reference_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_files_reference_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_files_reference_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7143,7 +7143,7 @@ CREATE TABLE public.mdl_filter_active (
 );
 
 
-ALTER TABLE public.mdl_filter_active OWNER TO moodle;
+ALTER TABLE public.mdl_filter_active OWNER TO sister;
 
 --
 -- Name: TABLE mdl_filter_active; Type: COMMENT; Schema: public; Owner: sister
@@ -7164,7 +7164,7 @@ CREATE SEQUENCE public.mdl_filter_active_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_filter_active_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_filter_active_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_filter_active_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7186,7 +7186,7 @@ CREATE TABLE public.mdl_filter_config (
 );
 
 
-ALTER TABLE public.mdl_filter_config OWNER TO moodle;
+ALTER TABLE public.mdl_filter_config OWNER TO sister;
 
 --
 -- Name: TABLE mdl_filter_config; Type: COMMENT; Schema: public; Owner: sister
@@ -7207,7 +7207,7 @@ CREATE SEQUENCE public.mdl_filter_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_filter_config_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_filter_config_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_filter_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7230,7 +7230,7 @@ CREATE TABLE public.mdl_filter_wiris_formulas (
 );
 
 
-ALTER TABLE public.mdl_filter_wiris_formulas OWNER TO moodle;
+ALTER TABLE public.mdl_filter_wiris_formulas OWNER TO sister;
 
 --
 -- Name: TABLE mdl_filter_wiris_formulas; Type: COMMENT; Schema: public; Owner: sister
@@ -7251,7 +7251,7 @@ CREATE SEQUENCE public.mdl_filter_wiris_formulas_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_filter_wiris_formulas_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_filter_wiris_formulas_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_filter_wiris_formulas_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7278,7 +7278,7 @@ CREATE TABLE public.mdl_folder (
 );
 
 
-ALTER TABLE public.mdl_folder OWNER TO moodle;
+ALTER TABLE public.mdl_folder OWNER TO sister;
 
 --
 -- Name: TABLE mdl_folder; Type: COMMENT; Schema: public; Owner: sister
@@ -7299,7 +7299,7 @@ CREATE SEQUENCE public.mdl_folder_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_folder_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_folder_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_folder_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7341,7 +7341,7 @@ CREATE TABLE public.mdl_forum (
 );
 
 
-ALTER TABLE public.mdl_forum OWNER TO moodle;
+ALTER TABLE public.mdl_forum OWNER TO sister;
 
 --
 -- Name: TABLE mdl_forum; Type: COMMENT; Schema: public; Owner: sister
@@ -7362,7 +7362,7 @@ CREATE TABLE public.mdl_forum_digests (
 );
 
 
-ALTER TABLE public.mdl_forum_digests OWNER TO moodle;
+ALTER TABLE public.mdl_forum_digests OWNER TO sister;
 
 --
 -- Name: TABLE mdl_forum_digests; Type: COMMENT; Schema: public; Owner: sister
@@ -7383,7 +7383,7 @@ CREATE SEQUENCE public.mdl_forum_digests_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_digests_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_forum_digests_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_forum_digests_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7405,7 +7405,7 @@ CREATE TABLE public.mdl_forum_discussion_subs (
 );
 
 
-ALTER TABLE public.mdl_forum_discussion_subs OWNER TO moodle;
+ALTER TABLE public.mdl_forum_discussion_subs OWNER TO sister;
 
 --
 -- Name: TABLE mdl_forum_discussion_subs; Type: COMMENT; Schema: public; Owner: sister
@@ -7426,7 +7426,7 @@ CREATE SEQUENCE public.mdl_forum_discussion_subs_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_discussion_subs_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_forum_discussion_subs_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_forum_discussion_subs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7456,7 +7456,7 @@ CREATE TABLE public.mdl_forum_discussions (
 );
 
 
-ALTER TABLE public.mdl_forum_discussions OWNER TO moodle;
+ALTER TABLE public.mdl_forum_discussions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_forum_discussions; Type: COMMENT; Schema: public; Owner: sister
@@ -7477,7 +7477,7 @@ CREATE SEQUENCE public.mdl_forum_discussions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_discussions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_forum_discussions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_forum_discussions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7498,7 +7498,7 @@ CREATE SEQUENCE public.mdl_forum_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_forum_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_forum_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7530,7 +7530,7 @@ CREATE TABLE public.mdl_forum_posts (
 );
 
 
-ALTER TABLE public.mdl_forum_posts OWNER TO moodle;
+ALTER TABLE public.mdl_forum_posts OWNER TO sister;
 
 --
 -- Name: TABLE mdl_forum_posts; Type: COMMENT; Schema: public; Owner: sister
@@ -7551,7 +7551,7 @@ CREATE SEQUENCE public.mdl_forum_posts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_posts_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_forum_posts_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_forum_posts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7573,7 +7573,7 @@ CREATE TABLE public.mdl_forum_queue (
 );
 
 
-ALTER TABLE public.mdl_forum_queue OWNER TO moodle;
+ALTER TABLE public.mdl_forum_queue OWNER TO sister;
 
 --
 -- Name: TABLE mdl_forum_queue; Type: COMMENT; Schema: public; Owner: sister
@@ -7594,7 +7594,7 @@ CREATE SEQUENCE public.mdl_forum_queue_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_queue_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_forum_queue_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_forum_queue_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7618,7 +7618,7 @@ CREATE TABLE public.mdl_forum_read (
 );
 
 
-ALTER TABLE public.mdl_forum_read OWNER TO moodle;
+ALTER TABLE public.mdl_forum_read OWNER TO sister;
 
 --
 -- Name: TABLE mdl_forum_read; Type: COMMENT; Schema: public; Owner: sister
@@ -7639,7 +7639,7 @@ CREATE SEQUENCE public.mdl_forum_read_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_read_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_forum_read_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_forum_read_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7659,7 +7659,7 @@ CREATE TABLE public.mdl_forum_subscriptions (
 );
 
 
-ALTER TABLE public.mdl_forum_subscriptions OWNER TO moodle;
+ALTER TABLE public.mdl_forum_subscriptions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_forum_subscriptions; Type: COMMENT; Schema: public; Owner: sister
@@ -7680,7 +7680,7 @@ CREATE SEQUENCE public.mdl_forum_subscriptions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_subscriptions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_forum_subscriptions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_forum_subscriptions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7700,7 +7700,7 @@ CREATE TABLE public.mdl_forum_track_prefs (
 );
 
 
-ALTER TABLE public.mdl_forum_track_prefs OWNER TO moodle;
+ALTER TABLE public.mdl_forum_track_prefs OWNER TO sister;
 
 --
 -- Name: TABLE mdl_forum_track_prefs; Type: COMMENT; Schema: public; Owner: sister
@@ -7721,7 +7721,7 @@ CREATE SEQUENCE public.mdl_forum_track_prefs_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_track_prefs_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_forum_track_prefs_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_forum_track_prefs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7766,7 +7766,7 @@ CREATE TABLE public.mdl_glossary (
 );
 
 
-ALTER TABLE public.mdl_glossary OWNER TO moodle;
+ALTER TABLE public.mdl_glossary OWNER TO sister;
 
 --
 -- Name: TABLE mdl_glossary; Type: COMMENT; Schema: public; Owner: sister
@@ -7786,7 +7786,7 @@ CREATE TABLE public.mdl_glossary_alias (
 );
 
 
-ALTER TABLE public.mdl_glossary_alias OWNER TO moodle;
+ALTER TABLE public.mdl_glossary_alias OWNER TO sister;
 
 --
 -- Name: TABLE mdl_glossary_alias; Type: COMMENT; Schema: public; Owner: sister
@@ -7807,7 +7807,7 @@ CREATE SEQUENCE public.mdl_glossary_alias_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_glossary_alias_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_glossary_alias_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_glossary_alias_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7828,7 +7828,7 @@ CREATE TABLE public.mdl_glossary_categories (
 );
 
 
-ALTER TABLE public.mdl_glossary_categories OWNER TO moodle;
+ALTER TABLE public.mdl_glossary_categories OWNER TO sister;
 
 --
 -- Name: TABLE mdl_glossary_categories; Type: COMMENT; Schema: public; Owner: sister
@@ -7849,7 +7849,7 @@ CREATE SEQUENCE public.mdl_glossary_categories_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_glossary_categories_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_glossary_categories_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_glossary_categories_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7882,7 +7882,7 @@ CREATE TABLE public.mdl_glossary_entries (
 );
 
 
-ALTER TABLE public.mdl_glossary_entries OWNER TO moodle;
+ALTER TABLE public.mdl_glossary_entries OWNER TO sister;
 
 --
 -- Name: TABLE mdl_glossary_entries; Type: COMMENT; Schema: public; Owner: sister
@@ -7902,7 +7902,7 @@ CREATE TABLE public.mdl_glossary_entries_categories (
 );
 
 
-ALTER TABLE public.mdl_glossary_entries_categories OWNER TO moodle;
+ALTER TABLE public.mdl_glossary_entries_categories OWNER TO sister;
 
 --
 -- Name: TABLE mdl_glossary_entries_categories; Type: COMMENT; Schema: public; Owner: sister
@@ -7923,7 +7923,7 @@ CREATE SEQUENCE public.mdl_glossary_entries_categories_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_glossary_entries_categories_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_glossary_entries_categories_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_glossary_entries_categories_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7944,7 +7944,7 @@ CREATE SEQUENCE public.mdl_glossary_entries_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_glossary_entries_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_glossary_entries_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_glossary_entries_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7971,7 +7971,7 @@ CREATE TABLE public.mdl_glossary_formats (
 );
 
 
-ALTER TABLE public.mdl_glossary_formats OWNER TO moodle;
+ALTER TABLE public.mdl_glossary_formats OWNER TO sister;
 
 --
 -- Name: TABLE mdl_glossary_formats; Type: COMMENT; Schema: public; Owner: sister
@@ -7992,7 +7992,7 @@ CREATE SEQUENCE public.mdl_glossary_formats_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_glossary_formats_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_glossary_formats_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_glossary_formats_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8013,7 +8013,7 @@ CREATE SEQUENCE public.mdl_glossary_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_glossary_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_glossary_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_glossary_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8044,7 +8044,7 @@ CREATE TABLE public.mdl_grade_categories (
 );
 
 
-ALTER TABLE public.mdl_grade_categories OWNER TO moodle;
+ALTER TABLE public.mdl_grade_categories OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grade_categories; Type: COMMENT; Schema: public; Owner: sister
@@ -8079,7 +8079,7 @@ CREATE TABLE public.mdl_grade_categories_history (
 );
 
 
-ALTER TABLE public.mdl_grade_categories_history OWNER TO moodle;
+ALTER TABLE public.mdl_grade_categories_history OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grade_categories_history; Type: COMMENT; Schema: public; Owner: sister
@@ -8100,7 +8100,7 @@ CREATE SEQUENCE public.mdl_grade_categories_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_categories_history_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grade_categories_history_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grade_categories_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8121,7 +8121,7 @@ CREATE SEQUENCE public.mdl_grade_categories_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_categories_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grade_categories_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grade_categories_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8161,7 +8161,7 @@ CREATE TABLE public.mdl_grade_grades (
 );
 
 
-ALTER TABLE public.mdl_grade_grades OWNER TO moodle;
+ALTER TABLE public.mdl_grade_grades OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grade_grades; Type: COMMENT; Schema: public; Owner: sister
@@ -8202,7 +8202,7 @@ CREATE TABLE public.mdl_grade_grades_history (
 );
 
 
-ALTER TABLE public.mdl_grade_grades_history OWNER TO moodle;
+ALTER TABLE public.mdl_grade_grades_history OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grade_grades_history; Type: COMMENT; Schema: public; Owner: sister
@@ -8223,7 +8223,7 @@ CREATE SEQUENCE public.mdl_grade_grades_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_grades_history_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grade_grades_history_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grade_grades_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8244,7 +8244,7 @@ CREATE SEQUENCE public.mdl_grade_grades_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_grades_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grade_grades_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grade_grades_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8265,7 +8265,7 @@ CREATE TABLE public.mdl_grade_import_newitem (
 );
 
 
-ALTER TABLE public.mdl_grade_import_newitem OWNER TO moodle;
+ALTER TABLE public.mdl_grade_import_newitem OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grade_import_newitem; Type: COMMENT; Schema: public; Owner: sister
@@ -8286,7 +8286,7 @@ CREATE SEQUENCE public.mdl_grade_import_newitem_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_import_newitem_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grade_import_newitem_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grade_import_newitem_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8312,7 +8312,7 @@ CREATE TABLE public.mdl_grade_import_values (
 );
 
 
-ALTER TABLE public.mdl_grade_import_values OWNER TO moodle;
+ALTER TABLE public.mdl_grade_import_values OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grade_import_values; Type: COMMENT; Schema: public; Owner: sister
@@ -8333,7 +8333,7 @@ CREATE SEQUENCE public.mdl_grade_import_values_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_import_values_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grade_import_values_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grade_import_values_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8381,7 +8381,7 @@ CREATE TABLE public.mdl_grade_items (
 );
 
 
-ALTER TABLE public.mdl_grade_items OWNER TO moodle;
+ALTER TABLE public.mdl_grade_items OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grade_items; Type: COMMENT; Schema: public; Owner: sister
@@ -8432,7 +8432,7 @@ CREATE TABLE public.mdl_grade_items_history (
 );
 
 
-ALTER TABLE public.mdl_grade_items_history OWNER TO moodle;
+ALTER TABLE public.mdl_grade_items_history OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grade_items_history; Type: COMMENT; Schema: public; Owner: sister
@@ -8453,7 +8453,7 @@ CREATE SEQUENCE public.mdl_grade_items_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_items_history_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grade_items_history_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grade_items_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8474,7 +8474,7 @@ CREATE SEQUENCE public.mdl_grade_items_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_items_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grade_items_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grade_items_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8495,7 +8495,7 @@ CREATE TABLE public.mdl_grade_letters (
 );
 
 
-ALTER TABLE public.mdl_grade_letters OWNER TO moodle;
+ALTER TABLE public.mdl_grade_letters OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grade_letters; Type: COMMENT; Schema: public; Owner: sister
@@ -8516,7 +8516,7 @@ CREATE SEQUENCE public.mdl_grade_letters_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_letters_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grade_letters_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grade_letters_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8543,7 +8543,7 @@ CREATE TABLE public.mdl_grade_outcomes (
 );
 
 
-ALTER TABLE public.mdl_grade_outcomes OWNER TO moodle;
+ALTER TABLE public.mdl_grade_outcomes OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grade_outcomes; Type: COMMENT; Schema: public; Owner: sister
@@ -8563,7 +8563,7 @@ CREATE TABLE public.mdl_grade_outcomes_courses (
 );
 
 
-ALTER TABLE public.mdl_grade_outcomes_courses OWNER TO moodle;
+ALTER TABLE public.mdl_grade_outcomes_courses OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grade_outcomes_courses; Type: COMMENT; Schema: public; Owner: sister
@@ -8584,7 +8584,7 @@ CREATE SEQUENCE public.mdl_grade_outcomes_courses_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_outcomes_courses_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grade_outcomes_courses_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grade_outcomes_courses_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8613,7 +8613,7 @@ CREATE TABLE public.mdl_grade_outcomes_history (
 );
 
 
-ALTER TABLE public.mdl_grade_outcomes_history OWNER TO moodle;
+ALTER TABLE public.mdl_grade_outcomes_history OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grade_outcomes_history; Type: COMMENT; Schema: public; Owner: sister
@@ -8634,7 +8634,7 @@ CREATE SEQUENCE public.mdl_grade_outcomes_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_outcomes_history_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grade_outcomes_history_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grade_outcomes_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8655,7 +8655,7 @@ CREATE SEQUENCE public.mdl_grade_outcomes_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_outcomes_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grade_outcomes_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grade_outcomes_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8676,7 +8676,7 @@ CREATE TABLE public.mdl_grade_settings (
 );
 
 
-ALTER TABLE public.mdl_grade_settings OWNER TO moodle;
+ALTER TABLE public.mdl_grade_settings OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grade_settings; Type: COMMENT; Schema: public; Owner: sister
@@ -8697,7 +8697,7 @@ CREATE SEQUENCE public.mdl_grade_settings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_settings_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grade_settings_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grade_settings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8719,7 +8719,7 @@ CREATE TABLE public.mdl_grading_areas (
 );
 
 
-ALTER TABLE public.mdl_grading_areas OWNER TO moodle;
+ALTER TABLE public.mdl_grading_areas OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grading_areas; Type: COMMENT; Schema: public; Owner: sister
@@ -8740,7 +8740,7 @@ CREATE SEQUENCE public.mdl_grading_areas_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grading_areas_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grading_areas_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grading_areas_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8771,7 +8771,7 @@ CREATE TABLE public.mdl_grading_definitions (
 );
 
 
-ALTER TABLE public.mdl_grading_definitions OWNER TO moodle;
+ALTER TABLE public.mdl_grading_definitions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grading_definitions; Type: COMMENT; Schema: public; Owner: sister
@@ -8792,7 +8792,7 @@ CREATE SEQUENCE public.mdl_grading_definitions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grading_definitions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grading_definitions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grading_definitions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8818,7 +8818,7 @@ CREATE TABLE public.mdl_grading_instances (
 );
 
 
-ALTER TABLE public.mdl_grading_instances OWNER TO moodle;
+ALTER TABLE public.mdl_grading_instances OWNER TO sister;
 
 --
 -- Name: TABLE mdl_grading_instances; Type: COMMENT; Schema: public; Owner: sister
@@ -8839,7 +8839,7 @@ CREATE SEQUENCE public.mdl_grading_instances_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grading_instances_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_grading_instances_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_grading_instances_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8861,7 +8861,7 @@ CREATE TABLE public.mdl_gradingform_guide_comments (
 );
 
 
-ALTER TABLE public.mdl_gradingform_guide_comments OWNER TO moodle;
+ALTER TABLE public.mdl_gradingform_guide_comments OWNER TO sister;
 
 --
 -- Name: TABLE mdl_gradingform_guide_comments; Type: COMMENT; Schema: public; Owner: sister
@@ -8882,7 +8882,7 @@ CREATE SEQUENCE public.mdl_gradingform_guide_comments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_gradingform_guide_comments_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_gradingform_guide_comments_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_gradingform_guide_comments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8908,7 +8908,7 @@ CREATE TABLE public.mdl_gradingform_guide_criteria (
 );
 
 
-ALTER TABLE public.mdl_gradingform_guide_criteria OWNER TO moodle;
+ALTER TABLE public.mdl_gradingform_guide_criteria OWNER TO sister;
 
 --
 -- Name: TABLE mdl_gradingform_guide_criteria; Type: COMMENT; Schema: public; Owner: sister
@@ -8929,7 +8929,7 @@ CREATE SEQUENCE public.mdl_gradingform_guide_criteria_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_gradingform_guide_criteria_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_gradingform_guide_criteria_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_gradingform_guide_criteria_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8952,7 +8952,7 @@ CREATE TABLE public.mdl_gradingform_guide_fillings (
 );
 
 
-ALTER TABLE public.mdl_gradingform_guide_fillings OWNER TO moodle;
+ALTER TABLE public.mdl_gradingform_guide_fillings OWNER TO sister;
 
 --
 -- Name: TABLE mdl_gradingform_guide_fillings; Type: COMMENT; Schema: public; Owner: sister
@@ -8973,7 +8973,7 @@ CREATE SEQUENCE public.mdl_gradingform_guide_fillings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_gradingform_guide_fillings_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_gradingform_guide_fillings_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_gradingform_guide_fillings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8995,7 +8995,7 @@ CREATE TABLE public.mdl_gradingform_rubric_criteria (
 );
 
 
-ALTER TABLE public.mdl_gradingform_rubric_criteria OWNER TO moodle;
+ALTER TABLE public.mdl_gradingform_rubric_criteria OWNER TO sister;
 
 --
 -- Name: TABLE mdl_gradingform_rubric_criteria; Type: COMMENT; Schema: public; Owner: sister
@@ -9016,7 +9016,7 @@ CREATE SEQUENCE public.mdl_gradingform_rubric_criteria_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_gradingform_rubric_criteria_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_gradingform_rubric_criteria_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_gradingform_rubric_criteria_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9039,7 +9039,7 @@ CREATE TABLE public.mdl_gradingform_rubric_fillings (
 );
 
 
-ALTER TABLE public.mdl_gradingform_rubric_fillings OWNER TO moodle;
+ALTER TABLE public.mdl_gradingform_rubric_fillings OWNER TO sister;
 
 --
 -- Name: TABLE mdl_gradingform_rubric_fillings; Type: COMMENT; Schema: public; Owner: sister
@@ -9060,7 +9060,7 @@ CREATE SEQUENCE public.mdl_gradingform_rubric_fillings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_gradingform_rubric_fillings_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_gradingform_rubric_fillings_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_gradingform_rubric_fillings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9082,7 +9082,7 @@ CREATE TABLE public.mdl_gradingform_rubric_levels (
 );
 
 
-ALTER TABLE public.mdl_gradingform_rubric_levels OWNER TO moodle;
+ALTER TABLE public.mdl_gradingform_rubric_levels OWNER TO sister;
 
 --
 -- Name: TABLE mdl_gradingform_rubric_levels; Type: COMMENT; Schema: public; Owner: sister
@@ -9103,7 +9103,7 @@ CREATE SEQUENCE public.mdl_gradingform_rubric_levels_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_gradingform_rubric_levels_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_gradingform_rubric_levels_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_gradingform_rubric_levels_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9129,7 +9129,7 @@ CREATE TABLE public.mdl_groupings (
 );
 
 
-ALTER TABLE public.mdl_groupings OWNER TO moodle;
+ALTER TABLE public.mdl_groupings OWNER TO sister;
 
 --
 -- Name: TABLE mdl_groupings; Type: COMMENT; Schema: public; Owner: sister
@@ -9150,7 +9150,7 @@ CREATE TABLE public.mdl_groupings_groups (
 );
 
 
-ALTER TABLE public.mdl_groupings_groups OWNER TO moodle;
+ALTER TABLE public.mdl_groupings_groups OWNER TO sister;
 
 --
 -- Name: TABLE mdl_groupings_groups; Type: COMMENT; Schema: public; Owner: sister
@@ -9171,7 +9171,7 @@ CREATE SEQUENCE public.mdl_groupings_groups_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_groupings_groups_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_groupings_groups_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_groupings_groups_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9192,7 +9192,7 @@ CREATE SEQUENCE public.mdl_groupings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_groupings_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_groupings_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_groupings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9220,7 +9220,7 @@ CREATE TABLE public.mdl_groups (
 );
 
 
-ALTER TABLE public.mdl_groups OWNER TO moodle;
+ALTER TABLE public.mdl_groups OWNER TO sister;
 
 --
 -- Name: TABLE mdl_groups; Type: COMMENT; Schema: public; Owner: sister
@@ -9241,7 +9241,7 @@ CREATE SEQUENCE public.mdl_groups_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_groups_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_groups_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_groups_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9264,7 +9264,7 @@ CREATE TABLE public.mdl_groups_members (
 );
 
 
-ALTER TABLE public.mdl_groups_members OWNER TO moodle;
+ALTER TABLE public.mdl_groups_members OWNER TO sister;
 
 --
 -- Name: TABLE mdl_groups_members; Type: COMMENT; Schema: public; Owner: sister
@@ -9285,7 +9285,7 @@ CREATE SEQUENCE public.mdl_groups_members_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_groups_members_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_groups_members_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_groups_members_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9352,7 +9352,7 @@ CREATE TABLE public.mdl_hotpot (
 );
 
 
-ALTER TABLE public.mdl_hotpot OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot OWNER TO sister;
 
 --
 -- Name: TABLE mdl_hotpot; Type: COMMENT; Schema: public; Owner: sister
@@ -9382,7 +9382,7 @@ CREATE TABLE public.mdl_hotpot_attempts (
 );
 
 
-ALTER TABLE public.mdl_hotpot_attempts OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot_attempts OWNER TO sister;
 
 --
 -- Name: TABLE mdl_hotpot_attempts; Type: COMMENT; Schema: public; Owner: sister
@@ -9403,7 +9403,7 @@ CREATE SEQUENCE public.mdl_hotpot_attempts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_attempts_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot_attempts_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_hotpot_attempts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9454,7 +9454,7 @@ CREATE TABLE public.mdl_hotpot_cache (
 );
 
 
-ALTER TABLE public.mdl_hotpot_cache OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot_cache OWNER TO sister;
 
 --
 -- Name: TABLE mdl_hotpot_cache; Type: COMMENT; Schema: public; Owner: sister
@@ -9475,7 +9475,7 @@ CREATE SEQUENCE public.mdl_hotpot_cache_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_cache_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot_cache_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_hotpot_cache_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9495,7 +9495,7 @@ CREATE TABLE public.mdl_hotpot_details (
 );
 
 
-ALTER TABLE public.mdl_hotpot_details OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot_details OWNER TO sister;
 
 --
 -- Name: TABLE mdl_hotpot_details; Type: COMMENT; Schema: public; Owner: sister
@@ -9516,7 +9516,7 @@ CREATE SEQUENCE public.mdl_hotpot_details_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_details_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot_details_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_hotpot_details_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9537,7 +9537,7 @@ CREATE SEQUENCE public.mdl_hotpot_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_hotpot_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9560,7 +9560,7 @@ CREATE TABLE public.mdl_hotpot_questions (
 );
 
 
-ALTER TABLE public.mdl_hotpot_questions OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot_questions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_hotpot_questions; Type: COMMENT; Schema: public; Owner: sister
@@ -9581,7 +9581,7 @@ CREATE SEQUENCE public.mdl_hotpot_questions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_questions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot_questions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_hotpot_questions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9609,7 +9609,7 @@ CREATE TABLE public.mdl_hotpot_responses (
 );
 
 
-ALTER TABLE public.mdl_hotpot_responses OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot_responses OWNER TO sister;
 
 --
 -- Name: TABLE mdl_hotpot_responses; Type: COMMENT; Schema: public; Owner: sister
@@ -9630,7 +9630,7 @@ CREATE SEQUENCE public.mdl_hotpot_responses_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_responses_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot_responses_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_hotpot_responses_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9650,7 +9650,7 @@ CREATE TABLE public.mdl_hotpot_strings (
 );
 
 
-ALTER TABLE public.mdl_hotpot_strings OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot_strings OWNER TO sister;
 
 --
 -- Name: TABLE mdl_hotpot_strings; Type: COMMENT; Schema: public; Owner: sister
@@ -9671,7 +9671,7 @@ CREATE SEQUENCE public.mdl_hotpot_strings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_strings_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_hotpot_strings_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_hotpot_strings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9697,7 +9697,7 @@ CREATE TABLE public.mdl_imscp (
 );
 
 
-ALTER TABLE public.mdl_imscp OWNER TO moodle;
+ALTER TABLE public.mdl_imscp OWNER TO sister;
 
 --
 -- Name: TABLE mdl_imscp; Type: COMMENT; Schema: public; Owner: sister
@@ -9718,7 +9718,7 @@ CREATE SEQUENCE public.mdl_imscp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_imscp_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_imscp_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_imscp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9744,7 +9744,7 @@ CREATE TABLE public.mdl_jitsi (
 );
 
 
-ALTER TABLE public.mdl_jitsi OWNER TO moodle;
+ALTER TABLE public.mdl_jitsi OWNER TO sister;
 
 --
 -- Name: TABLE mdl_jitsi; Type: COMMENT; Schema: public; Owner: sister
@@ -9765,7 +9765,7 @@ CREATE SEQUENCE public.mdl_jitsi_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_jitsi_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_jitsi_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_jitsi_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9788,7 +9788,7 @@ CREATE TABLE public.mdl_label (
 );
 
 
-ALTER TABLE public.mdl_label OWNER TO moodle;
+ALTER TABLE public.mdl_label OWNER TO sister;
 
 --
 -- Name: TABLE mdl_label; Type: COMMENT; Schema: public; Owner: sister
@@ -9809,7 +9809,7 @@ CREATE SEQUENCE public.mdl_label_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_label_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_label_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_label_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9868,7 +9868,7 @@ CREATE TABLE public.mdl_lesson (
 );
 
 
-ALTER TABLE public.mdl_lesson OWNER TO moodle;
+ALTER TABLE public.mdl_lesson OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lesson; Type: COMMENT; Schema: public; Owner: sister
@@ -9898,7 +9898,7 @@ CREATE TABLE public.mdl_lesson_answers (
 );
 
 
-ALTER TABLE public.mdl_lesson_answers OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_answers OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lesson_answers; Type: COMMENT; Schema: public; Owner: sister
@@ -9919,7 +9919,7 @@ CREATE SEQUENCE public.mdl_lesson_answers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_answers_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_answers_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lesson_answers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9945,7 +9945,7 @@ CREATE TABLE public.mdl_lesson_attempts (
 );
 
 
-ALTER TABLE public.mdl_lesson_attempts OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_attempts OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lesson_attempts; Type: COMMENT; Schema: public; Owner: sister
@@ -9966,7 +9966,7 @@ CREATE SEQUENCE public.mdl_lesson_attempts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_attempts_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_attempts_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lesson_attempts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9991,7 +9991,7 @@ CREATE TABLE public.mdl_lesson_branch (
 );
 
 
-ALTER TABLE public.mdl_lesson_branch OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_branch OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lesson_branch; Type: COMMENT; Schema: public; Owner: sister
@@ -10012,7 +10012,7 @@ CREATE SEQUENCE public.mdl_lesson_branch_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_branch_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_branch_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lesson_branch_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10035,7 +10035,7 @@ CREATE TABLE public.mdl_lesson_grades (
 );
 
 
-ALTER TABLE public.mdl_lesson_grades OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_grades OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lesson_grades; Type: COMMENT; Schema: public; Owner: sister
@@ -10056,7 +10056,7 @@ CREATE SEQUENCE public.mdl_lesson_grades_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_grades_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_grades_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lesson_grades_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10077,7 +10077,7 @@ CREATE SEQUENCE public.mdl_lesson_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lesson_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10105,7 +10105,7 @@ CREATE TABLE public.mdl_lesson_overrides (
 );
 
 
-ALTER TABLE public.mdl_lesson_overrides OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_overrides OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lesson_overrides; Type: COMMENT; Schema: public; Owner: sister
@@ -10126,7 +10126,7 @@ CREATE SEQUENCE public.mdl_lesson_overrides_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_overrides_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_overrides_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lesson_overrides_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10156,7 +10156,7 @@ CREATE TABLE public.mdl_lesson_pages (
 );
 
 
-ALTER TABLE public.mdl_lesson_pages OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_pages OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lesson_pages; Type: COMMENT; Schema: public; Owner: sister
@@ -10177,7 +10177,7 @@ CREATE SEQUENCE public.mdl_lesson_pages_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_pages_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_pages_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lesson_pages_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10201,7 +10201,7 @@ CREATE TABLE public.mdl_lesson_timer (
 );
 
 
-ALTER TABLE public.mdl_lesson_timer OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_timer OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lesson_timer; Type: COMMENT; Schema: public; Owner: sister
@@ -10222,7 +10222,7 @@ CREATE SEQUENCE public.mdl_lesson_timer_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_timer_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lesson_timer_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lesson_timer_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10245,7 +10245,7 @@ CREATE TABLE public.mdl_license (
 );
 
 
-ALTER TABLE public.mdl_license OWNER TO moodle;
+ALTER TABLE public.mdl_license OWNER TO sister;
 
 --
 -- Name: TABLE mdl_license; Type: COMMENT; Schema: public; Owner: sister
@@ -10266,7 +10266,7 @@ CREATE SEQUENCE public.mdl_license_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_license_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_license_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_license_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10287,7 +10287,7 @@ CREATE TABLE public.mdl_lock_db (
 );
 
 
-ALTER TABLE public.mdl_lock_db OWNER TO moodle;
+ALTER TABLE public.mdl_lock_db OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lock_db; Type: COMMENT; Schema: public; Owner: sister
@@ -10308,7 +10308,7 @@ CREATE SEQUENCE public.mdl_lock_db_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lock_db_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lock_db_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lock_db_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10335,7 +10335,7 @@ CREATE TABLE public.mdl_log (
 );
 
 
-ALTER TABLE public.mdl_log OWNER TO moodle;
+ALTER TABLE public.mdl_log OWNER TO sister;
 
 --
 -- Name: TABLE mdl_log; Type: COMMENT; Schema: public; Owner: sister
@@ -10358,7 +10358,7 @@ CREATE TABLE public.mdl_log_display (
 );
 
 
-ALTER TABLE public.mdl_log_display OWNER TO moodle;
+ALTER TABLE public.mdl_log_display OWNER TO sister;
 
 --
 -- Name: TABLE mdl_log_display; Type: COMMENT; Schema: public; Owner: sister
@@ -10379,7 +10379,7 @@ CREATE SEQUENCE public.mdl_log_display_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_log_display_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_log_display_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_log_display_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10400,7 +10400,7 @@ CREATE SEQUENCE public.mdl_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_log_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_log_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10426,7 +10426,7 @@ CREATE TABLE public.mdl_log_queries (
 );
 
 
-ALTER TABLE public.mdl_log_queries OWNER TO moodle;
+ALTER TABLE public.mdl_log_queries OWNER TO sister;
 
 --
 -- Name: TABLE mdl_log_queries; Type: COMMENT; Schema: public; Owner: sister
@@ -10447,7 +10447,7 @@ CREATE SEQUENCE public.mdl_log_queries_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_log_queries_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_log_queries_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_log_queries_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10485,7 +10485,7 @@ CREATE TABLE public.mdl_logstore_standard_log (
 );
 
 
-ALTER TABLE public.mdl_logstore_standard_log OWNER TO moodle;
+ALTER TABLE public.mdl_logstore_standard_log OWNER TO sister;
 
 --
 -- Name: TABLE mdl_logstore_standard_log; Type: COMMENT; Schema: public; Owner: sister
@@ -10506,7 +10506,7 @@ CREATE SEQUENCE public.mdl_logstore_standard_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_logstore_standard_log_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_logstore_standard_log_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_logstore_standard_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10549,7 +10549,7 @@ CREATE TABLE public.mdl_lti (
 );
 
 
-ALTER TABLE public.mdl_lti OWNER TO moodle;
+ALTER TABLE public.mdl_lti OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lti; Type: COMMENT; Schema: public; Owner: sister
@@ -10570,7 +10570,7 @@ CREATE SEQUENCE public.mdl_lti_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lti_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lti_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lti_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10596,7 +10596,7 @@ CREATE TABLE public.mdl_lti_submission (
 );
 
 
-ALTER TABLE public.mdl_lti_submission OWNER TO moodle;
+ALTER TABLE public.mdl_lti_submission OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lti_submission; Type: COMMENT; Schema: public; Owner: sister
@@ -10617,7 +10617,7 @@ CREATE SEQUENCE public.mdl_lti_submission_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lti_submission_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lti_submission_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lti_submission_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10647,7 +10647,7 @@ CREATE TABLE public.mdl_lti_tool_proxies (
 );
 
 
-ALTER TABLE public.mdl_lti_tool_proxies OWNER TO moodle;
+ALTER TABLE public.mdl_lti_tool_proxies OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lti_tool_proxies; Type: COMMENT; Schema: public; Owner: sister
@@ -10668,7 +10668,7 @@ CREATE SEQUENCE public.mdl_lti_tool_proxies_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lti_tool_proxies_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lti_tool_proxies_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lti_tool_proxies_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10692,7 +10692,7 @@ CREATE TABLE public.mdl_lti_tool_settings (
 );
 
 
-ALTER TABLE public.mdl_lti_tool_settings OWNER TO moodle;
+ALTER TABLE public.mdl_lti_tool_settings OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lti_tool_settings; Type: COMMENT; Schema: public; Owner: sister
@@ -10713,7 +10713,7 @@ CREATE SEQUENCE public.mdl_lti_tool_settings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lti_tool_settings_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lti_tool_settings_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lti_tool_settings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10746,7 +10746,7 @@ CREATE TABLE public.mdl_lti_types (
 );
 
 
-ALTER TABLE public.mdl_lti_types OWNER TO moodle;
+ALTER TABLE public.mdl_lti_types OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lti_types; Type: COMMENT; Schema: public; Owner: sister
@@ -10767,7 +10767,7 @@ CREATE TABLE public.mdl_lti_types_config (
 );
 
 
-ALTER TABLE public.mdl_lti_types_config OWNER TO moodle;
+ALTER TABLE public.mdl_lti_types_config OWNER TO sister;
 
 --
 -- Name: TABLE mdl_lti_types_config; Type: COMMENT; Schema: public; Owner: sister
@@ -10788,7 +10788,7 @@ CREATE SEQUENCE public.mdl_lti_types_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lti_types_config_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lti_types_config_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lti_types_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10809,7 +10809,7 @@ CREATE SEQUENCE public.mdl_lti_types_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lti_types_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_lti_types_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_lti_types_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10834,7 +10834,7 @@ CREATE TABLE public.mdl_ltiservice_gradebookservices (
 );
 
 
-ALTER TABLE public.mdl_ltiservice_gradebookservices OWNER TO moodle;
+ALTER TABLE public.mdl_ltiservice_gradebookservices OWNER TO sister;
 
 --
 -- Name: TABLE mdl_ltiservice_gradebookservices; Type: COMMENT; Schema: public; Owner: sister
@@ -10855,7 +10855,7 @@ CREATE SEQUENCE public.mdl_ltiservice_gradebookservices_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_ltiservice_gradebookservices_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_ltiservice_gradebookservices_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_ltiservice_gradebookservices_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10888,7 +10888,7 @@ CREATE TABLE public.mdl_message (
 );
 
 
-ALTER TABLE public.mdl_message OWNER TO moodle;
+ALTER TABLE public.mdl_message OWNER TO sister;
 
 --
 -- Name: TABLE mdl_message; Type: COMMENT; Schema: public; Owner: sister
@@ -10908,7 +10908,7 @@ CREATE TABLE public.mdl_message_airnotifier_devices (
 );
 
 
-ALTER TABLE public.mdl_message_airnotifier_devices OWNER TO moodle;
+ALTER TABLE public.mdl_message_airnotifier_devices OWNER TO sister;
 
 --
 -- Name: TABLE mdl_message_airnotifier_devices; Type: COMMENT; Schema: public; Owner: sister
@@ -10929,7 +10929,7 @@ CREATE SEQUENCE public.mdl_message_airnotifier_devices_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_airnotifier_devices_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_message_airnotifier_devices_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_message_airnotifier_devices_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10950,7 +10950,7 @@ CREATE TABLE public.mdl_message_contact_requests (
 );
 
 
-ALTER TABLE public.mdl_message_contact_requests OWNER TO moodle;
+ALTER TABLE public.mdl_message_contact_requests OWNER TO sister;
 
 --
 -- Name: TABLE mdl_message_contact_requests; Type: COMMENT; Schema: public; Owner: sister
@@ -10971,7 +10971,7 @@ CREATE SEQUENCE public.mdl_message_contact_requests_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_contact_requests_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_message_contact_requests_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_message_contact_requests_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10992,7 +10992,7 @@ CREATE TABLE public.mdl_message_contacts (
 );
 
 
-ALTER TABLE public.mdl_message_contacts OWNER TO moodle;
+ALTER TABLE public.mdl_message_contacts OWNER TO sister;
 
 --
 -- Name: TABLE mdl_message_contacts; Type: COMMENT; Schema: public; Owner: sister
@@ -11013,7 +11013,7 @@ CREATE SEQUENCE public.mdl_message_contacts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_contacts_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_message_contacts_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_message_contacts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11034,7 +11034,7 @@ CREATE TABLE public.mdl_message_conversation_members (
 );
 
 
-ALTER TABLE public.mdl_message_conversation_members OWNER TO moodle;
+ALTER TABLE public.mdl_message_conversation_members OWNER TO sister;
 
 --
 -- Name: TABLE mdl_message_conversation_members; Type: COMMENT; Schema: public; Owner: sister
@@ -11055,7 +11055,7 @@ CREATE SEQUENCE public.mdl_message_conversation_members_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_conversation_members_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_message_conversation_members_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_message_conversation_members_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11083,7 +11083,7 @@ CREATE TABLE public.mdl_message_conversations (
 );
 
 
-ALTER TABLE public.mdl_message_conversations OWNER TO moodle;
+ALTER TABLE public.mdl_message_conversations OWNER TO sister;
 
 --
 -- Name: TABLE mdl_message_conversations; Type: COMMENT; Schema: public; Owner: sister
@@ -11104,7 +11104,7 @@ CREATE SEQUENCE public.mdl_message_conversations_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_conversations_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_message_conversations_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_message_conversations_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11125,7 +11125,7 @@ CREATE SEQUENCE public.mdl_message_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_message_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_message_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11145,7 +11145,7 @@ CREATE TABLE public.mdl_message_popup (
 );
 
 
-ALTER TABLE public.mdl_message_popup OWNER TO moodle;
+ALTER TABLE public.mdl_message_popup OWNER TO sister;
 
 --
 -- Name: TABLE mdl_message_popup; Type: COMMENT; Schema: public; Owner: sister
@@ -11166,7 +11166,7 @@ CREATE SEQUENCE public.mdl_message_popup_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_popup_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_message_popup_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_message_popup_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11185,7 +11185,7 @@ CREATE TABLE public.mdl_message_popup_notifications (
 );
 
 
-ALTER TABLE public.mdl_message_popup_notifications OWNER TO moodle;
+ALTER TABLE public.mdl_message_popup_notifications OWNER TO sister;
 
 --
 -- Name: TABLE mdl_message_popup_notifications; Type: COMMENT; Schema: public; Owner: sister
@@ -11206,7 +11206,7 @@ CREATE SEQUENCE public.mdl_message_popup_notifications_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_popup_notifications_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_message_popup_notifications_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_message_popup_notifications_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11226,7 +11226,7 @@ CREATE TABLE public.mdl_message_processors (
 );
 
 
-ALTER TABLE public.mdl_message_processors OWNER TO moodle;
+ALTER TABLE public.mdl_message_processors OWNER TO sister;
 
 --
 -- Name: TABLE mdl_message_processors; Type: COMMENT; Schema: public; Owner: sister
@@ -11247,7 +11247,7 @@ CREATE SEQUENCE public.mdl_message_processors_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_processors_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_message_processors_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_message_processors_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11268,7 +11268,7 @@ CREATE TABLE public.mdl_message_providers (
 );
 
 
-ALTER TABLE public.mdl_message_providers OWNER TO moodle;
+ALTER TABLE public.mdl_message_providers OWNER TO sister;
 
 --
 -- Name: TABLE mdl_message_providers; Type: COMMENT; Schema: public; Owner: sister
@@ -11289,7 +11289,7 @@ CREATE SEQUENCE public.mdl_message_providers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_providers_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_message_providers_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_message_providers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11323,7 +11323,7 @@ CREATE TABLE public.mdl_message_read (
 );
 
 
-ALTER TABLE public.mdl_message_read OWNER TO moodle;
+ALTER TABLE public.mdl_message_read OWNER TO sister;
 
 --
 -- Name: TABLE mdl_message_read; Type: COMMENT; Schema: public; Owner: sister
@@ -11344,7 +11344,7 @@ CREATE SEQUENCE public.mdl_message_read_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_read_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_message_read_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_message_read_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11366,7 +11366,7 @@ CREATE TABLE public.mdl_message_user_actions (
 );
 
 
-ALTER TABLE public.mdl_message_user_actions OWNER TO moodle;
+ALTER TABLE public.mdl_message_user_actions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_message_user_actions; Type: COMMENT; Schema: public; Owner: sister
@@ -11387,7 +11387,7 @@ CREATE SEQUENCE public.mdl_message_user_actions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_user_actions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_message_user_actions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_message_user_actions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11408,7 +11408,7 @@ CREATE TABLE public.mdl_message_users_blocked (
 );
 
 
-ALTER TABLE public.mdl_message_users_blocked OWNER TO moodle;
+ALTER TABLE public.mdl_message_users_blocked OWNER TO sister;
 
 --
 -- Name: TABLE mdl_message_users_blocked; Type: COMMENT; Schema: public; Owner: sister
@@ -11429,7 +11429,7 @@ CREATE SEQUENCE public.mdl_message_users_blocked_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_users_blocked_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_message_users_blocked_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_message_users_blocked_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11452,7 +11452,7 @@ CREATE TABLE public.mdl_messageinbound_datakeys (
 );
 
 
-ALTER TABLE public.mdl_messageinbound_datakeys OWNER TO moodle;
+ALTER TABLE public.mdl_messageinbound_datakeys OWNER TO sister;
 
 --
 -- Name: TABLE mdl_messageinbound_datakeys; Type: COMMENT; Schema: public; Owner: sister
@@ -11473,7 +11473,7 @@ CREATE SEQUENCE public.mdl_messageinbound_datakeys_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_messageinbound_datakeys_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_messageinbound_datakeys_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_messageinbound_datakeys_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11496,7 +11496,7 @@ CREATE TABLE public.mdl_messageinbound_handlers (
 );
 
 
-ALTER TABLE public.mdl_messageinbound_handlers OWNER TO moodle;
+ALTER TABLE public.mdl_messageinbound_handlers OWNER TO sister;
 
 --
 -- Name: TABLE mdl_messageinbound_handlers; Type: COMMENT; Schema: public; Owner: sister
@@ -11517,7 +11517,7 @@ CREATE SEQUENCE public.mdl_messageinbound_handlers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_messageinbound_handlers_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_messageinbound_handlers_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_messageinbound_handlers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11539,7 +11539,7 @@ CREATE TABLE public.mdl_messageinbound_messagelist (
 );
 
 
-ALTER TABLE public.mdl_messageinbound_messagelist OWNER TO moodle;
+ALTER TABLE public.mdl_messageinbound_messagelist OWNER TO sister;
 
 --
 -- Name: TABLE mdl_messageinbound_messagelist; Type: COMMENT; Schema: public; Owner: sister
@@ -11560,7 +11560,7 @@ CREATE SEQUENCE public.mdl_messageinbound_messagelist_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_messageinbound_messagelist_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_messageinbound_messagelist_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_messageinbound_messagelist_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11586,7 +11586,7 @@ CREATE TABLE public.mdl_messages (
 );
 
 
-ALTER TABLE public.mdl_messages OWNER TO moodle;
+ALTER TABLE public.mdl_messages OWNER TO sister;
 
 --
 -- Name: TABLE mdl_messages; Type: COMMENT; Schema: public; Owner: sister
@@ -11607,7 +11607,7 @@ CREATE SEQUENCE public.mdl_messages_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_messages_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_messages_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_messages_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11630,7 +11630,7 @@ CREATE TABLE public.mdl_mnet_application (
 );
 
 
-ALTER TABLE public.mdl_mnet_application OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_application OWNER TO sister;
 
 --
 -- Name: TABLE mdl_mnet_application; Type: COMMENT; Schema: public; Owner: sister
@@ -11651,7 +11651,7 @@ CREATE SEQUENCE public.mdl_mnet_application_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_application_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_application_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_mnet_application_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11683,7 +11683,7 @@ CREATE TABLE public.mdl_mnet_host (
 );
 
 
-ALTER TABLE public.mdl_mnet_host OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_host OWNER TO sister;
 
 --
 -- Name: TABLE mdl_mnet_host; Type: COMMENT; Schema: public; Owner: sister
@@ -11705,7 +11705,7 @@ CREATE TABLE public.mdl_mnet_host2service (
 );
 
 
-ALTER TABLE public.mdl_mnet_host2service OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_host2service OWNER TO sister;
 
 --
 -- Name: TABLE mdl_mnet_host2service; Type: COMMENT; Schema: public; Owner: sister
@@ -11726,7 +11726,7 @@ CREATE SEQUENCE public.mdl_mnet_host2service_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_host2service_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_host2service_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_mnet_host2service_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11747,7 +11747,7 @@ CREATE SEQUENCE public.mdl_mnet_host_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_host_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_host_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_mnet_host_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11777,7 +11777,7 @@ CREATE TABLE public.mdl_mnet_log (
 );
 
 
-ALTER TABLE public.mdl_mnet_log OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_log OWNER TO sister;
 
 --
 -- Name: TABLE mdl_mnet_log; Type: COMMENT; Schema: public; Owner: sister
@@ -11798,7 +11798,7 @@ CREATE SEQUENCE public.mdl_mnet_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_log_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_log_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_mnet_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11821,7 +11821,7 @@ CREATE TABLE public.mdl_mnet_remote_rpc (
 );
 
 
-ALTER TABLE public.mdl_mnet_remote_rpc OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_remote_rpc OWNER TO sister;
 
 --
 -- Name: TABLE mdl_mnet_remote_rpc; Type: COMMENT; Schema: public; Owner: sister
@@ -11842,7 +11842,7 @@ CREATE SEQUENCE public.mdl_mnet_remote_rpc_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_remote_rpc_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_remote_rpc_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_mnet_remote_rpc_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11862,7 +11862,7 @@ CREATE TABLE public.mdl_mnet_remote_service2rpc (
 );
 
 
-ALTER TABLE public.mdl_mnet_remote_service2rpc OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_remote_service2rpc OWNER TO sister;
 
 --
 -- Name: TABLE mdl_mnet_remote_service2rpc; Type: COMMENT; Schema: public; Owner: sister
@@ -11883,7 +11883,7 @@ CREATE SEQUENCE public.mdl_mnet_remote_service2rpc_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_remote_service2rpc_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_remote_service2rpc_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_mnet_remote_service2rpc_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11911,7 +11911,7 @@ CREATE TABLE public.mdl_mnet_rpc (
 );
 
 
-ALTER TABLE public.mdl_mnet_rpc OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_rpc OWNER TO sister;
 
 --
 -- Name: TABLE mdl_mnet_rpc; Type: COMMENT; Schema: public; Owner: sister
@@ -11932,7 +11932,7 @@ CREATE SEQUENCE public.mdl_mnet_rpc_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_rpc_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_rpc_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_mnet_rpc_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11954,7 +11954,7 @@ CREATE TABLE public.mdl_mnet_service (
 );
 
 
-ALTER TABLE public.mdl_mnet_service OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_service OWNER TO sister;
 
 --
 -- Name: TABLE mdl_mnet_service; Type: COMMENT; Schema: public; Owner: sister
@@ -11974,7 +11974,7 @@ CREATE TABLE public.mdl_mnet_service2rpc (
 );
 
 
-ALTER TABLE public.mdl_mnet_service2rpc OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_service2rpc OWNER TO sister;
 
 --
 -- Name: TABLE mdl_mnet_service2rpc; Type: COMMENT; Schema: public; Owner: sister
@@ -11995,7 +11995,7 @@ CREATE SEQUENCE public.mdl_mnet_service2rpc_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_service2rpc_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_service2rpc_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_mnet_service2rpc_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12016,7 +12016,7 @@ CREATE SEQUENCE public.mdl_mnet_service_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_service_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_service_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_mnet_service_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12042,7 +12042,7 @@ CREATE TABLE public.mdl_mnet_session (
 );
 
 
-ALTER TABLE public.mdl_mnet_session OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_session OWNER TO sister;
 
 --
 -- Name: TABLE mdl_mnet_session; Type: COMMENT; Schema: public; Owner: sister
@@ -12063,7 +12063,7 @@ CREATE SEQUENCE public.mdl_mnet_session_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_session_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_session_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_mnet_session_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12084,7 +12084,7 @@ CREATE TABLE public.mdl_mnet_sso_access_control (
 );
 
 
-ALTER TABLE public.mdl_mnet_sso_access_control OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_sso_access_control OWNER TO sister;
 
 --
 -- Name: TABLE mdl_mnet_sso_access_control; Type: COMMENT; Schema: public; Owner: sister
@@ -12105,7 +12105,7 @@ CREATE SEQUENCE public.mdl_mnet_sso_access_control_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_sso_access_control_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_mnet_sso_access_control_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_mnet_sso_access_control_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12136,7 +12136,7 @@ CREATE TABLE public.mdl_mnetservice_enrol_courses (
 );
 
 
-ALTER TABLE public.mdl_mnetservice_enrol_courses OWNER TO moodle;
+ALTER TABLE public.mdl_mnetservice_enrol_courses OWNER TO sister;
 
 --
 -- Name: TABLE mdl_mnetservice_enrol_courses; Type: COMMENT; Schema: public; Owner: sister
@@ -12157,7 +12157,7 @@ CREATE SEQUENCE public.mdl_mnetservice_enrol_courses_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnetservice_enrol_courses_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_mnetservice_enrol_courses_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_mnetservice_enrol_courses_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12181,7 +12181,7 @@ CREATE TABLE public.mdl_mnetservice_enrol_enrolments (
 );
 
 
-ALTER TABLE public.mdl_mnetservice_enrol_enrolments OWNER TO moodle;
+ALTER TABLE public.mdl_mnetservice_enrol_enrolments OWNER TO sister;
 
 --
 -- Name: TABLE mdl_mnetservice_enrol_enrolments; Type: COMMENT; Schema: public; Owner: sister
@@ -12202,7 +12202,7 @@ CREATE SEQUENCE public.mdl_mnetservice_enrol_enrolments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnetservice_enrol_enrolments_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_mnetservice_enrol_enrolments_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_mnetservice_enrol_enrolments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12225,7 +12225,7 @@ CREATE TABLE public.mdl_modules (
 );
 
 
-ALTER TABLE public.mdl_modules OWNER TO moodle;
+ALTER TABLE public.mdl_modules OWNER TO sister;
 
 --
 -- Name: TABLE mdl_modules; Type: COMMENT; Schema: public; Owner: sister
@@ -12246,7 +12246,7 @@ CREATE SEQUENCE public.mdl_modules_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_modules_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_modules_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_modules_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12268,7 +12268,7 @@ CREATE TABLE public.mdl_my_pages (
 );
 
 
-ALTER TABLE public.mdl_my_pages OWNER TO moodle;
+ALTER TABLE public.mdl_my_pages OWNER TO sister;
 
 --
 -- Name: TABLE mdl_my_pages; Type: COMMENT; Schema: public; Owner: sister
@@ -12289,7 +12289,7 @@ CREATE SEQUENCE public.mdl_my_pages_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_my_pages_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_my_pages_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_my_pages_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12320,7 +12320,7 @@ CREATE TABLE public.mdl_notifications (
 );
 
 
-ALTER TABLE public.mdl_notifications OWNER TO moodle;
+ALTER TABLE public.mdl_notifications OWNER TO sister;
 
 --
 -- Name: TABLE mdl_notifications; Type: COMMENT; Schema: public; Owner: sister
@@ -12341,7 +12341,7 @@ CREATE SEQUENCE public.mdl_notifications_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_notifications_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_notifications_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_notifications_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12366,7 +12366,7 @@ CREATE TABLE public.mdl_oauth2_access_token (
 );
 
 
-ALTER TABLE public.mdl_oauth2_access_token OWNER TO moodle;
+ALTER TABLE public.mdl_oauth2_access_token OWNER TO sister;
 
 --
 -- Name: TABLE mdl_oauth2_access_token; Type: COMMENT; Schema: public; Owner: sister
@@ -12387,7 +12387,7 @@ CREATE SEQUENCE public.mdl_oauth2_access_token_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_oauth2_access_token_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_oauth2_access_token_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_oauth2_access_token_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12411,7 +12411,7 @@ CREATE TABLE public.mdl_oauth2_endpoint (
 );
 
 
-ALTER TABLE public.mdl_oauth2_endpoint OWNER TO moodle;
+ALTER TABLE public.mdl_oauth2_endpoint OWNER TO sister;
 
 --
 -- Name: TABLE mdl_oauth2_endpoint; Type: COMMENT; Schema: public; Owner: sister
@@ -12432,7 +12432,7 @@ CREATE SEQUENCE public.mdl_oauth2_endpoint_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_oauth2_endpoint_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_oauth2_endpoint_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_oauth2_endpoint_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12469,7 +12469,7 @@ CREATE TABLE public.mdl_oauth2_issuer (
 );
 
 
-ALTER TABLE public.mdl_oauth2_issuer OWNER TO moodle;
+ALTER TABLE public.mdl_oauth2_issuer OWNER TO sister;
 
 --
 -- Name: TABLE mdl_oauth2_issuer; Type: COMMENT; Schema: public; Owner: sister
@@ -12490,7 +12490,7 @@ CREATE SEQUENCE public.mdl_oauth2_issuer_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_oauth2_issuer_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_oauth2_issuer_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_oauth2_issuer_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12516,7 +12516,7 @@ CREATE TABLE public.mdl_oauth2_system_account (
 );
 
 
-ALTER TABLE public.mdl_oauth2_system_account OWNER TO moodle;
+ALTER TABLE public.mdl_oauth2_system_account OWNER TO sister;
 
 --
 -- Name: TABLE mdl_oauth2_system_account; Type: COMMENT; Schema: public; Owner: sister
@@ -12537,7 +12537,7 @@ CREATE SEQUENCE public.mdl_oauth2_system_account_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_oauth2_system_account_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_oauth2_system_account_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_oauth2_system_account_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12561,7 +12561,7 @@ CREATE TABLE public.mdl_oauth2_user_field_mapping (
 );
 
 
-ALTER TABLE public.mdl_oauth2_user_field_mapping OWNER TO moodle;
+ALTER TABLE public.mdl_oauth2_user_field_mapping OWNER TO sister;
 
 --
 -- Name: TABLE mdl_oauth2_user_field_mapping; Type: COMMENT; Schema: public; Owner: sister
@@ -12582,7 +12582,7 @@ CREATE SEQUENCE public.mdl_oauth2_user_field_mapping_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_oauth2_user_field_mapping_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_oauth2_user_field_mapping_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_oauth2_user_field_mapping_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12612,7 +12612,7 @@ CREATE TABLE public.mdl_page (
 );
 
 
-ALTER TABLE public.mdl_page OWNER TO moodle;
+ALTER TABLE public.mdl_page OWNER TO sister;
 
 --
 -- Name: TABLE mdl_page; Type: COMMENT; Schema: public; Owner: sister
@@ -12633,7 +12633,7 @@ CREATE SEQUENCE public.mdl_page_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_page_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_page_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_page_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12654,7 +12654,7 @@ CREATE TABLE public.mdl_portfolio_instance (
 );
 
 
-ALTER TABLE public.mdl_portfolio_instance OWNER TO moodle;
+ALTER TABLE public.mdl_portfolio_instance OWNER TO sister;
 
 --
 -- Name: TABLE mdl_portfolio_instance; Type: COMMENT; Schema: public; Owner: sister
@@ -12675,7 +12675,7 @@ CREATE TABLE public.mdl_portfolio_instance_config (
 );
 
 
-ALTER TABLE public.mdl_portfolio_instance_config OWNER TO moodle;
+ALTER TABLE public.mdl_portfolio_instance_config OWNER TO sister;
 
 --
 -- Name: TABLE mdl_portfolio_instance_config; Type: COMMENT; Schema: public; Owner: sister
@@ -12696,7 +12696,7 @@ CREATE SEQUENCE public.mdl_portfolio_instance_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_portfolio_instance_config_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_portfolio_instance_config_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_portfolio_instance_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12717,7 +12717,7 @@ CREATE SEQUENCE public.mdl_portfolio_instance_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_portfolio_instance_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_portfolio_instance_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_portfolio_instance_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12739,7 +12739,7 @@ CREATE TABLE public.mdl_portfolio_instance_user (
 );
 
 
-ALTER TABLE public.mdl_portfolio_instance_user OWNER TO moodle;
+ALTER TABLE public.mdl_portfolio_instance_user OWNER TO sister;
 
 --
 -- Name: TABLE mdl_portfolio_instance_user; Type: COMMENT; Schema: public; Owner: sister
@@ -12760,7 +12760,7 @@ CREATE SEQUENCE public.mdl_portfolio_instance_user_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_portfolio_instance_user_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_portfolio_instance_user_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_portfolio_instance_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12788,7 +12788,7 @@ CREATE TABLE public.mdl_portfolio_log (
 );
 
 
-ALTER TABLE public.mdl_portfolio_log OWNER TO moodle;
+ALTER TABLE public.mdl_portfolio_log OWNER TO sister;
 
 --
 -- Name: TABLE mdl_portfolio_log; Type: COMMENT; Schema: public; Owner: sister
@@ -12809,7 +12809,7 @@ CREATE SEQUENCE public.mdl_portfolio_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_portfolio_log_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_portfolio_log_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_portfolio_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12829,7 +12829,7 @@ CREATE TABLE public.mdl_portfolio_mahara_queue (
 );
 
 
-ALTER TABLE public.mdl_portfolio_mahara_queue OWNER TO moodle;
+ALTER TABLE public.mdl_portfolio_mahara_queue OWNER TO sister;
 
 --
 -- Name: TABLE mdl_portfolio_mahara_queue; Type: COMMENT; Schema: public; Owner: sister
@@ -12850,7 +12850,7 @@ CREATE SEQUENCE public.mdl_portfolio_mahara_queue_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_portfolio_mahara_queue_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_portfolio_mahara_queue_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_portfolio_mahara_queue_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12873,7 +12873,7 @@ CREATE TABLE public.mdl_portfolio_tempdata (
 );
 
 
-ALTER TABLE public.mdl_portfolio_tempdata OWNER TO moodle;
+ALTER TABLE public.mdl_portfolio_tempdata OWNER TO sister;
 
 --
 -- Name: TABLE mdl_portfolio_tempdata; Type: COMMENT; Schema: public; Owner: sister
@@ -12894,7 +12894,7 @@ CREATE SEQUENCE public.mdl_portfolio_tempdata_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_portfolio_tempdata_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_portfolio_tempdata_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_portfolio_tempdata_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12930,7 +12930,7 @@ CREATE TABLE public.mdl_post (
 );
 
 
-ALTER TABLE public.mdl_post OWNER TO moodle;
+ALTER TABLE public.mdl_post OWNER TO sister;
 
 --
 -- Name: TABLE mdl_post; Type: COMMENT; Schema: public; Owner: sister
@@ -12951,7 +12951,7 @@ CREATE SEQUENCE public.mdl_post_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_post_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_post_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_post_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12979,7 +12979,7 @@ CREATE TABLE public.mdl_profiling (
 );
 
 
-ALTER TABLE public.mdl_profiling OWNER TO moodle;
+ALTER TABLE public.mdl_profiling OWNER TO sister;
 
 --
 -- Name: TABLE mdl_profiling; Type: COMMENT; Schema: public; Owner: sister
@@ -13000,7 +13000,7 @@ CREATE SEQUENCE public.mdl_profiling_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_profiling_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_profiling_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_profiling_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13027,7 +13027,7 @@ CREATE TABLE public.mdl_qtype_ddimageortext (
 );
 
 
-ALTER TABLE public.mdl_qtype_ddimageortext OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_ddimageortext OWNER TO sister;
 
 --
 -- Name: TABLE mdl_qtype_ddimageortext; Type: COMMENT; Schema: public; Owner: sister
@@ -13050,7 +13050,7 @@ CREATE TABLE public.mdl_qtype_ddimageortext_drags (
 );
 
 
-ALTER TABLE public.mdl_qtype_ddimageortext_drags OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_ddimageortext_drags OWNER TO sister;
 
 --
 -- Name: TABLE mdl_qtype_ddimageortext_drags; Type: COMMENT; Schema: public; Owner: sister
@@ -13071,7 +13071,7 @@ CREATE SEQUENCE public.mdl_qtype_ddimageortext_drags_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_ddimageortext_drags_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_ddimageortext_drags_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_qtype_ddimageortext_drags_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13095,7 +13095,7 @@ CREATE TABLE public.mdl_qtype_ddimageortext_drops (
 );
 
 
-ALTER TABLE public.mdl_qtype_ddimageortext_drops OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_ddimageortext_drops OWNER TO sister;
 
 --
 -- Name: TABLE mdl_qtype_ddimageortext_drops; Type: COMMENT; Schema: public; Owner: sister
@@ -13116,7 +13116,7 @@ CREATE SEQUENCE public.mdl_qtype_ddimageortext_drops_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_ddimageortext_drops_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_ddimageortext_drops_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_qtype_ddimageortext_drops_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13137,7 +13137,7 @@ CREATE SEQUENCE public.mdl_qtype_ddimageortext_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_ddimageortext_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_ddimageortext_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_qtype_ddimageortext_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13165,7 +13165,7 @@ CREATE TABLE public.mdl_qtype_ddmarker (
 );
 
 
-ALTER TABLE public.mdl_qtype_ddmarker OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_ddmarker OWNER TO sister;
 
 --
 -- Name: TABLE mdl_qtype_ddmarker; Type: COMMENT; Schema: public; Owner: sister
@@ -13188,7 +13188,7 @@ CREATE TABLE public.mdl_qtype_ddmarker_drags (
 );
 
 
-ALTER TABLE public.mdl_qtype_ddmarker_drags OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_ddmarker_drags OWNER TO sister;
 
 --
 -- Name: TABLE mdl_qtype_ddmarker_drags; Type: COMMENT; Schema: public; Owner: sister
@@ -13209,7 +13209,7 @@ CREATE SEQUENCE public.mdl_qtype_ddmarker_drags_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_ddmarker_drags_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_ddmarker_drags_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_qtype_ddmarker_drags_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13232,7 +13232,7 @@ CREATE TABLE public.mdl_qtype_ddmarker_drops (
 );
 
 
-ALTER TABLE public.mdl_qtype_ddmarker_drops OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_ddmarker_drops OWNER TO sister;
 
 --
 -- Name: TABLE mdl_qtype_ddmarker_drops; Type: COMMENT; Schema: public; Owner: sister
@@ -13253,7 +13253,7 @@ CREATE SEQUENCE public.mdl_qtype_ddmarker_drops_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_ddmarker_drops_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_ddmarker_drops_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_qtype_ddmarker_drops_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13274,7 +13274,7 @@ CREATE SEQUENCE public.mdl_qtype_ddmarker_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_ddmarker_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_ddmarker_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_qtype_ddmarker_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13303,7 +13303,7 @@ CREATE TABLE public.mdl_qtype_essay_options (
 );
 
 
-ALTER TABLE public.mdl_qtype_essay_options OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_essay_options OWNER TO sister;
 
 --
 -- Name: TABLE mdl_qtype_essay_options; Type: COMMENT; Schema: public; Owner: sister
@@ -13324,7 +13324,7 @@ CREATE SEQUENCE public.mdl_qtype_essay_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_essay_options_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_essay_options_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_qtype_essay_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13351,7 +13351,7 @@ CREATE TABLE public.mdl_qtype_match_options (
 );
 
 
-ALTER TABLE public.mdl_qtype_match_options OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_match_options OWNER TO sister;
 
 --
 -- Name: TABLE mdl_qtype_match_options; Type: COMMENT; Schema: public; Owner: sister
@@ -13372,7 +13372,7 @@ CREATE SEQUENCE public.mdl_qtype_match_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_match_options_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_match_options_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_qtype_match_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13394,7 +13394,7 @@ CREATE TABLE public.mdl_qtype_match_subquestions (
 );
 
 
-ALTER TABLE public.mdl_qtype_match_subquestions OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_match_subquestions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_qtype_match_subquestions; Type: COMMENT; Schema: public; Owner: sister
@@ -13415,7 +13415,7 @@ CREATE SEQUENCE public.mdl_qtype_match_subquestions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_match_subquestions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_match_subquestions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_qtype_match_subquestions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13445,7 +13445,7 @@ CREATE TABLE public.mdl_qtype_multichoice_options (
 );
 
 
-ALTER TABLE public.mdl_qtype_multichoice_options OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_multichoice_options OWNER TO sister;
 
 --
 -- Name: TABLE mdl_qtype_multichoice_options; Type: COMMENT; Schema: public; Owner: sister
@@ -13466,7 +13466,7 @@ CREATE SEQUENCE public.mdl_qtype_multichoice_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_multichoice_options_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_multichoice_options_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_qtype_multichoice_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13494,7 +13494,7 @@ CREATE TABLE public.mdl_qtype_randomsamatch_options (
 );
 
 
-ALTER TABLE public.mdl_qtype_randomsamatch_options OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_randomsamatch_options OWNER TO sister;
 
 --
 -- Name: TABLE mdl_qtype_randomsamatch_options; Type: COMMENT; Schema: public; Owner: sister
@@ -13515,7 +13515,7 @@ CREATE SEQUENCE public.mdl_qtype_randomsamatch_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_randomsamatch_options_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_randomsamatch_options_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_qtype_randomsamatch_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13535,7 +13535,7 @@ CREATE TABLE public.mdl_qtype_shortanswer_options (
 );
 
 
-ALTER TABLE public.mdl_qtype_shortanswer_options OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_shortanswer_options OWNER TO sister;
 
 --
 -- Name: TABLE mdl_qtype_shortanswer_options; Type: COMMENT; Schema: public; Owner: sister
@@ -13556,7 +13556,7 @@ CREATE SEQUENCE public.mdl_qtype_shortanswer_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_shortanswer_options_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_qtype_shortanswer_options_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_qtype_shortanswer_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13593,7 +13593,7 @@ CREATE TABLE public.mdl_question (
 );
 
 
-ALTER TABLE public.mdl_question OWNER TO moodle;
+ALTER TABLE public.mdl_question OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question; Type: COMMENT; Schema: public; Owner: sister
@@ -13617,7 +13617,7 @@ CREATE TABLE public.mdl_question_answers (
 );
 
 
-ALTER TABLE public.mdl_question_answers OWNER TO moodle;
+ALTER TABLE public.mdl_question_answers OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_answers; Type: COMMENT; Schema: public; Owner: sister
@@ -13638,7 +13638,7 @@ CREATE SEQUENCE public.mdl_question_answers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_answers_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_answers_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_answers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13659,7 +13659,7 @@ CREATE TABLE public.mdl_question_attempt_step_data (
 );
 
 
-ALTER TABLE public.mdl_question_attempt_step_data OWNER TO moodle;
+ALTER TABLE public.mdl_question_attempt_step_data OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_attempt_step_data; Type: COMMENT; Schema: public; Owner: sister
@@ -13680,7 +13680,7 @@ CREATE SEQUENCE public.mdl_question_attempt_step_data_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_attempt_step_data_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_attempt_step_data_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_attempt_step_data_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13704,7 +13704,7 @@ CREATE TABLE public.mdl_question_attempt_steps (
 );
 
 
-ALTER TABLE public.mdl_question_attempt_steps OWNER TO moodle;
+ALTER TABLE public.mdl_question_attempt_steps OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_attempt_steps; Type: COMMENT; Schema: public; Owner: sister
@@ -13725,7 +13725,7 @@ CREATE SEQUENCE public.mdl_question_attempt_steps_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_attempt_steps_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_attempt_steps_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_attempt_steps_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13756,7 +13756,7 @@ CREATE TABLE public.mdl_question_attempts (
 );
 
 
-ALTER TABLE public.mdl_question_attempts OWNER TO moodle;
+ALTER TABLE public.mdl_question_attempts OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_attempts; Type: COMMENT; Schema: public; Owner: sister
@@ -13777,7 +13777,7 @@ CREATE SEQUENCE public.mdl_question_attempts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_attempts_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_attempts_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_attempts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13801,7 +13801,7 @@ CREATE TABLE public.mdl_question_calculated (
 );
 
 
-ALTER TABLE public.mdl_question_calculated OWNER TO moodle;
+ALTER TABLE public.mdl_question_calculated OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_calculated; Type: COMMENT; Schema: public; Owner: sister
@@ -13822,7 +13822,7 @@ CREATE SEQUENCE public.mdl_question_calculated_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_calculated_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_calculated_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_calculated_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13852,7 +13852,7 @@ CREATE TABLE public.mdl_question_calculated_options (
 );
 
 
-ALTER TABLE public.mdl_question_calculated_options OWNER TO moodle;
+ALTER TABLE public.mdl_question_calculated_options OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_calculated_options; Type: COMMENT; Schema: public; Owner: sister
@@ -13873,7 +13873,7 @@ CREATE SEQUENCE public.mdl_question_calculated_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_calculated_options_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_calculated_options_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_calculated_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13899,7 +13899,7 @@ CREATE TABLE public.mdl_question_categories (
 );
 
 
-ALTER TABLE public.mdl_question_categories OWNER TO moodle;
+ALTER TABLE public.mdl_question_categories OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_categories; Type: COMMENT; Schema: public; Owner: sister
@@ -13920,7 +13920,7 @@ CREATE SEQUENCE public.mdl_question_categories_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_categories_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_categories_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_categories_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13943,7 +13943,7 @@ CREATE TABLE public.mdl_question_dataset_definitions (
 );
 
 
-ALTER TABLE public.mdl_question_dataset_definitions OWNER TO moodle;
+ALTER TABLE public.mdl_question_dataset_definitions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_dataset_definitions; Type: COMMENT; Schema: public; Owner: sister
@@ -13964,7 +13964,7 @@ CREATE SEQUENCE public.mdl_question_dataset_definitions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_dataset_definitions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_dataset_definitions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_dataset_definitions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13985,7 +13985,7 @@ CREATE TABLE public.mdl_question_dataset_items (
 );
 
 
-ALTER TABLE public.mdl_question_dataset_items OWNER TO moodle;
+ALTER TABLE public.mdl_question_dataset_items OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_dataset_items; Type: COMMENT; Schema: public; Owner: sister
@@ -14006,7 +14006,7 @@ CREATE SEQUENCE public.mdl_question_dataset_items_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_dataset_items_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_dataset_items_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_dataset_items_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14026,7 +14026,7 @@ CREATE TABLE public.mdl_question_datasets (
 );
 
 
-ALTER TABLE public.mdl_question_datasets OWNER TO moodle;
+ALTER TABLE public.mdl_question_datasets OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_datasets; Type: COMMENT; Schema: public; Owner: sister
@@ -14047,7 +14047,7 @@ CREATE SEQUENCE public.mdl_question_datasets_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_datasets_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_datasets_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_datasets_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14074,7 +14074,7 @@ CREATE TABLE public.mdl_question_ddwtos (
 );
 
 
-ALTER TABLE public.mdl_question_ddwtos OWNER TO moodle;
+ALTER TABLE public.mdl_question_ddwtos OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_ddwtos; Type: COMMENT; Schema: public; Owner: sister
@@ -14095,7 +14095,7 @@ CREATE SEQUENCE public.mdl_question_ddwtos_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_ddwtos_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_ddwtos_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_ddwtos_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14122,7 +14122,7 @@ CREATE TABLE public.mdl_question_gapselect (
 );
 
 
-ALTER TABLE public.mdl_question_gapselect OWNER TO moodle;
+ALTER TABLE public.mdl_question_gapselect OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_gapselect; Type: COMMENT; Schema: public; Owner: sister
@@ -14143,7 +14143,7 @@ CREATE SEQUENCE public.mdl_question_gapselect_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_gapselect_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_gapselect_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_gapselect_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14167,7 +14167,7 @@ CREATE TABLE public.mdl_question_hints (
 );
 
 
-ALTER TABLE public.mdl_question_hints OWNER TO moodle;
+ALTER TABLE public.mdl_question_hints OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_hints; Type: COMMENT; Schema: public; Owner: sister
@@ -14188,7 +14188,7 @@ CREATE SEQUENCE public.mdl_question_hints_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_hints_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_hints_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_hints_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14209,7 +14209,7 @@ CREATE SEQUENCE public.mdl_question_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14229,7 +14229,7 @@ CREATE TABLE public.mdl_question_multianswer (
 );
 
 
-ALTER TABLE public.mdl_question_multianswer OWNER TO moodle;
+ALTER TABLE public.mdl_question_multianswer OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_multianswer; Type: COMMENT; Schema: public; Owner: sister
@@ -14250,7 +14250,7 @@ CREATE SEQUENCE public.mdl_question_multianswer_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_multianswer_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_multianswer_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_multianswer_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14271,7 +14271,7 @@ CREATE TABLE public.mdl_question_numerical (
 );
 
 
-ALTER TABLE public.mdl_question_numerical OWNER TO moodle;
+ALTER TABLE public.mdl_question_numerical OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_numerical; Type: COMMENT; Schema: public; Owner: sister
@@ -14292,7 +14292,7 @@ CREATE SEQUENCE public.mdl_question_numerical_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_numerical_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_numerical_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_numerical_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14315,7 +14315,7 @@ CREATE TABLE public.mdl_question_numerical_options (
 );
 
 
-ALTER TABLE public.mdl_question_numerical_options OWNER TO moodle;
+ALTER TABLE public.mdl_question_numerical_options OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_numerical_options; Type: COMMENT; Schema: public; Owner: sister
@@ -14336,7 +14336,7 @@ CREATE SEQUENCE public.mdl_question_numerical_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_numerical_options_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_numerical_options_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_numerical_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14357,7 +14357,7 @@ CREATE TABLE public.mdl_question_numerical_units (
 );
 
 
-ALTER TABLE public.mdl_question_numerical_units OWNER TO moodle;
+ALTER TABLE public.mdl_question_numerical_units OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_numerical_units; Type: COMMENT; Schema: public; Owner: sister
@@ -14378,7 +14378,7 @@ CREATE SEQUENCE public.mdl_question_numerical_units_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_numerical_units_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_numerical_units_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_numerical_units_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14405,7 +14405,7 @@ CREATE TABLE public.mdl_question_response_analysis (
 );
 
 
-ALTER TABLE public.mdl_question_response_analysis OWNER TO moodle;
+ALTER TABLE public.mdl_question_response_analysis OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_response_analysis; Type: COMMENT; Schema: public; Owner: sister
@@ -14426,7 +14426,7 @@ CREATE SEQUENCE public.mdl_question_response_analysis_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_response_analysis_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_response_analysis_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_response_analysis_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14447,7 +14447,7 @@ CREATE TABLE public.mdl_question_response_count (
 );
 
 
-ALTER TABLE public.mdl_question_response_count OWNER TO moodle;
+ALTER TABLE public.mdl_question_response_count OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_response_count; Type: COMMENT; Schema: public; Owner: sister
@@ -14468,7 +14468,7 @@ CREATE SEQUENCE public.mdl_question_response_count_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_response_count_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_response_count_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_response_count_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14503,7 +14503,7 @@ CREATE TABLE public.mdl_question_statistics (
 );
 
 
-ALTER TABLE public.mdl_question_statistics OWNER TO moodle;
+ALTER TABLE public.mdl_question_statistics OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_statistics; Type: COMMENT; Schema: public; Owner: sister
@@ -14524,7 +14524,7 @@ CREATE SEQUENCE public.mdl_question_statistics_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_statistics_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_statistics_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_statistics_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14545,7 +14545,7 @@ CREATE TABLE public.mdl_question_truefalse (
 );
 
 
-ALTER TABLE public.mdl_question_truefalse OWNER TO moodle;
+ALTER TABLE public.mdl_question_truefalse OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_truefalse; Type: COMMENT; Schema: public; Owner: sister
@@ -14566,7 +14566,7 @@ CREATE SEQUENCE public.mdl_question_truefalse_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_truefalse_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_truefalse_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_truefalse_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14587,7 +14587,7 @@ CREATE TABLE public.mdl_question_usages (
 );
 
 
-ALTER TABLE public.mdl_question_usages OWNER TO moodle;
+ALTER TABLE public.mdl_question_usages OWNER TO sister;
 
 --
 -- Name: TABLE mdl_question_usages; Type: COMMENT; Schema: public; Owner: sister
@@ -14608,7 +14608,7 @@ CREATE SEQUENCE public.mdl_question_usages_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_usages_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_question_usages_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_question_usages_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14644,7 +14644,7 @@ CREATE TABLE public.mdl_questionnaire (
 );
 
 
-ALTER TABLE public.mdl_questionnaire OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire; Type: COMMENT; Schema: public; Owner: sister
@@ -14668,7 +14668,7 @@ CREATE TABLE public.mdl_questionnaire_dependency (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_dependency OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_dependency OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_dependency; Type: COMMENT; Schema: public; Owner: sister
@@ -14689,7 +14689,7 @@ CREATE SEQUENCE public.mdl_questionnaire_dependency_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_dependency_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_dependency_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_dependency_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14713,7 +14713,7 @@ CREATE TABLE public.mdl_questionnaire_fb_sections (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_fb_sections OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_fb_sections OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_fb_sections; Type: COMMENT; Schema: public; Owner: sister
@@ -14734,7 +14734,7 @@ CREATE SEQUENCE public.mdl_questionnaire_fb_sections_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_fb_sections_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_fb_sections_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_fb_sections_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14758,7 +14758,7 @@ CREATE TABLE public.mdl_questionnaire_feedback (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_feedback OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_feedback OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_feedback; Type: COMMENT; Schema: public; Owner: sister
@@ -14779,7 +14779,7 @@ CREATE SEQUENCE public.mdl_questionnaire_feedback_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_feedback_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_feedback_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_feedback_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14800,7 +14800,7 @@ CREATE SEQUENCE public.mdl_questionnaire_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14821,7 +14821,7 @@ CREATE TABLE public.mdl_questionnaire_quest_choice (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_quest_choice OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_quest_choice OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_quest_choice; Type: COMMENT; Schema: public; Owner: sister
@@ -14842,7 +14842,7 @@ CREATE SEQUENCE public.mdl_questionnaire_quest_choice_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_quest_choice_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_quest_choice_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_quest_choice_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14871,7 +14871,7 @@ CREATE TABLE public.mdl_questionnaire_question (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_question OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_question OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_question; Type: COMMENT; Schema: public; Owner: sister
@@ -14892,7 +14892,7 @@ CREATE SEQUENCE public.mdl_questionnaire_question_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_question_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_question_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_question_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14914,7 +14914,7 @@ CREATE TABLE public.mdl_questionnaire_question_type (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_question_type OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_question_type OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_question_type; Type: COMMENT; Schema: public; Owner: sister
@@ -14935,7 +14935,7 @@ CREATE SEQUENCE public.mdl_questionnaire_question_type_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_question_type_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_question_type_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_question_type_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14956,7 +14956,7 @@ CREATE TABLE public.mdl_questionnaire_resp_multiple (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_resp_multiple OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_resp_multiple OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_resp_multiple; Type: COMMENT; Schema: public; Owner: sister
@@ -14977,7 +14977,7 @@ CREATE SEQUENCE public.mdl_questionnaire_resp_multiple_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_resp_multiple_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_resp_multiple_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_resp_multiple_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14998,7 +14998,7 @@ CREATE TABLE public.mdl_questionnaire_resp_single (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_resp_single OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_resp_single OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_resp_single; Type: COMMENT; Schema: public; Owner: sister
@@ -15019,7 +15019,7 @@ CREATE SEQUENCE public.mdl_questionnaire_resp_single_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_resp_single_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_resp_single_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_resp_single_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15042,7 +15042,7 @@ CREATE TABLE public.mdl_questionnaire_response (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_response OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_response OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_response; Type: COMMENT; Schema: public; Owner: sister
@@ -15063,7 +15063,7 @@ CREATE TABLE public.mdl_questionnaire_response_bool (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_response_bool OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_response_bool OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_response_bool; Type: COMMENT; Schema: public; Owner: sister
@@ -15084,7 +15084,7 @@ CREATE SEQUENCE public.mdl_questionnaire_response_bool_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_response_bool_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_response_bool_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_response_bool_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15105,7 +15105,7 @@ CREATE TABLE public.mdl_questionnaire_response_date (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_response_date OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_response_date OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_response_date; Type: COMMENT; Schema: public; Owner: sister
@@ -15126,7 +15126,7 @@ CREATE SEQUENCE public.mdl_questionnaire_response_date_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_response_date_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_response_date_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_response_date_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15147,7 +15147,7 @@ CREATE SEQUENCE public.mdl_questionnaire_response_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_response_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_response_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_response_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15169,7 +15169,7 @@ CREATE TABLE public.mdl_questionnaire_response_other (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_response_other OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_response_other OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_response_other; Type: COMMENT; Schema: public; Owner: sister
@@ -15190,7 +15190,7 @@ CREATE SEQUENCE public.mdl_questionnaire_response_other_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_response_other_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_response_other_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_response_other_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15212,7 +15212,7 @@ CREATE TABLE public.mdl_questionnaire_response_rank (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_response_rank OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_response_rank OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_response_rank; Type: COMMENT; Schema: public; Owner: sister
@@ -15233,7 +15233,7 @@ CREATE SEQUENCE public.mdl_questionnaire_response_rank_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_response_rank_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_response_rank_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_response_rank_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15254,7 +15254,7 @@ CREATE TABLE public.mdl_questionnaire_response_text (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_response_text OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_response_text OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_response_text; Type: COMMENT; Schema: public; Owner: sister
@@ -15275,7 +15275,7 @@ CREATE SEQUENCE public.mdl_questionnaire_response_text_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_response_text_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_response_text_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_response_text_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15309,7 +15309,7 @@ CREATE TABLE public.mdl_questionnaire_survey (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_survey OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_survey OWNER TO sister;
 
 --
 -- Name: TABLE mdl_questionnaire_survey; Type: COMMENT; Schema: public; Owner: sister
@@ -15330,7 +15330,7 @@ CREATE SEQUENCE public.mdl_questionnaire_survey_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_survey_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_questionnaire_survey_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_questionnaire_survey_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15388,7 +15388,7 @@ CREATE TABLE public.mdl_quiz (
 );
 
 
-ALTER TABLE public.mdl_quiz OWNER TO moodle;
+ALTER TABLE public.mdl_quiz OWNER TO sister;
 
 --
 -- Name: TABLE mdl_quiz; Type: COMMENT; Schema: public; Owner: sister
@@ -15420,7 +15420,7 @@ CREATE TABLE public.mdl_quiz_attempts (
 );
 
 
-ALTER TABLE public.mdl_quiz_attempts OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_attempts OWNER TO sister;
 
 --
 -- Name: TABLE mdl_quiz_attempts; Type: COMMENT; Schema: public; Owner: sister
@@ -15441,7 +15441,7 @@ CREATE SEQUENCE public.mdl_quiz_attempts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_attempts_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_attempts_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_quiz_attempts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15464,7 +15464,7 @@ CREATE TABLE public.mdl_quiz_feedback (
 );
 
 
-ALTER TABLE public.mdl_quiz_feedback OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_feedback OWNER TO sister;
 
 --
 -- Name: TABLE mdl_quiz_feedback; Type: COMMENT; Schema: public; Owner: sister
@@ -15485,7 +15485,7 @@ CREATE SEQUENCE public.mdl_quiz_feedback_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_feedback_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_feedback_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_quiz_feedback_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15507,7 +15507,7 @@ CREATE TABLE public.mdl_quiz_grades (
 );
 
 
-ALTER TABLE public.mdl_quiz_grades OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_grades OWNER TO sister;
 
 --
 -- Name: TABLE mdl_quiz_grades; Type: COMMENT; Schema: public; Owner: sister
@@ -15528,7 +15528,7 @@ CREATE SEQUENCE public.mdl_quiz_grades_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_grades_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_grades_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_quiz_grades_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15549,7 +15549,7 @@ CREATE SEQUENCE public.mdl_quiz_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_quiz_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15575,7 +15575,7 @@ CREATE TABLE public.mdl_quiz_overrides (
 );
 
 
-ALTER TABLE public.mdl_quiz_overrides OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_overrides OWNER TO sister;
 
 --
 -- Name: TABLE mdl_quiz_overrides; Type: COMMENT; Schema: public; Owner: sister
@@ -15596,7 +15596,7 @@ CREATE SEQUENCE public.mdl_quiz_overrides_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_overrides_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_overrides_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_quiz_overrides_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15620,7 +15620,7 @@ CREATE TABLE public.mdl_quiz_overview_regrades (
 );
 
 
-ALTER TABLE public.mdl_quiz_overview_regrades OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_overview_regrades OWNER TO sister;
 
 --
 -- Name: TABLE mdl_quiz_overview_regrades; Type: COMMENT; Schema: public; Owner: sister
@@ -15641,7 +15641,7 @@ CREATE SEQUENCE public.mdl_quiz_overview_regrades_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_overview_regrades_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_overview_regrades_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_quiz_overview_regrades_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15662,7 +15662,7 @@ CREATE TABLE public.mdl_quiz_reports (
 );
 
 
-ALTER TABLE public.mdl_quiz_reports OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_reports OWNER TO sister;
 
 --
 -- Name: TABLE mdl_quiz_reports; Type: COMMENT; Schema: public; Owner: sister
@@ -15683,7 +15683,7 @@ CREATE SEQUENCE public.mdl_quiz_reports_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_reports_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_reports_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_quiz_reports_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15705,7 +15705,7 @@ CREATE TABLE public.mdl_quiz_sections (
 );
 
 
-ALTER TABLE public.mdl_quiz_sections OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_sections OWNER TO sister;
 
 --
 -- Name: TABLE mdl_quiz_sections; Type: COMMENT; Schema: public; Owner: sister
@@ -15726,7 +15726,7 @@ CREATE SEQUENCE public.mdl_quiz_sections_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_sections_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_sections_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_quiz_sections_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15747,7 +15747,7 @@ CREATE TABLE public.mdl_quiz_slot_tags (
 );
 
 
-ALTER TABLE public.mdl_quiz_slot_tags OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_slot_tags OWNER TO sister;
 
 --
 -- Name: TABLE mdl_quiz_slot_tags; Type: COMMENT; Schema: public; Owner: sister
@@ -15768,7 +15768,7 @@ CREATE SEQUENCE public.mdl_quiz_slot_tags_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_slot_tags_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_slot_tags_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_quiz_slot_tags_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15794,7 +15794,7 @@ CREATE TABLE public.mdl_quiz_slots (
 );
 
 
-ALTER TABLE public.mdl_quiz_slots OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_slots OWNER TO sister;
 
 --
 -- Name: TABLE mdl_quiz_slots; Type: COMMENT; Schema: public; Owner: sister
@@ -15815,7 +15815,7 @@ CREATE SEQUENCE public.mdl_quiz_slots_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_slots_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_slots_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_quiz_slots_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15851,7 +15851,7 @@ CREATE TABLE public.mdl_quiz_statistics (
 );
 
 
-ALTER TABLE public.mdl_quiz_statistics OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_statistics OWNER TO sister;
 
 --
 -- Name: TABLE mdl_quiz_statistics; Type: COMMENT; Schema: public; Owner: sister
@@ -15872,7 +15872,7 @@ CREATE SEQUENCE public.mdl_quiz_statistics_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_statistics_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_quiz_statistics_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_quiz_statistics_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15899,7 +15899,7 @@ CREATE TABLE public.mdl_rating (
 );
 
 
-ALTER TABLE public.mdl_rating OWNER TO moodle;
+ALTER TABLE public.mdl_rating OWNER TO sister;
 
 --
 -- Name: TABLE mdl_rating; Type: COMMENT; Schema: public; Owner: sister
@@ -15920,7 +15920,7 @@ CREATE SEQUENCE public.mdl_rating_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_rating_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_rating_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_rating_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15944,7 +15944,7 @@ CREATE TABLE public.mdl_registration_hubs (
 );
 
 
-ALTER TABLE public.mdl_registration_hubs OWNER TO moodle;
+ALTER TABLE public.mdl_registration_hubs OWNER TO sister;
 
 --
 -- Name: TABLE mdl_registration_hubs; Type: COMMENT; Schema: public; Owner: sister
@@ -15965,7 +15965,7 @@ CREATE SEQUENCE public.mdl_registration_hubs_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_registration_hubs_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_registration_hubs_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_registration_hubs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15986,7 +15986,7 @@ CREATE TABLE public.mdl_repository (
 );
 
 
-ALTER TABLE public.mdl_repository OWNER TO moodle;
+ALTER TABLE public.mdl_repository OWNER TO sister;
 
 --
 -- Name: TABLE mdl_repository; Type: COMMENT; Schema: public; Owner: sister
@@ -16007,7 +16007,7 @@ CREATE SEQUENCE public.mdl_repository_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_repository_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_repository_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_repository_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16028,7 +16028,7 @@ CREATE TABLE public.mdl_repository_instance_config (
 );
 
 
-ALTER TABLE public.mdl_repository_instance_config OWNER TO moodle;
+ALTER TABLE public.mdl_repository_instance_config OWNER TO sister;
 
 --
 -- Name: TABLE mdl_repository_instance_config; Type: COMMENT; Schema: public; Owner: sister
@@ -16049,7 +16049,7 @@ CREATE SEQUENCE public.mdl_repository_instance_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_repository_instance_config_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_repository_instance_config_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_repository_instance_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16076,7 +16076,7 @@ CREATE TABLE public.mdl_repository_instances (
 );
 
 
-ALTER TABLE public.mdl_repository_instances OWNER TO moodle;
+ALTER TABLE public.mdl_repository_instances OWNER TO sister;
 
 --
 -- Name: TABLE mdl_repository_instances; Type: COMMENT; Schema: public; Owner: sister
@@ -16097,7 +16097,7 @@ CREATE SEQUENCE public.mdl_repository_instances_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_repository_instances_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_repository_instances_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_repository_instances_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16127,7 +16127,7 @@ CREATE TABLE public.mdl_resource (
 );
 
 
-ALTER TABLE public.mdl_resource OWNER TO moodle;
+ALTER TABLE public.mdl_resource OWNER TO sister;
 
 --
 -- Name: TABLE mdl_resource; Type: COMMENT; Schema: public; Owner: sister
@@ -16148,7 +16148,7 @@ CREATE SEQUENCE public.mdl_resource_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_resource_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_resource_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_resource_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16181,7 +16181,7 @@ CREATE TABLE public.mdl_resource_old (
 );
 
 
-ALTER TABLE public.mdl_resource_old OWNER TO moodle;
+ALTER TABLE public.mdl_resource_old OWNER TO sister;
 
 --
 -- Name: TABLE mdl_resource_old; Type: COMMENT; Schema: public; Owner: sister
@@ -16202,7 +16202,7 @@ CREATE SEQUENCE public.mdl_resource_old_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_resource_old_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_resource_old_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_resource_old_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16225,7 +16225,7 @@ CREATE TABLE public.mdl_role (
 );
 
 
-ALTER TABLE public.mdl_role OWNER TO moodle;
+ALTER TABLE public.mdl_role OWNER TO sister;
 
 --
 -- Name: TABLE mdl_role; Type: COMMENT; Schema: public; Owner: sister
@@ -16245,7 +16245,7 @@ CREATE TABLE public.mdl_role_allow_assign (
 );
 
 
-ALTER TABLE public.mdl_role_allow_assign OWNER TO moodle;
+ALTER TABLE public.mdl_role_allow_assign OWNER TO sister;
 
 --
 -- Name: TABLE mdl_role_allow_assign; Type: COMMENT; Schema: public; Owner: sister
@@ -16266,7 +16266,7 @@ CREATE SEQUENCE public.mdl_role_allow_assign_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_allow_assign_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_role_allow_assign_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_role_allow_assign_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16286,7 +16286,7 @@ CREATE TABLE public.mdl_role_allow_override (
 );
 
 
-ALTER TABLE public.mdl_role_allow_override OWNER TO moodle;
+ALTER TABLE public.mdl_role_allow_override OWNER TO sister;
 
 --
 -- Name: TABLE mdl_role_allow_override; Type: COMMENT; Schema: public; Owner: sister
@@ -16307,7 +16307,7 @@ CREATE SEQUENCE public.mdl_role_allow_override_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_allow_override_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_role_allow_override_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_role_allow_override_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16327,7 +16327,7 @@ CREATE TABLE public.mdl_role_allow_switch (
 );
 
 
-ALTER TABLE public.mdl_role_allow_switch OWNER TO moodle;
+ALTER TABLE public.mdl_role_allow_switch OWNER TO sister;
 
 --
 -- Name: TABLE mdl_role_allow_switch; Type: COMMENT; Schema: public; Owner: sister
@@ -16348,7 +16348,7 @@ CREATE SEQUENCE public.mdl_role_allow_switch_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_allow_switch_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_role_allow_switch_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_role_allow_switch_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16368,7 +16368,7 @@ CREATE TABLE public.mdl_role_allow_view (
 );
 
 
-ALTER TABLE public.mdl_role_allow_view OWNER TO moodle;
+ALTER TABLE public.mdl_role_allow_view OWNER TO sister;
 
 --
 -- Name: TABLE mdl_role_allow_view; Type: COMMENT; Schema: public; Owner: sister
@@ -16389,7 +16389,7 @@ CREATE SEQUENCE public.mdl_role_allow_view_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_allow_view_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_role_allow_view_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_role_allow_view_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16415,7 +16415,7 @@ CREATE TABLE public.mdl_role_assignments (
 );
 
 
-ALTER TABLE public.mdl_role_assignments OWNER TO moodle;
+ALTER TABLE public.mdl_role_assignments OWNER TO sister;
 
 --
 -- Name: TABLE mdl_role_assignments; Type: COMMENT; Schema: public; Owner: sister
@@ -16436,7 +16436,7 @@ CREATE SEQUENCE public.mdl_role_assignments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_assignments_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_role_assignments_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_role_assignments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16460,7 +16460,7 @@ CREATE TABLE public.mdl_role_capabilities (
 );
 
 
-ALTER TABLE public.mdl_role_capabilities OWNER TO moodle;
+ALTER TABLE public.mdl_role_capabilities OWNER TO sister;
 
 --
 -- Name: TABLE mdl_role_capabilities; Type: COMMENT; Schema: public; Owner: sister
@@ -16481,7 +16481,7 @@ CREATE SEQUENCE public.mdl_role_capabilities_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_capabilities_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_role_capabilities_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_role_capabilities_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16501,7 +16501,7 @@ CREATE TABLE public.mdl_role_context_levels (
 );
 
 
-ALTER TABLE public.mdl_role_context_levels OWNER TO moodle;
+ALTER TABLE public.mdl_role_context_levels OWNER TO sister;
 
 --
 -- Name: TABLE mdl_role_context_levels; Type: COMMENT; Schema: public; Owner: sister
@@ -16522,7 +16522,7 @@ CREATE SEQUENCE public.mdl_role_context_levels_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_context_levels_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_role_context_levels_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_role_context_levels_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16543,7 +16543,7 @@ CREATE SEQUENCE public.mdl_role_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_role_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_role_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16564,7 +16564,7 @@ CREATE TABLE public.mdl_role_names (
 );
 
 
-ALTER TABLE public.mdl_role_names OWNER TO moodle;
+ALTER TABLE public.mdl_role_names OWNER TO sister;
 
 --
 -- Name: TABLE mdl_role_names; Type: COMMENT; Schema: public; Owner: sister
@@ -16585,7 +16585,7 @@ CREATE SEQUENCE public.mdl_role_names_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_names_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_role_names_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_role_names_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16607,7 +16607,7 @@ CREATE TABLE public.mdl_role_sortorder (
 );
 
 
-ALTER TABLE public.mdl_role_sortorder OWNER TO moodle;
+ALTER TABLE public.mdl_role_sortorder OWNER TO sister;
 
 --
 -- Name: TABLE mdl_role_sortorder; Type: COMMENT; Schema: public; Owner: sister
@@ -16628,7 +16628,7 @@ CREATE SEQUENCE public.mdl_role_sortorder_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_sortorder_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_role_sortorder_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_role_sortorder_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16653,7 +16653,7 @@ CREATE TABLE public.mdl_scale (
 );
 
 
-ALTER TABLE public.mdl_scale OWNER TO moodle;
+ALTER TABLE public.mdl_scale OWNER TO sister;
 
 --
 -- Name: TABLE mdl_scale; Type: COMMENT; Schema: public; Owner: sister
@@ -16681,7 +16681,7 @@ CREATE TABLE public.mdl_scale_history (
 );
 
 
-ALTER TABLE public.mdl_scale_history OWNER TO moodle;
+ALTER TABLE public.mdl_scale_history OWNER TO sister;
 
 --
 -- Name: TABLE mdl_scale_history; Type: COMMENT; Schema: public; Owner: sister
@@ -16702,7 +16702,7 @@ CREATE SEQUENCE public.mdl_scale_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scale_history_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_scale_history_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_scale_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16723,7 +16723,7 @@ CREATE SEQUENCE public.mdl_scale_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scale_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_scale_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_scale_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16782,7 +16782,7 @@ CREATE TABLE public.mdl_scorm (
 );
 
 
-ALTER TABLE public.mdl_scorm OWNER TO moodle;
+ALTER TABLE public.mdl_scorm OWNER TO sister;
 
 --
 -- Name: TABLE mdl_scorm; Type: COMMENT; Schema: public; Owner: sister
@@ -16811,7 +16811,7 @@ CREATE TABLE public.mdl_scorm_aicc_session (
 );
 
 
-ALTER TABLE public.mdl_scorm_aicc_session OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_aicc_session OWNER TO sister;
 
 --
 -- Name: TABLE mdl_scorm_aicc_session; Type: COMMENT; Schema: public; Owner: sister
@@ -16832,7 +16832,7 @@ CREATE SEQUENCE public.mdl_scorm_aicc_session_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_aicc_session_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_aicc_session_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_scorm_aicc_session_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16853,7 +16853,7 @@ CREATE SEQUENCE public.mdl_scorm_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_scorm_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16880,7 +16880,7 @@ CREATE TABLE public.mdl_scorm_scoes (
 );
 
 
-ALTER TABLE public.mdl_scorm_scoes OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_scoes OWNER TO sister;
 
 --
 -- Name: TABLE mdl_scorm_scoes; Type: COMMENT; Schema: public; Owner: sister
@@ -16901,7 +16901,7 @@ CREATE TABLE public.mdl_scorm_scoes_data (
 );
 
 
-ALTER TABLE public.mdl_scorm_scoes_data OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_scoes_data OWNER TO sister;
 
 --
 -- Name: TABLE mdl_scorm_scoes_data; Type: COMMENT; Schema: public; Owner: sister
@@ -16922,7 +16922,7 @@ CREATE SEQUENCE public.mdl_scorm_scoes_data_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_scoes_data_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_scoes_data_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_scorm_scoes_data_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16943,7 +16943,7 @@ CREATE SEQUENCE public.mdl_scorm_scoes_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_scoes_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_scoes_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_scorm_scoes_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16968,7 +16968,7 @@ CREATE TABLE public.mdl_scorm_scoes_track (
 );
 
 
-ALTER TABLE public.mdl_scorm_scoes_track OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_scoes_track OWNER TO sister;
 
 --
 -- Name: TABLE mdl_scorm_scoes_track; Type: COMMENT; Schema: public; Owner: sister
@@ -16989,7 +16989,7 @@ CREATE SEQUENCE public.mdl_scorm_scoes_track_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_scoes_track_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_scoes_track_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_scorm_scoes_track_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17014,7 +17014,7 @@ CREATE TABLE public.mdl_scorm_seq_mapinfo (
 );
 
 
-ALTER TABLE public.mdl_scorm_seq_mapinfo OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_seq_mapinfo OWNER TO sister;
 
 --
 -- Name: TABLE mdl_scorm_seq_mapinfo; Type: COMMENT; Schema: public; Owner: sister
@@ -17035,7 +17035,7 @@ CREATE SEQUENCE public.mdl_scorm_seq_mapinfo_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_seq_mapinfo_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_seq_mapinfo_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_scorm_seq_mapinfo_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17058,7 +17058,7 @@ CREATE TABLE public.mdl_scorm_seq_objective (
 );
 
 
-ALTER TABLE public.mdl_scorm_seq_objective OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_seq_objective OWNER TO sister;
 
 --
 -- Name: TABLE mdl_scorm_seq_objective; Type: COMMENT; Schema: public; Owner: sister
@@ -17079,7 +17079,7 @@ CREATE SEQUENCE public.mdl_scorm_seq_objective_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_seq_objective_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_seq_objective_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_scorm_seq_objective_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17103,7 +17103,7 @@ CREATE TABLE public.mdl_scorm_seq_rolluprule (
 );
 
 
-ALTER TABLE public.mdl_scorm_seq_rolluprule OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_seq_rolluprule OWNER TO sister;
 
 --
 -- Name: TABLE mdl_scorm_seq_rolluprule; Type: COMMENT; Schema: public; Owner: sister
@@ -17124,7 +17124,7 @@ CREATE SEQUENCE public.mdl_scorm_seq_rolluprule_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_seq_rolluprule_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_seq_rolluprule_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_scorm_seq_rolluprule_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17146,7 +17146,7 @@ CREATE TABLE public.mdl_scorm_seq_rolluprulecond (
 );
 
 
-ALTER TABLE public.mdl_scorm_seq_rolluprulecond OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_seq_rolluprulecond OWNER TO sister;
 
 --
 -- Name: TABLE mdl_scorm_seq_rolluprulecond; Type: COMMENT; Schema: public; Owner: sister
@@ -17167,7 +17167,7 @@ CREATE SEQUENCE public.mdl_scorm_seq_rolluprulecond_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_seq_rolluprulecond_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_seq_rolluprulecond_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_scorm_seq_rolluprulecond_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17191,7 +17191,7 @@ CREATE TABLE public.mdl_scorm_seq_rulecond (
 );
 
 
-ALTER TABLE public.mdl_scorm_seq_rulecond OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_seq_rulecond OWNER TO sister;
 
 --
 -- Name: TABLE mdl_scorm_seq_rulecond; Type: COMMENT; Schema: public; Owner: sister
@@ -17212,7 +17212,7 @@ CREATE SEQUENCE public.mdl_scorm_seq_rulecond_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_seq_rulecond_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_seq_rulecond_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_scorm_seq_rulecond_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17234,7 +17234,7 @@ CREATE TABLE public.mdl_scorm_seq_ruleconds (
 );
 
 
-ALTER TABLE public.mdl_scorm_seq_ruleconds OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_seq_ruleconds OWNER TO sister;
 
 --
 -- Name: TABLE mdl_scorm_seq_ruleconds; Type: COMMENT; Schema: public; Owner: sister
@@ -17255,7 +17255,7 @@ CREATE SEQUENCE public.mdl_scorm_seq_ruleconds_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_seq_ruleconds_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_scorm_seq_ruleconds_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_scorm_seq_ruleconds_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17279,7 +17279,7 @@ CREATE TABLE public.mdl_search_index_requests (
 );
 
 
-ALTER TABLE public.mdl_search_index_requests OWNER TO moodle;
+ALTER TABLE public.mdl_search_index_requests OWNER TO sister;
 
 --
 -- Name: TABLE mdl_search_index_requests; Type: COMMENT; Schema: public; Owner: sister
@@ -17300,7 +17300,7 @@ CREATE SEQUENCE public.mdl_search_index_requests_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_search_index_requests_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_search_index_requests_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_search_index_requests_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17331,7 +17331,7 @@ CREATE TABLE public.mdl_search_simpledb_index (
 );
 
 
-ALTER TABLE public.mdl_search_simpledb_index OWNER TO moodle;
+ALTER TABLE public.mdl_search_simpledb_index OWNER TO sister;
 
 --
 -- Name: TABLE mdl_search_simpledb_index; Type: COMMENT; Schema: public; Owner: sister
@@ -17352,7 +17352,7 @@ CREATE SEQUENCE public.mdl_search_simpledb_index_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_search_simpledb_index_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_search_simpledb_index_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_search_simpledb_index_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17378,7 +17378,7 @@ CREATE TABLE public.mdl_sessions (
 );
 
 
-ALTER TABLE public.mdl_sessions OWNER TO moodle;
+ALTER TABLE public.mdl_sessions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_sessions; Type: COMMENT; Schema: public; Owner: sister
@@ -17399,7 +17399,7 @@ CREATE SEQUENCE public.mdl_sessions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_sessions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_sessions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_sessions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17423,7 +17423,7 @@ CREATE TABLE public.mdl_stats_daily (
 );
 
 
-ALTER TABLE public.mdl_stats_daily OWNER TO moodle;
+ALTER TABLE public.mdl_stats_daily OWNER TO sister;
 
 --
 -- Name: TABLE mdl_stats_daily; Type: COMMENT; Schema: public; Owner: sister
@@ -17444,7 +17444,7 @@ CREATE SEQUENCE public.mdl_stats_daily_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_stats_daily_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_stats_daily_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_stats_daily_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17468,7 +17468,7 @@ CREATE TABLE public.mdl_stats_monthly (
 );
 
 
-ALTER TABLE public.mdl_stats_monthly OWNER TO moodle;
+ALTER TABLE public.mdl_stats_monthly OWNER TO sister;
 
 --
 -- Name: TABLE mdl_stats_monthly; Type: COMMENT; Schema: public; Owner: sister
@@ -17489,7 +17489,7 @@ CREATE SEQUENCE public.mdl_stats_monthly_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_stats_monthly_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_stats_monthly_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_stats_monthly_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17514,7 +17514,7 @@ CREATE TABLE public.mdl_stats_user_daily (
 );
 
 
-ALTER TABLE public.mdl_stats_user_daily OWNER TO moodle;
+ALTER TABLE public.mdl_stats_user_daily OWNER TO sister;
 
 --
 -- Name: TABLE mdl_stats_user_daily; Type: COMMENT; Schema: public; Owner: sister
@@ -17535,7 +17535,7 @@ CREATE SEQUENCE public.mdl_stats_user_daily_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_stats_user_daily_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_stats_user_daily_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_stats_user_daily_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17560,7 +17560,7 @@ CREATE TABLE public.mdl_stats_user_monthly (
 );
 
 
-ALTER TABLE public.mdl_stats_user_monthly OWNER TO moodle;
+ALTER TABLE public.mdl_stats_user_monthly OWNER TO sister;
 
 --
 -- Name: TABLE mdl_stats_user_monthly; Type: COMMENT; Schema: public; Owner: sister
@@ -17581,7 +17581,7 @@ CREATE SEQUENCE public.mdl_stats_user_monthly_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_stats_user_monthly_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_stats_user_monthly_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_stats_user_monthly_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17606,7 +17606,7 @@ CREATE TABLE public.mdl_stats_user_weekly (
 );
 
 
-ALTER TABLE public.mdl_stats_user_weekly OWNER TO moodle;
+ALTER TABLE public.mdl_stats_user_weekly OWNER TO sister;
 
 --
 -- Name: TABLE mdl_stats_user_weekly; Type: COMMENT; Schema: public; Owner: sister
@@ -17627,7 +17627,7 @@ CREATE SEQUENCE public.mdl_stats_user_weekly_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_stats_user_weekly_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_stats_user_weekly_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_stats_user_weekly_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17651,7 +17651,7 @@ CREATE TABLE public.mdl_stats_weekly (
 );
 
 
-ALTER TABLE public.mdl_stats_weekly OWNER TO moodle;
+ALTER TABLE public.mdl_stats_weekly OWNER TO sister;
 
 --
 -- Name: TABLE mdl_stats_weekly; Type: COMMENT; Schema: public; Owner: sister
@@ -17672,7 +17672,7 @@ CREATE SEQUENCE public.mdl_stats_weekly_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_stats_weekly_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_stats_weekly_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_stats_weekly_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17700,7 +17700,7 @@ CREATE TABLE public.mdl_survey (
 );
 
 
-ALTER TABLE public.mdl_survey OWNER TO moodle;
+ALTER TABLE public.mdl_survey OWNER TO sister;
 
 --
 -- Name: TABLE mdl_survey; Type: COMMENT; Schema: public; Owner: sister
@@ -17721,7 +17721,7 @@ CREATE TABLE public.mdl_survey_analysis (
 );
 
 
-ALTER TABLE public.mdl_survey_analysis OWNER TO moodle;
+ALTER TABLE public.mdl_survey_analysis OWNER TO sister;
 
 --
 -- Name: TABLE mdl_survey_analysis; Type: COMMENT; Schema: public; Owner: sister
@@ -17742,7 +17742,7 @@ CREATE SEQUENCE public.mdl_survey_analysis_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_survey_analysis_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_survey_analysis_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_survey_analysis_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17766,7 +17766,7 @@ CREATE TABLE public.mdl_survey_answers (
 );
 
 
-ALTER TABLE public.mdl_survey_answers OWNER TO moodle;
+ALTER TABLE public.mdl_survey_answers OWNER TO sister;
 
 --
 -- Name: TABLE mdl_survey_answers; Type: COMMENT; Schema: public; Owner: sister
@@ -17787,7 +17787,7 @@ CREATE SEQUENCE public.mdl_survey_answers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_survey_answers_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_survey_answers_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_survey_answers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17808,7 +17808,7 @@ CREATE SEQUENCE public.mdl_survey_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_survey_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_survey_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_survey_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17832,7 +17832,7 @@ CREATE TABLE public.mdl_survey_questions (
 );
 
 
-ALTER TABLE public.mdl_survey_questions OWNER TO moodle;
+ALTER TABLE public.mdl_survey_questions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_survey_questions; Type: COMMENT; Schema: public; Owner: sister
@@ -17853,7 +17853,7 @@ CREATE SEQUENCE public.mdl_survey_questions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_survey_questions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_survey_questions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_survey_questions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17880,7 +17880,7 @@ CREATE TABLE public.mdl_tag (
 );
 
 
-ALTER TABLE public.mdl_tag OWNER TO moodle;
+ALTER TABLE public.mdl_tag OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tag; Type: COMMENT; Schema: public; Owner: sister
@@ -17906,7 +17906,7 @@ CREATE TABLE public.mdl_tag_area (
 );
 
 
-ALTER TABLE public.mdl_tag_area OWNER TO moodle;
+ALTER TABLE public.mdl_tag_area OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tag_area; Type: COMMENT; Schema: public; Owner: sister
@@ -17927,7 +17927,7 @@ CREATE SEQUENCE public.mdl_tag_area_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tag_area_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tag_area_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tag_area_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17951,7 +17951,7 @@ CREATE TABLE public.mdl_tag_coll (
 );
 
 
-ALTER TABLE public.mdl_tag_coll OWNER TO moodle;
+ALTER TABLE public.mdl_tag_coll OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tag_coll; Type: COMMENT; Schema: public; Owner: sister
@@ -17972,7 +17972,7 @@ CREATE SEQUENCE public.mdl_tag_coll_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tag_coll_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tag_coll_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tag_coll_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17992,7 +17992,7 @@ CREATE TABLE public.mdl_tag_correlation (
 );
 
 
-ALTER TABLE public.mdl_tag_correlation OWNER TO moodle;
+ALTER TABLE public.mdl_tag_correlation OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tag_correlation; Type: COMMENT; Schema: public; Owner: sister
@@ -18013,7 +18013,7 @@ CREATE SEQUENCE public.mdl_tag_correlation_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tag_correlation_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tag_correlation_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tag_correlation_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18034,7 +18034,7 @@ CREATE SEQUENCE public.mdl_tag_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tag_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tag_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tag_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18061,7 +18061,7 @@ CREATE TABLE public.mdl_tag_instance (
 );
 
 
-ALTER TABLE public.mdl_tag_instance OWNER TO moodle;
+ALTER TABLE public.mdl_tag_instance OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tag_instance; Type: COMMENT; Schema: public; Owner: sister
@@ -18082,7 +18082,7 @@ CREATE SEQUENCE public.mdl_tag_instance_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tag_instance_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tag_instance_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tag_instance_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18107,7 +18107,7 @@ CREATE TABLE public.mdl_task_adhoc (
 );
 
 
-ALTER TABLE public.mdl_task_adhoc OWNER TO moodle;
+ALTER TABLE public.mdl_task_adhoc OWNER TO sister;
 
 --
 -- Name: TABLE mdl_task_adhoc; Type: COMMENT; Schema: public; Owner: sister
@@ -18128,7 +18128,7 @@ CREATE SEQUENCE public.mdl_task_adhoc_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_task_adhoc_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_task_adhoc_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_task_adhoc_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18159,7 +18159,7 @@ CREATE TABLE public.mdl_task_scheduled (
 );
 
 
-ALTER TABLE public.mdl_task_scheduled OWNER TO moodle;
+ALTER TABLE public.mdl_task_scheduled OWNER TO sister;
 
 --
 -- Name: TABLE mdl_task_scheduled; Type: COMMENT; Schema: public; Owner: sister
@@ -18180,7 +18180,7 @@ CREATE SEQUENCE public.mdl_task_scheduled_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_task_scheduled_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_task_scheduled_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_task_scheduled_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18204,7 +18204,7 @@ CREATE TABLE public.mdl_tool_cohortroles (
 );
 
 
-ALTER TABLE public.mdl_tool_cohortroles OWNER TO moodle;
+ALTER TABLE public.mdl_tool_cohortroles OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_cohortroles; Type: COMMENT; Schema: public; Owner: sister
@@ -18225,7 +18225,7 @@ CREATE SEQUENCE public.mdl_tool_cohortroles_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_cohortroles_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_cohortroles_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_cohortroles_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18253,7 +18253,7 @@ CREATE TABLE public.mdl_tool_customlang (
 );
 
 
-ALTER TABLE public.mdl_tool_customlang OWNER TO moodle;
+ALTER TABLE public.mdl_tool_customlang OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_customlang; Type: COMMENT; Schema: public; Owner: sister
@@ -18273,7 +18273,7 @@ CREATE TABLE public.mdl_tool_customlang_components (
 );
 
 
-ALTER TABLE public.mdl_tool_customlang_components OWNER TO moodle;
+ALTER TABLE public.mdl_tool_customlang_components OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_customlang_components; Type: COMMENT; Schema: public; Owner: sister
@@ -18294,7 +18294,7 @@ CREATE SEQUENCE public.mdl_tool_customlang_components_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_customlang_components_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_customlang_components_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_customlang_components_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18315,7 +18315,7 @@ CREATE SEQUENCE public.mdl_tool_customlang_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_customlang_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_customlang_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_customlang_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18339,7 +18339,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_category (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_category OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_category OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_category; Type: COMMENT; Schema: public; Owner: sister
@@ -18360,7 +18360,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_category_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_category_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_category_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_dataprivacy_category_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18386,7 +18386,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_ctxexpired (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_ctxexpired OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_ctxexpired OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_ctxexpired; Type: COMMENT; Schema: public; Owner: sister
@@ -18407,7 +18407,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_ctxexpired_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_ctxexpired_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_ctxexpired_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_dataprivacy_ctxexpired_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18431,7 +18431,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_ctxinstance (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_ctxinstance OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_ctxinstance OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_ctxinstance; Type: COMMENT; Schema: public; Owner: sister
@@ -18452,7 +18452,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_ctxinstance_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_ctxinstance_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_ctxinstance_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_dataprivacy_ctxinstance_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18476,7 +18476,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_ctxlevel (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_ctxlevel OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_ctxlevel OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_ctxlevel; Type: COMMENT; Schema: public; Owner: sister
@@ -18497,7 +18497,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_ctxlevel_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_ctxlevel_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_ctxlevel_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_dataprivacy_ctxlevel_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18525,7 +18525,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_purpose (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_purpose OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_purpose OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_purpose; Type: COMMENT; Schema: public; Owner: sister
@@ -18546,7 +18546,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_purpose_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_purpose_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_purpose_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_dataprivacy_purpose_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18573,7 +18573,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_purposerole (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_purposerole OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_purposerole OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_purposerole; Type: COMMENT; Schema: public; Owner: sister
@@ -18594,7 +18594,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_purposerole_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_purposerole_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_purposerole_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_dataprivacy_purposerole_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18625,7 +18625,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_request (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_request OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_request OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_request; Type: COMMENT; Schema: public; Owner: sister
@@ -18646,7 +18646,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_request_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_request_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_dataprivacy_request_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_dataprivacy_request_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18671,7 +18671,7 @@ CREATE TABLE public.mdl_tool_monitor_events (
 );
 
 
-ALTER TABLE public.mdl_tool_monitor_events OWNER TO moodle;
+ALTER TABLE public.mdl_tool_monitor_events OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_monitor_events; Type: COMMENT; Schema: public; Owner: sister
@@ -18692,7 +18692,7 @@ CREATE SEQUENCE public.mdl_tool_monitor_events_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_monitor_events_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_monitor_events_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_monitor_events_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18713,7 +18713,7 @@ CREATE TABLE public.mdl_tool_monitor_history (
 );
 
 
-ALTER TABLE public.mdl_tool_monitor_history OWNER TO moodle;
+ALTER TABLE public.mdl_tool_monitor_history OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_monitor_history; Type: COMMENT; Schema: public; Owner: sister
@@ -18734,7 +18734,7 @@ CREATE SEQUENCE public.mdl_tool_monitor_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_monitor_history_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_monitor_history_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_monitor_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18765,7 +18765,7 @@ CREATE TABLE public.mdl_tool_monitor_rules (
 );
 
 
-ALTER TABLE public.mdl_tool_monitor_rules OWNER TO moodle;
+ALTER TABLE public.mdl_tool_monitor_rules OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_monitor_rules; Type: COMMENT; Schema: public; Owner: sister
@@ -18786,7 +18786,7 @@ CREATE SEQUENCE public.mdl_tool_monitor_rules_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_monitor_rules_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_monitor_rules_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_monitor_rules_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18811,7 +18811,7 @@ CREATE TABLE public.mdl_tool_monitor_subscriptions (
 );
 
 
-ALTER TABLE public.mdl_tool_monitor_subscriptions OWNER TO moodle;
+ALTER TABLE public.mdl_tool_monitor_subscriptions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_monitor_subscriptions; Type: COMMENT; Schema: public; Owner: sister
@@ -18832,7 +18832,7 @@ CREATE SEQUENCE public.mdl_tool_monitor_subscriptions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_monitor_subscriptions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_monitor_subscriptions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_monitor_subscriptions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18852,7 +18852,7 @@ CREATE TABLE public.mdl_tool_policy (
 );
 
 
-ALTER TABLE public.mdl_tool_policy OWNER TO moodle;
+ALTER TABLE public.mdl_tool_policy OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_policy; Type: COMMENT; Schema: public; Owner: sister
@@ -18878,7 +18878,7 @@ CREATE TABLE public.mdl_tool_policy_acceptances (
 );
 
 
-ALTER TABLE public.mdl_tool_policy_acceptances OWNER TO moodle;
+ALTER TABLE public.mdl_tool_policy_acceptances OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_policy_acceptances; Type: COMMENT; Schema: public; Owner: sister
@@ -18899,7 +18899,7 @@ CREATE SEQUENCE public.mdl_tool_policy_acceptances_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_policy_acceptances_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_policy_acceptances_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_policy_acceptances_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18920,7 +18920,7 @@ CREATE SEQUENCE public.mdl_tool_policy_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_policy_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_policy_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_policy_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18953,7 +18953,7 @@ CREATE TABLE public.mdl_tool_policy_versions (
 );
 
 
-ALTER TABLE public.mdl_tool_policy_versions OWNER TO moodle;
+ALTER TABLE public.mdl_tool_policy_versions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_policy_versions; Type: COMMENT; Schema: public; Owner: sister
@@ -18974,7 +18974,7 @@ CREATE SEQUENCE public.mdl_tool_policy_versions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_policy_versions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_policy_versions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_policy_versions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18996,7 +18996,7 @@ CREATE TABLE public.mdl_tool_recyclebin_category (
 );
 
 
-ALTER TABLE public.mdl_tool_recyclebin_category OWNER TO moodle;
+ALTER TABLE public.mdl_tool_recyclebin_category OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_recyclebin_category; Type: COMMENT; Schema: public; Owner: sister
@@ -19017,7 +19017,7 @@ CREATE SEQUENCE public.mdl_tool_recyclebin_category_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_recyclebin_category_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_recyclebin_category_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_recyclebin_category_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19040,7 +19040,7 @@ CREATE TABLE public.mdl_tool_recyclebin_course (
 );
 
 
-ALTER TABLE public.mdl_tool_recyclebin_course OWNER TO moodle;
+ALTER TABLE public.mdl_tool_recyclebin_course OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_recyclebin_course; Type: COMMENT; Schema: public; Owner: sister
@@ -19061,7 +19061,7 @@ CREATE SEQUENCE public.mdl_tool_recyclebin_course_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_recyclebin_course_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_recyclebin_course_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_recyclebin_course_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19086,7 +19086,7 @@ CREATE TABLE public.mdl_tool_usertours_steps (
 );
 
 
-ALTER TABLE public.mdl_tool_usertours_steps OWNER TO moodle;
+ALTER TABLE public.mdl_tool_usertours_steps OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_usertours_steps; Type: COMMENT; Schema: public; Owner: sister
@@ -19107,7 +19107,7 @@ CREATE SEQUENCE public.mdl_tool_usertours_steps_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_usertours_steps_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_usertours_steps_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_usertours_steps_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19131,7 +19131,7 @@ CREATE TABLE public.mdl_tool_usertours_tours (
 );
 
 
-ALTER TABLE public.mdl_tool_usertours_tours OWNER TO moodle;
+ALTER TABLE public.mdl_tool_usertours_tours OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_usertours_tours; Type: COMMENT; Schema: public; Owner: sister
@@ -19152,7 +19152,7 @@ CREATE SEQUENCE public.mdl_tool_usertours_tours_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_usertours_tours_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_usertours_tours_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_usertours_tours_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19177,7 +19177,7 @@ CREATE TABLE public.mdl_tool_webanalytics (
 );
 
 
-ALTER TABLE public.mdl_tool_webanalytics OWNER TO moodle;
+ALTER TABLE public.mdl_tool_webanalytics OWNER TO sister;
 
 --
 -- Name: TABLE mdl_tool_webanalytics; Type: COMMENT; Schema: public; Owner: sister
@@ -19198,7 +19198,7 @@ CREATE SEQUENCE public.mdl_tool_webanalytics_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_webanalytics_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_tool_webanalytics_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_tool_webanalytics_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19268,7 +19268,7 @@ CREATE TABLE public.mdl_turnitintooltwo (
 );
 
 
-ALTER TABLE public.mdl_turnitintooltwo OWNER TO moodle;
+ALTER TABLE public.mdl_turnitintooltwo OWNER TO sister;
 
 --
 -- Name: TABLE mdl_turnitintooltwo; Type: COMMENT; Schema: public; Owner: sister
@@ -19291,7 +19291,7 @@ CREATE TABLE public.mdl_turnitintooltwo_courses (
 );
 
 
-ALTER TABLE public.mdl_turnitintooltwo_courses OWNER TO moodle;
+ALTER TABLE public.mdl_turnitintooltwo_courses OWNER TO sister;
 
 --
 -- Name: TABLE mdl_turnitintooltwo_courses; Type: COMMENT; Schema: public; Owner: sister
@@ -19312,7 +19312,7 @@ CREATE SEQUENCE public.mdl_turnitintooltwo_courses_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_turnitintooltwo_courses_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_turnitintooltwo_courses_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_turnitintooltwo_courses_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19333,7 +19333,7 @@ CREATE SEQUENCE public.mdl_turnitintooltwo_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_turnitintooltwo_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_turnitintooltwo_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_turnitintooltwo_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19363,7 +19363,7 @@ CREATE TABLE public.mdl_turnitintooltwo_parts (
 );
 
 
-ALTER TABLE public.mdl_turnitintooltwo_parts OWNER TO moodle;
+ALTER TABLE public.mdl_turnitintooltwo_parts OWNER TO sister;
 
 --
 -- Name: TABLE mdl_turnitintooltwo_parts; Type: COMMENT; Schema: public; Owner: sister
@@ -19384,7 +19384,7 @@ CREATE SEQUENCE public.mdl_turnitintooltwo_parts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_turnitintooltwo_parts_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_turnitintooltwo_parts_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_turnitintooltwo_parts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19414,7 +19414,7 @@ CREATE TABLE public.mdl_turnitintooltwo_peermarks (
 );
 
 
-ALTER TABLE public.mdl_turnitintooltwo_peermarks OWNER TO moodle;
+ALTER TABLE public.mdl_turnitintooltwo_peermarks OWNER TO sister;
 
 --
 -- Name: TABLE mdl_turnitintooltwo_peermarks; Type: COMMENT; Schema: public; Owner: sister
@@ -19435,7 +19435,7 @@ CREATE SEQUENCE public.mdl_turnitintooltwo_peermarks_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_turnitintooltwo_peermarks_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_turnitintooltwo_peermarks_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_turnitintooltwo_peermarks_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19478,7 +19478,7 @@ CREATE TABLE public.mdl_turnitintooltwo_submissions (
 );
 
 
-ALTER TABLE public.mdl_turnitintooltwo_submissions OWNER TO moodle;
+ALTER TABLE public.mdl_turnitintooltwo_submissions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_turnitintooltwo_submissions; Type: COMMENT; Schema: public; Owner: sister
@@ -19499,7 +19499,7 @@ CREATE SEQUENCE public.mdl_turnitintooltwo_submissions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_turnitintooltwo_submissions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_turnitintooltwo_submissions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_turnitintooltwo_submissions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19523,7 +19523,7 @@ CREATE TABLE public.mdl_turnitintooltwo_users (
 );
 
 
-ALTER TABLE public.mdl_turnitintooltwo_users OWNER TO moodle;
+ALTER TABLE public.mdl_turnitintooltwo_users OWNER TO sister;
 
 --
 -- Name: TABLE mdl_turnitintooltwo_users; Type: COMMENT; Schema: public; Owner: sister
@@ -19544,7 +19544,7 @@ CREATE SEQUENCE public.mdl_turnitintooltwo_users_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_turnitintooltwo_users_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_turnitintooltwo_users_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_turnitintooltwo_users_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19571,7 +19571,7 @@ CREATE TABLE public.mdl_upgrade_log (
 );
 
 
-ALTER TABLE public.mdl_upgrade_log OWNER TO moodle;
+ALTER TABLE public.mdl_upgrade_log OWNER TO sister;
 
 --
 -- Name: TABLE mdl_upgrade_log; Type: COMMENT; Schema: public; Owner: sister
@@ -19592,7 +19592,7 @@ CREATE SEQUENCE public.mdl_upgrade_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_upgrade_log_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_upgrade_log_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_upgrade_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19619,7 +19619,7 @@ CREATE TABLE public.mdl_url (
 );
 
 
-ALTER TABLE public.mdl_url OWNER TO moodle;
+ALTER TABLE public.mdl_url OWNER TO sister;
 
 --
 -- Name: TABLE mdl_url; Type: COMMENT; Schema: public; Owner: sister
@@ -19640,7 +19640,7 @@ CREATE SEQUENCE public.mdl_url_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_url_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_url_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_url_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19710,7 +19710,7 @@ CREATE TABLE public.mdl_user (
 );
 
 
-ALTER TABLE public.mdl_user OWNER TO moodle;
+ALTER TABLE public.mdl_user OWNER TO sister;
 
 --
 -- Name: TABLE mdl_user; Type: COMMENT; Schema: public; Owner: sister
@@ -19738,7 +19738,7 @@ CREATE TABLE public.mdl_user_devices (
 );
 
 
-ALTER TABLE public.mdl_user_devices OWNER TO moodle;
+ALTER TABLE public.mdl_user_devices OWNER TO sister;
 
 --
 -- Name: TABLE mdl_user_devices; Type: COMMENT; Schema: public; Owner: sister
@@ -19759,7 +19759,7 @@ CREATE SEQUENCE public.mdl_user_devices_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_devices_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_user_devices_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_user_devices_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19785,7 +19785,7 @@ CREATE TABLE public.mdl_user_enrolments (
 );
 
 
-ALTER TABLE public.mdl_user_enrolments OWNER TO moodle;
+ALTER TABLE public.mdl_user_enrolments OWNER TO sister;
 
 --
 -- Name: TABLE mdl_user_enrolments; Type: COMMENT; Schema: public; Owner: sister
@@ -19806,7 +19806,7 @@ CREATE SEQUENCE public.mdl_user_enrolments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_enrolments_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_user_enrolments_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_user_enrolments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19827,7 +19827,7 @@ CREATE SEQUENCE public.mdl_user_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_user_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19847,7 +19847,7 @@ CREATE TABLE public.mdl_user_info_category (
 );
 
 
-ALTER TABLE public.mdl_user_info_category OWNER TO moodle;
+ALTER TABLE public.mdl_user_info_category OWNER TO sister;
 
 --
 -- Name: TABLE mdl_user_info_category; Type: COMMENT; Schema: public; Owner: sister
@@ -19868,7 +19868,7 @@ CREATE SEQUENCE public.mdl_user_info_category_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_info_category_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_user_info_category_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_user_info_category_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19890,7 +19890,7 @@ CREATE TABLE public.mdl_user_info_data (
 );
 
 
-ALTER TABLE public.mdl_user_info_data OWNER TO moodle;
+ALTER TABLE public.mdl_user_info_data OWNER TO sister;
 
 --
 -- Name: TABLE mdl_user_info_data; Type: COMMENT; Schema: public; Owner: sister
@@ -19911,7 +19911,7 @@ CREATE SEQUENCE public.mdl_user_info_data_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_info_data_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_user_info_data_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_user_info_data_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19948,7 +19948,7 @@ CREATE TABLE public.mdl_user_info_field (
 );
 
 
-ALTER TABLE public.mdl_user_info_field OWNER TO moodle;
+ALTER TABLE public.mdl_user_info_field OWNER TO sister;
 
 --
 -- Name: TABLE mdl_user_info_field; Type: COMMENT; Schema: public; Owner: sister
@@ -19969,7 +19969,7 @@ CREATE SEQUENCE public.mdl_user_info_field_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_info_field_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_user_info_field_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_user_info_field_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19990,7 +19990,7 @@ CREATE TABLE public.mdl_user_lastaccess (
 );
 
 
-ALTER TABLE public.mdl_user_lastaccess OWNER TO moodle;
+ALTER TABLE public.mdl_user_lastaccess OWNER TO sister;
 
 --
 -- Name: TABLE mdl_user_lastaccess; Type: COMMENT; Schema: public; Owner: sister
@@ -20011,7 +20011,7 @@ CREATE SEQUENCE public.mdl_user_lastaccess_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_lastaccess_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_user_lastaccess_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_user_lastaccess_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20032,7 +20032,7 @@ CREATE TABLE public.mdl_user_password_history (
 );
 
 
-ALTER TABLE public.mdl_user_password_history OWNER TO moodle;
+ALTER TABLE public.mdl_user_password_history OWNER TO sister;
 
 --
 -- Name: TABLE mdl_user_password_history; Type: COMMENT; Schema: public; Owner: sister
@@ -20053,7 +20053,7 @@ CREATE SEQUENCE public.mdl_user_password_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_password_history_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_user_password_history_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_user_password_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20075,7 +20075,7 @@ CREATE TABLE public.mdl_user_password_resets (
 );
 
 
-ALTER TABLE public.mdl_user_password_resets OWNER TO moodle;
+ALTER TABLE public.mdl_user_password_resets OWNER TO sister;
 
 --
 -- Name: TABLE mdl_user_password_resets; Type: COMMENT; Schema: public; Owner: sister
@@ -20096,7 +20096,7 @@ CREATE SEQUENCE public.mdl_user_password_resets_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_password_resets_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_user_password_resets_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_user_password_resets_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20117,7 +20117,7 @@ CREATE TABLE public.mdl_user_preferences (
 );
 
 
-ALTER TABLE public.mdl_user_preferences OWNER TO moodle;
+ALTER TABLE public.mdl_user_preferences OWNER TO sister;
 
 --
 -- Name: TABLE mdl_user_preferences; Type: COMMENT; Schema: public; Owner: sister
@@ -20138,7 +20138,7 @@ CREATE SEQUENCE public.mdl_user_preferences_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_preferences_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_user_preferences_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_user_preferences_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20163,7 +20163,7 @@ CREATE TABLE public.mdl_user_private_key (
 );
 
 
-ALTER TABLE public.mdl_user_private_key OWNER TO moodle;
+ALTER TABLE public.mdl_user_private_key OWNER TO sister;
 
 --
 -- Name: TABLE mdl_user_private_key; Type: COMMENT; Schema: public; Owner: sister
@@ -20184,7 +20184,7 @@ CREATE SEQUENCE public.mdl_user_private_key_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_private_key_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_user_private_key_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_user_private_key_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20224,7 +20224,7 @@ CREATE TABLE public.mdl_webexactivity (
 );
 
 
-ALTER TABLE public.mdl_webexactivity OWNER TO moodle;
+ALTER TABLE public.mdl_webexactivity OWNER TO sister;
 
 --
 -- Name: TABLE mdl_webexactivity; Type: COMMENT; Schema: public; Owner: sister
@@ -20245,7 +20245,7 @@ CREATE SEQUENCE public.mdl_webexactivity_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_webexactivity_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_webexactivity_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_webexactivity_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20276,7 +20276,7 @@ CREATE TABLE public.mdl_webexactivity_recording (
 );
 
 
-ALTER TABLE public.mdl_webexactivity_recording OWNER TO moodle;
+ALTER TABLE public.mdl_webexactivity_recording OWNER TO sister;
 
 --
 -- Name: TABLE mdl_webexactivity_recording; Type: COMMENT; Schema: public; Owner: sister
@@ -20297,7 +20297,7 @@ CREATE SEQUENCE public.mdl_webexactivity_recording_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_webexactivity_recording_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_webexactivity_recording_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_webexactivity_recording_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20324,7 +20324,7 @@ CREATE TABLE public.mdl_webexactivity_user (
 );
 
 
-ALTER TABLE public.mdl_webexactivity_user OWNER TO moodle;
+ALTER TABLE public.mdl_webexactivity_user OWNER TO sister;
 
 --
 -- Name: TABLE mdl_webexactivity_user; Type: COMMENT; Schema: public; Owner: sister
@@ -20345,7 +20345,7 @@ CREATE SEQUENCE public.mdl_webexactivity_user_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_webexactivity_user_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_webexactivity_user_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_webexactivity_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20375,7 +20375,7 @@ CREATE TABLE public.mdl_wiki (
 );
 
 
-ALTER TABLE public.mdl_wiki OWNER TO moodle;
+ALTER TABLE public.mdl_wiki OWNER TO sister;
 
 --
 -- Name: TABLE mdl_wiki; Type: COMMENT; Schema: public; Owner: sister
@@ -20396,7 +20396,7 @@ CREATE SEQUENCE public.mdl_wiki_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_wiki_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_wiki_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20418,7 +20418,7 @@ CREATE TABLE public.mdl_wiki_links (
 );
 
 
-ALTER TABLE public.mdl_wiki_links OWNER TO moodle;
+ALTER TABLE public.mdl_wiki_links OWNER TO sister;
 
 --
 -- Name: TABLE mdl_wiki_links; Type: COMMENT; Schema: public; Owner: sister
@@ -20439,7 +20439,7 @@ CREATE SEQUENCE public.mdl_wiki_links_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_links_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_wiki_links_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_wiki_links_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20461,7 +20461,7 @@ CREATE TABLE public.mdl_wiki_locks (
 );
 
 
-ALTER TABLE public.mdl_wiki_locks OWNER TO moodle;
+ALTER TABLE public.mdl_wiki_locks OWNER TO sister;
 
 --
 -- Name: TABLE mdl_wiki_locks; Type: COMMENT; Schema: public; Owner: sister
@@ -20482,7 +20482,7 @@ CREATE SEQUENCE public.mdl_wiki_locks_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_locks_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_wiki_locks_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_wiki_locks_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20509,7 +20509,7 @@ CREATE TABLE public.mdl_wiki_pages (
 );
 
 
-ALTER TABLE public.mdl_wiki_pages OWNER TO moodle;
+ALTER TABLE public.mdl_wiki_pages OWNER TO sister;
 
 --
 -- Name: TABLE mdl_wiki_pages; Type: COMMENT; Schema: public; Owner: sister
@@ -20530,7 +20530,7 @@ CREATE SEQUENCE public.mdl_wiki_pages_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_pages_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_wiki_pages_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_wiki_pages_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20551,7 +20551,7 @@ CREATE TABLE public.mdl_wiki_subwikis (
 );
 
 
-ALTER TABLE public.mdl_wiki_subwikis OWNER TO moodle;
+ALTER TABLE public.mdl_wiki_subwikis OWNER TO sister;
 
 --
 -- Name: TABLE mdl_wiki_subwikis; Type: COMMENT; Schema: public; Owner: sister
@@ -20572,7 +20572,7 @@ CREATE SEQUENCE public.mdl_wiki_subwikis_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_subwikis_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_wiki_subwikis_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_wiki_subwikis_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20593,7 +20593,7 @@ CREATE TABLE public.mdl_wiki_synonyms (
 );
 
 
-ALTER TABLE public.mdl_wiki_synonyms OWNER TO moodle;
+ALTER TABLE public.mdl_wiki_synonyms OWNER TO sister;
 
 --
 -- Name: TABLE mdl_wiki_synonyms; Type: COMMENT; Schema: public; Owner: sister
@@ -20614,7 +20614,7 @@ CREATE SEQUENCE public.mdl_wiki_synonyms_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_synonyms_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_wiki_synonyms_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_wiki_synonyms_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20638,7 +20638,7 @@ CREATE TABLE public.mdl_wiki_versions (
 );
 
 
-ALTER TABLE public.mdl_wiki_versions OWNER TO moodle;
+ALTER TABLE public.mdl_wiki_versions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_wiki_versions; Type: COMMENT; Schema: public; Owner: sister
@@ -20659,7 +20659,7 @@ CREATE SEQUENCE public.mdl_wiki_versions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_versions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_wiki_versions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_wiki_versions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20713,7 +20713,7 @@ CREATE TABLE public.mdl_workshop (
 );
 
 
-ALTER TABLE public.mdl_workshop OWNER TO moodle;
+ALTER TABLE public.mdl_workshop OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshop; Type: COMMENT; Schema: public; Owner: sister
@@ -20735,7 +20735,7 @@ CREATE TABLE public.mdl_workshop_aggregations (
 );
 
 
-ALTER TABLE public.mdl_workshop_aggregations OWNER TO moodle;
+ALTER TABLE public.mdl_workshop_aggregations OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshop_aggregations; Type: COMMENT; Schema: public; Owner: sister
@@ -20756,7 +20756,7 @@ CREATE SEQUENCE public.mdl_workshop_aggregations_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshop_aggregations_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshop_aggregations_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshop_aggregations_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20788,7 +20788,7 @@ CREATE TABLE public.mdl_workshop_assessments (
 );
 
 
-ALTER TABLE public.mdl_workshop_assessments OWNER TO moodle;
+ALTER TABLE public.mdl_workshop_assessments OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshop_assessments; Type: COMMENT; Schema: public; Owner: sister
@@ -20809,7 +20809,7 @@ CREATE SEQUENCE public.mdl_workshop_assessments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshop_assessments_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshop_assessments_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshop_assessments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20833,7 +20833,7 @@ CREATE TABLE public.mdl_workshop_grades (
 );
 
 
-ALTER TABLE public.mdl_workshop_grades OWNER TO moodle;
+ALTER TABLE public.mdl_workshop_grades OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshop_grades; Type: COMMENT; Schema: public; Owner: sister
@@ -20854,7 +20854,7 @@ CREATE SEQUENCE public.mdl_workshop_grades_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshop_grades_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshop_grades_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshop_grades_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20875,7 +20875,7 @@ CREATE SEQUENCE public.mdl_workshop_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshop_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshop_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshop_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20911,7 +20911,7 @@ CREATE TABLE public.mdl_workshop_submissions (
 );
 
 
-ALTER TABLE public.mdl_workshop_submissions OWNER TO moodle;
+ALTER TABLE public.mdl_workshop_submissions OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshop_submissions; Type: COMMENT; Schema: public; Owner: sister
@@ -20932,7 +20932,7 @@ CREATE SEQUENCE public.mdl_workshop_submissions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshop_submissions_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshop_submissions_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshop_submissions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20958,7 +20958,7 @@ CREATE TABLE public.mdl_workshopallocation_scheduled (
 );
 
 
-ALTER TABLE public.mdl_workshopallocation_scheduled OWNER TO moodle;
+ALTER TABLE public.mdl_workshopallocation_scheduled OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshopallocation_scheduled; Type: COMMENT; Schema: public; Owner: sister
@@ -20979,7 +20979,7 @@ CREATE SEQUENCE public.mdl_workshopallocation_scheduled_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopallocation_scheduled_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshopallocation_scheduled_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshopallocation_scheduled_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20999,7 +20999,7 @@ CREATE TABLE public.mdl_workshopeval_best_settings (
 );
 
 
-ALTER TABLE public.mdl_workshopeval_best_settings OWNER TO moodle;
+ALTER TABLE public.mdl_workshopeval_best_settings OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshopeval_best_settings; Type: COMMENT; Schema: public; Owner: sister
@@ -21020,7 +21020,7 @@ CREATE SEQUENCE public.mdl_workshopeval_best_settings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopeval_best_settings_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshopeval_best_settings_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshopeval_best_settings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21044,7 +21044,7 @@ CREATE TABLE public.mdl_workshopform_accumulative (
 );
 
 
-ALTER TABLE public.mdl_workshopform_accumulative OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_accumulative OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshopform_accumulative; Type: COMMENT; Schema: public; Owner: sister
@@ -21065,7 +21065,7 @@ CREATE SEQUENCE public.mdl_workshopform_accumulative_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_accumulative_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_accumulative_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshopform_accumulative_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21087,7 +21087,7 @@ CREATE TABLE public.mdl_workshopform_comments (
 );
 
 
-ALTER TABLE public.mdl_workshopform_comments OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_comments OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshopform_comments; Type: COMMENT; Schema: public; Owner: sister
@@ -21108,7 +21108,7 @@ CREATE SEQUENCE public.mdl_workshopform_comments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_comments_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_comments_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshopform_comments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21134,7 +21134,7 @@ CREATE TABLE public.mdl_workshopform_numerrors (
 );
 
 
-ALTER TABLE public.mdl_workshopform_numerrors OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_numerrors OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshopform_numerrors; Type: COMMENT; Schema: public; Owner: sister
@@ -21155,7 +21155,7 @@ CREATE SEQUENCE public.mdl_workshopform_numerrors_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_numerrors_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_numerrors_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshopform_numerrors_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21176,7 +21176,7 @@ CREATE TABLE public.mdl_workshopform_numerrors_map (
 );
 
 
-ALTER TABLE public.mdl_workshopform_numerrors_map OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_numerrors_map OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshopform_numerrors_map; Type: COMMENT; Schema: public; Owner: sister
@@ -21197,7 +21197,7 @@ CREATE SEQUENCE public.mdl_workshopform_numerrors_map_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_numerrors_map_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_numerrors_map_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshopform_numerrors_map_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21219,7 +21219,7 @@ CREATE TABLE public.mdl_workshopform_rubric (
 );
 
 
-ALTER TABLE public.mdl_workshopform_rubric OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_rubric OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshopform_rubric; Type: COMMENT; Schema: public; Owner: sister
@@ -21239,7 +21239,7 @@ CREATE TABLE public.mdl_workshopform_rubric_config (
 );
 
 
-ALTER TABLE public.mdl_workshopform_rubric_config OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_rubric_config OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshopform_rubric_config; Type: COMMENT; Schema: public; Owner: sister
@@ -21260,7 +21260,7 @@ CREATE SEQUENCE public.mdl_workshopform_rubric_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_rubric_config_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_rubric_config_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshopform_rubric_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21281,7 +21281,7 @@ CREATE SEQUENCE public.mdl_workshopform_rubric_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_rubric_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_rubric_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshopform_rubric_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21303,7 +21303,7 @@ CREATE TABLE public.mdl_workshopform_rubric_levels (
 );
 
 
-ALTER TABLE public.mdl_workshopform_rubric_levels OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_rubric_levels OWNER TO sister;
 
 --
 -- Name: TABLE mdl_workshopform_rubric_levels; Type: COMMENT; Schema: public; Owner: sister
@@ -21324,7 +21324,7 @@ CREATE SEQUENCE public.mdl_workshopform_rubric_levels_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_rubric_levels_id_seq OWNER TO moodle;
+ALTER TABLE public.mdl_workshopform_rubric_levels_id_seq OWNER TO sister;
 
 --
 -- Name: mdl_workshopform_rubric_levels_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -24489,8 +24489,8 @@ COPY public.mdl_analytics_indicator_calc (id, starttime, endtime, contextid, sam
 --
 
 COPY public.mdl_analytics_models (id, enabled, trained, target, indicators, timesplitting, predictionsprocessor, version, timecreated, timemodified, usermodified) FROM stdin;
-1	0	0	\\core\\analytics\\target\\course_dropout	["\\\\mod_assign\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_assign\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_book\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_book\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_chat\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_chat\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_choice\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_choice\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_data\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_data\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_feedback\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_feedback\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_folder\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_folder\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_forum\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_forum\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_glossary\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_glossary\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_imscp\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_imscp\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_label\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_label\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_lesson\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_lesson\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_lti\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_lti\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_page\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_page\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_quiz\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_quiz\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_resource\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_resource\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_scorm\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_scorm\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_survey\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_survey\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_url\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_url\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_wiki\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_wiki\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_workshop\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_workshop\\\\analytics\\\\indicator\\\\social_breadth","\\\\core_course\\\\analytics\\\\indicator\\\\completion_enabled","\\\\core_course\\\\analytics\\\\indicator\\\\potential_cognitive_depth","\\\\core_course\\\\analytics\\\\indicator\\\\potential_social_breadth","\\\\core\\\\analytics\\\\indicator\\\\any_access_after_end","\\\\core\\\\analytics\\\\indicator\\\\any_access_before_start","\\\\core\\\\analytics\\\\indicator\\\\any_write_action_in_course","\\\\core\\\\analytics\\\\indicator\\\\read_actions"]	\N	0	1586879250	1586879250	1586879250	0
-2	1	1	\\core\\analytics\\target\\no_teaching	["\\\\core_course\\\\analytics\\\\indicator\\\\no_teacher","\\\\core_course\\\\analytics\\\\indicator\\\\no_student"]	\\core\\analytics\\time_splitting\\single_range	0	1586879250	1586879250	1586879250	0
+1	0	0	\\core\\analytics\\target\\course_dropout	["\\\\mod_assign\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_assign\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_book\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_book\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_chat\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_chat\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_choice\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_choice\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_data\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_data\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_feedback\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_feedback\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_folder\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_folder\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_forum\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_forum\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_glossary\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_glossary\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_imscp\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_imscp\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_label\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_label\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_lesson\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_lesson\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_lti\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_lti\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_page\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_page\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_quiz\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_quiz\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_resource\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_resource\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_scorm\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_scorm\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_survey\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_survey\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_url\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_url\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_wiki\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_wiki\\\\analytics\\\\indicator\\\\social_breadth","\\\\mod_workshop\\\\analytics\\\\indicator\\\\cognitive_depth","\\\\mod_workshop\\\\analytics\\\\indicator\\\\social_breadth","\\\\core_course\\\\analytics\\\\indicator\\\\completion_enabled","\\\\core_course\\\\analytics\\\\indicator\\\\potential_cognitive_depth","\\\\core_course\\\\analytics\\\\indicator\\\\potential_social_breadth","\\\\core\\\\analytics\\\\indicator\\\\any_access_after_end","\\\\core\\\\analytics\\\\indicator\\\\any_access_before_start","\\\\core\\\\analytics\\\\indicator\\\\any_write_action_in_course","\\\\core\\\\analytics\\\\indicator\\\\read_actions"]	\N	0	1586902581	1586902581	1586902581	0
+2	1	1	\\core\\analytics\\target\\no_teaching	["\\\\core_course\\\\analytics\\\\indicator\\\\no_teacher","\\\\core_course\\\\analytics\\\\indicator\\\\no_student"]	\\core\\analytics\\time_splitting\\single_range	0	1586902581	1586902581	1586902581	0
 \.
 
 
@@ -24958,30 +24958,18 @@ COPY public.mdl_block_community (id, userid, coursename, coursedescription, cour
 --
 
 COPY public.mdl_block_instances (id, blockname, parentcontextid, showinsubcontexts, requiredbytheme, pagetypepattern, subpagepattern, defaultregion, defaultweight, configdata, timecreated, timemodified) FROM stdin;
-1	sitenews	1	1	0	my-index	\N	content	-1		1586879272	1586879272
-2	timeline	1	0	0	my-index	2	side-post	0		1586879273	1586879273
-3	admin_bookmarks	1	0	0	admin-*	\N	side-pre	2		1586879273	1586879273
-4	timeline	1	0	0	my-index	2	side-post	0		1586879273	1586879273
-5	private_files	1	0	0	my-index	2	side-post	1		1586879273	1586879273
-6	online_users	1	0	0	my-index	2	side-post	2		1586879273	1586879273
-7	badges	1	0	0	my-index	2	side-post	3		1586879273	1586879273
-8	calendar_month	1	0	0	my-index	2	side-post	4		1586879273	1586879273
-9	calendar_upcoming	1	0	0	my-index	2	side-post	5		1586879273	1586879273
-10	lp	1	0	0	my-index	2	content	0		1586879273	1586879273
-11	recentlyaccessedcourses	1	0	0	my-index	2	content	1		1586879273	1586879273
-12	myoverview	1	0	0	my-index	2	content	2		1586879273	1586879273
-13	navigation	1	1	1	*	\N	side-pre	0		1586879623	1586879623
-14	settings	1	1	1	*	\N	side-pre	0		1586879623	1586879623
-15	myoverview	5	0	0	my-index	3	content	2		1586879654	1586879654
-16	recentlyaccessedcourses	5	0	0	my-index	3	content	1		1586879654	1586879654
-17	lp	5	0	0	my-index	3	content	0		1586879654	1586879654
-18	calendar_upcoming	5	0	0	my-index	3	side-post	5		1586879654	1586879654
-19	calendar_month	5	0	0	my-index	3	side-post	4		1586879654	1586879654
-20	badges	5	0	0	my-index	3	side-post	3		1586879654	1586879654
-21	online_users	5	0	0	my-index	3	side-post	2		1586879654	1586879654
-22	private_files	5	0	0	my-index	3	side-post	1		1586879654	1586879654
-23	timeline	5	0	0	my-index	3	side-post	0		1586879654	1586879654
-24	timeline	5	0	0	my-index	3	side-post	0		1586879654	1586879654
+1	sitenews	1	1	0	my-index	\N	content	-1		1586902603	1586902603
+2	timeline	1	0	0	my-index	2	side-post	0		1586902603	1586902603
+3	admin_bookmarks	1	0	0	admin-*	\N	side-pre	2		1586902603	1586902603
+4	timeline	1	0	0	my-index	2	side-post	0		1586902603	1586902603
+5	private_files	1	0	0	my-index	2	side-post	1		1586902603	1586902603
+6	online_users	1	0	0	my-index	2	side-post	2		1586902603	1586902603
+7	badges	1	0	0	my-index	2	side-post	3		1586902603	1586902603
+8	calendar_month	1	0	0	my-index	2	side-post	4		1586902603	1586902603
+9	calendar_upcoming	1	0	0	my-index	2	side-post	5		1586902603	1586902603
+10	lp	1	0	0	my-index	2	content	0		1586902603	1586902603
+11	recentlyaccessedcourses	1	0	0	my-index	2	content	1		1586902603	1586902603
+12	myoverview	1	0	0	my-index	2	content	2		1586902603	1586902603
 \.
 
 
@@ -25062,7 +25050,6 @@ COPY public.mdl_cache_filters (id, filter, version, md5key, rawtext, timemodifie
 --
 
 COPY public.mdl_cache_flags (id, flagtype, name, timemodified, value, expiry) FROM stdin;
-1	userpreferenceschanged	2	1586879659	1	1586886859
 \.
 
 
@@ -25966,8 +25953,9 @@ COPY public.mdl_competency_userevidencecomp (id, userevidenceid, competencyid, t
 
 COPY public.mdl_config (id, name, value) FROM stdin;
 4	enrol_plugins_enabled	manual,guest,self,cohort
+5	theme	boost
 6	filter_multilang_converted	1
-7	siteidentifier	VpeO9YyZitTKGN4UJ5CVHEF5Ej3EcKfXmoodlecloud.id
+7	siteidentifier	W13aTriI2RQvUPCJLZHPEJXVRonjin6smoodlecloud.id
 8	backup_version	2008111700
 9	backup_release	2.0 dev
 10	mnet_dispatcher_mode	off
@@ -26080,10 +26068,7 @@ COPY public.mdl_config (id, name, value) FROM stdin;
 121	grade_report_shownumberofgrades	0
 122	grade_report_averagesdisplaytype	inherit
 123	grade_report_rangesdisplaytype	inherit
-14	texteditors	atto,tinymce,textarea
 2	rolesactive	1
-5	theme	essential
-24	themerev	1586879493
 124	grade_report_averagesdecimalpoints	inherit
 125	grade_report_rangesdecimalpoints	inherit
 126	grade_report_historyperpage	50
@@ -26103,9 +26088,10 @@ COPY public.mdl_config (id, name, value) FROM stdin;
 140	grade_report_user_showcontributiontocoursetotal	1
 141	badges_defaultissuername	
 142	badges_defaultissuercontact	
-143	badges_badgesalt	badges1586879246
+143	badges_badgesalt	badges1586902577
 144	badges_allowexternalbackpack	1
 145	badges_allowcoursebadges	1
+146	timezone	Europe/London
 147	forcetimezone	99
 148	country	0
 149	defaultcity	
@@ -26210,6 +26196,7 @@ COPY public.mdl_config (id, name, value) FROM stdin;
 250	allowcoursethemes	0
 251	allowcategorythemes	0
 3	auth	db
+163	registerauth	
 252	allowcohortthemes	0
 253	allowthemechangeonurl	0
 254	allowuserblockhiding	1
@@ -26279,220 +26266,218 @@ COPY public.mdl_config (id, name, value) FROM stdin;
 319	supportname	Admin User
 320	supportemail	
 321	supportpage	
-322	sessioncookie	
-323	sessioncookiepath	
-324	sessioncookiedomain	
-325	statsfirstrun	none
-326	statsmaxruntime	0
-327	statsruntimedays	31
-328	statsuserthreshold	0
-329	slasharguments	1
-330	getremoteaddrconf	3
-331	reverseproxyignore	
-332	proxyhost	
-333	proxyport	0
-334	proxytype	HTTP
-335	proxyuser	
-336	proxypassword	
-337	proxybypass	localhost, 127.0.0.1
-338	maintenance_enabled	0
-339	maintenance_message	
-340	deleteunconfirmed	168
-341	deleteincompleteusers	0
-342	disablegradehistory	0
-343	gradehistorylifetime	0
-344	tempdatafoldercleanup	168
-345	extramemorylimit	512M
-346	maxtimelimit	0
-347	curlcache	120
-348	curltimeoutkbitrate	56
-349	smtphosts	
-350	smtpsecure	
-351	smtpauthtype	LOGIN
-352	smtpuser	
-353	smtppass	
-354	smtpmaxbulk	1
-355	noreplyaddress	noreply@moodlecloud.id
-356	allowedemaildomains	
-357	sitemailcharset	0
-358	allowusermailcharset	0
-359	allowattachments	1
-360	mailnewline	LF
-361	emailfromvia	1
-362	updateautocheck	1
-363	updateminmaturity	200
-364	updatenotifybuilds	0
-365	enablesafebrowserintegration	0
-366	dndallowtextandlinks	0
-367	pathtosassc	
-368	contextlocking	0
-369	contextlockappliestoadmin	1
-370	forceclean	0
-371	debug	0
-372	debugdisplay	1
-373	debugsmtp	0
-374	perfdebug	7
-375	debugstringids	0
-376	debugvalidators	0
-377	debugpageinfo	0
-378	profilingenabled	0
-379	profilingincluded	
-380	profilingexcluded	
-381	profilingautofrec	0
-382	profilingallowme	0
-383	profilingallowall	0
-384	profilinglifetime	1440
-385	profilingimportprefix	(I)
-386	release	3.6.9 (Build: 20200309)
-387	branch	36
-453	forum_oldpostdays	14
-454	forum_usermarksread	0
-455	forum_cleanreadtime	2
-456	digestmailtime	17
-457	forum_enablerssfeeds	0
-458	forum_enabletimedposts	1
-459	glossary_entbypage	10
-460	glossary_dupentries	0
-461	glossary_allowcomments	0
-462	glossary_linkbydefault	1
-463	glossary_defaultapproval	1
-464	glossary_enablerssfeeds	0
-465	glossary_linkentries	0
-466	glossary_casesensitive	0
-467	glossary_fullmatch	0
-468	hotpot_enablemymoodle	1
-469	hotpot_enablecache	1
-390	allversionshash	407287d3c4f5951349bd3d170a1cc8e31cb37899
-470	hotpot_enablecron	
-25	jsrev	1586879283
+323	sessioncookie	
+324	sessioncookiepath	
+325	sessioncookiedomain	
+326	statsfirstrun	none
+327	statsmaxruntime	0
+328	statsruntimedays	31
+329	statsuserthreshold	0
+330	slasharguments	1
+331	getremoteaddrconf	3
+332	reverseproxyignore	
+333	proxyhost	
+334	proxyport	0
+335	proxytype	HTTP
+336	proxyuser	
+337	proxypassword	
+338	proxybypass	localhost, 127.0.0.1
+339	maintenance_enabled	0
+340	maintenance_message	
+341	deleteunconfirmed	168
+342	deleteincompleteusers	0
+343	disablegradehistory	0
+344	gradehistorylifetime	0
+345	tempdatafoldercleanup	168
+346	extramemorylimit	512M
+347	maxtimelimit	0
+348	curlcache	120
+349	curltimeoutkbitrate	56
+350	smtphosts	
+351	smtpsecure	
+352	smtpauthtype	LOGIN
+353	smtpuser	
+354	smtppass	
+355	smtpmaxbulk	1
+356	noreplyaddress	noreply@moodlecloud.id
+357	allowedemaildomains	
+358	sitemailcharset	0
+359	allowusermailcharset	0
+360	allowattachments	1
+361	mailnewline	LF
+362	emailfromvia	1
+363	updateautocheck	1
+364	updateminmaturity	200
+365	updatenotifybuilds	0
+366	enablesafebrowserintegration	0
+367	dndallowtextandlinks	0
+368	pathtosassc	
+369	contextlocking	0
+370	contextlockappliestoadmin	1
+371	forceclean	0
+372	debug	0
+373	debugdisplay	1
+374	debugsmtp	0
+375	perfdebug	7
+322	dbsessions	0
+376	debugstringids	0
+377	debugvalidators	0
+378	debugpageinfo	0
+379	profilingenabled	0
+380	profilingincluded	
+381	profilingexcluded	
+382	profilingautofrec	0
+383	profilingallowme	0
+384	profilingallowall	0
+385	profilinglifetime	1440
+386	profilingimportprefix	(I)
+387	release	3.6.9 (Build: 20200309)
+388	branch	36
+24	themerev	1586902614
+25	jsrev	1586902614
+389	localcachedirpurged	1586902614
+390	scheduledtaskreset	1586902614
+157	langrev	1586902619
 13	filterall	0
-388	localcachedirpurged	1586879283
-389	scheduledtaskreset	1586879283
-391	notloggedinroleid	6
-392	guestroleid	6
-393	defaultuserroleid	7
-394	creatornewroleid	3
-395	restorernewroleid	3
-396	sitepolicyhandler	
-397	gradebookroles	5
-157	langrev	1586879288
-398	bigbluebuttonbn_server_url	http://test-install.blindsidenetworks.com/bigbluebutton/
-399	bigbluebuttonbn_shared_secret	8cd8ef52e8e101574e400365b55e11a6
-400	bigbluebuttonbn_recording_default	1
-401	bigbluebuttonbn_recording_editable	1
-402	bigbluebuttonbn_recording_icons_enabled	1
-403	bigbluebuttonbn_recording_all_from_start_default	0
-404	bigbluebuttonbn_recording_all_from_start_editable	0
-405	bigbluebuttonbn_recording_hide_button_default	0
-406	bigbluebuttonbn_recording_hide_button_editable	0
-407	bigbluebuttonbn_importrecordings_enabled	0
-408	bigbluebuttonbn_importrecordings_from_deleted_enabled	0
-409	bigbluebuttonbn_recordings_html_default	1
-410	bigbluebuttonbn_recordings_html_editable	0
-411	bigbluebuttonbn_recordings_deleted_default	1
-412	bigbluebuttonbn_recordings_deleted_editable	0
-413	bigbluebuttonbn_recordings_imported_default	0
-414	bigbluebuttonbn_recordings_imported_editable	1
-415	bigbluebuttonbn_recordings_preview_default	1
-416	bigbluebuttonbn_recordings_preview_editable	0
-417	bigbluebuttonbn_recordings_sortorder	0
-418	bigbluebuttonbn_waitformoderator_default	0
-419	bigbluebuttonbn_waitformoderator_editable	1
-420	bigbluebuttonbn_waitformoderator_ping_interval	10
-421	bigbluebuttonbn_waitformoderator_cache_ttl	60
-422	bigbluebuttonbn_voicebridge_editable	0
-423	bigbluebuttonbn_preuploadpresentation_enabled	0
-424	bigbluebuttonbn_userlimit_default	0
-425	bigbluebuttonbn_userlimit_editable	0
-426	bigbluebuttonbn_participant_moderator_default	0
-427	bigbluebuttonbn_sendnotifications_enabled	1
-428	bigbluebuttonbn_muteonstart_default	0
-429	bigbluebuttonbn_muteonstart_editable	0
-430	bigbluebuttonbn_recordingready_enabled	0
-431	bigbluebuttonbn_meetingevents_enabled	0
-432	chat_method	ajax
-433	chat_refresh_userlist	10
-434	chat_old_ping	35
-435	chat_refresh_room	5
-436	chat_normal_updatemode	jsupdate
-437	chat_serverhost	moodlecloud.id
-438	chat_serverip	127.0.0.1
-439	chat_serverport	9111
-440	chat_servermax	100
-441	data_enablerssfeeds	0
-442	feedback_allowfullanonymous	0
-443	forum_displaymode	3
-444	forum_shortpost	300
-445	forum_longpost	600
-446	forum_manydiscussions	100
-447	forum_maxbytes	512000
-448	forum_maxattachments	9
-449	forum_subscription	0
-450	forum_trackingtype	1
-451	forum_trackreadposts	1
-452	forum_allowforcedreadtracking	0
-471	hotpot_enableswf	1
-472	hotpot_enableobfuscate	1
-473	hotpot_bodystyles	
-474	hotpot_frameheight	85
-475	hotpot_lockframe	0
-476	hotpot_storedetails	0
-477	hotpot_maxeventlength	5
-478	jitsi_domain	meet.jit.si
-479	jitsi_sesionname	0,1,2
-480	jitsi_showinfo	0
-481	jitsi_channellastcam	4
-482	jitsi_livebutton	0
-483	jitsi_blurbutton	0
-484	jitsi_shareyoutube	0
-485	jitsi_watermarklink	https://jitsi.org
-486	jitsi_finishandreturn	0
-487	jitsi_app_id	
-488	jitsi_secret	
-489	block_course_list_adminview	all
-490	block_course_list_hideallcourseslink	0
-491	block_html_allowcssclasses	0
-492	block_online_users_timetosee	5
-493	block_rss_client_num_entries	5
-494	block_rss_client_timeout	30
-495	pathtounoconv	/usr/bin/unoconv
-496	filter_multilang_force_old	0
-497	filter_censor_badwords	
-498	logguests	1
-499	loglifetime	0
-500	jabberhost	
-501	jabberserver	
-502	jabberusername	
-503	jabberpassword	
-504	jabberport	5222
-505	airnotifierurl	https://messages.moodle.net
-506	airnotifierport	443
-507	airnotifiermobileappname	com.moodle.moodlemobile
-508	airnotifierappname	commoodlemoodlemobile
-509	airnotifieraccesskey	
-510	profileroles	5,4,3
-272	calendar_exportsalt	Hd2WlpDeCZV944Sy9WLnogLoFOWcTI9h5rnBR7maNTtToSAv4ZshF5sqGyiT
-511	coursecontact	3
-512	frontpage	6
-513	frontpageloggedin	6
-514	maxcategorydepth	2
-515	frontpagecourselimit	200
-516	commentsperpage	15
-517	defaultfrontpageroleid	8
-518	messageinbound_enabled	0
-519	messageinbound_mailbox	
-520	messageinbound_domain	
-521	messageinbound_host	
-522	messageinbound_hostssl	ssl
-523	messageinbound_hostuser	
-524	messageinbound_hostpass	
-525	enablemobilewebservice	0
-527	timezone	Asia/Jakarta
-528	jitsi_help	<p>Hello</p>
-529	jitsi_id	username
-530	jitsi_separator	0
-531	registerauth	
-526	registrationpending	0
+14	texteditors	atto,tinymce,textarea
+458	forum_enablerssfeeds	0
+459	forum_enabletimedposts	1
+460	glossary_entbypage	10
+461	glossary_dupentries	0
+462	glossary_allowcomments	0
+463	glossary_linkbydefault	1
+464	glossary_defaultapproval	1
+465	glossary_enablerssfeeds	0
+466	glossary_linkentries	0
+467	glossary_casesensitive	0
+468	glossary_fullmatch	0
+469	hotpot_enablemymoodle	1
+470	hotpot_enablecache	1
+471	hotpot_enablecron	
+472	hotpot_enableswf	1
+473	hotpot_enableobfuscate	1
+474	hotpot_bodystyles	
+475	hotpot_frameheight	85
+476	hotpot_lockframe	0
+477	hotpot_storedetails	0
+478	hotpot_maxeventlength	5
+479	jitsi_domain	meet.jit.si
+480	jitsi_sesionname	0,1,2
+481	jitsi_showinfo	0
+482	jitsi_channellastcam	4
+483	jitsi_livebutton	0
+484	jitsi_blurbutton	0
+485	jitsi_shareyoutube	0
+486	jitsi_watermarklink	https://jitsi.org
+487	jitsi_finishandreturn	0
+488	jitsi_app_id	
+489	jitsi_secret	
+490	block_course_list_adminview	all
+491	block_course_list_hideallcourseslink	0
+492	block_html_allowcssclasses	0
+391	allversionshash	407287d3c4f5951349bd3d170a1cc8e31cb37899
+392	notloggedinroleid	6
+393	guestroleid	6
+394	defaultuserroleid	7
+395	creatornewroleid	3
+396	restorernewroleid	3
+397	sitepolicyhandler	
+398	gradebookroles	5
+399	bigbluebuttonbn_server_url	http://test-install.blindsidenetworks.com/bigbluebutton/
+400	bigbluebuttonbn_shared_secret	8cd8ef52e8e101574e400365b55e11a6
+401	bigbluebuttonbn_recording_default	1
+402	bigbluebuttonbn_recording_editable	1
+403	bigbluebuttonbn_recording_icons_enabled	1
+404	bigbluebuttonbn_recording_all_from_start_default	0
+405	bigbluebuttonbn_recording_all_from_start_editable	0
+406	bigbluebuttonbn_recording_hide_button_default	0
+407	bigbluebuttonbn_recording_hide_button_editable	0
+408	bigbluebuttonbn_importrecordings_enabled	0
+409	bigbluebuttonbn_importrecordings_from_deleted_enabled	0
+410	bigbluebuttonbn_recordings_html_default	1
+411	bigbluebuttonbn_recordings_html_editable	0
+412	bigbluebuttonbn_recordings_deleted_default	1
+413	bigbluebuttonbn_recordings_deleted_editable	0
+414	bigbluebuttonbn_recordings_imported_default	0
+415	bigbluebuttonbn_recordings_imported_editable	1
+416	bigbluebuttonbn_recordings_preview_default	1
+417	bigbluebuttonbn_recordings_preview_editable	0
+418	bigbluebuttonbn_recordings_sortorder	0
+419	bigbluebuttonbn_waitformoderator_default	0
+420	bigbluebuttonbn_waitformoderator_editable	1
+421	bigbluebuttonbn_waitformoderator_ping_interval	10
+422	bigbluebuttonbn_waitformoderator_cache_ttl	60
+423	bigbluebuttonbn_voicebridge_editable	0
+424	bigbluebuttonbn_preuploadpresentation_enabled	0
+425	bigbluebuttonbn_userlimit_default	0
+426	bigbluebuttonbn_userlimit_editable	0
+427	bigbluebuttonbn_participant_moderator_default	0
+428	bigbluebuttonbn_sendnotifications_enabled	1
+429	bigbluebuttonbn_muteonstart_default	0
+430	bigbluebuttonbn_muteonstart_editable	0
+431	bigbluebuttonbn_recordingready_enabled	0
+432	bigbluebuttonbn_meetingevents_enabled	0
+433	chat_method	ajax
+434	chat_refresh_userlist	10
+435	chat_old_ping	35
+436	chat_refresh_room	5
+437	chat_normal_updatemode	jsupdate
+438	chat_serverhost	moodlecloud.id
+439	chat_serverip	127.0.0.1
+440	chat_serverport	9111
+441	chat_servermax	100
+442	data_enablerssfeeds	0
+443	feedback_allowfullanonymous	0
+444	forum_displaymode	3
+445	forum_shortpost	300
+446	forum_longpost	600
+447	forum_manydiscussions	100
+448	forum_maxbytes	512000
+449	forum_maxattachments	9
+450	forum_subscription	0
+451	forum_trackingtype	1
+452	forum_trackreadposts	1
+453	forum_allowforcedreadtracking	0
+454	forum_oldpostdays	14
+455	forum_usermarksread	0
+456	forum_cleanreadtime	2
+457	digestmailtime	17
+493	block_online_users_timetosee	5
+494	block_rss_client_num_entries	5
+495	block_rss_client_timeout	30
+496	pathtounoconv	/usr/bin/unoconv
+497	filter_multilang_force_old	0
+498	filter_censor_badwords	
+499	logguests	1
+500	loglifetime	0
+501	jabberhost	
+502	jabberserver	
+503	jabberusername	
+504	jabberpassword	
+505	jabberport	5222
+506	airnotifierurl	https://messages.moodle.net
+507	airnotifierport	443
+508	airnotifiermobileappname	com.moodle.moodlemobile
+509	airnotifierappname	commoodlemoodlemobile
+510	airnotifieraccesskey	
+511	profileroles	5,4,3
+272	calendar_exportsalt	6UgCwjagAgJnjGSDGAiU7vfS8VNZD1b7BTQlSQRMry0HBztknwns3PXWyJjc
+512	coursecontact	3
+513	frontpage	6
+514	frontpageloggedin	6
+515	maxcategorydepth	2
+516	frontpagecourselimit	200
+517	commentsperpage	15
+518	defaultfrontpageroleid	8
+519	messageinbound_enabled	0
+520	messageinbound_mailbox	
+521	messageinbound_domain	
+522	messageinbound_host	
+523	messageinbound_hostssl	ssl
+524	messageinbound_hostuser	
+525	messageinbound_hostpass	
+526	enablemobilewebservice	0
+527	registrationpending	1
 \.
 
 
@@ -26501,2286 +26486,2247 @@ COPY public.mdl_config (id, name, value) FROM stdin;
 --
 
 COPY public.mdl_config_log (id, userid, timemodified, plugin, name, value, oldvalue) FROM stdin;
-1	0	1586879254	\N	enableoutcomes	0	\N
-2	0	1586879254	\N	usecomments	1	\N
-3	0	1586879254	\N	usetags	1	\N
-4	0	1586879254	\N	enablenotes	1	\N
-5	0	1586879255	\N	enableportfolios	0	\N
-6	0	1586879255	\N	enablewebservices	0	\N
-7	0	1586879255	\N	messaging	1	\N
-8	0	1586879255	\N	messagingallusers	0	\N
-9	0	1586879255	\N	messagingdeletereadnotificationsdelay	604800	\N
-10	0	1586879255	\N	messagingdeleteallnotificationsdelay	2620800	\N
-11	0	1586879255	\N	messagingallowemailoverride	0	\N
-12	0	1586879255	\N	enablestats	0	\N
-13	0	1586879255	\N	enablerssfeeds	0	\N
-14	0	1586879255	\N	enableblogs	1	\N
-15	0	1586879255	\N	enablecompletion	1	\N
-16	0	1586879255	\N	completiondefault	1	\N
-17	0	1586879255	\N	enableavailability	1	\N
-18	0	1586879255	\N	enableplagiarism	0	\N
-19	0	1586879255	\N	enablebadges	1	\N
-20	0	1586879255	\N	enableglobalsearch	0	\N
-21	0	1586879255	\N	allowstealth	0	\N
-22	0	1586879255	\N	defaultpreference_maildisplay	2	\N
-23	0	1586879255	\N	defaultpreference_mailformat	1	\N
-24	0	1586879255	\N	defaultpreference_maildigest	0	\N
-25	0	1586879255	\N	defaultpreference_autosubscribe	1	\N
-26	0	1586879255	\N	defaultpreference_trackforums	0	\N
-27	0	1586879255	\N	autologinguests	0	\N
-28	0	1586879255	\N	hiddenuserfields		\N
-29	0	1586879255	\N	showuseridentity	email	\N
-30	0	1586879255	\N	fullnamedisplay	language	\N
-31	0	1586879255	\N	alternativefullnameformat	language	\N
-32	0	1586879255	\N	maxusersperpage	100	\N
-33	0	1586879255	\N	enablegravatar	0	\N
-34	0	1586879255	\N	gravatardefaulturl	mm	\N
-35	0	1586879255	\N	agedigitalconsentverification	0	\N
-36	0	1586879255	\N	agedigitalconsentmap	*, 16\nAT, 14\nES, 14\nUS, 13	\N
-37	0	1586879255	\N	sitepolicy		\N
-38	0	1586879255	\N	sitepolicyguest		\N
-39	0	1586879255	moodlecourse	visible	1	\N
-40	0	1586879255	moodlecourse	format	topics	\N
-41	0	1586879255	moodlecourse	maxsections	52	\N
-42	0	1586879255	moodlecourse	numsections	4	\N
-43	0	1586879255	moodlecourse	hiddensections	0	\N
-44	0	1586879255	moodlecourse	coursedisplay	0	\N
-45	0	1586879255	moodlecourse	courseenddateenabled	1	\N
-46	0	1586879255	moodlecourse	courseduration	31536000	\N
-47	0	1586879255	moodlecourse	lang		\N
-48	0	1586879255	moodlecourse	newsitems	5	\N
-49	0	1586879255	moodlecourse	showgrades	1	\N
-50	0	1586879255	moodlecourse	showreports	0	\N
-51	0	1586879255	moodlecourse	maxbytes	0	\N
-52	0	1586879255	moodlecourse	enablecompletion	1	\N
-53	0	1586879255	moodlecourse	groupmode	0	\N
-54	0	1586879255	moodlecourse	groupmodeforce	0	\N
-55	0	1586879255	\N	enablecourserequests	0	\N
-56	0	1586879255	\N	defaultrequestcategory	1	\N
-57	0	1586879255	\N	requestcategoryselection	0	\N
-58	0	1586879255	\N	courserequestnotify		\N
-59	0	1586879255	backup	loglifetime	30	\N
-60	0	1586879255	backup	backup_general_users	1	\N
-61	0	1586879255	backup	backup_general_users_locked		\N
-62	0	1586879255	backup	backup_general_anonymize	0	\N
-63	0	1586879255	backup	backup_general_anonymize_locked		\N
-64	0	1586879255	backup	backup_general_role_assignments	1	\N
-65	0	1586879255	backup	backup_general_role_assignments_locked		\N
-66	0	1586879255	backup	backup_general_activities	1	\N
-67	0	1586879255	backup	backup_general_activities_locked		\N
-68	0	1586879255	backup	backup_general_blocks	1	\N
-69	0	1586879255	backup	backup_general_blocks_locked		\N
-70	0	1586879255	backup	backup_general_filters	1	\N
-71	0	1586879255	backup	backup_general_filters_locked		\N
-72	0	1586879255	backup	backup_general_comments	1	\N
-73	0	1586879255	backup	backup_general_comments_locked		\N
-74	0	1586879255	backup	backup_general_badges	1	\N
-75	0	1586879255	backup	backup_general_badges_locked		\N
-76	0	1586879255	backup	backup_general_calendarevents	1	\N
-77	0	1586879255	backup	backup_general_calendarevents_locked		\N
-78	0	1586879255	backup	backup_general_userscompletion	1	\N
-79	0	1586879255	backup	backup_general_userscompletion_locked		\N
-80	0	1586879255	backup	backup_general_logs	0	\N
-81	0	1586879255	backup	backup_general_logs_locked		\N
-82	0	1586879255	backup	backup_general_histories	0	\N
-83	0	1586879255	backup	backup_general_histories_locked		\N
-84	0	1586879255	backup	backup_general_questionbank	1	\N
-85	0	1586879255	backup	backup_general_questionbank_locked		\N
-86	0	1586879255	backup	backup_general_groups	1	\N
-87	0	1586879255	backup	backup_general_groups_locked		\N
-88	0	1586879255	backup	backup_general_competencies	1	\N
-89	0	1586879255	backup	backup_general_competencies_locked		\N
-90	0	1586879255	backup	import_general_maxresults	10	\N
-91	0	1586879255	backup	import_general_duplicate_admin_allowed	0	\N
-92	0	1586879255	backup	backup_import_activities	1	\N
-93	0	1586879255	backup	backup_import_activities_locked		\N
-94	0	1586879255	backup	backup_import_blocks	1	\N
-95	0	1586879255	backup	backup_import_blocks_locked		\N
-96	0	1586879255	backup	backup_import_filters	1	\N
-97	0	1586879255	backup	backup_import_filters_locked		\N
-98	0	1586879255	backup	backup_import_calendarevents	1	\N
-99	0	1586879255	backup	backup_import_calendarevents_locked		\N
-100	0	1586879255	backup	backup_import_questionbank	1	\N
-101	0	1586879255	backup	backup_import_questionbank_locked		\N
-102	0	1586879255	backup	backup_import_groups	1	\N
-103	0	1586879255	backup	backup_import_groups_locked		\N
-104	0	1586879255	backup	backup_import_competencies	1	\N
-105	0	1586879255	backup	backup_import_competencies_locked		\N
-106	0	1586879255	backup	backup_auto_active	0	\N
-107	0	1586879255	backup	backup_auto_weekdays	0000000	\N
-108	0	1586879255	backup	backup_auto_hour	0	\N
-109	0	1586879255	backup	backup_auto_minute	0	\N
-110	0	1586879255	backup	backup_auto_storage	0	\N
-111	0	1586879255	backup	backup_auto_destination		\N
-112	0	1586879255	backup	backup_auto_max_kept	1	\N
-113	0	1586879255	backup	backup_auto_delete_days	0	\N
-114	0	1586879255	backup	backup_auto_min_kept	0	\N
-115	0	1586879255	backup	backup_shortname	0	\N
-116	0	1586879255	backup	backup_auto_skip_hidden	1	\N
-117	0	1586879255	backup	backup_auto_skip_modif_days	30	\N
-118	0	1586879255	backup	backup_auto_skip_modif_prev	0	\N
-119	0	1586879255	backup	backup_auto_users	1	\N
-120	0	1586879255	backup	backup_auto_role_assignments	1	\N
-121	0	1586879255	backup	backup_auto_activities	1	\N
-122	0	1586879255	backup	backup_auto_blocks	1	\N
-123	0	1586879255	backup	backup_auto_filters	1	\N
-124	0	1586879255	backup	backup_auto_comments	1	\N
-125	0	1586879255	backup	backup_auto_badges	1	\N
-126	0	1586879255	backup	backup_auto_calendarevents	1	\N
-127	0	1586879255	backup	backup_auto_userscompletion	1	\N
-128	0	1586879255	backup	backup_auto_logs	0	\N
-129	0	1586879255	backup	backup_auto_histories	0	\N
-130	0	1586879255	backup	backup_auto_questionbank	1	\N
-131	0	1586879255	backup	backup_auto_groups	1	\N
-132	0	1586879255	backup	backup_auto_competencies	1	\N
-133	0	1586879255	restore	restore_general_users	1	\N
-134	0	1586879255	restore	restore_general_users_locked		\N
-135	0	1586879255	restore	restore_general_enrolments	1	\N
-136	0	1586879255	restore	restore_general_enrolments_locked		\N
-137	0	1586879255	restore	restore_general_role_assignments	1	\N
-138	0	1586879255	restore	restore_general_role_assignments_locked		\N
-139	0	1586879255	restore	restore_general_activities	1	\N
-140	0	1586879255	restore	restore_general_activities_locked		\N
-141	0	1586879255	restore	restore_general_blocks	1	\N
-142	0	1586879255	restore	restore_general_blocks_locked		\N
-143	0	1586879255	restore	restore_general_filters	1	\N
-144	0	1586879255	restore	restore_general_filters_locked		\N
-145	0	1586879255	restore	restore_general_comments	1	\N
-146	0	1586879255	restore	restore_general_comments_locked		\N
-147	0	1586879255	restore	restore_general_badges	1	\N
-148	0	1586879255	restore	restore_general_badges_locked		\N
-149	0	1586879255	restore	restore_general_calendarevents	1	\N
-150	0	1586879255	restore	restore_general_calendarevents_locked		\N
-151	0	1586879255	restore	restore_general_userscompletion	1	\N
-152	0	1586879255	restore	restore_general_userscompletion_locked		\N
-153	0	1586879255	restore	restore_general_logs	1	\N
-154	0	1586879255	restore	restore_general_logs_locked		\N
-155	0	1586879255	restore	restore_general_histories	1	\N
-156	0	1586879255	restore	restore_general_histories_locked		\N
-157	0	1586879255	restore	restore_general_groups	1	\N
-158	0	1586879255	restore	restore_general_groups_locked		\N
-159	0	1586879255	restore	restore_general_competencies	1	\N
-160	0	1586879255	restore	restore_general_competencies_locked		\N
-161	0	1586879255	restore	restore_merge_overwrite_conf	0	\N
-162	0	1586879255	restore	restore_merge_overwrite_conf_locked		\N
-163	0	1586879255	restore	restore_merge_course_fullname	1	\N
-164	0	1586879255	restore	restore_merge_course_fullname_locked		\N
-165	0	1586879255	restore	restore_merge_course_shortname	1	\N
-166	0	1586879255	restore	restore_merge_course_shortname_locked		\N
-167	0	1586879255	restore	restore_merge_course_startdate	1	\N
-168	0	1586879255	restore	restore_merge_course_startdate_locked		\N
-169	0	1586879255	restore	restore_replace_overwrite_conf	0	\N
-170	0	1586879255	restore	restore_replace_overwrite_conf_locked		\N
-171	0	1586879255	restore	restore_replace_course_fullname	1	\N
-172	0	1586879255	restore	restore_replace_course_fullname_locked		\N
-173	0	1586879255	restore	restore_replace_course_shortname	1	\N
-174	0	1586879255	restore	restore_replace_course_shortname_locked		\N
-175	0	1586879255	restore	restore_replace_course_startdate	1	\N
-176	0	1586879255	restore	restore_replace_course_startdate_locked		\N
-177	0	1586879255	restore	restore_replace_keep_roles_and_enrolments	0	\N
-178	0	1586879255	restore	restore_replace_keep_roles_and_enrolments_locked		\N
-179	0	1586879255	restore	restore_replace_keep_groups_and_groupings	0	\N
-180	0	1586879255	restore	restore_replace_keep_groups_and_groupings_locked		\N
-181	0	1586879255	\N	grade_profilereport	user	\N
-182	0	1586879255	\N	grade_aggregationposition	1	\N
-183	0	1586879255	\N	grade_includescalesinaggregation	1	\N
-184	0	1586879255	\N	grade_hiddenasdate	0	\N
-185	0	1586879255	\N	gradepublishing	0	\N
-186	0	1586879255	\N	grade_export_exportfeedback	0	\N
-187	0	1586879255	\N	grade_export_displaytype	1	\N
-188	0	1586879255	\N	grade_export_decimalpoints	2	\N
-189	0	1586879255	\N	grade_navmethod	1	\N
-190	0	1586879255	\N	grade_export_userprofilefields	firstname,lastname,idnumber,institution,department,email	\N
-191	0	1586879255	\N	grade_export_customprofilefields		\N
-192	0	1586879255	\N	recovergradesdefault	0	\N
-193	0	1586879255	\N	gradeexport		\N
-194	0	1586879255	\N	unlimitedgrades	0	\N
-195	0	1586879255	\N	grade_report_showmin	1	\N
-196	0	1586879255	\N	gradepointmax	100	\N
-197	0	1586879255	\N	gradepointdefault	100	\N
-198	0	1586879255	\N	grade_minmaxtouse	1	\N
-199	0	1586879255	\N	grade_mygrades_report	overview	\N
-200	0	1586879255	\N	gradereport_mygradeurl		\N
-201	0	1586879255	\N	grade_hideforcedsettings	1	\N
-202	0	1586879255	\N	grade_aggregation	13	\N
-203	0	1586879255	\N	grade_aggregation_flag	0	\N
-204	0	1586879255	\N	grade_aggregations_visible	13	\N
-205	0	1586879255	\N	grade_aggregateonlygraded	1	\N
-206	0	1586879255	\N	grade_aggregateonlygraded_flag	2	\N
-207	0	1586879256	\N	grade_aggregateoutcomes	0	\N
-208	0	1586879256	\N	grade_aggregateoutcomes_flag	2	\N
-209	0	1586879256	\N	grade_keephigh	0	\N
-210	0	1586879256	\N	grade_keephigh_flag	3	\N
-211	0	1586879256	\N	grade_droplow	0	\N
-212	0	1586879256	\N	grade_droplow_flag	2	\N
-213	0	1586879256	\N	grade_overridecat	1	\N
-214	0	1586879256	\N	grade_displaytype	1	\N
-215	0	1586879256	\N	grade_decimalpoints	2	\N
-216	0	1586879256	\N	grade_item_advanced	iteminfo,idnumber,gradepass,plusfactor,multfactor,display,decimals,hiddenuntil,locktime	\N
-217	0	1586879256	\N	grade_report_studentsperpage	100	\N
-218	0	1586879256	\N	grade_report_showonlyactiveenrol	1	\N
-219	0	1586879256	\N	grade_report_quickgrading	1	\N
-220	0	1586879256	\N	grade_report_showquickfeedback	0	\N
-221	0	1586879256	\N	grade_report_meanselection	1	\N
-222	0	1586879256	\N	grade_report_enableajax	0	\N
-223	0	1586879256	\N	grade_report_showcalculations	1	\N
-224	0	1586879256	\N	grade_report_showeyecons	0	\N
-225	0	1586879256	\N	grade_report_showaverages	1	\N
-226	0	1586879256	\N	grade_report_showlocks	0	\N
-227	0	1586879256	\N	grade_report_showranges	0	\N
-228	0	1586879256	\N	grade_report_showanalysisicon	1	\N
-229	0	1586879256	\N	grade_report_showuserimage	1	\N
-230	0	1586879256	\N	grade_report_showactivityicons	1	\N
-231	0	1586879256	\N	grade_report_shownumberofgrades	0	\N
-232	0	1586879256	\N	grade_report_averagesdisplaytype	inherit	\N
-233	0	1586879256	\N	grade_report_rangesdisplaytype	inherit	\N
-234	0	1586879256	\N	grade_report_averagesdecimalpoints	inherit	\N
-235	0	1586879256	\N	grade_report_rangesdecimalpoints	inherit	\N
-236	0	1586879256	\N	grade_report_historyperpage	50	\N
-237	0	1586879256	\N	grade_report_overview_showrank	0	\N
-238	0	1586879256	\N	grade_report_overview_showtotalsifcontainhidden	0	\N
-239	0	1586879256	\N	grade_report_user_showrank	0	\N
-240	0	1586879256	\N	grade_report_user_showpercentage	1	\N
-241	0	1586879256	\N	grade_report_user_showgrade	1	\N
-242	0	1586879256	\N	grade_report_user_showfeedback	1	\N
-243	0	1586879256	\N	grade_report_user_showrange	1	\N
-244	0	1586879256	\N	grade_report_user_showweight	1	\N
-245	0	1586879256	\N	grade_report_user_showaverage	0	\N
-246	0	1586879256	\N	grade_report_user_showlettergrade	0	\N
-247	0	1586879256	\N	grade_report_user_rangedecimals	0	\N
-248	0	1586879256	\N	grade_report_user_showhiddenitems	1	\N
-249	0	1586879256	\N	grade_report_user_showtotalsifcontainhidden	0	\N
-250	0	1586879256	\N	grade_report_user_showcontributiontocoursetotal	1	\N
-251	0	1586879256	analytics	predictionsprocessor	\\mlbackend_php\\processor	\N
-252	0	1586879256	analytics	timesplittings	\\core\\analytics\\time_splitting\\quarters_accum,\\core\\analytics\\time_splitting\\quarters,\\core\\analytics\\time_splitting\\single_range	\N
-253	0	1586879256	analytics	modeloutputdir	/var/www/moodledata/models	\N
-254	0	1586879256	analytics	onlycli	1	\N
-255	0	1586879256	analytics	modeltimelimit	1200	\N
-256	0	1586879256	core_competency	enabled	1	\N
-257	0	1586879256	core_competency	pushcourseratingstouserplans	1	\N
-258	0	1586879256	\N	badges_defaultissuername		\N
-259	0	1586879256	\N	badges_defaultissuercontact		\N
-260	0	1586879256	\N	badges_badgesalt	badges1586879246	\N
-261	0	1586879256	\N	badges_allowexternalbackpack	1	\N
-262	0	1586879256	\N	badges_allowcoursebadges	1	\N
-263	0	1586879256	\N	timezone	Europe/London	\N
-264	0	1586879256	\N	forcetimezone	99	\N
-265	0	1586879256	\N	country	0	\N
-266	0	1586879256	\N	defaultcity		\N
-267	0	1586879256	\N	geoip2file	/var/www/moodledata/geoip/GeoLite2-City.mmdb	\N
-268	0	1586879256	\N	googlemapkey3		\N
-269	0	1586879256	\N	allcountrycodes		\N
-270	0	1586879256	\N	autolang	1	\N
-271	0	1586879256	\N	lang	en	\N
-272	0	1586879256	\N	langmenu	1	\N
-273	0	1586879256	\N	langlist		\N
-274	0	1586879256	\N	langcache	1	\N
-275	0	1586879256	\N	langstringcache	1	\N
-276	0	1586879256	\N	locale		\N
-277	0	1586879256	\N	latinexcelexport	0	\N
-278	0	1586879256	\N	requiremodintro	0	\N
-279	0	1586879256	\N	registerauth		\N
-280	0	1586879256	\N	authloginviaemail	0	\N
-281	0	1586879256	\N	allowaccountssameemail	0	\N
-282	0	1586879256	\N	authpreventaccountcreation	0	\N
-283	0	1586879256	\N	loginpageautofocus	0	\N
-284	0	1586879256	\N	guestloginbutton	1	\N
-285	0	1586879256	\N	limitconcurrentlogins	0	\N
-286	0	1586879256	\N	alternateloginurl		\N
-287	0	1586879256	\N	forgottenpasswordurl		\N
-288	0	1586879257	\N	auth_instructions		\N
-289	0	1586879257	\N	allowemailaddresses		\N
-290	0	1586879257	\N	denyemailaddresses		\N
-291	0	1586879257	\N	verifychangedemail	1	\N
-292	0	1586879257	\N	recaptchapublickey		\N
-293	0	1586879257	\N	recaptchaprivatekey		\N
-294	0	1586879257	cachestore_apcu	testperformance	0	\N
-295	0	1586879257	cachestore_memcached	testservers		\N
-296	0	1586879257	cachestore_mongodb	testserver		\N
-297	0	1586879257	cachestore_redis	test_server		\N
-298	0	1586879257	cachestore_redis	test_password		\N
-299	0	1586879257	cachestore_redis	test_serializer	1	\N
-300	0	1586879257	\N	filteruploadedfiles	0	\N
-301	0	1586879257	\N	filtermatchoneperpage	0	\N
-302	0	1586879257	\N	filtermatchonepertext	0	\N
-303	0	1586879257	\N	sitedefaultlicense	allrightsreserved	\N
-304	0	1586879257	\N	media_default_width	400	\N
-305	0	1586879257	\N	media_default_height	300	\N
-306	0	1586879257	\N	portfolio_moderate_filesize_threshold	1048576	\N
-307	0	1586879257	\N	portfolio_high_filesize_threshold	5242880	\N
-308	0	1586879257	\N	portfolio_moderate_db_threshold	20	\N
-309	0	1586879257	\N	portfolio_high_db_threshold	50	\N
-310	0	1586879257	question_preview	behaviour	deferredfeedback	\N
-311	0	1586879257	question_preview	correctness	1	\N
-312	0	1586879257	question_preview	marks	2	\N
-313	0	1586879257	question_preview	markdp	2	\N
-314	0	1586879257	question_preview	feedback	1	\N
-315	0	1586879257	question_preview	generalfeedback	1	\N
-316	0	1586879257	question_preview	rightanswer	1	\N
-317	0	1586879257	question_preview	history	0	\N
-318	0	1586879257	\N	repositorycacheexpire	120	\N
-319	0	1586879257	\N	repositorygetfiletimeout	30	\N
-320	0	1586879257	\N	repositorysyncfiletimeout	1	\N
-321	0	1586879257	\N	repositorysyncimagetimeout	3	\N
-322	0	1586879257	\N	repositoryallowexternallinks	1	\N
-323	0	1586879257	\N	legacyfilesinnewcourses	0	\N
-324	0	1586879257	\N	legacyfilesaddallowed	1	\N
-325	0	1586879257	\N	searchengine	simpledb	\N
-326	0	1586879257	\N	searchindexwhendisabled	0	\N
-327	0	1586879257	\N	searchindextime	600	\N
-328	0	1586879257	\N	searchallavailablecourses	0	\N
-329	0	1586879257	\N	enablewsdocumentation	0	\N
-330	0	1586879257	\N	allowbeforeblock	0	\N
-331	0	1586879257	\N	allowedip		\N
-332	0	1586879257	\N	blockedip		\N
-333	0	1586879257	\N	protectusernames	1	\N
-334	0	1586879257	\N	forcelogin	0	\N
-335	0	1586879257	\N	forceloginforprofiles	1	\N
-336	0	1586879257	\N	forceloginforprofileimage	0	\N
-337	0	1586879257	\N	opentogoogle	0	\N
-338	0	1586879257	\N	allowindexing	0	\N
-339	0	1586879257	\N	maxbytes	0	\N
-340	0	1586879257	\N	userquota	104857600	\N
-341	0	1586879257	\N	allowobjectembed	0	\N
-342	0	1586879257	\N	enabletrusttext	0	\N
-343	0	1586879257	\N	maxeditingtime	1800	\N
-344	0	1586879257	\N	extendedusernamechars	0	\N
-345	0	1586879257	\N	keeptagnamecase	1	\N
-346	0	1586879257	\N	profilesforenrolledusersonly	1	\N
-347	0	1586879257	\N	cronclionly	1	\N
-348	0	1586879257	\N	cronremotepassword		\N
-349	0	1586879257	tool_task	enablerunnow	1	\N
-350	0	1586879257	\N	lockoutthreshold	0	\N
-351	0	1586879257	\N	lockoutwindow	1800	\N
-352	0	1586879257	\N	lockoutduration	1800	\N
-353	0	1586879257	\N	passwordpolicy	1	\N
-354	0	1586879257	\N	minpasswordlength	8	\N
-355	0	1586879257	\N	minpassworddigits	1	\N
-356	0	1586879257	\N	minpasswordlower	1	\N
-357	0	1586879257	\N	minpasswordupper	1	\N
-358	0	1586879257	\N	minpasswordnonalphanum	1	\N
-359	0	1586879257	\N	maxconsecutiveidentchars	0	\N
-360	0	1586879257	\N	passwordreuselimit	0	\N
-361	0	1586879257	\N	pwresettime	1800	\N
-362	0	1586879257	\N	passwordchangelogout	0	\N
-363	0	1586879257	\N	passwordchangetokendeletion	0	\N
-364	0	1586879257	\N	tokenduration	7257600	\N
-365	0	1586879257	\N	groupenrolmentkeypolicy	1	\N
-366	0	1586879257	\N	disableuserimages	0	\N
-367	0	1586879257	\N	emailchangeconfirmation	1	\N
-368	0	1586879257	\N	rememberusername	2	\N
-369	0	1586879257	\N	strictformsrequired	0	\N
-370	0	1586879257	\N	cookiesecure	1	\N
-371	0	1586879257	\N	cookiehttponly	0	\N
-372	0	1586879257	\N	allowframembedding	0	\N
-373	0	1586879257	\N	curlsecurityblockedhosts		\N
-374	0	1586879257	\N	curlsecurityallowedport		\N
-375	0	1586879257	\N	displayloginfailures	0	\N
-376	0	1586879257	\N	notifyloginfailures		\N
-377	0	1586879257	\N	notifyloginthreshold	10	\N
-378	0	1586879257	\N	themelist		\N
-379	0	1586879257	\N	themedesignermode	0	\N
-380	0	1586879257	\N	allowuserthemes	0	\N
-381	0	1586879257	\N	allowcoursethemes	0	\N
-382	0	1586879257	\N	allowcategorythemes	0	\N
-383	0	1586879257	\N	allowcohortthemes	0	\N
-384	0	1586879257	\N	allowthemechangeonurl	0	\N
-385	0	1586879257	\N	allowuserblockhiding	1	\N
-386	0	1586879257	\N	allowblockstodock	1	\N
-387	0	1586879257	\N	custommenuitems		\N
-388	0	1586879257	\N	customusermenuitems	grades,grades|/grade/report/mygrades.php|t/grades\nmessages,message|/message/index.php|t/message\npreferences,moodle|/user/preferences.php|t/preferences	\N
-389	0	1586879257	\N	enabledevicedetection	1	\N
-390	0	1586879257	\N	devicedetectregex	[]	\N
-391	0	1586879257	theme_boost	preset	default.scss	\N
-392	0	1586879257	theme_boost	presetfiles		\N
-393	0	1586879257	theme_boost	backgroundimage		\N
-394	0	1586879257	theme_boost	brandcolor		\N
-395	0	1586879257	theme_boost	scsspre		\N
-396	0	1586879257	theme_boost	scss		\N
-397	0	1586879257	theme_clean	invert	0	\N
-398	0	1586879257	theme_clean	logo		\N
-399	0	1586879257	theme_clean	smalllogo		\N
-400	0	1586879257	theme_clean	sitename	1	\N
-401	0	1586879257	theme_clean	customcss		\N
-402	0	1586879257	theme_clean	footnote		\N
-403	0	1586879257	theme_essential	docking		\N
-404	0	1586879257	theme_essential	flatnavigation		\N
-405	0	1586879257	theme_essential	pagebackground		\N
-406	0	1586879257	theme_essential	pagebackgroundstyle	fixed	\N
-407	0	1586879257	theme_essential	pagewidth	1200	\N
-408	0	1586879257	theme_essential	pagetopblocks	1	\N
-409	0	1586879257	theme_essential	pagetopblocksperrow	1	\N
-410	0	1586879257	theme_essential	pagebottomblocksperrow	4	\N
-411	0	1586879257	theme_essential	userimageborderradius	90	\N
-412	0	1586879257	theme_essential	favicon		\N
-413	0	1586879257	theme_essential	customcss		\N
-414	0	1586879257	theme_essential	coursecontentsearch	1	\N
-415	0	1586879257	theme_essential	searchallcoursecontentenable	1	\N
-416	0	1586879257	theme_essential	searchallcoursecontentdefault	1	\N
-417	0	1586879257	theme_essential	coursecontentsearchsortattribute	cid	\N
-418	0	1586879257	theme_essential	coursecontentsearchsortorder	asc	\N
-419	0	1586879257	theme_essential	customscrollbars	1	\N
-420	0	1586879257	theme_essential	fitvids	1	\N
-421	0	1586879257	theme_essential	floatingsubmitbuttons	1	\N
-422	0	1586879257	theme_essential	layout		\N
-423	0	1586879257	theme_essential	coursetitleposition	within	\N
-424	0	1586879257	theme_essential	activitynavigationposition	below	\N
-425	0	1586879257	theme_essential	categoryincoursebreadcrumbfeature	1	\N
-426	0	1586879257	theme_essential	returntosectionfeature	1	\N
-427	0	1586879257	theme_essential	returntosectiontextlimitfeature	15	\N
-428	0	1586879257	theme_essential	loginbackground		\N
-429	0	1586879257	theme_essential	loginbackgroundstyle	cover	\N
-430	0	1586879257	theme_essential	loginbackgroundopacity	0.8	\N
-431	0	1586879257	theme_essential	hvpcustomcss		\N
-432	0	1586879257	theme_essential	themecolor	#30add1	\N
-433	0	1586879257	theme_essential	themetextcolor	#217a94	\N
-434	0	1586879257	theme_essential	themeurlcolor	#943b21	\N
-435	0	1586879257	theme_essential	themehovercolor	#6a2a18	\N
-436	0	1586879257	theme_essential	themeiconcolor	#30add1	\N
-437	0	1586879257	theme_essential	themesidepreblockbackgroundcolour	#ffffff	\N
-438	0	1586879257	theme_essential	themesidepreblocktextcolour	#217a94	\N
-439	0	1586879257	theme_essential	themesidepreblockurlcolour	#943b21	\N
-440	0	1586879257	theme_essential	themesidepreblockhovercolour	#6a2a18	\N
-441	0	1586879257	theme_essential	themedefaultbuttontextcolour	#ffffff	\N
-442	0	1586879257	theme_essential	themedefaultbuttontexthovercolour	#ffffff	\N
-443	0	1586879257	theme_essential	themedefaultbuttonbackgroundcolour	#30add1	\N
-444	0	1586879257	theme_essential	themedefaultbuttonbackgroundhovercolour	#3ad4ff	\N
-445	0	1586879257	theme_essential	themenavcolor	#ffffff	\N
-446	0	1586879257	theme_essential	themestripetextcolour	#ffffff	\N
-447	0	1586879257	theme_essential	themestripebackgroundcolour	#ff9a34	\N
-448	0	1586879257	theme_essential	themestripeurlcolour	#25849f	\N
-449	0	1586879257	theme_essential	themequizsubmittextcolour	#ffffff	\N
-450	0	1586879257	theme_essential	themequizsubmittexthovercolour	#ffffff	\N
-451	0	1586879257	theme_essential	themequizsubmitbackgroundcolour	#ff9a34	\N
-452	0	1586879257	theme_essential	themequizsubmitbackgroundhovercolour	#ffaf60	\N
-453	0	1586879257	theme_essential	footercolor	#30add1	\N
-454	0	1586879257	theme_essential	footertextcolor	#ffffff	\N
-455	0	1586879257	theme_essential	footerheadingcolor	#cccccc	\N
-456	0	1586879257	theme_essential	footerblockbackgroundcolour	#cccccc	\N
-457	0	1586879257	theme_essential	footerblocktextcolour	#000000	\N
-458	0	1586879257	theme_essential	footerblockurlcolour	#000000	\N
-459	0	1586879257	theme_essential	footerblockhovercolour	#555555	\N
-460	0	1586879257	theme_essential	footersepcolor	#313131	\N
-461	0	1586879257	theme_essential	footerurlcolor	#cccccc	\N
-462	0	1586879257	theme_essential	footerhovercolor	#bbbbbb	\N
-463	0	1586879257	theme_essential	enablealternativethemecolors1		\N
-464	0	1586879257	theme_essential	alternativethemename1	Alternative colours 1	\N
-465	0	1586879257	theme_essential	alternativethemecolor1	#a430d1	\N
-608	0	1586879258	theme_essential	logomobilewidth	10	\N
-466	0	1586879257	theme_essential	alternativethemetextcolor1	#a430d1	\N
-467	0	1586879257	theme_essential	alternativethemeurlcolor1	#a430d1	\N
-468	0	1586879257	theme_essential	alternativethemehovercolor1	#9929c4	\N
-469	0	1586879257	theme_essential	alternativethemedefaultbuttontextcolour1	#ffffff	\N
-470	0	1586879257	theme_essential	alternativethemedefaultbuttontexthovercolour1	#ffffff	\N
-471	0	1586879257	theme_essential	alternativethemedefaultbuttonbackgroundcolour1	#30add1	\N
-472	0	1586879257	theme_essential	alternativethemedefbuttonbackgroundhvrcolour1	#3ad4ff	\N
-473	0	1586879257	theme_essential	alternativethemeiconcolor1	#a430d1	\N
-474	0	1586879257	theme_essential	alternativethemesidepreblockbackgroundcolour1	#ffffff	\N
-475	0	1586879257	theme_essential	alternativethemesidepreblocktextcolour1	#a430d1	\N
-476	0	1586879257	theme_essential	alternativethemesidepreblockurlcolour1	#a430d1	\N
-477	0	1586879257	theme_essential	alternativethemesidepreblockhovercolour1	#9929c4	\N
-478	0	1586879257	theme_essential	alternativethemenavcolor1	#ffffff	\N
-479	0	1586879257	theme_essential	alternativethemestripetextcolour1	#bdfdb7	\N
-480	0	1586879257	theme_essential	alternativethemestripebackgroundcolour1	#c1009f	\N
-481	0	1586879257	theme_essential	alternativethemestripeurlcolour1	#bef500	\N
-482	0	1586879257	theme_essential	alternativethemequizsubmittextcolour1	#ffffff	\N
-483	0	1586879257	theme_essential	alternativethemequizsubmittexthovercolour1	#ffffff	\N
-484	0	1586879257	theme_essential	alternativethemequizsubmitbackgroundcolour1	#ff9a34	\N
-485	0	1586879257	theme_essential	alternativethemequizsubmitbackgroundhovercolour1	#ffaf60	\N
-486	0	1586879257	theme_essential	alternativethememycoursesorderenrolbackcolour1	#a3ebff	\N
-487	0	1586879257	theme_essential	alternativethemefootercolor1	#30add1	\N
-488	0	1586879257	theme_essential	alternativethemefootertextcolor1	#ffffff	\N
-489	0	1586879257	theme_essential	alternativethemefooterheadingcolor1	#cccccc	\N
-490	0	1586879257	theme_essential	alternativethemefooterblockbackgroundcolour1	#cccccc	\N
-491	0	1586879257	theme_essential	alternativethemefooterblocktextcolour1	#000000	\N
-492	0	1586879257	theme_essential	alternativethemefooterblockurlcolour1	#000000	\N
-493	0	1586879257	theme_essential	alternativethemefooterblockhovercolour1	#555555	\N
-494	0	1586879257	theme_essential	alternativethemefootersepcolor1	#313131	\N
-495	0	1586879258	theme_essential	alternativethemefooterurlcolor1	#cccccc	\N
-496	0	1586879258	theme_essential	alternativethemefooterhovercolor1	#bbbbbb	\N
-497	0	1586879258	theme_essential	enablealternativethemecolors2		\N
-498	0	1586879258	theme_essential	alternativethemename2	Alternative colours 2	\N
-499	0	1586879258	theme_essential	alternativethemecolor2	#d15430	\N
-500	0	1586879258	theme_essential	alternativethemetextcolor2	#d15430	\N
-501	0	1586879258	theme_essential	alternativethemeurlcolor2	#d15430	\N
-502	0	1586879258	theme_essential	alternativethemehovercolor2	#c44c29	\N
-503	0	1586879258	theme_essential	alternativethemedefaultbuttontextcolour2	#ffffff	\N
-504	0	1586879258	theme_essential	alternativethemedefaultbuttontexthovercolour2	#ffffff	\N
-505	0	1586879258	theme_essential	alternativethemedefaultbuttonbackgroundcolour2	#30add1	\N
-506	0	1586879258	theme_essential	alternativethemedefbuttonbackgroundhvrcolour2	#3ad4ff	\N
-507	0	1586879258	theme_essential	alternativethemeiconcolor2	#d15430	\N
-508	0	1586879258	theme_essential	alternativethemesidepreblockbackgroundcolour2	#ffffff	\N
-509	0	1586879258	theme_essential	alternativethemesidepreblocktextcolour2	#d15430	\N
-510	0	1586879258	theme_essential	alternativethemesidepreblockurlcolour2	#d15430	\N
-511	0	1586879258	theme_essential	alternativethemesidepreblockhovercolour2	#c44c29	\N
-512	0	1586879258	theme_essential	alternativethemenavcolor2	#ffffff	\N
-513	0	1586879258	theme_essential	alternativethemestripetextcolour2	#c3fdd0	\N
-514	0	1586879258	theme_essential	alternativethemestripebackgroundcolour2	#bc2800	\N
-515	0	1586879258	theme_essential	alternativethemestripeurlcolour2	#30af67	\N
-516	0	1586879258	theme_essential	alternativethemequizsubmittextcolour2	#ffffff	\N
-517	0	1586879258	theme_essential	alternativethemequizsubmittexthovercolour2	#ffffff	\N
-518	0	1586879258	theme_essential	alternativethemequizsubmitbackgroundcolour2	#ff9a34	\N
-519	0	1586879258	theme_essential	alternativethemequizsubmitbackgroundhovercolour2	#ffaf60	\N
-520	0	1586879258	theme_essential	alternativethememycoursesorderenrolbackcolour2	#a3ebff	\N
-521	0	1586879258	theme_essential	alternativethemefootercolor2	#30add1	\N
-522	0	1586879258	theme_essential	alternativethemefootertextcolor2	#ffffff	\N
-523	0	1586879258	theme_essential	alternativethemefooterheadingcolor2	#cccccc	\N
-524	0	1586879258	theme_essential	alternativethemefooterblockbackgroundcolour2	#cccccc	\N
-525	0	1586879258	theme_essential	alternativethemefooterblocktextcolour2	#000000	\N
-526	0	1586879258	theme_essential	alternativethemefooterblockurlcolour2	#000000	\N
-527	0	1586879258	theme_essential	alternativethemefooterblockhovercolour2	#555555	\N
-528	0	1586879258	theme_essential	alternativethemefootersepcolor2	#313131	\N
-529	0	1586879258	theme_essential	alternativethemefooterurlcolor2	#cccccc	\N
-530	0	1586879258	theme_essential	alternativethemefooterhovercolor2	#bbbbbb	\N
-531	0	1586879258	theme_essential	enablealternativethemecolors3		\N
-532	0	1586879258	theme_essential	alternativethemename3	Alternative colours 3	\N
-533	0	1586879258	theme_essential	alternativethemecolor3	#5dd130	\N
-534	0	1586879258	theme_essential	alternativethemetextcolor3	#5dd130	\N
-535	0	1586879258	theme_essential	alternativethemeurlcolor3	#5dd130	\N
-536	0	1586879258	theme_essential	alternativethemehovercolor3	#53c429	\N
-537	0	1586879258	theme_essential	alternativethemedefaultbuttontextcolour3	#ffffff	\N
-538	0	1586879258	theme_essential	alternativethemedefaultbuttontexthovercolour3	#ffffff	\N
-539	0	1586879258	theme_essential	alternativethemedefaultbuttonbackgroundcolour3	#30add1	\N
-540	0	1586879258	theme_essential	alternativethemedefbuttonbackgroundhvrcolour3	#3ad4ff	\N
-541	0	1586879258	theme_essential	alternativethemeiconcolor3	#5dd130	\N
-542	0	1586879258	theme_essential	alternativethemesidepreblockbackgroundcolour3	#ffffff	\N
-543	0	1586879258	theme_essential	alternativethemesidepreblocktextcolour3	#5dd130	\N
-544	0	1586879258	theme_essential	alternativethemesidepreblockurlcolour3	#5dd130	\N
-545	0	1586879258	theme_essential	alternativethemesidepreblockhovercolour3	#53c429	\N
-546	0	1586879258	theme_essential	alternativethemenavcolor3	#ffffff	\N
-547	0	1586879258	theme_essential	alternativethemestripetextcolour3	#9f5bfb	\N
-548	0	1586879258	theme_essential	alternativethemestripebackgroundcolour3	#b4b2fd	\N
-549	0	1586879258	theme_essential	alternativethemestripeurlcolour3	#ffe9a6	\N
-550	0	1586879258	theme_essential	alternativethemequizsubmittextcolour3	#ffffff	\N
-551	0	1586879258	theme_essential	alternativethemequizsubmittexthovercolour3	#ffffff	\N
-552	0	1586879258	theme_essential	alternativethemequizsubmitbackgroundcolour3	#ff9a34	\N
-553	0	1586879258	theme_essential	alternativethemequizsubmitbackgroundhovercolour3	#ffaf60	\N
-554	0	1586879258	theme_essential	alternativethememycoursesorderenrolbackcolour3	#a3ebff	\N
-555	0	1586879258	theme_essential	alternativethemefootercolor3	#30add1	\N
-556	0	1586879258	theme_essential	alternativethemefootertextcolor3	#ffffff	\N
-557	0	1586879258	theme_essential	alternativethemefooterheadingcolor3	#cccccc	\N
-558	0	1586879258	theme_essential	alternativethemefooterblockbackgroundcolour3	#cccccc	\N
-559	0	1586879258	theme_essential	alternativethemefooterblocktextcolour3	#000000	\N
-560	0	1586879258	theme_essential	alternativethemefooterblockurlcolour3	#000000	\N
-561	0	1586879258	theme_essential	alternativethemefooterblockhovercolour3	#555555	\N
-562	0	1586879258	theme_essential	alternativethemefootersepcolor3	#313131	\N
-563	0	1586879258	theme_essential	alternativethemefooterurlcolor3	#cccccc	\N
-564	0	1586879258	theme_essential	alternativethemefooterhovercolor3	#bbbbbb	\N
-565	0	1586879258	theme_essential	enablealternativethemecolors4		\N
-566	0	1586879258	theme_essential	alternativethemename4	Alternative colours 4	\N
-567	0	1586879258	theme_essential	alternativethemecolor4	#006b94	\N
-568	0	1586879258	theme_essential	alternativethemetextcolor4	#006b94	\N
-569	0	1586879258	theme_essential	alternativethemeurlcolor4	#006b94	\N
-570	0	1586879258	theme_essential	alternativethemehovercolor4	#4090af	\N
-571	0	1586879258	theme_essential	alternativethemedefaultbuttontextcolour4	#ffffff	\N
-572	0	1586879258	theme_essential	alternativethemedefaultbuttontexthovercolour4	#ffffff	\N
-573	0	1586879258	theme_essential	alternativethemedefaultbuttonbackgroundcolour4	#30add1	\N
-574	0	1586879258	theme_essential	alternativethemedefbuttonbackgroundhvrcolour4	#3ad4ff	\N
-575	0	1586879258	theme_essential	alternativethemeiconcolor4	#006b94	\N
-576	0	1586879258	theme_essential	alternativethemesidepreblockbackgroundcolour4	#ffffff	\N
-577	0	1586879258	theme_essential	alternativethemesidepreblocktextcolour4	#006b94	\N
-578	0	1586879258	theme_essential	alternativethemesidepreblockurlcolour4	#006b94	\N
-579	0	1586879258	theme_essential	alternativethemesidepreblockhovercolour4	#4090af	\N
-580	0	1586879258	theme_essential	alternativethemenavcolor4	#ffffff	\N
-581	0	1586879258	theme_essential	alternativethemestripetextcolour4	#ff1ebd	\N
-582	0	1586879258	theme_essential	alternativethemestripebackgroundcolour4	#0336b4	\N
-583	0	1586879258	theme_essential	alternativethemestripeurlcolour4	#ffab00	\N
-584	0	1586879258	theme_essential	alternativethemequizsubmittextcolour4	#ffffff	\N
-585	0	1586879258	theme_essential	alternativethemequizsubmittexthovercolour4	#ffffff	\N
-586	0	1586879258	theme_essential	alternativethemequizsubmitbackgroundcolour4	#ff9a34	\N
-587	0	1586879258	theme_essential	alternativethemequizsubmitbackgroundhovercolour4	#ffaf60	\N
-588	0	1586879258	theme_essential	alternativethememycoursesorderenrolbackcolour4	#a3ebff	\N
-589	0	1586879258	theme_essential	alternativethemefootercolor4	#30add1	\N
-590	0	1586879258	theme_essential	alternativethemefootertextcolor4	#ffffff	\N
-591	0	1586879258	theme_essential	alternativethemefooterheadingcolor4	#cccccc	\N
-592	0	1586879258	theme_essential	alternativethemefooterblockbackgroundcolour4	#cccccc	\N
-593	0	1586879258	theme_essential	alternativethemefooterblocktextcolour4	#000000	\N
-594	0	1586879258	theme_essential	alternativethemefooterblockurlcolour4	#000000	\N
-595	0	1586879258	theme_essential	alternativethemefooterblockhovercolour4	#555555	\N
-596	0	1586879258	theme_essential	alternativethemefootersepcolor4	#313131	\N
-597	0	1586879258	theme_essential	alternativethemefooterurlcolor4	#cccccc	\N
-598	0	1586879258	theme_essential	alternativethemefooterhovercolor4	#bbbbbb	\N
-599	0	1586879258	theme_essential	oldnavbar	0	\N
-600	0	1586879258	theme_essential	usermenuuserimageborderradius	4	\N
-601	0	1586879258	theme_essential	dropdownmenuscroll		\N
-602	0	1586879258	theme_essential	dropdownmenumaxheight	384	\N
-603	0	1586879258	theme_essential	usesiteicon	1	\N
-604	0	1586879258	theme_essential	siteicon	laptop	\N
-605	0	1586879258	theme_essential	headertitle	1	\N
-606	0	1586879258	theme_essential	logo		\N
-607	0	1586879258	theme_essential	logodesktopwidth	25	\N
-609	0	1586879258	theme_essential	navbartitle	2	\N
-610	0	1586879258	theme_essential	headertextcolor	#217a94	\N
-611	0	1586879258	theme_essential	headerbackground		\N
-612	0	1586879258	theme_essential	headerbackgroundstyle	tiled	\N
-613	0	1586879258	theme_essential	participantsmenu	1	\N
-614	0	1586879258	theme_essential	breadcrumbstyle	1	\N
-615	0	1586879258	theme_essential	haveheaderblock	1	\N
-616	0	1586879258	theme_essential	headerblocksperrow	4	\N
-617	0	1586879258	theme_essential	displaymycourses	1	\N
-618	0	1586879258	theme_essential	displayhiddenmycourses	1	\N
-619	0	1586879258	theme_essential	mycoursescatsubmenu		\N
-620	0	1586879258	theme_essential	mycoursesorder	1	\N
-621	0	1586879258	theme_essential	mycoursesorderidorder	1	\N
-622	0	1586879258	theme_essential	mycoursesmax	0	\N
-623	0	1586879258	theme_essential	mycoursetitle	course	\N
-624	0	1586879258	theme_essential	mycoursesorderenrolbackcolour	#a3ebff	\N
-625	0	1586879258	theme_essential	profilelinkmi	1	\N
-626	0	1586879258	theme_essential	loggedinfrommi	1	\N
-627	0	1586879258	theme_essential	switchrolemi	1	\N
-628	0	1586879258	theme_essential	preferencesmi	1	\N
-629	0	1586879258	theme_essential	calendarmi	1	\N
-630	0	1586879258	theme_essential	messagesmi	1	\N
-631	0	1586879258	theme_essential	privatefilesmi	1	\N
-632	0	1586879258	theme_essential	forumpostsmi	1	\N
-633	0	1586879258	theme_essential	forumdiscussionsmi	1	\N
-634	0	1586879258	theme_essential	mygradesmi	1	\N
-635	0	1586879258	theme_essential	coursegradesmi	1	\N
-636	0	1586879258	theme_essential	badgesmi	1	\N
-637	0	1586879258	theme_essential	helplinktype	1	\N
-638	0	1586879258	theme_essential	helplink		\N
-639	0	1586879258	theme_essential	displayeditingmenu	0	\N
-640	0	1586879258	theme_essential	hidedefaulteditingbutton	0	\N
-641	0	1586879258	theme_essential	website		\N
-642	0	1586879258	theme_essential	facebook		\N
-643	0	1586879258	theme_essential	flickr		\N
-644	0	1586879258	theme_essential	twitter		\N
-645	0	1586879258	theme_essential	googleplus		\N
-646	0	1586879258	theme_essential	linkedin		\N
-647	0	1586879258	theme_essential	pinterest		\N
-648	0	1586879258	theme_essential	instagram		\N
-649	0	1586879258	theme_essential	youtube		\N
-650	0	1586879258	theme_essential	skype		\N
-651	0	1586879258	theme_essential	vk		\N
-652	0	1586879258	theme_essential	android		\N
-653	0	1586879258	theme_essential	windows		\N
-654	0	1586879259	theme_essential	winphone		\N
-655	0	1586879259	theme_essential	ios		\N
-656	0	1586879259	theme_essential	iphoneicon		\N
-657	0	1586879259	theme_essential	iphoneretinaicon		\N
-658	0	1586879259	theme_essential	ipadicon		\N
-659	0	1586879259	theme_essential	ipadretinaicon		\N
-660	0	1586879259	theme_essential	fontselect	1	\N
-661	0	1586879259	theme_essential	fontnameheading	Verdana	\N
-662	0	1586879259	theme_essential	fontnamebody	Verdana	\N
-663	0	1586879259	theme_essential	copyright		\N
-664	0	1586879259	theme_essential	footnote		\N
-665	0	1586879259	theme_essential	perfinfo	min	\N
-666	0	1586879259	theme_essential	courselistteachericon	graduation-cap	\N
-667	0	1586879259	theme_essential	togglefrontcontent	0	\N
-668	0	1586879259	theme_essential	frontcontentarea		\N
-669	0	1586879259	theme_essential	frontpageblocks	1	\N
-670	0	1586879259	theme_essential	frontpagemiddleblocks	0	\N
-671	0	1586879259	theme_essential	frontpagehomeblocksperrow	3	\N
-672	0	1586879259	theme_essential	fppagetopblocks	3	\N
-673	0	1586879259	theme_essential	fppagetopblocksperrow	3	\N
-674	0	1586879259	theme_essential	togglemarketing	1	\N
-675	0	1586879259	theme_essential	marketingheight	100	\N
-676	0	1586879259	theme_essential	marketingimageheight	100	\N
-677	0	1586879259	theme_essential	marketing1		\N
-678	0	1586879259	theme_essential	marketing1icon	star	\N
-679	0	1586879259	theme_essential	marketing1image		\N
-680	0	1586879259	theme_essential	marketing1content		\N
-681	0	1586879259	theme_essential	marketing1buttontext		\N
-682	0	1586879259	theme_essential	marketing1buttonurl		\N
-683	0	1586879259	theme_essential	marketing1target	_blank	\N
-684	0	1586879259	theme_essential	marketing2		\N
-685	0	1586879259	theme_essential	marketing2icon	star	\N
-686	0	1586879259	theme_essential	marketing2image		\N
-687	0	1586879259	theme_essential	marketing2content		\N
-688	0	1586879259	theme_essential	marketing2buttontext		\N
-689	0	1586879259	theme_essential	marketing2buttonurl		\N
-690	0	1586879259	theme_essential	marketing2target	_blank	\N
-691	0	1586879259	theme_essential	marketing3		\N
-692	0	1586879259	theme_essential	marketing3icon	star	\N
-693	0	1586879259	theme_essential	marketing3image		\N
-694	0	1586879259	theme_essential	marketing3content		\N
-695	0	1586879259	theme_essential	marketing3buttontext		\N
-696	0	1586879259	theme_essential	marketing3buttonurl		\N
-697	0	1586879259	theme_essential	marketing3target	_blank	\N
-698	0	1586879259	theme_essential	enable1alert		\N
-699	0	1586879259	theme_essential	alert1type	info	\N
-700	0	1586879259	theme_essential	alert1title		\N
-701	0	1586879259	theme_essential	alert1text		\N
-702	0	1586879259	theme_essential	enable2alert		\N
-703	0	1586879259	theme_essential	alert2type	info	\N
-704	0	1586879259	theme_essential	alert2title		\N
-705	0	1586879259	theme_essential	alert2text		\N
-706	0	1586879259	theme_essential	enable3alert		\N
-707	0	1586879259	theme_essential	alert3type	info	\N
-708	0	1586879259	theme_essential	alert3title		\N
-709	0	1586879259	theme_essential	alert3text		\N
-710	0	1586879259	theme_essential	toggleslideshow	1	\N
-711	0	1586879259	theme_essential	numberofslides	4	\N
-712	0	1586879259	theme_essential	hideontablet		\N
-713	0	1586879259	theme_essential	hideonphone	1	\N
-714	0	1586879259	theme_essential	slideinterval	5000	\N
-715	0	1586879259	theme_essential	slidecaptiontextcolor	#ffffff	\N
-716	0	1586879259	theme_essential	slidecaptionbackgroundcolor	#30add1	\N
-717	0	1586879259	theme_essential	slidecaptionoptions	0	\N
-718	0	1586879259	theme_essential	slidecaptioncentred		\N
-719	0	1586879259	theme_essential	slidebuttoncolor	#30add1	\N
-720	0	1586879259	theme_essential	slidebuttonhovercolor	#217a94	\N
-721	0	1586879259	theme_essential	alternativethemeslidecaptiontextcolor1	#ffffff	\N
-722	0	1586879259	theme_essential	alternativethemeslidecaptionbackgroundcolor1	#a430d1	\N
-723	0	1586879259	theme_essential	alternativethemeslidebuttoncolor1	#a430d1	\N
-724	0	1586879259	theme_essential	alternativethemeslidebuttonhovercolor1	#9929c4	\N
-725	0	1586879259	theme_essential	alternativethemeslidecaptiontextcolor2	#ffffff	\N
-726	0	1586879259	theme_essential	alternativethemeslidecaptionbackgroundcolor2	#d15430	\N
-727	0	1586879259	theme_essential	alternativethemeslidebuttoncolor2	#d15430	\N
-728	0	1586879259	theme_essential	alternativethemeslidebuttonhovercolor2	#c44c29	\N
-729	0	1586879259	theme_essential	alternativethemeslidecaptiontextcolor3	#ffffff	\N
-730	0	1586879259	theme_essential	alternativethemeslidecaptionbackgroundcolor3	#5dd130	\N
-731	0	1586879259	theme_essential	alternativethemeslidebuttoncolor3	#5dd130	\N
-732	0	1586879259	theme_essential	alternativethemeslidebuttonhovercolor3	#53c429	\N
-733	0	1586879259	theme_essential	alternativethemeslidecaptiontextcolor4	#ffffff	\N
-734	0	1586879259	theme_essential	alternativethemeslidecaptionbackgroundcolor4	#006b94	\N
-735	0	1586879259	theme_essential	alternativethemeslidebuttoncolor4	#006b94	\N
-736	0	1586879259	theme_essential	alternativethemeslidebuttonhovercolor4	#4090af	\N
-737	0	1586879259	theme_essential	enablecategorycti	0	\N
-738	0	1586879259	theme_essential	enablecategoryctics	0	\N
-739	0	1586879259	theme_essential	enablecategoryicon	1	\N
-740	0	1586879259	\N	theme_essential_putprops		\N
-741	0	1586879259	theme_fordson	presetfiles		\N
-742	0	1586879259	theme_fordson	pagelayout	1	\N
-743	0	1586879259	theme_fordson	sectionlayout	1	\N
-744	0	1586879259	theme_fordson	coursetilestyle	10	\N
-745	0	1586879259	theme_fordson	marketingstyle	3	\N
-746	0	1586879259	theme_fordson	blockdisplay	1	\N
-747	0	1586879259	theme_fordson	showloginform	1	\N
-748	0	1586879259	theme_fordson	enhancedmydashboard	1	\N
-749	0	1586879259	theme_fordson	frontpagemycoursessorting	1	\N
-750	0	1586879259	theme_fordson	learningcontentpadding	125px	\N
-751	0	1586879259	theme_fordson	headerimagepadding	400px	\N
-752	0	1586879259	theme_fordson	gutterwidth	3rem	\N
-753	0	1586879259	theme_fordson	blockwidthfordson	280px	\N
-754	0	1586879259	theme_fordson	activityiconsize	32px	\N
-755	0	1586879259	theme_fordson	trimtitle	256	\N
-756	0	1586879259	theme_fordson	titletooltip	0	\N
-757	0	1586879259	theme_fordson	trimsummary	300	\N
-758	0	1586879259	theme_fordson	courseboxheight	250px	\N
-759	0	1586879259	theme_fordson	enablecategoryicon	0	\N
-760	0	1586879259	theme_fordson	catsicon	folder	\N
-761	0	1586879259	theme_fordson	showcourseheaderimage	1	\N
-762	0	1586879259	theme_fordson	favicon		\N
-763	0	1586879259	theme_fordson	headerlogo		\N
-764	0	1586879259	theme_fordson	headerdefaultimage		\N
-765	0	1586879259	theme_fordson	backgroundimage		\N
-766	0	1586879259	theme_fordson	loginimage		\N
-767	0	1586879259	theme_fordson	scsspre		\N
-768	0	1586879259	theme_fordson	brandprimary		\N
-769	0	1586879259	theme_fordson	brandsuccess		\N
-770	0	1586879259	theme_fordson	brandwarning		\N
-771	0	1586879259	theme_fordson	branddanger		\N
-772	0	1586879259	theme_fordson	brandinfo		\N
-773	0	1586879259	theme_fordson	bodybackground		\N
-774	0	1586879259	theme_fordson	topnavbarbg		\N
-775	0	1586879259	theme_fordson	topnavbarteacherbg		\N
-776	0	1586879259	theme_fordson	breadcrumbbkg		\N
-777	0	1586879259	theme_fordson	cardbkg		\N
-778	0	1586879259	theme_fordson	drawerbkg		\N
-779	0	1586879259	theme_fordson	footerbkg		\N
-780	0	1586879259	theme_fordson	markettextbg		\N
-781	0	1586879259	theme_fordson	scss		\N
-782	0	1586879259	theme_fordson	fptextbox		\N
-783	0	1586879259	theme_fordson	fptextboxlogout		\N
-784	0	1586879259	theme_fordson	alertbox		\N
-785	0	1586879259	theme_fordson	coursemanagementtoggle	1	\N
-786	0	1586879259	theme_fordson	coursemanagementtextbox		\N
-787	0	1586879259	theme_fordson	studentdashboardtextbox		\N
-788	0	1586879259	theme_fordson	navbarcolorswitch	2	\N
-789	0	1586879259	theme_fordson	showactivitynav	1	\N
-790	0	1586879259	theme_fordson	courseeditingcog	0	\N
-791	0	1586879259	theme_fordson	showstudentgrades	1	\N
-792	0	1586879259	theme_fordson	showstudentcompletion	1	\N
-793	0	1586879259	theme_fordson	showonlygroupteachers	0	\N
-794	0	1586879259	theme_fordson	showcourseadminstudents	1	\N
-795	0	1586879259	theme_fordson	displaymycourses		\N
-796	0	1586879259	theme_fordson	displaythiscourse		\N
-797	0	1586879259	theme_fordson	mycoursetitle	course	\N
-798	0	1586879259	theme_fordson	shownavdrawer	1	\N
-799	0	1586879259	theme_fordson	shownavclosed		\N
-800	0	1586879259	theme_fordson	iconwidth	100px	\N
-801	0	1586879259	theme_fordson	createicon	edit	\N
-802	0	1586879259	theme_fordson	createbuttontext	Create a Course	\N
-803	0	1586879259	theme_fordson	createbuttonurl	http://moodlecloud.id/course/edit.php?category=1	\N
-804	0	1586879259	theme_fordson	slideicon		\N
-805	0	1586879259	theme_fordson	slideiconbuttontext		\N
-806	0	1586879259	theme_fordson	slidetextbox		\N
-807	0	1586879259	theme_fordson	nav1icon	home	\N
-808	0	1586879259	theme_fordson	nav1buttontext	Dashboard	\N
-809	0	1586879259	theme_fordson	nav1buttonurl	http://moodlecloud.id/my/	\N
-810	0	1586879259	theme_fordson	nav2icon	calendar	\N
-811	0	1586879259	theme_fordson	nav2buttontext	Calendar	\N
-812	0	1586879259	theme_fordson	nav2buttonurl	http://moodlecloud.id/calendar/view.php?view=month	\N
-813	0	1586879259	theme_fordson	nav3icon	bookmark	\N
-814	0	1586879259	theme_fordson	nav3buttontext	Badges	\N
-815	0	1586879259	theme_fordson	nav3buttonurl	http://moodlecloud.id/badges/mybadges.php	\N
-816	0	1586879259	theme_fordson	nav4icon	book	\N
-817	0	1586879259	theme_fordson	nav4buttontext	All Courses	\N
-818	0	1586879259	theme_fordson	nav4buttonurl	http://moodlecloud.id/course/	\N
-819	0	1586879260	theme_fordson	nav5icon		\N
-820	0	1586879260	theme_fordson	nav5buttontext		\N
-821	0	1586879260	theme_fordson	nav5buttonurl		\N
-822	0	1586879260	theme_fordson	nav6icon		\N
-823	0	1586879260	theme_fordson	nav6buttontext		\N
-824	0	1586879260	theme_fordson	nav6buttonurl		\N
-825	0	1586879260	theme_fordson	nav7icon		\N
-826	0	1586879260	theme_fordson	nav7buttontext		\N
-827	0	1586879260	theme_fordson	nav7buttonurl		\N
-828	0	1586879260	theme_fordson	nav8icon		\N
-829	0	1586879260	theme_fordson	nav8buttontext		\N
-830	0	1586879260	theme_fordson	nav8buttonurl		\N
-831	0	1586879260	theme_fordson	modchoosercustomlabel		\N
-832	0	1586879260	theme_fordson	commonlyused		\N
-833	0	1586879260	theme_fordson	showonlycustomactivities	0	\N
-834	0	1586879260	theme_fordson	showalltomanager	1	\N
-835	0	1586879260	theme_fordson	showslideshow	0	\N
-836	0	1586879260	theme_fordson	slideshowheight	250px	\N
-837	0	1586879260	theme_fordson	slide1title		\N
-838	0	1586879260	theme_fordson	slide1content		\N
-839	0	1586879260	theme_fordson	slide1image		\N
-840	0	1586879260	theme_fordson	slide2title		\N
-841	0	1586879260	theme_fordson	slide2content		\N
-842	0	1586879260	theme_fordson	slide2image		\N
-843	0	1586879260	theme_fordson	slide3title		\N
-844	0	1586879260	theme_fordson	slide3content		\N
-845	0	1586879260	theme_fordson	slide3image		\N
-846	0	1586879260	theme_fordson	togglemarketing	2	\N
-847	0	1586879260	theme_fordson	marketing1		\N
-848	0	1586879260	theme_fordson	marketing1image		\N
-849	0	1586879260	theme_fordson	marketing1content		\N
-850	0	1586879260	theme_fordson	marketing1buttontext		\N
-851	0	1586879260	theme_fordson	marketing1buttonurl		\N
-852	0	1586879260	theme_fordson	marketing2		\N
-853	0	1586879260	theme_fordson	marketing2image		\N
-854	0	1586879260	theme_fordson	marketing2content		\N
-855	0	1586879260	theme_fordson	marketing2buttontext		\N
-856	0	1586879260	theme_fordson	marketing2buttonurl		\N
-857	0	1586879260	theme_fordson	marketing3		\N
-858	0	1586879260	theme_fordson	marketing3image		\N
-859	0	1586879260	theme_fordson	marketing3content		\N
-860	0	1586879260	theme_fordson	marketing3buttontext		\N
-861	0	1586879260	theme_fordson	marketing3buttonurl		\N
-862	0	1586879260	theme_fordson	marketing4		\N
-863	0	1586879260	theme_fordson	marketing4image		\N
-864	0	1586879260	theme_fordson	marketing4content		\N
-865	0	1586879260	theme_fordson	marketing4buttontext		\N
-866	0	1586879260	theme_fordson	marketing4buttonurl		\N
-867	0	1586879260	theme_fordson	marketing5		\N
-868	0	1586879260	theme_fordson	marketing5image		\N
-869	0	1586879260	theme_fordson	marketing5content		\N
-870	0	1586879260	theme_fordson	marketing5buttontext		\N
-871	0	1586879260	theme_fordson	marketing5buttonurl		\N
-872	0	1586879260	theme_fordson	marketing6		\N
-873	0	1586879260	theme_fordson	marketing6image		\N
-874	0	1586879260	theme_fordson	marketing6content		\N
-875	0	1586879260	theme_fordson	marketing6buttontext		\N
-876	0	1586879260	theme_fordson	marketing6buttonurl		\N
-877	0	1586879260	theme_fordson	marketing7		\N
-878	0	1586879260	theme_fordson	marketing7image		\N
-879	0	1586879260	theme_fordson	marketing7content		\N
-880	0	1586879260	theme_fordson	marketing7buttontext		\N
-881	0	1586879260	theme_fordson	marketing7buttonurl		\N
-882	0	1586879260	theme_fordson	marketing8		\N
-883	0	1586879260	theme_fordson	marketing8image		\N
-884	0	1586879260	theme_fordson	marketing8content		\N
-885	0	1586879260	theme_fordson	marketing8buttontext		\N
-886	0	1586879260	theme_fordson	marketing8buttonurl		\N
-887	0	1586879260	theme_fordson	marketing9		\N
-888	0	1586879260	theme_fordson	marketing9image		\N
-889	0	1586879260	theme_fordson	marketing9content		\N
-890	0	1586879260	theme_fordson	marketing9buttontext		\N
-891	0	1586879260	theme_fordson	marketing9buttonurl		\N
-892	0	1586879260	theme_fordson	brandorganization		\N
-893	0	1586879260	theme_fordson	brandwebsite		\N
-894	0	1586879260	theme_fordson	brandphone		\N
-895	0	1586879260	theme_fordson	brandemail		\N
-896	0	1586879260	theme_fordson	footnote		\N
-897	0	1586879260	theme_fordson	website		\N
-898	0	1586879260	theme_fordson	blog		\N
-899	0	1586879260	theme_fordson	facebook		\N
-900	0	1586879260	theme_fordson	flickr		\N
-901	0	1586879260	theme_fordson	twitter		\N
-902	0	1586879260	theme_fordson	googleplus		\N
-903	0	1586879260	theme_fordson	linkedin		\N
-904	0	1586879260	theme_fordson	tumblr		\N
-905	0	1586879260	theme_fordson	pinterest		\N
-906	0	1586879260	theme_fordson	instagram		\N
-907	0	1586879260	theme_fordson	youtube		\N
-908	0	1586879260	theme_fordson	vimeo		\N
-909	0	1586879260	theme_fordson	skype		\N
-910	0	1586879260	theme_fordson	social1		\N
-911	0	1586879260	theme_fordson	socialicon1	home	\N
-912	0	1586879260	theme_fordson	social2		\N
-913	0	1586879260	theme_fordson	socialicon2	home	\N
-914	0	1586879260	theme_fordson	social3		\N
-915	0	1586879260	theme_fordson	socialicon3	home	\N
-916	0	1586879260	theme_fordson	showcustomlogin	0	\N
-917	0	1586879260	theme_fordson	logintopimage		\N
-918	0	1586879260	theme_fordson	fploginform		\N
-919	0	1586879260	theme_fordson	loginnav1icon		\N
-920	0	1586879260	theme_fordson	loginnav1titletext		\N
-921	0	1586879260	theme_fordson	loginnav1icontext		\N
-922	0	1586879260	theme_fordson	loginnav2icon		\N
-923	0	1586879260	theme_fordson	loginnav2titletext		\N
-924	0	1586879260	theme_fordson	loginnav2icontext		\N
-925	0	1586879260	theme_fordson	loginnav3icon		\N
-926	0	1586879260	theme_fordson	loginnav3titletext		\N
-927	0	1586879260	theme_fordson	loginnav3icontext		\N
-928	0	1586879260	theme_fordson	loginnav4icon		\N
-929	0	1586879260	theme_fordson	loginnav4titletext		\N
-930	0	1586879260	theme_fordson	loginnav4icontext		\N
-931	0	1586879260	theme_fordson	feature1text		\N
-932	0	1586879260	theme_fordson	feature1image		\N
-933	0	1586879260	theme_fordson	feature2text		\N
-934	0	1586879260	theme_fordson	feature2image		\N
-935	0	1586879260	theme_fordson	feature3text		\N
-936	0	1586879260	theme_fordson	feature3image		\N
-937	0	1586879260	theme_more	textcolor	#333366	\N
-938	0	1586879260	theme_more	linkcolor	#FF6500	\N
-939	0	1586879260	theme_more	bodybackground		\N
-940	0	1586879260	theme_more	backgroundimage		\N
-941	0	1586879260	theme_more	backgroundrepeat	repeat	\N
-942	0	1586879260	theme_more	backgroundposition	0	\N
-943	0	1586879260	theme_more	backgroundfixed	0	\N
-944	0	1586879260	theme_more	contentbackground	#FFFFFF	\N
-945	0	1586879260	theme_more	secondarybackground	#FFFFFF	\N
-946	0	1586879260	theme_more	invert	1	\N
-947	0	1586879260	theme_more	logo		\N
-948	0	1586879260	theme_more	smalllogo		\N
-949	0	1586879260	theme_more	sitename	1	\N
-950	0	1586879260	theme_more	customcss		\N
-951	0	1586879260	theme_more	footnote		\N
-952	0	1586879260	core_admin	logo		\N
-953	0	1586879260	core_admin	logocompact		\N
-954	0	1586879260	\N	calendartype	gregorian	\N
-955	0	1586879260	\N	calendar_adminseesall	0	\N
-956	0	1586879260	\N	calendar_site_timeformat	0	\N
-957	0	1586879260	\N	calendar_startwday	1	\N
-958	0	1586879260	\N	calendar_weekend	65	\N
-959	0	1586879260	\N	calendar_lookahead	21	\N
-960	0	1586879260	\N	calendar_maxevents	10	\N
-961	0	1586879260	\N	enablecalendarexport	1	\N
-962	0	1586879260	\N	calendar_customexport	1	\N
-963	0	1586879260	\N	calendar_exportlookahead	365	\N
-964	0	1586879260	\N	calendar_exportlookback	5	\N
-965	0	1586879260	\N	calendar_exportsalt	9uBfPtqzdn4OntrTN5SPx42dGjyUPHwJUfRE6Ah9DlnBClQUlGJmkDhNTtjY	\N
-966	0	1586879260	\N	calendar_showicalsource	1	\N
-967	0	1586879260	\N	useblogassociations	1	\N
-968	0	1586879260	\N	bloglevel	4	\N
-969	0	1586879260	\N	useexternalblogs	1	\N
-970	0	1586879260	\N	externalblogcrontime	86400	\N
-971	0	1586879260	\N	maxexternalblogsperuser	1	\N
-972	0	1586879261	\N	blogusecomments	1	\N
-973	0	1586879261	\N	blogshowcommentscount	1	\N
-974	0	1586879261	\N	defaulthomepage	1	\N
-975	0	1586879261	\N	allowguestmymoodle	1	\N
-976	0	1586879261	\N	navshowfullcoursenames	0	\N
-977	0	1586879261	\N	navshowcategories	1	\N
-978	0	1586879261	\N	navshowmycoursecategories	0	\N
-979	0	1586879261	\N	navshowallcourses	0	\N
-980	0	1586879261	\N	navsortmycoursessort	sortorder	\N
-981	0	1586879261	\N	navcourselimit	10	\N
-982	0	1586879261	\N	usesitenameforsitepages	0	\N
-983	0	1586879261	\N	linkadmincategories	1	\N
-984	0	1586879261	\N	linkcoursesections	1	\N
-985	0	1586879261	\N	navshowfrontpagemods	1	\N
-986	0	1586879261	\N	navadduserpostslinks	1	\N
-987	0	1586879261	\N	formatstringstriptags	1	\N
-988	0	1586879261	\N	emoticons	[{"text":":-)","imagename":"s\\/smiley","imagecomponent":"core","altidentifier":"smiley","altcomponent":"core_pix"},{"text":":)","imagename":"s\\/smiley","imagecomponent":"core","altidentifier":"smiley","altcomponent":"core_pix"},{"text":":-D","imagename":"s\\/biggrin","imagecomponent":"core","altidentifier":"biggrin","altcomponent":"core_pix"},{"text":";-)","imagename":"s\\/wink","imagecomponent":"core","altidentifier":"wink","altcomponent":"core_pix"},{"text":":-\\/","imagename":"s\\/mixed","imagecomponent":"core","altidentifier":"mixed","altcomponent":"core_pix"},{"text":"V-.","imagename":"s\\/thoughtful","imagecomponent":"core","altidentifier":"thoughtful","altcomponent":"core_pix"},{"text":":-P","imagename":"s\\/tongueout","imagecomponent":"core","altidentifier":"tongueout","altcomponent":"core_pix"},{"text":":-p","imagename":"s\\/tongueout","imagecomponent":"core","altidentifier":"tongueout","altcomponent":"core_pix"},{"text":"B-)","imagename":"s\\/cool","imagecomponent":"core","altidentifier":"cool","altcomponent":"core_pix"},{"text":"^-)","imagename":"s\\/approve","imagecomponent":"core","altidentifier":"approve","altcomponent":"core_pix"},{"text":"8-)","imagename":"s\\/wideeyes","imagecomponent":"core","altidentifier":"wideeyes","altcomponent":"core_pix"},{"text":":o)","imagename":"s\\/clown","imagecomponent":"core","altidentifier":"clown","altcomponent":"core_pix"},{"text":":-(","imagename":"s\\/sad","imagecomponent":"core","altidentifier":"sad","altcomponent":"core_pix"},{"text":":(","imagename":"s\\/sad","imagecomponent":"core","altidentifier":"sad","altcomponent":"core_pix"},{"text":"8-.","imagename":"s\\/shy","imagecomponent":"core","altidentifier":"shy","altcomponent":"core_pix"},{"text":":-I","imagename":"s\\/blush","imagecomponent":"core","altidentifier":"blush","altcomponent":"core_pix"},{"text":":-X","imagename":"s\\/kiss","imagecomponent":"core","altidentifier":"kiss","altcomponent":"core_pix"},{"text":"8-o","imagename":"s\\/surprise","imagecomponent":"core","altidentifier":"surprise","altcomponent":"core_pix"},{"text":"P-|","imagename":"s\\/blackeye","imagecomponent":"core","altidentifier":"blackeye","altcomponent":"core_pix"},{"text":"8-[","imagename":"s\\/angry","imagecomponent":"core","altidentifier":"angry","altcomponent":"core_pix"},{"text":"(grr)","imagename":"s\\/angry","imagecomponent":"core","altidentifier":"angry","altcomponent":"core_pix"},{"text":"xx-P","imagename":"s\\/dead","imagecomponent":"core","altidentifier":"dead","altcomponent":"core_pix"},{"text":"|-.","imagename":"s\\/sleepy","imagecomponent":"core","altidentifier":"sleepy","altcomponent":"core_pix"},{"text":"}-]","imagename":"s\\/evil","imagecomponent":"core","altidentifier":"evil","altcomponent":"core_pix"},{"text":"(h)","imagename":"s\\/heart","imagecomponent":"core","altidentifier":"heart","altcomponent":"core_pix"},{"text":"(heart)","imagename":"s\\/heart","imagecomponent":"core","altidentifier":"heart","altcomponent":"core_pix"},{"text":"(y)","imagename":"s\\/yes","imagecomponent":"core","altidentifier":"yes","altcomponent":"core"},{"text":"(n)","imagename":"s\\/no","imagecomponent":"core","altidentifier":"no","altcomponent":"core"},{"text":"(martin)","imagename":"s\\/martin","imagecomponent":"core","altidentifier":"martin","altcomponent":"core_pix"},{"text":"( )","imagename":"s\\/egg","imagecomponent":"core","altidentifier":"egg","altcomponent":"core_pix"}]	\N
-989	0	1586879261	\N	docroot	https://docs.moodle.org	\N
-990	0	1586879261	\N	doclang		\N
-991	0	1586879261	\N	doctonewwindow	0	\N
-992	0	1586879261	\N	coursecontactduplicates	0	\N
-993	0	1586879261	\N	courselistshortnames	0	\N
-994	0	1586879261	\N	coursesperpage	20	\N
-995	0	1586879261	\N	courseswithsummarieslimit	10	\N
-996	0	1586879261	\N	courseoverviewfileslimit	1	\N
-997	0	1586879261	\N	courseoverviewfilesext	.jpg,.gif,.png	\N
-998	0	1586879261	\N	coursegraceperiodbefore	0	\N
-999	0	1586879261	\N	coursegraceperiodafter	0	\N
-1000	0	1586879261	\N	useexternalyui	0	\N
-1001	0	1586879261	\N	yuicomboloading	1	\N
-1002	0	1586879261	\N	modchooserdefault	1	\N
-1003	0	1586879261	\N	additionalhtmlhead		\N
-1004	0	1586879261	\N	additionalhtmltopofbody		\N
-1005	0	1586879261	\N	additionalhtmlfooter		\N
-1006	0	1586879261	\N	pathtophp		\N
-1007	0	1586879261	\N	pathtodu		\N
-1008	0	1586879261	\N	aspellpath		\N
-1009	0	1586879261	\N	pathtodot		\N
-1010	0	1586879261	\N	pathtogs	/usr/bin/gs	\N
-1011	0	1586879261	\N	pathtopython		\N
-1012	0	1586879261	\N	supportname	Admin User	\N
-1013	0	1586879261	\N	supportemail		\N
-1014	0	1586879261	\N	supportpage		\N
-1015	0	1586879261	\N	sessioncookie		\N
-1016	0	1586879261	\N	sessioncookiepath		\N
-1017	0	1586879261	\N	sessioncookiedomain		\N
-1018	0	1586879261	\N	statsfirstrun	none	\N
-1019	0	1586879261	\N	statsmaxruntime	0	\N
-1020	0	1586879261	\N	statsruntimedays	31	\N
-1021	0	1586879261	\N	statsuserthreshold	0	\N
-1022	0	1586879261	\N	slasharguments	1	\N
-1023	0	1586879261	\N	getremoteaddrconf	3	\N
-1024	0	1586879261	\N	reverseproxyignore		\N
-1025	0	1586879261	\N	proxyhost		\N
-1026	0	1586879261	\N	proxyport	0	\N
-1027	0	1586879261	\N	proxytype	HTTP	\N
-1028	0	1586879261	\N	proxyuser		\N
-1029	0	1586879261	\N	proxypassword		\N
-1030	0	1586879261	\N	proxybypass	localhost, 127.0.0.1	\N
-1031	0	1586879261	\N	maintenance_enabled	0	\N
-1032	0	1586879261	\N	maintenance_message		\N
-1033	0	1586879261	\N	deleteunconfirmed	168	\N
-1034	0	1586879261	\N	deleteincompleteusers	0	\N
-1035	0	1586879261	\N	disablegradehistory	0	\N
-1036	0	1586879261	\N	gradehistorylifetime	0	\N
-1037	0	1586879261	\N	tempdatafoldercleanup	168	\N
-1038	0	1586879261	\N	extramemorylimit	512M	\N
-1039	0	1586879261	\N	maxtimelimit	0	\N
-1040	0	1586879261	\N	curlcache	120	\N
-1041	0	1586879261	\N	curltimeoutkbitrate	56	\N
-1042	0	1586879261	\N	smtphosts		\N
-1043	0	1586879261	\N	smtpsecure		\N
-1044	0	1586879261	\N	smtpauthtype	LOGIN	\N
-1045	0	1586879261	\N	smtpuser		\N
-1046	0	1586879261	\N	smtppass		\N
-1047	0	1586879261	\N	smtpmaxbulk	1	\N
-1048	0	1586879261	\N	noreplyaddress	noreply@moodlecloud.id	\N
-1049	0	1586879261	\N	allowedemaildomains		\N
-1050	0	1586879261	\N	sitemailcharset	0	\N
-1051	0	1586879261	\N	allowusermailcharset	0	\N
-1052	0	1586879261	\N	allowattachments	1	\N
-1053	0	1586879261	\N	mailnewline	LF	\N
-1054	0	1586879261	\N	emailfromvia	1	\N
-1055	0	1586879261	\N	updateautocheck	1	\N
-1056	0	1586879261	\N	updateminmaturity	200	\N
-1057	0	1586879261	\N	updatenotifybuilds	0	\N
-1058	0	1586879261	\N	enablesafebrowserintegration	0	\N
-1059	0	1586879261	\N	dndallowtextandlinks	0	\N
-1060	0	1586879261	\N	pathtosassc		\N
-1061	0	1586879261	\N	contextlocking	0	\N
-1062	0	1586879261	\N	contextlockappliestoadmin	1	\N
-1063	0	1586879261	\N	forceclean	0	\N
-1064	0	1586879261	\N	debug	0	\N
-1065	0	1586879261	\N	debugdisplay	1	\N
-1066	0	1586879261	\N	debugsmtp	0	\N
-1067	0	1586879261	\N	perfdebug	7	\N
-1068	0	1586879261	\N	debugstringids	0	\N
-1069	0	1586879261	\N	debugvalidators	0	\N
-1070	0	1586879261	\N	debugpageinfo	0	\N
-1071	0	1586879261	\N	profilingenabled	0	\N
-1072	0	1586879261	\N	profilingincluded		\N
-1073	0	1586879261	\N	profilingexcluded		\N
-1074	0	1586879261	\N	profilingautofrec	0	\N
-1075	0	1586879261	\N	profilingallowme	0	\N
-1076	0	1586879261	\N	profilingallowall	0	\N
-1077	0	1586879261	\N	profilinglifetime	1440	\N
-1078	0	1586879261	\N	profilingimportprefix	(I)	\N
-1079	0	1586879273	activitynames	filter_active	1	
-1080	0	1586879273	mathjaxloader	filter_active	1	
-1081	0	1586879273	mediaplugin	filter_active	1	
-1082	2	1586879287	\N	notloggedinroleid	6	\N
-1083	2	1586879287	\N	guestroleid	6	\N
-1084	2	1586879287	\N	defaultuserroleid	7	\N
-1085	2	1586879287	\N	creatornewroleid	3	\N
-1086	2	1586879287	\N	restorernewroleid	3	\N
-1087	2	1586879287	tool_dataprivacy	contactdataprotectionofficer	0	\N
-1088	2	1586879287	tool_dataprivacy	automaticdeletionrequests	1	\N
-1089	2	1586879287	tool_dataprivacy	privacyrequestexpiry	604800	\N
-1090	2	1586879287	tool_dataprivacy	requireallenddatesforuserdeletion	1	\N
-1091	2	1586879287	tool_dataprivacy	showdataretentionsummary	1	\N
-1092	2	1586879287	tool_log	exportlog	1	\N
-1093	2	1586879287	\N	sitepolicyhandler		\N
-1094	2	1586879287	\N	gradebookroles	5	\N
-1095	2	1586879287	analytics	logstore	logstore_standard	\N
-1096	2	1586879288	assign	feedback_plugin_for_gradebook	assignfeedback_comments	\N
-1097	2	1586879288	assign	showrecentsubmissions	0	\N
-1098	2	1586879288	assign	submissionreceipts	1	\N
-1099	2	1586879288	assign	submissionstatement	This assignment is my own work, except where I have acknowledged the use of the works of other people.	\N
-1100	2	1586879288	assign	maxperpage	-1	\N
-1101	2	1586879288	assign	alwaysshowdescription	1	\N
-1102	2	1586879288	assign	alwaysshowdescription_adv		\N
-1103	2	1586879288	assign	alwaysshowdescription_locked		\N
-1104	2	1586879288	assign	allowsubmissionsfromdate	0	\N
-1105	2	1586879288	assign	allowsubmissionsfromdate_enabled	1	\N
-1106	2	1586879288	assign	allowsubmissionsfromdate_adv		\N
-1107	2	1586879288	assign	duedate	604800	\N
-1108	2	1586879288	assign	duedate_enabled	1	\N
-1109	2	1586879288	assign	duedate_adv		\N
-1110	2	1586879288	assign	cutoffdate	1209600	\N
-1111	2	1586879288	assign	cutoffdate_enabled		\N
-1112	2	1586879288	assign	cutoffdate_adv		\N
-1113	2	1586879288	assign	gradingduedate	1209600	\N
-1114	2	1586879288	assign	gradingduedate_enabled	1	\N
-1115	2	1586879288	assign	gradingduedate_adv		\N
-1116	2	1586879288	assign	submissiondrafts	0	\N
-1117	2	1586879288	assign	submissiondrafts_adv		\N
-1118	2	1586879288	assign	submissiondrafts_locked		\N
-1119	2	1586879288	assign	requiresubmissionstatement	0	\N
-1120	2	1586879288	assign	requiresubmissionstatement_adv		\N
-1121	2	1586879288	assign	requiresubmissionstatement_locked		\N
-1122	2	1586879288	assign	attemptreopenmethod	none	\N
-1123	2	1586879288	assign	attemptreopenmethod_adv		\N
-1124	2	1586879288	assign	attemptreopenmethod_locked		\N
-1125	2	1586879288	assign	maxattempts	-1	\N
-1126	2	1586879288	assign	maxattempts_adv		\N
-1127	2	1586879288	assign	maxattempts_locked		\N
-1128	2	1586879288	assign	teamsubmission	0	\N
-1129	2	1586879288	assign	teamsubmission_adv		\N
-1130	2	1586879288	assign	teamsubmission_locked		\N
-1131	2	1586879288	assign	preventsubmissionnotingroup	0	\N
-1132	2	1586879288	assign	preventsubmissionnotingroup_adv		\N
-1133	2	1586879288	assign	preventsubmissionnotingroup_locked		\N
-1134	2	1586879288	assign	requireallteammemberssubmit	0	\N
-1135	2	1586879288	assign	requireallteammemberssubmit_adv		\N
-1136	2	1586879288	assign	requireallteammemberssubmit_locked		\N
-1137	2	1586879288	assign	teamsubmissiongroupingid		\N
-1138	2	1586879288	assign	teamsubmissiongroupingid_adv		\N
-1139	2	1586879288	assign	sendnotifications	0	\N
-1140	2	1586879288	assign	sendnotifications_adv		\N
-1141	2	1586879288	assign	sendnotifications_locked		\N
-1142	2	1586879288	assign	sendlatenotifications	0	\N
-1143	2	1586879288	assign	sendlatenotifications_adv		\N
-1144	2	1586879288	assign	sendlatenotifications_locked		\N
-1145	2	1586879288	assign	sendstudentnotifications	1	\N
-1146	2	1586879288	assign	sendstudentnotifications_adv		\N
-1147	2	1586879288	assign	sendstudentnotifications_locked		\N
-1148	2	1586879288	assign	blindmarking	0	\N
-1149	2	1586879288	assign	blindmarking_adv		\N
-1150	2	1586879288	assign	blindmarking_locked		\N
-1151	2	1586879288	assign	markingworkflow	0	\N
-1152	2	1586879288	assign	markingworkflow_adv		\N
-1153	2	1586879288	assign	markingworkflow_locked		\N
-1154	2	1586879288	assign	markingallocation	0	\N
-1155	2	1586879288	assign	markingallocation_adv		\N
-1156	2	1586879288	assign	markingallocation_locked		\N
-1157	2	1586879288	assignsubmission_file	default	1	\N
-1158	2	1586879288	assignsubmission_file	maxfiles	20	\N
-1159	2	1586879288	assignsubmission_file	filetypes		\N
-1160	2	1586879288	assignsubmission_file	maxbytes	0	\N
-1161	2	1586879288	assignsubmission_onlinetext	default	0	\N
-1162	2	1586879288	assignfeedback_comments	default	1	\N
-1163	2	1586879288	assignfeedback_comments	inline	0	\N
-1164	2	1586879288	assignfeedback_comments	inline_adv		\N
-1165	2	1586879288	assignfeedback_comments	inline_locked		\N
-1166	2	1586879288	assignfeedback_editpdf	default	1	\N
-1167	2	1586879288	assignfeedback_editpdf	stamps		\N
-1168	2	1586879288	assignfeedback_file	default	0	\N
-1169	2	1586879288	assignfeedback_offline	default	0	\N
-1170	2	1586879288	attendance	resultsperpage	25	\N
-1171	2	1586879288	attendance	studentscanmark	1	\N
-1172	2	1586879288	attendance	studentscanmarksessiontime	1	\N
-1173	2	1586879288	attendance	studentscanmarksessiontimeend	60	\N
-1174	2	1586879288	attendance	subnetactivitylevel	1	\N
-1175	2	1586879288	attendance	defaultview	2	\N
-1176	2	1586879288	attendance	multisessionexpanded	0	\N
-1177	2	1586879288	attendance	showsessiondescriptiononreport	0	\N
-1178	2	1586879288	attendance	studentrecordingexpanded	1	\N
-1179	2	1586879288	attendance	enablecalendar	1	\N
-1180	2	1586879288	attendance	enablewarnings	0	\N
-1181	2	1586879288	attendance	subnet		\N
-1182	2	1586879288	attendance	calendarevent_default	1	\N
-1183	2	1586879288	attendance	absenteereport_default	1	\N
-1184	2	1586879288	attendance	studentscanmark_default	0	\N
-1185	2	1586879288	attendance	automark_default	0	\N
-1186	2	1586879288	attendance	randompassword_default	0	\N
-1187	2	1586879288	attendance	includeqrcode_default	0	\N
-1188	2	1586879288	attendance	autoassignstatus	0	\N
-1189	2	1586879288	attendance	preventsharedip	0	\N
-1190	2	1586879288	attendance	preventsharediptime		\N
-1191	2	1586879288	attendance	warningpercent	70	\N
-1192	2	1586879288	attendance	warnafter	5	\N
-1193	2	1586879288	attendance	maxwarn	1	\N
-1194	2	1586879288	attendance	emailuser	1	\N
-1195	2	1586879288	attendance	emailsubject	Attendance warning	\N
-1196	2	1586879288	attendance	emailcontent	Hi %userfirstname%,\nYour attendance in %coursename% %attendancename% has dropped below %warningpercent% and is currently %percent% - we hope you are ok!\n\nTo get the most out of this course you should improve your attendance, please get in touch if you require any further support.	\N
-1197	2	1586879288	\N	bigbluebuttonbn_server_url	http://test-install.blindsidenetworks.com/bigbluebutton/	\N
-1198	2	1586879288	\N	bigbluebuttonbn_shared_secret	8cd8ef52e8e101574e400365b55e11a6	\N
-1199	2	1586879288	\N	bigbluebuttonbn_recording_default	1	\N
-1200	2	1586879288	\N	bigbluebuttonbn_recording_editable	1	\N
-1201	2	1586879288	\N	bigbluebuttonbn_recording_icons_enabled	1	\N
-1202	2	1586879288	\N	bigbluebuttonbn_recording_all_from_start_default	0	\N
-1203	2	1586879288	\N	bigbluebuttonbn_recording_all_from_start_editable	0	\N
-1204	2	1586879288	\N	bigbluebuttonbn_recording_hide_button_default	0	\N
-1205	2	1586879288	\N	bigbluebuttonbn_recording_hide_button_editable	0	\N
-1206	2	1586879288	\N	bigbluebuttonbn_importrecordings_enabled	0	\N
-1207	2	1586879288	\N	bigbluebuttonbn_importrecordings_from_deleted_enabled	0	\N
-1208	2	1586879288	\N	bigbluebuttonbn_recordings_html_default	1	\N
-1209	2	1586879288	\N	bigbluebuttonbn_recordings_html_editable	0	\N
-1210	2	1586879288	\N	bigbluebuttonbn_recordings_deleted_default	1	\N
-1211	2	1586879288	\N	bigbluebuttonbn_recordings_deleted_editable	0	\N
-1212	2	1586879288	\N	bigbluebuttonbn_recordings_imported_default	0	\N
-1213	2	1586879288	\N	bigbluebuttonbn_recordings_imported_editable	1	\N
-1214	2	1586879288	\N	bigbluebuttonbn_recordings_preview_default	1	\N
-1215	2	1586879288	\N	bigbluebuttonbn_recordings_preview_editable	0	\N
-1216	2	1586879288	\N	bigbluebuttonbn_recordings_sortorder	0	\N
-1217	2	1586879288	\N	bigbluebuttonbn_waitformoderator_default	0	\N
-1218	2	1586879288	\N	bigbluebuttonbn_waitformoderator_editable	1	\N
-1219	2	1586879288	\N	bigbluebuttonbn_waitformoderator_ping_interval	10	\N
-1220	2	1586879288	\N	bigbluebuttonbn_waitformoderator_cache_ttl	60	\N
-1221	2	1586879288	\N	bigbluebuttonbn_voicebridge_editable	0	\N
-1222	2	1586879288	\N	bigbluebuttonbn_preuploadpresentation_enabled	0	\N
-1223	2	1586879288	mod_bigbluebuttonbn	presentationdefault		\N
-1224	2	1586879288	\N	bigbluebuttonbn_userlimit_default	0	\N
-1225	2	1586879288	\N	bigbluebuttonbn_userlimit_editable	0	\N
-1226	2	1586879288	\N	bigbluebuttonbn_participant_moderator_default	0	\N
-1227	2	1586879288	\N	bigbluebuttonbn_sendnotifications_enabled	1	\N
-1228	2	1586879288	\N	bigbluebuttonbn_muteonstart_default	0	\N
-1229	2	1586879288	\N	bigbluebuttonbn_muteonstart_editable	0	\N
-1230	2	1586879288	\N	bigbluebuttonbn_recordingready_enabled	0	\N
-1231	2	1586879288	\N	bigbluebuttonbn_meetingevents_enabled	0	\N
-1232	2	1586879288	book	numberingoptions	0,1,2,3	\N
-1233	2	1586879288	book	navoptions	0,1,2	\N
-1234	2	1586879288	book	numbering	1	\N
-1235	2	1586879288	book	navstyle	1	\N
-1236	2	1586879288	\N	chat_method	ajax	\N
-1237	2	1586879288	\N	chat_refresh_userlist	10	\N
-1238	2	1586879288	\N	chat_old_ping	35	\N
-1239	2	1586879288	\N	chat_refresh_room	5	\N
-1240	2	1586879288	\N	chat_normal_updatemode	jsupdate	\N
-1241	2	1586879288	\N	chat_serverhost	moodlecloud.id	\N
-1242	2	1586879288	\N	chat_serverip	127.0.0.1	\N
-1243	2	1586879288	\N	chat_serverport	9111	\N
-1244	2	1586879288	\N	chat_servermax	100	\N
-1245	2	1586879288	\N	data_enablerssfeeds	0	\N
-1246	2	1586879288	\N	feedback_allowfullanonymous	0	\N
-1247	2	1586879288	resource	framesize	130	\N
-1248	2	1586879288	resource	displayoptions	0,1,4,5,6	\N
-1249	2	1586879288	resource	printintro	1	\N
-1250	2	1586879288	resource	display	0	\N
-1251	2	1586879288	resource	showsize	0	\N
-1252	2	1586879288	resource	showtype	0	\N
-1253	2	1586879288	resource	showdate	0	\N
-1254	2	1586879288	resource	popupwidth	620	\N
-1255	2	1586879288	resource	popupheight	450	\N
-1256	2	1586879288	resource	filterfiles	0	\N
-1257	2	1586879288	folder	showexpanded	1	\N
-1258	2	1586879288	folder	maxsizetodownload	0	\N
-1259	2	1586879288	\N	forum_displaymode	3	\N
-1260	2	1586879288	\N	forum_shortpost	300	\N
-1261	2	1586879288	\N	forum_longpost	600	\N
-1262	2	1586879288	\N	forum_manydiscussions	100	\N
-1263	2	1586879288	\N	forum_maxbytes	512000	\N
-1264	2	1586879288	\N	forum_maxattachments	9	\N
-1265	2	1586879288	\N	forum_subscription	0	\N
-1266	2	1586879288	\N	forum_trackingtype	1	\N
-1267	2	1586879288	\N	forum_trackreadposts	1	\N
-1268	2	1586879288	\N	forum_allowforcedreadtracking	0	\N
-1269	2	1586879288	\N	forum_oldpostdays	14	\N
-1270	2	1586879288	\N	forum_usermarksread	0	\N
-1271	2	1586879288	\N	forum_cleanreadtime	2	\N
-1272	2	1586879288	\N	digestmailtime	17	\N
-1273	2	1586879288	\N	forum_enablerssfeeds	0	\N
-1274	2	1586879288	\N	forum_enabletimedposts	1	\N
-1275	2	1586879288	\N	glossary_entbypage	10	\N
-1276	2	1586879288	\N	glossary_dupentries	0	\N
-1277	2	1586879288	\N	glossary_allowcomments	0	\N
-1278	2	1586879288	\N	glossary_linkbydefault	1	\N
-1279	2	1586879288	\N	glossary_defaultapproval	1	\N
-1280	2	1586879288	\N	glossary_enablerssfeeds	0	\N
-1281	2	1586879288	\N	glossary_linkentries	0	\N
-1282	2	1586879288	\N	glossary_casesensitive	0	\N
-1283	2	1586879288	\N	glossary_fullmatch	0	\N
-1284	2	1586879288	\N	hotpot_enablemymoodle	1	\N
-1285	2	1586879288	\N	hotpot_enablecache	1	\N
-1286	2	1586879288	\N	hotpot_enablecron		\N
-1287	2	1586879289	\N	hotpot_enableswf	1	\N
-1288	2	1586879289	\N	hotpot_enableobfuscate	1	\N
-1289	2	1586879289	\N	hotpot_bodystyles		\N
-1290	2	1586879289	\N	hotpot_frameheight	85	\N
-1291	2	1586879289	\N	hotpot_lockframe	0	\N
-1292	2	1586879289	\N	hotpot_storedetails	0	\N
-1293	2	1586879289	\N	hotpot_maxeventlength	5	\N
-1294	2	1586879289	imscp	keepold	1	\N
-1295	2	1586879289	imscp	keepold_adv		\N
-1296	2	1586879289	\N	jitsi_domain	meet.jit.si	\N
-1297	2	1586879289	\N	jitsi_sesionname	0,1,2	\N
-1298	2	1586879289	\N	jitsi_showinfo	0	\N
-1299	2	1586879289	\N	jitsi_channellastcam	4	\N
-1300	2	1586879289	\N	jitsi_livebutton	0	\N
-1301	2	1586879289	\N	jitsi_blurbutton	0	\N
-1302	2	1586879289	\N	jitsi_shareyoutube	0	\N
-1303	2	1586879289	\N	jitsi_watermarklink	https://jitsi.org	\N
-1304	2	1586879289	\N	jitsi_finishandreturn	0	\N
-1305	2	1586879289	\N	jitsi_app_id		\N
-1306	2	1586879289	\N	jitsi_secret		\N
-1307	2	1586879289	label	dndmedia	1	\N
-1308	2	1586879289	label	dndresizewidth	400	\N
-1309	2	1586879289	label	dndresizeheight	400	\N
-1310	2	1586879289	mod_lesson	mediafile		\N
-1311	2	1586879289	mod_lesson	mediafile_adv	1	\N
-1312	2	1586879289	mod_lesson	mediawidth	640	\N
-1313	2	1586879289	mod_lesson	mediaheight	480	\N
-1314	2	1586879289	mod_lesson	mediaclose	0	\N
-1315	2	1586879289	mod_lesson	progressbar	0	\N
-1316	2	1586879289	mod_lesson	progressbar_adv		\N
-1317	2	1586879289	mod_lesson	ongoing	0	\N
-1318	2	1586879289	mod_lesson	ongoing_adv	1	\N
-1319	2	1586879289	mod_lesson	displayleftmenu	0	\N
-1320	2	1586879289	mod_lesson	displayleftmenu_adv		\N
-1321	2	1586879289	mod_lesson	displayleftif	0	\N
-1322	2	1586879289	mod_lesson	displayleftif_adv	1	\N
-1323	2	1586879289	mod_lesson	slideshow	0	\N
-1324	2	1586879289	mod_lesson	slideshow_adv	1	\N
-1325	2	1586879289	mod_lesson	slideshowwidth	640	\N
-1326	2	1586879289	mod_lesson	slideshowheight	480	\N
-1327	2	1586879289	mod_lesson	slideshowbgcolor	#FFFFFF	\N
-1328	2	1586879289	mod_lesson	maxanswers	5	\N
-1329	2	1586879289	mod_lesson	maxanswers_adv	1	\N
-1330	2	1586879289	mod_lesson	defaultfeedback	0	\N
-1331	2	1586879289	mod_lesson	defaultfeedback_adv	1	\N
-1332	2	1586879289	mod_lesson	activitylink		\N
-1333	2	1586879289	mod_lesson	activitylink_adv	1	\N
-1334	2	1586879289	mod_lesson	timelimit	0	\N
-1335	2	1586879289	mod_lesson	timelimit_adv		\N
-1336	2	1586879289	mod_lesson	password	0	\N
-1337	2	1586879289	mod_lesson	password_adv	1	\N
-1338	2	1586879289	mod_lesson	modattempts	0	\N
-1339	2	1586879289	mod_lesson	modattempts_adv		\N
-1340	2	1586879289	mod_lesson	displayreview	0	\N
-1341	2	1586879289	mod_lesson	displayreview_adv		\N
-1342	2	1586879289	mod_lesson	maximumnumberofattempts	1	\N
-1343	2	1586879289	mod_lesson	maximumnumberofattempts_adv		\N
-1344	2	1586879289	mod_lesson	defaultnextpage	0	\N
-1345	2	1586879289	mod_lesson	defaultnextpage_adv	1	\N
-1346	2	1586879289	mod_lesson	numberofpagestoshow	1	\N
-1347	2	1586879289	mod_lesson	numberofpagestoshow_adv	1	\N
-1348	2	1586879289	mod_lesson	practice	0	\N
-1349	2	1586879289	mod_lesson	practice_adv		\N
-1350	2	1586879289	mod_lesson	customscoring	1	\N
-1351	2	1586879289	mod_lesson	customscoring_adv	1	\N
-1352	2	1586879289	mod_lesson	retakesallowed	0	\N
-1353	2	1586879289	mod_lesson	retakesallowed_adv		\N
-1354	2	1586879289	mod_lesson	handlingofretakes	0	\N
-1355	2	1586879289	mod_lesson	handlingofretakes_adv	1	\N
-1356	2	1586879289	mod_lesson	minimumnumberofquestions	0	\N
-1357	2	1586879289	mod_lesson	minimumnumberofquestions_adv	1	\N
-1358	2	1586879289	page	displayoptions	5	\N
-1359	2	1586879289	page	printheading	1	\N
-1360	2	1586879289	page	printintro	0	\N
-1361	2	1586879289	page	printlastmodified	1	\N
-1362	2	1586879289	page	display	5	\N
-1363	2	1586879289	page	popupwidth	620	\N
-1364	2	1586879289	page	popupheight	450	\N
-1365	2	1586879289	questionnaire	usergraph	0	\N
-1366	2	1586879289	questionnaire	maxsections	10	\N
-1367	2	1586879289	questionnaire	downloadoptions	response,submitted,institution,department,course,group,id,fullname,username	\N
-1368	2	1586879289	quiz	timelimit	0	\N
-1369	2	1586879289	quiz	timelimit_adv		\N
-1370	2	1586879289	quiz	overduehandling	autosubmit	\N
-1371	2	1586879289	quiz	overduehandling_adv		\N
-1372	2	1586879289	quiz	graceperiod	86400	\N
-1373	2	1586879289	quiz	graceperiod_adv		\N
-1374	2	1586879289	quiz	graceperiodmin	60	\N
-1375	2	1586879289	quiz	attempts	0	\N
-1376	2	1586879289	quiz	attempts_adv		\N
-1377	2	1586879289	quiz	grademethod	1	\N
-1378	2	1586879289	quiz	grademethod_adv		\N
-1379	2	1586879289	quiz	maximumgrade	10	\N
-1380	2	1586879289	quiz	questionsperpage	1	\N
-1381	2	1586879289	quiz	questionsperpage_adv		\N
-1382	2	1586879289	quiz	navmethod	free	\N
-1383	2	1586879289	quiz	navmethod_adv	1	\N
-1384	2	1586879289	quiz	shuffleanswers	1	\N
-1385	2	1586879289	quiz	shuffleanswers_adv		\N
-1386	2	1586879289	quiz	preferredbehaviour	deferredfeedback	\N
-1387	2	1586879289	quiz	canredoquestions	0	\N
-1388	2	1586879289	quiz	canredoquestions_adv	1	\N
-1389	2	1586879289	quiz	attemptonlast	0	\N
-1390	2	1586879289	quiz	attemptonlast_adv	1	\N
-1391	2	1586879289	quiz	reviewattempt	69904	\N
-1392	2	1586879289	quiz	reviewcorrectness	69904	\N
-1393	2	1586879289	quiz	reviewmarks	69904	\N
-1394	2	1586879289	quiz	reviewspecificfeedback	69904	\N
-1395	2	1586879289	quiz	reviewgeneralfeedback	69904	\N
-1396	2	1586879289	quiz	reviewrightanswer	69904	\N
-1397	2	1586879289	quiz	reviewoverallfeedback	4368	\N
-1398	2	1586879289	quiz	showuserpicture	0	\N
-1399	2	1586879289	quiz	showuserpicture_adv		\N
-1400	2	1586879289	quiz	decimalpoints	2	\N
-1401	2	1586879289	quiz	decimalpoints_adv		\N
-1402	2	1586879289	quiz	questiondecimalpoints	-1	\N
-1403	2	1586879289	quiz	questiondecimalpoints_adv	1	\N
-1404	2	1586879289	quiz	showblocks	0	\N
-1405	2	1586879289	quiz	showblocks_adv	1	\N
-1406	2	1586879289	quiz	password		\N
-1407	2	1586879289	quiz	password_adv		\N
-1408	2	1586879289	quiz	subnet		\N
-1409	2	1586879289	quiz	subnet_adv	1	\N
-1410	2	1586879289	quiz	delay1	0	\N
-1411	2	1586879289	quiz	delay1_adv	1	\N
-1412	2	1586879289	quiz	delay2	0	\N
-1413	2	1586879289	quiz	delay2_adv	1	\N
-1414	2	1586879289	quiz	browsersecurity	-	\N
-1415	2	1586879289	quiz	browsersecurity_adv	1	\N
-1416	2	1586879289	quiz	initialnumfeedbacks	2	\N
-1417	2	1586879289	quiz	autosaveperiod	60	\N
-1418	2	1586879289	scorm	displaycoursestructure	0	\N
-1419	2	1586879289	scorm	displaycoursestructure_adv		\N
-1420	2	1586879289	scorm	popup	0	\N
-1421	2	1586879289	scorm	popup_adv		\N
-1422	2	1586879289	scorm	displayactivityname	1	\N
-1423	2	1586879289	scorm	framewidth	100	\N
-1424	2	1586879289	scorm	framewidth_adv	1	\N
-1425	2	1586879289	scorm	frameheight	500	\N
-1426	2	1586879289	scorm	frameheight_adv	1	\N
-1427	2	1586879289	scorm	winoptgrp_adv	1	\N
-1428	2	1586879289	scorm	scrollbars	0	\N
-1429	2	1586879289	scorm	directories	0	\N
-1430	2	1586879289	scorm	location	0	\N
-1431	2	1586879289	scorm	menubar	0	\N
-1432	2	1586879289	scorm	toolbar	0	\N
-1433	2	1586879289	scorm	status	0	\N
-1434	2	1586879289	scorm	skipview	0	\N
-1435	2	1586879289	scorm	skipview_adv	1	\N
-1436	2	1586879289	scorm	hidebrowse	0	\N
-1437	2	1586879289	scorm	hidebrowse_adv	1	\N
-1438	2	1586879289	scorm	hidetoc	0	\N
-1439	2	1586879289	scorm	hidetoc_adv	1	\N
-1440	2	1586879289	scorm	nav	1	\N
-1441	2	1586879289	scorm	nav_adv	1	\N
-1442	2	1586879289	scorm	navpositionleft	-100	\N
-1443	2	1586879289	scorm	navpositionleft_adv	1	\N
-1444	2	1586879289	scorm	navpositiontop	-100	\N
-1445	2	1586879289	scorm	navpositiontop_adv	1	\N
-1446	2	1586879289	scorm	collapsetocwinsize	767	\N
-1447	2	1586879289	scorm	collapsetocwinsize_adv	1	\N
-1448	2	1586879289	scorm	displayattemptstatus	1	\N
-1449	2	1586879289	scorm	displayattemptstatus_adv		\N
-1450	2	1586879289	scorm	grademethod	1	\N
-1451	2	1586879289	scorm	maxgrade	100	\N
-1452	2	1586879289	scorm	maxattempt	0	\N
-1453	2	1586879289	scorm	whatgrade	0	\N
-1454	2	1586879289	scorm	forcecompleted	0	\N
-1455	2	1586879289	scorm	forcenewattempt	0	\N
-1456	2	1586879289	scorm	autocommit	0	\N
-1457	2	1586879289	scorm	masteryoverride	1	\N
-1458	2	1586879289	scorm	lastattemptlock	0	\N
-1459	2	1586879289	scorm	auto	0	\N
-1460	2	1586879289	scorm	updatefreq	0	\N
-1461	2	1586879289	scorm	scormstandard	0	\N
-1462	2	1586879289	scorm	allowtypeexternal	0	\N
-1463	2	1586879289	scorm	allowtypelocalsync	0	\N
-1464	2	1586879289	scorm	allowtypeexternalaicc	0	\N
-1465	2	1586879289	scorm	allowaicchacp	0	\N
-1466	2	1586879289	scorm	aicchacptimeout	30	\N
-1467	2	1586879289	scorm	aicchacpkeepsessiondata	1	\N
-1468	2	1586879289	scorm	aiccuserid	1	\N
-1469	2	1586879289	scorm	forcejavascript	1	\N
-1470	2	1586879289	scorm	allowapidebug	0	\N
-1471	2	1586879289	scorm	apidebugmask	.*	\N
-1472	2	1586879289	scorm	protectpackagedownloads	0	\N
-1473	2	1586879289	turnitintooltwo	enablediagnostic	0	\N
-1474	2	1586879289	turnitintooltwo	enableperformancelogs	0	\N
-1475	2	1586879289	turnitintooltwo	usegrademark	1	\N
-1476	2	1586879289	turnitintooltwo	enablepeermark	1	\N
-1477	2	1586879289	turnitintooltwo	useerater	0	\N
-1478	2	1586879289	turnitintooltwo	useanon	0	\N
-1479	2	1586879289	turnitintooltwo	transmatch	0	\N
-1480	2	1586879289	turnitintooltwo	repositoryoption	0	\N
-1481	2	1586879289	turnitintooltwo	agreement		\N
-1482	2	1586879289	turnitintooltwo	inboxlayout	0	\N
-1483	2	1586879289	turnitintooltwo	enablepseudo	0	\N
-1484	2	1586879289	turnitintooltwo	default_type	0	\N
-1485	2	1586879289	turnitintooltwo	default_numparts	1	\N
-1486	2	1586879289	turnitintooltwo	default_studentreports	0	\N
-1487	2	1586879289	turnitintooltwo	default_gradedisplay	2	\N
-1488	2	1586879289	turnitintooltwo	default_allownonor	0	\N
-1489	2	1586879289	turnitintooltwo	default_allowlate	0	\N
-1490	2	1586879289	turnitintooltwo	default_reportgenspeed	0	\N
-1491	2	1586879289	turnitintooltwo	default_submitpapersto	1	\N
-1492	2	1586879289	turnitintooltwo	default_spapercheck	1	\N
-1493	2	1586879289	turnitintooltwo	default_internetcheck	1	\N
-1494	2	1586879289	turnitintooltwo	default_journalcheck	1	\N
-1495	2	1586879289	turnitintooltwo	default_institutioncheck	0	\N
-1496	2	1586879289	turnitintooltwo	default_excludebiblio	0	\N
-1497	2	1586879289	turnitintooltwo	default_excludequoted	0	\N
-1498	2	1586879289	turnitintooltwo	default_erater	0	\N
-1499	2	1586879289	turnitintooltwo	default_erater_handbook	2	\N
-1500	2	1586879289	turnitintooltwo	default_erater_dictionary	en_US	\N
-1501	2	1586879289	turnitintooltwo	default_erater_spelling	0	\N
-1502	2	1586879289	turnitintooltwo	default_erater_grammar	0	\N
-1503	2	1586879289	turnitintooltwo	default_erater_usage	0	\N
-1504	2	1586879289	turnitintooltwo	default_erater_mechanics	0	\N
-1505	2	1586879289	turnitintooltwo	default_erater_style	0	\N
-1506	2	1586879289	url	framesize	130	\N
-1507	2	1586879289	url	secretphrase		\N
-1508	2	1586879289	url	rolesinparams	0	\N
-1509	2	1586879289	url	displayoptions	0,1,5,6	\N
-1510	2	1586879289	url	printintro	1	\N
-1511	2	1586879289	url	display	0	\N
-1512	2	1586879289	url	popupwidth	620	\N
-1513	2	1586879289	url	popupheight	450	\N
-1514	2	1586879289	webexactivity	sitename		\N
-1515	2	1586879289	webexactivity	apiusername		\N
-1516	2	1586879289	webexactivity	apipassword		\N
-1517	2	1586879289	webexactivity	prefix		\N
-1518	2	1586879289	webexactivity	typemeetingcenter	pwreq	\N
-1519	2	1586879289	webexactivity	meetingtemplate		\N
-1520	2	1586879289	webexactivity	typetrainingcenter	pwreq	\N
-1521	2	1586879289	webexactivity	trainingtemplate		\N
-1522	2	1586879289	webexactivity	meetingclosegrace	120	\N
-1523	2	1586879289	webexactivity	requiremeetingpassword	0	\N
-1524	2	1586879289	webexactivity	defaultmeetingtype	1	\N
-1525	2	1586879289	webexactivity	enablecallin	0	\N
-1526	2	1586879289	webexactivity	recordingtrashtime	48	\N
-1527	2	1586879289	webexactivity	manageallrecordings	0	\N
-1528	2	1586879289	workshop	grade	80	\N
-1529	2	1586879289	workshop	gradinggrade	20	\N
-1530	2	1586879289	workshop	gradedecimals	0	\N
-1531	2	1586879289	workshop	maxbytes	0	\N
-1532	2	1586879289	workshop	strategy	accumulative	\N
-1533	2	1586879289	workshop	examplesmode	0	\N
-1534	2	1586879289	workshopallocation_random	numofreviews	5	\N
-1535	2	1586879289	workshopform_numerrors	grade0	No	\N
-1536	2	1586879289	workshopform_numerrors	grade1	Yes	\N
-1537	2	1586879289	workshopeval_best	comparison	5	\N
-1538	2	1586879289	tool_oauth2owncloud	clientid		\N
-1539	2	1586879289	tool_oauth2owncloud	secret		\N
-1540	2	1586879289	tool_oauth2owncloud	server		\N
-1541	2	1586879289	tool_oauth2owncloud	path	 remote.php/webdav/	\N
-1542	2	1586879289	tool_oauth2owncloud	protocol	https	\N
-1543	2	1586879289	tool_oauth2owncloud	port	443	\N
-1544	2	1586879289	tool_recyclebin	coursebinenable	1	\N
-1545	2	1586879289	tool_recyclebin	coursebinexpiry	604800	\N
-1546	2	1586879289	tool_recyclebin	categorybinenable	1	\N
-1547	2	1586879289	tool_recyclebin	categorybinexpiry	604800	\N
-1548	2	1586879289	tool_recyclebin	autohide	1	\N
-1549	2	1586879289	antivirus_clamav	runningmethod	commandline	\N
-1550	2	1586879289	antivirus_clamav	pathtoclam		\N
-1551	2	1586879289	antivirus_clamav	pathtounixsocket		\N
-1552	2	1586879289	antivirus_clamav	clamfailureonupload	donothing	\N
-1553	2	1586879290	auth_cas	field_map_firstname		\N
-1554	2	1586879290	auth_cas	field_updatelocal_firstname	oncreate	\N
-1555	2	1586879290	auth_cas	field_updateremote_firstname	0	\N
-1556	2	1586879290	auth_cas	field_lock_firstname	unlocked	\N
-1557	2	1586879290	auth_cas	field_map_lastname		\N
-1558	2	1586879290	auth_cas	field_updatelocal_lastname	oncreate	\N
-1559	2	1586879290	auth_cas	field_updateremote_lastname	0	\N
-1560	2	1586879290	auth_cas	field_lock_lastname	unlocked	\N
-1561	2	1586879290	auth_cas	field_map_email		\N
-1562	2	1586879290	auth_cas	field_updatelocal_email	oncreate	\N
-1563	2	1586879290	auth_cas	field_updateremote_email	0	\N
-1564	2	1586879290	auth_cas	field_lock_email	unlocked	\N
-1565	2	1586879290	auth_cas	field_map_city		\N
-1566	2	1586879290	auth_cas	field_updatelocal_city	oncreate	\N
-1567	2	1586879290	auth_cas	field_updateremote_city	0	\N
-1568	2	1586879290	auth_cas	field_lock_city	unlocked	\N
-1569	2	1586879290	auth_cas	field_map_country		\N
-1570	2	1586879290	auth_cas	field_updatelocal_country	oncreate	\N
-1571	2	1586879290	auth_cas	field_updateremote_country	0	\N
-1572	2	1586879290	auth_cas	field_lock_country	unlocked	\N
-1573	2	1586879290	auth_cas	field_map_lang		\N
-1574	2	1586879290	auth_cas	field_updatelocal_lang	oncreate	\N
-1575	2	1586879290	auth_cas	field_updateremote_lang	0	\N
-1576	2	1586879290	auth_cas	field_lock_lang	unlocked	\N
-1577	2	1586879290	auth_cas	field_map_description		\N
-1578	2	1586879290	auth_cas	field_updatelocal_description	oncreate	\N
-1579	2	1586879290	auth_cas	field_updateremote_description	0	\N
-1580	2	1586879290	auth_cas	field_lock_description	unlocked	\N
-1581	2	1586879290	auth_cas	field_map_url		\N
-1582	2	1586879290	auth_cas	field_updatelocal_url	oncreate	\N
-1583	2	1586879290	auth_cas	field_updateremote_url	0	\N
-1584	2	1586879290	auth_cas	field_lock_url	unlocked	\N
-1585	2	1586879290	auth_cas	field_map_idnumber		\N
-1586	2	1586879290	auth_cas	field_updatelocal_idnumber	oncreate	\N
-1587	2	1586879290	auth_cas	field_updateremote_idnumber	0	\N
-1588	2	1586879290	auth_cas	field_lock_idnumber	unlocked	\N
-1589	2	1586879290	auth_cas	field_map_institution		\N
-1590	2	1586879290	auth_cas	field_updatelocal_institution	oncreate	\N
-1591	2	1586879290	auth_cas	field_updateremote_institution	0	\N
-1592	2	1586879290	auth_cas	field_lock_institution	unlocked	\N
-1593	2	1586879290	auth_cas	field_map_department		\N
-1594	2	1586879290	auth_cas	field_updatelocal_department	oncreate	\N
-1595	2	1586879290	auth_cas	field_updateremote_department	0	\N
-1596	2	1586879290	auth_cas	field_lock_department	unlocked	\N
-1597	2	1586879290	auth_cas	field_map_phone1		\N
-1598	2	1586879290	auth_cas	field_updatelocal_phone1	oncreate	\N
-1599	2	1586879290	auth_cas	field_updateremote_phone1	0	\N
-1600	2	1586879290	auth_cas	field_lock_phone1	unlocked	\N
-1601	2	1586879290	auth_cas	field_map_phone2		\N
-1602	2	1586879290	auth_cas	field_updatelocal_phone2	oncreate	\N
-1603	2	1586879290	auth_cas	field_updateremote_phone2	0	\N
-1604	2	1586879290	auth_cas	field_lock_phone2	unlocked	\N
-1605	2	1586879290	auth_cas	field_map_address		\N
-1606	2	1586879290	auth_cas	field_updatelocal_address	oncreate	\N
-1607	2	1586879290	auth_cas	field_updateremote_address	0	\N
-1608	2	1586879290	auth_cas	field_lock_address	unlocked	\N
-1609	2	1586879290	auth_cas	field_map_firstnamephonetic		\N
-1610	2	1586879290	auth_cas	field_updatelocal_firstnamephonetic	oncreate	\N
-1611	2	1586879290	auth_cas	field_updateremote_firstnamephonetic	0	\N
-1612	2	1586879290	auth_cas	field_lock_firstnamephonetic	unlocked	\N
-1613	2	1586879290	auth_cas	field_map_lastnamephonetic		\N
-1614	2	1586879290	auth_cas	field_updatelocal_lastnamephonetic	oncreate	\N
-1615	2	1586879290	auth_cas	field_updateremote_lastnamephonetic	0	\N
-1616	2	1586879290	auth_cas	field_lock_lastnamephonetic	unlocked	\N
-1617	2	1586879290	auth_cas	field_map_middlename		\N
-1618	2	1586879290	auth_cas	field_updatelocal_middlename	oncreate	\N
-1619	2	1586879290	auth_cas	field_updateremote_middlename	0	\N
-1620	2	1586879290	auth_cas	field_lock_middlename	unlocked	\N
-1621	2	1586879290	auth_cas	field_map_alternatename		\N
-1622	2	1586879290	auth_cas	field_updatelocal_alternatename	oncreate	\N
-1623	2	1586879290	auth_cas	field_updateremote_alternatename	0	\N
-1624	2	1586879290	auth_cas	field_lock_alternatename	unlocked	\N
-1625	2	1586879290	auth_email	recaptcha	0	\N
-1626	2	1586879290	auth_email	field_lock_firstname	unlocked	\N
-1627	2	1586879290	auth_email	field_lock_lastname	unlocked	\N
-1628	2	1586879290	auth_email	field_lock_email	unlocked	\N
-1629	2	1586879290	auth_email	field_lock_city	unlocked	\N
-1630	2	1586879290	auth_email	field_lock_country	unlocked	\N
-1631	2	1586879290	auth_email	field_lock_lang	unlocked	\N
-1632	2	1586879290	auth_email	field_lock_description	unlocked	\N
-1633	2	1586879290	auth_email	field_lock_url	unlocked	\N
-1634	2	1586879290	auth_email	field_lock_idnumber	unlocked	\N
-1635	2	1586879290	auth_email	field_lock_institution	unlocked	\N
-1636	2	1586879290	auth_email	field_lock_department	unlocked	\N
-1637	2	1586879290	auth_email	field_lock_phone1	unlocked	\N
-1638	2	1586879290	auth_email	field_lock_phone2	unlocked	\N
-1639	2	1586879290	auth_email	field_lock_address	unlocked	\N
-1640	2	1586879290	auth_email	field_lock_firstnamephonetic	unlocked	\N
-1641	2	1586879290	auth_email	field_lock_lastnamephonetic	unlocked	\N
-1642	2	1586879290	auth_email	field_lock_middlename	unlocked	\N
-1643	2	1586879290	auth_email	field_lock_alternatename	unlocked	\N
-1644	2	1586879290	auth_db	host	127.0.0.1	\N
-1645	2	1586879290	auth_db	type	mysqli	\N
-1646	2	1586879290	auth_db	sybasequoting	0	\N
-1647	2	1586879290	auth_db	name		\N
-1648	2	1586879290	auth_db	user		\N
-1649	2	1586879290	auth_db	pass		\N
-1650	2	1586879290	auth_db	table		\N
-1651	2	1586879290	auth_db	fielduser		\N
-1652	2	1586879290	auth_db	fieldpass		\N
-1653	2	1586879290	auth_db	passtype	plaintext	\N
-1654	2	1586879290	auth_db	extencoding	utf-8	\N
-1655	2	1586879290	auth_db	setupsql		\N
-1656	2	1586879290	auth_db	debugauthdb	0	\N
-1657	2	1586879290	auth_db	changepasswordurl		\N
-1658	2	1586879290	auth_db	removeuser	0	\N
-1659	2	1586879290	auth_db	updateusers	0	\N
-1660	2	1586879290	auth_db	field_map_firstname		\N
-1661	2	1586879290	auth_db	field_updatelocal_firstname	oncreate	\N
-1662	2	1586879290	auth_db	field_updateremote_firstname	0	\N
-1663	2	1586879290	auth_db	field_lock_firstname	unlocked	\N
-1664	2	1586879290	auth_db	field_map_lastname		\N
-1665	2	1586879290	auth_db	field_updatelocal_lastname	oncreate	\N
-1666	2	1586879290	auth_db	field_updateremote_lastname	0	\N
-1667	2	1586879290	auth_db	field_lock_lastname	unlocked	\N
-1668	2	1586879290	auth_db	field_map_email		\N
-1669	2	1586879290	auth_db	field_updatelocal_email	oncreate	\N
-1670	2	1586879290	auth_db	field_updateremote_email	0	\N
-1671	2	1586879290	auth_db	field_lock_email	unlocked	\N
-1672	2	1586879290	auth_db	field_map_city		\N
-1673	2	1586879290	auth_db	field_updatelocal_city	oncreate	\N
-1674	2	1586879290	auth_db	field_updateremote_city	0	\N
-1675	2	1586879290	auth_db	field_lock_city	unlocked	\N
-1676	2	1586879290	auth_db	field_map_country		\N
-1677	2	1586879290	auth_db	field_updatelocal_country	oncreate	\N
-1678	2	1586879290	auth_db	field_updateremote_country	0	\N
-1679	2	1586879290	auth_db	field_lock_country	unlocked	\N
-1680	2	1586879290	auth_db	field_map_lang		\N
-1681	2	1586879290	auth_db	field_updatelocal_lang	oncreate	\N
-1682	2	1586879290	auth_db	field_updateremote_lang	0	\N
-1683	2	1586879290	auth_db	field_lock_lang	unlocked	\N
-1684	2	1586879290	auth_db	field_map_description		\N
-1685	2	1586879290	auth_db	field_updatelocal_description	oncreate	\N
-1686	2	1586879290	auth_db	field_updateremote_description	0	\N
-1687	2	1586879290	auth_db	field_lock_description	unlocked	\N
-1688	2	1586879290	auth_db	field_map_url		\N
-1689	2	1586879290	auth_db	field_updatelocal_url	oncreate	\N
-1690	2	1586879290	auth_db	field_updateremote_url	0	\N
-1691	2	1586879290	auth_db	field_lock_url	unlocked	\N
-1692	2	1586879290	auth_db	field_map_idnumber		\N
-1693	2	1586879290	auth_db	field_updatelocal_idnumber	oncreate	\N
-1694	2	1586879290	auth_db	field_updateremote_idnumber	0	\N
-1695	2	1586879290	auth_db	field_lock_idnumber	unlocked	\N
-1696	2	1586879290	auth_db	field_map_institution		\N
-1697	2	1586879290	auth_db	field_updatelocal_institution	oncreate	\N
-1698	2	1586879290	auth_db	field_updateremote_institution	0	\N
-1699	2	1586879290	auth_db	field_lock_institution	unlocked	\N
-1700	2	1586879290	auth_db	field_map_department		\N
-1701	2	1586879290	auth_db	field_updatelocal_department	oncreate	\N
-1702	2	1586879290	auth_db	field_updateremote_department	0	\N
-1703	2	1586879290	auth_db	field_lock_department	unlocked	\N
-1704	2	1586879290	auth_db	field_map_phone1		\N
-1705	2	1586879290	auth_db	field_updatelocal_phone1	oncreate	\N
-1706	2	1586879290	auth_db	field_updateremote_phone1	0	\N
-1707	2	1586879290	auth_db	field_lock_phone1	unlocked	\N
-1708	2	1586879290	auth_db	field_map_phone2		\N
-1709	2	1586879290	auth_db	field_updatelocal_phone2	oncreate	\N
-1710	2	1586879290	auth_db	field_updateremote_phone2	0	\N
-1711	2	1586879290	auth_db	field_lock_phone2	unlocked	\N
-1712	2	1586879290	auth_db	field_map_address		\N
-1713	2	1586879290	auth_db	field_updatelocal_address	oncreate	\N
-1714	2	1586879290	auth_db	field_updateremote_address	0	\N
-1715	2	1586879290	auth_db	field_lock_address	unlocked	\N
-1716	2	1586879290	auth_db	field_map_firstnamephonetic		\N
-1717	2	1586879290	auth_db	field_updatelocal_firstnamephonetic	oncreate	\N
-1718	2	1586879290	auth_db	field_updateremote_firstnamephonetic	0	\N
-1719	2	1586879290	auth_db	field_lock_firstnamephonetic	unlocked	\N
-1720	2	1586879290	auth_db	field_map_lastnamephonetic		\N
-1721	2	1586879290	auth_db	field_updatelocal_lastnamephonetic	oncreate	\N
-1722	2	1586879290	auth_db	field_updateremote_lastnamephonetic	0	\N
-1723	2	1586879290	auth_db	field_lock_lastnamephonetic	unlocked	\N
-1724	2	1586879290	auth_db	field_map_middlename		\N
-1725	2	1586879290	auth_db	field_updatelocal_middlename	oncreate	\N
-1726	2	1586879290	auth_db	field_updateremote_middlename	0	\N
-1727	2	1586879290	auth_db	field_lock_middlename	unlocked	\N
-1728	2	1586879290	auth_db	field_map_alternatename		\N
-1729	2	1586879290	auth_db	field_updatelocal_alternatename	oncreate	\N
-1730	2	1586879290	auth_db	field_updateremote_alternatename	0	\N
-1731	2	1586879290	auth_db	field_lock_alternatename	unlocked	\N
-1732	2	1586879290	auth_ldap	field_map_firstname		\N
-1733	2	1586879290	auth_ldap	field_updatelocal_firstname	oncreate	\N
-1734	2	1586879290	auth_ldap	field_updateremote_firstname	0	\N
-1735	2	1586879290	auth_ldap	field_lock_firstname	unlocked	\N
-1736	2	1586879290	auth_ldap	field_map_lastname		\N
-1737	2	1586879290	auth_ldap	field_updatelocal_lastname	oncreate	\N
-1738	2	1586879290	auth_ldap	field_updateremote_lastname	0	\N
-1739	2	1586879290	auth_ldap	field_lock_lastname	unlocked	\N
-1740	2	1586879290	auth_ldap	field_map_email		\N
-1741	2	1586879290	auth_ldap	field_updatelocal_email	oncreate	\N
-1742	2	1586879290	auth_ldap	field_updateremote_email	0	\N
-1743	2	1586879290	auth_ldap	field_lock_email	unlocked	\N
-1744	2	1586879290	auth_ldap	field_map_city		\N
-1745	2	1586879290	auth_ldap	field_updatelocal_city	oncreate	\N
-1746	2	1586879290	auth_ldap	field_updateremote_city	0	\N
-1747	2	1586879290	auth_ldap	field_lock_city	unlocked	\N
-1748	2	1586879290	auth_ldap	field_map_country		\N
-1749	2	1586879290	auth_ldap	field_updatelocal_country	oncreate	\N
-1750	2	1586879290	auth_ldap	field_updateremote_country	0	\N
-1751	2	1586879290	auth_ldap	field_lock_country	unlocked	\N
-1752	2	1586879290	auth_ldap	field_map_lang		\N
-1753	2	1586879290	auth_ldap	field_updatelocal_lang	oncreate	\N
-1754	2	1586879290	auth_ldap	field_updateremote_lang	0	\N
-1755	2	1586879290	auth_ldap	field_lock_lang	unlocked	\N
-1756	2	1586879290	auth_ldap	field_map_description		\N
-1757	2	1586879290	auth_ldap	field_updatelocal_description	oncreate	\N
-1758	2	1586879290	auth_ldap	field_updateremote_description	0	\N
-1759	2	1586879290	auth_ldap	field_lock_description	unlocked	\N
-1760	2	1586879290	auth_ldap	field_map_url		\N
-1761	2	1586879290	auth_ldap	field_updatelocal_url	oncreate	\N
-1762	2	1586879290	auth_ldap	field_updateremote_url	0	\N
-1763	2	1586879290	auth_ldap	field_lock_url	unlocked	\N
-1764	2	1586879290	auth_ldap	field_map_idnumber		\N
-1765	2	1586879290	auth_ldap	field_updatelocal_idnumber	oncreate	\N
-1766	2	1586879290	auth_ldap	field_updateremote_idnumber	0	\N
-1767	2	1586879290	auth_ldap	field_lock_idnumber	unlocked	\N
-1768	2	1586879290	auth_ldap	field_map_institution		\N
-1769	2	1586879290	auth_ldap	field_updatelocal_institution	oncreate	\N
-1770	2	1586879290	auth_ldap	field_updateremote_institution	0	\N
-1771	2	1586879290	auth_ldap	field_lock_institution	unlocked	\N
-1772	2	1586879290	auth_ldap	field_map_department		\N
-1773	2	1586879290	auth_ldap	field_updatelocal_department	oncreate	\N
-1774	2	1586879290	auth_ldap	field_updateremote_department	0	\N
-1775	2	1586879290	auth_ldap	field_lock_department	unlocked	\N
-1776	2	1586879290	auth_ldap	field_map_phone1		\N
-1777	2	1586879290	auth_ldap	field_updatelocal_phone1	oncreate	\N
-1778	2	1586879290	auth_ldap	field_updateremote_phone1	0	\N
-1779	2	1586879290	auth_ldap	field_lock_phone1	unlocked	\N
-1780	2	1586879290	auth_ldap	field_map_phone2		\N
-1781	2	1586879290	auth_ldap	field_updatelocal_phone2	oncreate	\N
-1782	2	1586879290	auth_ldap	field_updateremote_phone2	0	\N
-1783	2	1586879290	auth_ldap	field_lock_phone2	unlocked	\N
-1784	2	1586879290	auth_ldap	field_map_address		\N
-1785	2	1586879290	auth_ldap	field_updatelocal_address	oncreate	\N
-1786	2	1586879290	auth_ldap	field_updateremote_address	0	\N
-1787	2	1586879290	auth_ldap	field_lock_address	unlocked	\N
-1788	2	1586879290	auth_ldap	field_map_firstnamephonetic		\N
-1789	2	1586879290	auth_ldap	field_updatelocal_firstnamephonetic	oncreate	\N
-1790	2	1586879290	auth_ldap	field_updateremote_firstnamephonetic	0	\N
-1791	2	1586879290	auth_ldap	field_lock_firstnamephonetic	unlocked	\N
-1792	2	1586879290	auth_ldap	field_map_lastnamephonetic		\N
-1793	2	1586879290	auth_ldap	field_updatelocal_lastnamephonetic	oncreate	\N
-1794	2	1586879290	auth_ldap	field_updateremote_lastnamephonetic	0	\N
-1795	2	1586879290	auth_ldap	field_lock_lastnamephonetic	unlocked	\N
-1796	2	1586879290	auth_ldap	field_map_middlename		\N
-1797	2	1586879290	auth_ldap	field_updatelocal_middlename	oncreate	\N
-1798	2	1586879290	auth_ldap	field_updateremote_middlename	0	\N
-1799	2	1586879290	auth_ldap	field_lock_middlename	unlocked	\N
-1800	2	1586879290	auth_ldap	field_map_alternatename		\N
-1801	2	1586879290	auth_ldap	field_updatelocal_alternatename	oncreate	\N
-1802	2	1586879290	auth_ldap	field_updateremote_alternatename	0	\N
-1803	2	1586879290	auth_ldap	field_lock_alternatename	unlocked	\N
-1804	2	1586879290	auth_manual	expiration	0	\N
-1805	2	1586879290	auth_manual	expirationtime	30	\N
-1806	2	1586879290	auth_manual	expiration_warning	0	\N
-1807	2	1586879290	auth_manual	field_lock_firstname	unlocked	\N
-1808	2	1586879290	auth_manual	field_lock_lastname	unlocked	\N
-1809	2	1586879290	auth_manual	field_lock_email	unlocked	\N
-1810	2	1586879290	auth_manual	field_lock_city	unlocked	\N
-1811	2	1586879290	auth_manual	field_lock_country	unlocked	\N
-1812	2	1586879290	auth_manual	field_lock_lang	unlocked	\N
-1813	2	1586879290	auth_manual	field_lock_description	unlocked	\N
-1814	2	1586879290	auth_manual	field_lock_url	unlocked	\N
-1815	2	1586879290	auth_manual	field_lock_idnumber	unlocked	\N
-1816	2	1586879290	auth_manual	field_lock_institution	unlocked	\N
-1817	2	1586879291	auth_manual	field_lock_department	unlocked	\N
-1818	2	1586879291	auth_manual	field_lock_phone1	unlocked	\N
-1819	2	1586879291	auth_manual	field_lock_phone2	unlocked	\N
-1820	2	1586879291	auth_manual	field_lock_address	unlocked	\N
-1821	2	1586879291	auth_manual	field_lock_firstnamephonetic	unlocked	\N
-1822	2	1586879291	auth_manual	field_lock_lastnamephonetic	unlocked	\N
-1823	2	1586879291	auth_manual	field_lock_middlename	unlocked	\N
-1824	2	1586879291	auth_manual	field_lock_alternatename	unlocked	\N
-1825	2	1586879291	auth_mnet	rpc_negotiation_timeout	30	\N
-1826	2	1586879291	auth_none	field_lock_firstname	unlocked	\N
-1827	2	1586879291	auth_none	field_lock_lastname	unlocked	\N
-1828	2	1586879291	auth_none	field_lock_email	unlocked	\N
-1829	2	1586879291	auth_none	field_lock_city	unlocked	\N
-1830	2	1586879291	auth_none	field_lock_country	unlocked	\N
-1831	2	1586879291	auth_none	field_lock_lang	unlocked	\N
-1832	2	1586879291	auth_none	field_lock_description	unlocked	\N
-1833	2	1586879291	auth_none	field_lock_url	unlocked	\N
-1834	2	1586879291	auth_none	field_lock_idnumber	unlocked	\N
-1835	2	1586879291	auth_none	field_lock_institution	unlocked	\N
-1836	2	1586879291	auth_none	field_lock_department	unlocked	\N
-1837	2	1586879291	auth_none	field_lock_phone1	unlocked	\N
-1838	2	1586879291	auth_none	field_lock_phone2	unlocked	\N
-1839	2	1586879291	auth_none	field_lock_address	unlocked	\N
-1840	2	1586879291	auth_none	field_lock_firstnamephonetic	unlocked	\N
-1841	2	1586879291	auth_none	field_lock_lastnamephonetic	unlocked	\N
-1842	2	1586879291	auth_none	field_lock_middlename	unlocked	\N
-1843	2	1586879291	auth_none	field_lock_alternatename	unlocked	\N
-1844	2	1586879291	auth_oauth2	field_lock_firstname	unlocked	\N
-1845	2	1586879291	auth_oauth2	field_lock_lastname	unlocked	\N
-1846	2	1586879291	auth_oauth2	field_lock_email	unlocked	\N
-1847	2	1586879291	auth_oauth2	field_lock_city	unlocked	\N
-1848	2	1586879291	auth_oauth2	field_lock_country	unlocked	\N
-1849	2	1586879291	auth_oauth2	field_lock_lang	unlocked	\N
-1850	2	1586879291	auth_oauth2	field_lock_description	unlocked	\N
-1851	2	1586879291	auth_oauth2	field_lock_url	unlocked	\N
-1852	2	1586879291	auth_oauth2	field_lock_idnumber	unlocked	\N
-1853	2	1586879291	auth_oauth2	field_lock_institution	unlocked	\N
-1854	2	1586879291	auth_oauth2	field_lock_department	unlocked	\N
-1855	2	1586879291	auth_oauth2	field_lock_phone1	unlocked	\N
-1856	2	1586879291	auth_oauth2	field_lock_phone2	unlocked	\N
-1857	2	1586879291	auth_oauth2	field_lock_address	unlocked	\N
-1858	2	1586879291	auth_oauth2	field_lock_firstnamephonetic	unlocked	\N
-1859	2	1586879291	auth_oauth2	field_lock_lastnamephonetic	unlocked	\N
-1860	2	1586879291	auth_oauth2	field_lock_middlename	unlocked	\N
-1861	2	1586879291	auth_oauth2	field_lock_alternatename	unlocked	\N
-1862	2	1586879291	auth_shibboleth	user_attribute		\N
-1863	2	1586879291	auth_shibboleth	convert_data		\N
-1864	2	1586879291	auth_shibboleth	alt_login	off	\N
-1865	2	1586879291	auth_shibboleth	organization_selection	urn:mace:organization1:providerID, Example Organization 1\n        https://another.idp-id.com/shibboleth, Other Example Organization, /Shibboleth.sso/DS/SWITCHaai\n        urn:mace:organization2:providerID, Example Organization 2, /Shibboleth.sso/WAYF/SWITCHaai	\N
-1866	2	1586879291	auth_shibboleth	logout_handler		\N
-1867	2	1586879291	auth_shibboleth	logout_return_url		\N
-1868	2	1586879291	auth_shibboleth	login_name	Shibboleth Login	\N
-1869	2	1586879291	auth_shibboleth	auth_logo		\N
-1870	2	1586879291	auth_shibboleth	auth_instructions	Use the <a href="http://moodlecloud.id/auth/shibboleth/index.php">Shibboleth login</a> to get access via Shibboleth, if your institution supports it.<br />Otherwise, use the normal login form shown here.	\N
-1871	2	1586879291	auth_shibboleth	changepasswordurl		\N
-1872	2	1586879291	auth_shibboleth	field_map_firstname		\N
-1873	2	1586879291	auth_shibboleth	field_updatelocal_firstname	oncreate	\N
-1874	2	1586879291	auth_shibboleth	field_lock_firstname	unlocked	\N
-1875	2	1586879291	auth_shibboleth	field_map_lastname		\N
-1876	2	1586879291	auth_shibboleth	field_updatelocal_lastname	oncreate	\N
-1877	2	1586879291	auth_shibboleth	field_lock_lastname	unlocked	\N
-1878	2	1586879291	auth_shibboleth	field_map_email		\N
-1879	2	1586879291	auth_shibboleth	field_updatelocal_email	oncreate	\N
-1880	2	1586879291	auth_shibboleth	field_lock_email	unlocked	\N
-1881	2	1586879291	auth_shibboleth	field_map_city		\N
-1882	2	1586879291	auth_shibboleth	field_updatelocal_city	oncreate	\N
-1883	2	1586879291	auth_shibboleth	field_lock_city	unlocked	\N
-1884	2	1586879291	auth_shibboleth	field_map_country		\N
-1885	2	1586879291	auth_shibboleth	field_updatelocal_country	oncreate	\N
-1886	2	1586879291	auth_shibboleth	field_lock_country	unlocked	\N
-1887	2	1586879291	auth_shibboleth	field_map_lang		\N
-1888	2	1586879291	auth_shibboleth	field_updatelocal_lang	oncreate	\N
-1889	2	1586879291	auth_shibboleth	field_lock_lang	unlocked	\N
-1890	2	1586879291	auth_shibboleth	field_map_description		\N
-1891	2	1586879291	auth_shibboleth	field_updatelocal_description	oncreate	\N
-1892	2	1586879291	auth_shibboleth	field_lock_description	unlocked	\N
-1893	2	1586879291	auth_shibboleth	field_map_url		\N
-1894	2	1586879291	auth_shibboleth	field_updatelocal_url	oncreate	\N
-1895	2	1586879291	auth_shibboleth	field_lock_url	unlocked	\N
-1896	2	1586879291	auth_shibboleth	field_map_idnumber		\N
-1897	2	1586879291	auth_shibboleth	field_updatelocal_idnumber	oncreate	\N
-1898	2	1586879291	auth_shibboleth	field_lock_idnumber	unlocked	\N
-1899	2	1586879291	auth_shibboleth	field_map_institution		\N
-1900	2	1586879291	auth_shibboleth	field_updatelocal_institution	oncreate	\N
-1901	2	1586879291	auth_shibboleth	field_lock_institution	unlocked	\N
-1902	2	1586879291	auth_shibboleth	field_map_department		\N
-1903	2	1586879291	auth_shibboleth	field_updatelocal_department	oncreate	\N
-1904	2	1586879291	auth_shibboleth	field_lock_department	unlocked	\N
-1905	2	1586879291	auth_shibboleth	field_map_phone1		\N
-1906	2	1586879291	auth_shibboleth	field_updatelocal_phone1	oncreate	\N
-1907	2	1586879291	auth_shibboleth	field_lock_phone1	unlocked	\N
-1908	2	1586879291	auth_shibboleth	field_map_phone2		\N
-1909	2	1586879291	auth_shibboleth	field_updatelocal_phone2	oncreate	\N
-1910	2	1586879291	auth_shibboleth	field_lock_phone2	unlocked	\N
-1911	2	1586879291	auth_shibboleth	field_map_address		\N
-1912	2	1586879291	auth_shibboleth	field_updatelocal_address	oncreate	\N
-1913	2	1586879291	auth_shibboleth	field_lock_address	unlocked	\N
-1914	2	1586879291	auth_shibboleth	field_map_firstnamephonetic		\N
-1915	2	1586879291	auth_shibboleth	field_updatelocal_firstnamephonetic	oncreate	\N
-1916	2	1586879291	auth_shibboleth	field_lock_firstnamephonetic	unlocked	\N
-1917	2	1586879291	auth_shibboleth	field_map_lastnamephonetic		\N
-1918	2	1586879291	auth_shibboleth	field_updatelocal_lastnamephonetic	oncreate	\N
-1919	2	1586879291	auth_shibboleth	field_lock_lastnamephonetic	unlocked	\N
-1920	2	1586879291	auth_shibboleth	field_map_middlename		\N
-1921	2	1586879291	auth_shibboleth	field_updatelocal_middlename	oncreate	\N
-1922	2	1586879291	auth_shibboleth	field_lock_middlename	unlocked	\N
-1923	2	1586879291	auth_shibboleth	field_map_alternatename		\N
-1924	2	1586879291	auth_shibboleth	field_updatelocal_alternatename	oncreate	\N
-1925	2	1586879291	auth_shibboleth	field_lock_alternatename	unlocked	\N
-1926	2	1586879291	block_activity_results	config_showbest	3	\N
-1927	2	1586879291	block_activity_results	config_showbest_locked		\N
-1928	2	1586879291	block_activity_results	config_showworst	0	\N
-1929	2	1586879291	block_activity_results	config_showworst_locked		\N
-1930	2	1586879291	block_activity_results	config_usegroups	0	\N
-1931	2	1586879291	block_activity_results	config_usegroups_locked		\N
-1932	2	1586879291	block_activity_results	config_nameformat	1	\N
-1933	2	1586879291	block_activity_results	config_nameformat_locked		\N
-1934	2	1586879291	block_activity_results	config_gradeformat	1	\N
-1935	2	1586879291	block_activity_results	config_gradeformat_locked		\N
-1936	2	1586879291	block_activity_results	config_decimalpoints	2	\N
-1937	2	1586879291	block_activity_results	config_decimalpoints_locked		\N
-1938	2	1586879291	\N	block_course_list_adminview	all	\N
-1939	2	1586879291	\N	block_course_list_hideallcourseslink	0	\N
-1940	2	1586879291	\N	block_html_allowcssclasses	0	\N
-1941	2	1586879291	\N	block_online_users_timetosee	5	\N
-1942	2	1586879291	\N	block_rss_client_num_entries	5	\N
-1943	2	1586879291	\N	block_rss_client_timeout	30	\N
-1944	2	1586879291	block_section_links	numsections1	22	\N
-1945	2	1586879291	block_section_links	incby1	2	\N
-1946	2	1586879291	block_section_links	numsections2	40	\N
-1947	2	1586879291	block_section_links	incby2	5	\N
-1948	2	1586879291	block_tag_youtube	apikey		\N
-1949	2	1586879291	format_singleactivity	activitytype	forum	\N
-1950	2	1586879291	fileconverter_googledrive	issuerid		\N
-1951	2	1586879291	\N	pathtounoconv	/usr/bin/unoconv	\N
-1952	2	1586879291	enrol_cohort	roleid	5	\N
-1953	2	1586879291	enrol_cohort	unenrolaction	0	\N
-1954	2	1586879291	enrol_meta	nosyncroleids		\N
-1955	2	1586879291	enrol_meta	syncall	1	\N
-1956	2	1586879291	enrol_meta	unenrolaction	3	\N
-1957	2	1586879291	enrol_meta	coursesort	sortorder	\N
-1958	2	1586879291	enrol_database	dbtype		\N
-1959	2	1586879291	enrol_database	dbhost	localhost	\N
-1960	2	1586879291	enrol_database	dbuser		\N
-1961	2	1586879291	enrol_database	dbpass		\N
-1962	2	1586879291	enrol_database	dbname		\N
-1963	2	1586879291	enrol_database	dbencoding	utf-8	\N
-1964	2	1586879291	enrol_database	dbsetupsql		\N
-1965	2	1586879291	enrol_database	dbsybasequoting	0	\N
-1966	2	1586879291	enrol_database	debugdb	0	\N
-1967	2	1586879291	enrol_database	localcoursefield	idnumber	\N
-1968	2	1586879291	enrol_database	localuserfield	idnumber	\N
-1969	2	1586879291	enrol_database	localrolefield	shortname	\N
-1970	2	1586879291	enrol_database	localcategoryfield	id	\N
-1971	2	1586879291	enrol_database	remoteenroltable		\N
-1972	2	1586879291	enrol_database	remotecoursefield		\N
-1973	2	1586879291	enrol_database	remoteuserfield		\N
-1974	2	1586879291	enrol_database	remoterolefield		\N
-1975	2	1586879291	enrol_database	remoteotheruserfield		\N
-1976	2	1586879291	enrol_database	defaultrole	5	\N
-1977	2	1586879291	enrol_database	ignorehiddencourses	0	\N
-1978	2	1586879291	enrol_database	unenrolaction	0	\N
-1979	2	1586879291	enrol_database	newcoursetable		\N
-1980	2	1586879291	enrol_database	newcoursefullname	fullname	\N
-1981	2	1586879291	enrol_database	newcourseshortname	shortname	\N
-1982	2	1586879291	enrol_database	newcourseidnumber	idnumber	\N
-1983	2	1586879291	enrol_database	newcoursecategory		\N
-1984	2	1586879291	enrol_database	defaultcategory	1	\N
-1985	2	1586879291	enrol_database	templatecourse		\N
-1986	2	1586879291	enrol_flatfile	location		\N
-1987	2	1586879291	enrol_flatfile	encoding	UTF-8	\N
-1988	2	1586879291	enrol_flatfile	mailstudents	0	\N
-1989	2	1586879291	enrol_flatfile	mailteachers	0	\N
-1990	2	1586879291	enrol_flatfile	mailadmins	0	\N
-1991	2	1586879291	enrol_flatfile	unenrolaction	3	\N
-1992	2	1586879291	enrol_flatfile	expiredaction	3	\N
-1993	2	1586879291	enrol_guest	requirepassword	0	\N
-1994	2	1586879291	enrol_guest	usepasswordpolicy	0	\N
-1995	2	1586879291	enrol_guest	showhint	0	\N
-1996	2	1586879291	enrol_guest	defaultenrol	1	\N
-1997	2	1586879291	enrol_guest	status	1	\N
-1998	2	1586879291	enrol_guest	status_adv		\N
-1999	2	1586879291	enrol_imsenterprise	imsfilelocation		\N
-2000	2	1586879291	enrol_imsenterprise	logtolocation		\N
-2001	2	1586879291	enrol_imsenterprise	mailadmins	0	\N
-2002	2	1586879291	enrol_imsenterprise	createnewusers	0	\N
-2003	2	1586879291	enrol_imsenterprise	imsupdateusers	0	\N
-2004	2	1586879291	enrol_imsenterprise	imsdeleteusers	0	\N
-2005	2	1586879291	enrol_imsenterprise	fixcaseusernames	0	\N
-2006	2	1586879291	enrol_imsenterprise	fixcasepersonalnames	0	\N
-2007	2	1586879291	enrol_imsenterprise	imssourcedidfallback	0	\N
-2008	2	1586879291	enrol_imsenterprise	imsrolemap01	5	\N
-2009	2	1586879291	enrol_imsenterprise	imsrolemap02	3	\N
-2010	2	1586879291	enrol_imsenterprise	imsrolemap03	3	\N
-2011	2	1586879291	enrol_imsenterprise	imsrolemap04	5	\N
-2012	2	1586879291	enrol_imsenterprise	imsrolemap05	0	\N
-2013	2	1586879291	enrol_imsenterprise	imsrolemap06	4	\N
-2014	2	1586879291	enrol_imsenterprise	imsrolemap07	0	\N
-2015	2	1586879291	enrol_imsenterprise	imsrolemap08	4	\N
-2016	2	1586879291	enrol_imsenterprise	truncatecoursecodes	0	\N
-2017	2	1586879291	enrol_imsenterprise	createnewcourses	0	\N
-2018	2	1586879291	enrol_imsenterprise	updatecourses	0	\N
-2019	2	1586879291	enrol_imsenterprise	createnewcategories	0	\N
-2020	2	1586879291	enrol_imsenterprise	nestedcategories	0	\N
-2021	2	1586879291	enrol_imsenterprise	categoryidnumber	0	\N
-2022	2	1586879291	enrol_imsenterprise	categoryseparator		\N
-2023	2	1586879291	enrol_imsenterprise	imsunenrol	0	\N
-2024	2	1586879291	enrol_imsenterprise	imscoursemapshortname	coursecode	\N
-2025	2	1586879291	enrol_imsenterprise	imscoursemapfullname	short	\N
-2026	2	1586879291	enrol_imsenterprise	imscoursemapsummary	ignore	\N
-2027	2	1586879291	enrol_imsenterprise	imsrestricttarget		\N
-2028	2	1586879291	enrol_imsenterprise	imscapitafix	0	\N
-2029	2	1586879291	enrol_manual	expiredaction	1	\N
-2030	2	1586879291	enrol_manual	expirynotifyhour	6	\N
-2031	2	1586879291	enrol_manual	defaultenrol	1	\N
-2032	2	1586879291	enrol_manual	status	0	\N
-2033	2	1586879291	enrol_manual	roleid	5	\N
-2034	2	1586879291	enrol_manual	enrolstart	4	\N
-2035	2	1586879291	enrol_manual	enrolperiod	0	\N
-2036	2	1586879291	enrol_manual	expirynotify	0	\N
-2037	2	1586879291	enrol_manual	expirythreshold	86400	\N
-2038	2	1586879291	enrol_mnet	roleid	5	\N
-2039	2	1586879291	enrol_mnet	roleid_adv	1	\N
-2040	2	1586879291	enrol_paypal	paypalbusiness		\N
-2041	2	1586879291	enrol_paypal	mailstudents	0	\N
-2042	2	1586879291	enrol_paypal	mailteachers	0	\N
-2043	2	1586879291	enrol_paypal	mailadmins	0	\N
-2044	2	1586879291	enrol_paypal	expiredaction	3	\N
-2045	2	1586879291	enrol_paypal	status	1	\N
-2046	2	1586879291	enrol_paypal	cost	0	\N
-2047	2	1586879291	enrol_paypal	currency	USD	\N
-2048	2	1586879291	enrol_paypal	roleid	5	\N
-2049	2	1586879291	enrol_paypal	enrolperiod	0	\N
-2050	2	1586879291	enrol_lti	emaildisplay	2	\N
-2051	2	1586879291	enrol_lti	city		\N
-2052	2	1586879291	enrol_lti	country		\N
-2053	2	1586879291	enrol_lti	timezone	99	\N
-2054	2	1586879291	enrol_lti	lang	en	\N
-2055	2	1586879291	enrol_lti	institution		\N
-2056	2	1586879291	enrol_self	requirepassword	0	\N
-2057	2	1586879291	enrol_self	usepasswordpolicy	0	\N
-2058	2	1586879291	enrol_self	showhint	0	\N
-2059	2	1586879291	enrol_self	expiredaction	1	\N
-2060	2	1586879291	enrol_self	expirynotifyhour	6	\N
-2061	2	1586879291	enrol_self	defaultenrol	1	\N
-2062	2	1586879291	enrol_self	status	1	\N
-2063	2	1586879291	enrol_self	newenrols	1	\N
-2064	2	1586879291	enrol_self	groupkey	0	\N
-2065	2	1586879292	enrol_self	roleid	5	\N
-2066	2	1586879292	enrol_self	enrolperiod	0	\N
-2067	2	1586879292	enrol_self	expirynotify	0	\N
-2068	2	1586879292	enrol_self	expirythreshold	86400	\N
-2069	2	1586879292	enrol_self	longtimenosee	0	\N
-2070	2	1586879292	enrol_self	maxenrolled	0	\N
-2071	2	1586879292	enrol_self	sendcoursewelcomemessage	1	\N
-2072	2	1586879292	filter_urltolink	formats	0	\N
-2073	2	1586879292	filter_urltolink	embedimages	1	\N
-2074	2	1586879292	filter_emoticon	formats	1,4,0	\N
-2075	2	1586879292	filter_mathjaxloader	httpsurl	https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js	\N
-2076	2	1586879292	filter_mathjaxloader	texfiltercompatibility	0	\N
-2077	2	1586879292	filter_mathjaxloader	mathjaxconfig	\nMathJax.Hub.Config({\n    config: ["Accessible.js", "Safe.js"],\n    errorSettings: { message: ["!"] },\n    skipStartupTypeset: true,\n    messageStyle: "none"\n});\n	\N
-2078	2	1586879292	filter_mathjaxloader	additionaldelimiters		\N
-2079	2	1586879292	filter_wiris	filter_standalone		\N
-2080	2	1586879292	\N	filter_multilang_force_old	0	\N
-2081	2	1586879292	filter_tex	latexpreamble	\\usepackage[latin1]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\RequirePackage{amsmath,amssymb,latexsym}\n	\N
-2082	2	1586879292	filter_tex	latexbackground	#FFFFFF	\N
-2083	2	1586879292	filter_tex	density	120	\N
-2084	2	1586879292	filter_tex	pathlatex	/usr/bin/latex	\N
-2085	2	1586879292	filter_tex	pathdvips	/usr/bin/dvips	\N
-2086	2	1586879292	filter_tex	pathconvert	/usr/bin/convert	\N
-2087	2	1586879292	filter_tex	pathdvisvgm	/usr/bin/dvisvgm	\N
-2088	2	1586879292	filter_tex	pathmimetex		\N
-2089	2	1586879292	filter_tex	convertformat	gif	\N
-2090	2	1586879292	\N	filter_censor_badwords		\N
-2091	2	1586879292	local_analytics	enabled	1	\N
-2092	2	1586879292	local_analytics	guniversal	1	\N
-2093	2	1586879292	local_analytics	ganalytics		\N
-2094	2	1586879292	local_analytics	analyticsid		\N
-2095	2	1586879292	local_analytics	anonymizeip	1	\N
-2096	2	1586879292	local_analytics	piwik	1	\N
-2097	2	1586879292	local_analytics	siteid	1	\N
-2098	2	1586879292	local_analytics	imagetrack	1	\N
-2099	2	1586879292	local_analytics	siteurl		\N
-2100	2	1586879292	local_analytics	trackadmin		\N
-2101	2	1586879292	local_analytics	cleanurl	1	\N
-2102	2	1586879292	local_course_templates	jump_to	1	\N
-2103	2	1586879292	logstore_database	dbdriver		\N
-2104	2	1586879292	logstore_database	dbhost		\N
-2105	2	1586879292	logstore_database	dbuser		\N
-2106	2	1586879292	logstore_database	dbpass		\N
-2107	2	1586879292	logstore_database	dbname		\N
-2108	2	1586879292	logstore_database	dbtable		\N
-2109	2	1586879292	logstore_database	dbpersist	0	\N
-2110	2	1586879292	logstore_database	dbsocket		\N
-2111	2	1586879292	logstore_database	dbport		\N
-2112	2	1586879292	logstore_database	dbschema		\N
-2113	2	1586879292	logstore_database	dbcollation		\N
-2114	2	1586879292	logstore_database	dbhandlesoptions	0	\N
-2115	2	1586879292	logstore_database	buffersize	50	\N
-2116	2	1586879292	logstore_database	logguests	0	\N
-2117	2	1586879292	logstore_database	includelevels	1,2,0	\N
-2118	2	1586879292	logstore_database	includeactions	c,r,u,d	\N
-2119	2	1586879292	logstore_legacy	loglegacy	0	\N
-2120	2	1586879292	\N	logguests	1	\N
-2121	2	1586879292	\N	loglifetime	0	\N
-2122	2	1586879292	logstore_standard	logguests	1	\N
-2123	2	1586879292	logstore_standard	loglifetime	0	\N
-2124	2	1586879292	logstore_standard	buffersize	50	\N
-2125	2	1586879292	media_videojs	videoextensions	html_video,.f4v,.flv	\N
-2126	2	1586879292	media_videojs	audioextensions	html_audio	\N
-2127	2	1586879292	media_videojs	rtmp	0	\N
-2128	2	1586879292	media_videojs	useflash	0	\N
-2129	2	1586879292	media_videojs	youtube	1	\N
-2130	2	1586879292	media_videojs	videocssclass	video-js	\N
-2131	2	1586879292	media_videojs	audiocssclass	video-js	\N
-2132	2	1586879292	media_videojs	limitsize	1	\N
-2133	2	1586879292	\N	jabberhost		\N
-2134	2	1586879292	\N	jabberserver		\N
-2135	2	1586879292	\N	jabberusername		\N
-2136	2	1586879292	\N	jabberpassword		\N
-2137	2	1586879292	\N	jabberport	5222	\N
-2138	2	1586879292	\N	airnotifierurl	https://messages.moodle.net	\N
-2139	2	1586879292	\N	airnotifierport	443	\N
-2140	2	1586879292	\N	airnotifiermobileappname	com.moodle.moodlemobile	\N
-2141	2	1586879292	\N	airnotifierappname	commoodlemoodlemobile	\N
-2142	2	1586879292	\N	airnotifieraccesskey		\N
-2143	2	1586879292	message_telegram	sitebotusername	moodlecloudBot	\N
-2144	2	1586879292	qtype_multichoice	answerhowmany	1	\N
-2145	2	1586879292	qtype_multichoice	shuffleanswers	1	\N
-2146	2	1586879292	qtype_multichoice	answernumbering	abc	\N
-2147	2	1586879292	editor_atto	toolbar	collapse = collapse\nstyle1 = title, bold, italic\nlist = unorderedlist, orderedlist\nlinks = link\nfiles = image, media, recordrtc, managefiles\nstyle2 = underline, strike, subscript, superscript\nalign = align\nindent = indent\ninsert = equation, charmap, table, clear\nundo = undo\naccessibility = accessibilitychecker, accessibilityhelper\nother = html	\N
-2148	2	1586879292	editor_atto	autosavefrequency	60	\N
-2149	2	1586879292	atto_collapse	showgroups	5	\N
-2150	2	1586879292	atto_equation	librarygroup1	\n\\cdot\n\\times\n\\ast\n\\div\n\\diamond\n\\pm\n\\mp\n\\oplus\n\\ominus\n\\otimes\n\\oslash\n\\odot\n\\circ\n\\bullet\n\\asymp\n\\equiv\n\\subseteq\n\\supseteq\n\\leq\n\\geq\n\\preceq\n\\succeq\n\\sim\n\\simeq\n\\approx\n\\subset\n\\supset\n\\ll\n\\gg\n\\prec\n\\succ\n\\infty\n\\in\n\\ni\n\\forall\n\\exists\n\\neq\n	\N
-2151	2	1586879292	atto_equation	librarygroup2	\n\\leftarrow\n\\rightarrow\n\\uparrow\n\\downarrow\n\\leftrightarrow\n\\nearrow\n\\searrow\n\\swarrow\n\\nwarrow\n\\Leftarrow\n\\Rightarrow\n\\Uparrow\n\\Downarrow\n\\Leftrightarrow\n	\N
-2152	2	1586879292	atto_equation	librarygroup3	\n\\alpha\n\\beta\n\\gamma\n\\delta\n\\epsilon\n\\zeta\n\\eta\n\\theta\n\\iota\n\\kappa\n\\lambda\n\\mu\n\\nu\n\\xi\n\\pi\n\\rho\n\\sigma\n\\tau\n\\upsilon\n\\phi\n\\chi\n\\psi\n\\omega\n\\Gamma\n\\Delta\n\\Theta\n\\Lambda\n\\Xi\n\\Pi\n\\Sigma\n\\Upsilon\n\\Phi\n\\Psi\n\\Omega\n	\N
-2153	2	1586879292	atto_equation	librarygroup4	\n\\sum{a,b}\n\\sqrt[a]{b+c}\n\\int_{a}^{b}{c}\n\\iint_{a}^{b}{c}\n\\iiint_{a}^{b}{c}\n\\oint{a}\n(a)\n[a]\n\\lbrace{a}\\rbrace\n\\left| \\begin{matrix} a_1 & a_2 \\ a_3 & a_4 \\end{matrix} \\right|\n\\frac{a}{b+c}\n\\vec{a}\n\\binom {a} {b}\n{a \\brack b}\n{a \\brace b}\n	\N
-2154	2	1586879292	atto_recordrtc	allowedtypes	both	\N
-2155	2	1586879292	atto_recordrtc	audiobitrate	128000	\N
-2156	2	1586879292	atto_recordrtc	videobitrate	2500000	\N
-2157	2	1586879292	atto_recordrtc	timelimit	120	\N
-2158	2	1586879292	atto_table	allowborders	0	\N
-2159	2	1586879292	atto_table	allowbackgroundcolour	0	\N
-2160	2	1586879292	atto_table	allowwidth	0	\N
-2161	2	1586879292	editor_tinymce	customtoolbar	wrap,formatselect,wrap,bold,italic,wrap,bullist,numlist,wrap,link,unlink,wrap,image\n\nundo,redo,wrap,underline,strikethrough,sub,sup,wrap,justifyleft,justifycenter,justifyright,wrap,outdent,indent,wrap,forecolor,backcolor,wrap,ltr,rtl\n\nfontselect,fontsizeselect,wrap,code,search,replace,wrap,nonbreaking,charmap,table,wrap,cleanup,removeformat,pastetext,pasteword,wrap,fullscreen	\N
-2162	2	1586879292	editor_tinymce	fontselectlist	Trebuchet=Trebuchet MS,Verdana,Arial,Helvetica,sans-serif;Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;Wingdings=wingdings	\N
-2163	2	1586879292	editor_tinymce	customconfig		\N
-2164	2	1586879292	tinymce_moodleemoticon	requireemoticon	1	\N
-2165	2	1586879292	tinymce_spellchecker	spellengine		\N
-2166	2	1586879292	tinymce_spellchecker	spelllanguagelist	+English=en,Danish=da,Dutch=nl,Finnish=fi,French=fr,German=de,Italian=it,Polish=pl,Portuguese=pt,Spanish=es,Swedish=sv	\N
-2167	2	1586879292	\N	profileroles	5,4,3	\N
-2168	2	1586879292	theme_academi	logo		\N
-2169	2	1586879292	theme_academi	customcss		\N
-2170	2	1586879292	theme_academi	toggleslideshow	1	\N
-2171	2	1586879292	theme_academi	numberofslides	3	\N
-2172	2	1586879292	theme_academi	footlogo	1	\N
-2173	2	1586879292	theme_academi	footnote	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and tronic typesetting, sheets taining Lorem Ipsum passages.<br><a href="#">Read More &raquo;</a></p>	\N
-2174	2	1586879292	theme_academi	infolink	Moodle community|https://moodle.org\r\nMoodle free support|https://moodle.org/support\r\nMoodle development|https://moodle.org/development\r\nMoodle Docs|http://docs.moodle.org|Moodle Docs\r\nMoodle.com|http://moodle.com/	\N
-2175	2	1586879292	theme_academi	copyright_footer	Copyright &copy; 2017 - Developed by <a href="http://lmsace.com">LMSACE.com</a>. Powered by <a href="https://moodle.org">Moodle</a>	\N
-2176	2	1586879292	theme_academi	address	308 Negra Narrow Lane, Albeeze, New york, 87104	\N
-2177	2	1586879292	theme_academi	emailid	info@example.com	\N
-2178	2	1586879292	theme_academi	phoneno	(000) 123-456	\N
-2179	2	1586879292	theme_academi	fburl	https://www.facebook.com/yourfacebookid	\N
-2180	2	1586879292	theme_academi	pinurl	https://in.pinterest.com/yourpinterestname/	\N
-2181	2	1586879292	theme_academi	twurl	https://twitter.com/yourtwittername	\N
-2182	2	1586879292	theme_academi	gpurl	https://www.google.com/+yourgoogleplusid	\N
-2183	2	1586879292	theme_essential	slide1		\N
-2184	2	1586879292	theme_essential	slide1image		\N
-2185	2	1586879292	theme_essential	slide1caption		\N
-2186	2	1586879292	theme_essential	slide1url		\N
-2187	2	1586879292	theme_essential	slide1target	_blank	\N
-2188	2	1586879292	theme_essential	slide2		\N
-2189	2	1586879292	theme_essential	slide2image		\N
-2190	2	1586879292	theme_essential	slide2caption		\N
-2191	2	1586879293	theme_essential	slide2url		\N
-2192	2	1586879293	theme_essential	slide2target	_blank	\N
-2193	2	1586879293	theme_essential	slide3		\N
-2194	2	1586879293	theme_essential	slide3image		\N
-2195	2	1586879293	theme_essential	slide3caption		\N
-2196	2	1586879293	theme_essential	slide3url		\N
-2197	2	1586879293	theme_essential	slide3target	_blank	\N
-2198	2	1586879293	theme_essential	slide4		\N
-2199	2	1586879293	theme_essential	slide4image		\N
-2200	2	1586879293	theme_essential	slide4caption		\N
-2201	2	1586879293	theme_essential	slide4url		\N
-2202	2	1586879293	theme_essential	slide4target	_blank	\N
-2203	2	1586879293	theme_essential	defaultcategoryicon	folder-open	\N
-2204	2	1586879293	theme_essential	defaultcategoryimage		\N
-2205	2	1586879293	theme_essential	enablecustomcategoryicon	0	\N
-2206	2	1586879293	theme_klass	logo		\N
-2207	2	1586879293	theme_klass	customcss		\N
-2208	2	1586879293	theme_klass	whoweare_title	Who we are	\N
-2209	2	1586879293	theme_klass	whoweare_description	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and tronic typesetting, sheets taining Lorem Ipsum passages.<br><a href="#">Read More &raquo;</a></p>	\N
-2210	2	1586879293	theme_klass	toggleslideshow	1	\N
-2211	2	1586879293	theme_klass	numberofslides	3	\N
-2212	2	1586879293	theme_klass	footerlogo		\N
-2213	2	1586879293	theme_klass	footnote	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and tronic typesetting, sheets taining Lorem Ipsum passages.</p>	\N
-2214	2	1586879293	theme_klass	infolink	Moodle community|https://moodle.org\r\nMoodle free support|https://moodle.org/support\r\nMoodle Docs|http://docs.moodle.org|Moodle Docs\r\nMoodle.com|http://moodle.com/	\N
-2215	2	1586879293	theme_klass	copyright_footer	Copyright &copy; 2017 - Developed by <a href="http://lmsace.com">LMSACE.com</a>. Powered by <a href="https://moodle.org">Moodle</a>	\N
-2216	2	1586879293	theme_klass	address	308 Negra Narrow Lane, Albeeze, New york, 87104	\N
-2217	2	1586879293	theme_klass	emailid	info@example.com	\N
-2218	2	1586879293	theme_klass	phoneno	(000) 123-456	\N
-2219	2	1586879293	theme_klass	fburl	https://www.facebook.com/yourfacebookid	\N
-2220	2	1586879293	theme_klass	pinurl	https://in.pinterest.com/yourpinterestname/	\N
-2221	2	1586879293	theme_klass	twurl	https://twitter.com/yourtwittername	\N
-2222	2	1586879293	theme_klass	gpurl	https://www.google.com/+yourgoogleplusid	\N
-2223	2	1586879293	\N	calendar_exportsalt	Hd2WlpDeCZV944Sy9WLnogLoFOWcTI9h5rnBR7maNTtToSAv4ZshF5sqGyiT	9uBfPtqzdn4OntrTN5SPx42dGjyUPHwJUfRE6Ah9DlnBClQUlGJmkDhNTtjY
-2224	2	1586879293	\N	coursecontact	3	\N
-2225	2	1586879293	\N	frontpage	6	\N
-2226	2	1586879293	\N	frontpageloggedin	6	\N
-2227	2	1586879293	\N	maxcategorydepth	2	\N
-2228	2	1586879293	\N	frontpagecourselimit	200	\N
-2229	2	1586879293	\N	commentsperpage	15	\N
-2230	2	1586879293	\N	defaultfrontpageroleid	8	\N
-2231	2	1586879293	\N	messageinbound_enabled	0	\N
-2232	2	1586879293	\N	messageinbound_mailbox		\N
-2233	2	1586879293	\N	messageinbound_domain		\N
-2234	2	1586879293	\N	messageinbound_host		\N
-2235	2	1586879293	\N	messageinbound_hostssl	ssl	\N
-2236	2	1586879293	\N	messageinbound_hostuser		\N
-2237	2	1586879293	\N	messageinbound_hostpass		\N
-2238	2	1586879293	\N	enablemobilewebservice	0	\N
-2239	2	1586879293	tool_mobile	apppolicy		\N
-2240	2	1586879484	\N	timezone	Asia/Jakarta	\N
-2241	2	1586879484	\N	jitsi_help	<p>Hello</p>	\N
-2242	2	1586879484	\N	jitsi_id	username	\N
-2243	2	1586879484	\N	jitsi_separator	0	\N
-2244	2	1586879484	turnitintooltwo	accountid		\N
-2245	2	1586879484	turnitintooltwo	secretkey		\N
-2246	2	1586879484	turnitintooltwo	apiurl	https://sandbox.turnitin.com	\N
-2247	2	1586879484	\N	registerauth		\N
-2248	2	1586879484	message_telegram	sitebottoken		\N
-2249	2	1586879484	message_telegram	sitebotname		\N
-2250	2	1586879484	theme_academi	slide1image		\N
-2251	2	1586879484	theme_academi	slide1caption	Bootstrap Based Slider - 01	\N
-2252	2	1586879484	theme_academi	slide1desc	<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>	\N
-2253	2	1586879484	theme_academi	slide2image		\N
-2254	2	1586879484	theme_academi	slide2caption	Bootstrap Based Slider - 02	\N
-2255	2	1586879484	theme_academi	slide2desc	<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>	\N
-2256	2	1586879484	theme_academi	slide3image		\N
-2257	2	1586879484	theme_academi	slide3caption	Bootstrap Based Slider - 03	\N
-2258	2	1586879484	theme_academi	slide3desc	<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>	\N
-2259	2	1586879484	theme_fordson	preset	0	\N
-2260	2	1586879484	theme_fordson	marketing1target	_self	\N
-2261	2	1586879484	theme_fordson	marketing2target	_self	\N
-2262	2	1586879484	theme_fordson	marketing3target	_self	\N
-2263	2	1586879484	theme_fordson	marketing4target	_self	\N
-2264	2	1586879484	theme_fordson	marketing5target	_self	\N
-2265	2	1586879484	theme_fordson	marketing6target	_self	\N
-2266	2	1586879484	theme_fordson	marketing7target	_self	\N
-2267	2	1586879484	theme_fordson	marketing8target	_self	\N
-2268	2	1586879484	theme_fordson	marketing9target	_self	\N
-2269	2	1586879484	theme_klass	slide1image		\N
-2270	2	1586879484	theme_klass	slide1caption	Bootstrap Based Slider - 01	\N
-2271	2	1586879484	theme_klass	slide1urltext	lang:knowmore	\N
-2272	2	1586879484	theme_klass	slide1url	http://www.example.com/	\N
-2273	2	1586879484	theme_klass	slide2image		\N
-2274	2	1586879484	theme_klass	slide2caption	Bootstrap Based Slider - 02	\N
-2275	2	1586879484	theme_klass	slide2urltext	lang:knowmore	\N
-2276	2	1586879484	theme_klass	slide2url	http://www.example.com/	\N
-2277	2	1586879484	theme_klass	slide3image		\N
-2278	2	1586879484	theme_klass	slide3caption	Bootstrap Based Slider - 03	\N
-2279	2	1586879484	theme_klass	slide3urltext	lang:knowmore	\N
-2280	2	1586879484	theme_klass	slide3url	http://moodlecloud.id/	\N
+1	0	1586902585	\N	enableoutcomes	0	\N
+2	0	1586902585	\N	usecomments	1	\N
+3	0	1586902585	\N	usetags	1	\N
+4	0	1586902585	\N	enablenotes	1	\N
+5	0	1586902585	\N	enableportfolios	0	\N
+6	0	1586902585	\N	enablewebservices	0	\N
+7	0	1586902585	\N	messaging	1	\N
+8	0	1586902585	\N	messagingallusers	0	\N
+9	0	1586902585	\N	messagingdeletereadnotificationsdelay	604800	\N
+10	0	1586902585	\N	messagingdeleteallnotificationsdelay	2620800	\N
+11	0	1586902585	\N	messagingallowemailoverride	0	\N
+12	0	1586902585	\N	enablestats	0	\N
+13	0	1586902585	\N	enablerssfeeds	0	\N
+14	0	1586902585	\N	enableblogs	1	\N
+15	0	1586902585	\N	enablecompletion	1	\N
+16	0	1586902585	\N	completiondefault	1	\N
+17	0	1586902585	\N	enableavailability	1	\N
+18	0	1586902585	\N	enableplagiarism	0	\N
+19	0	1586902585	\N	enablebadges	1	\N
+20	0	1586902585	\N	enableglobalsearch	0	\N
+21	0	1586902585	\N	allowstealth	0	\N
+22	0	1586902585	\N	defaultpreference_maildisplay	2	\N
+23	0	1586902585	\N	defaultpreference_mailformat	1	\N
+24	0	1586902585	\N	defaultpreference_maildigest	0	\N
+25	0	1586902585	\N	defaultpreference_autosubscribe	1	\N
+26	0	1586902585	\N	defaultpreference_trackforums	0	\N
+27	0	1586902585	\N	autologinguests	0	\N
+28	0	1586902585	\N	hiddenuserfields		\N
+29	0	1586902585	\N	showuseridentity	email	\N
+30	0	1586902585	\N	fullnamedisplay	language	\N
+31	0	1586902585	\N	alternativefullnameformat	language	\N
+32	0	1586902585	\N	maxusersperpage	100	\N
+33	0	1586902585	\N	enablegravatar	0	\N
+34	0	1586902585	\N	gravatardefaulturl	mm	\N
+35	0	1586902585	\N	agedigitalconsentverification	0	\N
+36	0	1586902585	\N	agedigitalconsentmap	*, 16\nAT, 14\nES, 14\nUS, 13	\N
+37	0	1586902585	\N	sitepolicy		\N
+38	0	1586902585	\N	sitepolicyguest		\N
+39	0	1586902585	moodlecourse	visible	1	\N
+40	0	1586902585	moodlecourse	format	topics	\N
+41	0	1586902585	moodlecourse	maxsections	52	\N
+42	0	1586902586	moodlecourse	numsections	4	\N
+43	0	1586902586	moodlecourse	hiddensections	0	\N
+44	0	1586902586	moodlecourse	coursedisplay	0	\N
+45	0	1586902586	moodlecourse	courseenddateenabled	1	\N
+46	0	1586902586	moodlecourse	courseduration	31536000	\N
+47	0	1586902586	moodlecourse	lang		\N
+48	0	1586902586	moodlecourse	newsitems	5	\N
+49	0	1586902586	moodlecourse	showgrades	1	\N
+50	0	1586902586	moodlecourse	showreports	0	\N
+51	0	1586902586	moodlecourse	maxbytes	0	\N
+52	0	1586902586	moodlecourse	enablecompletion	1	\N
+53	0	1586902586	moodlecourse	groupmode	0	\N
+54	0	1586902586	moodlecourse	groupmodeforce	0	\N
+55	0	1586902586	\N	enablecourserequests	0	\N
+56	0	1586902586	\N	defaultrequestcategory	1	\N
+57	0	1586902586	\N	requestcategoryselection	0	\N
+58	0	1586902586	\N	courserequestnotify		\N
+59	0	1586902586	backup	loglifetime	30	\N
+60	0	1586902586	backup	backup_general_users	1	\N
+61	0	1586902586	backup	backup_general_users_locked		\N
+62	0	1586902586	backup	backup_general_anonymize	0	\N
+63	0	1586902586	backup	backup_general_anonymize_locked		\N
+64	0	1586902586	backup	backup_general_role_assignments	1	\N
+65	0	1586902586	backup	backup_general_role_assignments_locked		\N
+66	0	1586902586	backup	backup_general_activities	1	\N
+67	0	1586902586	backup	backup_general_activities_locked		\N
+68	0	1586902586	backup	backup_general_blocks	1	\N
+69	0	1586902586	backup	backup_general_blocks_locked		\N
+70	0	1586902586	backup	backup_general_filters	1	\N
+71	0	1586902586	backup	backup_general_filters_locked		\N
+72	0	1586902586	backup	backup_general_comments	1	\N
+73	0	1586902586	backup	backup_general_comments_locked		\N
+74	0	1586902586	backup	backup_general_badges	1	\N
+75	0	1586902586	backup	backup_general_badges_locked		\N
+76	0	1586902586	backup	backup_general_calendarevents	1	\N
+77	0	1586902586	backup	backup_general_calendarevents_locked		\N
+78	0	1586902586	backup	backup_general_userscompletion	1	\N
+79	0	1586902586	backup	backup_general_userscompletion_locked		\N
+80	0	1586902586	backup	backup_general_logs	0	\N
+81	0	1586902586	backup	backup_general_logs_locked		\N
+82	0	1586902586	backup	backup_general_histories	0	\N
+83	0	1586902586	backup	backup_general_histories_locked		\N
+84	0	1586902586	backup	backup_general_questionbank	1	\N
+85	0	1586902586	backup	backup_general_questionbank_locked		\N
+86	0	1586902586	backup	backup_general_groups	1	\N
+87	0	1586902586	backup	backup_general_groups_locked		\N
+88	0	1586902586	backup	backup_general_competencies	1	\N
+89	0	1586902586	backup	backup_general_competencies_locked		\N
+90	0	1586902586	backup	import_general_maxresults	10	\N
+91	0	1586902586	backup	import_general_duplicate_admin_allowed	0	\N
+92	0	1586902586	backup	backup_import_activities	1	\N
+93	0	1586902586	backup	backup_import_activities_locked		\N
+94	0	1586902586	backup	backup_import_blocks	1	\N
+95	0	1586902586	backup	backup_import_blocks_locked		\N
+96	0	1586902586	backup	backup_import_filters	1	\N
+97	0	1586902586	backup	backup_import_filters_locked		\N
+98	0	1586902586	backup	backup_import_calendarevents	1	\N
+99	0	1586902586	backup	backup_import_calendarevents_locked		\N
+100	0	1586902586	backup	backup_import_questionbank	1	\N
+101	0	1586902586	backup	backup_import_questionbank_locked		\N
+102	0	1586902586	backup	backup_import_groups	1	\N
+103	0	1586902586	backup	backup_import_groups_locked		\N
+104	0	1586902586	backup	backup_import_competencies	1	\N
+105	0	1586902586	backup	backup_import_competencies_locked		\N
+106	0	1586902586	backup	backup_auto_active	0	\N
+107	0	1586902586	backup	backup_auto_weekdays	0000000	\N
+108	0	1586902586	backup	backup_auto_hour	0	\N
+109	0	1586902586	backup	backup_auto_minute	0	\N
+110	0	1586902586	backup	backup_auto_storage	0	\N
+111	0	1586902586	backup	backup_auto_destination		\N
+112	0	1586902586	backup	backup_auto_max_kept	1	\N
+113	0	1586902586	backup	backup_auto_delete_days	0	\N
+114	0	1586902586	backup	backup_auto_min_kept	0	\N
+115	0	1586902586	backup	backup_shortname	0	\N
+116	0	1586902586	backup	backup_auto_skip_hidden	1	\N
+117	0	1586902586	backup	backup_auto_skip_modif_days	30	\N
+118	0	1586902586	backup	backup_auto_skip_modif_prev	0	\N
+119	0	1586902586	backup	backup_auto_users	1	\N
+120	0	1586902586	backup	backup_auto_role_assignments	1	\N
+121	0	1586902586	backup	backup_auto_activities	1	\N
+122	0	1586902586	backup	backup_auto_blocks	1	\N
+123	0	1586902586	backup	backup_auto_filters	1	\N
+124	0	1586902586	backup	backup_auto_comments	1	\N
+125	0	1586902586	backup	backup_auto_badges	1	\N
+126	0	1586902586	backup	backup_auto_calendarevents	1	\N
+127	0	1586902586	backup	backup_auto_userscompletion	1	\N
+128	0	1586902586	backup	backup_auto_logs	0	\N
+129	0	1586902586	backup	backup_auto_histories	0	\N
+130	0	1586902586	backup	backup_auto_questionbank	1	\N
+131	0	1586902586	backup	backup_auto_groups	1	\N
+132	0	1586902586	backup	backup_auto_competencies	1	\N
+133	0	1586902586	restore	restore_general_users	1	\N
+134	0	1586902586	restore	restore_general_users_locked		\N
+135	0	1586902586	restore	restore_general_enrolments	1	\N
+136	0	1586902586	restore	restore_general_enrolments_locked		\N
+137	0	1586902586	restore	restore_general_role_assignments	1	\N
+138	0	1586902586	restore	restore_general_role_assignments_locked		\N
+139	0	1586902586	restore	restore_general_activities	1	\N
+140	0	1586902586	restore	restore_general_activities_locked		\N
+141	0	1586902586	restore	restore_general_blocks	1	\N
+142	0	1586902586	restore	restore_general_blocks_locked		\N
+143	0	1586902586	restore	restore_general_filters	1	\N
+144	0	1586902586	restore	restore_general_filters_locked		\N
+145	0	1586902586	restore	restore_general_comments	1	\N
+146	0	1586902586	restore	restore_general_comments_locked		\N
+147	0	1586902586	restore	restore_general_badges	1	\N
+148	0	1586902586	restore	restore_general_badges_locked		\N
+149	0	1586902586	restore	restore_general_calendarevents	1	\N
+150	0	1586902586	restore	restore_general_calendarevents_locked		\N
+151	0	1586902586	restore	restore_general_userscompletion	1	\N
+152	0	1586902586	restore	restore_general_userscompletion_locked		\N
+153	0	1586902586	restore	restore_general_logs	1	\N
+154	0	1586902586	restore	restore_general_logs_locked		\N
+155	0	1586902586	restore	restore_general_histories	1	\N
+156	0	1586902586	restore	restore_general_histories_locked		\N
+157	0	1586902586	restore	restore_general_groups	1	\N
+158	0	1586902586	restore	restore_general_groups_locked		\N
+159	0	1586902586	restore	restore_general_competencies	1	\N
+160	0	1586902586	restore	restore_general_competencies_locked		\N
+161	0	1586902586	restore	restore_merge_overwrite_conf	0	\N
+162	0	1586902586	restore	restore_merge_overwrite_conf_locked		\N
+163	0	1586902586	restore	restore_merge_course_fullname	1	\N
+164	0	1586902586	restore	restore_merge_course_fullname_locked		\N
+165	0	1586902586	restore	restore_merge_course_shortname	1	\N
+166	0	1586902586	restore	restore_merge_course_shortname_locked		\N
+167	0	1586902586	restore	restore_merge_course_startdate	1	\N
+168	0	1586902586	restore	restore_merge_course_startdate_locked		\N
+169	0	1586902586	restore	restore_replace_overwrite_conf	0	\N
+170	0	1586902586	restore	restore_replace_overwrite_conf_locked		\N
+171	0	1586902586	restore	restore_replace_course_fullname	1	\N
+172	0	1586902586	restore	restore_replace_course_fullname_locked		\N
+173	0	1586902586	restore	restore_replace_course_shortname	1	\N
+174	0	1586902586	restore	restore_replace_course_shortname_locked		\N
+175	0	1586902586	restore	restore_replace_course_startdate	1	\N
+176	0	1586902586	restore	restore_replace_course_startdate_locked		\N
+177	0	1586902586	restore	restore_replace_keep_roles_and_enrolments	0	\N
+178	0	1586902586	restore	restore_replace_keep_roles_and_enrolments_locked		\N
+179	0	1586902586	restore	restore_replace_keep_groups_and_groupings	0	\N
+180	0	1586902586	restore	restore_replace_keep_groups_and_groupings_locked		\N
+181	0	1586902586	\N	grade_profilereport	user	\N
+182	0	1586902586	\N	grade_aggregationposition	1	\N
+183	0	1586902586	\N	grade_includescalesinaggregation	1	\N
+184	0	1586902586	\N	grade_hiddenasdate	0	\N
+185	0	1586902586	\N	gradepublishing	0	\N
+186	0	1586902586	\N	grade_export_exportfeedback	0	\N
+187	0	1586902586	\N	grade_export_displaytype	1	\N
+188	0	1586902586	\N	grade_export_decimalpoints	2	\N
+189	0	1586902586	\N	grade_navmethod	1	\N
+190	0	1586902586	\N	grade_export_userprofilefields	firstname,lastname,idnumber,institution,department,email	\N
+191	0	1586902586	\N	grade_export_customprofilefields		\N
+192	0	1586902586	\N	recovergradesdefault	0	\N
+193	0	1586902586	\N	gradeexport		\N
+194	0	1586902586	\N	unlimitedgrades	0	\N
+195	0	1586902586	\N	grade_report_showmin	1	\N
+196	0	1586902586	\N	gradepointmax	100	\N
+197	0	1586902586	\N	gradepointdefault	100	\N
+198	0	1586902586	\N	grade_minmaxtouse	1	\N
+199	0	1586902586	\N	grade_mygrades_report	overview	\N
+200	0	1586902586	\N	gradereport_mygradeurl		\N
+201	0	1586902586	\N	grade_hideforcedsettings	1	\N
+202	0	1586902586	\N	grade_aggregation	13	\N
+203	0	1586902586	\N	grade_aggregation_flag	0	\N
+204	0	1586902586	\N	grade_aggregations_visible	13	\N
+205	0	1586902586	\N	grade_aggregateonlygraded	1	\N
+206	0	1586902586	\N	grade_aggregateonlygraded_flag	2	\N
+207	0	1586902586	\N	grade_aggregateoutcomes	0	\N
+208	0	1586902586	\N	grade_aggregateoutcomes_flag	2	\N
+209	0	1586902586	\N	grade_keephigh	0	\N
+210	0	1586902586	\N	grade_keephigh_flag	3	\N
+211	0	1586902586	\N	grade_droplow	0	\N
+212	0	1586902586	\N	grade_droplow_flag	2	\N
+213	0	1586902586	\N	grade_overridecat	1	\N
+214	0	1586902586	\N	grade_displaytype	1	\N
+215	0	1586902586	\N	grade_decimalpoints	2	\N
+216	0	1586902586	\N	grade_item_advanced	iteminfo,idnumber,gradepass,plusfactor,multfactor,display,decimals,hiddenuntil,locktime	\N
+217	0	1586902586	\N	grade_report_studentsperpage	100	\N
+218	0	1586902586	\N	grade_report_showonlyactiveenrol	1	\N
+219	0	1586902586	\N	grade_report_quickgrading	1	\N
+220	0	1586902586	\N	grade_report_showquickfeedback	0	\N
+221	0	1586902586	\N	grade_report_meanselection	1	\N
+222	0	1586902586	\N	grade_report_enableajax	0	\N
+223	0	1586902586	\N	grade_report_showcalculations	1	\N
+224	0	1586902586	\N	grade_report_showeyecons	0	\N
+225	0	1586902586	\N	grade_report_showaverages	1	\N
+226	0	1586902586	\N	grade_report_showlocks	0	\N
+227	0	1586902586	\N	grade_report_showranges	0	\N
+228	0	1586902586	\N	grade_report_showanalysisicon	1	\N
+229	0	1586902586	\N	grade_report_showuserimage	1	\N
+230	0	1586902586	\N	grade_report_showactivityicons	1	\N
+231	0	1586902586	\N	grade_report_shownumberofgrades	0	\N
+232	0	1586902586	\N	grade_report_averagesdisplaytype	inherit	\N
+233	0	1586902586	\N	grade_report_rangesdisplaytype	inherit	\N
+234	0	1586902586	\N	grade_report_averagesdecimalpoints	inherit	\N
+235	0	1586902586	\N	grade_report_rangesdecimalpoints	inherit	\N
+236	0	1586902586	\N	grade_report_historyperpage	50	\N
+237	0	1586902586	\N	grade_report_overview_showrank	0	\N
+238	0	1586902586	\N	grade_report_overview_showtotalsifcontainhidden	0	\N
+239	0	1586902586	\N	grade_report_user_showrank	0	\N
+240	0	1586902586	\N	grade_report_user_showpercentage	1	\N
+241	0	1586902586	\N	grade_report_user_showgrade	1	\N
+242	0	1586902586	\N	grade_report_user_showfeedback	1	\N
+243	0	1586902586	\N	grade_report_user_showrange	1	\N
+244	0	1586902586	\N	grade_report_user_showweight	1	\N
+245	0	1586902586	\N	grade_report_user_showaverage	0	\N
+246	0	1586902586	\N	grade_report_user_showlettergrade	0	\N
+247	0	1586902586	\N	grade_report_user_rangedecimals	0	\N
+248	0	1586902587	\N	grade_report_user_showhiddenitems	1	\N
+249	0	1586902587	\N	grade_report_user_showtotalsifcontainhidden	0	\N
+250	0	1586902587	\N	grade_report_user_showcontributiontocoursetotal	1	\N
+251	0	1586902587	analytics	predictionsprocessor	\\mlbackend_php\\processor	\N
+252	0	1586902587	analytics	timesplittings	\\core\\analytics\\time_splitting\\quarters_accum,\\core\\analytics\\time_splitting\\quarters,\\core\\analytics\\time_splitting\\single_range	\N
+253	0	1586902587	analytics	modeloutputdir	/var/www/moodledata/models	\N
+254	0	1586902587	analytics	onlycli	1	\N
+255	0	1586902587	analytics	modeltimelimit	1200	\N
+256	0	1586902587	core_competency	enabled	1	\N
+257	0	1586902587	core_competency	pushcourseratingstouserplans	1	\N
+258	0	1586902587	\N	badges_defaultissuername		\N
+259	0	1586902587	\N	badges_defaultissuercontact		\N
+260	0	1586902587	\N	badges_badgesalt	badges1586902577	\N
+261	0	1586902587	\N	badges_allowexternalbackpack	1	\N
+262	0	1586902587	\N	badges_allowcoursebadges	1	\N
+263	0	1586902587	\N	timezone	Europe/London	\N
+264	0	1586902587	\N	forcetimezone	99	\N
+265	0	1586902587	\N	country	0	\N
+266	0	1586902587	\N	defaultcity		\N
+267	0	1586902587	\N	geoip2file	/var/www/moodledata/geoip/GeoLite2-City.mmdb	\N
+268	0	1586902587	\N	googlemapkey3		\N
+269	0	1586902587	\N	allcountrycodes		\N
+270	0	1586902587	\N	autolang	1	\N
+271	0	1586902587	\N	lang	en	\N
+272	0	1586902587	\N	langmenu	1	\N
+273	0	1586902587	\N	langlist		\N
+274	0	1586902587	\N	langcache	1	\N
+275	0	1586902587	\N	langstringcache	1	\N
+276	0	1586902587	\N	locale		\N
+277	0	1586902587	\N	latinexcelexport	0	\N
+278	0	1586902587	\N	requiremodintro	0	\N
+279	0	1586902587	\N	registerauth		\N
+280	0	1586902587	\N	authloginviaemail	0	\N
+281	0	1586902587	\N	allowaccountssameemail	0	\N
+282	0	1586902587	\N	authpreventaccountcreation	0	\N
+283	0	1586902587	\N	loginpageautofocus	0	\N
+284	0	1586902587	\N	guestloginbutton	1	\N
+285	0	1586902587	\N	limitconcurrentlogins	0	\N
+286	0	1586902587	\N	alternateloginurl		\N
+287	0	1586902587	\N	forgottenpasswordurl		\N
+288	0	1586902587	\N	auth_instructions		\N
+289	0	1586902587	\N	allowemailaddresses		\N
+290	0	1586902587	\N	denyemailaddresses		\N
+291	0	1586902587	\N	verifychangedemail	1	\N
+292	0	1586902587	\N	recaptchapublickey		\N
+293	0	1586902587	\N	recaptchaprivatekey		\N
+294	0	1586902587	cachestore_apcu	testperformance	0	\N
+295	0	1586902587	cachestore_memcached	testservers		\N
+296	0	1586902587	cachestore_mongodb	testserver		\N
+297	0	1586902587	cachestore_redis	test_server		\N
+298	0	1586902587	cachestore_redis	test_password		\N
+299	0	1586902587	cachestore_redis	test_serializer	1	\N
+300	0	1586902587	\N	filteruploadedfiles	0	\N
+301	0	1586902587	\N	filtermatchoneperpage	0	\N
+302	0	1586902587	\N	filtermatchonepertext	0	\N
+303	0	1586902587	\N	sitedefaultlicense	allrightsreserved	\N
+304	0	1586902587	\N	media_default_width	400	\N
+305	0	1586902587	\N	media_default_height	300	\N
+306	0	1586902587	\N	portfolio_moderate_filesize_threshold	1048576	\N
+307	0	1586902587	\N	portfolio_high_filesize_threshold	5242880	\N
+308	0	1586902587	\N	portfolio_moderate_db_threshold	20	\N
+309	0	1586902587	\N	portfolio_high_db_threshold	50	\N
+310	0	1586902587	question_preview	behaviour	deferredfeedback	\N
+311	0	1586902587	question_preview	correctness	1	\N
+312	0	1586902587	question_preview	marks	2	\N
+313	0	1586902587	question_preview	markdp	2	\N
+314	0	1586902587	question_preview	feedback	1	\N
+315	0	1586902588	question_preview	generalfeedback	1	\N
+316	0	1586902588	question_preview	rightanswer	1	\N
+317	0	1586902588	question_preview	history	0	\N
+318	0	1586902588	\N	repositorycacheexpire	120	\N
+319	0	1586902588	\N	repositorygetfiletimeout	30	\N
+320	0	1586902588	\N	repositorysyncfiletimeout	1	\N
+321	0	1586902588	\N	repositorysyncimagetimeout	3	\N
+322	0	1586902588	\N	repositoryallowexternallinks	1	\N
+323	0	1586902588	\N	legacyfilesinnewcourses	0	\N
+324	0	1586902588	\N	legacyfilesaddallowed	1	\N
+325	0	1586902588	\N	searchengine	simpledb	\N
+326	0	1586902588	\N	searchindexwhendisabled	0	\N
+327	0	1586902588	\N	searchindextime	600	\N
+328	0	1586902588	\N	searchallavailablecourses	0	\N
+329	0	1586902588	\N	enablewsdocumentation	0	\N
+330	0	1586902588	\N	allowbeforeblock	0	\N
+331	0	1586902588	\N	allowedip		\N
+332	0	1586902588	\N	blockedip		\N
+333	0	1586902588	\N	protectusernames	1	\N
+334	0	1586902588	\N	forcelogin	0	\N
+335	0	1586902588	\N	forceloginforprofiles	1	\N
+336	0	1586902588	\N	forceloginforprofileimage	0	\N
+337	0	1586902588	\N	opentogoogle	0	\N
+338	0	1586902588	\N	allowindexing	0	\N
+339	0	1586902588	\N	maxbytes	0	\N
+340	0	1586902588	\N	userquota	104857600	\N
+341	0	1586902588	\N	allowobjectembed	0	\N
+342	0	1586902588	\N	enabletrusttext	0	\N
+343	0	1586902588	\N	maxeditingtime	1800	\N
+344	0	1586902588	\N	extendedusernamechars	0	\N
+345	0	1586902588	\N	keeptagnamecase	1	\N
+346	0	1586902588	\N	profilesforenrolledusersonly	1	\N
+347	0	1586902588	\N	cronclionly	1	\N
+348	0	1586902588	\N	cronremotepassword		\N
+349	0	1586902588	tool_task	enablerunnow	1	\N
+350	0	1586902588	\N	lockoutthreshold	0	\N
+351	0	1586902588	\N	lockoutwindow	1800	\N
+352	0	1586902588	\N	lockoutduration	1800	\N
+353	0	1586902588	\N	passwordpolicy	1	\N
+354	0	1586902588	\N	minpasswordlength	8	\N
+355	0	1586902588	\N	minpassworddigits	1	\N
+356	0	1586902588	\N	minpasswordlower	1	\N
+357	0	1586902588	\N	minpasswordupper	1	\N
+358	0	1586902588	\N	minpasswordnonalphanum	1	\N
+359	0	1586902588	\N	maxconsecutiveidentchars	0	\N
+360	0	1586902588	\N	passwordreuselimit	0	\N
+361	0	1586902588	\N	pwresettime	1800	\N
+362	0	1586902588	\N	passwordchangelogout	0	\N
+363	0	1586902588	\N	passwordchangetokendeletion	0	\N
+364	0	1586902588	\N	tokenduration	7257600	\N
+365	0	1586902588	\N	groupenrolmentkeypolicy	1	\N
+366	0	1586902588	\N	disableuserimages	0	\N
+367	0	1586902588	\N	emailchangeconfirmation	1	\N
+368	0	1586902588	\N	rememberusername	2	\N
+369	0	1586902588	\N	strictformsrequired	0	\N
+370	0	1586902588	\N	cookiesecure	1	\N
+371	0	1586902588	\N	cookiehttponly	0	\N
+372	0	1586902588	\N	allowframembedding	0	\N
+373	0	1586902588	\N	curlsecurityblockedhosts		\N
+374	0	1586902588	\N	curlsecurityallowedport		\N
+375	0	1586902588	\N	displayloginfailures	0	\N
+376	0	1586902588	\N	notifyloginfailures		\N
+377	0	1586902588	\N	notifyloginthreshold	10	\N
+378	0	1586902588	\N	themelist		\N
+379	0	1586902588	\N	themedesignermode	0	\N
+380	0	1586902588	\N	allowuserthemes	0	\N
+381	0	1586902588	\N	allowcoursethemes	0	\N
+382	0	1586902588	\N	allowcategorythemes	0	\N
+383	0	1586902588	\N	allowcohortthemes	0	\N
+384	0	1586902588	\N	allowthemechangeonurl	0	\N
+385	0	1586902588	\N	allowuserblockhiding	1	\N
+386	0	1586902588	\N	allowblockstodock	1	\N
+387	0	1586902588	\N	custommenuitems		\N
+388	0	1586902588	\N	customusermenuitems	grades,grades|/grade/report/mygrades.php|t/grades\nmessages,message|/message/index.php|t/message\npreferences,moodle|/user/preferences.php|t/preferences	\N
+389	0	1586902588	\N	enabledevicedetection	1	\N
+390	0	1586902588	\N	devicedetectregex	[]	\N
+391	0	1586902588	theme_boost	preset	default.scss	\N
+392	0	1586902588	theme_boost	presetfiles		\N
+393	0	1586902588	theme_boost	backgroundimage		\N
+394	0	1586902588	theme_boost	brandcolor		\N
+395	0	1586902588	theme_boost	scsspre		\N
+396	0	1586902588	theme_boost	scss		\N
+397	0	1586902588	theme_clean	invert	0	\N
+398	0	1586902588	theme_clean	logo		\N
+399	0	1586902588	theme_clean	smalllogo		\N
+400	0	1586902588	theme_clean	sitename	1	\N
+401	0	1586902588	theme_clean	customcss		\N
+402	0	1586902588	theme_clean	footnote		\N
+403	0	1586902588	theme_essential	docking		\N
+404	0	1586902588	theme_essential	flatnavigation		\N
+405	0	1586902588	theme_essential	pagebackground		\N
+406	0	1586902588	theme_essential	pagebackgroundstyle	fixed	\N
+407	0	1586902588	theme_essential	pagewidth	1200	\N
+408	0	1586902588	theme_essential	pagetopblocks	1	\N
+409	0	1586902588	theme_essential	pagetopblocksperrow	1	\N
+410	0	1586902588	theme_essential	pagebottomblocksperrow	4	\N
+411	0	1586902588	theme_essential	userimageborderradius	90	\N
+412	0	1586902588	theme_essential	favicon		\N
+413	0	1586902588	theme_essential	customcss		\N
+414	0	1586902588	theme_essential	coursecontentsearch	1	\N
+415	0	1586902588	theme_essential	searchallcoursecontentenable	1	\N
+416	0	1586902588	theme_essential	searchallcoursecontentdefault	1	\N
+417	0	1586902588	theme_essential	coursecontentsearchsortattribute	cid	\N
+418	0	1586902588	theme_essential	coursecontentsearchsortorder	asc	\N
+419	0	1586902588	theme_essential	customscrollbars	1	\N
+420	0	1586902588	theme_essential	fitvids	1	\N
+421	0	1586902588	theme_essential	floatingsubmitbuttons	1	\N
+422	0	1586902588	theme_essential	layout		\N
+423	0	1586902588	theme_essential	coursetitleposition	within	\N
+424	0	1586902588	theme_essential	activitynavigationposition	below	\N
+425	0	1586902588	theme_essential	categoryincoursebreadcrumbfeature	1	\N
+426	0	1586902588	theme_essential	returntosectionfeature	1	\N
+427	0	1586902588	theme_essential	returntosectiontextlimitfeature	15	\N
+428	0	1586902588	theme_essential	loginbackground		\N
+429	0	1586902588	theme_essential	loginbackgroundstyle	cover	\N
+430	0	1586902588	theme_essential	loginbackgroundopacity	0.8	\N
+431	0	1586902588	theme_essential	hvpcustomcss		\N
+432	0	1586902588	theme_essential	themecolor	#30add1	\N
+433	0	1586902588	theme_essential	themetextcolor	#217a94	\N
+434	0	1586902588	theme_essential	themeurlcolor	#943b21	\N
+435	0	1586902588	theme_essential	themehovercolor	#6a2a18	\N
+436	0	1586902588	theme_essential	themeiconcolor	#30add1	\N
+437	0	1586902588	theme_essential	themesidepreblockbackgroundcolour	#ffffff	\N
+438	0	1586902588	theme_essential	themesidepreblocktextcolour	#217a94	\N
+439	0	1586902588	theme_essential	themesidepreblockurlcolour	#943b21	\N
+440	0	1586902588	theme_essential	themesidepreblockhovercolour	#6a2a18	\N
+441	0	1586902588	theme_essential	themedefaultbuttontextcolour	#ffffff	\N
+442	0	1586902588	theme_essential	themedefaultbuttontexthovercolour	#ffffff	\N
+443	0	1586902588	theme_essential	themedefaultbuttonbackgroundcolour	#30add1	\N
+444	0	1586902588	theme_essential	themedefaultbuttonbackgroundhovercolour	#3ad4ff	\N
+445	0	1586902588	theme_essential	themenavcolor	#ffffff	\N
+446	0	1586902588	theme_essential	themestripetextcolour	#ffffff	\N
+447	0	1586902588	theme_essential	themestripebackgroundcolour	#ff9a34	\N
+448	0	1586902588	theme_essential	themestripeurlcolour	#25849f	\N
+449	0	1586902588	theme_essential	themequizsubmittextcolour	#ffffff	\N
+450	0	1586902588	theme_essential	themequizsubmittexthovercolour	#ffffff	\N
+451	0	1586902588	theme_essential	themequizsubmitbackgroundcolour	#ff9a34	\N
+452	0	1586902588	theme_essential	themequizsubmitbackgroundhovercolour	#ffaf60	\N
+453	0	1586902588	theme_essential	footercolor	#30add1	\N
+454	0	1586902588	theme_essential	footertextcolor	#ffffff	\N
+455	0	1586902588	theme_essential	footerheadingcolor	#cccccc	\N
+456	0	1586902588	theme_essential	footerblockbackgroundcolour	#cccccc	\N
+457	0	1586902588	theme_essential	footerblocktextcolour	#000000	\N
+458	0	1586902588	theme_essential	footerblockurlcolour	#000000	\N
+459	0	1586902588	theme_essential	footerblockhovercolour	#555555	\N
+460	0	1586902588	theme_essential	footersepcolor	#313131	\N
+461	0	1586902588	theme_essential	footerurlcolor	#cccccc	\N
+462	0	1586902588	theme_essential	footerhovercolor	#bbbbbb	\N
+463	0	1586902588	theme_essential	enablealternativethemecolors1		\N
+464	0	1586902588	theme_essential	alternativethemename1	Alternative colours 1	\N
+465	0	1586902588	theme_essential	alternativethemecolor1	#a430d1	\N
+608	0	1586902589	theme_essential	logomobilewidth	10	\N
+466	0	1586902588	theme_essential	alternativethemetextcolor1	#a430d1	\N
+467	0	1586902588	theme_essential	alternativethemeurlcolor1	#a430d1	\N
+468	0	1586902588	theme_essential	alternativethemehovercolor1	#9929c4	\N
+469	0	1586902588	theme_essential	alternativethemedefaultbuttontextcolour1	#ffffff	\N
+470	0	1586902588	theme_essential	alternativethemedefaultbuttontexthovercolour1	#ffffff	\N
+471	0	1586902588	theme_essential	alternativethemedefaultbuttonbackgroundcolour1	#30add1	\N
+472	0	1586902588	theme_essential	alternativethemedefbuttonbackgroundhvrcolour1	#3ad4ff	\N
+473	0	1586902588	theme_essential	alternativethemeiconcolor1	#a430d1	\N
+474	0	1586902588	theme_essential	alternativethemesidepreblockbackgroundcolour1	#ffffff	\N
+475	0	1586902588	theme_essential	alternativethemesidepreblocktextcolour1	#a430d1	\N
+476	0	1586902588	theme_essential	alternativethemesidepreblockurlcolour1	#a430d1	\N
+477	0	1586902588	theme_essential	alternativethemesidepreblockhovercolour1	#9929c4	\N
+478	0	1586902588	theme_essential	alternativethemenavcolor1	#ffffff	\N
+479	0	1586902588	theme_essential	alternativethemestripetextcolour1	#bdfdb7	\N
+480	0	1586902588	theme_essential	alternativethemestripebackgroundcolour1	#c1009f	\N
+481	0	1586902588	theme_essential	alternativethemestripeurlcolour1	#bef500	\N
+482	0	1586902588	theme_essential	alternativethemequizsubmittextcolour1	#ffffff	\N
+483	0	1586902588	theme_essential	alternativethemequizsubmittexthovercolour1	#ffffff	\N
+484	0	1586902588	theme_essential	alternativethemequizsubmitbackgroundcolour1	#ff9a34	\N
+485	0	1586902588	theme_essential	alternativethemequizsubmitbackgroundhovercolour1	#ffaf60	\N
+486	0	1586902588	theme_essential	alternativethememycoursesorderenrolbackcolour1	#a3ebff	\N
+487	0	1586902588	theme_essential	alternativethemefootercolor1	#30add1	\N
+488	0	1586902588	theme_essential	alternativethemefootertextcolor1	#ffffff	\N
+489	0	1586902588	theme_essential	alternativethemefooterheadingcolor1	#cccccc	\N
+490	0	1586902588	theme_essential	alternativethemefooterblockbackgroundcolour1	#cccccc	\N
+491	0	1586902588	theme_essential	alternativethemefooterblocktextcolour1	#000000	\N
+492	0	1586902588	theme_essential	alternativethemefooterblockurlcolour1	#000000	\N
+493	0	1586902588	theme_essential	alternativethemefooterblockhovercolour1	#555555	\N
+494	0	1586902588	theme_essential	alternativethemefootersepcolor1	#313131	\N
+495	0	1586902588	theme_essential	alternativethemefooterurlcolor1	#cccccc	\N
+496	0	1586902588	theme_essential	alternativethemefooterhovercolor1	#bbbbbb	\N
+497	0	1586902588	theme_essential	enablealternativethemecolors2		\N
+498	0	1586902588	theme_essential	alternativethemename2	Alternative colours 2	\N
+499	0	1586902588	theme_essential	alternativethemecolor2	#d15430	\N
+500	0	1586902588	theme_essential	alternativethemetextcolor2	#d15430	\N
+501	0	1586902588	theme_essential	alternativethemeurlcolor2	#d15430	\N
+502	0	1586902588	theme_essential	alternativethemehovercolor2	#c44c29	\N
+503	0	1586902588	theme_essential	alternativethemedefaultbuttontextcolour2	#ffffff	\N
+504	0	1586902588	theme_essential	alternativethemedefaultbuttontexthovercolour2	#ffffff	\N
+505	0	1586902588	theme_essential	alternativethemedefaultbuttonbackgroundcolour2	#30add1	\N
+506	0	1586902588	theme_essential	alternativethemedefbuttonbackgroundhvrcolour2	#3ad4ff	\N
+507	0	1586902588	theme_essential	alternativethemeiconcolor2	#d15430	\N
+508	0	1586902588	theme_essential	alternativethemesidepreblockbackgroundcolour2	#ffffff	\N
+509	0	1586902588	theme_essential	alternativethemesidepreblocktextcolour2	#d15430	\N
+510	0	1586902588	theme_essential	alternativethemesidepreblockurlcolour2	#d15430	\N
+511	0	1586902588	theme_essential	alternativethemesidepreblockhovercolour2	#c44c29	\N
+512	0	1586902588	theme_essential	alternativethemenavcolor2	#ffffff	\N
+513	0	1586902588	theme_essential	alternativethemestripetextcolour2	#c3fdd0	\N
+514	0	1586902588	theme_essential	alternativethemestripebackgroundcolour2	#bc2800	\N
+515	0	1586902588	theme_essential	alternativethemestripeurlcolour2	#30af67	\N
+516	0	1586902588	theme_essential	alternativethemequizsubmittextcolour2	#ffffff	\N
+517	0	1586902588	theme_essential	alternativethemequizsubmittexthovercolour2	#ffffff	\N
+518	0	1586902588	theme_essential	alternativethemequizsubmitbackgroundcolour2	#ff9a34	\N
+519	0	1586902588	theme_essential	alternativethemequizsubmitbackgroundhovercolour2	#ffaf60	\N
+520	0	1586902588	theme_essential	alternativethememycoursesorderenrolbackcolour2	#a3ebff	\N
+521	0	1586902588	theme_essential	alternativethemefootercolor2	#30add1	\N
+522	0	1586902588	theme_essential	alternativethemefootertextcolor2	#ffffff	\N
+523	0	1586902588	theme_essential	alternativethemefooterheadingcolor2	#cccccc	\N
+524	0	1586902589	theme_essential	alternativethemefooterblockbackgroundcolour2	#cccccc	\N
+525	0	1586902589	theme_essential	alternativethemefooterblocktextcolour2	#000000	\N
+526	0	1586902589	theme_essential	alternativethemefooterblockurlcolour2	#000000	\N
+527	0	1586902589	theme_essential	alternativethemefooterblockhovercolour2	#555555	\N
+528	0	1586902589	theme_essential	alternativethemefootersepcolor2	#313131	\N
+529	0	1586902589	theme_essential	alternativethemefooterurlcolor2	#cccccc	\N
+530	0	1586902589	theme_essential	alternativethemefooterhovercolor2	#bbbbbb	\N
+531	0	1586902589	theme_essential	enablealternativethemecolors3		\N
+532	0	1586902589	theme_essential	alternativethemename3	Alternative colours 3	\N
+533	0	1586902589	theme_essential	alternativethemecolor3	#5dd130	\N
+534	0	1586902589	theme_essential	alternativethemetextcolor3	#5dd130	\N
+535	0	1586902589	theme_essential	alternativethemeurlcolor3	#5dd130	\N
+536	0	1586902589	theme_essential	alternativethemehovercolor3	#53c429	\N
+537	0	1586902589	theme_essential	alternativethemedefaultbuttontextcolour3	#ffffff	\N
+538	0	1586902589	theme_essential	alternativethemedefaultbuttontexthovercolour3	#ffffff	\N
+539	0	1586902589	theme_essential	alternativethemedefaultbuttonbackgroundcolour3	#30add1	\N
+540	0	1586902589	theme_essential	alternativethemedefbuttonbackgroundhvrcolour3	#3ad4ff	\N
+541	0	1586902589	theme_essential	alternativethemeiconcolor3	#5dd130	\N
+542	0	1586902589	theme_essential	alternativethemesidepreblockbackgroundcolour3	#ffffff	\N
+543	0	1586902589	theme_essential	alternativethemesidepreblocktextcolour3	#5dd130	\N
+544	0	1586902589	theme_essential	alternativethemesidepreblockurlcolour3	#5dd130	\N
+545	0	1586902589	theme_essential	alternativethemesidepreblockhovercolour3	#53c429	\N
+546	0	1586902589	theme_essential	alternativethemenavcolor3	#ffffff	\N
+547	0	1586902589	theme_essential	alternativethemestripetextcolour3	#9f5bfb	\N
+548	0	1586902589	theme_essential	alternativethemestripebackgroundcolour3	#b4b2fd	\N
+549	0	1586902589	theme_essential	alternativethemestripeurlcolour3	#ffe9a6	\N
+550	0	1586902589	theme_essential	alternativethemequizsubmittextcolour3	#ffffff	\N
+551	0	1586902589	theme_essential	alternativethemequizsubmittexthovercolour3	#ffffff	\N
+552	0	1586902589	theme_essential	alternativethemequizsubmitbackgroundcolour3	#ff9a34	\N
+553	0	1586902589	theme_essential	alternativethemequizsubmitbackgroundhovercolour3	#ffaf60	\N
+554	0	1586902589	theme_essential	alternativethememycoursesorderenrolbackcolour3	#a3ebff	\N
+555	0	1586902589	theme_essential	alternativethemefootercolor3	#30add1	\N
+556	0	1586902589	theme_essential	alternativethemefootertextcolor3	#ffffff	\N
+557	0	1586902589	theme_essential	alternativethemefooterheadingcolor3	#cccccc	\N
+558	0	1586902589	theme_essential	alternativethemefooterblockbackgroundcolour3	#cccccc	\N
+559	0	1586902589	theme_essential	alternativethemefooterblocktextcolour3	#000000	\N
+560	0	1586902589	theme_essential	alternativethemefooterblockurlcolour3	#000000	\N
+561	0	1586902589	theme_essential	alternativethemefooterblockhovercolour3	#555555	\N
+562	0	1586902589	theme_essential	alternativethemefootersepcolor3	#313131	\N
+563	0	1586902589	theme_essential	alternativethemefooterurlcolor3	#cccccc	\N
+564	0	1586902589	theme_essential	alternativethemefooterhovercolor3	#bbbbbb	\N
+565	0	1586902589	theme_essential	enablealternativethemecolors4		\N
+566	0	1586902589	theme_essential	alternativethemename4	Alternative colours 4	\N
+567	0	1586902589	theme_essential	alternativethemecolor4	#006b94	\N
+568	0	1586902589	theme_essential	alternativethemetextcolor4	#006b94	\N
+569	0	1586902589	theme_essential	alternativethemeurlcolor4	#006b94	\N
+570	0	1586902589	theme_essential	alternativethemehovercolor4	#4090af	\N
+571	0	1586902589	theme_essential	alternativethemedefaultbuttontextcolour4	#ffffff	\N
+572	0	1586902589	theme_essential	alternativethemedefaultbuttontexthovercolour4	#ffffff	\N
+573	0	1586902589	theme_essential	alternativethemedefaultbuttonbackgroundcolour4	#30add1	\N
+574	0	1586902589	theme_essential	alternativethemedefbuttonbackgroundhvrcolour4	#3ad4ff	\N
+575	0	1586902589	theme_essential	alternativethemeiconcolor4	#006b94	\N
+576	0	1586902589	theme_essential	alternativethemesidepreblockbackgroundcolour4	#ffffff	\N
+577	0	1586902589	theme_essential	alternativethemesidepreblocktextcolour4	#006b94	\N
+578	0	1586902589	theme_essential	alternativethemesidepreblockurlcolour4	#006b94	\N
+579	0	1586902589	theme_essential	alternativethemesidepreblockhovercolour4	#4090af	\N
+580	0	1586902589	theme_essential	alternativethemenavcolor4	#ffffff	\N
+581	0	1586902589	theme_essential	alternativethemestripetextcolour4	#ff1ebd	\N
+582	0	1586902589	theme_essential	alternativethemestripebackgroundcolour4	#0336b4	\N
+583	0	1586902589	theme_essential	alternativethemestripeurlcolour4	#ffab00	\N
+584	0	1586902589	theme_essential	alternativethemequizsubmittextcolour4	#ffffff	\N
+585	0	1586902589	theme_essential	alternativethemequizsubmittexthovercolour4	#ffffff	\N
+586	0	1586902589	theme_essential	alternativethemequizsubmitbackgroundcolour4	#ff9a34	\N
+587	0	1586902589	theme_essential	alternativethemequizsubmitbackgroundhovercolour4	#ffaf60	\N
+588	0	1586902589	theme_essential	alternativethememycoursesorderenrolbackcolour4	#a3ebff	\N
+589	0	1586902589	theme_essential	alternativethemefootercolor4	#30add1	\N
+590	0	1586902589	theme_essential	alternativethemefootertextcolor4	#ffffff	\N
+591	0	1586902589	theme_essential	alternativethemefooterheadingcolor4	#cccccc	\N
+592	0	1586902589	theme_essential	alternativethemefooterblockbackgroundcolour4	#cccccc	\N
+593	0	1586902589	theme_essential	alternativethemefooterblocktextcolour4	#000000	\N
+594	0	1586902589	theme_essential	alternativethemefooterblockurlcolour4	#000000	\N
+595	0	1586902589	theme_essential	alternativethemefooterblockhovercolour4	#555555	\N
+596	0	1586902589	theme_essential	alternativethemefootersepcolor4	#313131	\N
+597	0	1586902589	theme_essential	alternativethemefooterurlcolor4	#cccccc	\N
+598	0	1586902589	theme_essential	alternativethemefooterhovercolor4	#bbbbbb	\N
+599	0	1586902589	theme_essential	oldnavbar	0	\N
+600	0	1586902589	theme_essential	usermenuuserimageborderradius	4	\N
+601	0	1586902589	theme_essential	dropdownmenuscroll		\N
+602	0	1586902589	theme_essential	dropdownmenumaxheight	384	\N
+603	0	1586902589	theme_essential	usesiteicon	1	\N
+604	0	1586902589	theme_essential	siteicon	laptop	\N
+605	0	1586902589	theme_essential	headertitle	1	\N
+606	0	1586902589	theme_essential	logo		\N
+607	0	1586902589	theme_essential	logodesktopwidth	25	\N
+609	0	1586902589	theme_essential	navbartitle	2	\N
+610	0	1586902589	theme_essential	headertextcolor	#217a94	\N
+611	0	1586902589	theme_essential	headerbackground		\N
+612	0	1586902589	theme_essential	headerbackgroundstyle	tiled	\N
+613	0	1586902589	theme_essential	participantsmenu	1	\N
+614	0	1586902589	theme_essential	breadcrumbstyle	1	\N
+615	0	1586902589	theme_essential	haveheaderblock	1	\N
+616	0	1586902589	theme_essential	headerblocksperrow	4	\N
+617	0	1586902589	theme_essential	displaymycourses	1	\N
+618	0	1586902589	theme_essential	displayhiddenmycourses	1	\N
+619	0	1586902589	theme_essential	mycoursescatsubmenu		\N
+620	0	1586902589	theme_essential	mycoursesorder	1	\N
+621	0	1586902589	theme_essential	mycoursesorderidorder	1	\N
+622	0	1586902589	theme_essential	mycoursesmax	0	\N
+623	0	1586902589	theme_essential	mycoursetitle	course	\N
+624	0	1586902589	theme_essential	mycoursesorderenrolbackcolour	#a3ebff	\N
+625	0	1586902589	theme_essential	profilelinkmi	1	\N
+626	0	1586902589	theme_essential	loggedinfrommi	1	\N
+627	0	1586902589	theme_essential	switchrolemi	1	\N
+628	0	1586902589	theme_essential	preferencesmi	1	\N
+629	0	1586902589	theme_essential	calendarmi	1	\N
+630	0	1586902589	theme_essential	messagesmi	1	\N
+631	0	1586902589	theme_essential	privatefilesmi	1	\N
+632	0	1586902589	theme_essential	forumpostsmi	1	\N
+633	0	1586902589	theme_essential	forumdiscussionsmi	1	\N
+634	0	1586902589	theme_essential	mygradesmi	1	\N
+635	0	1586902589	theme_essential	coursegradesmi	1	\N
+636	0	1586902589	theme_essential	badgesmi	1	\N
+637	0	1586902589	theme_essential	helplinktype	1	\N
+638	0	1586902589	theme_essential	helplink		\N
+639	0	1586902589	theme_essential	displayeditingmenu	0	\N
+640	0	1586902589	theme_essential	hidedefaulteditingbutton	0	\N
+641	0	1586902589	theme_essential	website		\N
+642	0	1586902589	theme_essential	facebook		\N
+643	0	1586902589	theme_essential	flickr		\N
+644	0	1586902589	theme_essential	twitter		\N
+645	0	1586902589	theme_essential	googleplus		\N
+646	0	1586902589	theme_essential	linkedin		\N
+647	0	1586902589	theme_essential	pinterest		\N
+648	0	1586902589	theme_essential	instagram		\N
+649	0	1586902589	theme_essential	youtube		\N
+650	0	1586902589	theme_essential	skype		\N
+651	0	1586902589	theme_essential	vk		\N
+652	0	1586902589	theme_essential	android		\N
+653	0	1586902589	theme_essential	windows		\N
+654	0	1586902589	theme_essential	winphone		\N
+655	0	1586902589	theme_essential	ios		\N
+656	0	1586902589	theme_essential	iphoneicon		\N
+657	0	1586902589	theme_essential	iphoneretinaicon		\N
+658	0	1586902589	theme_essential	ipadicon		\N
+659	0	1586902589	theme_essential	ipadretinaicon		\N
+660	0	1586902589	theme_essential	fontselect	1	\N
+661	0	1586902589	theme_essential	fontnameheading	Verdana	\N
+662	0	1586902589	theme_essential	fontnamebody	Verdana	\N
+663	0	1586902589	theme_essential	copyright		\N
+664	0	1586902589	theme_essential	footnote		\N
+665	0	1586902589	theme_essential	perfinfo	min	\N
+666	0	1586902589	theme_essential	courselistteachericon	graduation-cap	\N
+667	0	1586902589	theme_essential	togglefrontcontent	0	\N
+668	0	1586902589	theme_essential	frontcontentarea		\N
+669	0	1586902589	theme_essential	frontpageblocks	1	\N
+670	0	1586902589	theme_essential	frontpagemiddleblocks	0	\N
+671	0	1586902589	theme_essential	frontpagehomeblocksperrow	3	\N
+672	0	1586902589	theme_essential	fppagetopblocks	3	\N
+673	0	1586902589	theme_essential	fppagetopblocksperrow	3	\N
+674	0	1586902589	theme_essential	togglemarketing	1	\N
+675	0	1586902589	theme_essential	marketingheight	100	\N
+676	0	1586902589	theme_essential	marketingimageheight	100	\N
+677	0	1586902589	theme_essential	marketing1		\N
+678	0	1586902589	theme_essential	marketing1icon	star	\N
+679	0	1586902589	theme_essential	marketing1image		\N
+680	0	1586902589	theme_essential	marketing1content		\N
+681	0	1586902589	theme_essential	marketing1buttontext		\N
+682	0	1586902589	theme_essential	marketing1buttonurl		\N
+683	0	1586902589	theme_essential	marketing1target	_blank	\N
+684	0	1586902589	theme_essential	marketing2		\N
+685	0	1586902589	theme_essential	marketing2icon	star	\N
+686	0	1586902589	theme_essential	marketing2image		\N
+687	0	1586902589	theme_essential	marketing2content		\N
+688	0	1586902589	theme_essential	marketing2buttontext		\N
+689	0	1586902589	theme_essential	marketing2buttonurl		\N
+690	0	1586902589	theme_essential	marketing2target	_blank	\N
+691	0	1586902589	theme_essential	marketing3		\N
+692	0	1586902589	theme_essential	marketing3icon	star	\N
+693	0	1586902589	theme_essential	marketing3image		\N
+694	0	1586902589	theme_essential	marketing3content		\N
+695	0	1586902590	theme_essential	marketing3buttontext		\N
+696	0	1586902590	theme_essential	marketing3buttonurl		\N
+697	0	1586902590	theme_essential	marketing3target	_blank	\N
+698	0	1586902590	theme_essential	enable1alert		\N
+699	0	1586902590	theme_essential	alert1type	info	\N
+700	0	1586902590	theme_essential	alert1title		\N
+701	0	1586902590	theme_essential	alert1text		\N
+702	0	1586902590	theme_essential	enable2alert		\N
+703	0	1586902590	theme_essential	alert2type	info	\N
+704	0	1586902590	theme_essential	alert2title		\N
+705	0	1586902590	theme_essential	alert2text		\N
+706	0	1586902590	theme_essential	enable3alert		\N
+707	0	1586902590	theme_essential	alert3type	info	\N
+708	0	1586902590	theme_essential	alert3title		\N
+709	0	1586902590	theme_essential	alert3text		\N
+710	0	1586902590	theme_essential	toggleslideshow	1	\N
+711	0	1586902590	theme_essential	numberofslides	4	\N
+712	0	1586902590	theme_essential	hideontablet		\N
+713	0	1586902590	theme_essential	hideonphone	1	\N
+714	0	1586902590	theme_essential	slideinterval	5000	\N
+715	0	1586902590	theme_essential	slidecaptiontextcolor	#ffffff	\N
+716	0	1586902590	theme_essential	slidecaptionbackgroundcolor	#30add1	\N
+717	0	1586902590	theme_essential	slidecaptionoptions	0	\N
+718	0	1586902590	theme_essential	slidecaptioncentred		\N
+719	0	1586902590	theme_essential	slidebuttoncolor	#30add1	\N
+720	0	1586902590	theme_essential	slidebuttonhovercolor	#217a94	\N
+721	0	1586902590	theme_essential	alternativethemeslidecaptiontextcolor1	#ffffff	\N
+722	0	1586902590	theme_essential	alternativethemeslidecaptionbackgroundcolor1	#a430d1	\N
+723	0	1586902590	theme_essential	alternativethemeslidebuttoncolor1	#a430d1	\N
+724	0	1586902590	theme_essential	alternativethemeslidebuttonhovercolor1	#9929c4	\N
+725	0	1586902590	theme_essential	alternativethemeslidecaptiontextcolor2	#ffffff	\N
+726	0	1586902590	theme_essential	alternativethemeslidecaptionbackgroundcolor2	#d15430	\N
+727	0	1586902590	theme_essential	alternativethemeslidebuttoncolor2	#d15430	\N
+728	0	1586902590	theme_essential	alternativethemeslidebuttonhovercolor2	#c44c29	\N
+729	0	1586902590	theme_essential	alternativethemeslidecaptiontextcolor3	#ffffff	\N
+730	0	1586902590	theme_essential	alternativethemeslidecaptionbackgroundcolor3	#5dd130	\N
+731	0	1586902590	theme_essential	alternativethemeslidebuttoncolor3	#5dd130	\N
+732	0	1586902590	theme_essential	alternativethemeslidebuttonhovercolor3	#53c429	\N
+733	0	1586902590	theme_essential	alternativethemeslidecaptiontextcolor4	#ffffff	\N
+734	0	1586902590	theme_essential	alternativethemeslidecaptionbackgroundcolor4	#006b94	\N
+735	0	1586902590	theme_essential	alternativethemeslidebuttoncolor4	#006b94	\N
+736	0	1586902590	theme_essential	alternativethemeslidebuttonhovercolor4	#4090af	\N
+737	0	1586902590	theme_essential	enablecategorycti	0	\N
+738	0	1586902590	theme_essential	enablecategoryctics	0	\N
+739	0	1586902590	theme_essential	enablecategoryicon	1	\N
+740	0	1586902590	\N	theme_essential_putprops		\N
+741	0	1586902590	theme_fordson	presetfiles		\N
+742	0	1586902590	theme_fordson	pagelayout	1	\N
+743	0	1586902590	theme_fordson	sectionlayout	1	\N
+744	0	1586902590	theme_fordson	coursetilestyle	10	\N
+745	0	1586902590	theme_fordson	marketingstyle	3	\N
+746	0	1586902590	theme_fordson	blockdisplay	1	\N
+747	0	1586902590	theme_fordson	showloginform	1	\N
+748	0	1586902590	theme_fordson	enhancedmydashboard	1	\N
+749	0	1586902590	theme_fordson	frontpagemycoursessorting	1	\N
+750	0	1586902590	theme_fordson	learningcontentpadding	125px	\N
+751	0	1586902590	theme_fordson	headerimagepadding	400px	\N
+752	0	1586902590	theme_fordson	gutterwidth	3rem	\N
+753	0	1586902590	theme_fordson	blockwidthfordson	280px	\N
+754	0	1586902590	theme_fordson	activityiconsize	32px	\N
+755	0	1586902590	theme_fordson	trimtitle	256	\N
+756	0	1586902590	theme_fordson	titletooltip	0	\N
+757	0	1586902590	theme_fordson	trimsummary	300	\N
+758	0	1586902590	theme_fordson	courseboxheight	250px	\N
+759	0	1586902590	theme_fordson	enablecategoryicon	0	\N
+760	0	1586902590	theme_fordson	catsicon	folder	\N
+761	0	1586902590	theme_fordson	showcourseheaderimage	1	\N
+762	0	1586902590	theme_fordson	favicon		\N
+763	0	1586902590	theme_fordson	headerlogo		\N
+764	0	1586902590	theme_fordson	headerdefaultimage		\N
+765	0	1586902590	theme_fordson	backgroundimage		\N
+766	0	1586902590	theme_fordson	loginimage		\N
+767	0	1586902590	theme_fordson	scsspre		\N
+768	0	1586902590	theme_fordson	brandprimary		\N
+769	0	1586902590	theme_fordson	brandsuccess		\N
+770	0	1586902590	theme_fordson	brandwarning		\N
+771	0	1586902590	theme_fordson	branddanger		\N
+772	0	1586902590	theme_fordson	brandinfo		\N
+773	0	1586902590	theme_fordson	bodybackground		\N
+774	0	1586902590	theme_fordson	topnavbarbg		\N
+775	0	1586902590	theme_fordson	topnavbarteacherbg		\N
+776	0	1586902590	theme_fordson	breadcrumbbkg		\N
+777	0	1586902590	theme_fordson	cardbkg		\N
+778	0	1586902590	theme_fordson	drawerbkg		\N
+779	0	1586902590	theme_fordson	footerbkg		\N
+780	0	1586902590	theme_fordson	markettextbg		\N
+781	0	1586902590	theme_fordson	scss		\N
+782	0	1586902590	theme_fordson	fptextbox		\N
+783	0	1586902590	theme_fordson	fptextboxlogout		\N
+784	0	1586902590	theme_fordson	alertbox		\N
+785	0	1586902590	theme_fordson	coursemanagementtoggle	1	\N
+786	0	1586902590	theme_fordson	coursemanagementtextbox		\N
+787	0	1586902590	theme_fordson	studentdashboardtextbox		\N
+788	0	1586902590	theme_fordson	navbarcolorswitch	2	\N
+789	0	1586902590	theme_fordson	showactivitynav	1	\N
+790	0	1586902590	theme_fordson	courseeditingcog	0	\N
+791	0	1586902590	theme_fordson	showstudentgrades	1	\N
+792	0	1586902590	theme_fordson	showstudentcompletion	1	\N
+793	0	1586902590	theme_fordson	showonlygroupteachers	0	\N
+794	0	1586902590	theme_fordson	showcourseadminstudents	1	\N
+795	0	1586902590	theme_fordson	displaymycourses		\N
+796	0	1586902590	theme_fordson	displaythiscourse		\N
+797	0	1586902590	theme_fordson	mycoursetitle	course	\N
+798	0	1586902590	theme_fordson	shownavdrawer	1	\N
+799	0	1586902590	theme_fordson	shownavclosed		\N
+800	0	1586902590	theme_fordson	iconwidth	100px	\N
+801	0	1586902590	theme_fordson	createicon	edit	\N
+802	0	1586902590	theme_fordson	createbuttontext	Create a Course	\N
+803	0	1586902590	theme_fordson	createbuttonurl	http://moodlecloud.id/course/edit.php?category=1	\N
+804	0	1586902590	theme_fordson	slideicon		\N
+805	0	1586902590	theme_fordson	slideiconbuttontext		\N
+806	0	1586902590	theme_fordson	slidetextbox		\N
+807	0	1586902590	theme_fordson	nav1icon	home	\N
+808	0	1586902590	theme_fordson	nav1buttontext	Dashboard	\N
+809	0	1586902590	theme_fordson	nav1buttonurl	http://moodlecloud.id/my/	\N
+810	0	1586902590	theme_fordson	nav2icon	calendar	\N
+811	0	1586902590	theme_fordson	nav2buttontext	Calendar	\N
+812	0	1586902590	theme_fordson	nav2buttonurl	http://moodlecloud.id/calendar/view.php?view=month	\N
+813	0	1586902590	theme_fordson	nav3icon	bookmark	\N
+814	0	1586902590	theme_fordson	nav3buttontext	Badges	\N
+815	0	1586902590	theme_fordson	nav3buttonurl	http://moodlecloud.id/badges/mybadges.php	\N
+816	0	1586902590	theme_fordson	nav4icon	book	\N
+817	0	1586902590	theme_fordson	nav4buttontext	All Courses	\N
+818	0	1586902590	theme_fordson	nav4buttonurl	http://moodlecloud.id/course/	\N
+819	0	1586902590	theme_fordson	nav5icon		\N
+820	0	1586902590	theme_fordson	nav5buttontext		\N
+821	0	1586902590	theme_fordson	nav5buttonurl		\N
+822	0	1586902590	theme_fordson	nav6icon		\N
+823	0	1586902590	theme_fordson	nav6buttontext		\N
+824	0	1586902590	theme_fordson	nav6buttonurl		\N
+825	0	1586902590	theme_fordson	nav7icon		\N
+826	0	1586902590	theme_fordson	nav7buttontext		\N
+827	0	1586902590	theme_fordson	nav7buttonurl		\N
+828	0	1586902590	theme_fordson	nav8icon		\N
+829	0	1586902590	theme_fordson	nav8buttontext		\N
+830	0	1586902590	theme_fordson	nav8buttonurl		\N
+831	0	1586902590	theme_fordson	modchoosercustomlabel		\N
+832	0	1586902590	theme_fordson	commonlyused		\N
+833	0	1586902590	theme_fordson	showonlycustomactivities	0	\N
+834	0	1586902590	theme_fordson	showalltomanager	1	\N
+835	0	1586902590	theme_fordson	showslideshow	0	\N
+836	0	1586902590	theme_fordson	slideshowheight	250px	\N
+837	0	1586902590	theme_fordson	slide1title		\N
+838	0	1586902590	theme_fordson	slide1content		\N
+839	0	1586902590	theme_fordson	slide1image		\N
+840	0	1586902590	theme_fordson	slide2title		\N
+841	0	1586902590	theme_fordson	slide2content		\N
+842	0	1586902590	theme_fordson	slide2image		\N
+843	0	1586902590	theme_fordson	slide3title		\N
+844	0	1586902590	theme_fordson	slide3content		\N
+845	0	1586902590	theme_fordson	slide3image		\N
+846	0	1586902590	theme_fordson	togglemarketing	2	\N
+847	0	1586902590	theme_fordson	marketing1		\N
+848	0	1586902590	theme_fordson	marketing1image		\N
+849	0	1586902590	theme_fordson	marketing1content		\N
+850	0	1586902590	theme_fordson	marketing1buttontext		\N
+851	0	1586902590	theme_fordson	marketing1buttonurl		\N
+852	0	1586902590	theme_fordson	marketing2		\N
+853	0	1586902590	theme_fordson	marketing2image		\N
+854	0	1586902590	theme_fordson	marketing2content		\N
+855	0	1586902590	theme_fordson	marketing2buttontext		\N
+856	0	1586902590	theme_fordson	marketing2buttonurl		\N
+857	0	1586902590	theme_fordson	marketing3		\N
+858	0	1586902590	theme_fordson	marketing3image		\N
+859	0	1586902590	theme_fordson	marketing3content		\N
+860	0	1586902590	theme_fordson	marketing3buttontext		\N
+861	0	1586902590	theme_fordson	marketing3buttonurl		\N
+862	0	1586902590	theme_fordson	marketing4		\N
+863	0	1586902590	theme_fordson	marketing4image		\N
+864	0	1586902590	theme_fordson	marketing4content		\N
+865	0	1586902590	theme_fordson	marketing4buttontext		\N
+866	0	1586902590	theme_fordson	marketing4buttonurl		\N
+867	0	1586902590	theme_fordson	marketing5		\N
+868	0	1586902590	theme_fordson	marketing5image		\N
+869	0	1586902590	theme_fordson	marketing5content		\N
+870	0	1586902590	theme_fordson	marketing5buttontext		\N
+871	0	1586902590	theme_fordson	marketing5buttonurl		\N
+872	0	1586902590	theme_fordson	marketing6		\N
+873	0	1586902591	theme_fordson	marketing6image		\N
+874	0	1586902591	theme_fordson	marketing6content		\N
+875	0	1586902591	theme_fordson	marketing6buttontext		\N
+876	0	1586902591	theme_fordson	marketing6buttonurl		\N
+877	0	1586902591	theme_fordson	marketing7		\N
+878	0	1586902591	theme_fordson	marketing7image		\N
+879	0	1586902591	theme_fordson	marketing7content		\N
+880	0	1586902591	theme_fordson	marketing7buttontext		\N
+881	0	1586902591	theme_fordson	marketing7buttonurl		\N
+882	0	1586902591	theme_fordson	marketing8		\N
+883	0	1586902591	theme_fordson	marketing8image		\N
+884	0	1586902591	theme_fordson	marketing8content		\N
+885	0	1586902591	theme_fordson	marketing8buttontext		\N
+886	0	1586902591	theme_fordson	marketing8buttonurl		\N
+887	0	1586902591	theme_fordson	marketing9		\N
+888	0	1586902591	theme_fordson	marketing9image		\N
+889	0	1586902591	theme_fordson	marketing9content		\N
+890	0	1586902591	theme_fordson	marketing9buttontext		\N
+891	0	1586902591	theme_fordson	marketing9buttonurl		\N
+892	0	1586902591	theme_fordson	brandorganization		\N
+893	0	1586902591	theme_fordson	brandwebsite		\N
+894	0	1586902591	theme_fordson	brandphone		\N
+895	0	1586902591	theme_fordson	brandemail		\N
+896	0	1586902591	theme_fordson	footnote		\N
+897	0	1586902591	theme_fordson	website		\N
+898	0	1586902591	theme_fordson	blog		\N
+899	0	1586902591	theme_fordson	facebook		\N
+900	0	1586902591	theme_fordson	flickr		\N
+901	0	1586902591	theme_fordson	twitter		\N
+902	0	1586902591	theme_fordson	googleplus		\N
+903	0	1586902591	theme_fordson	linkedin		\N
+904	0	1586902591	theme_fordson	tumblr		\N
+905	0	1586902591	theme_fordson	pinterest		\N
+906	0	1586902591	theme_fordson	instagram		\N
+907	0	1586902591	theme_fordson	youtube		\N
+908	0	1586902591	theme_fordson	vimeo		\N
+909	0	1586902591	theme_fordson	skype		\N
+910	0	1586902591	theme_fordson	social1		\N
+911	0	1586902591	theme_fordson	socialicon1	home	\N
+912	0	1586902591	theme_fordson	social2		\N
+913	0	1586902591	theme_fordson	socialicon2	home	\N
+914	0	1586902591	theme_fordson	social3		\N
+915	0	1586902591	theme_fordson	socialicon3	home	\N
+916	0	1586902591	theme_fordson	showcustomlogin	0	\N
+917	0	1586902591	theme_fordson	logintopimage		\N
+918	0	1586902591	theme_fordson	fploginform		\N
+919	0	1586902591	theme_fordson	loginnav1icon		\N
+920	0	1586902591	theme_fordson	loginnav1titletext		\N
+921	0	1586902591	theme_fordson	loginnav1icontext		\N
+922	0	1586902591	theme_fordson	loginnav2icon		\N
+923	0	1586902591	theme_fordson	loginnav2titletext		\N
+924	0	1586902591	theme_fordson	loginnav2icontext		\N
+925	0	1586902591	theme_fordson	loginnav3icon		\N
+926	0	1586902591	theme_fordson	loginnav3titletext		\N
+927	0	1586902591	theme_fordson	loginnav3icontext		\N
+928	0	1586902591	theme_fordson	loginnav4icon		\N
+929	0	1586902591	theme_fordson	loginnav4titletext		\N
+930	0	1586902591	theme_fordson	loginnav4icontext		\N
+931	0	1586902591	theme_fordson	feature1text		\N
+932	0	1586902591	theme_fordson	feature1image		\N
+933	0	1586902591	theme_fordson	feature2text		\N
+934	0	1586902591	theme_fordson	feature2image		\N
+935	0	1586902591	theme_fordson	feature3text		\N
+936	0	1586902591	theme_fordson	feature3image		\N
+937	0	1586902591	theme_more	textcolor	#333366	\N
+938	0	1586902591	theme_more	linkcolor	#FF6500	\N
+939	0	1586902591	theme_more	bodybackground		\N
+940	0	1586902591	theme_more	backgroundimage		\N
+941	0	1586902591	theme_more	backgroundrepeat	repeat	\N
+942	0	1586902591	theme_more	backgroundposition	0	\N
+943	0	1586902591	theme_more	backgroundfixed	0	\N
+944	0	1586902591	theme_more	contentbackground	#FFFFFF	\N
+945	0	1586902591	theme_more	secondarybackground	#FFFFFF	\N
+946	0	1586902591	theme_more	invert	1	\N
+947	0	1586902591	theme_more	logo		\N
+948	0	1586902591	theme_more	smalllogo		\N
+949	0	1586902591	theme_more	sitename	1	\N
+950	0	1586902591	theme_more	customcss		\N
+951	0	1586902591	theme_more	footnote		\N
+952	0	1586902591	core_admin	logo		\N
+953	0	1586902591	core_admin	logocompact		\N
+954	0	1586902591	\N	calendartype	gregorian	\N
+955	0	1586902591	\N	calendar_adminseesall	0	\N
+956	0	1586902591	\N	calendar_site_timeformat	0	\N
+957	0	1586902591	\N	calendar_startwday	1	\N
+958	0	1586902591	\N	calendar_weekend	65	\N
+959	0	1586902591	\N	calendar_lookahead	21	\N
+960	0	1586902591	\N	calendar_maxevents	10	\N
+961	0	1586902591	\N	enablecalendarexport	1	\N
+962	0	1586902591	\N	calendar_customexport	1	\N
+963	0	1586902591	\N	calendar_exportlookahead	365	\N
+964	0	1586902591	\N	calendar_exportlookback	5	\N
+965	0	1586902591	\N	calendar_exportsalt	agRNNs5ptVzqDhWt5QP8zwEnGLbcuimD3IJdSSnfci3yAc0J7V5ctC2brmyF	\N
+966	0	1586902591	\N	calendar_showicalsource	1	\N
+967	0	1586902591	\N	useblogassociations	1	\N
+968	0	1586902591	\N	bloglevel	4	\N
+969	0	1586902591	\N	useexternalblogs	1	\N
+970	0	1586902591	\N	externalblogcrontime	86400	\N
+971	0	1586902591	\N	maxexternalblogsperuser	1	\N
+972	0	1586902591	\N	blogusecomments	1	\N
+973	0	1586902591	\N	blogshowcommentscount	1	\N
+974	0	1586902591	\N	defaulthomepage	1	\N
+975	0	1586902591	\N	allowguestmymoodle	1	\N
+976	0	1586902591	\N	navshowfullcoursenames	0	\N
+977	0	1586902591	\N	navshowcategories	1	\N
+978	0	1586902591	\N	navshowmycoursecategories	0	\N
+979	0	1586902591	\N	navshowallcourses	0	\N
+980	0	1586902591	\N	navsortmycoursessort	sortorder	\N
+981	0	1586902591	\N	navcourselimit	10	\N
+982	0	1586902591	\N	usesitenameforsitepages	0	\N
+983	0	1586902591	\N	linkadmincategories	1	\N
+984	0	1586902591	\N	linkcoursesections	1	\N
+985	0	1586902591	\N	navshowfrontpagemods	1	\N
+986	0	1586902591	\N	navadduserpostslinks	1	\N
+987	0	1586902591	\N	formatstringstriptags	1	\N
+988	0	1586902591	\N	emoticons	[{"text":":-)","imagename":"s\\/smiley","imagecomponent":"core","altidentifier":"smiley","altcomponent":"core_pix"},{"text":":)","imagename":"s\\/smiley","imagecomponent":"core","altidentifier":"smiley","altcomponent":"core_pix"},{"text":":-D","imagename":"s\\/biggrin","imagecomponent":"core","altidentifier":"biggrin","altcomponent":"core_pix"},{"text":";-)","imagename":"s\\/wink","imagecomponent":"core","altidentifier":"wink","altcomponent":"core_pix"},{"text":":-\\/","imagename":"s\\/mixed","imagecomponent":"core","altidentifier":"mixed","altcomponent":"core_pix"},{"text":"V-.","imagename":"s\\/thoughtful","imagecomponent":"core","altidentifier":"thoughtful","altcomponent":"core_pix"},{"text":":-P","imagename":"s\\/tongueout","imagecomponent":"core","altidentifier":"tongueout","altcomponent":"core_pix"},{"text":":-p","imagename":"s\\/tongueout","imagecomponent":"core","altidentifier":"tongueout","altcomponent":"core_pix"},{"text":"B-)","imagename":"s\\/cool","imagecomponent":"core","altidentifier":"cool","altcomponent":"core_pix"},{"text":"^-)","imagename":"s\\/approve","imagecomponent":"core","altidentifier":"approve","altcomponent":"core_pix"},{"text":"8-)","imagename":"s\\/wideeyes","imagecomponent":"core","altidentifier":"wideeyes","altcomponent":"core_pix"},{"text":":o)","imagename":"s\\/clown","imagecomponent":"core","altidentifier":"clown","altcomponent":"core_pix"},{"text":":-(","imagename":"s\\/sad","imagecomponent":"core","altidentifier":"sad","altcomponent":"core_pix"},{"text":":(","imagename":"s\\/sad","imagecomponent":"core","altidentifier":"sad","altcomponent":"core_pix"},{"text":"8-.","imagename":"s\\/shy","imagecomponent":"core","altidentifier":"shy","altcomponent":"core_pix"},{"text":":-I","imagename":"s\\/blush","imagecomponent":"core","altidentifier":"blush","altcomponent":"core_pix"},{"text":":-X","imagename":"s\\/kiss","imagecomponent":"core","altidentifier":"kiss","altcomponent":"core_pix"},{"text":"8-o","imagename":"s\\/surprise","imagecomponent":"core","altidentifier":"surprise","altcomponent":"core_pix"},{"text":"P-|","imagename":"s\\/blackeye","imagecomponent":"core","altidentifier":"blackeye","altcomponent":"core_pix"},{"text":"8-[","imagename":"s\\/angry","imagecomponent":"core","altidentifier":"angry","altcomponent":"core_pix"},{"text":"(grr)","imagename":"s\\/angry","imagecomponent":"core","altidentifier":"angry","altcomponent":"core_pix"},{"text":"xx-P","imagename":"s\\/dead","imagecomponent":"core","altidentifier":"dead","altcomponent":"core_pix"},{"text":"|-.","imagename":"s\\/sleepy","imagecomponent":"core","altidentifier":"sleepy","altcomponent":"core_pix"},{"text":"}-]","imagename":"s\\/evil","imagecomponent":"core","altidentifier":"evil","altcomponent":"core_pix"},{"text":"(h)","imagename":"s\\/heart","imagecomponent":"core","altidentifier":"heart","altcomponent":"core_pix"},{"text":"(heart)","imagename":"s\\/heart","imagecomponent":"core","altidentifier":"heart","altcomponent":"core_pix"},{"text":"(y)","imagename":"s\\/yes","imagecomponent":"core","altidentifier":"yes","altcomponent":"core"},{"text":"(n)","imagename":"s\\/no","imagecomponent":"core","altidentifier":"no","altcomponent":"core"},{"text":"(martin)","imagename":"s\\/martin","imagecomponent":"core","altidentifier":"martin","altcomponent":"core_pix"},{"text":"( )","imagename":"s\\/egg","imagecomponent":"core","altidentifier":"egg","altcomponent":"core_pix"}]	\N
+989	0	1586902591	\N	docroot	https://docs.moodle.org	\N
+990	0	1586902591	\N	doclang		\N
+991	0	1586902591	\N	doctonewwindow	0	\N
+992	0	1586902591	\N	coursecontactduplicates	0	\N
+993	0	1586902591	\N	courselistshortnames	0	\N
+994	0	1586902591	\N	coursesperpage	20	\N
+995	0	1586902591	\N	courseswithsummarieslimit	10	\N
+996	0	1586902591	\N	courseoverviewfileslimit	1	\N
+997	0	1586902591	\N	courseoverviewfilesext	.jpg,.gif,.png	\N
+998	0	1586902591	\N	coursegraceperiodbefore	0	\N
+999	0	1586902591	\N	coursegraceperiodafter	0	\N
+1000	0	1586902591	\N	useexternalyui	0	\N
+1001	0	1586902591	\N	yuicomboloading	1	\N
+1002	0	1586902591	\N	modchooserdefault	1	\N
+1003	0	1586902591	\N	additionalhtmlhead		\N
+1004	0	1586902591	\N	additionalhtmltopofbody		\N
+1005	0	1586902591	\N	additionalhtmlfooter		\N
+1006	0	1586902591	\N	pathtophp		\N
+1007	0	1586902591	\N	pathtodu		\N
+1008	0	1586902591	\N	aspellpath		\N
+1009	0	1586902591	\N	pathtodot		\N
+1010	0	1586902591	\N	pathtogs	/usr/bin/gs	\N
+1011	0	1586902591	\N	pathtopython		\N
+1012	0	1586902591	\N	supportname	Admin User	\N
+1013	0	1586902591	\N	supportemail		\N
+1014	0	1586902591	\N	supportpage		\N
+1015	0	1586902591	\N	dbsessions	0	
+1016	0	1586902591	\N	sessioncookie		\N
+1017	0	1586902591	\N	sessioncookiepath		\N
+1018	0	1586902591	\N	sessioncookiedomain		\N
+1019	0	1586902591	\N	statsfirstrun	none	\N
+1020	0	1586902591	\N	statsmaxruntime	0	\N
+1021	0	1586902591	\N	statsruntimedays	31	\N
+1022	0	1586902591	\N	statsuserthreshold	0	\N
+1023	0	1586902591	\N	slasharguments	1	\N
+1024	0	1586902591	\N	getremoteaddrconf	3	\N
+1025	0	1586902591	\N	reverseproxyignore		\N
+1026	0	1586902591	\N	proxyhost		\N
+1027	0	1586902591	\N	proxyport	0	\N
+1028	0	1586902591	\N	proxytype	HTTP	\N
+1029	0	1586902591	\N	proxyuser		\N
+1030	0	1586902591	\N	proxypassword		\N
+1031	0	1586902591	\N	proxybypass	localhost, 127.0.0.1	\N
+1032	0	1586902591	\N	maintenance_enabled	0	\N
+1033	0	1586902591	\N	maintenance_message		\N
+1034	0	1586902591	\N	deleteunconfirmed	168	\N
+1035	0	1586902591	\N	deleteincompleteusers	0	\N
+1036	0	1586902591	\N	disablegradehistory	0	\N
+1037	0	1586902591	\N	gradehistorylifetime	0	\N
+1038	0	1586902591	\N	tempdatafoldercleanup	168	\N
+1039	0	1586902591	\N	extramemorylimit	512M	\N
+1040	0	1586902591	\N	maxtimelimit	0	\N
+1041	0	1586902591	\N	curlcache	120	\N
+1042	0	1586902591	\N	curltimeoutkbitrate	56	\N
+1043	0	1586902591	\N	smtphosts		\N
+1044	0	1586902591	\N	smtpsecure		\N
+1045	0	1586902591	\N	smtpauthtype	LOGIN	\N
+1046	0	1586902591	\N	smtpuser		\N
+1047	0	1586902591	\N	smtppass		\N
+1048	0	1586902591	\N	smtpmaxbulk	1	\N
+1049	0	1586902591	\N	noreplyaddress	noreply@moodlecloud.id	\N
+1050	0	1586902591	\N	allowedemaildomains		\N
+1051	0	1586902591	\N	sitemailcharset	0	\N
+1052	0	1586902591	\N	allowusermailcharset	0	\N
+1053	0	1586902591	\N	allowattachments	1	\N
+1054	0	1586902591	\N	mailnewline	LF	\N
+1055	0	1586902592	\N	emailfromvia	1	\N
+1056	0	1586902592	\N	updateautocheck	1	\N
+1057	0	1586902592	\N	updateminmaturity	200	\N
+1058	0	1586902592	\N	updatenotifybuilds	0	\N
+1059	0	1586902592	\N	enablesafebrowserintegration	0	\N
+1060	0	1586902592	\N	dndallowtextandlinks	0	\N
+1061	0	1586902592	\N	pathtosassc		\N
+1062	0	1586902592	\N	contextlocking	0	\N
+1063	0	1586902592	\N	contextlockappliestoadmin	1	\N
+1064	0	1586902592	\N	forceclean	0	\N
+1065	0	1586902592	\N	debug	0	\N
+1066	0	1586902592	\N	debugdisplay	1	\N
+1067	0	1586902592	\N	debugsmtp	0	\N
+1068	0	1586902592	\N	perfdebug	7	\N
+1069	0	1586902592	\N	debugstringids	0	\N
+1070	0	1586902592	\N	debugvalidators	0	\N
+1071	0	1586902592	\N	debugpageinfo	0	\N
+1072	0	1586902592	\N	profilingenabled	0	\N
+1073	0	1586902592	\N	profilingincluded		\N
+1074	0	1586902592	\N	profilingexcluded		\N
+1075	0	1586902592	\N	profilingautofrec	0	\N
+1076	0	1586902592	\N	profilingallowme	0	\N
+1077	0	1586902592	\N	profilingallowall	0	\N
+1078	0	1586902592	\N	profilinglifetime	1440	\N
+1079	0	1586902592	\N	profilingimportprefix	(I)	\N
+1080	0	1586902603	activitynames	filter_active	1	
+1081	0	1586902603	mathjaxloader	filter_active	1	
+1082	0	1586902603	mediaplugin	filter_active	1	
+1083	2	1586902618	\N	notloggedinroleid	6	\N
+1084	2	1586902618	\N	guestroleid	6	\N
+1085	2	1586902618	\N	defaultuserroleid	7	\N
+1086	2	1586902618	\N	creatornewroleid	3	\N
+1087	2	1586902618	\N	restorernewroleid	3	\N
+1088	2	1586902618	tool_dataprivacy	contactdataprotectionofficer	0	\N
+1089	2	1586902618	tool_dataprivacy	automaticdeletionrequests	1	\N
+1090	2	1586902618	tool_dataprivacy	privacyrequestexpiry	604800	\N
+1091	2	1586902618	tool_dataprivacy	requireallenddatesforuserdeletion	1	\N
+1092	2	1586902618	tool_dataprivacy	showdataretentionsummary	1	\N
+1093	2	1586902618	tool_log	exportlog	1	\N
+1094	2	1586902618	\N	sitepolicyhandler		\N
+1095	2	1586902618	\N	gradebookroles	5	\N
+1096	2	1586902619	analytics	logstore	logstore_standard	\N
+1097	2	1586902619	assign	feedback_plugin_for_gradebook	assignfeedback_comments	\N
+1098	2	1586902619	assign	showrecentsubmissions	0	\N
+1099	2	1586902619	assign	submissionreceipts	1	\N
+1100	2	1586902619	assign	submissionstatement	This assignment is my own work, except where I have acknowledged the use of the works of other people.	\N
+1101	2	1586902619	assign	maxperpage	-1	\N
+1102	2	1586902619	assign	alwaysshowdescription	1	\N
+1103	2	1586902619	assign	alwaysshowdescription_adv		\N
+1104	2	1586902619	assign	alwaysshowdescription_locked		\N
+1105	2	1586902619	assign	allowsubmissionsfromdate	0	\N
+1106	2	1586902619	assign	allowsubmissionsfromdate_enabled	1	\N
+1107	2	1586902619	assign	allowsubmissionsfromdate_adv		\N
+1108	2	1586902619	assign	duedate	604800	\N
+1109	2	1586902619	assign	duedate_enabled	1	\N
+1110	2	1586902619	assign	duedate_adv		\N
+1111	2	1586902619	assign	cutoffdate	1209600	\N
+1112	2	1586902619	assign	cutoffdate_enabled		\N
+1113	2	1586902619	assign	cutoffdate_adv		\N
+1114	2	1586902619	assign	gradingduedate	1209600	\N
+1115	2	1586902619	assign	gradingduedate_enabled	1	\N
+1116	2	1586902619	assign	gradingduedate_adv		\N
+1117	2	1586902619	assign	submissiondrafts	0	\N
+1118	2	1586902619	assign	submissiondrafts_adv		\N
+1119	2	1586902619	assign	submissiondrafts_locked		\N
+1120	2	1586902619	assign	requiresubmissionstatement	0	\N
+1121	2	1586902619	assign	requiresubmissionstatement_adv		\N
+1122	2	1586902619	assign	requiresubmissionstatement_locked		\N
+1123	2	1586902619	assign	attemptreopenmethod	none	\N
+1124	2	1586902619	assign	attemptreopenmethod_adv		\N
+1125	2	1586902619	assign	attemptreopenmethod_locked		\N
+1126	2	1586902619	assign	maxattempts	-1	\N
+1127	2	1586902619	assign	maxattempts_adv		\N
+1128	2	1586902619	assign	maxattempts_locked		\N
+1129	2	1586902619	assign	teamsubmission	0	\N
+1130	2	1586902619	assign	teamsubmission_adv		\N
+1131	2	1586902619	assign	teamsubmission_locked		\N
+1132	2	1586902619	assign	preventsubmissionnotingroup	0	\N
+1133	2	1586902619	assign	preventsubmissionnotingroup_adv		\N
+1134	2	1586902619	assign	preventsubmissionnotingroup_locked		\N
+1135	2	1586902619	assign	requireallteammemberssubmit	0	\N
+1136	2	1586902619	assign	requireallteammemberssubmit_adv		\N
+1137	2	1586902619	assign	requireallteammemberssubmit_locked		\N
+1138	2	1586902619	assign	teamsubmissiongroupingid		\N
+1139	2	1586902619	assign	teamsubmissiongroupingid_adv		\N
+1140	2	1586902619	assign	sendnotifications	0	\N
+1141	2	1586902619	assign	sendnotifications_adv		\N
+1142	2	1586902619	assign	sendnotifications_locked		\N
+1143	2	1586902619	assign	sendlatenotifications	0	\N
+1144	2	1586902619	assign	sendlatenotifications_adv		\N
+1145	2	1586902619	assign	sendlatenotifications_locked		\N
+1146	2	1586902619	assign	sendstudentnotifications	1	\N
+1147	2	1586902619	assign	sendstudentnotifications_adv		\N
+1148	2	1586902619	assign	sendstudentnotifications_locked		\N
+1149	2	1586902619	assign	blindmarking	0	\N
+1150	2	1586902619	assign	blindmarking_adv		\N
+1151	2	1586902619	assign	blindmarking_locked		\N
+1152	2	1586902619	assign	markingworkflow	0	\N
+1153	2	1586902619	assign	markingworkflow_adv		\N
+1154	2	1586902619	assign	markingworkflow_locked		\N
+1155	2	1586902619	assign	markingallocation	0	\N
+1156	2	1586902619	assign	markingallocation_adv		\N
+1157	2	1586902619	assign	markingallocation_locked		\N
+1158	2	1586902619	assignsubmission_file	default	1	\N
+1159	2	1586902619	assignsubmission_file	maxfiles	20	\N
+1160	2	1586902619	assignsubmission_file	filetypes		\N
+1161	2	1586902619	assignsubmission_file	maxbytes	0	\N
+1162	2	1586902619	assignsubmission_onlinetext	default	0	\N
+1163	2	1586902619	assignfeedback_comments	default	1	\N
+1164	2	1586902619	assignfeedback_comments	inline	0	\N
+1165	2	1586902620	assignfeedback_comments	inline_adv		\N
+1166	2	1586902620	assignfeedback_comments	inline_locked		\N
+1167	2	1586902620	assignfeedback_editpdf	default	1	\N
+1168	2	1586902620	assignfeedback_editpdf	stamps		\N
+1169	2	1586902620	assignfeedback_file	default	0	\N
+1170	2	1586902620	assignfeedback_offline	default	0	\N
+1171	2	1586902620	attendance	resultsperpage	25	\N
+1172	2	1586902620	attendance	studentscanmark	1	\N
+1173	2	1586902620	attendance	studentscanmarksessiontime	1	\N
+1174	2	1586902620	attendance	studentscanmarksessiontimeend	60	\N
+1175	2	1586902620	attendance	subnetactivitylevel	1	\N
+1176	2	1586902620	attendance	defaultview	2	\N
+1177	2	1586902620	attendance	multisessionexpanded	0	\N
+1178	2	1586902620	attendance	showsessiondescriptiononreport	0	\N
+1179	2	1586902620	attendance	studentrecordingexpanded	1	\N
+1180	2	1586902620	attendance	enablecalendar	1	\N
+1181	2	1586902620	attendance	enablewarnings	0	\N
+1182	2	1586902620	attendance	subnet		\N
+1183	2	1586902620	attendance	calendarevent_default	1	\N
+1184	2	1586902620	attendance	absenteereport_default	1	\N
+1185	2	1586902620	attendance	studentscanmark_default	0	\N
+1186	2	1586902620	attendance	automark_default	0	\N
+1187	2	1586902620	attendance	randompassword_default	0	\N
+1188	2	1586902620	attendance	includeqrcode_default	0	\N
+1189	2	1586902620	attendance	autoassignstatus	0	\N
+1190	2	1586902620	attendance	preventsharedip	0	\N
+1191	2	1586902620	attendance	preventsharediptime		\N
+1192	2	1586902620	attendance	warningpercent	70	\N
+1193	2	1586902620	attendance	warnafter	5	\N
+1194	2	1586902620	attendance	maxwarn	1	\N
+1195	2	1586902620	attendance	emailuser	1	\N
+1196	2	1586902620	attendance	emailsubject	Attendance warning	\N
+1197	2	1586902620	attendance	emailcontent	Hi %userfirstname%,\nYour attendance in %coursename% %attendancename% has dropped below %warningpercent% and is currently %percent% - we hope you are ok!\n\nTo get the most out of this course you should improve your attendance, please get in touch if you require any further support.	\N
+1198	2	1586902620	\N	bigbluebuttonbn_server_url	http://test-install.blindsidenetworks.com/bigbluebutton/	\N
+1199	2	1586902620	\N	bigbluebuttonbn_shared_secret	8cd8ef52e8e101574e400365b55e11a6	\N
+1200	2	1586902620	\N	bigbluebuttonbn_recording_default	1	\N
+1201	2	1586902620	\N	bigbluebuttonbn_recording_editable	1	\N
+1202	2	1586902620	\N	bigbluebuttonbn_recording_icons_enabled	1	\N
+1203	2	1586902620	\N	bigbluebuttonbn_recording_all_from_start_default	0	\N
+1204	2	1586902620	\N	bigbluebuttonbn_recording_all_from_start_editable	0	\N
+1205	2	1586902620	\N	bigbluebuttonbn_recording_hide_button_default	0	\N
+1206	2	1586902620	\N	bigbluebuttonbn_recording_hide_button_editable	0	\N
+1207	2	1586902620	\N	bigbluebuttonbn_importrecordings_enabled	0	\N
+1208	2	1586902620	\N	bigbluebuttonbn_importrecordings_from_deleted_enabled	0	\N
+1209	2	1586902620	\N	bigbluebuttonbn_recordings_html_default	1	\N
+1210	2	1586902620	\N	bigbluebuttonbn_recordings_html_editable	0	\N
+1211	2	1586902620	\N	bigbluebuttonbn_recordings_deleted_default	1	\N
+1212	2	1586902620	\N	bigbluebuttonbn_recordings_deleted_editable	0	\N
+1213	2	1586902620	\N	bigbluebuttonbn_recordings_imported_default	0	\N
+1214	2	1586902620	\N	bigbluebuttonbn_recordings_imported_editable	1	\N
+1215	2	1586902620	\N	bigbluebuttonbn_recordings_preview_default	1	\N
+1216	2	1586902620	\N	bigbluebuttonbn_recordings_preview_editable	0	\N
+1217	2	1586902620	\N	bigbluebuttonbn_recordings_sortorder	0	\N
+1218	2	1586902620	\N	bigbluebuttonbn_waitformoderator_default	0	\N
+1219	2	1586902620	\N	bigbluebuttonbn_waitformoderator_editable	1	\N
+1220	2	1586902620	\N	bigbluebuttonbn_waitformoderator_ping_interval	10	\N
+1221	2	1586902620	\N	bigbluebuttonbn_waitformoderator_cache_ttl	60	\N
+1222	2	1586902620	\N	bigbluebuttonbn_voicebridge_editable	0	\N
+1223	2	1586902620	\N	bigbluebuttonbn_preuploadpresentation_enabled	0	\N
+1224	2	1586902620	mod_bigbluebuttonbn	presentationdefault		\N
+1225	2	1586902620	\N	bigbluebuttonbn_userlimit_default	0	\N
+1226	2	1586902620	\N	bigbluebuttonbn_userlimit_editable	0	\N
+1227	2	1586902620	\N	bigbluebuttonbn_participant_moderator_default	0	\N
+1228	2	1586902620	\N	bigbluebuttonbn_sendnotifications_enabled	1	\N
+1229	2	1586902620	\N	bigbluebuttonbn_muteonstart_default	0	\N
+1230	2	1586902620	\N	bigbluebuttonbn_muteonstart_editable	0	\N
+1231	2	1586902620	\N	bigbluebuttonbn_recordingready_enabled	0	\N
+1232	2	1586902620	\N	bigbluebuttonbn_meetingevents_enabled	0	\N
+1233	2	1586902620	book	numberingoptions	0,1,2,3	\N
+1234	2	1586902620	book	navoptions	0,1,2	\N
+1235	2	1586902620	book	numbering	1	\N
+1236	2	1586902620	book	navstyle	1	\N
+1237	2	1586902620	\N	chat_method	ajax	\N
+1238	2	1586902620	\N	chat_refresh_userlist	10	\N
+1239	2	1586902620	\N	chat_old_ping	35	\N
+1240	2	1586902620	\N	chat_refresh_room	5	\N
+1241	2	1586902620	\N	chat_normal_updatemode	jsupdate	\N
+1242	2	1586902620	\N	chat_serverhost	moodlecloud.id	\N
+1243	2	1586902620	\N	chat_serverip	127.0.0.1	\N
+1244	2	1586902620	\N	chat_serverport	9111	\N
+1245	2	1586902620	\N	chat_servermax	100	\N
+1246	2	1586902620	\N	data_enablerssfeeds	0	\N
+1247	2	1586902620	\N	feedback_allowfullanonymous	0	\N
+1248	2	1586902620	resource	framesize	130	\N
+1249	2	1586902620	resource	displayoptions	0,1,4,5,6	\N
+1250	2	1586902620	resource	printintro	1	\N
+1251	2	1586902620	resource	display	0	\N
+1252	2	1586902620	resource	showsize	0	\N
+1253	2	1586902620	resource	showtype	0	\N
+1254	2	1586902620	resource	showdate	0	\N
+1255	2	1586902620	resource	popupwidth	620	\N
+1256	2	1586902620	resource	popupheight	450	\N
+1257	2	1586902620	resource	filterfiles	0	\N
+1258	2	1586902620	folder	showexpanded	1	\N
+1259	2	1586902620	folder	maxsizetodownload	0	\N
+1260	2	1586902620	\N	forum_displaymode	3	\N
+1261	2	1586902620	\N	forum_shortpost	300	\N
+1262	2	1586902620	\N	forum_longpost	600	\N
+1263	2	1586902620	\N	forum_manydiscussions	100	\N
+1264	2	1586902620	\N	forum_maxbytes	512000	\N
+1265	2	1586902620	\N	forum_maxattachments	9	\N
+1266	2	1586902620	\N	forum_subscription	0	\N
+1267	2	1586902620	\N	forum_trackingtype	1	\N
+1268	2	1586902620	\N	forum_trackreadposts	1	\N
+1269	2	1586902620	\N	forum_allowforcedreadtracking	0	\N
+1270	2	1586902620	\N	forum_oldpostdays	14	\N
+1271	2	1586902620	\N	forum_usermarksread	0	\N
+1272	2	1586902620	\N	forum_cleanreadtime	2	\N
+1273	2	1586902620	\N	digestmailtime	17	\N
+1274	2	1586902620	\N	forum_enablerssfeeds	0	\N
+1275	2	1586902620	\N	forum_enabletimedposts	1	\N
+1276	2	1586902620	\N	glossary_entbypage	10	\N
+1277	2	1586902620	\N	glossary_dupentries	0	\N
+1278	2	1586902620	\N	glossary_allowcomments	0	\N
+1279	2	1586902620	\N	glossary_linkbydefault	1	\N
+1280	2	1586902620	\N	glossary_defaultapproval	1	\N
+1281	2	1586902620	\N	glossary_enablerssfeeds	0	\N
+1282	2	1586902620	\N	glossary_linkentries	0	\N
+1283	2	1586902620	\N	glossary_casesensitive	0	\N
+1284	2	1586902620	\N	glossary_fullmatch	0	\N
+1285	2	1586902620	\N	hotpot_enablemymoodle	1	\N
+1286	2	1586902620	\N	hotpot_enablecache	1	\N
+1287	2	1586902620	\N	hotpot_enablecron		\N
+1288	2	1586902620	\N	hotpot_enableswf	1	\N
+1289	2	1586902620	\N	hotpot_enableobfuscate	1	\N
+1290	2	1586902620	\N	hotpot_bodystyles		\N
+1291	2	1586902620	\N	hotpot_frameheight	85	\N
+1292	2	1586902620	\N	hotpot_lockframe	0	\N
+1293	2	1586902620	\N	hotpot_storedetails	0	\N
+1294	2	1586902620	\N	hotpot_maxeventlength	5	\N
+1295	2	1586902620	imscp	keepold	1	\N
+1296	2	1586902620	imscp	keepold_adv		\N
+1297	2	1586902620	\N	jitsi_domain	meet.jit.si	\N
+1298	2	1586902620	\N	jitsi_sesionname	0,1,2	\N
+1299	2	1586902620	\N	jitsi_showinfo	0	\N
+1300	2	1586902620	\N	jitsi_channellastcam	4	\N
+1301	2	1586902620	\N	jitsi_livebutton	0	\N
+1302	2	1586902620	\N	jitsi_blurbutton	0	\N
+1303	2	1586902620	\N	jitsi_shareyoutube	0	\N
+1304	2	1586902620	\N	jitsi_watermarklink	https://jitsi.org	\N
+1305	2	1586902620	\N	jitsi_finishandreturn	0	\N
+1306	2	1586902620	\N	jitsi_app_id		\N
+1307	2	1586902620	\N	jitsi_secret		\N
+1308	2	1586902620	label	dndmedia	1	\N
+1309	2	1586902620	label	dndresizewidth	400	\N
+1310	2	1586902620	label	dndresizeheight	400	\N
+1311	2	1586902620	mod_lesson	mediafile		\N
+1312	2	1586902620	mod_lesson	mediafile_adv	1	\N
+1313	2	1586902620	mod_lesson	mediawidth	640	\N
+1314	2	1586902620	mod_lesson	mediaheight	480	\N
+1315	2	1586902620	mod_lesson	mediaclose	0	\N
+1316	2	1586902620	mod_lesson	progressbar	0	\N
+1317	2	1586902620	mod_lesson	progressbar_adv		\N
+1318	2	1586902620	mod_lesson	ongoing	0	\N
+1319	2	1586902620	mod_lesson	ongoing_adv	1	\N
+1320	2	1586902620	mod_lesson	displayleftmenu	0	\N
+1321	2	1586902620	mod_lesson	displayleftmenu_adv		\N
+1322	2	1586902620	mod_lesson	displayleftif	0	\N
+1323	2	1586902620	mod_lesson	displayleftif_adv	1	\N
+1324	2	1586902620	mod_lesson	slideshow	0	\N
+1325	2	1586902620	mod_lesson	slideshow_adv	1	\N
+1326	2	1586902620	mod_lesson	slideshowwidth	640	\N
+1327	2	1586902620	mod_lesson	slideshowheight	480	\N
+1328	2	1586902620	mod_lesson	slideshowbgcolor	#FFFFFF	\N
+1329	2	1586902620	mod_lesson	maxanswers	5	\N
+1330	2	1586902620	mod_lesson	maxanswers_adv	1	\N
+1331	2	1586902620	mod_lesson	defaultfeedback	0	\N
+1332	2	1586902620	mod_lesson	defaultfeedback_adv	1	\N
+1333	2	1586902620	mod_lesson	activitylink		\N
+1334	2	1586902620	mod_lesson	activitylink_adv	1	\N
+1335	2	1586902620	mod_lesson	timelimit	0	\N
+1336	2	1586902620	mod_lesson	timelimit_adv		\N
+1337	2	1586902620	mod_lesson	password	0	\N
+1338	2	1586902620	mod_lesson	password_adv	1	\N
+1339	2	1586902620	mod_lesson	modattempts	0	\N
+1340	2	1586902620	mod_lesson	modattempts_adv		\N
+1341	2	1586902620	mod_lesson	displayreview	0	\N
+1342	2	1586902620	mod_lesson	displayreview_adv		\N
+1343	2	1586902620	mod_lesson	maximumnumberofattempts	1	\N
+1344	2	1586902620	mod_lesson	maximumnumberofattempts_adv		\N
+1345	2	1586902620	mod_lesson	defaultnextpage	0	\N
+1346	2	1586902620	mod_lesson	defaultnextpage_adv	1	\N
+1347	2	1586902620	mod_lesson	numberofpagestoshow	1	\N
+1348	2	1586902620	mod_lesson	numberofpagestoshow_adv	1	\N
+1349	2	1586902620	mod_lesson	practice	0	\N
+1350	2	1586902620	mod_lesson	practice_adv		\N
+1351	2	1586902620	mod_lesson	customscoring	1	\N
+1352	2	1586902620	mod_lesson	customscoring_adv	1	\N
+1353	2	1586902620	mod_lesson	retakesallowed	0	\N
+1354	2	1586902620	mod_lesson	retakesallowed_adv		\N
+1355	2	1586902620	mod_lesson	handlingofretakes	0	\N
+1356	2	1586902620	mod_lesson	handlingofretakes_adv	1	\N
+1357	2	1586902620	mod_lesson	minimumnumberofquestions	0	\N
+1358	2	1586902620	mod_lesson	minimumnumberofquestions_adv	1	\N
+1359	2	1586902620	page	displayoptions	5	\N
+1360	2	1586902620	page	printheading	1	\N
+1361	2	1586902620	page	printintro	0	\N
+1362	2	1586902620	page	printlastmodified	1	\N
+1363	2	1586902620	page	display	5	\N
+1364	2	1586902620	page	popupwidth	620	\N
+1365	2	1586902620	page	popupheight	450	\N
+1366	2	1586902620	questionnaire	usergraph	0	\N
+1367	2	1586902620	questionnaire	maxsections	10	\N
+1368	2	1586902620	questionnaire	downloadoptions	response,submitted,institution,department,course,group,id,fullname,username	\N
+1369	2	1586902620	quiz	timelimit	0	\N
+1370	2	1586902620	quiz	timelimit_adv		\N
+1371	2	1586902620	quiz	overduehandling	autosubmit	\N
+1372	2	1586902620	quiz	overduehandling_adv		\N
+1373	2	1586902620	quiz	graceperiod	86400	\N
+1374	2	1586902620	quiz	graceperiod_adv		\N
+1375	2	1586902620	quiz	graceperiodmin	60	\N
+1376	2	1586902620	quiz	attempts	0	\N
+1377	2	1586902620	quiz	attempts_adv		\N
+1378	2	1586902620	quiz	grademethod	1	\N
+1379	2	1586902620	quiz	grademethod_adv		\N
+1380	2	1586902620	quiz	maximumgrade	10	\N
+1381	2	1586902620	quiz	questionsperpage	1	\N
+1382	2	1586902620	quiz	questionsperpage_adv		\N
+1383	2	1586902620	quiz	navmethod	free	\N
+1384	2	1586902620	quiz	navmethod_adv	1	\N
+1385	2	1586902620	quiz	shuffleanswers	1	\N
+1386	2	1586902620	quiz	shuffleanswers_adv		\N
+1387	2	1586902620	quiz	preferredbehaviour	deferredfeedback	\N
+1388	2	1586902620	quiz	canredoquestions	0	\N
+1389	2	1586902620	quiz	canredoquestions_adv	1	\N
+1390	2	1586902620	quiz	attemptonlast	0	\N
+1391	2	1586902620	quiz	attemptonlast_adv	1	\N
+1392	2	1586902620	quiz	reviewattempt	69904	\N
+1393	2	1586902620	quiz	reviewcorrectness	69904	\N
+1394	2	1586902620	quiz	reviewmarks	69904	\N
+1395	2	1586902620	quiz	reviewspecificfeedback	69904	\N
+1396	2	1586902620	quiz	reviewgeneralfeedback	69904	\N
+1397	2	1586902620	quiz	reviewrightanswer	69904	\N
+1398	2	1586902620	quiz	reviewoverallfeedback	4368	\N
+1399	2	1586902620	quiz	showuserpicture	0	\N
+1400	2	1586902620	quiz	showuserpicture_adv		\N
+1401	2	1586902620	quiz	decimalpoints	2	\N
+1402	2	1586902620	quiz	decimalpoints_adv		\N
+1403	2	1586902620	quiz	questiondecimalpoints	-1	\N
+1404	2	1586902620	quiz	questiondecimalpoints_adv	1	\N
+1405	2	1586902620	quiz	showblocks	0	\N
+1406	2	1586902620	quiz	showblocks_adv	1	\N
+1407	2	1586902621	quiz	password		\N
+1408	2	1586902621	quiz	password_adv		\N
+1409	2	1586902621	quiz	subnet		\N
+1410	2	1586902621	quiz	subnet_adv	1	\N
+1411	2	1586902621	quiz	delay1	0	\N
+1412	2	1586902621	quiz	delay1_adv	1	\N
+1413	2	1586902621	quiz	delay2	0	\N
+1414	2	1586902621	quiz	delay2_adv	1	\N
+1415	2	1586902621	quiz	browsersecurity	-	\N
+1416	2	1586902621	quiz	browsersecurity_adv	1	\N
+1417	2	1586902621	quiz	initialnumfeedbacks	2	\N
+1418	2	1586902621	quiz	autosaveperiod	60	\N
+1419	2	1586902621	scorm	displaycoursestructure	0	\N
+1420	2	1586902621	scorm	displaycoursestructure_adv		\N
+1421	2	1586902621	scorm	popup	0	\N
+1422	2	1586902621	scorm	popup_adv		\N
+1423	2	1586902621	scorm	displayactivityname	1	\N
+1424	2	1586902621	scorm	framewidth	100	\N
+1425	2	1586902621	scorm	framewidth_adv	1	\N
+1426	2	1586902621	scorm	frameheight	500	\N
+1427	2	1586902621	scorm	frameheight_adv	1	\N
+1428	2	1586902621	scorm	winoptgrp_adv	1	\N
+1429	2	1586902621	scorm	scrollbars	0	\N
+1430	2	1586902621	scorm	directories	0	\N
+1431	2	1586902621	scorm	location	0	\N
+1432	2	1586902621	scorm	menubar	0	\N
+1433	2	1586902621	scorm	toolbar	0	\N
+1434	2	1586902621	scorm	status	0	\N
+1435	2	1586902621	scorm	skipview	0	\N
+1436	2	1586902621	scorm	skipview_adv	1	\N
+1437	2	1586902621	scorm	hidebrowse	0	\N
+1438	2	1586902621	scorm	hidebrowse_adv	1	\N
+1439	2	1586902621	scorm	hidetoc	0	\N
+1440	2	1586902621	scorm	hidetoc_adv	1	\N
+1441	2	1586902621	scorm	nav	1	\N
+1442	2	1586902621	scorm	nav_adv	1	\N
+1443	2	1586902621	scorm	navpositionleft	-100	\N
+1444	2	1586902621	scorm	navpositionleft_adv	1	\N
+1445	2	1586902621	scorm	navpositiontop	-100	\N
+1446	2	1586902621	scorm	navpositiontop_adv	1	\N
+1447	2	1586902621	scorm	collapsetocwinsize	767	\N
+1448	2	1586902621	scorm	collapsetocwinsize_adv	1	\N
+1449	2	1586902621	scorm	displayattemptstatus	1	\N
+1450	2	1586902621	scorm	displayattemptstatus_adv		\N
+1451	2	1586902621	scorm	grademethod	1	\N
+1452	2	1586902621	scorm	maxgrade	100	\N
+1453	2	1586902621	scorm	maxattempt	0	\N
+1454	2	1586902621	scorm	whatgrade	0	\N
+1455	2	1586902621	scorm	forcecompleted	0	\N
+1456	2	1586902621	scorm	forcenewattempt	0	\N
+1457	2	1586902621	scorm	autocommit	0	\N
+1458	2	1586902621	scorm	masteryoverride	1	\N
+1459	2	1586902621	scorm	lastattemptlock	0	\N
+1460	2	1586902621	scorm	auto	0	\N
+1461	2	1586902621	scorm	updatefreq	0	\N
+1462	2	1586902621	scorm	scormstandard	0	\N
+1463	2	1586902621	scorm	allowtypeexternal	0	\N
+1464	2	1586902621	scorm	allowtypelocalsync	0	\N
+1465	2	1586902621	scorm	allowtypeexternalaicc	0	\N
+1466	2	1586902621	scorm	allowaicchacp	0	\N
+1467	2	1586902621	scorm	aicchacptimeout	30	\N
+1468	2	1586902621	scorm	aicchacpkeepsessiondata	1	\N
+1469	2	1586902621	scorm	aiccuserid	1	\N
+1470	2	1586902621	scorm	forcejavascript	1	\N
+1471	2	1586902621	scorm	allowapidebug	0	\N
+1472	2	1586902621	scorm	apidebugmask	.*	\N
+1473	2	1586902621	scorm	protectpackagedownloads	0	\N
+1474	2	1586902621	turnitintooltwo	enablediagnostic	0	\N
+1475	2	1586902621	turnitintooltwo	enableperformancelogs	0	\N
+1476	2	1586902621	turnitintooltwo	usegrademark	1	\N
+1477	2	1586902621	turnitintooltwo	enablepeermark	1	\N
+1478	2	1586902621	turnitintooltwo	useerater	0	\N
+1479	2	1586902621	turnitintooltwo	useanon	0	\N
+1480	2	1586902621	turnitintooltwo	transmatch	0	\N
+1481	2	1586902621	turnitintooltwo	repositoryoption	0	\N
+1482	2	1586902621	turnitintooltwo	agreement		\N
+1483	2	1586902621	turnitintooltwo	inboxlayout	0	\N
+1484	2	1586902621	turnitintooltwo	enablepseudo	0	\N
+1485	2	1586902621	turnitintooltwo	default_type	0	\N
+1486	2	1586902621	turnitintooltwo	default_numparts	1	\N
+1487	2	1586902621	turnitintooltwo	default_studentreports	0	\N
+1488	2	1586902621	turnitintooltwo	default_gradedisplay	2	\N
+1489	2	1586902621	turnitintooltwo	default_allownonor	0	\N
+1490	2	1586902621	turnitintooltwo	default_allowlate	0	\N
+1491	2	1586902621	turnitintooltwo	default_reportgenspeed	0	\N
+1492	2	1586902621	turnitintooltwo	default_submitpapersto	1	\N
+1493	2	1586902621	turnitintooltwo	default_spapercheck	1	\N
+1494	2	1586902621	turnitintooltwo	default_internetcheck	1	\N
+1495	2	1586902621	turnitintooltwo	default_journalcheck	1	\N
+1496	2	1586902621	turnitintooltwo	default_institutioncheck	0	\N
+1497	2	1586902621	turnitintooltwo	default_excludebiblio	0	\N
+1498	2	1586902621	turnitintooltwo	default_excludequoted	0	\N
+1499	2	1586902621	turnitintooltwo	default_erater	0	\N
+1500	2	1586902621	turnitintooltwo	default_erater_handbook	2	\N
+1501	2	1586902621	turnitintooltwo	default_erater_dictionary	en_US	\N
+1502	2	1586902621	turnitintooltwo	default_erater_spelling	0	\N
+1503	2	1586902621	turnitintooltwo	default_erater_grammar	0	\N
+1504	2	1586902621	turnitintooltwo	default_erater_usage	0	\N
+1505	2	1586902621	turnitintooltwo	default_erater_mechanics	0	\N
+1506	2	1586902621	turnitintooltwo	default_erater_style	0	\N
+1507	2	1586902621	url	framesize	130	\N
+1508	2	1586902621	url	secretphrase		\N
+1509	2	1586902621	url	rolesinparams	0	\N
+1510	2	1586902621	url	displayoptions	0,1,5,6	\N
+1511	2	1586902621	url	printintro	1	\N
+1512	2	1586902621	url	display	0	\N
+1513	2	1586902621	url	popupwidth	620	\N
+1514	2	1586902621	url	popupheight	450	\N
+1515	2	1586902621	webexactivity	sitename		\N
+1516	2	1586902621	webexactivity	apiusername		\N
+1517	2	1586902621	webexactivity	apipassword		\N
+1518	2	1586902621	webexactivity	prefix		\N
+1519	2	1586902621	webexactivity	typemeetingcenter	pwreq	\N
+1520	2	1586902621	webexactivity	meetingtemplate		\N
+1521	2	1586902621	webexactivity	typetrainingcenter	pwreq	\N
+1522	2	1586902621	webexactivity	trainingtemplate		\N
+1523	2	1586902621	webexactivity	meetingclosegrace	120	\N
+1524	2	1586902621	webexactivity	requiremeetingpassword	0	\N
+1525	2	1586902621	webexactivity	defaultmeetingtype	1	\N
+1526	2	1586902621	webexactivity	enablecallin	0	\N
+1527	2	1586902621	webexactivity	recordingtrashtime	48	\N
+1528	2	1586902621	webexactivity	manageallrecordings	0	\N
+1529	2	1586902621	workshop	grade	80	\N
+1530	2	1586902621	workshop	gradinggrade	20	\N
+1531	2	1586902621	workshop	gradedecimals	0	\N
+1532	2	1586902621	workshop	maxbytes	0	\N
+1533	2	1586902621	workshop	strategy	accumulative	\N
+1534	2	1586902621	workshop	examplesmode	0	\N
+1535	2	1586902621	workshopallocation_random	numofreviews	5	\N
+1536	2	1586902621	workshopform_numerrors	grade0	No	\N
+1537	2	1586902621	workshopform_numerrors	grade1	Yes	\N
+1538	2	1586902621	workshopeval_best	comparison	5	\N
+1539	2	1586902621	tool_oauth2owncloud	clientid		\N
+1540	2	1586902621	tool_oauth2owncloud	secret		\N
+1541	2	1586902621	tool_oauth2owncloud	server		\N
+1542	2	1586902621	tool_oauth2owncloud	path	 remote.php/webdav/	\N
+1543	2	1586902621	tool_oauth2owncloud	protocol	https	\N
+1544	2	1586902621	tool_oauth2owncloud	port	443	\N
+1545	2	1586902621	tool_recyclebin	coursebinenable	1	\N
+1546	2	1586902621	tool_recyclebin	coursebinexpiry	604800	\N
+1547	2	1586902621	tool_recyclebin	categorybinenable	1	\N
+1548	2	1586902621	tool_recyclebin	categorybinexpiry	604800	\N
+1549	2	1586902621	tool_recyclebin	autohide	1	\N
+1550	2	1586902621	antivirus_clamav	runningmethod	commandline	\N
+1551	2	1586902621	antivirus_clamav	pathtoclam		\N
+1552	2	1586902621	antivirus_clamav	pathtounixsocket		\N
+1553	2	1586902621	antivirus_clamav	clamfailureonupload	donothing	\N
+1554	2	1586902621	auth_cas	field_map_firstname		\N
+1555	2	1586902621	auth_cas	field_updatelocal_firstname	oncreate	\N
+1556	2	1586902621	auth_cas	field_updateremote_firstname	0	\N
+1557	2	1586902621	auth_cas	field_lock_firstname	unlocked	\N
+1558	2	1586902621	auth_cas	field_map_lastname		\N
+1559	2	1586902621	auth_cas	field_updatelocal_lastname	oncreate	\N
+1560	2	1586902621	auth_cas	field_updateremote_lastname	0	\N
+1561	2	1586902621	auth_cas	field_lock_lastname	unlocked	\N
+1562	2	1586902621	auth_cas	field_map_email		\N
+1563	2	1586902621	auth_cas	field_updatelocal_email	oncreate	\N
+1564	2	1586902621	auth_cas	field_updateremote_email	0	\N
+1565	2	1586902621	auth_cas	field_lock_email	unlocked	\N
+1566	2	1586902621	auth_cas	field_map_city		\N
+1567	2	1586902621	auth_cas	field_updatelocal_city	oncreate	\N
+1568	2	1586902621	auth_cas	field_updateremote_city	0	\N
+1569	2	1586902621	auth_cas	field_lock_city	unlocked	\N
+1570	2	1586902621	auth_cas	field_map_country		\N
+1571	2	1586902621	auth_cas	field_updatelocal_country	oncreate	\N
+1572	2	1586902621	auth_cas	field_updateremote_country	0	\N
+1573	2	1586902621	auth_cas	field_lock_country	unlocked	\N
+1574	2	1586902621	auth_cas	field_map_lang		\N
+1575	2	1586902621	auth_cas	field_updatelocal_lang	oncreate	\N
+1576	2	1586902621	auth_cas	field_updateremote_lang	0	\N
+1577	2	1586902621	auth_cas	field_lock_lang	unlocked	\N
+1578	2	1586902621	auth_cas	field_map_description		\N
+1579	2	1586902621	auth_cas	field_updatelocal_description	oncreate	\N
+1580	2	1586902621	auth_cas	field_updateremote_description	0	\N
+1581	2	1586902621	auth_cas	field_lock_description	unlocked	\N
+1582	2	1586902621	auth_cas	field_map_url		\N
+1583	2	1586902621	auth_cas	field_updatelocal_url	oncreate	\N
+1584	2	1586902621	auth_cas	field_updateremote_url	0	\N
+1585	2	1586902621	auth_cas	field_lock_url	unlocked	\N
+1586	2	1586902621	auth_cas	field_map_idnumber		\N
+1587	2	1586902621	auth_cas	field_updatelocal_idnumber	oncreate	\N
+1588	2	1586902621	auth_cas	field_updateremote_idnumber	0	\N
+1589	2	1586902621	auth_cas	field_lock_idnumber	unlocked	\N
+1590	2	1586902621	auth_cas	field_map_institution		\N
+1591	2	1586902621	auth_cas	field_updatelocal_institution	oncreate	\N
+1592	2	1586902621	auth_cas	field_updateremote_institution	0	\N
+1593	2	1586902621	auth_cas	field_lock_institution	unlocked	\N
+1594	2	1586902621	auth_cas	field_map_department		\N
+1595	2	1586902621	auth_cas	field_updatelocal_department	oncreate	\N
+1596	2	1586902621	auth_cas	field_updateremote_department	0	\N
+1597	2	1586902621	auth_cas	field_lock_department	unlocked	\N
+1598	2	1586902621	auth_cas	field_map_phone1		\N
+1599	2	1586902621	auth_cas	field_updatelocal_phone1	oncreate	\N
+1600	2	1586902621	auth_cas	field_updateremote_phone1	0	\N
+1601	2	1586902621	auth_cas	field_lock_phone1	unlocked	\N
+1602	2	1586902621	auth_cas	field_map_phone2		\N
+1603	2	1586902621	auth_cas	field_updatelocal_phone2	oncreate	\N
+1604	2	1586902621	auth_cas	field_updateremote_phone2	0	\N
+1605	2	1586902621	auth_cas	field_lock_phone2	unlocked	\N
+1606	2	1586902621	auth_cas	field_map_address		\N
+1607	2	1586902621	auth_cas	field_updatelocal_address	oncreate	\N
+1608	2	1586902621	auth_cas	field_updateremote_address	0	\N
+1609	2	1586902621	auth_cas	field_lock_address	unlocked	\N
+1610	2	1586902621	auth_cas	field_map_firstnamephonetic		\N
+1611	2	1586902621	auth_cas	field_updatelocal_firstnamephonetic	oncreate	\N
+1612	2	1586902621	auth_cas	field_updateremote_firstnamephonetic	0	\N
+1613	2	1586902621	auth_cas	field_lock_firstnamephonetic	unlocked	\N
+1614	2	1586902621	auth_cas	field_map_lastnamephonetic		\N
+1615	2	1586902621	auth_cas	field_updatelocal_lastnamephonetic	oncreate	\N
+1616	2	1586902621	auth_cas	field_updateremote_lastnamephonetic	0	\N
+1617	2	1586902621	auth_cas	field_lock_lastnamephonetic	unlocked	\N
+1618	2	1586902621	auth_cas	field_map_middlename		\N
+1619	2	1586902621	auth_cas	field_updatelocal_middlename	oncreate	\N
+1620	2	1586902621	auth_cas	field_updateremote_middlename	0	\N
+1621	2	1586902621	auth_cas	field_lock_middlename	unlocked	\N
+1622	2	1586902621	auth_cas	field_map_alternatename		\N
+1623	2	1586902621	auth_cas	field_updatelocal_alternatename	oncreate	\N
+1624	2	1586902621	auth_cas	field_updateremote_alternatename	0	\N
+1625	2	1586902621	auth_cas	field_lock_alternatename	unlocked	\N
+1626	2	1586902621	auth_email	recaptcha	0	\N
+1627	2	1586902621	auth_email	field_lock_firstname	unlocked	\N
+1628	2	1586902621	auth_email	field_lock_lastname	unlocked	\N
+1629	2	1586902621	auth_email	field_lock_email	unlocked	\N
+1630	2	1586902621	auth_email	field_lock_city	unlocked	\N
+1631	2	1586902621	auth_email	field_lock_country	unlocked	\N
+1632	2	1586902621	auth_email	field_lock_lang	unlocked	\N
+1633	2	1586902621	auth_email	field_lock_description	unlocked	\N
+1634	2	1586902621	auth_email	field_lock_url	unlocked	\N
+1635	2	1586902621	auth_email	field_lock_idnumber	unlocked	\N
+1636	2	1586902622	auth_email	field_lock_institution	unlocked	\N
+1637	2	1586902622	auth_email	field_lock_department	unlocked	\N
+1638	2	1586902622	auth_email	field_lock_phone1	unlocked	\N
+1639	2	1586902622	auth_email	field_lock_phone2	unlocked	\N
+1640	2	1586902622	auth_email	field_lock_address	unlocked	\N
+1641	2	1586902622	auth_email	field_lock_firstnamephonetic	unlocked	\N
+1642	2	1586902622	auth_email	field_lock_lastnamephonetic	unlocked	\N
+1643	2	1586902622	auth_email	field_lock_middlename	unlocked	\N
+1644	2	1586902622	auth_email	field_lock_alternatename	unlocked	\N
+1645	2	1586902622	auth_db	host	127.0.0.1	\N
+1646	2	1586902622	auth_db	type	mysqli	\N
+1647	2	1586902622	auth_db	sybasequoting	0	\N
+1648	2	1586902622	auth_db	name		\N
+1649	2	1586902622	auth_db	user		\N
+1650	2	1586902622	auth_db	pass		\N
+1651	2	1586902622	auth_db	table		\N
+1652	2	1586902622	auth_db	fielduser		\N
+1653	2	1586902622	auth_db	fieldpass		\N
+1654	2	1586902622	auth_db	passtype	plaintext	\N
+1655	2	1586902622	auth_db	extencoding	utf-8	\N
+1656	2	1586902622	auth_db	setupsql		\N
+1657	2	1586902622	auth_db	debugauthdb	0	\N
+1658	2	1586902622	auth_db	changepasswordurl		\N
+1659	2	1586902622	auth_db	removeuser	0	\N
+1660	2	1586902622	auth_db	updateusers	0	\N
+1661	2	1586902622	auth_db	field_map_firstname		\N
+1662	2	1586902622	auth_db	field_updatelocal_firstname	oncreate	\N
+1663	2	1586902622	auth_db	field_updateremote_firstname	0	\N
+1664	2	1586902622	auth_db	field_lock_firstname	unlocked	\N
+1665	2	1586902622	auth_db	field_map_lastname		\N
+1666	2	1586902622	auth_db	field_updatelocal_lastname	oncreate	\N
+1667	2	1586902622	auth_db	field_updateremote_lastname	0	\N
+1668	2	1586902622	auth_db	field_lock_lastname	unlocked	\N
+1669	2	1586902622	auth_db	field_map_email		\N
+1670	2	1586902622	auth_db	field_updatelocal_email	oncreate	\N
+1671	2	1586902622	auth_db	field_updateremote_email	0	\N
+1672	2	1586902622	auth_db	field_lock_email	unlocked	\N
+1673	2	1586902622	auth_db	field_map_city		\N
+1674	2	1586902622	auth_db	field_updatelocal_city	oncreate	\N
+1675	2	1586902622	auth_db	field_updateremote_city	0	\N
+1676	2	1586902622	auth_db	field_lock_city	unlocked	\N
+1677	2	1586902622	auth_db	field_map_country		\N
+1678	2	1586902622	auth_db	field_updatelocal_country	oncreate	\N
+1679	2	1586902622	auth_db	field_updateremote_country	0	\N
+1680	2	1586902622	auth_db	field_lock_country	unlocked	\N
+1681	2	1586902622	auth_db	field_map_lang		\N
+1682	2	1586902622	auth_db	field_updatelocal_lang	oncreate	\N
+1683	2	1586902622	auth_db	field_updateremote_lang	0	\N
+1684	2	1586902622	auth_db	field_lock_lang	unlocked	\N
+1685	2	1586902622	auth_db	field_map_description		\N
+1686	2	1586902622	auth_db	field_updatelocal_description	oncreate	\N
+1687	2	1586902622	auth_db	field_updateremote_description	0	\N
+1688	2	1586902622	auth_db	field_lock_description	unlocked	\N
+1689	2	1586902622	auth_db	field_map_url		\N
+1690	2	1586902622	auth_db	field_updatelocal_url	oncreate	\N
+1691	2	1586902622	auth_db	field_updateremote_url	0	\N
+1692	2	1586902622	auth_db	field_lock_url	unlocked	\N
+1693	2	1586902622	auth_db	field_map_idnumber		\N
+1694	2	1586902622	auth_db	field_updatelocal_idnumber	oncreate	\N
+1695	2	1586902622	auth_db	field_updateremote_idnumber	0	\N
+1696	2	1586902622	auth_db	field_lock_idnumber	unlocked	\N
+1697	2	1586902622	auth_db	field_map_institution		\N
+1698	2	1586902622	auth_db	field_updatelocal_institution	oncreate	\N
+1699	2	1586902622	auth_db	field_updateremote_institution	0	\N
+1700	2	1586902622	auth_db	field_lock_institution	unlocked	\N
+1701	2	1586902622	auth_db	field_map_department		\N
+1702	2	1586902622	auth_db	field_updatelocal_department	oncreate	\N
+1703	2	1586902622	auth_db	field_updateremote_department	0	\N
+1704	2	1586902622	auth_db	field_lock_department	unlocked	\N
+1705	2	1586902622	auth_db	field_map_phone1		\N
+1706	2	1586902622	auth_db	field_updatelocal_phone1	oncreate	\N
+1707	2	1586902622	auth_db	field_updateremote_phone1	0	\N
+1708	2	1586902622	auth_db	field_lock_phone1	unlocked	\N
+1709	2	1586902622	auth_db	field_map_phone2		\N
+1710	2	1586902622	auth_db	field_updatelocal_phone2	oncreate	\N
+1711	2	1586902622	auth_db	field_updateremote_phone2	0	\N
+1712	2	1586902622	auth_db	field_lock_phone2	unlocked	\N
+1713	2	1586902622	auth_db	field_map_address		\N
+1714	2	1586902622	auth_db	field_updatelocal_address	oncreate	\N
+1715	2	1586902622	auth_db	field_updateremote_address	0	\N
+1716	2	1586902622	auth_db	field_lock_address	unlocked	\N
+1717	2	1586902622	auth_db	field_map_firstnamephonetic		\N
+1718	2	1586902622	auth_db	field_updatelocal_firstnamephonetic	oncreate	\N
+1719	2	1586902622	auth_db	field_updateremote_firstnamephonetic	0	\N
+1720	2	1586902622	auth_db	field_lock_firstnamephonetic	unlocked	\N
+1721	2	1586902622	auth_db	field_map_lastnamephonetic		\N
+1722	2	1586902622	auth_db	field_updatelocal_lastnamephonetic	oncreate	\N
+1723	2	1586902622	auth_db	field_updateremote_lastnamephonetic	0	\N
+1724	2	1586902622	auth_db	field_lock_lastnamephonetic	unlocked	\N
+1725	2	1586902622	auth_db	field_map_middlename		\N
+1726	2	1586902622	auth_db	field_updatelocal_middlename	oncreate	\N
+1727	2	1586902622	auth_db	field_updateremote_middlename	0	\N
+1728	2	1586902622	auth_db	field_lock_middlename	unlocked	\N
+1729	2	1586902622	auth_db	field_map_alternatename		\N
+1730	2	1586902622	auth_db	field_updatelocal_alternatename	oncreate	\N
+1731	2	1586902622	auth_db	field_updateremote_alternatename	0	\N
+1732	2	1586902622	auth_db	field_lock_alternatename	unlocked	\N
+1733	2	1586902622	auth_ldap	field_map_firstname		\N
+1734	2	1586902622	auth_ldap	field_updatelocal_firstname	oncreate	\N
+1735	2	1586902622	auth_ldap	field_updateremote_firstname	0	\N
+1736	2	1586902622	auth_ldap	field_lock_firstname	unlocked	\N
+1737	2	1586902622	auth_ldap	field_map_lastname		\N
+1738	2	1586902622	auth_ldap	field_updatelocal_lastname	oncreate	\N
+1739	2	1586902622	auth_ldap	field_updateremote_lastname	0	\N
+1740	2	1586902622	auth_ldap	field_lock_lastname	unlocked	\N
+1741	2	1586902622	auth_ldap	field_map_email		\N
+1742	2	1586902622	auth_ldap	field_updatelocal_email	oncreate	\N
+1743	2	1586902622	auth_ldap	field_updateremote_email	0	\N
+1744	2	1586902622	auth_ldap	field_lock_email	unlocked	\N
+1745	2	1586902622	auth_ldap	field_map_city		\N
+1746	2	1586902622	auth_ldap	field_updatelocal_city	oncreate	\N
+1747	2	1586902622	auth_ldap	field_updateremote_city	0	\N
+1748	2	1586902622	auth_ldap	field_lock_city	unlocked	\N
+1749	2	1586902622	auth_ldap	field_map_country		\N
+1750	2	1586902622	auth_ldap	field_updatelocal_country	oncreate	\N
+1751	2	1586902622	auth_ldap	field_updateremote_country	0	\N
+1752	2	1586902622	auth_ldap	field_lock_country	unlocked	\N
+1753	2	1586902622	auth_ldap	field_map_lang		\N
+1754	2	1586902622	auth_ldap	field_updatelocal_lang	oncreate	\N
+1755	2	1586902622	auth_ldap	field_updateremote_lang	0	\N
+1756	2	1586902622	auth_ldap	field_lock_lang	unlocked	\N
+1757	2	1586902622	auth_ldap	field_map_description		\N
+1758	2	1586902622	auth_ldap	field_updatelocal_description	oncreate	\N
+1759	2	1586902622	auth_ldap	field_updateremote_description	0	\N
+1760	2	1586902622	auth_ldap	field_lock_description	unlocked	\N
+1761	2	1586902622	auth_ldap	field_map_url		\N
+1762	2	1586902622	auth_ldap	field_updatelocal_url	oncreate	\N
+1763	2	1586902622	auth_ldap	field_updateremote_url	0	\N
+1764	2	1586902622	auth_ldap	field_lock_url	unlocked	\N
+1765	2	1586902622	auth_ldap	field_map_idnumber		\N
+1766	2	1586902622	auth_ldap	field_updatelocal_idnumber	oncreate	\N
+1767	2	1586902622	auth_ldap	field_updateremote_idnumber	0	\N
+1768	2	1586902622	auth_ldap	field_lock_idnumber	unlocked	\N
+1769	2	1586902622	auth_ldap	field_map_institution		\N
+1770	2	1586902622	auth_ldap	field_updatelocal_institution	oncreate	\N
+1771	2	1586902622	auth_ldap	field_updateremote_institution	0	\N
+1772	2	1586902622	auth_ldap	field_lock_institution	unlocked	\N
+1773	2	1586902622	auth_ldap	field_map_department		\N
+1774	2	1586902622	auth_ldap	field_updatelocal_department	oncreate	\N
+1775	2	1586902622	auth_ldap	field_updateremote_department	0	\N
+1776	2	1586902622	auth_ldap	field_lock_department	unlocked	\N
+1777	2	1586902622	auth_ldap	field_map_phone1		\N
+1778	2	1586902622	auth_ldap	field_updatelocal_phone1	oncreate	\N
+1779	2	1586902622	auth_ldap	field_updateremote_phone1	0	\N
+1780	2	1586902622	auth_ldap	field_lock_phone1	unlocked	\N
+1781	2	1586902622	auth_ldap	field_map_phone2		\N
+1782	2	1586902622	auth_ldap	field_updatelocal_phone2	oncreate	\N
+1783	2	1586902622	auth_ldap	field_updateremote_phone2	0	\N
+1784	2	1586902622	auth_ldap	field_lock_phone2	unlocked	\N
+1785	2	1586902622	auth_ldap	field_map_address		\N
+1786	2	1586902622	auth_ldap	field_updatelocal_address	oncreate	\N
+1787	2	1586902622	auth_ldap	field_updateremote_address	0	\N
+1788	2	1586902622	auth_ldap	field_lock_address	unlocked	\N
+1789	2	1586902622	auth_ldap	field_map_firstnamephonetic		\N
+1790	2	1586902622	auth_ldap	field_updatelocal_firstnamephonetic	oncreate	\N
+1791	2	1586902622	auth_ldap	field_updateremote_firstnamephonetic	0	\N
+1792	2	1586902622	auth_ldap	field_lock_firstnamephonetic	unlocked	\N
+1793	2	1586902622	auth_ldap	field_map_lastnamephonetic		\N
+1794	2	1586902622	auth_ldap	field_updatelocal_lastnamephonetic	oncreate	\N
+1795	2	1586902622	auth_ldap	field_updateremote_lastnamephonetic	0	\N
+1796	2	1586902622	auth_ldap	field_lock_lastnamephonetic	unlocked	\N
+1797	2	1586902622	auth_ldap	field_map_middlename		\N
+1798	2	1586902622	auth_ldap	field_updatelocal_middlename	oncreate	\N
+1799	2	1586902622	auth_ldap	field_updateremote_middlename	0	\N
+1800	2	1586902622	auth_ldap	field_lock_middlename	unlocked	\N
+1801	2	1586902622	auth_ldap	field_map_alternatename		\N
+1802	2	1586902622	auth_ldap	field_updatelocal_alternatename	oncreate	\N
+1803	2	1586902622	auth_ldap	field_updateremote_alternatename	0	\N
+1804	2	1586902622	auth_ldap	field_lock_alternatename	unlocked	\N
+1805	2	1586902622	auth_manual	expiration	0	\N
+1806	2	1586902622	auth_manual	expirationtime	30	\N
+1807	2	1586902622	auth_manual	expiration_warning	0	\N
+1808	2	1586902622	auth_manual	field_lock_firstname	unlocked	\N
+1809	2	1586902622	auth_manual	field_lock_lastname	unlocked	\N
+1810	2	1586902622	auth_manual	field_lock_email	unlocked	\N
+1811	2	1586902622	auth_manual	field_lock_city	unlocked	\N
+1812	2	1586902622	auth_manual	field_lock_country	unlocked	\N
+1813	2	1586902622	auth_manual	field_lock_lang	unlocked	\N
+1814	2	1586902622	auth_manual	field_lock_description	unlocked	\N
+1815	2	1586902622	auth_manual	field_lock_url	unlocked	\N
+1816	2	1586902622	auth_manual	field_lock_idnumber	unlocked	\N
+1817	2	1586902622	auth_manual	field_lock_institution	unlocked	\N
+1818	2	1586902622	auth_manual	field_lock_department	unlocked	\N
+1819	2	1586902622	auth_manual	field_lock_phone1	unlocked	\N
+1820	2	1586902622	auth_manual	field_lock_phone2	unlocked	\N
+1821	2	1586902622	auth_manual	field_lock_address	unlocked	\N
+1822	2	1586902622	auth_manual	field_lock_firstnamephonetic	unlocked	\N
+1823	2	1586902622	auth_manual	field_lock_lastnamephonetic	unlocked	\N
+1824	2	1586902622	auth_manual	field_lock_middlename	unlocked	\N
+1825	2	1586902622	auth_manual	field_lock_alternatename	unlocked	\N
+1826	2	1586902622	auth_mnet	rpc_negotiation_timeout	30	\N
+1827	2	1586902622	auth_none	field_lock_firstname	unlocked	\N
+1828	2	1586902622	auth_none	field_lock_lastname	unlocked	\N
+1829	2	1586902622	auth_none	field_lock_email	unlocked	\N
+1830	2	1586902622	auth_none	field_lock_city	unlocked	\N
+1831	2	1586902622	auth_none	field_lock_country	unlocked	\N
+1832	2	1586902622	auth_none	field_lock_lang	unlocked	\N
+1833	2	1586902622	auth_none	field_lock_description	unlocked	\N
+1834	2	1586902622	auth_none	field_lock_url	unlocked	\N
+1835	2	1586902622	auth_none	field_lock_idnumber	unlocked	\N
+1836	2	1586902622	auth_none	field_lock_institution	unlocked	\N
+1837	2	1586902622	auth_none	field_lock_department	unlocked	\N
+1838	2	1586902622	auth_none	field_lock_phone1	unlocked	\N
+1839	2	1586902622	auth_none	field_lock_phone2	unlocked	\N
+1840	2	1586902622	auth_none	field_lock_address	unlocked	\N
+1841	2	1586902622	auth_none	field_lock_firstnamephonetic	unlocked	\N
+1842	2	1586902622	auth_none	field_lock_lastnamephonetic	unlocked	\N
+1843	2	1586902622	auth_none	field_lock_middlename	unlocked	\N
+1844	2	1586902622	auth_none	field_lock_alternatename	unlocked	\N
+1845	2	1586902622	auth_oauth2	field_lock_firstname	unlocked	\N
+1846	2	1586902622	auth_oauth2	field_lock_lastname	unlocked	\N
+1847	2	1586902622	auth_oauth2	field_lock_email	unlocked	\N
+1848	2	1586902622	auth_oauth2	field_lock_city	unlocked	\N
+1849	2	1586902622	auth_oauth2	field_lock_country	unlocked	\N
+1850	2	1586902622	auth_oauth2	field_lock_lang	unlocked	\N
+1851	2	1586902622	auth_oauth2	field_lock_description	unlocked	\N
+1852	2	1586902622	auth_oauth2	field_lock_url	unlocked	\N
+1853	2	1586902622	auth_oauth2	field_lock_idnumber	unlocked	\N
+1854	2	1586902622	auth_oauth2	field_lock_institution	unlocked	\N
+1855	2	1586902622	auth_oauth2	field_lock_department	unlocked	\N
+1856	2	1586902622	auth_oauth2	field_lock_phone1	unlocked	\N
+1857	2	1586902622	auth_oauth2	field_lock_phone2	unlocked	\N
+1858	2	1586902622	auth_oauth2	field_lock_address	unlocked	\N
+1859	2	1586902622	auth_oauth2	field_lock_firstnamephonetic	unlocked	\N
+1860	2	1586902622	auth_oauth2	field_lock_lastnamephonetic	unlocked	\N
+1861	2	1586902622	auth_oauth2	field_lock_middlename	unlocked	\N
+1862	2	1586902622	auth_oauth2	field_lock_alternatename	unlocked	\N
+1863	2	1586902622	auth_shibboleth	user_attribute		\N
+1864	2	1586902622	auth_shibboleth	convert_data		\N
+1865	2	1586902622	auth_shibboleth	alt_login	off	\N
+1866	2	1586902622	auth_shibboleth	organization_selection	urn:mace:organization1:providerID, Example Organization 1\n        https://another.idp-id.com/shibboleth, Other Example Organization, /Shibboleth.sso/DS/SWITCHaai\n        urn:mace:organization2:providerID, Example Organization 2, /Shibboleth.sso/WAYF/SWITCHaai	\N
+1867	2	1586902622	auth_shibboleth	logout_handler		\N
+1868	2	1586902622	auth_shibboleth	logout_return_url		\N
+1869	2	1586902622	auth_shibboleth	login_name	Shibboleth Login	\N
+1870	2	1586902622	auth_shibboleth	auth_logo		\N
+1871	2	1586902622	auth_shibboleth	auth_instructions	Use the <a href="http://moodlecloud.id/auth/shibboleth/index.php">Shibboleth login</a> to get access via Shibboleth, if your institution supports it.<br />Otherwise, use the normal login form shown here.	\N
+1872	2	1586902622	auth_shibboleth	changepasswordurl		\N
+1873	2	1586902622	auth_shibboleth	field_map_firstname		\N
+1874	2	1586902622	auth_shibboleth	field_updatelocal_firstname	oncreate	\N
+1875	2	1586902622	auth_shibboleth	field_lock_firstname	unlocked	\N
+1876	2	1586902622	auth_shibboleth	field_map_lastname		\N
+1877	2	1586902622	auth_shibboleth	field_updatelocal_lastname	oncreate	\N
+1878	2	1586902622	auth_shibboleth	field_lock_lastname	unlocked	\N
+1879	2	1586902622	auth_shibboleth	field_map_email		\N
+1880	2	1586902622	auth_shibboleth	field_updatelocal_email	oncreate	\N
+1881	2	1586902622	auth_shibboleth	field_lock_email	unlocked	\N
+1882	2	1586902622	auth_shibboleth	field_map_city		\N
+1883	2	1586902622	auth_shibboleth	field_updatelocal_city	oncreate	\N
+1884	2	1586902622	auth_shibboleth	field_lock_city	unlocked	\N
+1885	2	1586902622	auth_shibboleth	field_map_country		\N
+1886	2	1586902622	auth_shibboleth	field_updatelocal_country	oncreate	\N
+1887	2	1586902622	auth_shibboleth	field_lock_country	unlocked	\N
+1888	2	1586902622	auth_shibboleth	field_map_lang		\N
+1889	2	1586902622	auth_shibboleth	field_updatelocal_lang	oncreate	\N
+1890	2	1586902622	auth_shibboleth	field_lock_lang	unlocked	\N
+1891	2	1586902622	auth_shibboleth	field_map_description		\N
+1892	2	1586902622	auth_shibboleth	field_updatelocal_description	oncreate	\N
+1893	2	1586902622	auth_shibboleth	field_lock_description	unlocked	\N
+1894	2	1586902622	auth_shibboleth	field_map_url		\N
+1895	2	1586902622	auth_shibboleth	field_updatelocal_url	oncreate	\N
+1896	2	1586902622	auth_shibboleth	field_lock_url	unlocked	\N
+1897	2	1586902622	auth_shibboleth	field_map_idnumber		\N
+1898	2	1586902622	auth_shibboleth	field_updatelocal_idnumber	oncreate	\N
+1899	2	1586902622	auth_shibboleth	field_lock_idnumber	unlocked	\N
+1900	2	1586902622	auth_shibboleth	field_map_institution		\N
+1901	2	1586902622	auth_shibboleth	field_updatelocal_institution	oncreate	\N
+1902	2	1586902622	auth_shibboleth	field_lock_institution	unlocked	\N
+1903	2	1586902622	auth_shibboleth	field_map_department		\N
+1904	2	1586902622	auth_shibboleth	field_updatelocal_department	oncreate	\N
+1905	2	1586902622	auth_shibboleth	field_lock_department	unlocked	\N
+1906	2	1586902622	auth_shibboleth	field_map_phone1		\N
+1907	2	1586902623	auth_shibboleth	field_updatelocal_phone1	oncreate	\N
+1908	2	1586902623	auth_shibboleth	field_lock_phone1	unlocked	\N
+1909	2	1586902623	auth_shibboleth	field_map_phone2		\N
+1910	2	1586902623	auth_shibboleth	field_updatelocal_phone2	oncreate	\N
+1911	2	1586902623	auth_shibboleth	field_lock_phone2	unlocked	\N
+1912	2	1586902623	auth_shibboleth	field_map_address		\N
+1913	2	1586902623	auth_shibboleth	field_updatelocal_address	oncreate	\N
+1914	2	1586902623	auth_shibboleth	field_lock_address	unlocked	\N
+1915	2	1586902623	auth_shibboleth	field_map_firstnamephonetic		\N
+1916	2	1586902623	auth_shibboleth	field_updatelocal_firstnamephonetic	oncreate	\N
+1917	2	1586902623	auth_shibboleth	field_lock_firstnamephonetic	unlocked	\N
+1918	2	1586902623	auth_shibboleth	field_map_lastnamephonetic		\N
+1919	2	1586902623	auth_shibboleth	field_updatelocal_lastnamephonetic	oncreate	\N
+1920	2	1586902623	auth_shibboleth	field_lock_lastnamephonetic	unlocked	\N
+1921	2	1586902623	auth_shibboleth	field_map_middlename		\N
+1922	2	1586902623	auth_shibboleth	field_updatelocal_middlename	oncreate	\N
+1923	2	1586902623	auth_shibboleth	field_lock_middlename	unlocked	\N
+1924	2	1586902623	auth_shibboleth	field_map_alternatename		\N
+1925	2	1586902623	auth_shibboleth	field_updatelocal_alternatename	oncreate	\N
+1926	2	1586902623	auth_shibboleth	field_lock_alternatename	unlocked	\N
+1927	2	1586902623	block_activity_results	config_showbest	3	\N
+1928	2	1586902623	block_activity_results	config_showbest_locked		\N
+1929	2	1586902623	block_activity_results	config_showworst	0	\N
+1930	2	1586902623	block_activity_results	config_showworst_locked		\N
+1931	2	1586902623	block_activity_results	config_usegroups	0	\N
+1932	2	1586902623	block_activity_results	config_usegroups_locked		\N
+1933	2	1586902623	block_activity_results	config_nameformat	1	\N
+1934	2	1586902623	block_activity_results	config_nameformat_locked		\N
+1935	2	1586902623	block_activity_results	config_gradeformat	1	\N
+1936	2	1586902623	block_activity_results	config_gradeformat_locked		\N
+1937	2	1586902623	block_activity_results	config_decimalpoints	2	\N
+1938	2	1586902623	block_activity_results	config_decimalpoints_locked		\N
+1939	2	1586902623	\N	block_course_list_adminview	all	\N
+1940	2	1586902623	\N	block_course_list_hideallcourseslink	0	\N
+1941	2	1586902623	\N	block_html_allowcssclasses	0	\N
+1942	2	1586902623	\N	block_online_users_timetosee	5	\N
+1943	2	1586902623	\N	block_rss_client_num_entries	5	\N
+1944	2	1586902623	\N	block_rss_client_timeout	30	\N
+1945	2	1586902623	block_section_links	numsections1	22	\N
+1946	2	1586902623	block_section_links	incby1	2	\N
+1947	2	1586902623	block_section_links	numsections2	40	\N
+1948	2	1586902623	block_section_links	incby2	5	\N
+1949	2	1586902623	block_tag_youtube	apikey		\N
+1950	2	1586902623	format_singleactivity	activitytype	forum	\N
+1951	2	1586902623	fileconverter_googledrive	issuerid		\N
+1952	2	1586902623	\N	pathtounoconv	/usr/bin/unoconv	\N
+1953	2	1586902623	enrol_cohort	roleid	5	\N
+1954	2	1586902623	enrol_cohort	unenrolaction	0	\N
+1955	2	1586902623	enrol_meta	nosyncroleids		\N
+1956	2	1586902623	enrol_meta	syncall	1	\N
+1957	2	1586902623	enrol_meta	unenrolaction	3	\N
+1958	2	1586902623	enrol_meta	coursesort	sortorder	\N
+1959	2	1586902623	enrol_database	dbtype		\N
+1960	2	1586902623	enrol_database	dbhost	localhost	\N
+1961	2	1586902623	enrol_database	dbuser		\N
+1962	2	1586902623	enrol_database	dbpass		\N
+1963	2	1586902623	enrol_database	dbname		\N
+1964	2	1586902623	enrol_database	dbencoding	utf-8	\N
+1965	2	1586902623	enrol_database	dbsetupsql		\N
+1966	2	1586902623	enrol_database	dbsybasequoting	0	\N
+1967	2	1586902623	enrol_database	debugdb	0	\N
+1968	2	1586902623	enrol_database	localcoursefield	idnumber	\N
+1969	2	1586902623	enrol_database	localuserfield	idnumber	\N
+1970	2	1586902623	enrol_database	localrolefield	shortname	\N
+1971	2	1586902623	enrol_database	localcategoryfield	id	\N
+1972	2	1586902623	enrol_database	remoteenroltable		\N
+1973	2	1586902623	enrol_database	remotecoursefield		\N
+1974	2	1586902623	enrol_database	remoteuserfield		\N
+1975	2	1586902623	enrol_database	remoterolefield		\N
+1976	2	1586902623	enrol_database	remoteotheruserfield		\N
+1977	2	1586902623	enrol_database	defaultrole	5	\N
+1978	2	1586902623	enrol_database	ignorehiddencourses	0	\N
+1979	2	1586902623	enrol_database	unenrolaction	0	\N
+1980	2	1586902623	enrol_database	newcoursetable		\N
+1981	2	1586902623	enrol_database	newcoursefullname	fullname	\N
+1982	2	1586902623	enrol_database	newcourseshortname	shortname	\N
+1983	2	1586902623	enrol_database	newcourseidnumber	idnumber	\N
+1984	2	1586902623	enrol_database	newcoursecategory		\N
+1985	2	1586902623	enrol_database	defaultcategory	1	\N
+1986	2	1586902623	enrol_database	templatecourse		\N
+1987	2	1586902623	enrol_flatfile	location		\N
+1988	2	1586902623	enrol_flatfile	encoding	UTF-8	\N
+1989	2	1586902623	enrol_flatfile	mailstudents	0	\N
+1990	2	1586902623	enrol_flatfile	mailteachers	0	\N
+1991	2	1586902623	enrol_flatfile	mailadmins	0	\N
+1992	2	1586902623	enrol_flatfile	unenrolaction	3	\N
+1993	2	1586902623	enrol_flatfile	expiredaction	3	\N
+1994	2	1586902623	enrol_guest	requirepassword	0	\N
+1995	2	1586902623	enrol_guest	usepasswordpolicy	0	\N
+1996	2	1586902623	enrol_guest	showhint	0	\N
+1997	2	1586902623	enrol_guest	defaultenrol	1	\N
+1998	2	1586902623	enrol_guest	status	1	\N
+1999	2	1586902623	enrol_guest	status_adv		\N
+2000	2	1586902623	enrol_imsenterprise	imsfilelocation		\N
+2001	2	1586902623	enrol_imsenterprise	logtolocation		\N
+2002	2	1586902623	enrol_imsenterprise	mailadmins	0	\N
+2003	2	1586902623	enrol_imsenterprise	createnewusers	0	\N
+2004	2	1586902623	enrol_imsenterprise	imsupdateusers	0	\N
+2005	2	1586902623	enrol_imsenterprise	imsdeleteusers	0	\N
+2006	2	1586902623	enrol_imsenterprise	fixcaseusernames	0	\N
+2007	2	1586902623	enrol_imsenterprise	fixcasepersonalnames	0	\N
+2008	2	1586902623	enrol_imsenterprise	imssourcedidfallback	0	\N
+2009	2	1586902623	enrol_imsenterprise	imsrolemap01	5	\N
+2010	2	1586902623	enrol_imsenterprise	imsrolemap02	3	\N
+2011	2	1586902623	enrol_imsenterprise	imsrolemap03	3	\N
+2012	2	1586902623	enrol_imsenterprise	imsrolemap04	5	\N
+2013	2	1586902623	enrol_imsenterprise	imsrolemap05	0	\N
+2014	2	1586902623	enrol_imsenterprise	imsrolemap06	4	\N
+2015	2	1586902623	enrol_imsenterprise	imsrolemap07	0	\N
+2016	2	1586902623	enrol_imsenterprise	imsrolemap08	4	\N
+2017	2	1586902623	enrol_imsenterprise	truncatecoursecodes	0	\N
+2018	2	1586902623	enrol_imsenterprise	createnewcourses	0	\N
+2019	2	1586902623	enrol_imsenterprise	updatecourses	0	\N
+2020	2	1586902623	enrol_imsenterprise	createnewcategories	0	\N
+2021	2	1586902623	enrol_imsenterprise	nestedcategories	0	\N
+2022	2	1586902623	enrol_imsenterprise	categoryidnumber	0	\N
+2023	2	1586902623	enrol_imsenterprise	categoryseparator		\N
+2024	2	1586902623	enrol_imsenterprise	imsunenrol	0	\N
+2025	2	1586902623	enrol_imsenterprise	imscoursemapshortname	coursecode	\N
+2026	2	1586902623	enrol_imsenterprise	imscoursemapfullname	short	\N
+2027	2	1586902623	enrol_imsenterprise	imscoursemapsummary	ignore	\N
+2028	2	1586902623	enrol_imsenterprise	imsrestricttarget		\N
+2029	2	1586902623	enrol_imsenterprise	imscapitafix	0	\N
+2030	2	1586902623	enrol_manual	expiredaction	1	\N
+2031	2	1586902623	enrol_manual	expirynotifyhour	6	\N
+2032	2	1586902623	enrol_manual	defaultenrol	1	\N
+2033	2	1586902623	enrol_manual	status	0	\N
+2034	2	1586902623	enrol_manual	roleid	5	\N
+2035	2	1586902623	enrol_manual	enrolstart	4	\N
+2036	2	1586902623	enrol_manual	enrolperiod	0	\N
+2037	2	1586902623	enrol_manual	expirynotify	0	\N
+2038	2	1586902623	enrol_manual	expirythreshold	86400	\N
+2039	2	1586902623	enrol_mnet	roleid	5	\N
+2040	2	1586902623	enrol_mnet	roleid_adv	1	\N
+2041	2	1586902623	enrol_paypal	paypalbusiness		\N
+2042	2	1586902623	enrol_paypal	mailstudents	0	\N
+2043	2	1586902623	enrol_paypal	mailteachers	0	\N
+2044	2	1586902623	enrol_paypal	mailadmins	0	\N
+2045	2	1586902623	enrol_paypal	expiredaction	3	\N
+2046	2	1586902623	enrol_paypal	status	1	\N
+2047	2	1586902623	enrol_paypal	cost	0	\N
+2048	2	1586902623	enrol_paypal	currency	USD	\N
+2049	2	1586902623	enrol_paypal	roleid	5	\N
+2050	2	1586902623	enrol_paypal	enrolperiod	0	\N
+2051	2	1586902623	enrol_lti	emaildisplay	2	\N
+2052	2	1586902623	enrol_lti	city		\N
+2053	2	1586902623	enrol_lti	country		\N
+2054	2	1586902623	enrol_lti	timezone	99	\N
+2055	2	1586902623	enrol_lti	lang	en	\N
+2056	2	1586902623	enrol_lti	institution		\N
+2057	2	1586902623	enrol_self	requirepassword	0	\N
+2058	2	1586902623	enrol_self	usepasswordpolicy	0	\N
+2059	2	1586902623	enrol_self	showhint	0	\N
+2060	2	1586902623	enrol_self	expiredaction	1	\N
+2061	2	1586902623	enrol_self	expirynotifyhour	6	\N
+2062	2	1586902623	enrol_self	defaultenrol	1	\N
+2063	2	1586902623	enrol_self	status	1	\N
+2064	2	1586902623	enrol_self	newenrols	1	\N
+2065	2	1586902623	enrol_self	groupkey	0	\N
+2066	2	1586902623	enrol_self	roleid	5	\N
+2067	2	1586902623	enrol_self	enrolperiod	0	\N
+2068	2	1586902623	enrol_self	expirynotify	0	\N
+2069	2	1586902623	enrol_self	expirythreshold	86400	\N
+2070	2	1586902623	enrol_self	longtimenosee	0	\N
+2071	2	1586902623	enrol_self	maxenrolled	0	\N
+2072	2	1586902623	enrol_self	sendcoursewelcomemessage	1	\N
+2073	2	1586902623	filter_urltolink	formats	0	\N
+2074	2	1586902623	filter_urltolink	embedimages	1	\N
+2075	2	1586902623	filter_emoticon	formats	1,4,0	\N
+2076	2	1586902623	filter_mathjaxloader	httpsurl	https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js	\N
+2077	2	1586902623	filter_mathjaxloader	texfiltercompatibility	0	\N
+2078	2	1586902623	filter_mathjaxloader	mathjaxconfig	\nMathJax.Hub.Config({\n    config: ["Accessible.js", "Safe.js"],\n    errorSettings: { message: ["!"] },\n    skipStartupTypeset: true,\n    messageStyle: "none"\n});\n	\N
+2079	2	1586902623	filter_mathjaxloader	additionaldelimiters		\N
+2080	2	1586902623	filter_wiris	filter_standalone		\N
+2081	2	1586902623	\N	filter_multilang_force_old	0	\N
+2082	2	1586902623	filter_tex	latexpreamble	\\usepackage[latin1]{inputenc}\n\\usepackage{amsmath}\n\\usepackage{amsfonts}\n\\RequirePackage{amsmath,amssymb,latexsym}\n	\N
+2083	2	1586902623	filter_tex	latexbackground	#FFFFFF	\N
+2084	2	1586902623	filter_tex	density	120	\N
+2085	2	1586902623	filter_tex	pathlatex	/usr/bin/latex	\N
+2086	2	1586902623	filter_tex	pathdvips	/usr/bin/dvips	\N
+2087	2	1586902623	filter_tex	pathconvert	/usr/bin/convert	\N
+2088	2	1586902623	filter_tex	pathdvisvgm	/usr/bin/dvisvgm	\N
+2089	2	1586902623	filter_tex	pathmimetex		\N
+2090	2	1586902623	filter_tex	convertformat	gif	\N
+2091	2	1586902623	\N	filter_censor_badwords		\N
+2092	2	1586902623	local_analytics	enabled	1	\N
+2093	2	1586902623	local_analytics	guniversal	1	\N
+2094	2	1586902623	local_analytics	ganalytics		\N
+2095	2	1586902623	local_analytics	analyticsid		\N
+2096	2	1586902623	local_analytics	anonymizeip	1	\N
+2097	2	1586902623	local_analytics	piwik	1	\N
+2098	2	1586902623	local_analytics	siteid	1	\N
+2099	2	1586902623	local_analytics	imagetrack	1	\N
+2100	2	1586902623	local_analytics	siteurl		\N
+2101	2	1586902623	local_analytics	trackadmin		\N
+2102	2	1586902623	local_analytics	cleanurl	1	\N
+2103	2	1586902623	local_course_templates	jump_to	1	\N
+2104	2	1586902623	logstore_database	dbdriver		\N
+2105	2	1586902623	logstore_database	dbhost		\N
+2106	2	1586902623	logstore_database	dbuser		\N
+2107	2	1586902623	logstore_database	dbpass		\N
+2108	2	1586902623	logstore_database	dbname		\N
+2109	2	1586902623	logstore_database	dbtable		\N
+2110	2	1586902623	logstore_database	dbpersist	0	\N
+2111	2	1586902623	logstore_database	dbsocket		\N
+2112	2	1586902623	logstore_database	dbport		\N
+2113	2	1586902623	logstore_database	dbschema		\N
+2114	2	1586902623	logstore_database	dbcollation		\N
+2115	2	1586902623	logstore_database	dbhandlesoptions	0	\N
+2116	2	1586902623	logstore_database	buffersize	50	\N
+2117	2	1586902623	logstore_database	logguests	0	\N
+2118	2	1586902623	logstore_database	includelevels	1,2,0	\N
+2119	2	1586902623	logstore_database	includeactions	c,r,u,d	\N
+2120	2	1586902623	logstore_legacy	loglegacy	0	\N
+2121	2	1586902623	\N	logguests	1	\N
+2122	2	1586902623	\N	loglifetime	0	\N
+2123	2	1586902623	logstore_standard	logguests	1	\N
+2124	2	1586902623	logstore_standard	loglifetime	0	\N
+2125	2	1586902623	logstore_standard	buffersize	50	\N
+2126	2	1586902623	media_videojs	videoextensions	html_video,.f4v,.flv	\N
+2127	2	1586902623	media_videojs	audioextensions	html_audio	\N
+2128	2	1586902623	media_videojs	rtmp	0	\N
+2129	2	1586902623	media_videojs	useflash	0	\N
+2130	2	1586902623	media_videojs	youtube	1	\N
+2131	2	1586902623	media_videojs	videocssclass	video-js	\N
+2132	2	1586902623	media_videojs	audiocssclass	video-js	\N
+2133	2	1586902623	media_videojs	limitsize	1	\N
+2134	2	1586902623	\N	jabberhost		\N
+2135	2	1586902623	\N	jabberserver		\N
+2136	2	1586902623	\N	jabberusername		\N
+2137	2	1586902623	\N	jabberpassword		\N
+2138	2	1586902623	\N	jabberport	5222	\N
+2139	2	1586902623	\N	airnotifierurl	https://messages.moodle.net	\N
+2140	2	1586902623	\N	airnotifierport	443	\N
+2141	2	1586902623	\N	airnotifiermobileappname	com.moodle.moodlemobile	\N
+2142	2	1586902623	\N	airnotifierappname	commoodlemoodlemobile	\N
+2143	2	1586902623	\N	airnotifieraccesskey		\N
+2144	2	1586902623	message_telegram	sitebotusername	moodlecloudBot	\N
+2145	2	1586902623	qtype_multichoice	answerhowmany	1	\N
+2146	2	1586902623	qtype_multichoice	shuffleanswers	1	\N
+2147	2	1586902623	qtype_multichoice	answernumbering	abc	\N
+2148	2	1586902623	editor_atto	toolbar	collapse = collapse\nstyle1 = title, bold, italic\nlist = unorderedlist, orderedlist\nlinks = link\nfiles = image, media, recordrtc, managefiles\nstyle2 = underline, strike, subscript, superscript\nalign = align\nindent = indent\ninsert = equation, charmap, table, clear\nundo = undo\naccessibility = accessibilitychecker, accessibilityhelper\nother = html	\N
+2149	2	1586902623	editor_atto	autosavefrequency	60	\N
+2150	2	1586902623	atto_collapse	showgroups	5	\N
+2151	2	1586902623	atto_equation	librarygroup1	\n\\cdot\n\\times\n\\ast\n\\div\n\\diamond\n\\pm\n\\mp\n\\oplus\n\\ominus\n\\otimes\n\\oslash\n\\odot\n\\circ\n\\bullet\n\\asymp\n\\equiv\n\\subseteq\n\\supseteq\n\\leq\n\\geq\n\\preceq\n\\succeq\n\\sim\n\\simeq\n\\approx\n\\subset\n\\supset\n\\ll\n\\gg\n\\prec\n\\succ\n\\infty\n\\in\n\\ni\n\\forall\n\\exists\n\\neq\n	\N
+2152	2	1586902623	atto_equation	librarygroup2	\n\\leftarrow\n\\rightarrow\n\\uparrow\n\\downarrow\n\\leftrightarrow\n\\nearrow\n\\searrow\n\\swarrow\n\\nwarrow\n\\Leftarrow\n\\Rightarrow\n\\Uparrow\n\\Downarrow\n\\Leftrightarrow\n	\N
+2153	2	1586902623	atto_equation	librarygroup3	\n\\alpha\n\\beta\n\\gamma\n\\delta\n\\epsilon\n\\zeta\n\\eta\n\\theta\n\\iota\n\\kappa\n\\lambda\n\\mu\n\\nu\n\\xi\n\\pi\n\\rho\n\\sigma\n\\tau\n\\upsilon\n\\phi\n\\chi\n\\psi\n\\omega\n\\Gamma\n\\Delta\n\\Theta\n\\Lambda\n\\Xi\n\\Pi\n\\Sigma\n\\Upsilon\n\\Phi\n\\Psi\n\\Omega\n	\N
+2154	2	1586902623	atto_equation	librarygroup4	\n\\sum{a,b}\n\\sqrt[a]{b+c}\n\\int_{a}^{b}{c}\n\\iint_{a}^{b}{c}\n\\iiint_{a}^{b}{c}\n\\oint{a}\n(a)\n[a]\n\\lbrace{a}\\rbrace\n\\left| \\begin{matrix} a_1 & a_2 \\ a_3 & a_4 \\end{matrix} \\right|\n\\frac{a}{b+c}\n\\vec{a}\n\\binom {a} {b}\n{a \\brack b}\n{a \\brace b}\n	\N
+2155	2	1586902624	atto_recordrtc	allowedtypes	both	\N
+2156	2	1586902624	atto_recordrtc	audiobitrate	128000	\N
+2157	2	1586902624	atto_recordrtc	videobitrate	2500000	\N
+2158	2	1586902624	atto_recordrtc	timelimit	120	\N
+2159	2	1586902624	atto_table	allowborders	0	\N
+2160	2	1586902624	atto_table	allowbackgroundcolour	0	\N
+2161	2	1586902624	atto_table	allowwidth	0	\N
+2162	2	1586902624	editor_tinymce	customtoolbar	wrap,formatselect,wrap,bold,italic,wrap,bullist,numlist,wrap,link,unlink,wrap,image\n\nundo,redo,wrap,underline,strikethrough,sub,sup,wrap,justifyleft,justifycenter,justifyright,wrap,outdent,indent,wrap,forecolor,backcolor,wrap,ltr,rtl\n\nfontselect,fontsizeselect,wrap,code,search,replace,wrap,nonbreaking,charmap,table,wrap,cleanup,removeformat,pastetext,pasteword,wrap,fullscreen	\N
+2163	2	1586902624	editor_tinymce	fontselectlist	Trebuchet=Trebuchet MS,Verdana,Arial,Helvetica,sans-serif;Arial=arial,helvetica,sans-serif;Courier New=courier new,courier,monospace;Georgia=georgia,times new roman,times,serif;Tahoma=tahoma,arial,helvetica,sans-serif;Times New Roman=times new roman,times,serif;Verdana=verdana,arial,helvetica,sans-serif;Impact=impact;Wingdings=wingdings	\N
+2164	2	1586902624	editor_tinymce	customconfig		\N
+2165	2	1586902624	tinymce_moodleemoticon	requireemoticon	1	\N
+2166	2	1586902624	tinymce_spellchecker	spellengine		\N
+2167	2	1586902624	tinymce_spellchecker	spelllanguagelist	+English=en,Danish=da,Dutch=nl,Finnish=fi,French=fr,German=de,Italian=it,Polish=pl,Portuguese=pt,Spanish=es,Swedish=sv	\N
+2168	2	1586902624	\N	profileroles	5,4,3	\N
+2169	2	1586902624	theme_academi	logo		\N
+2170	2	1586902624	theme_academi	customcss		\N
+2171	2	1586902624	theme_academi	toggleslideshow	1	\N
+2172	2	1586902624	theme_academi	numberofslides	3	\N
+2173	2	1586902624	theme_academi	footlogo	1	\N
+2174	2	1586902624	theme_academi	footnote	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and tronic typesetting, sheets taining Lorem Ipsum passages.<br><a href="#">Read More &raquo;</a></p>	\N
+2175	2	1586902624	theme_academi	infolink	Moodle community|https://moodle.org\r\nMoodle free support|https://moodle.org/support\r\nMoodle development|https://moodle.org/development\r\nMoodle Docs|http://docs.moodle.org|Moodle Docs\r\nMoodle.com|http://moodle.com/	\N
+2176	2	1586902624	theme_academi	copyright_footer	Copyright &copy; 2017 - Developed by <a href="http://lmsace.com">LMSACE.com</a>. Powered by <a href="https://moodle.org">Moodle</a>	\N
+2177	2	1586902624	theme_academi	address	308 Negra Narrow Lane, Albeeze, New york, 87104	\N
+2178	2	1586902624	theme_academi	emailid	info@example.com	\N
+2179	2	1586902624	theme_academi	phoneno	(000) 123-456	\N
+2180	2	1586902624	theme_academi	fburl	https://www.facebook.com/yourfacebookid	\N
+2181	2	1586902624	theme_academi	pinurl	https://in.pinterest.com/yourpinterestname/	\N
+2182	2	1586902624	theme_academi	twurl	https://twitter.com/yourtwittername	\N
+2183	2	1586902624	theme_academi	gpurl	https://www.google.com/+yourgoogleplusid	\N
+2184	2	1586902624	theme_essential	slide1		\N
+2185	2	1586902624	theme_essential	slide1image		\N
+2186	2	1586902624	theme_essential	slide1caption		\N
+2187	2	1586902624	theme_essential	slide1url		\N
+2188	2	1586902624	theme_essential	slide1target	_blank	\N
+2189	2	1586902624	theme_essential	slide2		\N
+2190	2	1586902624	theme_essential	slide2image		\N
+2191	2	1586902624	theme_essential	slide2caption		\N
+2192	2	1586902624	theme_essential	slide2url		\N
+2193	2	1586902624	theme_essential	slide2target	_blank	\N
+2194	2	1586902624	theme_essential	slide3		\N
+2195	2	1586902624	theme_essential	slide3image		\N
+2196	2	1586902624	theme_essential	slide3caption		\N
+2197	2	1586902624	theme_essential	slide3url		\N
+2198	2	1586902624	theme_essential	slide3target	_blank	\N
+2199	2	1586902624	theme_essential	slide4		\N
+2200	2	1586902624	theme_essential	slide4image		\N
+2201	2	1586902624	theme_essential	slide4caption		\N
+2202	2	1586902624	theme_essential	slide4url		\N
+2203	2	1586902624	theme_essential	slide4target	_blank	\N
+2204	2	1586902624	theme_essential	defaultcategoryicon	folder-open	\N
+2205	2	1586902624	theme_essential	defaultcategoryimage		\N
+2206	2	1586902624	theme_essential	enablecustomcategoryicon	0	\N
+2207	2	1586902624	theme_klass	logo		\N
+2208	2	1586902624	theme_klass	customcss		\N
+2209	2	1586902624	theme_klass	whoweare_title	Who we are	\N
+2210	2	1586902624	theme_klass	whoweare_description	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and tronic typesetting, sheets taining Lorem Ipsum passages.<br><a href="#">Read More &raquo;</a></p>	\N
+2211	2	1586902624	theme_klass	toggleslideshow	1	\N
+2212	2	1586902624	theme_klass	numberofslides	3	\N
+2213	2	1586902624	theme_klass	footerlogo		\N
+2214	2	1586902624	theme_klass	footnote	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and tronic typesetting, sheets taining Lorem Ipsum passages.</p>	\N
+2215	2	1586902624	theme_klass	infolink	Moodle community|https://moodle.org\r\nMoodle free support|https://moodle.org/support\r\nMoodle Docs|http://docs.moodle.org|Moodle Docs\r\nMoodle.com|http://moodle.com/	\N
+2216	2	1586902624	theme_klass	copyright_footer	Copyright &copy; 2017 - Developed by <a href="http://lmsace.com">LMSACE.com</a>. Powered by <a href="https://moodle.org">Moodle</a>	\N
+2217	2	1586902624	theme_klass	address	308 Negra Narrow Lane, Albeeze, New york, 87104	\N
+2218	2	1586902624	theme_klass	emailid	info@example.com	\N
+2219	2	1586902624	theme_klass	phoneno	(000) 123-456	\N
+2220	2	1586902624	theme_klass	fburl	https://www.facebook.com/yourfacebookid	\N
+2221	2	1586902624	theme_klass	pinurl	https://in.pinterest.com/yourpinterestname/	\N
+2222	2	1586902624	theme_klass	twurl	https://twitter.com/yourtwittername	\N
+2223	2	1586902624	theme_klass	gpurl	https://www.google.com/+yourgoogleplusid	\N
+2224	2	1586902625	\N	calendar_exportsalt	6UgCwjagAgJnjGSDGAiU7vfS8VNZD1b7BTQlSQRMry0HBztknwns3PXWyJjc	agRNNs5ptVzqDhWt5QP8zwEnGLbcuimD3IJdSSnfci3yAc0J7V5ctC2brmyF
+2225	2	1586902625	\N	coursecontact	3	\N
+2226	2	1586902625	\N	frontpage	6	\N
+2227	2	1586902625	\N	frontpageloggedin	6	\N
+2228	2	1586902625	\N	maxcategorydepth	2	\N
+2229	2	1586902625	\N	frontpagecourselimit	200	\N
+2230	2	1586902625	\N	commentsperpage	15	\N
+2231	2	1586902625	\N	defaultfrontpageroleid	8	\N
+2232	2	1586902625	\N	dbsessions	0	
+2233	2	1586902625	\N	messageinbound_enabled	0	\N
+2234	2	1586902625	\N	messageinbound_mailbox		\N
+2235	2	1586902625	\N	messageinbound_domain		\N
+2236	2	1586902625	\N	messageinbound_host		\N
+2237	2	1586902625	\N	messageinbound_hostssl	ssl	\N
+2238	2	1586902625	\N	messageinbound_hostuser		\N
+2239	2	1586902625	\N	messageinbound_hostpass		\N
+2240	2	1586902625	\N	enablemobilewebservice	0	\N
+2241	2	1586902625	tool_mobile	apppolicy		\N
 \.
 
 
@@ -29545,6 +29491,7 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 754	qtype_truefalse	version	2018120300
 755	mod_assign	version	2018120300
 756	mod_assignment	version	2018120300
+2577	theme_boost	themerev	1586902625
 758	mod_attendance	version	2019052801
 760	mod_bigbluebuttonbn	version	2019042008
 761	mod_book	version	2018120300
@@ -29706,7 +29653,6 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 942	message	message_provider_moodle_availableupdate_loggedin	email
 943	message	message_provider_moodle_availableupdate_loggedoff	email
 944	message	email_provider_moodle_instantmessage_permitted	permitted
-1555	tool_dataprivacy	contactdataprotectionofficer	0
 946	message	email_provider_moodle_backup_permitted	permitted
 947	message	message_provider_moodle_backup_loggedin	email
 948	message	message_provider_moodle_backup_loggedoff	email
@@ -29720,7 +29666,6 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 956	message	message_provider_moodle_courserequestrejected_loggedin	email
 957	message	message_provider_moodle_courserequestrejected_loggedoff	email
 958	message	email_provider_moodle_badgerecipientnotice_permitted	permitted
-1556	tool_dataprivacy	automaticdeletionrequests	1
 960	message	email_provider_moodle_badgecreatornotice_permitted	permitted
 961	message	message_provider_moodle_badgecreatornotice_loggedoff	email
 962	message	email_provider_moodle_competencyplancomment_permitted	permitted
@@ -29733,7 +29678,6 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 969	message	message_provider_moodle_insights_loggedin	email
 970	message	message_provider_moodle_insights_loggedoff	email
 971	message	email_provider_moodle_messagecontactrequests_permitted	permitted
-1557	tool_dataprivacy	privacyrequestexpiry	604800
 973	message	email_provider_mod_forum_posts_permitted	permitted
 974	message	message_provider_mod_forum_posts_loggedin	email
 975	message	message_provider_mod_forum_posts_loggedoff	email
@@ -29741,7 +29685,6 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 977	message	message_provider_mod_forum_digests_loggedin	email
 978	message	message_provider_mod_forum_digests_loggedoff	email
 979	message_jabber	version	2018120300
-1740	questionnaire	usergraph	0
 981	message	jabber_provider_enrol_imsenterprise_imsenterprise_enrolment_permitted	permitted
 982	message	jabber_provider_enrol_paypal_paypal_enrolment_permitted	permitted
 983	message	jabber_provider_mod_feedback_submission_permitted	permitted
@@ -29941,7 +29884,6 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 1190	report_benchmark	version	2020022400
 1191	report_competency	version	2018120300
 1192	report_completion	version	2018120300
-1741	questionnaire	maxsections	10
 1194	report_configlog	version	2018120300
 1195	report_courseoverview	version	2018120300
 1196	report_eventlist	version	2018120300
@@ -30143,12 +30085,8 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 1412	theme_klass	version	2019012601
 1413	theme_more	version	2018120300
 1415	assignsubmission_comments	version	2018120300
-1474	quiz_responses	version	2018120300
-1476	quiz_statistics	version	2018120300
 1420	assignsubmission_file	version	2018120300
 1421	assignsubmission_onlinetext	version	2018120300
-1478	quizaccess_delaybetweenattempts	version	2018120300
-1479	quizaccess_ipaddress	version	2018120300
 1419	assignsubmission_onlinetext	sortorder	0
 1417	assignsubmission_file	sortorder	1
 1418	assignsubmission_comments	sortorder	2
@@ -30198,6 +30136,10 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 1469	ltiservice_toolsettings	version	2018120300
 1470	quiz_grading	version	2018120300
 1472	quiz_overview	version	2018120300
+1474	quiz_responses	version	2018120300
+1476	quiz_statistics	version	2018120300
+1478	quizaccess_delaybetweenattempts	version	2018120300
+1479	quizaccess_ipaddress	version	2018120300
 1480	quizaccess_numattempts	version	2018120300
 1481	quizaccess_offlineattempts	version	2018120300
 1482	quizaccess_openclosedate	version	2018120300
@@ -30255,7 +30197,6 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 1538	tinymce_moodlenolink	version	2018120300
 1539	tinymce_pdw	version	2018120300
 1540	tinymce_spellchecker	version	2018120300
-1558	tool_dataprivacy	requireallenddatesforuserdeletion	1
 1542	tinymce_wrap	version	2018120300
 1543	logstore_database	version	2018120300
 1544	logstore_legacy	version	2018120300
@@ -30269,6 +30210,10 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 1552	local_mailtest	version	2019111700
 1553	local_mobile	version	2018120300
 1554	local_userenrols	version	2018052008
+1555	tool_dataprivacy	contactdataprotectionofficer	0
+1556	tool_dataprivacy	automaticdeletionrequests	1
+1557	tool_dataprivacy	privacyrequestexpiry	604800
+1558	tool_dataprivacy	requireallenddatesforuserdeletion	1
 1559	tool_dataprivacy	showdataretentionsummary	1
 1560	tool_log	exportlog	1
 1561	analytics	logstore	logstore_standard
@@ -30450,6 +30395,8 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 1737	page	display	5
 1738	page	popupwidth	620
 1739	page	popupheight	450
+1740	questionnaire	usergraph	0
+1741	questionnaire	maxsections	10
 1742	questionnaire	downloadoptions	response,submitted,institution,department,course,group,id,fullname,username
 1743	quiz	timelimit	0
 1744	quiz	timelimit_adv	
@@ -30705,6 +30652,7 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 1994	auth_cas	field_updateremote_middlename	0
 1995	auth_cas	field_lock_middlename	unlocked
 1996	auth_cas	field_map_alternatename	
+2413	enrol_paypal	status	1
 1997	auth_cas	field_updatelocal_alternatename	oncreate
 1998	auth_cas	field_updateremote_alternatename	0
 1999	auth_cas	field_lock_alternatename	unlocked
@@ -31121,7 +31069,6 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 2410	enrol_paypal	mailteachers	0
 2411	enrol_paypal	mailadmins	0
 2412	enrol_paypal	expiredaction	3
-2413	enrol_paypal	status	1
 2414	enrol_paypal	cost	0
 2415	enrol_paypal	currency	USD
 2416	enrol_paypal	roleid	5
@@ -31209,7 +31156,6 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 2498	qtype_multichoice	answerhowmany	1
 2499	qtype_multichoice	shuffleanswers	1
 2500	qtype_multichoice	answernumbering	abc
-2567	theme_klass	infolink	Moodle community|https://moodle.org\r\nMoodle free support|https://moodle.org/support\r\nMoodle Docs|http://docs.moodle.org|Moodle Docs\r\nMoodle.com|http://moodle.com/
 2501	editor_atto	toolbar	collapse = collapse\nstyle1 = title, bold, italic\nlist = unorderedlist, orderedlist\nlinks = link\nfiles = image, media, recordrtc, managefiles\nstyle2 = underline, strike, subscript, superscript\nalign = align\nindent = indent\ninsert = equation, charmap, table, clear\nundo = undo\naccessibility = accessibilitychecker, accessibilityhelper\nother = html
 2502	editor_atto	autosavefrequency	60
 2503	atto_collapse	showgroups	5
@@ -31276,6 +31222,7 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 2564	theme_klass	numberofslides	3
 2565	theme_klass	footerlogo	
 2566	theme_klass	footnote	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and tronic typesetting, sheets taining Lorem Ipsum passages.</p>
+2567	theme_klass	infolink	Moodle community|https://moodle.org\r\nMoodle free support|https://moodle.org/support\r\nMoodle Docs|http://docs.moodle.org|Moodle Docs\r\nMoodle.com|http://moodle.com/
 2568	theme_klass	copyright_footer	Copyright &copy; 2017 - Developed by <a href="http://lmsace.com">LMSACE.com</a>. Powered by <a href="https://moodle.org">Moodle</a>
 2569	theme_klass	address	308 Negra Narrow Lane, Albeeze, New york, 87104
 2570	theme_klass	emailid	info@example.com
@@ -31285,43 +31232,6 @@ COPY public.mdl_config_plugins (id, plugin, name, value) FROM stdin;
 2574	theme_klass	twurl	https://twitter.com/yourtwittername
 2575	theme_klass	gpurl	https://www.google.com/+yourgoogleplusid
 2576	tool_mobile	apppolicy	
-2577	theme_boost	themerev	1586879293
-2578	turnitintooltwo	accountid	
-2579	turnitintooltwo	secretkey	
-2580	turnitintooltwo	apiurl	https://sandbox.turnitin.com
-2581	message_telegram	sitebottoken	
-2582	message_telegram	sitebotname	
-2583	theme_academi	slide1image	
-2584	theme_academi	slide1caption	Bootstrap Based Slider - 01
-2585	theme_academi	slide1desc	<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
-2586	theme_academi	slide2image	
-2587	theme_academi	slide2caption	Bootstrap Based Slider - 02
-2588	theme_academi	slide2desc	<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
-2589	theme_academi	slide3image	
-2590	theme_academi	slide3caption	Bootstrap Based Slider - 03
-2591	theme_academi	slide3desc	<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>
-2592	theme_fordson	preset	0
-2593	theme_fordson	marketing1target	_self
-2594	theme_fordson	marketing2target	_self
-2595	theme_fordson	marketing3target	_self
-2596	theme_fordson	marketing4target	_self
-2597	theme_fordson	marketing5target	_self
-2598	theme_fordson	marketing6target	_self
-2599	theme_fordson	marketing7target	_self
-2600	theme_fordson	marketing8target	_self
-2601	theme_fordson	marketing9target	_self
-2602	theme_klass	slide1image	
-2603	theme_klass	slide1caption	Bootstrap Based Slider - 01
-2604	theme_klass	slide1urltext	lang:knowmore
-2605	theme_klass	slide1url	http://www.example.com/
-2606	theme_klass	slide2image	
-2607	theme_klass	slide2caption	Bootstrap Based Slider - 02
-2608	theme_klass	slide2urltext	lang:knowmore
-2609	theme_klass	slide2url	http://www.example.com/
-2610	theme_klass	slide3image	
-2611	theme_klass	slide3caption	Bootstrap Based Slider - 03
-2612	theme_klass	slide3urltext	lang:knowmore
-2613	theme_klass	slide3url	http://moodlecloud.id/
 \.
 
 
@@ -31347,19 +31257,6 @@ COPY public.mdl_context (id, contextlevel, instanceid, path, depth, locked) FROM
 15	80	10	/1/15	2	0
 16	80	11	/1/16	2	0
 17	80	12	/1/17	2	0
-18	80	13	/1/18	2	0
-19	80	14	/1/19	2	0
-20	80	15	/1/5/20	3	0
-21	80	16	/1/5/21	3	0
-22	80	17	/1/5/22	3	0
-23	80	18	/1/5/23	3	0
-24	80	19	/1/5/24	3	0
-25	80	20	/1/5/25	3	0
-26	80	21	/1/5/26	3	0
-27	80	22	/1/5/27	3	0
-28	80	23	/1/5/28	3	0
-29	80	24	/1/5/29	3	0
-30	70	1	/1/2/30	3	0
 \.
 
 
@@ -31376,7 +31273,7 @@ COPY public.mdl_context_temp (id, path, depth, locked) FROM stdin;
 --
 
 COPY public.mdl_course (id, category, sortorder, fullname, shortname, idnumber, summary, summaryformat, format, showgrades, newsitems, startdate, enddate, marker, maxbytes, legacyfiles, showreports, visible, visibleold, groupmode, groupmodeforce, defaultgroupingid, lang, calendartype, theme, timecreated, timemodified, requested, enablecompletion, completionnotify, cacherev) FROM stdin;
-1	0	0	MoodleCloud.id	MoodleCloud		<p>Moodle Cloud Hosting Indonesia</p>	0	site	1	3	0	0	0	0	0	0	1	1	0	0	0				1586879246	1586879484	0	0	0	1586879656
+1	0	0				\N	0	site	1	3	0	0	0	0	0	0	1	1	0	0	0				1586902577	1586902625	0	0	0	1586902625
 \.
 
 
@@ -31385,7 +31282,7 @@ COPY public.mdl_course (id, category, sortorder, fullname, shortname, idnumber, 
 --
 
 COPY public.mdl_course_categories (id, name, idnumber, description, descriptionformat, parent, sortorder, coursecount, visible, visibleold, timemodified, depth, path, theme) FROM stdin;
-1	Miscellaneous	\N	\N	0	0	10000	0	1	1	1586879246	1	/1	\N
+1	Miscellaneous	\N	\N	0	0	10000	0	1	1	1586902577	1	/1	\N
 \.
 
 
@@ -31443,7 +31340,6 @@ COPY public.mdl_course_format_options (id, courseid, format, sectionid, name, va
 --
 
 COPY public.mdl_course_modules (id, course, module, instance, section, idnumber, added, score, indent, visible, visibleoncoursepage, visibleold, groupmode, groupingid, completion, completiongradeitemnumber, completionview, completionexpected, showdescription, availability, deletioninprogress) FROM stdin;
-1	1	11	1	1	\N	1586879654	0	0	1	1	1	0	0	0	\N	0	0	0	\N	0
 \.
 
 
@@ -31476,7 +31372,6 @@ COPY public.mdl_course_request (id, fullname, shortname, summary, summaryformat,
 --
 
 COPY public.mdl_course_sections (id, course, section, name, summary, summaryformat, sequence, visible, availability, timemodified) FROM stdin;
-1	1	0	\N		1	1	1	\N	1586879654
 \.
 
 
@@ -32219,10 +32114,10 @@ COPY public.mdl_external_functions (id, name, classname, methodname, classpath, 
 --
 
 COPY public.mdl_external_services (id, name, enabled, requiredcapability, restrictedusers, component, timecreated, timemodified, shortname, downloadfiles, uploadfiles) FROM stdin;
-2	Attendance	1	\N	0	mod_attendance	1586879263	\N	mod_attendance_ws	0	0
-3	mod_questionnaire_ws	1	\N	1	mod_questionnaire	1586879266	\N	\N	0	0
-4	Moodle Mobile additional features service	0	\N	0	local_mobile	1586879282	\N	local_mobile	1	1
-1	Moodle mobile web service	0	\N	0	moodle	1586879250	1586879293	moodle_mobile_app	1	1
+2	Attendance	1	\N	0	mod_attendance	1586902593	\N	mod_attendance_ws	0	0
+3	mod_questionnaire_ws	1	\N	1	mod_questionnaire	1586902596	\N	\N	0	0
+4	Moodle Mobile additional features service	0	\N	0	local_mobile	1586902613	\N	local_mobile	1	1
+1	Moodle mobile web service	0	\N	0	moodle	1586902581	1586902625	moodle_mobile_app	1	1
 \.
 
 
@@ -32998,13 +32893,13 @@ COPY public.mdl_file_conversion (id, usermodified, timecreated, timemodified, so
 --
 
 COPY public.mdl_files (id, contenthash, pathnamehash, contextid, component, filearea, itemid, filepath, filename, userid, filesize, mimetype, status, source, author, license, timecreated, timemodified, sortorder, referencefileid) FROM stdin;
-1	41cfeee5884a43a4650a851f4f85e7b28316fcc9	a48e186a2cc853a9e94e9305f4e9bc086391212d	1	theme_more	backgroundimage	0	/	background.jpg	2	4451	image/jpeg	0	\N	\N	\N	1586879278	1586879278	0	\N
-2	da39a3ee5e6b4b0d3255bfef95601890afd80709	d1da7ab1bb9c08a926037367bf8ce9a838034ead	1	theme_more	backgroundimage	0	/	.	2	0	\N	0	\N	\N	\N	1586879278	1586879278	0	\N
-3	5f8e911d0da441e36f47c5c46f4393269211ca56	508e674d49c30d4fde325fe6c7f6fd3d56b247e1	1	assignfeedback_editpdf	stamps	0	/	smile.png	2	1085	image/png	0	\N	\N	\N	1586879279	1586879279	0	\N
-4	da39a3ee5e6b4b0d3255bfef95601890afd80709	70b7cdade7b4e27d4e83f0cdaad10d6a3c0cccb5	1	assignfeedback_editpdf	stamps	0	/	.	2	0	\N	0	\N	\N	\N	1586879279	1586879279	0	\N
-5	75c101cb8cb34ea573cd25ac38f8157b1de901b8	68317eab56c67d32aeaee5acf509a0c4aa828b6b	1	assignfeedback_editpdf	stamps	0	/	sad.png	2	966	image/png	0	\N	\N	\N	1586879279	1586879279	0	\N
-6	0c5190a24c3943966541401c883eacaa20ca20cb	695a55ff780e61c9e59428aa425430b0d6bde53b	1	assignfeedback_editpdf	stamps	0	/	tick.png	2	1039	image/png	0	\N	\N	\N	1586879279	1586879279	0	\N
-7	8c96a486d5801e0f4ab8c411f561f1c687e1f865	373e63af262a9b8466ba8632551520be793c37ff	1	assignfeedback_editpdf	stamps	0	/	cross.png	2	861	image/png	0	\N	\N	\N	1586879279	1586879279	0	\N
+1	41cfeee5884a43a4650a851f4f85e7b28316fcc9	a48e186a2cc853a9e94e9305f4e9bc086391212d	1	theme_more	backgroundimage	0	/	background.jpg	2	4451	image/jpeg	0	\N	\N	\N	1586902609	1586902609	0	\N
+2	da39a3ee5e6b4b0d3255bfef95601890afd80709	d1da7ab1bb9c08a926037367bf8ce9a838034ead	1	theme_more	backgroundimage	0	/	.	2	0	\N	0	\N	\N	\N	1586902609	1586902609	0	\N
+3	5f8e911d0da441e36f47c5c46f4393269211ca56	508e674d49c30d4fde325fe6c7f6fd3d56b247e1	1	assignfeedback_editpdf	stamps	0	/	smile.png	2	1085	image/png	0	\N	\N	\N	1586902609	1586902609	0	\N
+4	da39a3ee5e6b4b0d3255bfef95601890afd80709	70b7cdade7b4e27d4e83f0cdaad10d6a3c0cccb5	1	assignfeedback_editpdf	stamps	0	/	.	2	0	\N	0	\N	\N	\N	1586902609	1586902609	0	\N
+5	75c101cb8cb34ea573cd25ac38f8157b1de901b8	68317eab56c67d32aeaee5acf509a0c4aa828b6b	1	assignfeedback_editpdf	stamps	0	/	sad.png	2	966	image/png	0	\N	\N	\N	1586902609	1586902609	0	\N
+6	0c5190a24c3943966541401c883eacaa20ca20cb	695a55ff780e61c9e59428aa425430b0d6bde53b	1	assignfeedback_editpdf	stamps	0	/	tick.png	2	1039	image/png	0	\N	\N	\N	1586902609	1586902609	0	\N
+7	8c96a486d5801e0f4ab8c411f561f1c687e1f865	373e63af262a9b8466ba8632551520be793c37ff	1	assignfeedback_editpdf	stamps	0	/	cross.png	2	861	image/png	0	\N	\N	\N	1586902609	1586902609	0	\N
 \.
 
 
@@ -33056,7 +32951,6 @@ COPY public.mdl_folder (id, course, name, intro, introformat, revision, timemodi
 --
 
 COPY public.mdl_forum (id, course, type, name, intro, introformat, assessed, assesstimestart, assesstimefinish, scale, maxbytes, maxattachments, forcesubscribe, trackingtype, rsstype, rssarticles, timemodified, warnafter, blockafter, blockperiod, completiondiscussions, completionreplies, completionposts, displaywordcount, lockdiscussionafter) FROM stdin;
-1	1	news	Site announcements	General news and announcements	1	0	0	0	0	0	1	0	1	0	0	1586879654	0	0	0	0	0	0	0	0
 \.
 
 
@@ -33553,9 +33447,6 @@ COPY public.mdl_license (id, shortname, fullname, source, enabled, version) FROM
 --
 
 COPY public.mdl_lock_db (id, resourcekey, expires, owner) FROM stdin;
-1	core_modinfo_build_course_cache_1	\N	\N
-2	core_theme_get_css_content_boost	\N	\N
-3	core_theme_get_css_content_essential	\N	\N
 \.
 
 
@@ -33801,69 +33692,6 @@ COPY public.mdl_log_queries (id, qtype, sqltext, sqlparams, error, info, backtra
 --
 
 COPY public.mdl_logstore_standard_log (id, eventname, component, action, target, objecttable, objectid, crud, edulevel, contextid, contextlevel, contextinstanceid, userid, courseid, relateduserid, anonymous, other, timecreated, origin, ip, realuserid) FROM stdin;
-1	\\core\\event\\course_viewed	core	viewed	course	\N	\N	r	2	2	50	1	0	1	\N	0	N;	1586879309	web	10.30.2.20	\N
-2	\\core\\event\\course_viewed	core	viewed	course	\N	\N	r	2	2	50	1	0	1	\N	0	N;	1586879309	web	10.30.2.20	\N
-3	\\core\\event\\user_login_failed	core	failed	user_login	\N	\N	r	0	1	10	0	2	0	\N	0	a:2:{s:8:"username";s:5:"admin";s:6:"reason";i:3;}	1586879324	web	10.30.2.20	\N
-4	\\core\\event\\user_loggedin	core	loggedin	user	user	2	r	0	1	10	0	2	0	\N	0	a:1:{s:8:"username";s:5:"admin";}	1586879339	web	10.30.2.20	\N
-5	\\core\\event\\user_updated	core	updated	user	user	2	u	0	5	30	2	2	0	2	0	N;	1586879386	web	10.30.2.20	\N
-6	\\core\\event\\config_log_created	core	created	config_log	config_log	2240	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:8:"timezone";s:8:"oldvalue";N;s:5:"value";s:12:"Asia/Jakarta";s:6:"plugin";N;}	1586879484	web	10.30.2.20	\N
-7	\\core\\event\\config_log_created	core	created	config_log	config_log	2241	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:10:"jitsi_help";s:8:"oldvalue";N;s:5:"value";s:12:"<p>Hello</p>";s:6:"plugin";N;}	1586879484	web	10.30.2.20	\N
-8	\\core\\event\\config_log_created	core	created	config_log	config_log	2242	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:8:"jitsi_id";s:8:"oldvalue";N;s:5:"value";s:8:"username";s:6:"plugin";N;}	1586879484	web	10.30.2.20	\N
-9	\\core\\event\\config_log_created	core	created	config_log	config_log	2243	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:15:"jitsi_separator";s:8:"oldvalue";N;s:5:"value";s:1:"0";s:6:"plugin";N;}	1586879484	web	10.30.2.20	\N
-10	\\core\\event\\config_log_created	core	created	config_log	config_log	2244	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:9:"accountid";s:8:"oldvalue";N;s:5:"value";s:0:"";s:6:"plugin";s:15:"turnitintooltwo";}	1586879484	web	10.30.2.20	\N
-11	\\core\\event\\config_log_created	core	created	config_log	config_log	2245	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:9:"secretkey";s:8:"oldvalue";N;s:5:"value";s:0:"";s:6:"plugin";s:15:"turnitintooltwo";}	1586879484	web	10.30.2.20	\N
-12	\\core\\event\\config_log_created	core	created	config_log	config_log	2246	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:6:"apiurl";s:8:"oldvalue";N;s:5:"value";s:28:"https://sandbox.turnitin.com";s:6:"plugin";s:15:"turnitintooltwo";}	1586879484	web	10.30.2.20	\N
-13	\\core\\event\\config_log_created	core	created	config_log	config_log	2247	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:12:"registerauth";s:8:"oldvalue";N;s:5:"value";s:0:"";s:6:"plugin";N;}	1586879484	web	10.30.2.20	\N
-14	\\core\\event\\config_log_created	core	created	config_log	config_log	2248	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:12:"sitebottoken";s:8:"oldvalue";N;s:5:"value";s:0:"";s:6:"plugin";s:16:"message_telegram";}	1586879484	web	10.30.2.20	\N
-15	\\core\\event\\config_log_created	core	created	config_log	config_log	2249	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:11:"sitebotname";s:8:"oldvalue";N;s:5:"value";s:0:"";s:6:"plugin";s:16:"message_telegram";}	1586879484	web	10.30.2.20	\N
-16	\\core\\event\\config_log_created	core	created	config_log	config_log	2250	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:11:"slide1image";s:8:"oldvalue";N;s:5:"value";s:0:"";s:6:"plugin";s:13:"theme_academi";}	1586879484	web	10.30.2.20	\N
-17	\\core\\event\\config_log_created	core	created	config_log	config_log	2251	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:13:"slide1caption";s:8:"oldvalue";N;s:5:"value";s:27:"Bootstrap Based Slider - 01";s:6:"plugin";s:13:"theme_academi";}	1586879484	web	10.30.2.20	\N
-18	\\core\\event\\config_log_created	core	created	config_log	config_log	2252	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:10:"slide1desc";s:8:"oldvalue";N;s:5:"value";s:98:"<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>";s:6:"plugin";s:13:"theme_academi";}	1586879484	web	10.30.2.20	\N
-19	\\core\\event\\config_log_created	core	created	config_log	config_log	2253	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:11:"slide2image";s:8:"oldvalue";N;s:5:"value";s:0:"";s:6:"plugin";s:13:"theme_academi";}	1586879484	web	10.30.2.20	\N
-20	\\core\\event\\config_log_created	core	created	config_log	config_log	2254	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:13:"slide2caption";s:8:"oldvalue";N;s:5:"value";s:27:"Bootstrap Based Slider - 02";s:6:"plugin";s:13:"theme_academi";}	1586879484	web	10.30.2.20	\N
-21	\\core\\event\\config_log_created	core	created	config_log	config_log	2255	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:10:"slide2desc";s:8:"oldvalue";N;s:5:"value";s:98:"<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>";s:6:"plugin";s:13:"theme_academi";}	1586879484	web	10.30.2.20	\N
-22	\\core\\event\\config_log_created	core	created	config_log	config_log	2256	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:11:"slide3image";s:8:"oldvalue";N;s:5:"value";s:0:"";s:6:"plugin";s:13:"theme_academi";}	1586879484	web	10.30.2.20	\N
-23	\\core\\event\\config_log_created	core	created	config_log	config_log	2257	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:13:"slide3caption";s:8:"oldvalue";N;s:5:"value";s:27:"Bootstrap Based Slider - 03";s:6:"plugin";s:13:"theme_academi";}	1586879484	web	10.30.2.20	\N
-24	\\core\\event\\config_log_created	core	created	config_log	config_log	2258	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:10:"slide3desc";s:8:"oldvalue";N;s:5:"value";s:98:"<p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit</p>";s:6:"plugin";s:13:"theme_academi";}	1586879484	web	10.30.2.20	\N
-25	\\core\\event\\config_log_created	core	created	config_log	config_log	2259	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:6:"preset";s:8:"oldvalue";N;s:5:"value";s:1:"0";s:6:"plugin";s:13:"theme_fordson";}	1586879484	web	10.30.2.20	\N
-26	\\core\\event\\config_log_created	core	created	config_log	config_log	2260	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:16:"marketing1target";s:8:"oldvalue";N;s:5:"value";s:5:"_self";s:6:"plugin";s:13:"theme_fordson";}	1586879484	web	10.30.2.20	\N
-27	\\core\\event\\config_log_created	core	created	config_log	config_log	2261	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:16:"marketing2target";s:8:"oldvalue";N;s:5:"value";s:5:"_self";s:6:"plugin";s:13:"theme_fordson";}	1586879484	web	10.30.2.20	\N
-28	\\core\\event\\config_log_created	core	created	config_log	config_log	2262	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:16:"marketing3target";s:8:"oldvalue";N;s:5:"value";s:5:"_self";s:6:"plugin";s:13:"theme_fordson";}	1586879484	web	10.30.2.20	\N
-29	\\core\\event\\config_log_created	core	created	config_log	config_log	2263	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:16:"marketing4target";s:8:"oldvalue";N;s:5:"value";s:5:"_self";s:6:"plugin";s:13:"theme_fordson";}	1586879484	web	10.30.2.20	\N
-30	\\core\\event\\config_log_created	core	created	config_log	config_log	2264	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:16:"marketing5target";s:8:"oldvalue";N;s:5:"value";s:5:"_self";s:6:"plugin";s:13:"theme_fordson";}	1586879484	web	10.30.2.20	\N
-31	\\core\\event\\config_log_created	core	created	config_log	config_log	2265	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:16:"marketing6target";s:8:"oldvalue";N;s:5:"value";s:5:"_self";s:6:"plugin";s:13:"theme_fordson";}	1586879484	web	10.30.2.20	\N
-32	\\core\\event\\config_log_created	core	created	config_log	config_log	2266	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:16:"marketing7target";s:8:"oldvalue";N;s:5:"value";s:5:"_self";s:6:"plugin";s:13:"theme_fordson";}	1586879484	web	10.30.2.20	\N
-33	\\core\\event\\config_log_created	core	created	config_log	config_log	2267	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:16:"marketing8target";s:8:"oldvalue";N;s:5:"value";s:5:"_self";s:6:"plugin";s:13:"theme_fordson";}	1586879484	web	10.30.2.20	\N
-34	\\core\\event\\config_log_created	core	created	config_log	config_log	2268	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:16:"marketing9target";s:8:"oldvalue";N;s:5:"value";s:5:"_self";s:6:"plugin";s:13:"theme_fordson";}	1586879484	web	10.30.2.20	\N
-35	\\core\\event\\config_log_created	core	created	config_log	config_log	2269	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:11:"slide1image";s:8:"oldvalue";N;s:5:"value";s:0:"";s:6:"plugin";s:11:"theme_klass";}	1586879484	web	10.30.2.20	\N
-36	\\core\\event\\config_log_created	core	created	config_log	config_log	2270	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:13:"slide1caption";s:8:"oldvalue";N;s:5:"value";s:27:"Bootstrap Based Slider - 01";s:6:"plugin";s:11:"theme_klass";}	1586879484	web	10.30.2.20	\N
-37	\\core\\event\\config_log_created	core	created	config_log	config_log	2271	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:13:"slide1urltext";s:8:"oldvalue";N;s:5:"value";s:13:"lang:knowmore";s:6:"plugin";s:11:"theme_klass";}	1586879484	web	10.30.2.20	\N
-38	\\core\\event\\config_log_created	core	created	config_log	config_log	2272	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:9:"slide1url";s:8:"oldvalue";N;s:5:"value";s:23:"http://www.example.com/";s:6:"plugin";s:11:"theme_klass";}	1586879484	web	10.30.2.20	\N
-39	\\core\\event\\config_log_created	core	created	config_log	config_log	2273	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:11:"slide2image";s:8:"oldvalue";N;s:5:"value";s:0:"";s:6:"plugin";s:11:"theme_klass";}	1586879484	web	10.30.2.20	\N
-40	\\core\\event\\config_log_created	core	created	config_log	config_log	2274	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:13:"slide2caption";s:8:"oldvalue";N;s:5:"value";s:27:"Bootstrap Based Slider - 02";s:6:"plugin";s:11:"theme_klass";}	1586879484	web	10.30.2.20	\N
-41	\\core\\event\\config_log_created	core	created	config_log	config_log	2275	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:13:"slide2urltext";s:8:"oldvalue";N;s:5:"value";s:13:"lang:knowmore";s:6:"plugin";s:11:"theme_klass";}	1586879484	web	10.30.2.20	\N
-42	\\core\\event\\config_log_created	core	created	config_log	config_log	2276	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:9:"slide2url";s:8:"oldvalue";N;s:5:"value";s:23:"http://www.example.com/";s:6:"plugin";s:11:"theme_klass";}	1586879484	web	10.30.2.20	\N
-43	\\core\\event\\config_log_created	core	created	config_log	config_log	2277	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:11:"slide3image";s:8:"oldvalue";N;s:5:"value";s:0:"";s:6:"plugin";s:11:"theme_klass";}	1586879484	web	10.30.2.20	\N
-44	\\core\\event\\config_log_created	core	created	config_log	config_log	2278	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:13:"slide3caption";s:8:"oldvalue";N;s:5:"value";s:27:"Bootstrap Based Slider - 03";s:6:"plugin";s:11:"theme_klass";}	1586879484	web	10.30.2.20	\N
-45	\\core\\event\\config_log_created	core	created	config_log	config_log	2279	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:13:"slide3urltext";s:8:"oldvalue";N;s:5:"value";s:13:"lang:knowmore";s:6:"plugin";s:11:"theme_klass";}	1586879484	web	10.30.2.20	\N
-46	\\core\\event\\config_log_created	core	created	config_log	config_log	2280	c	0	1	10	0	2	0	\N	0	a:4:{s:4:"name";s:9:"slide3url";s:8:"oldvalue";N;s:5:"value";s:22:"http://moodlecloud.id/";s:6:"plugin";s:11:"theme_klass";}	1586879484	web	10.30.2.20	\N
-47	\\core\\event\\user_loggedout	core	loggedout	user	user	2	r	0	1	10	0	2	0	\N	0	a:1:{s:9:"sessionid";s:26:"cgui8dei4lli2ole9404416scs";}	1586879639	web	10.30.2.20	\N
-48	\\core\\event\\course_viewed	core	viewed	course	\N	\N	r	2	2	50	1	0	1	\N	0	N;	1586879640	web	10.30.2.20	\N
-49	\\core\\event\\user_loggedin	core	loggedin	user	user	2	r	0	1	10	0	2	0	\N	0	a:1:{s:8:"username";s:5:"admin";}	1586879653	web	10.30.2.20	\N
-50	\\core\\event\\course_section_created	core	created	course_section	course_sections	1	c	1	2	50	1	2	1	\N	0	a:1:{s:10:"sectionnum";i:0;}	1586879654	web	10.30.2.20	\N
-51	\\core\\event\\dashboard_viewed	core	viewed	dashboard	\N	\N	r	0	5	30	2	2	0	2	0	N;	1586879654	web	10.30.2.20	\N
-52	\\tool_usertours\\event\\tour_started	tool_usertours	started	tour	tool_usertours_tours	2	r	2	5	30	2	2	0	2	0	a:1:{s:7:"pageurl";s:25:"http://moodlecloud.id/my/";}	1586879656	web	10.30.2.20	\N
-53	\\tool_usertours\\event\\step_shown	tool_usertours	shown	step	tool_usertours_steps	7	r	2	5	30	2	2	0	2	0	a:3:{s:7:"pageurl";s:25:"http://moodlecloud.id/my/";s:6:"tourid";i:2;s:9:"stepindex";i:0;}	1586879656	web	10.30.2.20	\N
-54	\\tool_usertours\\event\\tour_ended	tool_usertours	ended	tour	tool_usertours_tours	2	c	2	5	30	2	2	0	2	0	a:3:{s:7:"pageurl";s:25:"http://moodlecloud.id/my/";s:6:"stepid";i:7;s:9:"stepindex";i:0;}	1586879659	web	10.30.2.20	\N
-55	\\core\\event\\user_loggedout	core	loggedout	user	user	2	r	0	1	10	0	2	0	\N	0	a:1:{s:9:"sessionid";s:26:"f0g48gjjd1fhgi8cbquf4lm51k";}	1586879672	web	10.30.2.20	\N
-56	\\core\\event\\course_viewed	core	viewed	course	\N	\N	r	2	2	50	1	0	1	\N	0	N;	1586879673	web	10.30.2.20	\N
-57	\\core\\event\\course_viewed	core	viewed	course	\N	\N	r	2	2	50	1	0	1	\N	0	N;	1586879765	web	10.30.2.20	\N
-58	\\core\\event\\user_loggedin	core	loggedin	user	user	1	r	0	1	10	0	1	0	\N	0	a:1:{s:8:"username";s:5:"guest";}	1586879770	web	10.30.2.20	\N
-59	\\core\\event\\dashboard_viewed	core	viewed	dashboard	\N	\N	r	0	1	10	0	1	0	\N	0	N;	1586879770	web	10.30.2.20	\N
-60	\\core\\event\\dashboard_viewed	core	viewed	dashboard	\N	\N	r	0	1	10	0	1	0	\N	0	N;	1586879776	web	10.30.2.20	\N
-61	\\core\\event\\user_loggedin	core	loggedin	user	user	1	r	0	1	10	0	1	0	\N	0	a:1:{s:8:"username";s:5:"guest";}	1586879789	web	10.30.2.20	\N
-62	\\core\\event\\dashboard_viewed	core	viewed	dashboard	\N	\N	r	0	1	10	0	1	0	\N	0	N;	1586879789	web	10.30.2.20	\N
-63	\\core\\event\\dashboard_viewed	core	viewed	dashboard	\N	\N	r	0	1	10	0	1	0	\N	0	N;	1586879795	web	10.30.2.20	\N
 \.
 
 
@@ -34326,7 +34154,6 @@ COPY public.mdl_modules (id, name, cron, lastcron, search, visible) FROM stdin;
 COPY public.mdl_my_pages (id, userid, name, private, sortorder) FROM stdin;
 1	\N	__default	0	0
 2	\N	__default	1	0
-3	2	__default	1	0
 \.
 
 
@@ -35005,13 +34832,13 @@ COPY public.mdl_repository_instance_config (id, instanceid, name, value) FROM st
 --
 
 COPY public.mdl_repository_instances (id, name, typeid, userid, contextid, username, password, timecreated, timemodified, readonly) FROM stdin;
-1		1	0	1	\N	\N	1586879275	1586879275	0
-2		2	0	1	\N	\N	1586879275	1586879275	0
-3		3	0	1	\N	\N	1586879275	1586879275	0
-4		4	0	1	\N	\N	1586879275	1586879275	0
-5		5	0	1	\N	\N	1586879275	1586879275	0
-6		6	0	1	\N	\N	1586879275	1586879275	0
-7		7	0	1	\N	\N	1586879275	1586879275	0
+1		1	0	1	\N	\N	1586902606	1586902606	0
+2		2	0	1	\N	\N	1586902606	1586902606	0
+3		3	0	1	\N	\N	1586902606	1586902606	0
+4		4	0	1	\N	\N	1586902606	1586902606	0
+5		5	0	1	\N	\N	1586902606	1586902606	0
+6		6	0	1	\N	\N	1586902606	1586902606	0
+7		7	0	1	\N	\N	1586902606	1586902606	0
 \.
 
 
@@ -35143,1469 +34970,1469 @@ COPY public.mdl_role_assignments (id, roleid, contextid, userid, timemodified, m
 --
 
 COPY public.mdl_role_capabilities (id, contextid, roleid, capability, permission, timemodified, modifierid) FROM stdin;
-1	1	1	moodle/site:configview	1	1586879246	0
-2	1	2	moodle/site:configview	1	1586879246	0
-3	1	1	moodle/site:readallmessages	1	1586879246	0
-4	1	3	moodle/site:readallmessages	1	1586879246	0
-5	1	1	moodle/site:manageallmessaging	1	1586879246	0
-6	1	1	moodle/site:deleteanymessage	1	1586879246	0
-7	1	1	moodle/site:sendmessage	1	1586879246	0
-8	1	7	moodle/site:sendmessage	1	1586879246	0
-9	1	7	moodle/site:deleteownmessage	1	1586879246	0
-10	1	1	moodle/site:approvecourse	1	1586879246	0
-11	1	3	moodle/backup:backupcourse	1	1586879246	0
-12	1	1	moodle/backup:backupcourse	1	1586879246	0
-13	1	3	moodle/backup:backupsection	1	1586879246	0
-14	1	1	moodle/backup:backupsection	1	1586879246	0
-15	1	3	moodle/backup:backupactivity	1	1586879246	0
-16	1	1	moodle/backup:backupactivity	1	1586879246	0
-17	1	3	moodle/backup:backuptargetimport	1	1586879246	0
-18	1	1	moodle/backup:backuptargetimport	1	1586879246	0
-19	1	3	moodle/backup:downloadfile	1	1586879246	0
-20	1	1	moodle/backup:downloadfile	1	1586879246	0
-21	1	3	moodle/backup:configure	1	1586879246	0
-22	1	1	moodle/backup:configure	1	1586879246	0
-23	1	1	moodle/backup:userinfo	1	1586879246	0
-24	1	1	moodle/backup:anonymise	1	1586879246	0
-25	1	3	moodle/restore:restorecourse	1	1586879246	0
-26	1	1	moodle/restore:restorecourse	1	1586879246	0
-27	1	3	moodle/restore:restoresection	1	1586879246	0
-28	1	1	moodle/restore:restoresection	1	1586879246	0
-29	1	3	moodle/restore:restoreactivity	1	1586879246	0
-30	1	1	moodle/restore:restoreactivity	1	1586879246	0
-31	1	3	moodle/restore:viewautomatedfilearea	1	1586879246	0
-32	1	1	moodle/restore:viewautomatedfilearea	1	1586879246	0
-33	1	3	moodle/restore:restoretargetimport	1	1586879246	0
-34	1	1	moodle/restore:restoretargetimport	1	1586879246	0
-35	1	3	moodle/restore:uploadfile	1	1586879246	0
-36	1	1	moodle/restore:uploadfile	1	1586879246	0
-37	1	3	moodle/restore:configure	1	1586879246	0
-38	1	1	moodle/restore:configure	1	1586879247	0
-39	1	2	moodle/restore:rolldates	1	1586879247	0
-40	1	1	moodle/restore:rolldates	1	1586879247	0
-41	1	1	moodle/restore:userinfo	1	1586879247	0
-42	1	1	moodle/restore:createuser	1	1586879247	0
-43	1	3	moodle/site:manageblocks	1	1586879247	0
-44	1	1	moodle/site:manageblocks	1	1586879247	0
-45	1	3	moodle/site:accessallgroups	1	1586879247	0
-46	1	1	moodle/site:accessallgroups	1	1586879247	0
-47	1	4	moodle/site:viewfullnames	1	1586879247	0
-48	1	3	moodle/site:viewfullnames	1	1586879247	0
-49	1	1	moodle/site:viewfullnames	1	1586879247	0
-50	1	4	moodle/site:viewuseridentity	1	1586879247	0
-51	1	3	moodle/site:viewuseridentity	1	1586879247	0
-52	1	1	moodle/site:viewuseridentity	1	1586879247	0
-53	1	4	moodle/site:viewreports	1	1586879247	0
-54	1	3	moodle/site:viewreports	1	1586879247	0
-55	1	1	moodle/site:viewreports	1	1586879247	0
-56	1	3	moodle/site:trustcontent	1	1586879247	0
-57	1	1	moodle/site:trustcontent	1	1586879247	0
-58	1	1	moodle/site:uploadusers	1	1586879247	0
-59	1	3	moodle/filter:manage	1	1586879247	0
-60	1	1	moodle/filter:manage	1	1586879247	0
-61	1	1	moodle/user:create	1	1586879247	0
-62	1	1	moodle/user:delete	1	1586879247	0
-63	1	1	moodle/user:update	1	1586879247	0
-64	1	6	moodle/user:viewdetails	1	1586879247	0
-65	1	5	moodle/user:viewdetails	1	1586879247	0
-66	1	4	moodle/user:viewdetails	1	1586879247	0
-67	1	3	moodle/user:viewdetails	1	1586879247	0
-68	1	1	moodle/user:viewdetails	1	1586879247	0
-69	1	1	moodle/user:viewalldetails	1	1586879247	0
-70	1	1	moodle/user:viewlastip	1	1586879247	0
-71	1	4	moodle/user:viewhiddendetails	1	1586879247	0
-72	1	3	moodle/user:viewhiddendetails	1	1586879247	0
-73	1	1	moodle/user:viewhiddendetails	1	1586879247	0
-74	1	1	moodle/user:loginas	1	1586879247	0
-75	1	1	moodle/user:managesyspages	1	1586879247	0
-76	1	7	moodle/user:manageownblocks	1	1586879247	0
-77	1	7	moodle/user:manageownfiles	1	1586879247	0
-78	1	1	moodle/my:configsyspages	1	1586879247	0
-79	1	3	moodle/role:assign	1	1586879247	0
-80	1	1	moodle/role:assign	1	1586879247	0
-81	1	4	moodle/role:review	1	1586879247	0
-82	1	3	moodle/role:review	1	1586879247	0
-83	1	1	moodle/role:review	1	1586879247	0
-84	1	1	moodle/role:override	1	1586879247	0
-85	1	3	moodle/role:safeoverride	1	1586879247	0
-86	1	1	moodle/role:manage	1	1586879247	0
-87	1	3	moodle/role:switchroles	1	1586879247	0
-88	1	1	moodle/role:switchroles	1	1586879247	0
-89	1	1	moodle/category:manage	1	1586879247	0
-90	1	2	moodle/category:viewhiddencategories	1	1586879247	0
-91	1	1	moodle/category:viewhiddencategories	1	1586879247	0
-92	1	1	moodle/cohort:manage	1	1586879247	0
-93	1	1	moodle/cohort:assign	1	1586879247	0
-94	1	3	moodle/cohort:view	1	1586879247	0
-95	1	1	moodle/cohort:view	1	1586879247	0
-96	1	2	moodle/course:create	1	1586879247	0
-97	1	1	moodle/course:create	1	1586879247	0
-98	1	3	moodle/course:creategroupconversations	1	1586879247	0
-99	1	1	moodle/course:creategroupconversations	1	1586879247	0
-100	1	7	moodle/course:request	1	1586879247	0
-101	1	1	moodle/course:delete	1	1586879247	0
-102	1	3	moodle/course:update	1	1586879247	0
-103	1	1	moodle/course:update	1	1586879247	0
-104	1	1	moodle/course:view	1	1586879247	0
-105	1	3	moodle/course:enrolreview	1	1586879247	0
-106	1	1	moodle/course:enrolreview	1	1586879247	0
-107	1	3	moodle/course:enrolconfig	1	1586879247	0
-108	1	1	moodle/course:enrolconfig	1	1586879247	0
-109	1	3	moodle/course:reviewotherusers	1	1586879247	0
-110	1	1	moodle/course:reviewotherusers	1	1586879247	0
-111	1	4	moodle/course:bulkmessaging	1	1586879247	0
-112	1	3	moodle/course:bulkmessaging	1	1586879247	0
-113	1	1	moodle/course:bulkmessaging	1	1586879247	0
-114	1	4	moodle/course:viewhiddenuserfields	1	1586879247	0
-115	1	3	moodle/course:viewhiddenuserfields	1	1586879247	0
-116	1	1	moodle/course:viewhiddenuserfields	1	1586879247	0
-117	1	2	moodle/course:viewhiddencourses	1	1586879247	0
-118	1	4	moodle/course:viewhiddencourses	1	1586879247	0
-119	1	3	moodle/course:viewhiddencourses	1	1586879247	0
-120	1	1	moodle/course:viewhiddencourses	1	1586879247	0
-121	1	3	moodle/course:visibility	1	1586879247	0
-122	1	1	moodle/course:visibility	1	1586879247	0
-123	1	3	moodle/course:managefiles	1	1586879247	0
-124	1	1	moodle/course:managefiles	1	1586879247	0
-125	1	1	moodle/course:ignoreavailabilityrestrictions	1	1586879247	0
-126	1	2	moodle/course:ignoreavailabilityrestrictions	1	1586879247	0
-127	1	3	moodle/course:ignoreavailabilityrestrictions	1	1586879247	0
-128	1	4	moodle/course:ignoreavailabilityrestrictions	1	1586879247	0
-129	1	3	moodle/course:manageactivities	1	1586879247	0
-130	1	1	moodle/course:manageactivities	1	1586879247	0
-131	1	3	moodle/course:activityvisibility	1	1586879247	0
-132	1	1	moodle/course:activityvisibility	1	1586879247	0
-133	1	4	moodle/course:viewhiddenactivities	1	1586879247	0
-134	1	3	moodle/course:viewhiddenactivities	1	1586879247	0
-135	1	1	moodle/course:viewhiddenactivities	1	1586879247	0
-136	1	5	moodle/course:viewparticipants	1	1586879247	0
-137	1	4	moodle/course:viewparticipants	1	1586879247	0
-138	1	3	moodle/course:viewparticipants	1	1586879247	0
-139	1	1	moodle/course:viewparticipants	1	1586879247	0
-140	1	3	moodle/course:changefullname	1	1586879247	0
-141	1	1	moodle/course:changefullname	1	1586879247	0
-142	1	3	moodle/course:changeshortname	1	1586879247	0
-143	1	1	moodle/course:changeshortname	1	1586879247	0
-144	1	3	moodle/course:renameroles	1	1586879247	0
-145	1	1	moodle/course:renameroles	1	1586879247	0
-146	1	3	moodle/course:changeidnumber	1	1586879247	0
-147	1	1	moodle/course:changeidnumber	1	1586879247	0
-148	1	3	moodle/course:changecategory	1	1586879247	0
-149	1	1	moodle/course:changecategory	1	1586879247	0
-150	1	3	moodle/course:changesummary	1	1586879247	0
-151	1	1	moodle/course:changesummary	1	1586879247	0
-152	1	3	moodle/course:setforcedlanguage	1	1586879247	0
-153	1	1	moodle/course:setforcedlanguage	1	1586879247	0
-154	1	1	moodle/site:viewparticipants	1	1586879247	0
-155	1	5	moodle/course:isincompletionreports	1	1586879247	0
-156	1	5	moodle/course:viewscales	1	1586879247	0
-157	1	4	moodle/course:viewscales	1	1586879247	0
-158	1	3	moodle/course:viewscales	1	1586879247	0
-159	1	1	moodle/course:viewscales	1	1586879247	0
-160	1	3	moodle/course:managescales	1	1586879247	0
-161	1	1	moodle/course:managescales	1	1586879247	0
-162	1	3	moodle/course:managegroups	1	1586879247	0
-163	1	1	moodle/course:managegroups	1	1586879247	0
-164	1	3	moodle/course:reset	1	1586879247	0
-165	1	1	moodle/course:reset	1	1586879248	0
-166	1	3	moodle/course:viewsuspendedusers	1	1586879248	0
-167	1	1	moodle/course:viewsuspendedusers	1	1586879248	0
-168	1	1	moodle/course:tag	1	1586879248	0
-169	1	3	moodle/course:tag	1	1586879248	0
-170	1	6	moodle/blog:view	1	1586879248	0
-171	1	7	moodle/blog:view	1	1586879248	0
-172	1	5	moodle/blog:view	1	1586879248	0
-173	1	4	moodle/blog:view	1	1586879248	0
-174	1	3	moodle/blog:view	1	1586879248	0
-175	1	1	moodle/blog:view	1	1586879248	0
-176	1	6	moodle/blog:search	1	1586879248	0
-177	1	7	moodle/blog:search	1	1586879248	0
-178	1	5	moodle/blog:search	1	1586879248	0
-179	1	4	moodle/blog:search	1	1586879248	0
-180	1	3	moodle/blog:search	1	1586879248	0
-181	1	1	moodle/blog:search	1	1586879248	0
-182	1	1	moodle/blog:viewdrafts	1	1586879248	0
-183	1	7	moodle/blog:create	1	1586879248	0
-184	1	1	moodle/blog:create	1	1586879248	0
-185	1	4	moodle/blog:manageentries	1	1586879248	0
-186	1	3	moodle/blog:manageentries	1	1586879248	0
-187	1	1	moodle/blog:manageentries	1	1586879248	0
-188	1	5	moodle/blog:manageexternal	1	1586879248	0
-189	1	7	moodle/blog:manageexternal	1	1586879248	0
-190	1	4	moodle/blog:manageexternal	1	1586879248	0
-191	1	3	moodle/blog:manageexternal	1	1586879248	0
-192	1	1	moodle/blog:manageexternal	1	1586879248	0
-193	1	7	moodle/calendar:manageownentries	1	1586879248	0
-194	1	1	moodle/calendar:manageownentries	1	1586879248	0
-195	1	4	moodle/calendar:managegroupentries	1	1586879248	0
-196	1	3	moodle/calendar:managegroupentries	1	1586879248	0
-197	1	1	moodle/calendar:managegroupentries	1	1586879248	0
-198	1	4	moodle/calendar:manageentries	1	1586879248	0
-199	1	3	moodle/calendar:manageentries	1	1586879248	0
-200	1	1	moodle/calendar:manageentries	1	1586879248	0
-201	1	1	moodle/user:editprofile	1	1586879248	0
-202	1	6	moodle/user:editownprofile	-1000	1586879248	0
-203	1	7	moodle/user:editownprofile	1	1586879248	0
-204	1	1	moodle/user:editownprofile	1	1586879248	0
-205	1	6	moodle/user:changeownpassword	-1000	1586879248	0
-206	1	7	moodle/user:changeownpassword	1	1586879248	0
-207	1	1	moodle/user:changeownpassword	1	1586879248	0
-208	1	5	moodle/user:readuserposts	1	1586879248	0
-209	1	4	moodle/user:readuserposts	1	1586879248	0
-210	1	3	moodle/user:readuserposts	1	1586879248	0
-211	1	1	moodle/user:readuserposts	1	1586879248	0
-212	1	5	moodle/user:readuserblogs	1	1586879248	0
-213	1	4	moodle/user:readuserblogs	1	1586879248	0
-214	1	3	moodle/user:readuserblogs	1	1586879248	0
-215	1	1	moodle/user:readuserblogs	1	1586879248	0
-216	1	1	moodle/user:editmessageprofile	1	1586879248	0
-217	1	6	moodle/user:editownmessageprofile	-1000	1586879248	0
-218	1	7	moodle/user:editownmessageprofile	1	1586879248	0
-219	1	1	moodle/user:editownmessageprofile	1	1586879248	0
-220	1	3	moodle/question:managecategory	1	1586879248	0
-221	1	1	moodle/question:managecategory	1	1586879248	0
-222	1	3	moodle/question:add	1	1586879248	0
-223	1	1	moodle/question:add	1	1586879248	0
-224	1	3	moodle/question:editmine	1	1586879248	0
-225	1	1	moodle/question:editmine	1	1586879248	0
-226	1	3	moodle/question:editall	1	1586879248	0
-227	1	1	moodle/question:editall	1	1586879248	0
-228	1	3	moodle/question:viewmine	1	1586879248	0
-229	1	1	moodle/question:viewmine	1	1586879248	0
-230	1	3	moodle/question:viewall	1	1586879248	0
-231	1	1	moodle/question:viewall	1	1586879248	0
-232	1	3	moodle/question:usemine	1	1586879248	0
-233	1	1	moodle/question:usemine	1	1586879248	0
-234	1	3	moodle/question:useall	1	1586879248	0
-235	1	1	moodle/question:useall	1	1586879248	0
-236	1	3	moodle/question:movemine	1	1586879248	0
-237	1	1	moodle/question:movemine	1	1586879248	0
-238	1	3	moodle/question:moveall	1	1586879248	0
-239	1	1	moodle/question:moveall	1	1586879248	0
-240	1	1	moodle/question:config	1	1586879248	0
-241	1	5	moodle/question:flag	1	1586879248	0
-242	1	4	moodle/question:flag	1	1586879248	0
-243	1	3	moodle/question:flag	1	1586879248	0
-244	1	1	moodle/question:flag	1	1586879248	0
-245	1	3	moodle/question:tagmine	1	1586879248	0
-246	1	1	moodle/question:tagmine	1	1586879248	0
-247	1	3	moodle/question:tagall	1	1586879248	0
-248	1	1	moodle/question:tagall	1	1586879248	0
-249	1	4	moodle/site:doclinks	1	1586879248	0
-250	1	3	moodle/site:doclinks	1	1586879248	0
-251	1	1	moodle/site:doclinks	1	1586879248	0
-252	1	3	moodle/course:sectionvisibility	1	1586879248	0
-253	1	1	moodle/course:sectionvisibility	1	1586879248	0
-254	1	3	moodle/course:useremail	1	1586879248	0
-255	1	1	moodle/course:useremail	1	1586879248	0
-256	1	3	moodle/course:viewhiddensections	1	1586879248	0
-257	1	1	moodle/course:viewhiddensections	1	1586879248	0
-258	1	3	moodle/course:setcurrentsection	1	1586879248	0
-259	1	1	moodle/course:setcurrentsection	1	1586879248	0
-260	1	3	moodle/course:movesections	1	1586879248	0
-261	1	1	moodle/course:movesections	1	1586879248	0
-262	1	4	moodle/grade:viewall	1	1586879248	0
-263	1	3	moodle/grade:viewall	1	1586879248	0
-264	1	1	moodle/grade:viewall	1	1586879248	0
-265	1	5	moodle/grade:view	1	1586879248	0
-266	1	4	moodle/grade:viewhidden	1	1586879248	0
-267	1	3	moodle/grade:viewhidden	1	1586879248	0
-268	1	1	moodle/grade:viewhidden	1	1586879248	0
-269	1	3	moodle/grade:import	1	1586879248	0
-270	1	1	moodle/grade:import	1	1586879248	0
-271	1	4	moodle/grade:export	1	1586879248	0
-272	1	3	moodle/grade:export	1	1586879248	0
-273	1	1	moodle/grade:export	1	1586879248	0
-274	1	3	moodle/grade:manage	1	1586879248	0
-275	1	1	moodle/grade:manage	1	1586879248	0
-276	1	3	moodle/grade:edit	1	1586879248	0
-277	1	1	moodle/grade:edit	1	1586879248	0
-278	1	3	moodle/grade:managegradingforms	1	1586879248	0
-279	1	1	moodle/grade:managegradingforms	1	1586879248	0
-280	1	1	moodle/grade:sharegradingforms	1	1586879248	0
-281	1	1	moodle/grade:managesharedforms	1	1586879248	0
-282	1	3	moodle/grade:manageoutcomes	1	1586879248	0
-283	1	1	moodle/grade:manageoutcomes	1	1586879248	0
-284	1	3	moodle/grade:manageletters	1	1586879248	0
-285	1	1	moodle/grade:manageletters	1	1586879248	0
-286	1	3	moodle/grade:hide	1	1586879248	0
-287	1	1	moodle/grade:hide	1	1586879248	0
-288	1	3	moodle/grade:lock	1	1586879248	0
-289	1	1	moodle/grade:lock	1	1586879248	0
-290	1	3	moodle/grade:unlock	1	1586879248	0
-291	1	1	moodle/grade:unlock	1	1586879248	0
-292	1	7	moodle/my:manageblocks	1	1586879248	0
-293	1	4	moodle/notes:view	1	1586879248	0
-294	1	3	moodle/notes:view	1	1586879248	0
-295	1	1	moodle/notes:view	1	1586879248	0
-296	1	4	moodle/notes:manage	1	1586879248	0
-297	1	3	moodle/notes:manage	1	1586879248	0
-298	1	1	moodle/notes:manage	1	1586879248	0
-299	1	1	moodle/tag:manage	1	1586879248	0
-300	1	1	moodle/tag:edit	1	1586879248	0
-301	1	7	moodle/tag:flag	1	1586879248	0
-302	1	4	moodle/tag:editblocks	1	1586879248	0
-303	1	3	moodle/tag:editblocks	1	1586879248	0
-304	1	1	moodle/tag:editblocks	1	1586879249	0
-305	1	6	moodle/block:view	1	1586879249	0
-306	1	7	moodle/block:view	1	1586879249	0
-307	1	5	moodle/block:view	1	1586879249	0
-308	1	4	moodle/block:view	1	1586879249	0
-309	1	3	moodle/block:view	1	1586879249	0
-310	1	3	moodle/block:edit	1	1586879249	0
-311	1	1	moodle/block:edit	1	1586879249	0
-312	1	7	moodle/portfolio:export	1	1586879249	0
-313	1	5	moodle/portfolio:export	1	1586879249	0
-314	1	4	moodle/portfolio:export	1	1586879249	0
-315	1	3	moodle/portfolio:export	1	1586879249	0
-316	1	8	moodle/comment:view	1	1586879249	0
-317	1	6	moodle/comment:view	1	1586879249	0
-318	1	7	moodle/comment:view	1	1586879249	0
-319	1	5	moodle/comment:view	1	1586879249	0
-320	1	4	moodle/comment:view	1	1586879249	0
-321	1	3	moodle/comment:view	1	1586879249	0
-322	1	1	moodle/comment:view	1	1586879249	0
-323	1	7	moodle/comment:post	1	1586879249	0
-324	1	5	moodle/comment:post	1	1586879249	0
-325	1	4	moodle/comment:post	1	1586879249	0
-326	1	3	moodle/comment:post	1	1586879249	0
-327	1	1	moodle/comment:post	1	1586879249	0
-328	1	3	moodle/comment:delete	1	1586879249	0
-329	1	1	moodle/comment:delete	1	1586879249	0
-330	1	1	moodle/webservice:createtoken	1	1586879249	0
-331	1	7	moodle/webservice:createmobiletoken	1	1586879249	0
-332	1	7	moodle/rating:view	1	1586879249	0
-333	1	5	moodle/rating:view	1	1586879249	0
-334	1	4	moodle/rating:view	1	1586879249	0
-335	1	3	moodle/rating:view	1	1586879249	0
-336	1	1	moodle/rating:view	1	1586879249	0
-337	1	7	moodle/rating:viewany	1	1586879249	0
-338	1	5	moodle/rating:viewany	1	1586879249	0
-339	1	4	moodle/rating:viewany	1	1586879249	0
-340	1	3	moodle/rating:viewany	1	1586879249	0
-341	1	1	moodle/rating:viewany	1	1586879249	0
-342	1	7	moodle/rating:viewall	1	1586879249	0
-343	1	5	moodle/rating:viewall	1	1586879249	0
-344	1	4	moodle/rating:viewall	1	1586879249	0
-345	1	3	moodle/rating:viewall	1	1586879249	0
-346	1	1	moodle/rating:viewall	1	1586879249	0
-347	1	7	moodle/rating:rate	1	1586879249	0
-348	1	5	moodle/rating:rate	1	1586879249	0
-349	1	4	moodle/rating:rate	1	1586879249	0
-350	1	3	moodle/rating:rate	1	1586879249	0
-351	1	1	moodle/rating:rate	1	1586879249	0
-352	1	4	moodle/course:markcomplete	1	1586879249	0
-353	1	3	moodle/course:markcomplete	1	1586879249	0
-354	1	1	moodle/course:markcomplete	1	1586879249	0
-355	1	4	moodle/course:overridecompletion	1	1586879249	0
-356	1	3	moodle/course:overridecompletion	1	1586879249	0
-357	1	1	moodle/course:overridecompletion	1	1586879249	0
-358	1	1	moodle/community:add	1	1586879249	0
-359	1	4	moodle/community:add	1	1586879249	0
-360	1	3	moodle/community:add	1	1586879249	0
-361	1	1	moodle/community:download	1	1586879249	0
-362	1	3	moodle/community:download	1	1586879249	0
-363	1	1	moodle/badges:manageglobalsettings	1	1586879249	0
-364	1	7	moodle/badges:viewbadges	1	1586879249	0
-365	1	7	moodle/badges:manageownbadges	1	1586879249	0
-366	1	7	moodle/badges:viewotherbadges	1	1586879249	0
-367	1	7	moodle/badges:earnbadge	1	1586879249	0
-368	1	1	moodle/badges:createbadge	1	1586879249	0
-369	1	3	moodle/badges:createbadge	1	1586879249	0
-370	1	1	moodle/badges:deletebadge	1	1586879249	0
-371	1	3	moodle/badges:deletebadge	1	1586879249	0
-372	1	1	moodle/badges:configuredetails	1	1586879249	0
-373	1	3	moodle/badges:configuredetails	1	1586879249	0
-374	1	1	moodle/badges:configurecriteria	1	1586879249	0
-375	1	3	moodle/badges:configurecriteria	1	1586879249	0
-376	1	1	moodle/badges:configuremessages	1	1586879249	0
-377	1	3	moodle/badges:configuremessages	1	1586879249	0
-378	1	1	moodle/badges:awardbadge	1	1586879249	0
-379	1	4	moodle/badges:awardbadge	1	1586879249	0
-380	1	3	moodle/badges:awardbadge	1	1586879249	0
-381	1	1	moodle/badges:revokebadge	1	1586879249	0
-382	1	4	moodle/badges:revokebadge	1	1586879249	0
-383	1	3	moodle/badges:revokebadge	1	1586879249	0
-384	1	1	moodle/badges:viewawarded	1	1586879249	0
-385	1	4	moodle/badges:viewawarded	1	1586879249	0
-386	1	3	moodle/badges:viewawarded	1	1586879249	0
-387	1	6	moodle/search:query	1	1586879249	0
-388	1	7	moodle/search:query	1	1586879249	0
-389	1	5	moodle/search:query	1	1586879249	0
-390	1	4	moodle/search:query	1	1586879249	0
-391	1	3	moodle/search:query	1	1586879249	0
-392	1	1	moodle/search:query	1	1586879249	0
-393	1	1	moodle/competency:competencymanage	1	1586879249	0
-394	1	7	moodle/competency:competencyview	1	1586879249	0
-395	1	3	moodle/competency:competencygrade	1	1586879249	0
-396	1	4	moodle/competency:competencygrade	1	1586879249	0
-397	1	1	moodle/competency:competencygrade	1	1586879249	0
-398	1	3	moodle/competency:coursecompetencymanage	1	1586879249	0
-399	1	1	moodle/competency:coursecompetencymanage	1	1586879249	0
-400	1	1	moodle/competency:coursecompetencyconfigure	1	1586879249	0
-401	1	5	moodle/competency:coursecompetencygradable	1	1586879249	0
-402	1	7	moodle/competency:coursecompetencyview	1	1586879249	0
-403	1	1	moodle/competency:planmanage	1	1586879249	0
-404	1	1	moodle/competency:planmanagedraft	1	1586879249	0
-405	1	1	moodle/competency:planview	1	1586879249	0
-406	1	1	moodle/competency:planviewdraft	1	1586879249	0
-407	1	7	moodle/competency:planviewown	1	1586879249	0
-408	1	1	moodle/competency:planrequestreview	1	1586879249	0
-409	1	7	moodle/competency:planrequestreviewown	1	1586879249	0
-410	1	1	moodle/competency:planreview	1	1586879249	0
-411	1	1	moodle/competency:plancomment	1	1586879249	0
-412	1	7	moodle/competency:plancommentown	1	1586879249	0
-413	1	1	moodle/competency:usercompetencyview	1	1586879249	0
-414	1	3	moodle/competency:usercompetencyview	1	1586879249	0
-415	1	4	moodle/competency:usercompetencyview	1	1586879249	0
-416	1	1	moodle/competency:usercompetencyrequestreview	1	1586879249	0
-417	1	7	moodle/competency:usercompetencyrequestreviewown	1	1586879249	0
-418	1	1	moodle/competency:usercompetencyreview	1	1586879249	0
-419	1	1	moodle/competency:usercompetencycomment	1	1586879249	0
-420	1	7	moodle/competency:usercompetencycommentown	1	1586879249	0
-421	1	1	moodle/competency:templatemanage	1	1586879249	0
-422	1	4	moodle/analytics:listinsights	1	1586879249	0
-423	1	3	moodle/analytics:listinsights	1	1586879249	0
-424	1	1	moodle/analytics:listinsights	1	1586879249	0
-425	1	1	moodle/analytics:managemodels	1	1586879249	0
-426	1	1	moodle/competency:templateview	1	1586879249	0
-427	1	1	moodle/competency:userevidencemanage	1	1586879249	0
-428	1	7	moodle/competency:userevidencemanageown	1	1586879249	0
-429	1	1	moodle/competency:userevidenceview	1	1586879249	0
-430	1	4	moodle/site:messageanyuser	1	1586879250	0
-431	1	3	moodle/site:messageanyuser	1	1586879250	0
-432	1	1	moodle/site:messageanyuser	1	1586879250	0
-433	1	7	moodle/course:togglecompletion	1	1586879250	0
-434	1	6	mod/assign:view	1	1586879262	0
-435	1	5	mod/assign:view	1	1586879262	0
-436	1	4	mod/assign:view	1	1586879262	0
-437	1	3	mod/assign:view	1	1586879262	0
-438	1	1	mod/assign:view	1	1586879262	0
-439	1	5	mod/assign:submit	1	1586879262	0
-440	1	4	mod/assign:grade	1	1586879262	0
-441	1	3	mod/assign:grade	1	1586879262	0
-442	1	1	mod/assign:grade	1	1586879262	0
-443	1	4	mod/assign:exportownsubmission	1	1586879262	0
-444	1	3	mod/assign:exportownsubmission	1	1586879262	0
-445	1	1	mod/assign:exportownsubmission	1	1586879262	0
-446	1	5	mod/assign:exportownsubmission	1	1586879262	0
-447	1	1	mod/assign:addinstance	1	1586879262	0
-448	1	3	mod/assign:addinstance	1	1586879262	0
-449	1	4	mod/assign:grantextension	1	1586879262	0
-450	1	3	mod/assign:grantextension	1	1586879262	0
-451	1	1	mod/assign:grantextension	1	1586879262	0
-452	1	3	mod/assign:revealidentities	1	1586879262	0
-453	1	1	mod/assign:revealidentities	1	1586879262	0
-454	1	1	mod/assign:reviewgrades	1	1586879262	0
-455	1	3	mod/assign:reviewgrades	1	1586879262	0
-456	1	1	mod/assign:releasegrades	1	1586879262	0
-457	1	3	mod/assign:releasegrades	1	1586879262	0
-458	1	1	mod/assign:managegrades	1	1586879262	0
-459	1	3	mod/assign:managegrades	1	1586879262	0
-460	1	1	mod/assign:manageallocations	1	1586879262	0
-461	1	3	mod/assign:manageallocations	1	1586879262	0
-462	1	3	mod/assign:viewgrades	1	1586879262	0
-463	1	1	mod/assign:viewgrades	1	1586879262	0
-464	1	4	mod/assign:viewgrades	1	1586879262	0
-465	1	1	mod/assign:viewblinddetails	1	1586879262	0
-466	1	4	mod/assign:receivegradernotifications	1	1586879262	0
-467	1	3	mod/assign:receivegradernotifications	1	1586879262	0
-468	1	1	mod/assign:receivegradernotifications	1	1586879262	0
-469	1	3	mod/assign:manageoverrides	1	1586879262	0
-470	1	1	mod/assign:manageoverrides	1	1586879262	0
-471	1	6	mod/assignment:view	1	1586879262	0
-472	1	5	mod/assignment:view	1	1586879262	0
-473	1	4	mod/assignment:view	1	1586879262	0
-474	1	3	mod/assignment:view	1	1586879262	0
-475	1	1	mod/assignment:view	1	1586879262	0
-476	1	1	mod/assignment:addinstance	1	1586879262	0
-477	1	3	mod/assignment:addinstance	1	1586879262	0
-478	1	5	mod/assignment:submit	1	1586879262	0
-479	1	4	mod/assignment:grade	1	1586879262	0
-480	1	3	mod/assignment:grade	1	1586879262	0
-481	1	1	mod/assignment:grade	1	1586879262	0
-482	1	4	mod/assignment:exportownsubmission	1	1586879262	0
-483	1	3	mod/assignment:exportownsubmission	1	1586879262	0
-484	1	1	mod/assignment:exportownsubmission	1	1586879262	0
-485	1	5	mod/assignment:exportownsubmission	1	1586879262	0
-486	1	5	mod/attendance:view	1	1586879263	0
-487	1	4	mod/attendance:view	1	1586879263	0
-488	1	3	mod/attendance:view	1	1586879263	0
-489	1	1	mod/attendance:view	1	1586879263	0
-490	1	1	mod/attendance:addinstance	1	1586879263	0
-491	1	3	mod/attendance:addinstance	1	1586879263	0
-492	1	4	mod/attendance:viewreports	1	1586879263	0
-493	1	3	mod/attendance:viewreports	1	1586879263	0
-494	1	1	mod/attendance:viewreports	1	1586879263	0
-495	1	4	mod/attendance:takeattendances	1	1586879263	0
-496	1	3	mod/attendance:takeattendances	1	1586879263	0
-497	1	1	mod/attendance:takeattendances	1	1586879263	0
-498	1	4	mod/attendance:changeattendances	1	1586879263	0
-499	1	3	mod/attendance:changeattendances	1	1586879263	0
-500	1	1	mod/attendance:changeattendances	1	1586879263	0
-501	1	3	mod/attendance:manageattendances	1	1586879263	0
-502	1	1	mod/attendance:manageattendances	1	1586879263	0
-503	1	3	mod/attendance:changepreferences	1	1586879263	0
-504	1	1	mod/attendance:changepreferences	1	1586879263	0
-505	1	3	mod/attendance:export	1	1586879263	0
-506	1	1	mod/attendance:export	1	1586879263	0
-507	1	5	mod/attendance:canbelisted	1	1586879263	0
-508	1	4	mod/attendance:managetemporaryusers	1	1586879263	0
-509	1	3	mod/attendance:managetemporaryusers	1	1586879263	0
-510	1	1	mod/attendance:managetemporaryusers	1	1586879263	0
-511	1	1	mod/attendance:viewsummaryreports	1	1586879263	0
-512	1	4	mod/attendance:warningemails	1	1586879263	0
-513	1	3	mod/attendance:warningemails	1	1586879263	0
-514	1	1	mod/attendance:warningemails	1	1586879263	0
-515	1	1	mod/bigbluebuttonbn:addinstance	1	1586879263	0
-516	1	3	mod/bigbluebuttonbn:addinstance	1	1586879263	0
-517	1	1	mod/bigbluebuttonbn:join	1	1586879263	0
-518	1	3	mod/bigbluebuttonbn:join	1	1586879263	0
-519	1	4	mod/bigbluebuttonbn:join	1	1586879263	0
-520	1	5	mod/bigbluebuttonbn:join	1	1586879263	0
-521	1	6	mod/bigbluebuttonbn:join	1	1586879263	0
-522	1	1	mod/bigbluebuttonbn:managerecordings	1	1586879263	0
-523	1	3	mod/bigbluebuttonbn:managerecordings	1	1586879263	0
-524	1	4	mod/bigbluebuttonbn:managerecordings	1	1586879263	0
-525	1	5	mod/bigbluebuttonbn:view	1	1586879263	0
-526	1	4	mod/bigbluebuttonbn:view	1	1586879263	0
-527	1	3	mod/bigbluebuttonbn:view	1	1586879263	0
-528	1	1	mod/bigbluebuttonbn:view	1	1586879263	0
-529	1	1	mod/bigbluebuttonbn:meeting	1	1586879263	0
-530	1	3	mod/bigbluebuttonbn:meeting	1	1586879263	0
-531	1	4	mod/bigbluebuttonbn:meeting	-1	1586879263	0
-532	1	5	mod/bigbluebuttonbn:meeting	-1	1586879263	0
-533	1	6	mod/bigbluebuttonbn:meeting	-1	1586879263	0
-534	1	1	mod/bigbluebuttonbn:recording	1	1586879263	0
-535	1	3	mod/bigbluebuttonbn:recording	1	1586879263	0
-536	1	4	mod/bigbluebuttonbn:recording	-1	1586879263	0
-537	1	5	mod/bigbluebuttonbn:recording	-1	1586879263	0
-538	1	6	mod/bigbluebuttonbn:recording	-1	1586879263	0
-539	1	1	mod/book:addinstance	1	1586879263	0
-540	1	3	mod/book:addinstance	1	1586879263	0
-541	1	6	mod/book:read	1	1586879263	0
-542	1	8	mod/book:read	1	1586879263	0
-543	1	5	mod/book:read	1	1586879263	0
-544	1	4	mod/book:read	1	1586879263	0
-545	1	3	mod/book:read	1	1586879263	0
-546	1	1	mod/book:read	1	1586879263	0
-547	1	4	mod/book:viewhiddenchapters	1	1586879263	0
-548	1	3	mod/book:viewhiddenchapters	1	1586879263	0
-549	1	1	mod/book:viewhiddenchapters	1	1586879263	0
-550	1	3	mod/book:edit	1	1586879263	0
-551	1	1	mod/book:edit	1	1586879263	0
-552	1	1	mod/chat:addinstance	1	1586879263	0
-553	1	3	mod/chat:addinstance	1	1586879263	0
-554	1	5	mod/chat:chat	1	1586879263	0
-555	1	4	mod/chat:chat	1	1586879263	0
-556	1	3	mod/chat:chat	1	1586879263	0
-557	1	1	mod/chat:chat	1	1586879263	0
-558	1	5	mod/chat:readlog	1	1586879263	0
-559	1	4	mod/chat:readlog	1	1586879263	0
-560	1	3	mod/chat:readlog	1	1586879263	0
-561	1	1	mod/chat:readlog	1	1586879263	0
-562	1	4	mod/chat:deletelog	1	1586879263	0
-563	1	3	mod/chat:deletelog	1	1586879263	0
-564	1	1	mod/chat:deletelog	1	1586879263	0
-565	1	4	mod/chat:exportparticipatedsession	1	1586879263	0
-566	1	3	mod/chat:exportparticipatedsession	1	1586879263	0
-567	1	1	mod/chat:exportparticipatedsession	1	1586879263	0
-568	1	4	mod/chat:exportsession	1	1586879263	0
-569	1	3	mod/chat:exportsession	1	1586879263	0
-570	1	1	mod/chat:exportsession	1	1586879263	0
-571	1	7	mod/chat:view	1	1586879263	0
-572	1	6	mod/chat:view	1	1586879263	0
-573	1	1	mod/choice:addinstance	1	1586879263	0
-574	1	3	mod/choice:addinstance	1	1586879263	0
-575	1	5	mod/choice:choose	1	1586879263	0
-576	1	4	mod/choice:choose	1	1586879263	0
-577	1	3	mod/choice:choose	1	1586879263	0
-578	1	4	mod/choice:readresponses	1	1586879263	0
-579	1	3	mod/choice:readresponses	1	1586879263	0
-580	1	1	mod/choice:readresponses	1	1586879263	0
-581	1	4	mod/choice:deleteresponses	1	1586879263	0
-582	1	3	mod/choice:deleteresponses	1	1586879263	0
-583	1	1	mod/choice:deleteresponses	1	1586879263	0
-584	1	4	mod/choice:downloadresponses	1	1586879263	0
-585	1	3	mod/choice:downloadresponses	1	1586879263	0
-586	1	1	mod/choice:downloadresponses	1	1586879263	0
-587	1	7	mod/choice:view	1	1586879263	0
-588	1	6	mod/choice:view	1	1586879263	0
-589	1	1	mod/data:addinstance	1	1586879263	0
-590	1	3	mod/data:addinstance	1	1586879263	0
-591	1	8	mod/data:viewentry	1	1586879263	0
-592	1	6	mod/data:viewentry	1	1586879263	0
-593	1	5	mod/data:viewentry	1	1586879263	0
-594	1	4	mod/data:viewentry	1	1586879263	0
-595	1	3	mod/data:viewentry	1	1586879263	0
-596	1	1	mod/data:viewentry	1	1586879263	0
-597	1	5	mod/data:writeentry	1	1586879263	0
-598	1	4	mod/data:writeentry	1	1586879263	0
-599	1	3	mod/data:writeentry	1	1586879263	0
-600	1	1	mod/data:writeentry	1	1586879263	0
-601	1	5	mod/data:comment	1	1586879263	0
-602	1	4	mod/data:comment	1	1586879263	0
-603	1	3	mod/data:comment	1	1586879263	0
-604	1	1	mod/data:comment	1	1586879263	0
-605	1	4	mod/data:rate	1	1586879263	0
-606	1	3	mod/data:rate	1	1586879263	0
-607	1	1	mod/data:rate	1	1586879263	0
-608	1	4	mod/data:viewrating	1	1586879263	0
-609	1	3	mod/data:viewrating	1	1586879263	0
-610	1	1	mod/data:viewrating	1	1586879263	0
-611	1	4	mod/data:viewanyrating	1	1586879263	0
-612	1	3	mod/data:viewanyrating	1	1586879263	0
-613	1	1	mod/data:viewanyrating	1	1586879263	0
-614	1	4	mod/data:viewallratings	1	1586879263	0
-615	1	3	mod/data:viewallratings	1	1586879263	0
-616	1	1	mod/data:viewallratings	1	1586879263	0
-617	1	4	mod/data:approve	1	1586879263	0
-618	1	3	mod/data:approve	1	1586879263	0
-619	1	1	mod/data:approve	1	1586879263	0
-620	1	4	mod/data:manageentries	1	1586879263	0
-621	1	3	mod/data:manageentries	1	1586879263	0
-622	1	1	mod/data:manageentries	1	1586879263	0
-623	1	4	mod/data:managecomments	1	1586879263	0
-624	1	3	mod/data:managecomments	1	1586879263	0
-625	1	1	mod/data:managecomments	1	1586879263	0
-626	1	3	mod/data:managetemplates	1	1586879263	0
-627	1	1	mod/data:managetemplates	1	1586879263	0
-628	1	4	mod/data:viewalluserpresets	1	1586879263	0
-629	1	3	mod/data:viewalluserpresets	1	1586879263	0
-630	1	1	mod/data:viewalluserpresets	1	1586879263	0
-631	1	1	mod/data:manageuserpresets	1	1586879263	0
-632	1	1	mod/data:exportentry	1	1586879263	0
-633	1	4	mod/data:exportentry	1	1586879263	0
-634	1	3	mod/data:exportentry	1	1586879263	0
-635	1	1	mod/data:exportownentry	1	1586879263	0
-636	1	4	mod/data:exportownentry	1	1586879264	0
-637	1	3	mod/data:exportownentry	1	1586879264	0
-638	1	5	mod/data:exportownentry	1	1586879264	0
-639	1	1	mod/data:exportallentries	1	1586879264	0
-640	1	4	mod/data:exportallentries	1	1586879264	0
-641	1	3	mod/data:exportallentries	1	1586879264	0
-642	1	1	mod/data:exportuserinfo	1	1586879264	0
-643	1	4	mod/data:exportuserinfo	1	1586879264	0
-644	1	3	mod/data:exportuserinfo	1	1586879264	0
-645	1	6	mod/data:view	1	1586879264	0
-646	1	5	mod/data:view	1	1586879264	0
-647	1	4	mod/data:view	1	1586879264	0
-648	1	3	mod/data:view	1	1586879264	0
-649	1	1	mod/data:view	1	1586879264	0
-650	1	1	mod/feedback:addinstance	1	1586879264	0
-651	1	3	mod/feedback:addinstance	1	1586879264	0
-652	1	6	mod/feedback:view	1	1586879264	0
-653	1	8	mod/feedback:view	1	1586879264	0
-654	1	5	mod/feedback:view	1	1586879264	0
-655	1	4	mod/feedback:view	1	1586879264	0
-656	1	3	mod/feedback:view	1	1586879264	0
-657	1	1	mod/feedback:view	1	1586879264	0
-658	1	8	mod/feedback:complete	1	1586879264	0
-659	1	5	mod/feedback:complete	1	1586879264	0
-660	1	5	mod/feedback:viewanalysepage	1	1586879264	0
-661	1	3	mod/feedback:viewanalysepage	1	1586879264	0
-662	1	1	mod/feedback:viewanalysepage	1	1586879264	0
-663	1	3	mod/feedback:deletesubmissions	1	1586879264	0
-664	1	1	mod/feedback:deletesubmissions	1	1586879264	0
-665	1	1	mod/feedback:mapcourse	1	1586879264	0
-666	1	3	mod/feedback:edititems	1	1586879264	0
-667	1	1	mod/feedback:edititems	1	1586879264	0
-668	1	3	mod/feedback:createprivatetemplate	1	1586879264	0
-669	1	1	mod/feedback:createprivatetemplate	1	1586879264	0
-670	1	3	mod/feedback:createpublictemplate	1	1586879264	0
-671	1	1	mod/feedback:createpublictemplate	1	1586879264	0
-672	1	3	mod/feedback:deletetemplate	1	1586879264	0
-673	1	1	mod/feedback:deletetemplate	1	1586879264	0
-674	1	4	mod/feedback:viewreports	1	1586879264	0
-675	1	3	mod/feedback:viewreports	1	1586879264	0
-676	1	1	mod/feedback:viewreports	1	1586879264	0
-677	1	4	mod/feedback:receivemail	1	1586879264	0
-678	1	3	mod/feedback:receivemail	1	1586879264	0
-679	1	1	mod/folder:addinstance	1	1586879264	0
-680	1	3	mod/folder:addinstance	1	1586879264	0
-681	1	6	mod/folder:view	1	1586879264	0
-682	1	7	mod/folder:view	1	1586879264	0
-683	1	3	mod/folder:managefiles	1	1586879264	0
-684	1	1	mod/forum:addinstance	1	1586879264	0
-685	1	3	mod/forum:addinstance	1	1586879264	0
-686	1	8	mod/forum:viewdiscussion	1	1586879264	0
-687	1	6	mod/forum:viewdiscussion	1	1586879264	0
-688	1	5	mod/forum:viewdiscussion	1	1586879264	0
-689	1	4	mod/forum:viewdiscussion	1	1586879264	0
-690	1	3	mod/forum:viewdiscussion	1	1586879264	0
-691	1	1	mod/forum:viewdiscussion	1	1586879264	0
-692	1	4	mod/forum:viewhiddentimedposts	1	1586879264	0
-693	1	3	mod/forum:viewhiddentimedposts	1	1586879264	0
-694	1	1	mod/forum:viewhiddentimedposts	1	1586879264	0
-695	1	5	mod/forum:startdiscussion	1	1586879264	0
-696	1	4	mod/forum:startdiscussion	1	1586879264	0
-697	1	3	mod/forum:startdiscussion	1	1586879264	0
-698	1	1	mod/forum:startdiscussion	1	1586879264	0
-699	1	5	mod/forum:replypost	1	1586879264	0
-700	1	4	mod/forum:replypost	1	1586879264	0
-701	1	3	mod/forum:replypost	1	1586879264	0
-702	1	1	mod/forum:replypost	1	1586879264	0
-703	1	4	mod/forum:addnews	1	1586879264	0
-704	1	3	mod/forum:addnews	1	1586879264	0
-705	1	1	mod/forum:addnews	1	1586879264	0
-706	1	4	mod/forum:replynews	1	1586879264	0
-707	1	3	mod/forum:replynews	1	1586879264	0
-708	1	1	mod/forum:replynews	1	1586879264	0
-709	1	5	mod/forum:viewrating	1	1586879264	0
-710	1	4	mod/forum:viewrating	1	1586879264	0
-711	1	3	mod/forum:viewrating	1	1586879264	0
-712	1	1	mod/forum:viewrating	1	1586879264	0
-713	1	4	mod/forum:viewanyrating	1	1586879264	0
-714	1	3	mod/forum:viewanyrating	1	1586879264	0
-715	1	1	mod/forum:viewanyrating	1	1586879264	0
-716	1	4	mod/forum:viewallratings	1	1586879264	0
-717	1	3	mod/forum:viewallratings	1	1586879264	0
-718	1	1	mod/forum:viewallratings	1	1586879264	0
-719	1	4	mod/forum:rate	1	1586879264	0
-720	1	3	mod/forum:rate	1	1586879264	0
-721	1	1	mod/forum:rate	1	1586879264	0
-722	1	5	mod/forum:createattachment	1	1586879264	0
-723	1	4	mod/forum:createattachment	1	1586879264	0
-724	1	3	mod/forum:createattachment	1	1586879264	0
-725	1	1	mod/forum:createattachment	1	1586879264	0
-726	1	5	mod/forum:deleteownpost	1	1586879264	0
-727	1	4	mod/forum:deleteownpost	1	1586879264	0
-728	1	3	mod/forum:deleteownpost	1	1586879264	0
-729	1	1	mod/forum:deleteownpost	1	1586879264	0
-730	1	4	mod/forum:deleteanypost	1	1586879264	0
-731	1	3	mod/forum:deleteanypost	1	1586879264	0
-732	1	1	mod/forum:deleteanypost	1	1586879264	0
-733	1	4	mod/forum:splitdiscussions	1	1586879264	0
-734	1	3	mod/forum:splitdiscussions	1	1586879264	0
-735	1	1	mod/forum:splitdiscussions	1	1586879264	0
-736	1	4	mod/forum:movediscussions	1	1586879264	0
-737	1	3	mod/forum:movediscussions	1	1586879264	0
-738	1	1	mod/forum:movediscussions	1	1586879264	0
-739	1	4	mod/forum:pindiscussions	1	1586879264	0
-740	1	3	mod/forum:pindiscussions	1	1586879264	0
-741	1	1	mod/forum:pindiscussions	1	1586879264	0
-742	1	4	mod/forum:editanypost	1	1586879264	0
-743	1	3	mod/forum:editanypost	1	1586879264	0
-744	1	1	mod/forum:editanypost	1	1586879264	0
-745	1	4	mod/forum:viewqandawithoutposting	1	1586879264	0
-746	1	3	mod/forum:viewqandawithoutposting	1	1586879264	0
-747	1	1	mod/forum:viewqandawithoutposting	1	1586879264	0
-748	1	4	mod/forum:viewsubscribers	1	1586879264	0
-749	1	3	mod/forum:viewsubscribers	1	1586879264	0
-750	1	1	mod/forum:viewsubscribers	1	1586879264	0
-751	1	4	mod/forum:managesubscriptions	1	1586879264	0
-752	1	3	mod/forum:managesubscriptions	1	1586879264	0
-753	1	1	mod/forum:managesubscriptions	1	1586879264	0
-754	1	4	mod/forum:postwithoutthrottling	1	1586879264	0
-755	1	3	mod/forum:postwithoutthrottling	1	1586879264	0
-756	1	1	mod/forum:postwithoutthrottling	1	1586879264	0
-757	1	4	mod/forum:exportdiscussion	1	1586879264	0
-758	1	3	mod/forum:exportdiscussion	1	1586879264	0
-759	1	1	mod/forum:exportdiscussion	1	1586879264	0
-760	1	4	mod/forum:exportpost	1	1586879264	0
-761	1	3	mod/forum:exportpost	1	1586879264	0
-762	1	1	mod/forum:exportpost	1	1586879264	0
-763	1	4	mod/forum:exportownpost	1	1586879264	0
-764	1	3	mod/forum:exportownpost	1	1586879264	0
-765	1	1	mod/forum:exportownpost	1	1586879264	0
-766	1	5	mod/forum:exportownpost	1	1586879264	0
-767	1	4	mod/forum:addquestion	1	1586879264	0
-768	1	3	mod/forum:addquestion	1	1586879264	0
-769	1	1	mod/forum:addquestion	1	1586879264	0
-770	1	5	mod/forum:allowforcesubscribe	1	1586879265	0
-771	1	4	mod/forum:allowforcesubscribe	1	1586879265	0
-772	1	3	mod/forum:allowforcesubscribe	1	1586879265	0
-773	1	8	mod/forum:allowforcesubscribe	1	1586879265	0
-774	1	4	mod/forum:canposttomygroups	1	1586879265	0
-775	1	3	mod/forum:canposttomygroups	1	1586879265	0
-776	1	1	mod/forum:canposttomygroups	1	1586879265	0
-777	1	4	mod/forum:canoverridediscussionlock	1	1586879265	0
-778	1	3	mod/forum:canoverridediscussionlock	1	1586879265	0
-779	1	1	mod/forum:canoverridediscussionlock	1	1586879265	0
-780	1	1	mod/glossary:addinstance	1	1586879265	0
-781	1	3	mod/glossary:addinstance	1	1586879265	0
-782	1	8	mod/glossary:view	1	1586879265	0
-783	1	6	mod/glossary:view	1	1586879265	0
-784	1	5	mod/glossary:view	1	1586879265	0
-785	1	4	mod/glossary:view	1	1586879265	0
-786	1	3	mod/glossary:view	1	1586879265	0
-787	1	1	mod/glossary:view	1	1586879265	0
-788	1	5	mod/glossary:write	1	1586879265	0
-789	1	4	mod/glossary:write	1	1586879265	0
-790	1	3	mod/glossary:write	1	1586879265	0
-791	1	1	mod/glossary:write	1	1586879265	0
-792	1	4	mod/glossary:manageentries	1	1586879265	0
-793	1	3	mod/glossary:manageentries	1	1586879265	0
-794	1	1	mod/glossary:manageentries	1	1586879265	0
-795	1	4	mod/glossary:managecategories	1	1586879265	0
-796	1	3	mod/glossary:managecategories	1	1586879265	0
-797	1	1	mod/glossary:managecategories	1	1586879265	0
-798	1	5	mod/glossary:comment	1	1586879265	0
-799	1	4	mod/glossary:comment	1	1586879265	0
-800	1	3	mod/glossary:comment	1	1586879265	0
-801	1	1	mod/glossary:comment	1	1586879265	0
-802	1	4	mod/glossary:managecomments	1	1586879265	0
-803	1	3	mod/glossary:managecomments	1	1586879265	0
-804	1	1	mod/glossary:managecomments	1	1586879265	0
-805	1	4	mod/glossary:import	1	1586879265	0
-806	1	3	mod/glossary:import	1	1586879265	0
-807	1	1	mod/glossary:import	1	1586879265	0
-808	1	4	mod/glossary:export	1	1586879265	0
-809	1	3	mod/glossary:export	1	1586879265	0
-810	1	1	mod/glossary:export	1	1586879265	0
-811	1	4	mod/glossary:approve	1	1586879265	0
-812	1	3	mod/glossary:approve	1	1586879265	0
-813	1	1	mod/glossary:approve	1	1586879265	0
-814	1	4	mod/glossary:rate	1	1586879265	0
-815	1	3	mod/glossary:rate	1	1586879265	0
-816	1	1	mod/glossary:rate	1	1586879265	0
-817	1	4	mod/glossary:viewrating	1	1586879265	0
-818	1	3	mod/glossary:viewrating	1	1586879265	0
-819	1	1	mod/glossary:viewrating	1	1586879265	0
-820	1	4	mod/glossary:viewanyrating	1	1586879265	0
-821	1	3	mod/glossary:viewanyrating	1	1586879265	0
-822	1	1	mod/glossary:viewanyrating	1	1586879265	0
-823	1	4	mod/glossary:viewallratings	1	1586879265	0
-824	1	3	mod/glossary:viewallratings	1	1586879265	0
-825	1	1	mod/glossary:viewallratings	1	1586879265	0
-826	1	4	mod/glossary:exportentry	1	1586879265	0
-827	1	3	mod/glossary:exportentry	1	1586879265	0
-828	1	1	mod/glossary:exportentry	1	1586879265	0
-829	1	4	mod/glossary:exportownentry	1	1586879265	0
-830	1	3	mod/glossary:exportownentry	1	1586879265	0
-831	1	1	mod/glossary:exportownentry	1	1586879265	0
-832	1	5	mod/glossary:exportownentry	1	1586879265	0
-833	1	1	mod/hotpot:addinstance	1	1586879265	0
-834	1	3	mod/hotpot:addinstance	1	1586879265	0
-835	1	5	mod/hotpot:attempt	1	1586879265	0
-836	1	4	mod/hotpot:attempt	1	1586879265	0
-837	1	3	mod/hotpot:attempt	1	1586879265	0
-838	1	1	mod/hotpot:attempt	1	1586879265	0
-839	1	4	mod/hotpot:deleteallattempts	1	1586879265	0
-840	1	3	mod/hotpot:deleteallattempts	1	1586879265	0
-841	1	1	mod/hotpot:deleteallattempts	1	1586879265	0
-842	1	4	mod/hotpot:deletemyattempts	1	1586879265	0
-843	1	3	mod/hotpot:deletemyattempts	1	1586879265	0
-844	1	1	mod/hotpot:deletemyattempts	1	1586879265	0
-845	1	3	mod/hotpot:manage	1	1586879265	0
-846	1	1	mod/hotpot:manage	1	1586879265	0
-847	1	4	mod/hotpot:preview	1	1586879265	0
-848	1	3	mod/hotpot:preview	1	1586879265	0
-849	1	1	mod/hotpot:preview	1	1586879265	0
-850	1	4	mod/hotpot:reviewallattempts	1	1586879265	0
-851	1	3	mod/hotpot:reviewallattempts	1	1586879265	0
-852	1	1	mod/hotpot:reviewallattempts	1	1586879265	0
-853	1	5	mod/hotpot:reviewmyattempts	1	1586879265	0
-854	1	4	mod/hotpot:reviewmyattempts	1	1586879265	0
-855	1	3	mod/hotpot:reviewmyattempts	1	1586879265	0
-856	1	1	mod/hotpot:reviewmyattempts	1	1586879265	0
-857	1	6	mod/hotpot:view	1	1586879265	0
-858	1	5	mod/hotpot:view	1	1586879265	0
-859	1	4	mod/hotpot:view	1	1586879265	0
-860	1	3	mod/hotpot:view	1	1586879265	0
-861	1	1	mod/hotpot:view	1	1586879265	0
-862	1	6	mod/imscp:view	1	1586879265	0
-863	1	7	mod/imscp:view	1	1586879265	0
-864	1	1	mod/imscp:addinstance	1	1586879265	0
-865	1	3	mod/imscp:addinstance	1	1586879265	0
-866	1	1	mod/jitsi:addinstance	1	1586879265	0
-867	1	3	mod/jitsi:addinstance	1	1586879265	0
-868	1	6	mod/jitsi:view	1	1586879265	0
-869	1	7	mod/jitsi:view	1	1586879265	0
-870	1	3	mod/jitsi:moderation	1	1586879265	0
-871	1	1	mod/jitsi:moderation	1	1586879265	0
-872	1	1	mod/label:addinstance	1	1586879265	0
-873	1	3	mod/label:addinstance	1	1586879265	0
-874	1	7	mod/label:view	1	1586879265	0
-875	1	6	mod/label:view	1	1586879265	0
-876	1	1	mod/lesson:addinstance	1	1586879266	0
-877	1	3	mod/lesson:addinstance	1	1586879266	0
-878	1	3	mod/lesson:edit	1	1586879266	0
-879	1	1	mod/lesson:edit	1	1586879266	0
-880	1	4	mod/lesson:grade	1	1586879266	0
-881	1	3	mod/lesson:grade	1	1586879266	0
-882	1	1	mod/lesson:grade	1	1586879266	0
-883	1	4	mod/lesson:viewreports	1	1586879266	0
-884	1	3	mod/lesson:viewreports	1	1586879266	0
-885	1	1	mod/lesson:viewreports	1	1586879266	0
-886	1	4	mod/lesson:manage	1	1586879266	0
-887	1	3	mod/lesson:manage	1	1586879266	0
-888	1	1	mod/lesson:manage	1	1586879266	0
-889	1	3	mod/lesson:manageoverrides	1	1586879266	0
-890	1	1	mod/lesson:manageoverrides	1	1586879266	0
-891	1	7	mod/lesson:view	1	1586879266	0
-892	1	6	mod/lesson:view	1	1586879266	0
-893	1	5	mod/lti:view	1	1586879266	0
-894	1	4	mod/lti:view	1	1586879266	0
-895	1	3	mod/lti:view	1	1586879266	0
-896	1	1	mod/lti:view	1	1586879266	0
-897	1	1	mod/lti:addinstance	1	1586879266	0
-898	1	3	mod/lti:addinstance	1	1586879266	0
-899	1	4	mod/lti:manage	1	1586879266	0
-900	1	3	mod/lti:manage	1	1586879266	0
-901	1	1	mod/lti:manage	1	1586879266	0
-902	1	3	mod/lti:addcoursetool	1	1586879266	0
-903	1	1	mod/lti:addcoursetool	1	1586879266	0
-904	1	3	mod/lti:requesttooladd	1	1586879266	0
-905	1	1	mod/lti:requesttooladd	1	1586879266	0
-906	1	6	mod/page:view	1	1586879266	0
-907	1	7	mod/page:view	1	1586879266	0
-908	1	1	mod/page:addinstance	1	1586879266	0
-909	1	3	mod/page:addinstance	1	1586879266	0
-910	1	1	mod/questionnaire:addinstance	1	1586879266	0
-911	1	3	mod/questionnaire:addinstance	1	1586879266	0
-912	1	5	mod/questionnaire:view	1	1586879266	0
-913	1	4	mod/questionnaire:view	1	1586879266	0
-914	1	3	mod/questionnaire:view	1	1586879266	0
-915	1	2	mod/questionnaire:view	1	1586879266	0
-916	1	1	mod/questionnaire:view	1	1586879266	0
-917	1	5	mod/questionnaire:submit	1	1586879266	0
-918	1	4	mod/questionnaire:viewsingleresponse	1	1586879266	0
-919	1	3	mod/questionnaire:viewsingleresponse	1	1586879266	0
-920	1	1	mod/questionnaire:viewsingleresponse	1	1586879266	0
-921	1	4	mod/questionnaire:submissionnotification	1	1586879266	0
-922	1	3	mod/questionnaire:submissionnotification	1	1586879266	0
-923	1	1	mod/questionnaire:submissionnotification	1	1586879266	0
-924	1	4	mod/questionnaire:downloadresponses	1	1586879266	0
-925	1	3	mod/questionnaire:downloadresponses	1	1586879266	0
-926	1	1	mod/questionnaire:downloadresponses	1	1586879266	0
-927	1	3	mod/questionnaire:deleteresponses	1	1586879266	0
-928	1	1	mod/questionnaire:deleteresponses	1	1586879266	0
-929	1	3	mod/questionnaire:manage	1	1586879266	0
-930	1	2	mod/questionnaire:manage	1	1586879266	0
-931	1	1	mod/questionnaire:manage	1	1586879266	0
-932	1	3	mod/questionnaire:editquestions	1	1586879266	0
-933	1	2	mod/questionnaire:editquestions	1	1586879266	0
-934	1	1	mod/questionnaire:editquestions	1	1586879266	0
-935	1	2	mod/questionnaire:createtemplates	1	1586879266	0
-936	1	1	mod/questionnaire:createtemplates	1	1586879266	0
-937	1	2	mod/questionnaire:createpublic	1	1586879266	0
-938	1	1	mod/questionnaire:createpublic	1	1586879266	0
-939	1	1	mod/questionnaire:readownresponses	1	1586879266	0
-940	1	5	mod/questionnaire:readownresponses	1	1586879266	0
-941	1	1	mod/questionnaire:readallresponses	1	1586879266	0
-942	1	4	mod/questionnaire:readallresponses	1	1586879266	0
-943	1	3	mod/questionnaire:readallresponses	1	1586879266	0
-944	1	5	mod/questionnaire:readallresponses	1	1586879266	0
-945	1	1	mod/questionnaire:readallresponseanytime	1	1586879266	0
-946	1	4	mod/questionnaire:readallresponseanytime	1	1586879266	0
-947	1	3	mod/questionnaire:readallresponseanytime	1	1586879266	0
-948	1	1	mod/questionnaire:printblank	1	1586879266	0
-949	1	2	mod/questionnaire:printblank	1	1586879266	0
-950	1	4	mod/questionnaire:printblank	1	1586879266	0
-951	1	3	mod/questionnaire:printblank	1	1586879266	0
-952	1	5	mod/questionnaire:printblank	1	1586879266	0
-953	1	1	mod/questionnaire:preview	1	1586879266	0
-954	1	2	mod/questionnaire:preview	1	1586879266	0
-955	1	4	mod/questionnaire:preview	1	1586879266	0
-956	1	3	mod/questionnaire:preview	1	1586879266	0
-957	1	1	mod/questionnaire:message	1	1586879266	0
-958	1	4	mod/questionnaire:message	1	1586879266	0
-959	1	3	mod/questionnaire:message	1	1586879266	0
-960	1	6	mod/quiz:view	1	1586879266	0
-961	1	5	mod/quiz:view	1	1586879266	0
-962	1	4	mod/quiz:view	1	1586879266	0
-963	1	3	mod/quiz:view	1	1586879266	0
-964	1	1	mod/quiz:view	1	1586879266	0
-965	1	1	mod/quiz:addinstance	1	1586879266	0
-966	1	3	mod/quiz:addinstance	1	1586879266	0
-967	1	5	mod/quiz:attempt	1	1586879266	0
-968	1	5	mod/quiz:reviewmyattempts	1	1586879266	0
-969	1	3	mod/quiz:manage	1	1586879267	0
-970	1	1	mod/quiz:manage	1	1586879267	0
-971	1	3	mod/quiz:manageoverrides	1	1586879267	0
-972	1	1	mod/quiz:manageoverrides	1	1586879267	0
-973	1	4	mod/quiz:preview	1	1586879267	0
-974	1	3	mod/quiz:preview	1	1586879267	0
-975	1	1	mod/quiz:preview	1	1586879267	0
-976	1	4	mod/quiz:grade	1	1586879267	0
-977	1	3	mod/quiz:grade	1	1586879267	0
-978	1	1	mod/quiz:grade	1	1586879267	0
-979	1	4	mod/quiz:regrade	1	1586879267	0
-980	1	3	mod/quiz:regrade	1	1586879267	0
-981	1	1	mod/quiz:regrade	1	1586879267	0
-982	1	4	mod/quiz:viewreports	1	1586879267	0
-983	1	3	mod/quiz:viewreports	1	1586879267	0
-984	1	1	mod/quiz:viewreports	1	1586879267	0
-985	1	3	mod/quiz:deleteattempts	1	1586879267	0
-986	1	1	mod/quiz:deleteattempts	1	1586879267	0
-987	1	6	mod/resource:view	1	1586879267	0
-988	1	7	mod/resource:view	1	1586879267	0
-989	1	1	mod/resource:addinstance	1	1586879267	0
-990	1	3	mod/resource:addinstance	1	1586879267	0
-991	1	1	mod/scorm:addinstance	1	1586879267	0
-992	1	3	mod/scorm:addinstance	1	1586879267	0
-993	1	4	mod/scorm:viewreport	1	1586879267	0
-994	1	3	mod/scorm:viewreport	1	1586879267	0
-995	1	1	mod/scorm:viewreport	1	1586879267	0
-996	1	5	mod/scorm:skipview	1	1586879267	0
-997	1	5	mod/scorm:savetrack	1	1586879267	0
-998	1	4	mod/scorm:savetrack	1	1586879267	0
-999	1	3	mod/scorm:savetrack	1	1586879267	0
-1000	1	1	mod/scorm:savetrack	1	1586879267	0
-1001	1	5	mod/scorm:viewscores	1	1586879267	0
-1002	1	4	mod/scorm:viewscores	1	1586879267	0
-1003	1	3	mod/scorm:viewscores	1	1586879267	0
-1004	1	1	mod/scorm:viewscores	1	1586879267	0
-1005	1	4	mod/scorm:deleteresponses	1	1586879267	0
-1006	1	3	mod/scorm:deleteresponses	1	1586879267	0
-1007	1	1	mod/scorm:deleteresponses	1	1586879267	0
-1008	1	1	mod/survey:addinstance	1	1586879267	0
-1009	1	3	mod/survey:addinstance	1	1586879267	0
-1010	1	5	mod/survey:participate	1	1586879267	0
-1011	1	4	mod/survey:participate	1	1586879267	0
-1012	1	3	mod/survey:participate	1	1586879267	0
-1013	1	1	mod/survey:participate	1	1586879267	0
-1014	1	4	mod/survey:readresponses	1	1586879267	0
-1015	1	3	mod/survey:readresponses	1	1586879267	0
-1016	1	1	mod/survey:readresponses	1	1586879267	0
-1017	1	4	mod/survey:download	1	1586879267	0
-1018	1	3	mod/survey:download	1	1586879267	0
-1019	1	1	mod/survey:download	1	1586879267	0
-1020	1	6	mod/turnitintooltwo:view	1	1586879267	0
-1021	1	5	mod/turnitintooltwo:view	1	1586879267	0
-1022	1	4	mod/turnitintooltwo:view	1	1586879267	0
-1023	1	3	mod/turnitintooltwo:view	1	1586879267	0
-1024	1	5	mod/turnitintooltwo:read	1	1586879267	0
-1025	1	4	mod/turnitintooltwo:read	1	1586879267	0
-1026	1	3	mod/turnitintooltwo:read	1	1586879267	0
-1027	1	5	mod/turnitintooltwo:submit	1	1586879267	0
-1028	1	4	mod/turnitintooltwo:grade	1	1586879267	0
-1029	1	3	mod/turnitintooltwo:grade	1	1586879267	0
-1030	1	1	mod/turnitintooltwo:addinstance	1	1586879267	0
-1031	1	3	mod/turnitintooltwo:addinstance	1	1586879267	0
-1032	1	6	mod/url:view	1	1586879267	0
-1033	1	7	mod/url:view	1	1586879267	0
-1034	1	1	mod/url:addinstance	1	1586879267	0
-1035	1	3	mod/url:addinstance	1	1586879267	0
-1036	1	6	mod/webexactivity:view	1	1586879268	0
-1037	1	7	mod/webexactivity:view	1	1586879268	0
-1038	1	1	mod/webexactivity:addinstance	1	1586879268	0
-1039	1	3	mod/webexactivity:addinstance	1	1586879268	0
-1040	1	1	mod/webexactivity:hostmeeting	1	1586879268	0
-1041	1	3	mod/webexactivity:hostmeeting	1	1586879268	0
-1042	1	1	mod/wiki:addinstance	1	1586879268	0
-1043	1	3	mod/wiki:addinstance	1	1586879268	0
-1044	1	6	mod/wiki:viewpage	1	1586879268	0
-1045	1	8	mod/wiki:viewpage	1	1586879268	0
-1046	1	5	mod/wiki:viewpage	1	1586879268	0
-1047	1	4	mod/wiki:viewpage	1	1586879268	0
-1048	1	3	mod/wiki:viewpage	1	1586879268	0
-1049	1	1	mod/wiki:viewpage	1	1586879268	0
-1050	1	5	mod/wiki:editpage	1	1586879268	0
-1051	1	4	mod/wiki:editpage	1	1586879268	0
-1052	1	3	mod/wiki:editpage	1	1586879268	0
-1053	1	1	mod/wiki:editpage	1	1586879268	0
-1054	1	5	mod/wiki:createpage	1	1586879268	0
-1055	1	4	mod/wiki:createpage	1	1586879268	0
-1056	1	3	mod/wiki:createpage	1	1586879268	0
-1057	1	1	mod/wiki:createpage	1	1586879268	0
-1058	1	5	mod/wiki:viewcomment	1	1586879268	0
-1059	1	4	mod/wiki:viewcomment	1	1586879268	0
-1060	1	3	mod/wiki:viewcomment	1	1586879268	0
-1061	1	1	mod/wiki:viewcomment	1	1586879268	0
-1062	1	5	mod/wiki:editcomment	1	1586879268	0
-1063	1	4	mod/wiki:editcomment	1	1586879268	0
-1064	1	3	mod/wiki:editcomment	1	1586879268	0
-1065	1	1	mod/wiki:editcomment	1	1586879268	0
-1066	1	4	mod/wiki:managecomment	1	1586879268	0
-1067	1	3	mod/wiki:managecomment	1	1586879268	0
-1068	1	1	mod/wiki:managecomment	1	1586879268	0
-1069	1	4	mod/wiki:managefiles	1	1586879268	0
-1070	1	3	mod/wiki:managefiles	1	1586879268	0
-1071	1	1	mod/wiki:managefiles	1	1586879268	0
-1072	1	4	mod/wiki:overridelock	1	1586879268	0
-1073	1	3	mod/wiki:overridelock	1	1586879268	0
-1074	1	1	mod/wiki:overridelock	1	1586879268	0
-1075	1	4	mod/wiki:managewiki	1	1586879268	0
-1076	1	3	mod/wiki:managewiki	1	1586879268	0
-1077	1	1	mod/wiki:managewiki	1	1586879268	0
-1078	1	6	mod/workshop:view	1	1586879268	0
-1079	1	5	mod/workshop:view	1	1586879268	0
-1080	1	4	mod/workshop:view	1	1586879268	0
-1081	1	3	mod/workshop:view	1	1586879268	0
-1082	1	1	mod/workshop:view	1	1586879268	0
-1083	1	1	mod/workshop:addinstance	1	1586879268	0
-1084	1	3	mod/workshop:addinstance	1	1586879268	0
-1085	1	4	mod/workshop:switchphase	1	1586879268	0
-1086	1	3	mod/workshop:switchphase	1	1586879268	0
-1087	1	1	mod/workshop:switchphase	1	1586879268	0
-1088	1	3	mod/workshop:editdimensions	1	1586879268	0
-1089	1	1	mod/workshop:editdimensions	1	1586879268	0
-1090	1	5	mod/workshop:submit	1	1586879268	0
-1091	1	5	mod/workshop:peerassess	1	1586879268	0
-1092	1	4	mod/workshop:manageexamples	1	1586879268	0
-1093	1	3	mod/workshop:manageexamples	1	1586879268	0
-1094	1	1	mod/workshop:manageexamples	1	1586879268	0
-1095	1	4	mod/workshop:allocate	1	1586879268	0
-1096	1	3	mod/workshop:allocate	1	1586879268	0
-1097	1	1	mod/workshop:allocate	1	1586879268	0
-1098	1	4	mod/workshop:publishsubmissions	1	1586879268	0
-1099	1	3	mod/workshop:publishsubmissions	1	1586879268	0
-1100	1	1	mod/workshop:publishsubmissions	1	1586879268	0
-1101	1	5	mod/workshop:viewauthornames	1	1586879268	0
-1102	1	4	mod/workshop:viewauthornames	1	1586879268	0
-1103	1	3	mod/workshop:viewauthornames	1	1586879268	0
-1104	1	1	mod/workshop:viewauthornames	1	1586879268	0
-1105	1	4	mod/workshop:viewreviewernames	1	1586879268	0
-1106	1	3	mod/workshop:viewreviewernames	1	1586879268	0
-1107	1	1	mod/workshop:viewreviewernames	1	1586879268	0
-1108	1	4	mod/workshop:viewallsubmissions	1	1586879268	0
-1109	1	3	mod/workshop:viewallsubmissions	1	1586879268	0
-1110	1	1	mod/workshop:viewallsubmissions	1	1586879268	0
-1111	1	5	mod/workshop:viewpublishedsubmissions	1	1586879268	0
-1112	1	4	mod/workshop:viewpublishedsubmissions	1	1586879268	0
-1113	1	3	mod/workshop:viewpublishedsubmissions	1	1586879268	0
-1114	1	1	mod/workshop:viewpublishedsubmissions	1	1586879268	0
-1115	1	5	mod/workshop:viewauthorpublished	1	1586879268	0
-1116	1	4	mod/workshop:viewauthorpublished	1	1586879268	0
-1117	1	3	mod/workshop:viewauthorpublished	1	1586879268	0
-1118	1	1	mod/workshop:viewauthorpublished	1	1586879268	0
-1119	1	4	mod/workshop:viewallassessments	1	1586879268	0
-1120	1	3	mod/workshop:viewallassessments	1	1586879268	0
-1121	1	1	mod/workshop:viewallassessments	1	1586879268	0
-1122	1	4	mod/workshop:overridegrades	1	1586879268	0
-1123	1	3	mod/workshop:overridegrades	1	1586879268	0
-1124	1	1	mod/workshop:overridegrades	1	1586879268	0
-1125	1	4	mod/workshop:ignoredeadlines	1	1586879268	0
-1126	1	3	mod/workshop:ignoredeadlines	1	1586879268	0
-1127	1	1	mod/workshop:ignoredeadlines	1	1586879268	0
-1128	1	4	mod/workshop:deletesubmissions	1	1586879268	0
-1129	1	3	mod/workshop:deletesubmissions	1	1586879268	0
-1130	1	1	mod/workshop:deletesubmissions	1	1586879268	0
-1131	1	1	mod/workshop:exportsubmissions	1	1586879268	0
-1132	1	4	mod/workshop:exportsubmissions	1	1586879268	0
-1133	1	3	mod/workshop:exportsubmissions	1	1586879268	0
-1134	1	5	mod/workshop:exportsubmissions	1	1586879268	0
-1135	1	7	auth/oauth2:managelinkedlogins	1	1586879269	0
-1136	1	1	enrol/category:config	1	1586879269	0
-1137	1	3	enrol/category:config	1	1586879269	0
-1138	1	3	enrol/cohort:config	1	1586879269	0
-1139	1	1	enrol/cohort:config	1	1586879269	0
-1140	1	1	enrol/cohort:unenrol	1	1586879269	0
-1141	1	1	enrol/database:unenrol	1	1586879269	0
-1142	1	1	enrol/database:config	1	1586879269	0
-1143	1	3	enrol/database:config	1	1586879269	0
-1144	1	1	enrol/guest:config	1	1586879269	0
-1145	1	3	enrol/guest:config	1	1586879269	0
-1146	1	1	enrol/imsenterprise:config	1	1586879269	0
-1147	1	3	enrol/imsenterprise:config	1	1586879269	0
-1148	1	1	enrol/ldap:manage	1	1586879269	0
-1149	1	1	enrol/lti:config	1	1586879269	0
-1150	1	3	enrol/lti:config	1	1586879269	0
-1151	1	1	enrol/lti:unenrol	1	1586879269	0
-1152	1	3	enrol/lti:unenrol	1	1586879269	0
-1153	1	1	enrol/manual:config	1	1586879269	0
-1154	1	1	enrol/manual:enrol	1	1586879269	0
-1155	1	3	enrol/manual:enrol	1	1586879269	0
-1156	1	1	enrol/manual:manage	1	1586879269	0
-1157	1	3	enrol/manual:manage	1	1586879270	0
-1158	1	1	enrol/manual:unenrol	1	1586879270	0
-1159	1	3	enrol/manual:unenrol	1	1586879270	0
-1160	1	1	enrol/meta:config	1	1586879270	0
-1161	1	3	enrol/meta:config	1	1586879270	0
-1162	1	1	enrol/meta:selectaslinked	1	1586879270	0
-1163	1	1	enrol/meta:unenrol	1	1586879270	0
-1164	1	1	enrol/mnet:config	1	1586879270	0
-1165	1	3	enrol/mnet:config	1	1586879270	0
-1166	1	1	enrol/paypal:config	1	1586879270	0
-1167	1	1	enrol/paypal:manage	1	1586879270	0
-1168	1	3	enrol/paypal:manage	1	1586879270	0
-1169	1	1	enrol/paypal:unenrol	1	1586879270	0
-1170	1	3	enrol/self:config	1	1586879270	0
-1171	1	1	enrol/self:config	1	1586879270	0
-1172	1	3	enrol/self:manage	1	1586879270	0
-1173	1	1	enrol/self:manage	1	1586879270	0
-1174	1	5	enrol/self:unenrolself	1	1586879270	0
-1175	1	3	enrol/self:unenrol	1	1586879270	0
-1176	1	1	enrol/self:unenrol	1	1586879270	0
-1177	1	7	message/airnotifier:managedevice	1	1586879270	0
-1178	1	1	block/activity_modules:addinstance	1	1586879271	0
-1179	1	3	block/activity_modules:addinstance	1	1586879271	0
-1180	1	1	block/activity_results:addinstance	1	1586879271	0
-1181	1	3	block/activity_results:addinstance	1	1586879271	0
-1182	1	7	block/admin_bookmarks:myaddinstance	1	1586879271	0
-1183	1	1	block/admin_bookmarks:addinstance	1	1586879271	0
-1184	1	3	block/admin_bookmarks:addinstance	1	1586879271	0
-1185	1	1	block/badges:addinstance	1	1586879271	0
-1186	1	3	block/badges:addinstance	1	1586879271	0
-1187	1	7	block/badges:myaddinstance	1	1586879271	0
-1188	1	1	block/blog_menu:addinstance	1	1586879271	0
-1189	1	3	block/blog_menu:addinstance	1	1586879271	0
-1190	1	1	block/blog_recent:addinstance	1	1586879271	0
-1191	1	3	block/blog_recent:addinstance	1	1586879271	0
-1192	1	1	block/blog_tags:addinstance	1	1586879271	0
-1193	1	3	block/blog_tags:addinstance	1	1586879271	0
-1194	1	7	block/calendar_month:myaddinstance	1	1586879271	0
-1195	1	1	block/calendar_month:addinstance	1	1586879271	0
-1196	1	3	block/calendar_month:addinstance	1	1586879271	0
-1197	1	7	block/calendar_upcoming:myaddinstance	1	1586879271	0
-1198	1	1	block/calendar_upcoming:addinstance	1	1586879271	0
-1199	1	3	block/calendar_upcoming:addinstance	1	1586879271	0
-1200	1	7	block/comments:myaddinstance	1	1586879271	0
-1201	1	1	block/comments:addinstance	1	1586879271	0
-1202	1	3	block/comments:addinstance	1	1586879271	0
-1203	1	7	block/community:myaddinstance	1	1586879271	0
-1204	1	1	block/community:addinstance	1	1586879271	0
-1205	1	3	block/community:addinstance	1	1586879271	0
-1206	1	1	block/completionstatus:addinstance	1	1586879271	0
-1207	1	3	block/completionstatus:addinstance	1	1586879271	0
-1208	1	7	block/course_list:myaddinstance	1	1586879271	0
-1209	1	1	block/course_list:addinstance	1	1586879271	0
-1210	1	3	block/course_list:addinstance	1	1586879271	0
-1211	1	1	block/course_summary:addinstance	1	1586879271	0
-1212	1	3	block/course_summary:addinstance	1	1586879271	0
-1213	1	1	block/feedback:addinstance	1	1586879271	0
-1214	1	3	block/feedback:addinstance	1	1586879271	0
-1215	1	7	block/globalsearch:myaddinstance	1	1586879271	0
-1216	1	1	block/globalsearch:addinstance	1	1586879271	0
-1217	1	3	block/globalsearch:addinstance	1	1586879271	0
-1218	1	7	block/glossary_random:myaddinstance	1	1586879271	0
-1219	1	1	block/glossary_random:addinstance	1	1586879271	0
-1220	1	3	block/glossary_random:addinstance	1	1586879271	0
-1221	1	7	block/html:myaddinstance	1	1586879271	0
-1222	1	1	block/html:addinstance	1	1586879271	0
-1223	1	3	block/html:addinstance	1	1586879271	0
-1224	1	1	block/login:addinstance	1	1586879271	0
-1225	1	3	block/login:addinstance	1	1586879271	0
-1226	1	1	block/lp:addinstance	1	1586879271	0
-1227	1	3	block/lp:addinstance	1	1586879271	0
-1228	1	7	block/lp:myaddinstance	1	1586879271	0
-1229	1	7	block/lp:view	1	1586879271	0
-1230	1	7	block/mentees:myaddinstance	1	1586879271	0
-1231	1	1	block/mentees:addinstance	1	1586879271	0
-1232	1	3	block/mentees:addinstance	1	1586879271	0
-1233	1	7	block/mnet_hosts:myaddinstance	1	1586879271	0
-1234	1	1	block/mnet_hosts:addinstance	1	1586879271	0
-1235	1	3	block/mnet_hosts:addinstance	1	1586879271	0
-1236	1	7	block/myoverview:myaddinstance	1	1586879272	0
-1237	1	1	block/myoverview:addinstance	1	1586879272	0
-1238	1	3	block/myoverview:addinstance	1	1586879272	0
-1239	1	7	block/myprofile:myaddinstance	1	1586879272	0
-1240	1	1	block/myprofile:addinstance	1	1586879272	0
-1241	1	3	block/myprofile:addinstance	1	1586879272	0
-1242	1	7	block/navigation:myaddinstance	1	1586879272	0
-1243	1	1	block/navigation:addinstance	1	1586879272	0
-1244	1	3	block/navigation:addinstance	1	1586879272	0
-1245	1	7	block/news_items:myaddinstance	1	1586879272	0
-1246	1	1	block/news_items:addinstance	1	1586879272	0
-1247	1	3	block/news_items:addinstance	1	1586879272	0
-1248	1	7	block/online_users:myaddinstance	1	1586879272	0
-1249	1	1	block/online_users:addinstance	1	1586879272	0
-1250	1	3	block/online_users:addinstance	1	1586879272	0
-1251	1	7	block/online_users:viewlist	1	1586879272	0
-1252	1	6	block/online_users:viewlist	1	1586879272	0
-1253	1	5	block/online_users:viewlist	1	1586879272	0
-1254	1	4	block/online_users:viewlist	1	1586879272	0
-1255	1	3	block/online_users:viewlist	1	1586879272	0
-1256	1	1	block/online_users:viewlist	1	1586879272	0
-1257	1	1	block/participants:addinstance	1	1586879272	0
-1258	1	3	block/participants:addinstance	1	1586879272	0
-1259	1	7	block/private_files:myaddinstance	1	1586879272	0
-1260	1	1	block/private_files:addinstance	1	1586879272	0
-1261	1	3	block/private_files:addinstance	1	1586879272	0
-1262	1	1	block/qrcode:addinstance	1	1586879272	0
-1263	1	3	block/qrcode:addinstance	1	1586879272	0
-1264	1	4	block/qrcode:download	1	1586879272	0
-1265	1	3	block/qrcode:download	1	1586879272	0
-1266	1	2	block/qrcode:download	1	1586879272	0
-1267	1	1	block/qrcode:download	1	1586879272	0
-1268	1	1	block/quiz_results:addinstance	1	1586879272	0
-1269	1	3	block/quiz_results:addinstance	1	1586879272	0
-1270	1	1	block/recent_activity:addinstance	1	1586879272	0
-1271	1	3	block/recent_activity:addinstance	1	1586879272	0
-1272	1	7	block/recent_activity:viewaddupdatemodule	1	1586879272	0
-1273	1	7	block/recent_activity:viewdeletemodule	1	1586879272	0
-1274	1	7	block/recentlyaccessedcourses:myaddinstance	1	1586879272	0
-1275	1	1	block/recentlyaccessedcourses:addinstance	1	1586879272	0
-1276	1	3	block/recentlyaccessedcourses:addinstance	1	1586879272	0
-1277	1	7	block/recentlyaccesseditems:myaddinstance	1	1586879272	0
-1278	1	1	block/recentlyaccesseditems:addinstance	1	1586879272	0
-1279	1	3	block/recentlyaccesseditems:addinstance	1	1586879272	0
-1280	1	7	block/rss_client:myaddinstance	1	1586879272	0
-1281	1	1	block/rss_client:addinstance	1	1586879272	0
-1282	1	3	block/rss_client:addinstance	1	1586879272	0
-1283	1	4	block/rss_client:manageownfeeds	1	1586879272	0
-1284	1	3	block/rss_client:manageownfeeds	1	1586879272	0
-1285	1	1	block/rss_client:manageownfeeds	1	1586879272	0
-1286	1	1	block/rss_client:manageanyfeeds	1	1586879272	0
-1287	1	1	block/search_forums:addinstance	1	1586879272	0
-1288	1	3	block/search_forums:addinstance	1	1586879272	0
-1289	1	1	block/section_links:addinstance	1	1586879272	0
-1290	1	3	block/section_links:addinstance	1	1586879272	0
-1291	1	1	block/selfcompletion:addinstance	1	1586879272	0
-1292	1	3	block/selfcompletion:addinstance	1	1586879272	0
-1293	1	7	block/settings:myaddinstance	1	1586879272	0
-1294	1	1	block/settings:addinstance	1	1586879272	0
-1295	1	3	block/settings:addinstance	1	1586879272	0
-1296	1	1	block/site_main_menu:addinstance	1	1586879272	0
-1297	1	3	block/site_main_menu:addinstance	1	1586879272	0
-1298	1	7	block/sitenews:myaddinstance	1	1586879272	0
-1299	1	6	block/sitenews:myaddinstance	1	1586879272	0
-1300	1	1	block/social_activities:addinstance	1	1586879272	0
-1301	1	3	block/social_activities:addinstance	1	1586879272	0
-1302	1	7	block/starredcourses:myaddinstance	1	1586879272	0
-1303	1	1	block/starredcourses:addinstance	1	1586879272	0
-1304	1	3	block/starredcourses:addinstance	1	1586879272	0
-1305	1	1	block/tag_flickr:addinstance	1	1586879272	0
-1306	1	3	block/tag_flickr:addinstance	1	1586879272	0
-1307	1	1	block/tag_youtube:addinstance	1	1586879272	0
-1308	1	3	block/tag_youtube:addinstance	1	1586879273	0
-1309	1	7	block/tags:myaddinstance	1	1586879273	0
-1310	1	1	block/tags:addinstance	1	1586879273	0
-1311	1	3	block/tags:addinstance	1	1586879273	0
-1312	1	7	block/timeline:myaddinstance	1	1586879273	0
-1313	1	1	block/timeline:addinstance	1	1586879273	0
-1314	1	3	block/timeline:addinstance	1	1586879273	0
-1315	1	1	report/benchmark:view	1	1586879274	0
-1316	1	4	report/completion:view	1	1586879274	0
-1317	1	3	report/completion:view	1	1586879274	0
-1318	1	1	report/completion:view	1	1586879274	0
-1319	1	1	report/courseoverview:view	1	1586879274	0
-1320	1	3	report/courseoverview:view	1	1586879274	0
-1321	1	4	report/courseoverview:view	1	1586879274	0
-1322	1	4	report/log:view	1	1586879274	0
-1323	1	3	report/log:view	1	1586879274	0
-1324	1	1	report/log:view	1	1586879274	0
-1325	1	4	report/log:viewtoday	1	1586879274	0
-1326	1	3	report/log:viewtoday	1	1586879274	0
-1327	1	1	report/log:viewtoday	1	1586879274	0
-1328	1	4	report/loglive:view	1	1586879274	0
-1329	1	3	report/loglive:view	1	1586879274	0
-1330	1	1	report/loglive:view	1	1586879274	0
-1331	1	4	report/outline:view	1	1586879274	0
-1332	1	3	report/outline:view	1	1586879274	0
-1333	1	1	report/outline:view	1	1586879274	0
-1334	1	4	report/outline:viewuserreport	1	1586879274	0
-1335	1	3	report/outline:viewuserreport	1	1586879274	0
-1336	1	1	report/outline:viewuserreport	1	1586879274	0
-1337	1	4	report/participation:view	1	1586879274	0
-1338	1	3	report/participation:view	1	1586879274	0
-1339	1	1	report/participation:view	1	1586879274	0
-1340	1	1	report/performance:view	1	1586879274	0
-1341	1	4	report/progress:view	1	1586879274	0
-1342	1	3	report/progress:view	1	1586879274	0
-1343	1	1	report/progress:view	1	1586879274	0
-1344	1	1	report/security:view	1	1586879274	0
-1345	1	4	report/stats:view	1	1586879274	0
-1346	1	3	report/stats:view	1	1586879274	0
-1347	1	1	report/stats:view	1	1586879274	0
-1348	1	1	report/usersessions:manageownsessions	1	1586879274	0
-1349	1	7	report/usersessions:manageownsessions	1	1586879274	0
-1350	1	6	report/usersessions:manageownsessions	-1000	1586879274	0
-1351	1	4	gradeexport/ods:view	1	1586879274	0
-1352	1	3	gradeexport/ods:view	1	1586879274	0
-1353	1	1	gradeexport/ods:view	1	1586879274	0
-1354	1	1	gradeexport/ods:publish	1	1586879274	0
-1355	1	4	gradeexport/txt:view	1	1586879274	0
-1356	1	3	gradeexport/txt:view	1	1586879274	0
-1357	1	1	gradeexport/txt:view	1	1586879274	0
-1358	1	1	gradeexport/txt:publish	1	1586879274	0
-1359	1	4	gradeexport/xls:view	1	1586879274	0
-1360	1	3	gradeexport/xls:view	1	1586879274	0
-1361	1	1	gradeexport/xls:view	1	1586879274	0
-1362	1	1	gradeexport/xls:publish	1	1586879274	0
-1363	1	4	gradeexport/xml:view	1	1586879274	0
-1364	1	3	gradeexport/xml:view	1	1586879274	0
-1365	1	1	gradeexport/xml:view	1	1586879274	0
-1366	1	1	gradeexport/xml:publish	1	1586879274	0
-1367	1	3	gradeimport/csv:view	1	1586879274	0
-1368	1	1	gradeimport/csv:view	1	1586879274	0
-1369	1	3	gradeimport/direct:view	1	1586879274	0
-1370	1	1	gradeimport/direct:view	1	1586879274	0
-1371	1	3	gradeimport/xml:view	1	1586879274	0
-1372	1	1	gradeimport/xml:view	1	1586879274	0
-1373	1	1	gradeimport/xml:publish	1	1586879274	0
-1374	1	4	gradereport/grader:view	1	1586879274	0
-1375	1	3	gradereport/grader:view	1	1586879274	0
-1376	1	1	gradereport/grader:view	1	1586879274	0
-1377	1	1	gradereport/history:view	1	1586879274	0
-1378	1	3	gradereport/history:view	1	1586879274	0
-1379	1	4	gradereport/history:view	1	1586879274	0
-1380	1	4	gradereport/outcomes:view	1	1586879275	0
-1381	1	3	gradereport/outcomes:view	1	1586879275	0
-1382	1	1	gradereport/outcomes:view	1	1586879275	0
-1383	1	7	gradereport/overview:view	1	1586879275	0
-1384	1	3	gradereport/singleview:view	1	1586879275	0
-1385	1	1	gradereport/singleview:view	1	1586879275	0
-1386	1	5	gradereport/user:view	1	1586879275	0
-1387	1	4	gradereport/user:view	1	1586879275	0
-1388	1	3	gradereport/user:view	1	1586879275	0
-1389	1	1	gradereport/user:view	1	1586879275	0
-1390	1	7	repository/areafiles:view	1	1586879275	0
-1391	1	2	repository/coursefiles:view	1	1586879275	0
-1392	1	4	repository/coursefiles:view	1	1586879275	0
-1393	1	3	repository/coursefiles:view	1	1586879275	0
-1394	1	1	repository/coursefiles:view	1	1586879275	0
-1395	1	7	repository/equella:view	1	1586879275	0
-1396	1	2	repository/filesystem:view	1	1586879275	0
-1397	1	4	repository/filesystem:view	1	1586879275	0
-1398	1	3	repository/filesystem:view	1	1586879275	0
-1399	1	1	repository/filesystem:view	1	1586879275	0
-1400	1	2	repository/local:view	1	1586879275	0
-1401	1	4	repository/local:view	1	1586879275	0
-1402	1	3	repository/local:view	1	1586879275	0
-1403	1	1	repository/local:view	1	1586879275	0
-1404	1	7	repository/nextcloud:view	1	1586879275	0
-1405	1	7	repository/recent:view	1	1586879275	0
-1406	1	7	repository/s3:view	1	1586879275	0
-1407	1	7	repository/upload:view	1	1586879275	0
-1408	1	7	repository/url:view	1	1586879275	0
-1409	1	7	repository/user:view	1	1586879275	0
-1410	1	2	repository/webdav:view	1	1586879275	0
-1411	1	4	repository/webdav:view	1	1586879275	0
-1412	1	3	repository/webdav:view	1	1586879275	0
-1413	1	1	repository/webdav:view	1	1586879275	0
-1414	1	7	repository/wikimedia:view	1	1586879275	0
-1415	1	7	repository/youtube:view	1	1586879275	0
-1416	1	1	tool/customlang:view	1	1586879276	0
-1417	1	1	tool/customlang:edit	1	1586879276	0
-1418	1	7	tool/dataprivacy:downloadownrequest	1	1586879276	0
-1419	1	1	tool/lpmigrate:frameworksmigrate	1	1586879277	0
-1420	1	4	tool/monitor:subscribe	1	1586879277	0
-1421	1	3	tool/monitor:subscribe	1	1586879277	0
-1422	1	1	tool/monitor:subscribe	1	1586879277	0
-1423	1	4	tool/monitor:managerules	1	1586879277	0
-1424	1	3	tool/monitor:managerules	1	1586879277	0
-1425	1	1	tool/monitor:managerules	1	1586879277	0
-1426	1	1	tool/monitor:managetool	1	1586879277	0
-1427	1	7	tool/policy:accept	1	1586879277	0
-1428	1	1	tool/policy:managedocs	1	1586879277	0
-1429	1	1	tool/policy:viewacceptances	1	1586879277	0
-1430	1	3	tool/recyclebin:deleteitems	1	1586879277	0
-1431	1	1	tool/recyclebin:deleteitems	1	1586879277	0
-1432	1	3	tool/recyclebin:restoreitems	1	1586879277	0
-1433	1	1	tool/recyclebin:restoreitems	1	1586879277	0
-1434	1	4	tool/recyclebin:viewitems	1	1586879277	0
-1435	1	3	tool/recyclebin:viewitems	1	1586879277	0
-1436	1	1	tool/recyclebin:viewitems	1	1586879277	0
-1437	1	1	tool/uploaduser:uploaduserpictures	1	1586879278	0
-1438	1	1	tool/usertours:managetours	1	1586879278	0
-1439	1	3	booktool/importhtml:import	1	1586879279	0
-1440	1	1	booktool/importhtml:import	1	1586879279	0
-1441	1	6	booktool/print:print	1	1586879279	0
-1442	1	8	booktool/print:print	1	1586879279	0
-1443	1	5	booktool/print:print	1	1586879279	0
-1444	1	4	booktool/print:print	1	1586879279	0
-1445	1	3	booktool/print:print	1	1586879279	0
-1446	1	1	booktool/print:print	1	1586879279	0
-1447	1	1	quiz/grading:viewstudentnames	1	1586879280	0
-1448	1	3	quiz/grading:viewstudentnames	1	1586879280	0
-1449	1	4	quiz/grading:viewstudentnames	1	1586879280	0
-1450	1	1	quiz/grading:viewidnumber	1	1586879280	0
-1451	1	3	quiz/grading:viewidnumber	1	1586879280	0
-1452	1	4	quiz/grading:viewidnumber	1	1586879280	0
-1453	1	1	quiz/statistics:view	1	1586879280	0
-1454	1	3	quiz/statistics:view	1	1586879280	0
-1455	1	4	quiz/statistics:view	1	1586879280	0
-1456	1	7	atto/recordrtc:recordaudio	1	1586879281	0
-1457	1	7	atto/recordrtc:recordvideo	1	1586879281	0
-1458	1	4	local/course_templates:view	1	1586879281	0
-1459	1	3	local/course_templates:view	1	1586879281	0
-1460	1	1	local/course_templates:view	1	1586879281	0
-1461	1	4	local/course_templates:edit	1	1586879281	0
-1462	1	3	local/course_templates:edit	1	1586879281	0
-1463	1	1	local/course_templates:edit	1	1586879281	0
+1	1	1	moodle/site:configview	1	1586902577	0
+2	1	2	moodle/site:configview	1	1586902577	0
+3	1	1	moodle/site:readallmessages	1	1586902577	0
+4	1	3	moodle/site:readallmessages	1	1586902577	0
+5	1	1	moodle/site:manageallmessaging	1	1586902577	0
+6	1	1	moodle/site:deleteanymessage	1	1586902577	0
+7	1	1	moodle/site:sendmessage	1	1586902577	0
+8	1	7	moodle/site:sendmessage	1	1586902577	0
+9	1	7	moodle/site:deleteownmessage	1	1586902577	0
+10	1	1	moodle/site:approvecourse	1	1586902577	0
+11	1	3	moodle/backup:backupcourse	1	1586902577	0
+12	1	1	moodle/backup:backupcourse	1	1586902577	0
+13	1	3	moodle/backup:backupsection	1	1586902577	0
+14	1	1	moodle/backup:backupsection	1	1586902577	0
+15	1	3	moodle/backup:backupactivity	1	1586902577	0
+16	1	1	moodle/backup:backupactivity	1	1586902577	0
+17	1	3	moodle/backup:backuptargetimport	1	1586902577	0
+18	1	1	moodle/backup:backuptargetimport	1	1586902577	0
+19	1	3	moodle/backup:downloadfile	1	1586902577	0
+20	1	1	moodle/backup:downloadfile	1	1586902577	0
+21	1	3	moodle/backup:configure	1	1586902577	0
+22	1	1	moodle/backup:configure	1	1586902577	0
+23	1	1	moodle/backup:userinfo	1	1586902577	0
+24	1	1	moodle/backup:anonymise	1	1586902577	0
+25	1	3	moodle/restore:restorecourse	1	1586902577	0
+26	1	1	moodle/restore:restorecourse	1	1586902577	0
+27	1	3	moodle/restore:restoresection	1	1586902577	0
+28	1	1	moodle/restore:restoresection	1	1586902577	0
+29	1	3	moodle/restore:restoreactivity	1	1586902577	0
+30	1	1	moodle/restore:restoreactivity	1	1586902577	0
+31	1	3	moodle/restore:viewautomatedfilearea	1	1586902577	0
+32	1	1	moodle/restore:viewautomatedfilearea	1	1586902577	0
+33	1	3	moodle/restore:restoretargetimport	1	1586902577	0
+34	1	1	moodle/restore:restoretargetimport	1	1586902577	0
+35	1	3	moodle/restore:uploadfile	1	1586902577	0
+36	1	1	moodle/restore:uploadfile	1	1586902577	0
+37	1	3	moodle/restore:configure	1	1586902577	0
+38	1	1	moodle/restore:configure	1	1586902577	0
+39	1	2	moodle/restore:rolldates	1	1586902577	0
+40	1	1	moodle/restore:rolldates	1	1586902577	0
+41	1	1	moodle/restore:userinfo	1	1586902577	0
+42	1	1	moodle/restore:createuser	1	1586902577	0
+43	1	3	moodle/site:manageblocks	1	1586902577	0
+44	1	1	moodle/site:manageblocks	1	1586902577	0
+45	1	3	moodle/site:accessallgroups	1	1586902577	0
+46	1	1	moodle/site:accessallgroups	1	1586902577	0
+47	1	4	moodle/site:viewfullnames	1	1586902577	0
+48	1	3	moodle/site:viewfullnames	1	1586902577	0
+49	1	1	moodle/site:viewfullnames	1	1586902578	0
+50	1	4	moodle/site:viewuseridentity	1	1586902578	0
+51	1	3	moodle/site:viewuseridentity	1	1586902578	0
+52	1	1	moodle/site:viewuseridentity	1	1586902578	0
+53	1	4	moodle/site:viewreports	1	1586902578	0
+54	1	3	moodle/site:viewreports	1	1586902578	0
+55	1	1	moodle/site:viewreports	1	1586902578	0
+56	1	3	moodle/site:trustcontent	1	1586902578	0
+57	1	1	moodle/site:trustcontent	1	1586902578	0
+58	1	1	moodle/site:uploadusers	1	1586902578	0
+59	1	3	moodle/filter:manage	1	1586902578	0
+60	1	1	moodle/filter:manage	1	1586902578	0
+61	1	1	moodle/user:create	1	1586902578	0
+62	1	1	moodle/user:delete	1	1586902578	0
+63	1	1	moodle/user:update	1	1586902578	0
+64	1	6	moodle/user:viewdetails	1	1586902578	0
+65	1	5	moodle/user:viewdetails	1	1586902578	0
+66	1	4	moodle/user:viewdetails	1	1586902578	0
+67	1	3	moodle/user:viewdetails	1	1586902578	0
+68	1	1	moodle/user:viewdetails	1	1586902578	0
+69	1	1	moodle/user:viewalldetails	1	1586902578	0
+70	1	1	moodle/user:viewlastip	1	1586902578	0
+71	1	4	moodle/user:viewhiddendetails	1	1586902578	0
+72	1	3	moodle/user:viewhiddendetails	1	1586902578	0
+73	1	1	moodle/user:viewhiddendetails	1	1586902578	0
+74	1	1	moodle/user:loginas	1	1586902578	0
+75	1	1	moodle/user:managesyspages	1	1586902578	0
+76	1	7	moodle/user:manageownblocks	1	1586902578	0
+77	1	7	moodle/user:manageownfiles	1	1586902578	0
+78	1	1	moodle/my:configsyspages	1	1586902578	0
+79	1	3	moodle/role:assign	1	1586902578	0
+80	1	1	moodle/role:assign	1	1586902578	0
+81	1	4	moodle/role:review	1	1586902578	0
+82	1	3	moodle/role:review	1	1586902578	0
+83	1	1	moodle/role:review	1	1586902578	0
+84	1	1	moodle/role:override	1	1586902578	0
+85	1	3	moodle/role:safeoverride	1	1586902578	0
+86	1	1	moodle/role:manage	1	1586902578	0
+87	1	3	moodle/role:switchroles	1	1586902578	0
+88	1	1	moodle/role:switchroles	1	1586902578	0
+89	1	1	moodle/category:manage	1	1586902578	0
+90	1	2	moodle/category:viewhiddencategories	1	1586902578	0
+91	1	1	moodle/category:viewhiddencategories	1	1586902578	0
+92	1	1	moodle/cohort:manage	1	1586902578	0
+93	1	1	moodle/cohort:assign	1	1586902578	0
+94	1	3	moodle/cohort:view	1	1586902578	0
+95	1	1	moodle/cohort:view	1	1586902578	0
+96	1	2	moodle/course:create	1	1586902578	0
+97	1	1	moodle/course:create	1	1586902578	0
+98	1	3	moodle/course:creategroupconversations	1	1586902578	0
+99	1	1	moodle/course:creategroupconversations	1	1586902578	0
+100	1	7	moodle/course:request	1	1586902578	0
+101	1	1	moodle/course:delete	1	1586902578	0
+102	1	3	moodle/course:update	1	1586902578	0
+103	1	1	moodle/course:update	1	1586902578	0
+104	1	1	moodle/course:view	1	1586902578	0
+105	1	3	moodle/course:enrolreview	1	1586902578	0
+106	1	1	moodle/course:enrolreview	1	1586902578	0
+107	1	3	moodle/course:enrolconfig	1	1586902578	0
+108	1	1	moodle/course:enrolconfig	1	1586902578	0
+109	1	3	moodle/course:reviewotherusers	1	1586902578	0
+110	1	1	moodle/course:reviewotherusers	1	1586902578	0
+111	1	4	moodle/course:bulkmessaging	1	1586902578	0
+112	1	3	moodle/course:bulkmessaging	1	1586902578	0
+113	1	1	moodle/course:bulkmessaging	1	1586902578	0
+114	1	4	moodle/course:viewhiddenuserfields	1	1586902578	0
+115	1	3	moodle/course:viewhiddenuserfields	1	1586902578	0
+116	1	1	moodle/course:viewhiddenuserfields	1	1586902578	0
+117	1	2	moodle/course:viewhiddencourses	1	1586902578	0
+118	1	4	moodle/course:viewhiddencourses	1	1586902578	0
+119	1	3	moodle/course:viewhiddencourses	1	1586902578	0
+120	1	1	moodle/course:viewhiddencourses	1	1586902578	0
+121	1	3	moodle/course:visibility	1	1586902578	0
+122	1	1	moodle/course:visibility	1	1586902578	0
+123	1	3	moodle/course:managefiles	1	1586902578	0
+124	1	1	moodle/course:managefiles	1	1586902578	0
+125	1	1	moodle/course:ignoreavailabilityrestrictions	1	1586902578	0
+126	1	2	moodle/course:ignoreavailabilityrestrictions	1	1586902578	0
+127	1	3	moodle/course:ignoreavailabilityrestrictions	1	1586902578	0
+128	1	4	moodle/course:ignoreavailabilityrestrictions	1	1586902578	0
+129	1	3	moodle/course:manageactivities	1	1586902578	0
+130	1	1	moodle/course:manageactivities	1	1586902578	0
+131	1	3	moodle/course:activityvisibility	1	1586902578	0
+132	1	1	moodle/course:activityvisibility	1	1586902578	0
+133	1	4	moodle/course:viewhiddenactivities	1	1586902578	0
+134	1	3	moodle/course:viewhiddenactivities	1	1586902578	0
+135	1	1	moodle/course:viewhiddenactivities	1	1586902578	0
+136	1	5	moodle/course:viewparticipants	1	1586902578	0
+137	1	4	moodle/course:viewparticipants	1	1586902578	0
+138	1	3	moodle/course:viewparticipants	1	1586902578	0
+139	1	1	moodle/course:viewparticipants	1	1586902578	0
+140	1	3	moodle/course:changefullname	1	1586902578	0
+141	1	1	moodle/course:changefullname	1	1586902578	0
+142	1	3	moodle/course:changeshortname	1	1586902578	0
+143	1	1	moodle/course:changeshortname	1	1586902578	0
+144	1	3	moodle/course:renameroles	1	1586902578	0
+145	1	1	moodle/course:renameroles	1	1586902578	0
+146	1	3	moodle/course:changeidnumber	1	1586902578	0
+147	1	1	moodle/course:changeidnumber	1	1586902578	0
+148	1	3	moodle/course:changecategory	1	1586902578	0
+149	1	1	moodle/course:changecategory	1	1586902578	0
+150	1	3	moodle/course:changesummary	1	1586902578	0
+151	1	1	moodle/course:changesummary	1	1586902578	0
+152	1	3	moodle/course:setforcedlanguage	1	1586902578	0
+153	1	1	moodle/course:setforcedlanguage	1	1586902578	0
+154	1	1	moodle/site:viewparticipants	1	1586902578	0
+155	1	5	moodle/course:isincompletionreports	1	1586902578	0
+156	1	5	moodle/course:viewscales	1	1586902578	0
+157	1	4	moodle/course:viewscales	1	1586902578	0
+158	1	3	moodle/course:viewscales	1	1586902578	0
+159	1	1	moodle/course:viewscales	1	1586902578	0
+160	1	3	moodle/course:managescales	1	1586902578	0
+161	1	1	moodle/course:managescales	1	1586902578	0
+162	1	3	moodle/course:managegroups	1	1586902578	0
+163	1	1	moodle/course:managegroups	1	1586902578	0
+164	1	3	moodle/course:reset	1	1586902578	0
+165	1	1	moodle/course:reset	1	1586902578	0
+166	1	3	moodle/course:viewsuspendedusers	1	1586902578	0
+167	1	1	moodle/course:viewsuspendedusers	1	1586902578	0
+168	1	1	moodle/course:tag	1	1586902578	0
+169	1	3	moodle/course:tag	1	1586902578	0
+170	1	6	moodle/blog:view	1	1586902578	0
+171	1	7	moodle/blog:view	1	1586902578	0
+172	1	5	moodle/blog:view	1	1586902578	0
+173	1	4	moodle/blog:view	1	1586902578	0
+174	1	3	moodle/blog:view	1	1586902578	0
+175	1	1	moodle/blog:view	1	1586902578	0
+176	1	6	moodle/blog:search	1	1586902579	0
+177	1	7	moodle/blog:search	1	1586902579	0
+178	1	5	moodle/blog:search	1	1586902579	0
+179	1	4	moodle/blog:search	1	1586902579	0
+180	1	3	moodle/blog:search	1	1586902579	0
+181	1	1	moodle/blog:search	1	1586902579	0
+182	1	1	moodle/blog:viewdrafts	1	1586902579	0
+183	1	7	moodle/blog:create	1	1586902579	0
+184	1	1	moodle/blog:create	1	1586902579	0
+185	1	4	moodle/blog:manageentries	1	1586902579	0
+186	1	3	moodle/blog:manageentries	1	1586902579	0
+187	1	1	moodle/blog:manageentries	1	1586902579	0
+188	1	5	moodle/blog:manageexternal	1	1586902579	0
+189	1	7	moodle/blog:manageexternal	1	1586902579	0
+190	1	4	moodle/blog:manageexternal	1	1586902579	0
+191	1	3	moodle/blog:manageexternal	1	1586902579	0
+192	1	1	moodle/blog:manageexternal	1	1586902579	0
+193	1	7	moodle/calendar:manageownentries	1	1586902579	0
+194	1	1	moodle/calendar:manageownentries	1	1586902579	0
+195	1	4	moodle/calendar:managegroupentries	1	1586902579	0
+196	1	3	moodle/calendar:managegroupentries	1	1586902579	0
+197	1	1	moodle/calendar:managegroupentries	1	1586902579	0
+198	1	4	moodle/calendar:manageentries	1	1586902579	0
+199	1	3	moodle/calendar:manageentries	1	1586902579	0
+200	1	1	moodle/calendar:manageentries	1	1586902579	0
+201	1	1	moodle/user:editprofile	1	1586902579	0
+202	1	6	moodle/user:editownprofile	-1000	1586902579	0
+203	1	7	moodle/user:editownprofile	1	1586902579	0
+204	1	1	moodle/user:editownprofile	1	1586902579	0
+205	1	6	moodle/user:changeownpassword	-1000	1586902579	0
+206	1	7	moodle/user:changeownpassword	1	1586902579	0
+207	1	1	moodle/user:changeownpassword	1	1586902579	0
+208	1	5	moodle/user:readuserposts	1	1586902579	0
+209	1	4	moodle/user:readuserposts	1	1586902579	0
+210	1	3	moodle/user:readuserposts	1	1586902579	0
+211	1	1	moodle/user:readuserposts	1	1586902579	0
+212	1	5	moodle/user:readuserblogs	1	1586902579	0
+213	1	4	moodle/user:readuserblogs	1	1586902579	0
+214	1	3	moodle/user:readuserblogs	1	1586902579	0
+215	1	1	moodle/user:readuserblogs	1	1586902579	0
+216	1	1	moodle/user:editmessageprofile	1	1586902579	0
+217	1	6	moodle/user:editownmessageprofile	-1000	1586902579	0
+218	1	7	moodle/user:editownmessageprofile	1	1586902579	0
+219	1	1	moodle/user:editownmessageprofile	1	1586902579	0
+220	1	3	moodle/question:managecategory	1	1586902579	0
+221	1	1	moodle/question:managecategory	1	1586902579	0
+222	1	3	moodle/question:add	1	1586902579	0
+223	1	1	moodle/question:add	1	1586902579	0
+224	1	3	moodle/question:editmine	1	1586902579	0
+225	1	1	moodle/question:editmine	1	1586902579	0
+226	1	3	moodle/question:editall	1	1586902579	0
+227	1	1	moodle/question:editall	1	1586902579	0
+228	1	3	moodle/question:viewmine	1	1586902579	0
+229	1	1	moodle/question:viewmine	1	1586902579	0
+230	1	3	moodle/question:viewall	1	1586902579	0
+231	1	1	moodle/question:viewall	1	1586902579	0
+232	1	3	moodle/question:usemine	1	1586902579	0
+233	1	1	moodle/question:usemine	1	1586902579	0
+234	1	3	moodle/question:useall	1	1586902579	0
+235	1	1	moodle/question:useall	1	1586902579	0
+236	1	3	moodle/question:movemine	1	1586902579	0
+237	1	1	moodle/question:movemine	1	1586902579	0
+238	1	3	moodle/question:moveall	1	1586902579	0
+239	1	1	moodle/question:moveall	1	1586902579	0
+240	1	1	moodle/question:config	1	1586902579	0
+241	1	5	moodle/question:flag	1	1586902579	0
+242	1	4	moodle/question:flag	1	1586902579	0
+243	1	3	moodle/question:flag	1	1586902579	0
+244	1	1	moodle/question:flag	1	1586902579	0
+245	1	3	moodle/question:tagmine	1	1586902579	0
+246	1	1	moodle/question:tagmine	1	1586902579	0
+247	1	3	moodle/question:tagall	1	1586902579	0
+248	1	1	moodle/question:tagall	1	1586902579	0
+249	1	4	moodle/site:doclinks	1	1586902579	0
+250	1	3	moodle/site:doclinks	1	1586902579	0
+251	1	1	moodle/site:doclinks	1	1586902579	0
+252	1	3	moodle/course:sectionvisibility	1	1586902579	0
+253	1	1	moodle/course:sectionvisibility	1	1586902579	0
+254	1	3	moodle/course:useremail	1	1586902579	0
+255	1	1	moodle/course:useremail	1	1586902579	0
+256	1	3	moodle/course:viewhiddensections	1	1586902579	0
+257	1	1	moodle/course:viewhiddensections	1	1586902579	0
+258	1	3	moodle/course:setcurrentsection	1	1586902579	0
+259	1	1	moodle/course:setcurrentsection	1	1586902579	0
+260	1	3	moodle/course:movesections	1	1586902579	0
+261	1	1	moodle/course:movesections	1	1586902579	0
+262	1	4	moodle/grade:viewall	1	1586902579	0
+263	1	3	moodle/grade:viewall	1	1586902579	0
+264	1	1	moodle/grade:viewall	1	1586902579	0
+265	1	5	moodle/grade:view	1	1586902579	0
+266	1	4	moodle/grade:viewhidden	1	1586902579	0
+267	1	3	moodle/grade:viewhidden	1	1586902579	0
+268	1	1	moodle/grade:viewhidden	1	1586902579	0
+269	1	3	moodle/grade:import	1	1586902579	0
+270	1	1	moodle/grade:import	1	1586902579	0
+271	1	4	moodle/grade:export	1	1586902579	0
+272	1	3	moodle/grade:export	1	1586902579	0
+273	1	1	moodle/grade:export	1	1586902579	0
+274	1	3	moodle/grade:manage	1	1586902579	0
+275	1	1	moodle/grade:manage	1	1586902579	0
+276	1	3	moodle/grade:edit	1	1586902579	0
+277	1	1	moodle/grade:edit	1	1586902579	0
+278	1	3	moodle/grade:managegradingforms	1	1586902579	0
+279	1	1	moodle/grade:managegradingforms	1	1586902579	0
+280	1	1	moodle/grade:sharegradingforms	1	1586902579	0
+281	1	1	moodle/grade:managesharedforms	1	1586902579	0
+282	1	3	moodle/grade:manageoutcomes	1	1586902579	0
+283	1	1	moodle/grade:manageoutcomes	1	1586902579	0
+284	1	3	moodle/grade:manageletters	1	1586902579	0
+285	1	1	moodle/grade:manageletters	1	1586902579	0
+286	1	3	moodle/grade:hide	1	1586902579	0
+287	1	1	moodle/grade:hide	1	1586902579	0
+288	1	3	moodle/grade:lock	1	1586902579	0
+289	1	1	moodle/grade:lock	1	1586902579	0
+290	1	3	moodle/grade:unlock	1	1586902579	0
+291	1	1	moodle/grade:unlock	1	1586902579	0
+292	1	7	moodle/my:manageblocks	1	1586902579	0
+293	1	4	moodle/notes:view	1	1586902579	0
+294	1	3	moodle/notes:view	1	1586902579	0
+295	1	1	moodle/notes:view	1	1586902579	0
+296	1	4	moodle/notes:manage	1	1586902579	0
+297	1	3	moodle/notes:manage	1	1586902579	0
+298	1	1	moodle/notes:manage	1	1586902579	0
+299	1	1	moodle/tag:manage	1	1586902579	0
+300	1	1	moodle/tag:edit	1	1586902579	0
+301	1	7	moodle/tag:flag	1	1586902579	0
+302	1	4	moodle/tag:editblocks	1	1586902579	0
+303	1	3	moodle/tag:editblocks	1	1586902580	0
+304	1	1	moodle/tag:editblocks	1	1586902580	0
+305	1	6	moodle/block:view	1	1586902580	0
+306	1	7	moodle/block:view	1	1586902580	0
+307	1	5	moodle/block:view	1	1586902580	0
+308	1	4	moodle/block:view	1	1586902580	0
+309	1	3	moodle/block:view	1	1586902580	0
+310	1	3	moodle/block:edit	1	1586902580	0
+311	1	1	moodle/block:edit	1	1586902580	0
+312	1	7	moodle/portfolio:export	1	1586902580	0
+313	1	5	moodle/portfolio:export	1	1586902580	0
+314	1	4	moodle/portfolio:export	1	1586902580	0
+315	1	3	moodle/portfolio:export	1	1586902580	0
+316	1	8	moodle/comment:view	1	1586902580	0
+317	1	6	moodle/comment:view	1	1586902580	0
+318	1	7	moodle/comment:view	1	1586902580	0
+319	1	5	moodle/comment:view	1	1586902580	0
+320	1	4	moodle/comment:view	1	1586902580	0
+321	1	3	moodle/comment:view	1	1586902580	0
+322	1	1	moodle/comment:view	1	1586902580	0
+323	1	7	moodle/comment:post	1	1586902580	0
+324	1	5	moodle/comment:post	1	1586902580	0
+325	1	4	moodle/comment:post	1	1586902580	0
+326	1	3	moodle/comment:post	1	1586902580	0
+327	1	1	moodle/comment:post	1	1586902580	0
+328	1	3	moodle/comment:delete	1	1586902580	0
+329	1	1	moodle/comment:delete	1	1586902580	0
+330	1	1	moodle/webservice:createtoken	1	1586902580	0
+331	1	7	moodle/webservice:createmobiletoken	1	1586902580	0
+332	1	7	moodle/rating:view	1	1586902580	0
+333	1	5	moodle/rating:view	1	1586902580	0
+334	1	4	moodle/rating:view	1	1586902580	0
+335	1	3	moodle/rating:view	1	1586902580	0
+336	1	1	moodle/rating:view	1	1586902580	0
+337	1	7	moodle/rating:viewany	1	1586902580	0
+338	1	5	moodle/rating:viewany	1	1586902580	0
+339	1	4	moodle/rating:viewany	1	1586902580	0
+340	1	3	moodle/rating:viewany	1	1586902580	0
+341	1	1	moodle/rating:viewany	1	1586902580	0
+342	1	7	moodle/rating:viewall	1	1586902580	0
+343	1	5	moodle/rating:viewall	1	1586902580	0
+344	1	4	moodle/rating:viewall	1	1586902580	0
+345	1	3	moodle/rating:viewall	1	1586902580	0
+346	1	1	moodle/rating:viewall	1	1586902580	0
+347	1	7	moodle/rating:rate	1	1586902580	0
+348	1	5	moodle/rating:rate	1	1586902580	0
+349	1	4	moodle/rating:rate	1	1586902580	0
+350	1	3	moodle/rating:rate	1	1586902580	0
+351	1	1	moodle/rating:rate	1	1586902580	0
+352	1	4	moodle/course:markcomplete	1	1586902580	0
+353	1	3	moodle/course:markcomplete	1	1586902580	0
+354	1	1	moodle/course:markcomplete	1	1586902580	0
+355	1	4	moodle/course:overridecompletion	1	1586902580	0
+356	1	3	moodle/course:overridecompletion	1	1586902580	0
+357	1	1	moodle/course:overridecompletion	1	1586902580	0
+358	1	1	moodle/community:add	1	1586902580	0
+359	1	4	moodle/community:add	1	1586902580	0
+360	1	3	moodle/community:add	1	1586902580	0
+361	1	1	moodle/community:download	1	1586902580	0
+362	1	3	moodle/community:download	1	1586902580	0
+363	1	1	moodle/badges:manageglobalsettings	1	1586902580	0
+364	1	7	moodle/badges:viewbadges	1	1586902580	0
+365	1	7	moodle/badges:manageownbadges	1	1586902580	0
+366	1	7	moodle/badges:viewotherbadges	1	1586902580	0
+367	1	7	moodle/badges:earnbadge	1	1586902580	0
+368	1	1	moodle/badges:createbadge	1	1586902580	0
+369	1	3	moodle/badges:createbadge	1	1586902580	0
+370	1	1	moodle/badges:deletebadge	1	1586902580	0
+371	1	3	moodle/badges:deletebadge	1	1586902580	0
+372	1	1	moodle/badges:configuredetails	1	1586902580	0
+373	1	3	moodle/badges:configuredetails	1	1586902580	0
+374	1	1	moodle/badges:configurecriteria	1	1586902580	0
+375	1	3	moodle/badges:configurecriteria	1	1586902580	0
+376	1	1	moodle/badges:configuremessages	1	1586902580	0
+377	1	3	moodle/badges:configuremessages	1	1586902580	0
+378	1	1	moodle/badges:awardbadge	1	1586902580	0
+379	1	4	moodle/badges:awardbadge	1	1586902580	0
+380	1	3	moodle/badges:awardbadge	1	1586902580	0
+381	1	1	moodle/badges:revokebadge	1	1586902580	0
+382	1	4	moodle/badges:revokebadge	1	1586902580	0
+383	1	3	moodle/badges:revokebadge	1	1586902580	0
+384	1	1	moodle/badges:viewawarded	1	1586902580	0
+385	1	4	moodle/badges:viewawarded	1	1586902580	0
+386	1	3	moodle/badges:viewawarded	1	1586902580	0
+387	1	6	moodle/search:query	1	1586902580	0
+388	1	7	moodle/search:query	1	1586902580	0
+389	1	5	moodle/search:query	1	1586902580	0
+390	1	4	moodle/search:query	1	1586902580	0
+391	1	3	moodle/search:query	1	1586902580	0
+392	1	1	moodle/search:query	1	1586902580	0
+393	1	1	moodle/competency:competencymanage	1	1586902580	0
+394	1	7	moodle/competency:competencyview	1	1586902580	0
+395	1	3	moodle/competency:competencygrade	1	1586902580	0
+396	1	4	moodle/competency:competencygrade	1	1586902580	0
+397	1	1	moodle/competency:competencygrade	1	1586902580	0
+398	1	3	moodle/competency:coursecompetencymanage	1	1586902580	0
+399	1	1	moodle/competency:coursecompetencymanage	1	1586902580	0
+400	1	1	moodle/competency:coursecompetencyconfigure	1	1586902580	0
+401	1	5	moodle/competency:coursecompetencygradable	1	1586902580	0
+402	1	7	moodle/competency:coursecompetencyview	1	1586902580	0
+403	1	1	moodle/competency:planmanage	1	1586902580	0
+404	1	1	moodle/competency:planmanagedraft	1	1586902580	0
+405	1	1	moodle/competency:planview	1	1586902580	0
+406	1	1	moodle/competency:planviewdraft	1	1586902580	0
+407	1	7	moodle/competency:planviewown	1	1586902580	0
+408	1	1	moodle/competency:planrequestreview	1	1586902580	0
+409	1	7	moodle/competency:planrequestreviewown	1	1586902580	0
+410	1	1	moodle/competency:planreview	1	1586902580	0
+411	1	1	moodle/competency:plancomment	1	1586902580	0
+412	1	7	moodle/competency:plancommentown	1	1586902580	0
+413	1	1	moodle/competency:usercompetencyview	1	1586902580	0
+414	1	3	moodle/competency:usercompetencyview	1	1586902580	0
+415	1	4	moodle/competency:usercompetencyview	1	1586902580	0
+416	1	1	moodle/competency:usercompetencyrequestreview	1	1586902580	0
+417	1	7	moodle/competency:usercompetencyrequestreviewown	1	1586902580	0
+418	1	1	moodle/competency:usercompetencyreview	1	1586902580	0
+419	1	1	moodle/competency:usercompetencycomment	1	1586902580	0
+420	1	7	moodle/competency:usercompetencycommentown	1	1586902580	0
+421	1	1	moodle/competency:templatemanage	1	1586902580	0
+422	1	4	moodle/analytics:listinsights	1	1586902580	0
+423	1	3	moodle/analytics:listinsights	1	1586902581	0
+424	1	1	moodle/analytics:listinsights	1	1586902581	0
+425	1	1	moodle/analytics:managemodels	1	1586902581	0
+426	1	1	moodle/competency:templateview	1	1586902581	0
+427	1	1	moodle/competency:userevidencemanage	1	1586902581	0
+428	1	7	moodle/competency:userevidencemanageown	1	1586902581	0
+429	1	1	moodle/competency:userevidenceview	1	1586902581	0
+430	1	4	moodle/site:messageanyuser	1	1586902581	0
+431	1	3	moodle/site:messageanyuser	1	1586902581	0
+432	1	1	moodle/site:messageanyuser	1	1586902581	0
+433	1	7	moodle/course:togglecompletion	1	1586902581	0
+434	1	6	mod/assign:view	1	1586902593	0
+435	1	5	mod/assign:view	1	1586902593	0
+436	1	4	mod/assign:view	1	1586902593	0
+437	1	3	mod/assign:view	1	1586902593	0
+438	1	1	mod/assign:view	1	1586902593	0
+439	1	5	mod/assign:submit	1	1586902593	0
+440	1	4	mod/assign:grade	1	1586902593	0
+441	1	3	mod/assign:grade	1	1586902593	0
+442	1	1	mod/assign:grade	1	1586902593	0
+443	1	4	mod/assign:exportownsubmission	1	1586902593	0
+444	1	3	mod/assign:exportownsubmission	1	1586902593	0
+445	1	1	mod/assign:exportownsubmission	1	1586902593	0
+446	1	5	mod/assign:exportownsubmission	1	1586902593	0
+447	1	1	mod/assign:addinstance	1	1586902593	0
+448	1	3	mod/assign:addinstance	1	1586902593	0
+449	1	4	mod/assign:grantextension	1	1586902593	0
+450	1	3	mod/assign:grantextension	1	1586902593	0
+451	1	1	mod/assign:grantextension	1	1586902593	0
+452	1	3	mod/assign:revealidentities	1	1586902593	0
+453	1	1	mod/assign:revealidentities	1	1586902593	0
+454	1	1	mod/assign:reviewgrades	1	1586902593	0
+455	1	3	mod/assign:reviewgrades	1	1586902593	0
+456	1	1	mod/assign:releasegrades	1	1586902593	0
+457	1	3	mod/assign:releasegrades	1	1586902593	0
+458	1	1	mod/assign:managegrades	1	1586902593	0
+459	1	3	mod/assign:managegrades	1	1586902593	0
+460	1	1	mod/assign:manageallocations	1	1586902593	0
+461	1	3	mod/assign:manageallocations	1	1586902593	0
+462	1	3	mod/assign:viewgrades	1	1586902593	0
+463	1	1	mod/assign:viewgrades	1	1586902593	0
+464	1	4	mod/assign:viewgrades	1	1586902593	0
+465	1	1	mod/assign:viewblinddetails	1	1586902593	0
+466	1	4	mod/assign:receivegradernotifications	1	1586902593	0
+467	1	3	mod/assign:receivegradernotifications	1	1586902593	0
+468	1	1	mod/assign:receivegradernotifications	1	1586902593	0
+469	1	3	mod/assign:manageoverrides	1	1586902593	0
+470	1	1	mod/assign:manageoverrides	1	1586902593	0
+471	1	6	mod/assignment:view	1	1586902593	0
+472	1	5	mod/assignment:view	1	1586902593	0
+473	1	4	mod/assignment:view	1	1586902593	0
+474	1	3	mod/assignment:view	1	1586902593	0
+475	1	1	mod/assignment:view	1	1586902593	0
+476	1	1	mod/assignment:addinstance	1	1586902593	0
+477	1	3	mod/assignment:addinstance	1	1586902593	0
+478	1	5	mod/assignment:submit	1	1586902593	0
+479	1	4	mod/assignment:grade	1	1586902593	0
+480	1	3	mod/assignment:grade	1	1586902593	0
+481	1	1	mod/assignment:grade	1	1586902593	0
+482	1	4	mod/assignment:exportownsubmission	1	1586902593	0
+483	1	3	mod/assignment:exportownsubmission	1	1586902593	0
+484	1	1	mod/assignment:exportownsubmission	1	1586902593	0
+485	1	5	mod/assignment:exportownsubmission	1	1586902593	0
+486	1	5	mod/attendance:view	1	1586902593	0
+487	1	4	mod/attendance:view	1	1586902593	0
+488	1	3	mod/attendance:view	1	1586902593	0
+489	1	1	mod/attendance:view	1	1586902593	0
+490	1	1	mod/attendance:addinstance	1	1586902593	0
+491	1	3	mod/attendance:addinstance	1	1586902593	0
+492	1	4	mod/attendance:viewreports	1	1586902593	0
+493	1	3	mod/attendance:viewreports	1	1586902593	0
+494	1	1	mod/attendance:viewreports	1	1586902593	0
+495	1	4	mod/attendance:takeattendances	1	1586902593	0
+496	1	3	mod/attendance:takeattendances	1	1586902593	0
+497	1	1	mod/attendance:takeattendances	1	1586902593	0
+498	1	4	mod/attendance:changeattendances	1	1586902593	0
+499	1	3	mod/attendance:changeattendances	1	1586902593	0
+500	1	1	mod/attendance:changeattendances	1	1586902593	0
+501	1	3	mod/attendance:manageattendances	1	1586902593	0
+502	1	1	mod/attendance:manageattendances	1	1586902593	0
+503	1	3	mod/attendance:changepreferences	1	1586902593	0
+504	1	1	mod/attendance:changepreferences	1	1586902593	0
+505	1	3	mod/attendance:export	1	1586902593	0
+506	1	1	mod/attendance:export	1	1586902593	0
+507	1	5	mod/attendance:canbelisted	1	1586902593	0
+508	1	4	mod/attendance:managetemporaryusers	1	1586902593	0
+509	1	3	mod/attendance:managetemporaryusers	1	1586902593	0
+510	1	1	mod/attendance:managetemporaryusers	1	1586902593	0
+511	1	1	mod/attendance:viewsummaryreports	1	1586902593	0
+512	1	4	mod/attendance:warningemails	1	1586902593	0
+513	1	3	mod/attendance:warningemails	1	1586902593	0
+514	1	1	mod/attendance:warningemails	1	1586902593	0
+515	1	1	mod/bigbluebuttonbn:addinstance	1	1586902593	0
+516	1	3	mod/bigbluebuttonbn:addinstance	1	1586902593	0
+517	1	1	mod/bigbluebuttonbn:join	1	1586902593	0
+518	1	3	mod/bigbluebuttonbn:join	1	1586902593	0
+519	1	4	mod/bigbluebuttonbn:join	1	1586902593	0
+520	1	5	mod/bigbluebuttonbn:join	1	1586902593	0
+521	1	6	mod/bigbluebuttonbn:join	1	1586902593	0
+522	1	1	mod/bigbluebuttonbn:managerecordings	1	1586902593	0
+523	1	3	mod/bigbluebuttonbn:managerecordings	1	1586902593	0
+524	1	4	mod/bigbluebuttonbn:managerecordings	1	1586902593	0
+525	1	5	mod/bigbluebuttonbn:view	1	1586902593	0
+526	1	4	mod/bigbluebuttonbn:view	1	1586902593	0
+527	1	3	mod/bigbluebuttonbn:view	1	1586902593	0
+528	1	1	mod/bigbluebuttonbn:view	1	1586902593	0
+529	1	1	mod/bigbluebuttonbn:meeting	1	1586902593	0
+530	1	3	mod/bigbluebuttonbn:meeting	1	1586902593	0
+531	1	4	mod/bigbluebuttonbn:meeting	-1	1586902593	0
+532	1	5	mod/bigbluebuttonbn:meeting	-1	1586902593	0
+533	1	6	mod/bigbluebuttonbn:meeting	-1	1586902593	0
+534	1	1	mod/bigbluebuttonbn:recording	1	1586902593	0
+535	1	3	mod/bigbluebuttonbn:recording	1	1586902593	0
+536	1	4	mod/bigbluebuttonbn:recording	-1	1586902593	0
+537	1	5	mod/bigbluebuttonbn:recording	-1	1586902593	0
+538	1	6	mod/bigbluebuttonbn:recording	-1	1586902593	0
+539	1	1	mod/book:addinstance	1	1586902593	0
+540	1	3	mod/book:addinstance	1	1586902593	0
+541	1	6	mod/book:read	1	1586902593	0
+542	1	8	mod/book:read	1	1586902593	0
+543	1	5	mod/book:read	1	1586902593	0
+544	1	4	mod/book:read	1	1586902593	0
+545	1	3	mod/book:read	1	1586902593	0
+546	1	1	mod/book:read	1	1586902593	0
+547	1	4	mod/book:viewhiddenchapters	1	1586902593	0
+548	1	3	mod/book:viewhiddenchapters	1	1586902593	0
+549	1	1	mod/book:viewhiddenchapters	1	1586902593	0
+550	1	3	mod/book:edit	1	1586902593	0
+551	1	1	mod/book:edit	1	1586902593	0
+552	1	1	mod/chat:addinstance	1	1586902593	0
+553	1	3	mod/chat:addinstance	1	1586902593	0
+554	1	5	mod/chat:chat	1	1586902593	0
+555	1	4	mod/chat:chat	1	1586902593	0
+556	1	3	mod/chat:chat	1	1586902593	0
+557	1	1	mod/chat:chat	1	1586902593	0
+558	1	5	mod/chat:readlog	1	1586902593	0
+559	1	4	mod/chat:readlog	1	1586902593	0
+560	1	3	mod/chat:readlog	1	1586902593	0
+561	1	1	mod/chat:readlog	1	1586902593	0
+562	1	4	mod/chat:deletelog	1	1586902593	0
+563	1	3	mod/chat:deletelog	1	1586902593	0
+564	1	1	mod/chat:deletelog	1	1586902593	0
+565	1	4	mod/chat:exportparticipatedsession	1	1586902593	0
+566	1	3	mod/chat:exportparticipatedsession	1	1586902593	0
+567	1	1	mod/chat:exportparticipatedsession	1	1586902593	0
+568	1	4	mod/chat:exportsession	1	1586902593	0
+569	1	3	mod/chat:exportsession	1	1586902593	0
+570	1	1	mod/chat:exportsession	1	1586902594	0
+571	1	7	mod/chat:view	1	1586902594	0
+572	1	6	mod/chat:view	1	1586902594	0
+573	1	1	mod/choice:addinstance	1	1586902594	0
+574	1	3	mod/choice:addinstance	1	1586902594	0
+575	1	5	mod/choice:choose	1	1586902594	0
+576	1	4	mod/choice:choose	1	1586902594	0
+577	1	3	mod/choice:choose	1	1586902594	0
+578	1	4	mod/choice:readresponses	1	1586902594	0
+579	1	3	mod/choice:readresponses	1	1586902594	0
+580	1	1	mod/choice:readresponses	1	1586902594	0
+581	1	4	mod/choice:deleteresponses	1	1586902594	0
+582	1	3	mod/choice:deleteresponses	1	1586902594	0
+583	1	1	mod/choice:deleteresponses	1	1586902594	0
+584	1	4	mod/choice:downloadresponses	1	1586902594	0
+585	1	3	mod/choice:downloadresponses	1	1586902594	0
+586	1	1	mod/choice:downloadresponses	1	1586902594	0
+587	1	7	mod/choice:view	1	1586902594	0
+588	1	6	mod/choice:view	1	1586902594	0
+589	1	1	mod/data:addinstance	1	1586902594	0
+590	1	3	mod/data:addinstance	1	1586902594	0
+591	1	8	mod/data:viewentry	1	1586902594	0
+592	1	6	mod/data:viewentry	1	1586902594	0
+593	1	5	mod/data:viewentry	1	1586902594	0
+594	1	4	mod/data:viewentry	1	1586902594	0
+595	1	3	mod/data:viewentry	1	1586902594	0
+596	1	1	mod/data:viewentry	1	1586902594	0
+597	1	5	mod/data:writeentry	1	1586902594	0
+598	1	4	mod/data:writeentry	1	1586902594	0
+599	1	3	mod/data:writeentry	1	1586902594	0
+600	1	1	mod/data:writeentry	1	1586902594	0
+601	1	5	mod/data:comment	1	1586902594	0
+602	1	4	mod/data:comment	1	1586902594	0
+603	1	3	mod/data:comment	1	1586902594	0
+604	1	1	mod/data:comment	1	1586902594	0
+605	1	4	mod/data:rate	1	1586902594	0
+606	1	3	mod/data:rate	1	1586902594	0
+607	1	1	mod/data:rate	1	1586902594	0
+608	1	4	mod/data:viewrating	1	1586902594	0
+609	1	3	mod/data:viewrating	1	1586902594	0
+610	1	1	mod/data:viewrating	1	1586902594	0
+611	1	4	mod/data:viewanyrating	1	1586902594	0
+612	1	3	mod/data:viewanyrating	1	1586902594	0
+613	1	1	mod/data:viewanyrating	1	1586902594	0
+614	1	4	mod/data:viewallratings	1	1586902594	0
+615	1	3	mod/data:viewallratings	1	1586902594	0
+616	1	1	mod/data:viewallratings	1	1586902594	0
+617	1	4	mod/data:approve	1	1586902594	0
+618	1	3	mod/data:approve	1	1586902594	0
+619	1	1	mod/data:approve	1	1586902594	0
+620	1	4	mod/data:manageentries	1	1586902594	0
+621	1	3	mod/data:manageentries	1	1586902594	0
+622	1	1	mod/data:manageentries	1	1586902594	0
+623	1	4	mod/data:managecomments	1	1586902594	0
+624	1	3	mod/data:managecomments	1	1586902594	0
+625	1	1	mod/data:managecomments	1	1586902594	0
+626	1	3	mod/data:managetemplates	1	1586902594	0
+627	1	1	mod/data:managetemplates	1	1586902594	0
+628	1	4	mod/data:viewalluserpresets	1	1586902594	0
+629	1	3	mod/data:viewalluserpresets	1	1586902594	0
+630	1	1	mod/data:viewalluserpresets	1	1586902594	0
+631	1	1	mod/data:manageuserpresets	1	1586902594	0
+632	1	1	mod/data:exportentry	1	1586902594	0
+633	1	4	mod/data:exportentry	1	1586902594	0
+634	1	3	mod/data:exportentry	1	1586902594	0
+635	1	1	mod/data:exportownentry	1	1586902594	0
+636	1	4	mod/data:exportownentry	1	1586902594	0
+637	1	3	mod/data:exportownentry	1	1586902594	0
+638	1	5	mod/data:exportownentry	1	1586902594	0
+639	1	1	mod/data:exportallentries	1	1586902594	0
+640	1	4	mod/data:exportallentries	1	1586902594	0
+641	1	3	mod/data:exportallentries	1	1586902594	0
+642	1	1	mod/data:exportuserinfo	1	1586902594	0
+643	1	4	mod/data:exportuserinfo	1	1586902594	0
+644	1	3	mod/data:exportuserinfo	1	1586902594	0
+645	1	6	mod/data:view	1	1586902594	0
+646	1	5	mod/data:view	1	1586902594	0
+647	1	4	mod/data:view	1	1586902594	0
+648	1	3	mod/data:view	1	1586902594	0
+649	1	1	mod/data:view	1	1586902594	0
+650	1	1	mod/feedback:addinstance	1	1586902594	0
+651	1	3	mod/feedback:addinstance	1	1586902594	0
+652	1	6	mod/feedback:view	1	1586902594	0
+653	1	8	mod/feedback:view	1	1586902594	0
+654	1	5	mod/feedback:view	1	1586902594	0
+655	1	4	mod/feedback:view	1	1586902594	0
+656	1	3	mod/feedback:view	1	1586902594	0
+657	1	1	mod/feedback:view	1	1586902594	0
+658	1	8	mod/feedback:complete	1	1586902594	0
+659	1	5	mod/feedback:complete	1	1586902594	0
+660	1	5	mod/feedback:viewanalysepage	1	1586902594	0
+661	1	3	mod/feedback:viewanalysepage	1	1586902594	0
+662	1	1	mod/feedback:viewanalysepage	1	1586902594	0
+663	1	3	mod/feedback:deletesubmissions	1	1586902594	0
+664	1	1	mod/feedback:deletesubmissions	1	1586902594	0
+665	1	1	mod/feedback:mapcourse	1	1586902594	0
+666	1	3	mod/feedback:edititems	1	1586902594	0
+667	1	1	mod/feedback:edititems	1	1586902594	0
+668	1	3	mod/feedback:createprivatetemplate	1	1586902594	0
+669	1	1	mod/feedback:createprivatetemplate	1	1586902594	0
+670	1	3	mod/feedback:createpublictemplate	1	1586902594	0
+671	1	1	mod/feedback:createpublictemplate	1	1586902594	0
+672	1	3	mod/feedback:deletetemplate	1	1586902594	0
+673	1	1	mod/feedback:deletetemplate	1	1586902594	0
+674	1	4	mod/feedback:viewreports	1	1586902594	0
+675	1	3	mod/feedback:viewreports	1	1586902594	0
+676	1	1	mod/feedback:viewreports	1	1586902594	0
+677	1	4	mod/feedback:receivemail	1	1586902594	0
+678	1	3	mod/feedback:receivemail	1	1586902594	0
+679	1	1	mod/folder:addinstance	1	1586902594	0
+680	1	3	mod/folder:addinstance	1	1586902594	0
+681	1	6	mod/folder:view	1	1586902594	0
+682	1	7	mod/folder:view	1	1586902594	0
+683	1	3	mod/folder:managefiles	1	1586902594	0
+684	1	1	mod/forum:addinstance	1	1586902594	0
+685	1	3	mod/forum:addinstance	1	1586902594	0
+686	1	8	mod/forum:viewdiscussion	1	1586902594	0
+687	1	6	mod/forum:viewdiscussion	1	1586902594	0
+688	1	5	mod/forum:viewdiscussion	1	1586902594	0
+689	1	4	mod/forum:viewdiscussion	1	1586902594	0
+690	1	3	mod/forum:viewdiscussion	1	1586902594	0
+691	1	1	mod/forum:viewdiscussion	1	1586902594	0
+692	1	4	mod/forum:viewhiddentimedposts	1	1586902594	0
+693	1	3	mod/forum:viewhiddentimedposts	1	1586902594	0
+694	1	1	mod/forum:viewhiddentimedposts	1	1586902594	0
+695	1	5	mod/forum:startdiscussion	1	1586902594	0
+696	1	4	mod/forum:startdiscussion	1	1586902594	0
+697	1	3	mod/forum:startdiscussion	1	1586902594	0
+698	1	1	mod/forum:startdiscussion	1	1586902594	0
+699	1	5	mod/forum:replypost	1	1586902594	0
+700	1	4	mod/forum:replypost	1	1586902594	0
+701	1	3	mod/forum:replypost	1	1586902594	0
+702	1	1	mod/forum:replypost	1	1586902594	0
+703	1	4	mod/forum:addnews	1	1586902594	0
+704	1	3	mod/forum:addnews	1	1586902594	0
+705	1	1	mod/forum:addnews	1	1586902594	0
+706	1	4	mod/forum:replynews	1	1586902594	0
+707	1	3	mod/forum:replynews	1	1586902594	0
+708	1	1	mod/forum:replynews	1	1586902594	0
+709	1	5	mod/forum:viewrating	1	1586902594	0
+710	1	4	mod/forum:viewrating	1	1586902594	0
+711	1	3	mod/forum:viewrating	1	1586902594	0
+712	1	1	mod/forum:viewrating	1	1586902595	0
+713	1	4	mod/forum:viewanyrating	1	1586902595	0
+714	1	3	mod/forum:viewanyrating	1	1586902595	0
+715	1	1	mod/forum:viewanyrating	1	1586902595	0
+716	1	4	mod/forum:viewallratings	1	1586902595	0
+717	1	3	mod/forum:viewallratings	1	1586902595	0
+718	1	1	mod/forum:viewallratings	1	1586902595	0
+719	1	4	mod/forum:rate	1	1586902595	0
+720	1	3	mod/forum:rate	1	1586902595	0
+721	1	1	mod/forum:rate	1	1586902595	0
+722	1	5	mod/forum:createattachment	1	1586902595	0
+723	1	4	mod/forum:createattachment	1	1586902595	0
+724	1	3	mod/forum:createattachment	1	1586902595	0
+725	1	1	mod/forum:createattachment	1	1586902595	0
+726	1	5	mod/forum:deleteownpost	1	1586902595	0
+727	1	4	mod/forum:deleteownpost	1	1586902595	0
+728	1	3	mod/forum:deleteownpost	1	1586902595	0
+729	1	1	mod/forum:deleteownpost	1	1586902595	0
+730	1	4	mod/forum:deleteanypost	1	1586902595	0
+731	1	3	mod/forum:deleteanypost	1	1586902595	0
+732	1	1	mod/forum:deleteanypost	1	1586902595	0
+733	1	4	mod/forum:splitdiscussions	1	1586902595	0
+734	1	3	mod/forum:splitdiscussions	1	1586902595	0
+735	1	1	mod/forum:splitdiscussions	1	1586902595	0
+736	1	4	mod/forum:movediscussions	1	1586902595	0
+737	1	3	mod/forum:movediscussions	1	1586902595	0
+738	1	1	mod/forum:movediscussions	1	1586902595	0
+739	1	4	mod/forum:pindiscussions	1	1586902595	0
+740	1	3	mod/forum:pindiscussions	1	1586902595	0
+741	1	1	mod/forum:pindiscussions	1	1586902595	0
+742	1	4	mod/forum:editanypost	1	1586902595	0
+743	1	3	mod/forum:editanypost	1	1586902595	0
+744	1	1	mod/forum:editanypost	1	1586902595	0
+745	1	4	mod/forum:viewqandawithoutposting	1	1586902595	0
+746	1	3	mod/forum:viewqandawithoutposting	1	1586902595	0
+747	1	1	mod/forum:viewqandawithoutposting	1	1586902595	0
+748	1	4	mod/forum:viewsubscribers	1	1586902595	0
+749	1	3	mod/forum:viewsubscribers	1	1586902595	0
+750	1	1	mod/forum:viewsubscribers	1	1586902595	0
+751	1	4	mod/forum:managesubscriptions	1	1586902595	0
+752	1	3	mod/forum:managesubscriptions	1	1586902595	0
+753	1	1	mod/forum:managesubscriptions	1	1586902595	0
+754	1	4	mod/forum:postwithoutthrottling	1	1586902595	0
+755	1	3	mod/forum:postwithoutthrottling	1	1586902595	0
+756	1	1	mod/forum:postwithoutthrottling	1	1586902595	0
+757	1	4	mod/forum:exportdiscussion	1	1586902595	0
+758	1	3	mod/forum:exportdiscussion	1	1586902595	0
+759	1	1	mod/forum:exportdiscussion	1	1586902595	0
+760	1	4	mod/forum:exportpost	1	1586902595	0
+761	1	3	mod/forum:exportpost	1	1586902595	0
+762	1	1	mod/forum:exportpost	1	1586902595	0
+763	1	4	mod/forum:exportownpost	1	1586902595	0
+764	1	3	mod/forum:exportownpost	1	1586902595	0
+765	1	1	mod/forum:exportownpost	1	1586902595	0
+766	1	5	mod/forum:exportownpost	1	1586902595	0
+767	1	4	mod/forum:addquestion	1	1586902595	0
+768	1	3	mod/forum:addquestion	1	1586902595	0
+769	1	1	mod/forum:addquestion	1	1586902595	0
+770	1	5	mod/forum:allowforcesubscribe	1	1586902595	0
+771	1	4	mod/forum:allowforcesubscribe	1	1586902595	0
+772	1	3	mod/forum:allowforcesubscribe	1	1586902595	0
+773	1	8	mod/forum:allowforcesubscribe	1	1586902595	0
+774	1	4	mod/forum:canposttomygroups	1	1586902595	0
+775	1	3	mod/forum:canposttomygroups	1	1586902595	0
+776	1	1	mod/forum:canposttomygroups	1	1586902595	0
+777	1	4	mod/forum:canoverridediscussionlock	1	1586902595	0
+778	1	3	mod/forum:canoverridediscussionlock	1	1586902595	0
+779	1	1	mod/forum:canoverridediscussionlock	1	1586902595	0
+780	1	1	mod/glossary:addinstance	1	1586902595	0
+781	1	3	mod/glossary:addinstance	1	1586902595	0
+782	1	8	mod/glossary:view	1	1586902595	0
+783	1	6	mod/glossary:view	1	1586902595	0
+784	1	5	mod/glossary:view	1	1586902595	0
+785	1	4	mod/glossary:view	1	1586902595	0
+786	1	3	mod/glossary:view	1	1586902595	0
+787	1	1	mod/glossary:view	1	1586902595	0
+788	1	5	mod/glossary:write	1	1586902595	0
+789	1	4	mod/glossary:write	1	1586902595	0
+790	1	3	mod/glossary:write	1	1586902595	0
+791	1	1	mod/glossary:write	1	1586902595	0
+792	1	4	mod/glossary:manageentries	1	1586902595	0
+793	1	3	mod/glossary:manageentries	1	1586902595	0
+794	1	1	mod/glossary:manageentries	1	1586902595	0
+795	1	4	mod/glossary:managecategories	1	1586902595	0
+796	1	3	mod/glossary:managecategories	1	1586902595	0
+797	1	1	mod/glossary:managecategories	1	1586902595	0
+798	1	5	mod/glossary:comment	1	1586902595	0
+799	1	4	mod/glossary:comment	1	1586902595	0
+800	1	3	mod/glossary:comment	1	1586902595	0
+801	1	1	mod/glossary:comment	1	1586902595	0
+802	1	4	mod/glossary:managecomments	1	1586902595	0
+803	1	3	mod/glossary:managecomments	1	1586902595	0
+804	1	1	mod/glossary:managecomments	1	1586902595	0
+805	1	4	mod/glossary:import	1	1586902595	0
+806	1	3	mod/glossary:import	1	1586902595	0
+807	1	1	mod/glossary:import	1	1586902595	0
+808	1	4	mod/glossary:export	1	1586902595	0
+809	1	3	mod/glossary:export	1	1586902595	0
+810	1	1	mod/glossary:export	1	1586902595	0
+811	1	4	mod/glossary:approve	1	1586902595	0
+812	1	3	mod/glossary:approve	1	1586902595	0
+813	1	1	mod/glossary:approve	1	1586902595	0
+814	1	4	mod/glossary:rate	1	1586902595	0
+815	1	3	mod/glossary:rate	1	1586902595	0
+816	1	1	mod/glossary:rate	1	1586902595	0
+817	1	4	mod/glossary:viewrating	1	1586902595	0
+818	1	3	mod/glossary:viewrating	1	1586902595	0
+819	1	1	mod/glossary:viewrating	1	1586902595	0
+820	1	4	mod/glossary:viewanyrating	1	1586902595	0
+821	1	3	mod/glossary:viewanyrating	1	1586902595	0
+822	1	1	mod/glossary:viewanyrating	1	1586902595	0
+823	1	4	mod/glossary:viewallratings	1	1586902595	0
+824	1	3	mod/glossary:viewallratings	1	1586902595	0
+825	1	1	mod/glossary:viewallratings	1	1586902595	0
+826	1	4	mod/glossary:exportentry	1	1586902595	0
+827	1	3	mod/glossary:exportentry	1	1586902595	0
+828	1	1	mod/glossary:exportentry	1	1586902595	0
+829	1	4	mod/glossary:exportownentry	1	1586902595	0
+830	1	3	mod/glossary:exportownentry	1	1586902595	0
+831	1	1	mod/glossary:exportownentry	1	1586902595	0
+832	1	5	mod/glossary:exportownentry	1	1586902595	0
+833	1	1	mod/hotpot:addinstance	1	1586902595	0
+834	1	3	mod/hotpot:addinstance	1	1586902595	0
+835	1	5	mod/hotpot:attempt	1	1586902595	0
+836	1	4	mod/hotpot:attempt	1	1586902595	0
+837	1	3	mod/hotpot:attempt	1	1586902595	0
+838	1	1	mod/hotpot:attempt	1	1586902595	0
+839	1	4	mod/hotpot:deleteallattempts	1	1586902595	0
+840	1	3	mod/hotpot:deleteallattempts	1	1586902595	0
+841	1	1	mod/hotpot:deleteallattempts	1	1586902595	0
+842	1	4	mod/hotpot:deletemyattempts	1	1586902595	0
+843	1	3	mod/hotpot:deletemyattempts	1	1586902595	0
+844	1	1	mod/hotpot:deletemyattempts	1	1586902595	0
+845	1	3	mod/hotpot:manage	1	1586902595	0
+846	1	1	mod/hotpot:manage	1	1586902595	0
+847	1	4	mod/hotpot:preview	1	1586902595	0
+848	1	3	mod/hotpot:preview	1	1586902595	0
+849	1	1	mod/hotpot:preview	1	1586902595	0
+850	1	4	mod/hotpot:reviewallattempts	1	1586902595	0
+851	1	3	mod/hotpot:reviewallattempts	1	1586902595	0
+852	1	1	mod/hotpot:reviewallattempts	1	1586902595	0
+853	1	5	mod/hotpot:reviewmyattempts	1	1586902595	0
+854	1	4	mod/hotpot:reviewmyattempts	1	1586902595	0
+855	1	3	mod/hotpot:reviewmyattempts	1	1586902595	0
+856	1	1	mod/hotpot:reviewmyattempts	1	1586902595	0
+857	1	6	mod/hotpot:view	1	1586902595	0
+858	1	5	mod/hotpot:view	1	1586902595	0
+859	1	4	mod/hotpot:view	1	1586902595	0
+860	1	3	mod/hotpot:view	1	1586902595	0
+861	1	1	mod/hotpot:view	1	1586902595	0
+862	1	6	mod/imscp:view	1	1586902595	0
+863	1	7	mod/imscp:view	1	1586902595	0
+864	1	1	mod/imscp:addinstance	1	1586902595	0
+865	1	3	mod/imscp:addinstance	1	1586902595	0
+866	1	1	mod/jitsi:addinstance	1	1586902595	0
+867	1	3	mod/jitsi:addinstance	1	1586902595	0
+868	1	6	mod/jitsi:view	1	1586902595	0
+869	1	7	mod/jitsi:view	1	1586902595	0
+870	1	3	mod/jitsi:moderation	1	1586902595	0
+871	1	1	mod/jitsi:moderation	1	1586902595	0
+872	1	1	mod/label:addinstance	1	1586902596	0
+873	1	3	mod/label:addinstance	1	1586902596	0
+874	1	7	mod/label:view	1	1586902596	0
+875	1	6	mod/label:view	1	1586902596	0
+876	1	1	mod/lesson:addinstance	1	1586902596	0
+877	1	3	mod/lesson:addinstance	1	1586902596	0
+878	1	3	mod/lesson:edit	1	1586902596	0
+879	1	1	mod/lesson:edit	1	1586902596	0
+880	1	4	mod/lesson:grade	1	1586902596	0
+881	1	3	mod/lesson:grade	1	1586902596	0
+882	1	1	mod/lesson:grade	1	1586902596	0
+883	1	4	mod/lesson:viewreports	1	1586902596	0
+884	1	3	mod/lesson:viewreports	1	1586902596	0
+885	1	1	mod/lesson:viewreports	1	1586902596	0
+886	1	4	mod/lesson:manage	1	1586902596	0
+887	1	3	mod/lesson:manage	1	1586902596	0
+888	1	1	mod/lesson:manage	1	1586902596	0
+889	1	3	mod/lesson:manageoverrides	1	1586902596	0
+890	1	1	mod/lesson:manageoverrides	1	1586902596	0
+891	1	7	mod/lesson:view	1	1586902596	0
+892	1	6	mod/lesson:view	1	1586902596	0
+893	1	5	mod/lti:view	1	1586902596	0
+894	1	4	mod/lti:view	1	1586902596	0
+895	1	3	mod/lti:view	1	1586902596	0
+896	1	1	mod/lti:view	1	1586902596	0
+897	1	1	mod/lti:addinstance	1	1586902596	0
+898	1	3	mod/lti:addinstance	1	1586902596	0
+899	1	4	mod/lti:manage	1	1586902596	0
+900	1	3	mod/lti:manage	1	1586902596	0
+901	1	1	mod/lti:manage	1	1586902596	0
+902	1	3	mod/lti:addcoursetool	1	1586902596	0
+903	1	1	mod/lti:addcoursetool	1	1586902596	0
+904	1	3	mod/lti:requesttooladd	1	1586902596	0
+905	1	1	mod/lti:requesttooladd	1	1586902596	0
+906	1	6	mod/page:view	1	1586902596	0
+907	1	7	mod/page:view	1	1586902596	0
+908	1	1	mod/page:addinstance	1	1586902596	0
+909	1	3	mod/page:addinstance	1	1586902596	0
+910	1	1	mod/questionnaire:addinstance	1	1586902596	0
+911	1	3	mod/questionnaire:addinstance	1	1586902596	0
+912	1	5	mod/questionnaire:view	1	1586902596	0
+913	1	4	mod/questionnaire:view	1	1586902596	0
+914	1	3	mod/questionnaire:view	1	1586902596	0
+915	1	2	mod/questionnaire:view	1	1586902596	0
+916	1	1	mod/questionnaire:view	1	1586902596	0
+917	1	5	mod/questionnaire:submit	1	1586902596	0
+918	1	4	mod/questionnaire:viewsingleresponse	1	1586902596	0
+919	1	3	mod/questionnaire:viewsingleresponse	1	1586902596	0
+920	1	1	mod/questionnaire:viewsingleresponse	1	1586902596	0
+921	1	4	mod/questionnaire:submissionnotification	1	1586902596	0
+922	1	3	mod/questionnaire:submissionnotification	1	1586902596	0
+923	1	1	mod/questionnaire:submissionnotification	1	1586902596	0
+924	1	4	mod/questionnaire:downloadresponses	1	1586902596	0
+925	1	3	mod/questionnaire:downloadresponses	1	1586902596	0
+926	1	1	mod/questionnaire:downloadresponses	1	1586902596	0
+927	1	3	mod/questionnaire:deleteresponses	1	1586902596	0
+928	1	1	mod/questionnaire:deleteresponses	1	1586902596	0
+929	1	3	mod/questionnaire:manage	1	1586902596	0
+930	1	2	mod/questionnaire:manage	1	1586902596	0
+931	1	1	mod/questionnaire:manage	1	1586902596	0
+932	1	3	mod/questionnaire:editquestions	1	1586902596	0
+933	1	2	mod/questionnaire:editquestions	1	1586902596	0
+934	1	1	mod/questionnaire:editquestions	1	1586902596	0
+935	1	2	mod/questionnaire:createtemplates	1	1586902596	0
+936	1	1	mod/questionnaire:createtemplates	1	1586902596	0
+937	1	2	mod/questionnaire:createpublic	1	1586902596	0
+938	1	1	mod/questionnaire:createpublic	1	1586902596	0
+939	1	1	mod/questionnaire:readownresponses	1	1586902596	0
+940	1	5	mod/questionnaire:readownresponses	1	1586902596	0
+941	1	1	mod/questionnaire:readallresponses	1	1586902596	0
+942	1	4	mod/questionnaire:readallresponses	1	1586902596	0
+943	1	3	mod/questionnaire:readallresponses	1	1586902596	0
+944	1	5	mod/questionnaire:readallresponses	1	1586902596	0
+945	1	1	mod/questionnaire:readallresponseanytime	1	1586902596	0
+946	1	4	mod/questionnaire:readallresponseanytime	1	1586902596	0
+947	1	3	mod/questionnaire:readallresponseanytime	1	1586902596	0
+948	1	1	mod/questionnaire:printblank	1	1586902596	0
+949	1	2	mod/questionnaire:printblank	1	1586902596	0
+950	1	4	mod/questionnaire:printblank	1	1586902596	0
+951	1	3	mod/questionnaire:printblank	1	1586902596	0
+952	1	5	mod/questionnaire:printblank	1	1586902596	0
+953	1	1	mod/questionnaire:preview	1	1586902596	0
+954	1	2	mod/questionnaire:preview	1	1586902596	0
+955	1	4	mod/questionnaire:preview	1	1586902596	0
+956	1	3	mod/questionnaire:preview	1	1586902596	0
+957	1	1	mod/questionnaire:message	1	1586902596	0
+958	1	4	mod/questionnaire:message	1	1586902596	0
+959	1	3	mod/questionnaire:message	1	1586902596	0
+960	1	6	mod/quiz:view	1	1586902597	0
+961	1	5	mod/quiz:view	1	1586902597	0
+962	1	4	mod/quiz:view	1	1586902597	0
+963	1	3	mod/quiz:view	1	1586902597	0
+964	1	1	mod/quiz:view	1	1586902597	0
+965	1	1	mod/quiz:addinstance	1	1586902597	0
+966	1	3	mod/quiz:addinstance	1	1586902597	0
+967	1	5	mod/quiz:attempt	1	1586902597	0
+968	1	5	mod/quiz:reviewmyattempts	1	1586902597	0
+969	1	3	mod/quiz:manage	1	1586902597	0
+970	1	1	mod/quiz:manage	1	1586902597	0
+971	1	3	mod/quiz:manageoverrides	1	1586902597	0
+972	1	1	mod/quiz:manageoverrides	1	1586902597	0
+973	1	4	mod/quiz:preview	1	1586902597	0
+974	1	3	mod/quiz:preview	1	1586902597	0
+975	1	1	mod/quiz:preview	1	1586902597	0
+976	1	4	mod/quiz:grade	1	1586902597	0
+977	1	3	mod/quiz:grade	1	1586902597	0
+978	1	1	mod/quiz:grade	1	1586902597	0
+979	1	4	mod/quiz:regrade	1	1586902597	0
+980	1	3	mod/quiz:regrade	1	1586902597	0
+981	1	1	mod/quiz:regrade	1	1586902597	0
+982	1	4	mod/quiz:viewreports	1	1586902597	0
+983	1	3	mod/quiz:viewreports	1	1586902597	0
+984	1	1	mod/quiz:viewreports	1	1586902597	0
+985	1	3	mod/quiz:deleteattempts	1	1586902597	0
+986	1	1	mod/quiz:deleteattempts	1	1586902597	0
+987	1	6	mod/resource:view	1	1586902597	0
+988	1	7	mod/resource:view	1	1586902597	0
+989	1	1	mod/resource:addinstance	1	1586902597	0
+990	1	3	mod/resource:addinstance	1	1586902597	0
+991	1	1	mod/scorm:addinstance	1	1586902597	0
+992	1	3	mod/scorm:addinstance	1	1586902597	0
+993	1	4	mod/scorm:viewreport	1	1586902597	0
+994	1	3	mod/scorm:viewreport	1	1586902597	0
+995	1	1	mod/scorm:viewreport	1	1586902597	0
+996	1	5	mod/scorm:skipview	1	1586902597	0
+997	1	5	mod/scorm:savetrack	1	1586902597	0
+998	1	4	mod/scorm:savetrack	1	1586902597	0
+999	1	3	mod/scorm:savetrack	1	1586902597	0
+1000	1	1	mod/scorm:savetrack	1	1586902597	0
+1001	1	5	mod/scorm:viewscores	1	1586902597	0
+1002	1	4	mod/scorm:viewscores	1	1586902597	0
+1003	1	3	mod/scorm:viewscores	1	1586902597	0
+1004	1	1	mod/scorm:viewscores	1	1586902597	0
+1005	1	4	mod/scorm:deleteresponses	1	1586902597	0
+1006	1	3	mod/scorm:deleteresponses	1	1586902597	0
+1007	1	1	mod/scorm:deleteresponses	1	1586902597	0
+1008	1	1	mod/survey:addinstance	1	1586902597	0
+1009	1	3	mod/survey:addinstance	1	1586902597	0
+1010	1	5	mod/survey:participate	1	1586902597	0
+1011	1	4	mod/survey:participate	1	1586902597	0
+1012	1	3	mod/survey:participate	1	1586902597	0
+1013	1	1	mod/survey:participate	1	1586902597	0
+1014	1	4	mod/survey:readresponses	1	1586902597	0
+1015	1	3	mod/survey:readresponses	1	1586902597	0
+1016	1	1	mod/survey:readresponses	1	1586902597	0
+1017	1	4	mod/survey:download	1	1586902597	0
+1018	1	3	mod/survey:download	1	1586902597	0
+1019	1	1	mod/survey:download	1	1586902597	0
+1020	1	6	mod/turnitintooltwo:view	1	1586902597	0
+1021	1	5	mod/turnitintooltwo:view	1	1586902597	0
+1022	1	4	mod/turnitintooltwo:view	1	1586902597	0
+1023	1	3	mod/turnitintooltwo:view	1	1586902597	0
+1024	1	5	mod/turnitintooltwo:read	1	1586902597	0
+1025	1	4	mod/turnitintooltwo:read	1	1586902597	0
+1026	1	3	mod/turnitintooltwo:read	1	1586902597	0
+1027	1	5	mod/turnitintooltwo:submit	1	1586902597	0
+1028	1	4	mod/turnitintooltwo:grade	1	1586902597	0
+1029	1	3	mod/turnitintooltwo:grade	1	1586902597	0
+1030	1	1	mod/turnitintooltwo:addinstance	1	1586902597	0
+1031	1	3	mod/turnitintooltwo:addinstance	1	1586902597	0
+1032	1	6	mod/url:view	1	1586902597	0
+1033	1	7	mod/url:view	1	1586902597	0
+1034	1	1	mod/url:addinstance	1	1586902598	0
+1035	1	3	mod/url:addinstance	1	1586902598	0
+1036	1	6	mod/webexactivity:view	1	1586902598	0
+1037	1	7	mod/webexactivity:view	1	1586902598	0
+1038	1	1	mod/webexactivity:addinstance	1	1586902598	0
+1039	1	3	mod/webexactivity:addinstance	1	1586902598	0
+1040	1	1	mod/webexactivity:hostmeeting	1	1586902598	0
+1041	1	3	mod/webexactivity:hostmeeting	1	1586902598	0
+1042	1	1	mod/wiki:addinstance	1	1586902598	0
+1043	1	3	mod/wiki:addinstance	1	1586902598	0
+1044	1	6	mod/wiki:viewpage	1	1586902598	0
+1045	1	8	mod/wiki:viewpage	1	1586902598	0
+1046	1	5	mod/wiki:viewpage	1	1586902598	0
+1047	1	4	mod/wiki:viewpage	1	1586902598	0
+1048	1	3	mod/wiki:viewpage	1	1586902598	0
+1049	1	1	mod/wiki:viewpage	1	1586902598	0
+1050	1	5	mod/wiki:editpage	1	1586902598	0
+1051	1	4	mod/wiki:editpage	1	1586902598	0
+1052	1	3	mod/wiki:editpage	1	1586902598	0
+1053	1	1	mod/wiki:editpage	1	1586902598	0
+1054	1	5	mod/wiki:createpage	1	1586902598	0
+1055	1	4	mod/wiki:createpage	1	1586902598	0
+1056	1	3	mod/wiki:createpage	1	1586902598	0
+1057	1	1	mod/wiki:createpage	1	1586902598	0
+1058	1	5	mod/wiki:viewcomment	1	1586902598	0
+1059	1	4	mod/wiki:viewcomment	1	1586902598	0
+1060	1	3	mod/wiki:viewcomment	1	1586902598	0
+1061	1	1	mod/wiki:viewcomment	1	1586902598	0
+1062	1	5	mod/wiki:editcomment	1	1586902598	0
+1063	1	4	mod/wiki:editcomment	1	1586902598	0
+1064	1	3	mod/wiki:editcomment	1	1586902598	0
+1065	1	1	mod/wiki:editcomment	1	1586902598	0
+1066	1	4	mod/wiki:managecomment	1	1586902598	0
+1067	1	3	mod/wiki:managecomment	1	1586902598	0
+1068	1	1	mod/wiki:managecomment	1	1586902598	0
+1069	1	4	mod/wiki:managefiles	1	1586902598	0
+1070	1	3	mod/wiki:managefiles	1	1586902598	0
+1071	1	1	mod/wiki:managefiles	1	1586902598	0
+1072	1	4	mod/wiki:overridelock	1	1586902598	0
+1073	1	3	mod/wiki:overridelock	1	1586902598	0
+1074	1	1	mod/wiki:overridelock	1	1586902598	0
+1075	1	4	mod/wiki:managewiki	1	1586902598	0
+1076	1	3	mod/wiki:managewiki	1	1586902598	0
+1077	1	1	mod/wiki:managewiki	1	1586902598	0
+1078	1	6	mod/workshop:view	1	1586902598	0
+1079	1	5	mod/workshop:view	1	1586902598	0
+1080	1	4	mod/workshop:view	1	1586902598	0
+1081	1	3	mod/workshop:view	1	1586902598	0
+1082	1	1	mod/workshop:view	1	1586902598	0
+1083	1	1	mod/workshop:addinstance	1	1586902598	0
+1084	1	3	mod/workshop:addinstance	1	1586902598	0
+1085	1	4	mod/workshop:switchphase	1	1586902598	0
+1086	1	3	mod/workshop:switchphase	1	1586902598	0
+1087	1	1	mod/workshop:switchphase	1	1586902598	0
+1088	1	3	mod/workshop:editdimensions	1	1586902598	0
+1089	1	1	mod/workshop:editdimensions	1	1586902598	0
+1090	1	5	mod/workshop:submit	1	1586902598	0
+1091	1	5	mod/workshop:peerassess	1	1586902598	0
+1092	1	4	mod/workshop:manageexamples	1	1586902598	0
+1093	1	3	mod/workshop:manageexamples	1	1586902598	0
+1094	1	1	mod/workshop:manageexamples	1	1586902598	0
+1095	1	4	mod/workshop:allocate	1	1586902598	0
+1096	1	3	mod/workshop:allocate	1	1586902598	0
+1097	1	1	mod/workshop:allocate	1	1586902598	0
+1098	1	4	mod/workshop:publishsubmissions	1	1586902598	0
+1099	1	3	mod/workshop:publishsubmissions	1	1586902598	0
+1100	1	1	mod/workshop:publishsubmissions	1	1586902598	0
+1101	1	5	mod/workshop:viewauthornames	1	1586902598	0
+1102	1	4	mod/workshop:viewauthornames	1	1586902598	0
+1103	1	3	mod/workshop:viewauthornames	1	1586902598	0
+1104	1	1	mod/workshop:viewauthornames	1	1586902598	0
+1105	1	4	mod/workshop:viewreviewernames	1	1586902598	0
+1106	1	3	mod/workshop:viewreviewernames	1	1586902598	0
+1107	1	1	mod/workshop:viewreviewernames	1	1586902598	0
+1108	1	4	mod/workshop:viewallsubmissions	1	1586902598	0
+1109	1	3	mod/workshop:viewallsubmissions	1	1586902598	0
+1110	1	1	mod/workshop:viewallsubmissions	1	1586902598	0
+1111	1	5	mod/workshop:viewpublishedsubmissions	1	1586902598	0
+1112	1	4	mod/workshop:viewpublishedsubmissions	1	1586902598	0
+1113	1	3	mod/workshop:viewpublishedsubmissions	1	1586902598	0
+1114	1	1	mod/workshop:viewpublishedsubmissions	1	1586902598	0
+1115	1	5	mod/workshop:viewauthorpublished	1	1586902598	0
+1116	1	4	mod/workshop:viewauthorpublished	1	1586902598	0
+1117	1	3	mod/workshop:viewauthorpublished	1	1586902598	0
+1118	1	1	mod/workshop:viewauthorpublished	1	1586902598	0
+1119	1	4	mod/workshop:viewallassessments	1	1586902598	0
+1120	1	3	mod/workshop:viewallassessments	1	1586902598	0
+1121	1	1	mod/workshop:viewallassessments	1	1586902598	0
+1122	1	4	mod/workshop:overridegrades	1	1586902598	0
+1123	1	3	mod/workshop:overridegrades	1	1586902598	0
+1124	1	1	mod/workshop:overridegrades	1	1586902598	0
+1125	1	4	mod/workshop:ignoredeadlines	1	1586902598	0
+1126	1	3	mod/workshop:ignoredeadlines	1	1586902598	0
+1127	1	1	mod/workshop:ignoredeadlines	1	1586902598	0
+1128	1	4	mod/workshop:deletesubmissions	1	1586902598	0
+1129	1	3	mod/workshop:deletesubmissions	1	1586902598	0
+1130	1	1	mod/workshop:deletesubmissions	1	1586902598	0
+1131	1	1	mod/workshop:exportsubmissions	1	1586902598	0
+1132	1	4	mod/workshop:exportsubmissions	1	1586902598	0
+1133	1	3	mod/workshop:exportsubmissions	1	1586902598	0
+1134	1	5	mod/workshop:exportsubmissions	1	1586902598	0
+1135	1	7	auth/oauth2:managelinkedlogins	1	1586902599	0
+1136	1	1	enrol/category:config	1	1586902599	0
+1137	1	3	enrol/category:config	1	1586902599	0
+1138	1	3	enrol/cohort:config	1	1586902599	0
+1139	1	1	enrol/cohort:config	1	1586902599	0
+1140	1	1	enrol/cohort:unenrol	1	1586902599	0
+1141	1	1	enrol/database:unenrol	1	1586902599	0
+1142	1	1	enrol/database:config	1	1586902599	0
+1143	1	3	enrol/database:config	1	1586902599	0
+1144	1	1	enrol/guest:config	1	1586902599	0
+1145	1	3	enrol/guest:config	1	1586902599	0
+1146	1	1	enrol/imsenterprise:config	1	1586902599	0
+1147	1	3	enrol/imsenterprise:config	1	1586902599	0
+1148	1	1	enrol/ldap:manage	1	1586902599	0
+1149	1	1	enrol/lti:config	1	1586902599	0
+1150	1	3	enrol/lti:config	1	1586902599	0
+1151	1	1	enrol/lti:unenrol	1	1586902599	0
+1152	1	3	enrol/lti:unenrol	1	1586902599	0
+1153	1	1	enrol/manual:config	1	1586902600	0
+1154	1	1	enrol/manual:enrol	1	1586902600	0
+1155	1	3	enrol/manual:enrol	1	1586902600	0
+1156	1	1	enrol/manual:manage	1	1586902600	0
+1157	1	3	enrol/manual:manage	1	1586902600	0
+1158	1	1	enrol/manual:unenrol	1	1586902600	0
+1159	1	3	enrol/manual:unenrol	1	1586902600	0
+1160	1	1	enrol/meta:config	1	1586902600	0
+1161	1	3	enrol/meta:config	1	1586902600	0
+1162	1	1	enrol/meta:selectaslinked	1	1586902600	0
+1163	1	1	enrol/meta:unenrol	1	1586902600	0
+1164	1	1	enrol/mnet:config	1	1586902600	0
+1165	1	3	enrol/mnet:config	1	1586902600	0
+1166	1	1	enrol/paypal:config	1	1586902600	0
+1167	1	1	enrol/paypal:manage	1	1586902600	0
+1168	1	3	enrol/paypal:manage	1	1586902600	0
+1169	1	1	enrol/paypal:unenrol	1	1586902600	0
+1170	1	3	enrol/self:config	1	1586902600	0
+1171	1	1	enrol/self:config	1	1586902600	0
+1172	1	3	enrol/self:manage	1	1586902600	0
+1173	1	1	enrol/self:manage	1	1586902600	0
+1174	1	5	enrol/self:unenrolself	1	1586902600	0
+1175	1	3	enrol/self:unenrol	1	1586902600	0
+1176	1	1	enrol/self:unenrol	1	1586902600	0
+1177	1	7	message/airnotifier:managedevice	1	1586902600	0
+1178	1	1	block/activity_modules:addinstance	1	1586902601	0
+1179	1	3	block/activity_modules:addinstance	1	1586902601	0
+1180	1	1	block/activity_results:addinstance	1	1586902601	0
+1181	1	3	block/activity_results:addinstance	1	1586902601	0
+1182	1	7	block/admin_bookmarks:myaddinstance	1	1586902601	0
+1183	1	1	block/admin_bookmarks:addinstance	1	1586902601	0
+1184	1	3	block/admin_bookmarks:addinstance	1	1586902601	0
+1185	1	1	block/badges:addinstance	1	1586902601	0
+1186	1	3	block/badges:addinstance	1	1586902601	0
+1187	1	7	block/badges:myaddinstance	1	1586902601	0
+1188	1	1	block/blog_menu:addinstance	1	1586902601	0
+1189	1	3	block/blog_menu:addinstance	1	1586902601	0
+1190	1	1	block/blog_recent:addinstance	1	1586902601	0
+1191	1	3	block/blog_recent:addinstance	1	1586902601	0
+1192	1	1	block/blog_tags:addinstance	1	1586902601	0
+1193	1	3	block/blog_tags:addinstance	1	1586902601	0
+1194	1	7	block/calendar_month:myaddinstance	1	1586902601	0
+1195	1	1	block/calendar_month:addinstance	1	1586902601	0
+1196	1	3	block/calendar_month:addinstance	1	1586902601	0
+1197	1	7	block/calendar_upcoming:myaddinstance	1	1586902601	0
+1198	1	1	block/calendar_upcoming:addinstance	1	1586902601	0
+1199	1	3	block/calendar_upcoming:addinstance	1	1586902601	0
+1200	1	7	block/comments:myaddinstance	1	1586902601	0
+1201	1	1	block/comments:addinstance	1	1586902601	0
+1202	1	3	block/comments:addinstance	1	1586902601	0
+1203	1	7	block/community:myaddinstance	1	1586902601	0
+1204	1	1	block/community:addinstance	1	1586902601	0
+1205	1	3	block/community:addinstance	1	1586902601	0
+1206	1	1	block/completionstatus:addinstance	1	1586902601	0
+1207	1	3	block/completionstatus:addinstance	1	1586902601	0
+1208	1	7	block/course_list:myaddinstance	1	1586902601	0
+1209	1	1	block/course_list:addinstance	1	1586902601	0
+1210	1	3	block/course_list:addinstance	1	1586902601	0
+1211	1	1	block/course_summary:addinstance	1	1586902601	0
+1212	1	3	block/course_summary:addinstance	1	1586902601	0
+1213	1	1	block/feedback:addinstance	1	1586902601	0
+1214	1	3	block/feedback:addinstance	1	1586902601	0
+1215	1	7	block/globalsearch:myaddinstance	1	1586902601	0
+1216	1	1	block/globalsearch:addinstance	1	1586902601	0
+1217	1	3	block/globalsearch:addinstance	1	1586902601	0
+1218	1	7	block/glossary_random:myaddinstance	1	1586902601	0
+1219	1	1	block/glossary_random:addinstance	1	1586902601	0
+1220	1	3	block/glossary_random:addinstance	1	1586902601	0
+1221	1	7	block/html:myaddinstance	1	1586902601	0
+1222	1	1	block/html:addinstance	1	1586902601	0
+1223	1	3	block/html:addinstance	1	1586902601	0
+1224	1	1	block/login:addinstance	1	1586902601	0
+1225	1	3	block/login:addinstance	1	1586902601	0
+1226	1	1	block/lp:addinstance	1	1586902602	0
+1227	1	3	block/lp:addinstance	1	1586902602	0
+1228	1	7	block/lp:myaddinstance	1	1586902602	0
+1229	1	7	block/lp:view	1	1586902602	0
+1230	1	7	block/mentees:myaddinstance	1	1586902602	0
+1231	1	1	block/mentees:addinstance	1	1586902602	0
+1232	1	3	block/mentees:addinstance	1	1586902602	0
+1233	1	7	block/mnet_hosts:myaddinstance	1	1586902602	0
+1234	1	1	block/mnet_hosts:addinstance	1	1586902602	0
+1235	1	3	block/mnet_hosts:addinstance	1	1586902602	0
+1236	1	7	block/myoverview:myaddinstance	1	1586902602	0
+1237	1	1	block/myoverview:addinstance	1	1586902602	0
+1238	1	3	block/myoverview:addinstance	1	1586902602	0
+1239	1	7	block/myprofile:myaddinstance	1	1586902602	0
+1240	1	1	block/myprofile:addinstance	1	1586902602	0
+1241	1	3	block/myprofile:addinstance	1	1586902602	0
+1242	1	7	block/navigation:myaddinstance	1	1586902602	0
+1243	1	1	block/navigation:addinstance	1	1586902602	0
+1244	1	3	block/navigation:addinstance	1	1586902602	0
+1245	1	7	block/news_items:myaddinstance	1	1586902602	0
+1246	1	1	block/news_items:addinstance	1	1586902602	0
+1247	1	3	block/news_items:addinstance	1	1586902602	0
+1248	1	7	block/online_users:myaddinstance	1	1586902602	0
+1249	1	1	block/online_users:addinstance	1	1586902602	0
+1250	1	3	block/online_users:addinstance	1	1586902602	0
+1251	1	7	block/online_users:viewlist	1	1586902602	0
+1252	1	6	block/online_users:viewlist	1	1586902602	0
+1253	1	5	block/online_users:viewlist	1	1586902602	0
+1254	1	4	block/online_users:viewlist	1	1586902602	0
+1255	1	3	block/online_users:viewlist	1	1586902602	0
+1256	1	1	block/online_users:viewlist	1	1586902602	0
+1257	1	1	block/participants:addinstance	1	1586902602	0
+1258	1	3	block/participants:addinstance	1	1586902602	0
+1259	1	7	block/private_files:myaddinstance	1	1586902602	0
+1260	1	1	block/private_files:addinstance	1	1586902602	0
+1261	1	3	block/private_files:addinstance	1	1586902602	0
+1262	1	1	block/qrcode:addinstance	1	1586902602	0
+1263	1	3	block/qrcode:addinstance	1	1586902602	0
+1264	1	4	block/qrcode:download	1	1586902602	0
+1265	1	3	block/qrcode:download	1	1586902602	0
+1266	1	2	block/qrcode:download	1	1586902602	0
+1267	1	1	block/qrcode:download	1	1586902602	0
+1268	1	1	block/quiz_results:addinstance	1	1586902602	0
+1269	1	3	block/quiz_results:addinstance	1	1586902602	0
+1270	1	1	block/recent_activity:addinstance	1	1586902602	0
+1271	1	3	block/recent_activity:addinstance	1	1586902602	0
+1272	1	7	block/recent_activity:viewaddupdatemodule	1	1586902602	0
+1273	1	7	block/recent_activity:viewdeletemodule	1	1586902602	0
+1274	1	7	block/recentlyaccessedcourses:myaddinstance	1	1586902602	0
+1275	1	1	block/recentlyaccessedcourses:addinstance	1	1586902602	0
+1276	1	3	block/recentlyaccessedcourses:addinstance	1	1586902602	0
+1277	1	7	block/recentlyaccesseditems:myaddinstance	1	1586902602	0
+1278	1	1	block/recentlyaccesseditems:addinstance	1	1586902602	0
+1279	1	3	block/recentlyaccesseditems:addinstance	1	1586902602	0
+1280	1	7	block/rss_client:myaddinstance	1	1586902602	0
+1281	1	1	block/rss_client:addinstance	1	1586902602	0
+1282	1	3	block/rss_client:addinstance	1	1586902602	0
+1283	1	4	block/rss_client:manageownfeeds	1	1586902602	0
+1284	1	3	block/rss_client:manageownfeeds	1	1586902602	0
+1285	1	1	block/rss_client:manageownfeeds	1	1586902602	0
+1286	1	1	block/rss_client:manageanyfeeds	1	1586902602	0
+1287	1	1	block/search_forums:addinstance	1	1586902602	0
+1288	1	3	block/search_forums:addinstance	1	1586902602	0
+1289	1	1	block/section_links:addinstance	1	1586902602	0
+1290	1	3	block/section_links:addinstance	1	1586902602	0
+1291	1	1	block/selfcompletion:addinstance	1	1586902602	0
+1292	1	3	block/selfcompletion:addinstance	1	1586902602	0
+1293	1	7	block/settings:myaddinstance	1	1586902603	0
+1294	1	1	block/settings:addinstance	1	1586902603	0
+1295	1	3	block/settings:addinstance	1	1586902603	0
+1296	1	1	block/site_main_menu:addinstance	1	1586902603	0
+1297	1	3	block/site_main_menu:addinstance	1	1586902603	0
+1298	1	7	block/sitenews:myaddinstance	1	1586902603	0
+1299	1	6	block/sitenews:myaddinstance	1	1586902603	0
+1300	1	1	block/social_activities:addinstance	1	1586902603	0
+1301	1	3	block/social_activities:addinstance	1	1586902603	0
+1302	1	7	block/starredcourses:myaddinstance	1	1586902603	0
+1303	1	1	block/starredcourses:addinstance	1	1586902603	0
+1304	1	3	block/starredcourses:addinstance	1	1586902603	0
+1305	1	1	block/tag_flickr:addinstance	1	1586902603	0
+1306	1	3	block/tag_flickr:addinstance	1	1586902603	0
+1307	1	1	block/tag_youtube:addinstance	1	1586902603	0
+1308	1	3	block/tag_youtube:addinstance	1	1586902603	0
+1309	1	7	block/tags:myaddinstance	1	1586902603	0
+1310	1	1	block/tags:addinstance	1	1586902603	0
+1311	1	3	block/tags:addinstance	1	1586902603	0
+1312	1	7	block/timeline:myaddinstance	1	1586902603	0
+1313	1	1	block/timeline:addinstance	1	1586902603	0
+1314	1	3	block/timeline:addinstance	1	1586902603	0
+1315	1	1	report/benchmark:view	1	1586902604	0
+1316	1	4	report/completion:view	1	1586902604	0
+1317	1	3	report/completion:view	1	1586902604	0
+1318	1	1	report/completion:view	1	1586902604	0
+1319	1	1	report/courseoverview:view	1	1586902604	0
+1320	1	3	report/courseoverview:view	1	1586902604	0
+1321	1	4	report/courseoverview:view	1	1586902604	0
+1322	1	4	report/log:view	1	1586902604	0
+1323	1	3	report/log:view	1	1586902604	0
+1324	1	1	report/log:view	1	1586902604	0
+1325	1	4	report/log:viewtoday	1	1586902604	0
+1326	1	3	report/log:viewtoday	1	1586902604	0
+1327	1	1	report/log:viewtoday	1	1586902604	0
+1328	1	4	report/loglive:view	1	1586902604	0
+1329	1	3	report/loglive:view	1	1586902604	0
+1330	1	1	report/loglive:view	1	1586902604	0
+1331	1	4	report/outline:view	1	1586902604	0
+1332	1	3	report/outline:view	1	1586902604	0
+1333	1	1	report/outline:view	1	1586902604	0
+1334	1	4	report/outline:viewuserreport	1	1586902604	0
+1335	1	3	report/outline:viewuserreport	1	1586902604	0
+1336	1	1	report/outline:viewuserreport	1	1586902604	0
+1337	1	4	report/participation:view	1	1586902605	0
+1338	1	3	report/participation:view	1	1586902605	0
+1339	1	1	report/participation:view	1	1586902605	0
+1340	1	1	report/performance:view	1	1586902605	0
+1341	1	4	report/progress:view	1	1586902605	0
+1342	1	3	report/progress:view	1	1586902605	0
+1343	1	1	report/progress:view	1	1586902605	0
+1344	1	1	report/security:view	1	1586902605	0
+1345	1	4	report/stats:view	1	1586902605	0
+1346	1	3	report/stats:view	1	1586902605	0
+1347	1	1	report/stats:view	1	1586902605	0
+1348	1	1	report/usersessions:manageownsessions	1	1586902605	0
+1349	1	7	report/usersessions:manageownsessions	1	1586902605	0
+1350	1	6	report/usersessions:manageownsessions	-1000	1586902605	0
+1351	1	4	gradeexport/ods:view	1	1586902605	0
+1352	1	3	gradeexport/ods:view	1	1586902605	0
+1353	1	1	gradeexport/ods:view	1	1586902605	0
+1354	1	1	gradeexport/ods:publish	1	1586902605	0
+1355	1	4	gradeexport/txt:view	1	1586902605	0
+1356	1	3	gradeexport/txt:view	1	1586902605	0
+1357	1	1	gradeexport/txt:view	1	1586902605	0
+1358	1	1	gradeexport/txt:publish	1	1586902605	0
+1359	1	4	gradeexport/xls:view	1	1586902605	0
+1360	1	3	gradeexport/xls:view	1	1586902605	0
+1361	1	1	gradeexport/xls:view	1	1586902605	0
+1362	1	1	gradeexport/xls:publish	1	1586902605	0
+1363	1	4	gradeexport/xml:view	1	1586902605	0
+1364	1	3	gradeexport/xml:view	1	1586902605	0
+1365	1	1	gradeexport/xml:view	1	1586902605	0
+1366	1	1	gradeexport/xml:publish	1	1586902605	0
+1367	1	3	gradeimport/csv:view	1	1586902605	0
+1368	1	1	gradeimport/csv:view	1	1586902605	0
+1369	1	3	gradeimport/direct:view	1	1586902605	0
+1370	1	1	gradeimport/direct:view	1	1586902605	0
+1371	1	3	gradeimport/xml:view	1	1586902605	0
+1372	1	1	gradeimport/xml:view	1	1586902605	0
+1373	1	1	gradeimport/xml:publish	1	1586902605	0
+1374	1	4	gradereport/grader:view	1	1586902605	0
+1375	1	3	gradereport/grader:view	1	1586902605	0
+1376	1	1	gradereport/grader:view	1	1586902605	0
+1377	1	1	gradereport/history:view	1	1586902605	0
+1378	1	3	gradereport/history:view	1	1586902605	0
+1379	1	4	gradereport/history:view	1	1586902605	0
+1380	1	4	gradereport/outcomes:view	1	1586902605	0
+1381	1	3	gradereport/outcomes:view	1	1586902605	0
+1382	1	1	gradereport/outcomes:view	1	1586902605	0
+1383	1	7	gradereport/overview:view	1	1586902605	0
+1384	1	3	gradereport/singleview:view	1	1586902605	0
+1385	1	1	gradereport/singleview:view	1	1586902605	0
+1386	1	5	gradereport/user:view	1	1586902605	0
+1387	1	4	gradereport/user:view	1	1586902605	0
+1388	1	3	gradereport/user:view	1	1586902605	0
+1389	1	1	gradereport/user:view	1	1586902605	0
+1390	1	7	repository/areafiles:view	1	1586902606	0
+1391	1	2	repository/coursefiles:view	1	1586902606	0
+1392	1	4	repository/coursefiles:view	1	1586902606	0
+1393	1	3	repository/coursefiles:view	1	1586902606	0
+1394	1	1	repository/coursefiles:view	1	1586902606	0
+1395	1	7	repository/equella:view	1	1586902606	0
+1396	1	2	repository/filesystem:view	1	1586902606	0
+1397	1	4	repository/filesystem:view	1	1586902606	0
+1398	1	3	repository/filesystem:view	1	1586902606	0
+1399	1	1	repository/filesystem:view	1	1586902606	0
+1400	1	2	repository/local:view	1	1586902606	0
+1401	1	4	repository/local:view	1	1586902606	0
+1402	1	3	repository/local:view	1	1586902606	0
+1403	1	1	repository/local:view	1	1586902606	0
+1404	1	7	repository/nextcloud:view	1	1586902606	0
+1405	1	7	repository/recent:view	1	1586902606	0
+1406	1	7	repository/s3:view	1	1586902606	0
+1407	1	7	repository/upload:view	1	1586902606	0
+1408	1	7	repository/url:view	1	1586902606	0
+1409	1	7	repository/user:view	1	1586902606	0
+1410	1	2	repository/webdav:view	1	1586902606	0
+1411	1	4	repository/webdav:view	1	1586902606	0
+1412	1	3	repository/webdav:view	1	1586902606	0
+1413	1	1	repository/webdav:view	1	1586902606	0
+1414	1	7	repository/wikimedia:view	1	1586902606	0
+1415	1	7	repository/youtube:view	1	1586902606	0
+1416	1	1	tool/customlang:view	1	1586902607	0
+1417	1	1	tool/customlang:edit	1	1586902607	0
+1418	1	7	tool/dataprivacy:downloadownrequest	1	1586902607	0
+1419	1	1	tool/lpmigrate:frameworksmigrate	1	1586902608	0
+1420	1	4	tool/monitor:subscribe	1	1586902608	0
+1421	1	3	tool/monitor:subscribe	1	1586902608	0
+1422	1	1	tool/monitor:subscribe	1	1586902608	0
+1423	1	4	tool/monitor:managerules	1	1586902608	0
+1424	1	3	tool/monitor:managerules	1	1586902608	0
+1425	1	1	tool/monitor:managerules	1	1586902608	0
+1426	1	1	tool/monitor:managetool	1	1586902608	0
+1427	1	7	tool/policy:accept	1	1586902608	0
+1428	1	1	tool/policy:managedocs	1	1586902608	0
+1429	1	1	tool/policy:viewacceptances	1	1586902608	0
+1430	1	3	tool/recyclebin:deleteitems	1	1586902608	0
+1431	1	1	tool/recyclebin:deleteitems	1	1586902608	0
+1432	1	3	tool/recyclebin:restoreitems	1	1586902608	0
+1433	1	1	tool/recyclebin:restoreitems	1	1586902608	0
+1434	1	4	tool/recyclebin:viewitems	1	1586902608	0
+1435	1	3	tool/recyclebin:viewitems	1	1586902608	0
+1436	1	1	tool/recyclebin:viewitems	1	1586902608	0
+1437	1	1	tool/uploaduser:uploaduserpictures	1	1586902609	0
+1438	1	1	tool/usertours:managetours	1	1586902609	0
+1439	1	3	booktool/importhtml:import	1	1586902610	0
+1440	1	1	booktool/importhtml:import	1	1586902610	0
+1441	1	6	booktool/print:print	1	1586902610	0
+1442	1	8	booktool/print:print	1	1586902610	0
+1443	1	5	booktool/print:print	1	1586902610	0
+1444	1	4	booktool/print:print	1	1586902610	0
+1445	1	3	booktool/print:print	1	1586902610	0
+1446	1	1	booktool/print:print	1	1586902610	0
+1447	1	1	quiz/grading:viewstudentnames	1	1586902611	0
+1448	1	3	quiz/grading:viewstudentnames	1	1586902611	0
+1449	1	4	quiz/grading:viewstudentnames	1	1586902611	0
+1450	1	1	quiz/grading:viewidnumber	1	1586902611	0
+1451	1	3	quiz/grading:viewidnumber	1	1586902611	0
+1452	1	4	quiz/grading:viewidnumber	1	1586902611	0
+1453	1	1	quiz/statistics:view	1	1586902611	0
+1454	1	3	quiz/statistics:view	1	1586902611	0
+1455	1	4	quiz/statistics:view	1	1586902611	0
+1456	1	7	atto/recordrtc:recordaudio	1	1586902612	0
+1457	1	7	atto/recordrtc:recordvideo	1	1586902612	0
+1458	1	4	local/course_templates:view	1	1586902613	0
+1459	1	3	local/course_templates:view	1	1586902613	0
+1460	1	1	local/course_templates:view	1	1586902613	0
+1461	1	4	local/course_templates:edit	1	1586902613	0
+1462	1	3	local/course_templates:edit	1	1586902613	0
+1463	1	1	local/course_templates:edit	1	1586902613	0
 \.
 
 
@@ -36649,8 +36476,8 @@ COPY public.mdl_role_sortorder (id, userid, roleid, contextid, sortoder) FROM st
 --
 
 COPY public.mdl_scale (id, courseid, userid, name, scale, description, descriptionformat, timemodified) FROM stdin;
-1	0	0	Separate and Connected ways of knowing	Mostly separate knowing,Separate and connected,Mostly connected knowing	The scale based on the theory of separate and connected knowing. This theory describes two different ways that we can evaluate and learn about the things we see and hear.<ul><li><strong>Separate knowers</strong> remain as objective as possible without including feelings and emotions. In a discussion with other people, they like to defend their own ideas, using logic to find holes in opponent's ideas.</li><li><strong>Connected knowers</strong> are more sensitive to other people. They are skilled at empathy and tend to listen and ask questions until they feel they can connect and "understand things from their point of view". They learn by trying to share the experiences that led to the knowledge they find in other people.</li></ul>	0	1586879250
-2	0	0	Default competence scale	Not yet competent,Competent	A binary rating scale that provides no further information beyond whether someone has demonstrated proficiency or not.	0	1586879250
+1	0	0	Separate and Connected ways of knowing	Mostly separate knowing,Separate and connected,Mostly connected knowing	The scale based on the theory of separate and connected knowing. This theory describes two different ways that we can evaluate and learn about the things we see and hear.<ul><li><strong>Separate knowers</strong> remain as objective as possible without including feelings and emotions. In a discussion with other people, they like to defend their own ideas, using logic to find holes in opponent's ideas.</li><li><strong>Connected knowers</strong> are more sensitive to other people. They are skilled at empathy and tend to listen and ask questions until they feel they can connect and "understand things from their point of view". They learn by trying to share the experiences that led to the knowledge they find in other people.</li></ul>	0	1586902581
+2	0	0	Default competence scale	Not yet competent,Competent	A binary rating scale that provides no further information beyond whether someone has demonstrated proficiency or not.	0	1586902581
 \.
 
 
@@ -36771,8 +36598,6 @@ COPY public.mdl_search_simpledb_index (id, docid, itemid, title, content, contex
 --
 
 COPY public.mdl_sessions (id, state, sid, userid, sessdata, timecreated, timemodified, firstip, lastip) FROM stdin;
-1	0	6mi558na16h2s2afvpq2bj38qk	0	\N	1586879309	1586879309	10.30.2.20	10.30.2.20
-8	0	n3ql085muoub9aj14sos6dsono	1	\N	1586879789	1586879790	10.30.2.20	10.30.2.20
 \.
 
 
@@ -36991,7 +36816,7 @@ COPY public.mdl_tag_instance (id, tagid, component, itemtype, itemid, contextid,
 --
 
 COPY public.mdl_task_adhoc (id, component, classname, nextruntime, faildelay, customdata, userid, blocking) FROM stdin;
-1		\\core\\task\\build_installed_themes_task	1586879297	0		\N	0
+1		\\core\\task\\build_installed_themes_task	1586902629	0		\N	0
 \.
 
 
@@ -37000,92 +36825,92 @@ COPY public.mdl_task_adhoc (id, component, classname, nextruntime, faildelay, cu
 --
 
 COPY public.mdl_task_scheduled (id, component, classname, lastruntime, nextruntime, blocking, minute, hour, day, month, dayofweek, faildelay, customised, disabled) FROM stdin;
-1	moodle	\\core\\task\\session_cleanup_task	0	1586879280	0	*	*	*	*	*	0	0	0
-2	moodle	\\core\\task\\delete_unconfirmed_users_task	0	1586880000	0	0	*	*	*	*	0	0	0
-3	moodle	\\core\\task\\delete_incomplete_users_task	0	1586880300	0	5	*	*	*	*	0	0	0
-4	moodle	\\core\\task\\backup_cleanup_task	0	1586880600	0	10	*	*	*	*	0	0	0
-5	moodle	\\core\\task\\tag_cron_task	0	1586920200	0	10	3	*	*	*	0	0	0
-6	moodle	\\core\\task\\context_cleanup_task	0	1586881500	0	25	*	*	*	*	0	0	0
-7	moodle	\\core\\task\\cache_cleanup_task	0	1586881800	0	30	*	*	*	*	0	0	0
-8	moodle	\\core\\task\\messaging_cleanup_task	0	1586882100	0	35	*	*	*	*	0	0	0
-9	moodle	\\core\\task\\send_new_user_passwords_task	0	1586879280	0	*	*	*	*	*	0	0	0
-10	moodle	\\core\\task\\send_failed_login_notifications_task	0	1586879280	0	*	*	*	*	*	0	0	0
+1	moodle	\\core\\task\\session_cleanup_task	0	1586902620	0	*	*	*	*	*	0	0	0
+2	moodle	\\core\\task\\delete_unconfirmed_users_task	0	1586905200	0	0	*	*	*	*	0	0	0
+3	moodle	\\core\\task\\delete_incomplete_users_task	0	1586905500	0	5	*	*	*	*	0	0	0
+4	moodle	\\core\\task\\backup_cleanup_task	0	1586905800	0	10	*	*	*	*	0	0	0
+5	moodle	\\core\\task\\tag_cron_task	0	1586920800	0	20	3	*	*	*	0	0	0
+6	moodle	\\core\\task\\context_cleanup_task	0	1586903100	0	25	*	*	*	*	0	0	0
+7	moodle	\\core\\task\\cache_cleanup_task	0	1586903400	0	30	*	*	*	*	0	0	0
+8	moodle	\\core\\task\\messaging_cleanup_task	0	1586903700	0	35	*	*	*	*	0	0	0
+9	moodle	\\core\\task\\send_new_user_passwords_task	0	1586902620	0	*	*	*	*	*	0	0	0
+10	moodle	\\core\\task\\send_failed_login_notifications_task	0	1586902620	0	*	*	*	*	*	0	0	0
 11	moodle	\\core\\task\\create_contexts_task	0	1586908800	1	0	0	*	*	*	0	0	0
-12	moodle	\\core\\task\\legacy_plugin_cron_task	0	1586879280	0	*	*	*	*	*	0	0	0
-13	moodle	\\core\\task\\grade_cron_task	0	1586879280	0	*	*	*	*	*	0	0	0
-14	moodle	\\core\\task\\completion_regular_task	0	1586879280	0	*	*	*	*	*	0	0	0
-15	moodle	\\core\\task\\completion_daily_task	0	1586895420	0	17	20	*	*	*	0	0	0
-16	moodle	\\core\\task\\portfolio_cron_task	0	1586879280	0	*	*	*	*	*	0	0	0
-17	moodle	\\core\\task\\plagiarism_cron_task	0	1586879280	0	*	*	*	*	*	0	0	0
-18	moodle	\\core\\task\\calendar_cron_task	0	1586879280	0	*	*	*	*	*	0	0	0
-19	moodle	\\core\\task\\blog_cron_task	0	1586879280	0	*	*	*	*	*	0	0	0
-20	moodle	\\core\\task\\question_cron_task	0	1586879280	0	*	*	*	*	*	0	0	0
-21	moodle	\\core\\task\\registration_cron_task	0	1586916900	0	15	2	*	*	3	0	0	0
-22	moodle	\\core\\task\\check_for_updates_task	0	1586880000	0	0	*/2	*	*	*	0	0	0
-23	moodle	\\core\\task\\cache_cron_task	0	1586879400	0	50	*	*	*	*	0	0	0
-24	moodle	\\core\\task\\automated_backup_task	0	1586879400	0	50	*	*	*	*	0	0	0
-25	moodle	\\core\\task\\badges_cron_task	0	1586879400	0	*/5	*	*	*	*	0	0	0
-26	moodle	\\core\\task\\file_temp_cleanup_task	0	1586890500	0	55	*/6	*	*	*	0	0	0
-27	moodle	\\core\\task\\file_trash_cleanup_task	0	1586890500	0	55	*/6	*	*	*	0	0	0
-28	moodle	\\core\\task\\search_index_task	0	1586880000	0	*/30	*	*	*	*	0	0	0
+12	moodle	\\core\\task\\legacy_plugin_cron_task	0	1586902620	0	*	*	*	*	*	0	0	0
+13	moodle	\\core\\task\\grade_cron_task	0	1586902620	0	*	*	*	*	*	0	0	0
+14	moodle	\\core\\task\\completion_regular_task	0	1586902620	0	*	*	*	*	*	0	0	0
+15	moodle	\\core\\task\\completion_daily_task	0	1586920680	0	18	3	*	*	*	0	0	0
+16	moodle	\\core\\task\\portfolio_cron_task	0	1586902620	0	*	*	*	*	*	0	0	0
+17	moodle	\\core\\task\\plagiarism_cron_task	0	1586902620	0	*	*	*	*	*	0	0	0
+18	moodle	\\core\\task\\calendar_cron_task	0	1586902620	0	*	*	*	*	*	0	0	0
+19	moodle	\\core\\task\\blog_cron_task	0	1586902620	0	*	*	*	*	*	0	0	0
+20	moodle	\\core\\task\\question_cron_task	0	1586902620	0	*	*	*	*	*	0	0	0
+21	moodle	\\core\\task\\registration_cron_task	0	1586981940	0	19	20	*	*	3	0	0	0
+22	moodle	\\core\\task\\check_for_updates_task	0	1586908800	0	0	*/2	*	*	*	0	0	0
+23	moodle	\\core\\task\\cache_cron_task	0	1586904600	0	50	*	*	*	*	0	0	0
+24	moodle	\\core\\task\\automated_backup_task	0	1586904600	0	50	*	*	*	*	0	0	0
+25	moodle	\\core\\task\\badges_cron_task	0	1586902800	0	*/5	*	*	*	*	0	0	0
+26	moodle	\\core\\task\\file_temp_cleanup_task	0	1586912100	0	55	*/6	*	*	*	0	0	0
+27	moodle	\\core\\task\\file_trash_cleanup_task	0	1586912100	0	55	*/6	*	*	*	0	0	0
+28	moodle	\\core\\task\\search_index_task	0	1586903400	0	*/30	*	*	*	*	0	0	0
 29	moodle	\\core\\task\\search_optimize_task	0	1586909700	0	15	*/12	*	*	*	0	0	0
 30	moodle	\\core\\task\\stats_cron_task	0	1586908800	0	0	0	*	*	*	0	0	0
-31	moodle	\\core\\task\\password_reset_cleanup_task	0	1586887200	0	0	*/6	*	*	*	0	0	0
-32	moodle	\\core\\task\\complete_plans_task	0	1586880420	0	7	*	*	*	*	0	0	0
-33	moodle	\\core\\task\\sync_plans_from_template_cohorts_task	0	1586880120	0	2	*	*	*	*	0	0	0
-34	moodle	\\core_files\\task\\conversion_cleanup_task	0	1586916120	0	2	2	*	*	*	0	0	0
-35	moodle	\\core\\oauth2\\refresh_system_tokens_task	0	1586881800	0	30	*	*	*	*	0	0	0
-36	moodle	\\core\\task\\analytics_cleanup_task	0	1586882520	0	42	*	*	*	*	0	0	0
-37	qtype_random	\\qtype_random\\task\\remove_unused_questions	0	1586880120	0	2	*	*	*	*	0	0	0
-38	mod_attendance	\\mod_attendance\\task\\auto_mark	0	1586880480	0	8	*	*	*	*	0	0	0
+31	moodle	\\core\\task\\password_reset_cleanup_task	0	1586908800	0	0	*/6	*	*	*	0	0	0
+32	moodle	\\core\\task\\complete_plans_task	0	1586905740	0	9	*	*	*	*	0	0	0
+33	moodle	\\core\\task\\sync_plans_from_template_cohorts_task	0	1586902920	0	22	*	*	*	*	0	0	0
+34	moodle	\\core_files\\task\\conversion_cleanup_task	0	1586916600	0	10	2	*	*	*	0	0	0
+35	moodle	\\core\\oauth2\\refresh_system_tokens_task	0	1586903400	0	30	*	*	*	*	0	0	0
+36	moodle	\\core\\task\\analytics_cleanup_task	0	1586904120	0	42	*	*	*	*	0	0	0
+37	qtype_random	\\qtype_random\\task\\remove_unused_questions	0	1586905860	0	11	*	*	*	*	0	0	0
+38	mod_attendance	\\mod_attendance\\task\\auto_mark	0	1586905680	0	8	*	*	*	*	0	0	0
 39	mod_attendance	\\mod_attendance\\task\\notify	0	1586910600	0	30	1	*	*	*	0	0	0
-40	mod_forum	\\mod_forum\\task\\cron_task	0	1586879280	0	*	*	*	*	*	0	0	0
-41	mod_questionnaire	\\mod_questionnaire\\task\\cleanup	0	1586905860	0	11	*/12	*	*	*	0	0	0
-42	mod_scorm	\\mod_scorm\\task\\cron_task	0	1586879400	0	*/5	*	*	*	*	0	0	0
-43	mod_turnitintooltwo	\\mod_turnitintooltwo\\task\\turnitintooltwo_task	0	1586879400	0	*/5	*	*	*	*	0	0	0
-44	mod_webexactivity	\\mod_webexactivity\\task\\remove_deleted_recordings	0	1586880000	0	0	*	*	*	*	0	0	0
-45	mod_webexactivity	\\mod_webexactivity\\task\\update_open_sessions	0	1586879280	0	*	*	*	*	*	0	0	0
-46	mod_webexactivity	\\mod_webexactivity\\task\\update_recent_recordings	0	1586879280	0	*	*	*	*	*	0	0	0
+40	mod_forum	\\mod_forum\\task\\cron_task	0	1586902620	0	*	*	*	*	*	0	0	0
+41	mod_questionnaire	\\mod_questionnaire\\task\\cleanup	0	1586906460	0	21	*/12	*	*	*	0	0	0
+42	mod_scorm	\\mod_scorm\\task\\cron_task	0	1586902800	0	*/5	*	*	*	*	0	0	0
+43	mod_turnitintooltwo	\\mod_turnitintooltwo\\task\\turnitintooltwo_task	0	1586902800	0	*/5	*	*	*	*	0	0	0
+44	mod_webexactivity	\\mod_webexactivity\\task\\remove_deleted_recordings	0	1586902860	0	21	*	*	*	*	0	0	0
+45	mod_webexactivity	\\mod_webexactivity\\task\\update_open_sessions	0	1586902620	0	*	*	*	*	*	0	0	0
+46	mod_webexactivity	\\mod_webexactivity\\task\\update_recent_recordings	0	1586902620	0	*	*	*	*	*	0	0	0
 47	mod_webexactivity	\\mod_webexactivity\\task\\update_medium_recordings	0	1586905200	0	0	*/8	*	*	*	0	0	0
-48	mod_webexactivity	\\mod_webexactivity\\task\\update_all_recordings	0	1586916660	0	11	3	*/2	*	*	0	0	0
+48	mod_webexactivity	\\mod_webexactivity\\task\\update_all_recordings	0	1586916060	0	1	3	*/2	*	*	0	0	0
 49	auth_cas	\\auth_cas\\task\\sync_task	0	1586905200	0	0	0	*	*	*	0	0	1
-50	auth_db	\\auth_db\\task\\sync_users	0	1586894520	0	2	21	*	*	*	0	0	1
+50	auth_db	\\auth_db\\task\\sync_users	0	1586906520	0	22	0	*	*	*	0	0	1
 51	auth_ldap	\\auth_ldap\\task\\sync_roles	0	1586905200	0	0	0	*	*	*	0	0	1
 52	auth_ldap	\\auth_ldap\\task\\sync_task	0	1586905200	0	0	0	*	*	*	0	0	1
-53	enrol_category	\\enrol_category\\task\\enrol_category_sync	0	1586879280	0	*	*	*	*	*	0	0	0
-54	enrol_cohort	\\enrol_cohort\\task\\enrol_cohort_sync	0	1586880780	0	13	*	*	*	*	0	0	0
-55	enrol_flatfile	\\enrol_flatfile\\task\\flatfile_sync_task	0	1586880900	0	15	*	*	*	*	0	0	0
-56	enrol_imsenterprise	\\enrol_imsenterprise\\task\\cron_task	0	1586880600	0	10	*	*	*	*	0	0	0
-57	enrol_ldap	\\enrol_ldap\\task\\sync_enrolments	0	1586942580	0	23	10	*	*	*	0	0	1
-58	enrol_lti	\\enrol_lti\\task\\sync_grades	0	1586880000	0	*/30	*	*	*	*	0	0	0
-59	enrol_lti	\\enrol_lti\\task\\sync_members	0	1586880000	0	*/30	*	*	*	*	0	0	0
-60	enrol_manual	\\enrol_manual\\task\\sync_enrolments	0	1586879400	0	*/10	*	*	*	*	0	0	0
-61	enrol_manual	\\enrol_manual\\task\\send_expiry_notifications	0	1586879400	0	*/10	*	*	*	*	0	0	0
-62	enrol_meta	\\enrol_meta\\task\\enrol_meta_sync	0	1586881200	0	20	*	*	*	*	0	0	0
-63	enrol_paypal	\\enrol_paypal\\task\\process_expirations	0	1586879280	0	*	*	*	*	*	0	0	0
-64	enrol_self	\\enrol_self\\task\\sync_enrolments	0	1586879400	0	*/10	*	*	*	*	0	0	0
-65	enrol_self	\\enrol_self\\task\\send_expiry_notifications	0	1586879400	0	*/10	*	*	*	*	0	0	0
-66	block_recent_activity	\\block_recent_activity\\task\\cleanup	0	1586944800	0	0	11	*	*	*	0	0	0
-67	block_rss_client	\\block_rss_client\\task\\refreshfeeds	0	1586879400	0	*/5	*	*	*	*	0	0	0
-68	editor_atto	\\editor_atto\\task\\autosave_cleanup_task	0	1587178920	0	2	4	*	*	6	0	0	0
-69	tool_analytics	\\tool_analytics\\task\\train_models	0	1586926800	0	0	6	*	*	*	0	0	0
-70	tool_analytics	\\tool_analytics\\task\\predict_models	0	1586883600	0	0	18	*	*	*	0	0	0
-71	tool_cohortroles	\\tool_cohortroles\\task\\cohort_role_sync	0	1586880180	0	3	*	*	*	*	0	0	0
-72	tool_dataprivacy	\\tool_dataprivacy\\task\\expired_retention_period	0	1586905200	0	0	0	*	*	*	0	0	0
-73	tool_dataprivacy	\\tool_dataprivacy\\task\\delete_expired_contexts	0	1586919600	0	0	4	*	*	*	0	0	0
-74	tool_dataprivacy	\\tool_dataprivacy\\task\\delete_expired_requests	0	1586912640	0	4	2	*	*	*	0	0	0
-75	tool_dataprivacy	\\tool_dataprivacy\\task\\delete_existing_deleted_users	0	1586942520	0	22	10	*	*	*	0	0	1
-76	tool_langimport	\\tool_langimport\\task\\update_langpacks_task	0	1586920440	0	14	4	*	*	*	0	0	0
-77	tool_messageinbound	\\tool_messageinbound\\task\\pickup_task	0	1586879280	0	*	*	*	*	*	0	0	0
+53	enrol_category	\\enrol_category\\task\\enrol_category_sync	0	1586902620	0	*	*	*	*	*	0	0	0
+54	enrol_cohort	\\enrol_cohort\\task\\enrol_cohort_sync	0	1586905860	0	11	*	*	*	*	0	0	0
+55	enrol_flatfile	\\enrol_flatfile\\task\\flatfile_sync_task	0	1586906100	0	15	*	*	*	*	0	0	0
+56	enrol_imsenterprise	\\enrol_imsenterprise\\task\\cron_task	0	1586905800	0	10	*	*	*	*	0	0	0
+57	enrol_ldap	\\enrol_ldap\\task\\sync_enrolments	0	1586902620	0	17	23	*	*	*	0	0	1
+58	enrol_lti	\\enrol_lti\\task\\sync_grades	0	1586903400	0	*/30	*	*	*	*	0	0	0
+59	enrol_lti	\\enrol_lti\\task\\sync_members	0	1586903400	0	*/30	*	*	*	*	0	0	0
+60	enrol_manual	\\enrol_manual\\task\\sync_enrolments	0	1586902800	0	*/10	*	*	*	*	0	0	0
+61	enrol_manual	\\enrol_manual\\task\\send_expiry_notifications	0	1586902800	0	*/10	*	*	*	*	0	0	0
+62	enrol_meta	\\enrol_meta\\task\\enrol_meta_sync	0	1586905500	0	5	*	*	*	*	0	0	0
+63	enrol_paypal	\\enrol_paypal\\task\\process_expirations	0	1586902620	0	*	*	*	*	*	0	0	0
+64	enrol_self	\\enrol_self\\task\\sync_enrolments	0	1586902800	0	*/10	*	*	*	*	0	0	0
+65	enrol_self	\\enrol_self\\task\\send_expiry_notifications	0	1586902800	0	*/10	*	*	*	*	0	0	0
+66	block_recent_activity	\\block_recent_activity\\task\\cleanup	0	1586945220	0	7	11	*	*	*	0	0	0
+67	block_rss_client	\\block_rss_client\\task\\refreshfeeds	0	1586902800	0	*/5	*	*	*	*	0	0	0
+68	editor_atto	\\editor_atto\\task\\autosave_cleanup_task	0	1586908860	0	1	1	*	*	3	0	0	0
+69	tool_analytics	\\tool_analytics\\task\\train_models	0	1586980800	0	0	21	*	*	*	0	0	0
+70	tool_analytics	\\tool_analytics\\task\\predict_models	0	1586930400	0	0	7	*	*	*	0	0	0
+71	tool_cohortroles	\\tool_cohortroles\\task\\cohort_role_sync	0	1586902740	0	19	*	*	*	*	0	0	0
+72	tool_dataprivacy	\\tool_dataprivacy\\task\\expired_retention_period	0	1586948400	0	0	12	*	*	*	0	0	0
+73	tool_dataprivacy	\\tool_dataprivacy\\task\\delete_expired_contexts	0	1586944800	0	0	11	*	*	*	0	0	0
+74	tool_dataprivacy	\\tool_dataprivacy\\task\\delete_expired_requests	0	1586930700	0	5	7	*	*	*	0	0	0
+75	tool_dataprivacy	\\tool_dataprivacy\\task\\delete_existing_deleted_users	0	1586984640	0	4	22	*	*	*	0	0	1
+76	tool_langimport	\\tool_langimport\\task\\update_langpacks_task	0	1586920980	0	23	4	*	*	*	0	0	0
+77	tool_messageinbound	\\tool_messageinbound\\task\\pickup_task	0	1586902620	0	*	*	*	*	*	0	0	0
 78	tool_messageinbound	\\tool_messageinbound\\task\\cleanup_task	0	1586912100	0	55	1	*	*	*	0	0	0
-79	tool_monitor	\\tool_monitor\\task\\clean_events	0	1586879280	0	*	*	*	*	*	0	0	0
-80	tool_monitor	\\tool_monitor\\task\\check_subscriptions	0	1586917200	0	20	3	*	*	*	0	0	0
-81	tool_recyclebin	\\tool_recyclebin\\task\\cleanup_course_bin	0	1586880000	0	*/30	*	*	*	*	0	0	0
-82	tool_recyclebin	\\tool_recyclebin\\task\\cleanup_category_bin	0	1586880000	0	*/30	*	*	*	*	0	0	0
-83	assignfeedback_editpdf	\\assignfeedback_editpdf\\task\\convert_submissions	0	1586880000	0	*/15	*	*	*	*	0	0	0
-84	ltiservice_gradebookservices	\\ltiservice_gradebookservices\\task\\cleanup_task	0	1586910060	0	21	1	*	*	*	0	0	0
-85	logstore_legacy	\\logstore_legacy\\task\\cleanup_task	0	1586923740	0	9	5	*	*	*	0	0	0
-86	logstore_standard	\\logstore_standard\\task\\cleanup_task	0	1586919720	0	2	4	*	*	*	0	0	0
+79	tool_monitor	\\tool_monitor\\task\\clean_events	0	1586902620	0	*	*	*	*	*	0	0	0
+80	tool_monitor	\\tool_monitor\\task\\check_subscriptions	0	1586909880	0	18	1	*	*	*	0	0	0
+81	tool_recyclebin	\\tool_recyclebin\\task\\cleanup_course_bin	0	1586903400	0	*/30	*	*	*	*	0	0	0
+82	tool_recyclebin	\\tool_recyclebin\\task\\cleanup_category_bin	0	1586903400	0	*/30	*	*	*	*	0	0	0
+83	assignfeedback_editpdf	\\assignfeedback_editpdf\\task\\convert_submissions	0	1586903400	0	*/15	*	*	*	*	0	0	0
+84	ltiservice_gradebookservices	\\ltiservice_gradebookservices\\task\\cleanup_task	0	1586916840	0	14	3	*	*	*	0	0	0
+85	logstore_legacy	\\logstore_legacy\\task\\cleanup_task	0	1586924220	0	17	5	*	*	*	0	0	0
+86	logstore_standard	\\logstore_standard\\task\\cleanup_task	0	1586920020	0	7	4	*	*	*	0	0	0
 \.
 
 
@@ -37246,7 +37071,6 @@ COPY public.mdl_tool_recyclebin_course (id, courseid, section, module, name, tim
 --
 
 COPY public.mdl_tool_usertours_steps (id, tourid, title, content, targettype, targetvalue, sortorder, configdata) FROM stdin;
-14	2	tour_final_step_title,tool_usertours	tour_final_step_content,tool_usertours	2		7	{}
 1	1	tour4_title_messaging,tool_usertours	tour4_content_messaging,tool_usertours	2		0	{"backdrop":"1"}
 2	1	tour4_title_icon,tool_usertours	tour4_content_icon,tool_usertours	0	[id^=message-drawer-toggle]	1	{"backdrop":"0","reflex":"1"}
 3	1	tour4_title_groupconvo,tool_usertours	tour4_content_groupconvo,tool_usertours	0	.message-drawer:not(.hidden) [data-region="view-overview-group-messages"]	2	{"placement":"left"}
@@ -37260,6 +37084,7 @@ COPY public.mdl_tool_usertours_steps (id, tourid, title, content, targettype, ta
 11	2	tour3_title_starring,tool_usertours	tour3_content_starring,tool_usertours	0	.block-myoverview [data-display="cards"] [data-region="course-content"] .coursemenubtn	4	{"placement":"right"}
 12	2	tour3_title_starring,tool_usertours	tour3_content_starring,tool_usertours	0	.block-myoverview [data-display]:not([data-display="cards"]) [data-region="course-content"] .coursemenubtn	5	{}
 13	2	tour3_title_displayoptions,tool_usertours	tour3_content_displayoptions,tool_usertours	0	#sortingdropdown	6	{"placement":"top"}
+14	2	tour_final_step_title,tool_usertours	tour_final_step_content,tool_usertours	2		7	{}
 \.
 
 
@@ -37334,1292 +37159,1292 @@ COPY public.mdl_turnitintooltwo_users (id, userid, turnitin_uid, turnitin_utp, i
 --
 
 COPY public.mdl_upgrade_log (id, type, plugin, version, targetversion, info, details, backtrace, userid, timemodified) FROM stdin;
-1	0	core	2018120309	2018120309	Upgrade savepoint reached	\N		0	1586879250
-2	0	core	2018120309	2018120309	Core installed	\N		0	1586879261
-3	0	antivirus_clamav	\N	2018120300	Starting plugin installation	\N		0	1586879261
-4	0	antivirus_clamav	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879261
-5	0	antivirus_clamav	2018120300	2018120300	Plugin installed	\N		0	1586879261
-6	0	availability_completion	\N	2018120300	Starting plugin installation	\N		0	1586879261
-7	0	availability_completion	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879261
-8	0	availability_completion	2018120300	2018120300	Plugin installed	\N		0	1586879261
-9	0	availability_date	\N	2018120300	Starting plugin installation	\N		0	1586879261
-10	0	availability_date	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879261
-11	0	availability_date	2018120300	2018120300	Plugin installed	\N		0	1586879261
-12	0	availability_grade	\N	2018120300	Starting plugin installation	\N		0	1586879261
-13	0	availability_grade	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879261
-14	0	availability_grade	2018120300	2018120300	Plugin installed	\N		0	1586879261
-15	0	availability_group	\N	2018120300	Starting plugin installation	\N		0	1586879261
-16	0	availability_group	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879261
-17	0	availability_group	2018120300	2018120300	Plugin installed	\N		0	1586879261
-18	0	availability_grouping	\N	2018120300	Starting plugin installation	\N		0	1586879261
-19	0	availability_grouping	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879261
-20	0	availability_grouping	2018120300	2018120300	Plugin installed	\N		0	1586879261
-21	0	availability_mobileapp	\N	2019061900	Starting plugin installation	\N		0	1586879261
-22	0	availability_mobileapp	2019061900	2019061900	Upgrade savepoint reached	\N		0	1586879261
-23	0	availability_mobileapp	2019061900	2019061900	Plugin installed	\N		0	1586879261
-24	0	availability_profile	\N	2018120300	Starting plugin installation	\N		0	1586879261
-25	0	availability_profile	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879261
-26	0	availability_profile	2018120300	2018120300	Plugin installed	\N		0	1586879261
-27	0	qtype_calculated	\N	2018120300	Starting plugin installation	\N		0	1586879261
-28	0	qtype_calculated	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-29	0	qtype_calculated	2018120300	2018120300	Plugin installed	\N		0	1586879262
-30	0	qtype_calculatedmulti	\N	2018120300	Starting plugin installation	\N		0	1586879262
-31	0	qtype_calculatedmulti	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-32	0	qtype_calculatedmulti	2018120300	2018120300	Plugin installed	\N		0	1586879262
-33	0	qtype_calculatedsimple	\N	2018120300	Starting plugin installation	\N		0	1586879262
-34	0	qtype_calculatedsimple	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-35	0	qtype_calculatedsimple	2018120300	2018120300	Plugin installed	\N		0	1586879262
-36	0	qtype_ddimageortext	\N	2018120300	Starting plugin installation	\N		0	1586879262
-37	0	qtype_ddimageortext	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-38	0	qtype_ddimageortext	2018120300	2018120300	Plugin installed	\N		0	1586879262
-39	0	qtype_ddmarker	\N	2018120300	Starting plugin installation	\N		0	1586879262
-40	0	qtype_ddmarker	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-41	0	qtype_ddmarker	2018120300	2018120300	Plugin installed	\N		0	1586879262
-42	0	qtype_ddwtos	\N	2018120300	Starting plugin installation	\N		0	1586879262
-43	0	qtype_ddwtos	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-44	0	qtype_ddwtos	2018120300	2018120300	Plugin installed	\N		0	1586879262
-45	0	qtype_description	\N	2018120300	Starting plugin installation	\N		0	1586879262
-46	0	qtype_description	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-47	0	qtype_description	2018120300	2018120300	Plugin installed	\N		0	1586879262
-48	0	qtype_essay	\N	2018120300	Starting plugin installation	\N		0	1586879262
-49	0	qtype_essay	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-50	0	qtype_essay	2018120300	2018120300	Plugin installed	\N		0	1586879262
-51	0	qtype_gapselect	\N	2018120300	Starting plugin installation	\N		0	1586879262
-52	0	qtype_gapselect	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-53	0	qtype_gapselect	2018120300	2018120300	Plugin installed	\N		0	1586879262
-54	0	qtype_match	\N	2018120300	Starting plugin installation	\N		0	1586879262
-55	0	qtype_match	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-56	0	qtype_match	2018120300	2018120300	Plugin installed	\N		0	1586879262
-57	0	qtype_missingtype	\N	2018120300	Starting plugin installation	\N		0	1586879262
-58	0	qtype_missingtype	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-59	0	qtype_missingtype	2018120300	2018120300	Plugin installed	\N		0	1586879262
-60	0	qtype_multianswer	\N	2018120301	Starting plugin installation	\N		0	1586879262
-61	0	qtype_multianswer	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586879262
-62	0	qtype_multianswer	2018120301	2018120301	Plugin installed	\N		0	1586879262
-63	0	qtype_multichoice	\N	2018120300	Starting plugin installation	\N		0	1586879262
-64	0	qtype_multichoice	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-65	0	qtype_multichoice	2018120300	2018120300	Plugin installed	\N		0	1586879262
-66	0	qtype_numerical	\N	2018120300	Starting plugin installation	\N		0	1586879262
-67	0	qtype_numerical	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-68	0	qtype_numerical	2018120300	2018120300	Plugin installed	\N		0	1586879262
-69	0	qtype_random	\N	2018120301	Starting plugin installation	\N		0	1586879262
-70	0	qtype_random	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586879262
-71	0	qtype_random	2018120301	2018120301	Plugin installed	\N		0	1586879262
-72	0	qtype_randomsamatch	\N	2018120300	Starting plugin installation	\N		0	1586879262
-73	0	qtype_randomsamatch	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-74	0	qtype_randomsamatch	2018120300	2018120300	Plugin installed	\N		0	1586879262
-75	0	qtype_shortanswer	\N	2018120300	Starting plugin installation	\N		0	1586879262
-76	0	qtype_shortanswer	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-77	0	qtype_shortanswer	2018120300	2018120300	Plugin installed	\N		0	1586879262
-78	0	qtype_truefalse	\N	2018120300	Starting plugin installation	\N		0	1586879262
-79	0	qtype_truefalse	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-80	0	qtype_truefalse	2018120300	2018120300	Plugin installed	\N		0	1586879262
-81	0	mod_assign	\N	2018120300	Starting plugin installation	\N		0	1586879262
-82	0	mod_assign	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-83	0	mod_assign	2018120300	2018120300	Plugin installed	\N		0	1586879262
-84	0	mod_assignment	\N	2018120300	Starting plugin installation	\N		0	1586879262
-85	0	mod_assignment	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879262
-86	0	mod_assignment	2018120300	2018120300	Plugin installed	\N		0	1586879262
-87	0	mod_attendance	\N	2019052801	Starting plugin installation	\N		0	1586879262
-88	0	mod_attendance	2019052801	2019052801	Upgrade savepoint reached	\N		0	1586879263
-89	0	mod_attendance	2019052801	2019052801	Plugin installed	\N		0	1586879263
-90	0	mod_bigbluebuttonbn	\N	2019042008	Starting plugin installation	\N		0	1586879263
-91	0	mod_bigbluebuttonbn	2019042008	2019042008	Upgrade savepoint reached	\N		0	1586879263
-92	0	mod_bigbluebuttonbn	2019042008	2019042008	Plugin installed	\N		0	1586879263
-93	0	mod_book	\N	2018120300	Starting plugin installation	\N		0	1586879263
-94	0	mod_book	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879263
-95	0	mod_book	2018120300	2018120300	Plugin installed	\N		0	1586879263
-96	0	mod_chat	\N	2018120300	Starting plugin installation	\N		0	1586879263
-97	0	mod_chat	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879263
-98	0	mod_chat	2018120300	2018120300	Plugin installed	\N		0	1586879263
-99	0	mod_choice	\N	2018120300	Starting plugin installation	\N		0	1586879263
-100	0	mod_choice	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879263
-101	0	mod_choice	2018120300	2018120300	Plugin installed	\N		0	1586879263
-102	0	mod_data	\N	2018120301	Starting plugin installation	\N		0	1586879263
-103	0	mod_data	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586879263
-104	0	mod_data	2018120301	2018120301	Plugin installed	\N		0	1586879264
-105	0	mod_feedback	\N	2018120300	Starting plugin installation	\N		0	1586879264
-106	0	mod_feedback	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879264
-107	0	mod_feedback	2018120300	2018120300	Plugin installed	\N		0	1586879264
-108	0	mod_folder	\N	2018120300	Starting plugin installation	\N		0	1586879264
-109	0	mod_folder	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879264
-110	0	mod_folder	2018120300	2018120300	Plugin installed	\N		0	1586879264
-111	0	mod_forum	\N	2018120300	Starting plugin installation	\N		0	1586879264
-112	0	mod_forum	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879264
-113	0	mod_forum	2018120300	2018120300	Plugin installed	\N		0	1586879265
-114	0	mod_glossary	\N	2018120300	Starting plugin installation	\N		0	1586879265
-115	0	mod_glossary	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879265
-116	0	mod_glossary	2018120300	2018120300	Plugin installed	\N		0	1586879265
-117	0	mod_hotpot	\N	2019071739	Starting plugin installation	\N		0	1586879265
-118	0	mod_hotpot	2019071739	2019071739	Upgrade savepoint reached	\N		0	1586879265
-119	0	mod_hotpot	2019071739	2019071739	Plugin installed	\N		0	1586879265
-120	0	mod_imscp	\N	2018120300	Starting plugin installation	\N		0	1586879265
-121	0	mod_imscp	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879265
-122	0	mod_imscp	2018120300	2018120300	Plugin installed	\N		0	1586879265
-123	0	mod_jitsi	\N	2020040900	Starting plugin installation	\N		0	1586879265
-124	0	mod_jitsi	2020040900	2020040900	Upgrade savepoint reached	\N		0	1586879265
-125	0	mod_jitsi	2020040900	2020040900	Plugin installed	\N		0	1586879265
-126	0	mod_label	\N	2018120300	Starting plugin installation	\N		0	1586879265
-127	0	mod_label	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879265
-128	0	mod_label	2018120300	2018120300	Plugin installed	\N		0	1586879265
-129	0	mod_lesson	\N	2018120301	Starting plugin installation	\N		0	1586879265
-130	0	mod_lesson	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586879266
-131	0	mod_lesson	2018120301	2018120301	Plugin installed	\N		0	1586879266
-132	0	mod_lti	\N	2018120300	Starting plugin installation	\N		0	1586879266
-133	0	mod_lti	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879266
-134	0	mod_lti	2018120300	2018120300	Plugin installed	\N		0	1586879266
-135	0	mod_page	\N	2018120300	Starting plugin installation	\N		0	1586879266
-136	0	mod_page	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879266
-137	0	mod_page	2018120300	2018120300	Plugin installed	\N		0	1586879266
-138	0	mod_questionnaire	\N	2019101705	Starting plugin installation	\N		0	1586879266
-139	0	mod_questionnaire	2019101705	2019101705	Upgrade savepoint reached	\N		0	1586879266
-140	0	mod_questionnaire	2019101705	2019101705	Plugin installed	\N		0	1586879266
-141	0	mod_quiz	\N	2018120301	Starting plugin installation	\N		0	1586879266
-142	0	mod_quiz	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586879266
-143	0	mod_quiz	2018120301	2018120301	Plugin installed	\N		0	1586879267
-144	0	mod_resource	\N	2018120300	Starting plugin installation	\N		0	1586879267
-145	0	mod_resource	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879267
-146	0	mod_resource	2018120300	2018120300	Plugin installed	\N		0	1586879267
-147	0	mod_scorm	\N	2018120300	Starting plugin installation	\N		0	1586879267
-148	0	mod_scorm	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879267
-149	0	mod_scorm	2018120300	2018120300	Plugin installed	\N		0	1586879267
-150	0	mod_survey	\N	2018120300	Starting plugin installation	\N		0	1586879267
-151	0	mod_survey	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879267
-152	0	mod_survey	2018120300	2018120300	Plugin installed	\N		0	1586879267
-153	0	mod_turnitintooltwo	\N	2019070201	Starting plugin installation	\N		0	1586879267
-154	0	mod_turnitintooltwo	2019070201	2019070201	Upgrade savepoint reached	\N		0	1586879267
-155	0	mod_turnitintooltwo	2019070201	2019070201	Plugin installed	\N		0	1586879267
-156	0	mod_url	\N	2018120300	Starting plugin installation	\N		0	1586879267
-157	0	mod_url	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879267
-158	0	mod_url	2018120300	2018120300	Plugin installed	\N		0	1586879268
-159	0	mod_webexactivity	\N	2019120500	Starting plugin installation	\N		0	1586879268
-160	0	mod_webexactivity	2019120500	2019120500	Upgrade savepoint reached	\N		0	1586879268
-161	0	mod_webexactivity	2019120500	2019120500	Plugin installed	\N		0	1586879268
-162	0	mod_wiki	\N	2018120300	Starting plugin installation	\N		0	1586879268
-163	0	mod_wiki	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879268
-164	0	mod_wiki	2018120300	2018120300	Plugin installed	\N		0	1586879268
-165	0	mod_workshop	\N	2018120300	Starting plugin installation	\N		0	1586879268
-166	0	mod_workshop	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879268
-167	0	mod_workshop	2018120300	2018120300	Plugin installed	\N		0	1586879268
-168	0	auth_cas	\N	2018120300	Starting plugin installation	\N		0	1586879268
-169	0	auth_cas	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879268
-170	0	auth_cas	2018120300	2018120300	Plugin installed	\N		0	1586879268
-171	0	auth_db	\N	2018120300	Starting plugin installation	\N		0	1586879268
-172	0	auth_db	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879268
-173	0	auth_db	2018120300	2018120300	Plugin installed	\N		0	1586879268
-174	0	auth_email	\N	2018120300	Starting plugin installation	\N		0	1586879268
-175	0	auth_email	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-176	0	auth_email	2018120300	2018120300	Plugin installed	\N		0	1586879269
-177	0	auth_ldap	\N	2018120300	Starting plugin installation	\N		0	1586879269
-178	0	auth_ldap	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-179	0	auth_ldap	2018120300	2018120300	Plugin installed	\N		0	1586879269
-180	0	auth_lti	\N	2018120300	Starting plugin installation	\N		0	1586879269
-181	0	auth_lti	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-182	0	auth_lti	2018120300	2018120300	Plugin installed	\N		0	1586879269
-183	0	auth_manual	\N	2018120300	Starting plugin installation	\N		0	1586879269
-184	0	auth_manual	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-185	0	auth_manual	2018120300	2018120300	Plugin installed	\N		0	1586879269
-186	0	auth_mnet	\N	2018120300	Starting plugin installation	\N		0	1586879269
-187	0	auth_mnet	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-188	0	auth_mnet	2018120300	2018120300	Plugin installed	\N		0	1586879269
-189	0	auth_nologin	\N	2018120300	Starting plugin installation	\N		0	1586879269
-190	0	auth_nologin	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-191	0	auth_nologin	2018120300	2018120300	Plugin installed	\N		0	1586879269
-192	0	auth_none	\N	2018120300	Starting plugin installation	\N		0	1586879269
-193	0	auth_none	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-194	0	auth_none	2018120300	2018120300	Plugin installed	\N		0	1586879269
-195	0	auth_oauth2	\N	2018120301	Starting plugin installation	\N		0	1586879269
-196	0	auth_oauth2	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586879269
-197	0	auth_oauth2	2018120301	2018120301	Plugin installed	\N		0	1586879269
-198	0	auth_shibboleth	\N	2018120300	Starting plugin installation	\N		0	1586879269
-199	0	auth_shibboleth	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-200	0	auth_shibboleth	2018120300	2018120300	Plugin installed	\N		0	1586879269
-201	0	auth_webservice	\N	2018120300	Starting plugin installation	\N		0	1586879269
-202	0	auth_webservice	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-203	0	auth_webservice	2018120300	2018120300	Plugin installed	\N		0	1586879269
-204	0	calendartype_gregorian	\N	2018120300	Starting plugin installation	\N		0	1586879269
-205	0	calendartype_gregorian	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-206	0	calendartype_gregorian	2018120300	2018120300	Plugin installed	\N		0	1586879269
-207	0	enrol_category	\N	2018120300	Starting plugin installation	\N		0	1586879269
-208	0	enrol_category	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-209	0	enrol_category	2018120300	2018120300	Plugin installed	\N		0	1586879269
-210	0	enrol_cohort	\N	2018120300	Starting plugin installation	\N		0	1586879269
-211	0	enrol_cohort	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-212	0	enrol_cohort	2018120300	2018120300	Plugin installed	\N		0	1586879269
-213	0	enrol_database	\N	2018120300	Starting plugin installation	\N		0	1586879269
-214	0	enrol_database	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-215	0	enrol_database	2018120300	2018120300	Plugin installed	\N		0	1586879269
-216	0	enrol_flatfile	\N	2018120300	Starting plugin installation	\N		0	1586879269
-217	0	enrol_flatfile	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-218	0	enrol_flatfile	2018120300	2018120300	Plugin installed	\N		0	1586879269
-219	0	enrol_guest	\N	2018120300	Starting plugin installation	\N		0	1586879269
-220	0	enrol_guest	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-221	0	enrol_guest	2018120300	2018120300	Plugin installed	\N		0	1586879269
-222	0	enrol_imsenterprise	\N	2018120300	Starting plugin installation	\N		0	1586879269
-223	0	enrol_imsenterprise	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-224	0	enrol_imsenterprise	2018120300	2018120300	Plugin installed	\N		0	1586879269
-225	0	enrol_ldap	\N	2018120300	Starting plugin installation	\N		0	1586879269
-226	0	enrol_ldap	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-227	0	enrol_ldap	2018120300	2018120300	Plugin installed	\N		0	1586879269
-228	0	enrol_lti	\N	2018120300	Starting plugin installation	\N		0	1586879269
-229	0	enrol_lti	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-230	0	enrol_lti	2018120300	2018120300	Plugin installed	\N		0	1586879269
-231	0	enrol_manual	\N	2018120300	Starting plugin installation	\N		0	1586879269
-232	0	enrol_manual	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879269
-233	0	enrol_manual	2018120300	2018120300	Plugin installed	\N		0	1586879270
-234	0	enrol_meta	\N	2018120300	Starting plugin installation	\N		0	1586879270
-235	0	enrol_meta	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879270
-236	0	enrol_meta	2018120300	2018120300	Plugin installed	\N		0	1586879270
-237	0	enrol_mnet	\N	2018120300	Starting plugin installation	\N		0	1586879270
-238	0	enrol_mnet	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879270
-239	0	enrol_mnet	2018120300	2018120300	Plugin installed	\N		0	1586879270
-240	0	enrol_paypal	\N	2018120300	Starting plugin installation	\N		0	1586879270
-241	0	enrol_paypal	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879270
-242	0	enrol_paypal	2018120300	2018120300	Plugin installed	\N		0	1586879270
-243	0	enrol_self	\N	2018120300	Starting plugin installation	\N		0	1586879270
-244	0	enrol_self	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879270
-245	0	enrol_self	2018120300	2018120300	Plugin installed	\N		0	1586879270
-246	0	message_airnotifier	\N	2018120300	Starting plugin installation	\N		0	1586879270
-247	0	message_airnotifier	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879270
-248	0	message_airnotifier	2018120300	2018120300	Plugin installed	\N		0	1586879270
-249	0	message_email	\N	2018120300	Starting plugin installation	\N		0	1586879270
-250	0	message_email	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879270
-251	0	message_email	2018120300	2018120300	Plugin installed	\N		0	1586879270
-252	0	message_jabber	\N	2018120300	Starting plugin installation	\N		0	1586879270
-253	0	message_jabber	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879270
-254	0	message_jabber	2018120300	2018120300	Plugin installed	\N		0	1586879270
-255	0	message_popup	\N	2018120300	Starting plugin installation	\N		0	1586879270
-256	0	message_popup	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879270
-257	0	message_popup	2018120300	2018120300	Plugin installed	\N		0	1586879271
-258	0	message_telegram	\N	2017040405	Starting plugin installation	\N		0	1586879271
-259	0	message_telegram	2017040405	2017040405	Upgrade savepoint reached	\N		0	1586879271
-260	0	message_telegram	2017040405	2017040405	Plugin installed	\N		0	1586879271
-261	0	block_activity_modules	\N	2018120300	Starting plugin installation	\N		0	1586879271
-262	0	block_activity_modules	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-263	0	block_activity_modules	2018120300	2018120300	Plugin installed	\N		0	1586879271
-264	0	block_activity_results	\N	2018120300	Starting plugin installation	\N		0	1586879271
-265	0	block_activity_results	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-266	0	block_activity_results	2018120300	2018120300	Plugin installed	\N		0	1586879271
-267	0	block_admin_bookmarks	\N	2018120300	Starting plugin installation	\N		0	1586879271
-268	0	block_admin_bookmarks	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-269	0	block_admin_bookmarks	2018120300	2018120300	Plugin installed	\N		0	1586879271
-270	0	block_badges	\N	2018120300	Starting plugin installation	\N		0	1586879271
-271	0	block_badges	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-272	0	block_badges	2018120300	2018120300	Plugin installed	\N		0	1586879271
-273	0	block_blog_menu	\N	2018120300	Starting plugin installation	\N		0	1586879271
-274	0	block_blog_menu	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-275	0	block_blog_menu	2018120300	2018120300	Plugin installed	\N		0	1586879271
-276	0	block_blog_recent	\N	2018120300	Starting plugin installation	\N		0	1586879271
-277	0	block_blog_recent	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-278	0	block_blog_recent	2018120300	2018120300	Plugin installed	\N		0	1586879271
-279	0	block_blog_tags	\N	2018120300	Starting plugin installation	\N		0	1586879271
-280	0	block_blog_tags	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-281	0	block_blog_tags	2018120300	2018120300	Plugin installed	\N		0	1586879271
-282	0	block_calendar_month	\N	2018120300	Starting plugin installation	\N		0	1586879271
-283	0	block_calendar_month	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-284	0	block_calendar_month	2018120300	2018120300	Plugin installed	\N		0	1586879271
-285	0	block_calendar_upcoming	\N	2018120300	Starting plugin installation	\N		0	1586879271
-286	0	block_calendar_upcoming	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-287	0	block_calendar_upcoming	2018120300	2018120300	Plugin installed	\N		0	1586879271
-288	0	block_comments	\N	2018120300	Starting plugin installation	\N		0	1586879271
-289	0	block_comments	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-290	0	block_comments	2018120300	2018120300	Plugin installed	\N		0	1586879271
-291	0	block_community	\N	2018120300	Starting plugin installation	\N		0	1586879271
-292	0	block_community	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-293	0	block_community	2018120300	2018120300	Plugin installed	\N		0	1586879271
-294	0	block_completionstatus	\N	2018120300	Starting plugin installation	\N		0	1586879271
-295	0	block_completionstatus	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-296	0	block_completionstatus	2018120300	2018120300	Plugin installed	\N		0	1586879271
-297	0	block_course_list	\N	2018120300	Starting plugin installation	\N		0	1586879271
-298	0	block_course_list	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-299	0	block_course_list	2018120300	2018120300	Plugin installed	\N		0	1586879271
-300	0	block_course_summary	\N	2018120300	Starting plugin installation	\N		0	1586879271
-301	0	block_course_summary	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-302	0	block_course_summary	2018120300	2018120300	Plugin installed	\N		0	1586879271
-303	0	block_feedback	\N	2018120300	Starting plugin installation	\N		0	1586879271
-304	0	block_feedback	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-305	0	block_feedback	2018120300	2018120300	Plugin installed	\N		0	1586879271
-306	0	block_globalsearch	\N	2018120300	Starting plugin installation	\N		0	1586879271
-307	0	block_globalsearch	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-308	0	block_globalsearch	2018120300	2018120300	Plugin installed	\N		0	1586879271
-309	0	block_glossary_random	\N	2018120300	Starting plugin installation	\N		0	1586879271
-310	0	block_glossary_random	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-311	0	block_glossary_random	2018120300	2018120300	Plugin installed	\N		0	1586879271
-312	0	block_html	\N	2018120300	Starting plugin installation	\N		0	1586879271
-313	0	block_html	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-314	0	block_html	2018120300	2018120300	Plugin installed	\N		0	1586879271
-315	0	block_login	\N	2018120300	Starting plugin installation	\N		0	1586879271
-316	0	block_login	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-317	0	block_login	2018120300	2018120300	Plugin installed	\N		0	1586879271
-318	0	block_lp	\N	2018120300	Starting plugin installation	\N		0	1586879271
-319	0	block_lp	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-320	0	block_lp	2018120300	2018120300	Plugin installed	\N		0	1586879271
-321	0	block_mentees	\N	2018120300	Starting plugin installation	\N		0	1586879271
-322	0	block_mentees	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-323	0	block_mentees	2018120300	2018120300	Plugin installed	\N		0	1586879271
-324	0	block_mnet_hosts	\N	2018120300	Starting plugin installation	\N		0	1586879271
-325	0	block_mnet_hosts	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879271
-326	0	block_mnet_hosts	2018120300	2018120300	Plugin installed	\N		0	1586879271
-327	0	block_myoverview	\N	2018120301	Starting plugin installation	\N		0	1586879271
-328	0	block_myoverview	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586879272
-329	0	block_myoverview	2018120301	2018120301	Plugin installed	\N		0	1586879272
-330	0	block_myprofile	\N	2018120300	Starting plugin installation	\N		0	1586879272
-331	0	block_myprofile	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-332	0	block_myprofile	2018120300	2018120300	Plugin installed	\N		0	1586879272
-333	0	block_navigation	\N	2018120300	Starting plugin installation	\N		0	1586879272
-334	0	block_navigation	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-335	0	block_navigation	2018120300	2018120300	Plugin installed	\N		0	1586879272
-336	0	block_news_items	\N	2018120300	Starting plugin installation	\N		0	1586879272
-337	0	block_news_items	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-338	0	block_news_items	2018120300	2018120300	Plugin installed	\N		0	1586879272
-339	0	block_online_users	\N	2018120300	Starting plugin installation	\N		0	1586879272
-340	0	block_online_users	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-341	0	block_online_users	2018120300	2018120300	Plugin installed	\N		0	1586879272
-342	0	block_participants	\N	2018120300	Starting plugin installation	\N		0	1586879272
-343	0	block_participants	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-344	0	block_participants	2018120300	2018120300	Plugin installed	\N		0	1586879272
-345	0	block_private_files	\N	2018120300	Starting plugin installation	\N		0	1586879272
-346	0	block_private_files	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-347	0	block_private_files	2018120300	2018120300	Plugin installed	\N		0	1586879272
-348	0	block_qrcode	\N	2019112100	Starting plugin installation	\N		0	1586879272
-349	0	block_qrcode	2019112100	2019112100	Upgrade savepoint reached	\N		0	1586879272
-350	0	block_qrcode	2019112100	2019112100	Plugin installed	\N		0	1586879272
-351	0	block_quiz_results	\N	2018120300	Starting plugin installation	\N		0	1586879272
-352	0	block_quiz_results	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-353	0	block_quiz_results	2018120300	2018120300	Plugin installed	\N		0	1586879272
-354	0	block_recent_activity	\N	2018120300	Starting plugin installation	\N		0	1586879272
-355	0	block_recent_activity	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-356	0	block_recent_activity	2018120300	2018120300	Plugin installed	\N		0	1586879272
-357	0	block_recentlyaccessedcourses	\N	2018120300	Starting plugin installation	\N		0	1586879272
-358	0	block_recentlyaccessedcourses	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-359	0	block_recentlyaccessedcourses	2018120300	2018120300	Plugin installed	\N		0	1586879272
-360	0	block_recentlyaccesseditems	\N	2018120302	Starting plugin installation	\N		0	1586879272
-361	0	block_recentlyaccesseditems	2018120302	2018120302	Upgrade savepoint reached	\N		0	1586879272
-362	0	block_recentlyaccesseditems	2018120302	2018120302	Plugin installed	\N		0	1586879272
-363	0	block_rss_client	\N	2018120300	Starting plugin installation	\N		0	1586879272
-364	0	block_rss_client	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-365	0	block_rss_client	2018120300	2018120300	Plugin installed	\N		0	1586879272
-366	0	block_search_forums	\N	2018120300	Starting plugin installation	\N		0	1586879272
-367	0	block_search_forums	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-368	0	block_search_forums	2018120300	2018120300	Plugin installed	\N		0	1586879272
-369	0	block_section_links	\N	2018120300	Starting plugin installation	\N		0	1586879272
-370	0	block_section_links	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-371	0	block_section_links	2018120300	2018120300	Plugin installed	\N		0	1586879272
-372	0	block_selfcompletion	\N	2018120300	Starting plugin installation	\N		0	1586879272
-373	0	block_selfcompletion	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-374	0	block_selfcompletion	2018120300	2018120300	Plugin installed	\N		0	1586879272
-375	0	block_settings	\N	2018120300	Starting plugin installation	\N		0	1586879272
-376	0	block_settings	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-377	0	block_settings	2018120300	2018120300	Plugin installed	\N		0	1586879272
-378	0	block_site_main_menu	\N	2018120300	Starting plugin installation	\N		0	1586879272
-379	0	block_site_main_menu	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-380	0	block_site_main_menu	2018120300	2018120300	Plugin installed	\N		0	1586879272
-381	0	block_sitenews	\N	2019052701	Starting plugin installation	\N		0	1586879272
-382	0	block_sitenews	2019052701	2019052701	Upgrade savepoint reached	\N		0	1586879272
-383	0	block_sitenews	2019052701	2019052701	Plugin installed	\N		0	1586879272
-384	0	block_social_activities	\N	2018120300	Starting plugin installation	\N		0	1586879272
-385	0	block_social_activities	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-386	0	block_social_activities	2018120300	2018120300	Plugin installed	\N		0	1586879272
-387	0	block_starredcourses	\N	2018120300	Starting plugin installation	\N		0	1586879272
-388	0	block_starredcourses	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-389	0	block_starredcourses	2018120300	2018120300	Plugin installed	\N		0	1586879272
-390	0	block_tag_flickr	\N	2018120300	Starting plugin installation	\N		0	1586879272
-391	0	block_tag_flickr	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-392	0	block_tag_flickr	2018120300	2018120300	Plugin installed	\N		0	1586879272
-393	0	block_tag_youtube	\N	2018120300	Starting plugin installation	\N		0	1586879272
-394	0	block_tag_youtube	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879272
-395	0	block_tag_youtube	2018120300	2018120300	Plugin installed	\N		0	1586879273
-396	0	block_tags	\N	2018120300	Starting plugin installation	\N		0	1586879273
-397	0	block_tags	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-398	0	block_tags	2018120300	2018120300	Plugin installed	\N		0	1586879273
-399	0	block_timeline	\N	2018120300	Starting plugin installation	\N		0	1586879273
-400	0	block_timeline	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-401	0	block_timeline	2018120300	2018120300	Plugin installed	\N		0	1586879273
-402	0	media_html5audio	\N	2018120300	Starting plugin installation	\N		0	1586879273
-403	0	media_html5audio	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-404	0	media_html5audio	2018120300	2018120300	Plugin installed	\N		0	1586879273
-405	0	media_html5video	\N	2018120300	Starting plugin installation	\N		0	1586879273
-406	0	media_html5video	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-407	0	media_html5video	2018120300	2018120300	Plugin installed	\N		0	1586879273
-408	0	media_swf	\N	2018120300	Starting plugin installation	\N		0	1586879273
-409	0	media_swf	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-410	0	media_swf	2018120300	2018120300	Plugin installed	\N		0	1586879273
-411	0	media_videojs	\N	2018120300	Starting plugin installation	\N		0	1586879273
-412	0	media_videojs	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-413	0	media_videojs	2018120300	2018120300	Plugin installed	\N		0	1586879273
-414	0	media_vimeo	\N	2018120300	Starting plugin installation	\N		0	1586879273
-415	0	media_vimeo	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-416	0	media_vimeo	2018120300	2018120300	Plugin installed	\N		0	1586879273
-417	0	media_youtube	\N	2018120300	Starting plugin installation	\N		0	1586879273
-418	0	media_youtube	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-419	0	media_youtube	2018120300	2018120300	Plugin installed	\N		0	1586879273
-420	0	filter_activitynames	\N	2018120300	Starting plugin installation	\N		0	1586879273
-421	0	filter_activitynames	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-422	0	filter_activitynames	2018120300	2018120300	Plugin installed	\N		0	1586879273
-423	0	filter_algebra	\N	2018120300	Starting plugin installation	\N		0	1586879273
-424	0	filter_algebra	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-425	0	filter_algebra	2018120300	2018120300	Plugin installed	\N		0	1586879273
-426	0	filter_censor	\N	2018120300	Starting plugin installation	\N		0	1586879273
-427	0	filter_censor	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-428	0	filter_censor	2018120300	2018120300	Plugin installed	\N		0	1586879273
-429	0	filter_data	\N	2018120300	Starting plugin installation	\N		0	1586879273
-430	0	filter_data	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-431	0	filter_data	2018120300	2018120300	Plugin installed	\N		0	1586879273
-432	0	filter_emailprotect	\N	2018120300	Starting plugin installation	\N		0	1586879273
-433	0	filter_emailprotect	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-434	0	filter_emailprotect	2018120300	2018120300	Plugin installed	\N		0	1586879273
-435	0	filter_emoticon	\N	2018120300	Starting plugin installation	\N		0	1586879273
-436	0	filter_emoticon	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-437	0	filter_emoticon	2018120300	2018120300	Plugin installed	\N		0	1586879273
-438	0	filter_glossary	\N	2018120300	Starting plugin installation	\N		0	1586879273
-439	0	filter_glossary	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-440	0	filter_glossary	2018120300	2018120300	Plugin installed	\N		0	1586879273
-441	0	filter_mathjaxloader	\N	2018120300	Starting plugin installation	\N		0	1586879273
-442	0	filter_mathjaxloader	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-443	0	filter_mathjaxloader	2018120300	2018120300	Plugin installed	\N		0	1586879273
-444	0	filter_mediaplugin	\N	2018120300	Starting plugin installation	\N		0	1586879273
-445	0	filter_mediaplugin	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-446	0	filter_mediaplugin	2018120300	2018120300	Plugin installed	\N		0	1586879273
-447	0	filter_multilang	\N	2018120300	Starting plugin installation	\N		0	1586879273
-448	0	filter_multilang	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-449	0	filter_multilang	2018120300	2018120300	Plugin installed	\N		0	1586879273
-450	0	filter_tex	\N	2018120300	Starting plugin installation	\N		0	1586879273
-451	0	filter_tex	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-452	0	filter_tex	2018120300	2018120300	Plugin installed	\N		0	1586879273
-453	0	filter_tidy	\N	2018120300	Starting plugin installation	\N		0	1586879273
-454	0	filter_tidy	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-455	0	filter_tidy	2018120300	2018120300	Plugin installed	\N		0	1586879273
-456	0	filter_urltolink	\N	2018120300	Starting plugin installation	\N		0	1586879273
-457	0	filter_urltolink	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-458	0	filter_urltolink	2018120300	2018120300	Plugin installed	\N		0	1586879273
-459	0	filter_wiris	\N	2020022400	Starting plugin installation	\N		0	1586879273
-460	0	filter_wiris	2020022400	2020022400	Upgrade savepoint reached	\N		0	1586879273
-461	0	filter_wiris	2020022400	2020022400	Plugin installed	\N		0	1586879273
-462	0	editor_atto	\N	2018120300	Starting plugin installation	\N		0	1586879273
-463	0	editor_atto	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-464	0	editor_atto	2018120300	2018120300	Plugin installed	\N		0	1586879273
-465	0	editor_textarea	\N	2018120300	Starting plugin installation	\N		0	1586879273
-466	0	editor_textarea	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-467	0	editor_textarea	2018120300	2018120300	Plugin installed	\N		0	1586879273
-468	0	editor_tinymce	\N	2018120300	Starting plugin installation	\N		0	1586879273
-469	0	editor_tinymce	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-470	0	editor_tinymce	2018120300	2018120300	Plugin installed	\N		0	1586879273
-471	0	format_singleactivity	\N	2018120300	Starting plugin installation	\N		0	1586879273
-472	0	format_singleactivity	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-473	0	format_singleactivity	2018120300	2018120300	Plugin installed	\N		0	1586879273
-474	0	format_social	\N	2018120300	Starting plugin installation	\N		0	1586879273
-475	0	format_social	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-476	0	format_social	2018120300	2018120300	Plugin installed	\N		0	1586879273
-477	0	format_topics	\N	2018120300	Starting plugin installation	\N		0	1586879273
-478	0	format_topics	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-479	0	format_topics	2018120300	2018120300	Plugin installed	\N		0	1586879273
-480	0	format_weeks	\N	2018120300	Starting plugin installation	\N		0	1586879273
-481	0	format_weeks	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-482	0	format_weeks	2018120300	2018120300	Plugin installed	\N		0	1586879273
-483	0	dataformat_csv	\N	2018120300	Starting plugin installation	\N		0	1586879273
-484	0	dataformat_csv	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-485	0	dataformat_csv	2018120300	2018120300	Plugin installed	\N		0	1586879273
-486	0	dataformat_excel	\N	2018120300	Starting plugin installation	\N		0	1586879273
-487	0	dataformat_excel	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-488	0	dataformat_excel	2018120300	2018120300	Plugin installed	\N		0	1586879273
-489	0	dataformat_html	\N	2018120300	Starting plugin installation	\N		0	1586879273
-490	0	dataformat_html	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-491	0	dataformat_html	2018120300	2018120300	Plugin installed	\N		0	1586879273
-492	0	dataformat_json	\N	2018120300	Starting plugin installation	\N		0	1586879273
-493	0	dataformat_json	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-494	0	dataformat_json	2018120300	2018120300	Plugin installed	\N		0	1586879273
-495	0	dataformat_ods	\N	2018120300	Starting plugin installation	\N		0	1586879273
-496	0	dataformat_ods	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-497	0	dataformat_ods	2018120300	2018120300	Plugin installed	\N		0	1586879273
-498	0	profilefield_checkbox	\N	2018120300	Starting plugin installation	\N		0	1586879273
-499	0	profilefield_checkbox	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-500	0	profilefield_checkbox	2018120300	2018120300	Plugin installed	\N		0	1586879273
-501	0	profilefield_datetime	\N	2018120300	Starting plugin installation	\N		0	1586879273
-502	0	profilefield_datetime	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-503	0	profilefield_datetime	2018120300	2018120300	Plugin installed	\N		0	1586879273
-504	0	profilefield_menu	\N	2018120300	Starting plugin installation	\N		0	1586879273
-505	0	profilefield_menu	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879273
-506	0	profilefield_menu	2018120300	2018120300	Plugin installed	\N		0	1586879274
-507	0	profilefield_text	\N	2018120300	Starting plugin installation	\N		0	1586879274
-508	0	profilefield_text	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-509	0	profilefield_text	2018120300	2018120300	Plugin installed	\N		0	1586879274
-510	0	profilefield_textarea	\N	2018120300	Starting plugin installation	\N		0	1586879274
-511	0	profilefield_textarea	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-512	0	profilefield_textarea	2018120300	2018120300	Plugin installed	\N		0	1586879274
-513	0	report_backups	\N	2018120300	Starting plugin installation	\N		0	1586879274
-514	0	report_backups	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-515	0	report_backups	2018120300	2018120300	Plugin installed	\N		0	1586879274
-516	0	report_benchmark	\N	2020022400	Starting plugin installation	\N		0	1586879274
-517	0	report_benchmark	2020022400	2020022400	Upgrade savepoint reached	\N		0	1586879274
-518	0	report_benchmark	2020022400	2020022400	Plugin installed	\N		0	1586879274
-519	0	report_competency	\N	2018120300	Starting plugin installation	\N		0	1586879274
-520	0	report_competency	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-521	0	report_competency	2018120300	2018120300	Plugin installed	\N		0	1586879274
-522	0	report_completion	\N	2018120300	Starting plugin installation	\N		0	1586879274
-523	0	report_completion	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-524	0	report_completion	2018120300	2018120300	Plugin installed	\N		0	1586879274
-525	0	report_configlog	\N	2018120300	Starting plugin installation	\N		0	1586879274
-526	0	report_configlog	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-527	0	report_configlog	2018120300	2018120300	Plugin installed	\N		0	1586879274
-528	0	report_courseoverview	\N	2018120300	Starting plugin installation	\N		0	1586879274
-529	0	report_courseoverview	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-530	0	report_courseoverview	2018120300	2018120300	Plugin installed	\N		0	1586879274
-531	0	report_eventlist	\N	2018120300	Starting plugin installation	\N		0	1586879274
-532	0	report_eventlist	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-533	0	report_eventlist	2018120300	2018120300	Plugin installed	\N		0	1586879274
-534	0	report_insights	\N	2018120300	Starting plugin installation	\N		0	1586879274
-535	0	report_insights	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-536	0	report_insights	2018120300	2018120300	Plugin installed	\N		0	1586879274
-537	0	report_log	\N	2018120300	Starting plugin installation	\N		0	1586879274
-538	0	report_log	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-539	0	report_log	2018120300	2018120300	Plugin installed	\N		0	1586879274
-540	0	report_loglive	\N	2018120300	Starting plugin installation	\N		0	1586879274
-541	0	report_loglive	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-542	0	report_loglive	2018120300	2018120300	Plugin installed	\N		0	1586879274
-543	0	report_outline	\N	2018120300	Starting plugin installation	\N		0	1586879274
-544	0	report_outline	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-545	0	report_outline	2018120300	2018120300	Plugin installed	\N		0	1586879274
-546	0	report_participation	\N	2018120300	Starting plugin installation	\N		0	1586879274
-547	0	report_participation	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-548	0	report_participation	2018120300	2018120300	Plugin installed	\N		0	1586879274
-549	0	report_performance	\N	2018120300	Starting plugin installation	\N		0	1586879274
-550	0	report_performance	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-551	0	report_performance	2018120300	2018120300	Plugin installed	\N		0	1586879274
-552	0	report_progress	\N	2018120300	Starting plugin installation	\N		0	1586879274
-553	0	report_progress	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-554	0	report_progress	2018120300	2018120300	Plugin installed	\N		0	1586879274
-555	0	report_questioninstances	\N	2018120300	Starting plugin installation	\N		0	1586879274
-556	0	report_questioninstances	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-557	0	report_questioninstances	2018120300	2018120300	Plugin installed	\N		0	1586879274
-558	0	report_security	\N	2018120300	Starting plugin installation	\N		0	1586879274
-559	0	report_security	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-560	0	report_security	2018120300	2018120300	Plugin installed	\N		0	1586879274
-561	0	report_stats	\N	2018120300	Starting plugin installation	\N		0	1586879274
-562	0	report_stats	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-563	0	report_stats	2018120300	2018120300	Plugin installed	\N		0	1586879274
-564	0	report_usersessions	\N	2018120300	Starting plugin installation	\N		0	1586879274
-565	0	report_usersessions	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-566	0	report_usersessions	2018120300	2018120300	Plugin installed	\N		0	1586879274
-567	0	gradeexport_ods	\N	2018120300	Starting plugin installation	\N		0	1586879274
-568	0	gradeexport_ods	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-569	0	gradeexport_ods	2018120300	2018120300	Plugin installed	\N		0	1586879274
-570	0	gradeexport_txt	\N	2018120300	Starting plugin installation	\N		0	1586879274
-571	0	gradeexport_txt	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-572	0	gradeexport_txt	2018120300	2018120300	Plugin installed	\N		0	1586879274
-573	0	gradeexport_xls	\N	2018120300	Starting plugin installation	\N		0	1586879274
-574	0	gradeexport_xls	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-575	0	gradeexport_xls	2018120300	2018120300	Plugin installed	\N		0	1586879274
-576	0	gradeexport_xml	\N	2018120300	Starting plugin installation	\N		0	1586879274
-577	0	gradeexport_xml	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-578	0	gradeexport_xml	2018120300	2018120300	Plugin installed	\N		0	1586879274
-579	0	gradeimport_csv	\N	2018120300	Starting plugin installation	\N		0	1586879274
-580	0	gradeimport_csv	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-581	0	gradeimport_csv	2018120300	2018120300	Plugin installed	\N		0	1586879274
-582	0	gradeimport_direct	\N	2018120300	Starting plugin installation	\N		0	1586879274
-583	0	gradeimport_direct	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-584	0	gradeimport_direct	2018120300	2018120300	Plugin installed	\N		0	1586879274
-585	0	gradeimport_xml	\N	2018120300	Starting plugin installation	\N		0	1586879274
-586	0	gradeimport_xml	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-587	0	gradeimport_xml	2018120300	2018120300	Plugin installed	\N		0	1586879274
-588	0	gradereport_grader	\N	2018120300	Starting plugin installation	\N		0	1586879274
-589	0	gradereport_grader	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-590	0	gradereport_grader	2018120300	2018120300	Plugin installed	\N		0	1586879274
-591	0	gradereport_history	\N	2018120300	Starting plugin installation	\N		0	1586879274
-592	0	gradereport_history	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-593	0	gradereport_history	2018120300	2018120300	Plugin installed	\N		0	1586879274
-594	0	gradereport_outcomes	\N	2018120300	Starting plugin installation	\N		0	1586879274
-595	0	gradereport_outcomes	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879274
-596	0	gradereport_outcomes	2018120300	2018120300	Plugin installed	\N		0	1586879275
-597	0	gradereport_overview	\N	2018120300	Starting plugin installation	\N		0	1586879275
-598	0	gradereport_overview	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-599	0	gradereport_overview	2018120300	2018120300	Plugin installed	\N		0	1586879275
-600	0	gradereport_singleview	\N	2018120300	Starting plugin installation	\N		0	1586879275
-601	0	gradereport_singleview	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-602	0	gradereport_singleview	2018120300	2018120300	Plugin installed	\N		0	1586879275
-603	0	gradereport_user	\N	2018120300	Starting plugin installation	\N		0	1586879275
-604	0	gradereport_user	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-605	0	gradereport_user	2018120300	2018120300	Plugin installed	\N		0	1586879275
-606	0	gradingform_guide	\N	2018120300	Starting plugin installation	\N		0	1586879275
-607	0	gradingform_guide	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-608	0	gradingform_guide	2018120300	2018120300	Plugin installed	\N		0	1586879275
-609	0	gradingform_rubric	\N	2018120300	Starting plugin installation	\N		0	1586879275
-610	0	gradingform_rubric	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-611	0	gradingform_rubric	2018120300	2018120300	Plugin installed	\N		0	1586879275
-612	0	mlbackend_php	\N	2018120300	Starting plugin installation	\N		0	1586879275
-613	0	mlbackend_php	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-614	0	mlbackend_php	2018120300	2018120300	Plugin installed	\N		0	1586879275
-615	0	mlbackend_python	\N	2018120300	Starting plugin installation	\N		0	1586879275
-616	0	mlbackend_python	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-617	0	mlbackend_python	2018120300	2018120300	Plugin installed	\N		0	1586879275
-618	0	mnetservice_enrol	\N	2018120300	Starting plugin installation	\N		0	1586879275
-619	0	mnetservice_enrol	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-620	0	mnetservice_enrol	2018120300	2018120300	Plugin installed	\N		0	1586879275
-621	0	webservice_rest	\N	2018120300	Starting plugin installation	\N		0	1586879275
-622	0	webservice_rest	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-623	0	webservice_rest	2018120300	2018120300	Plugin installed	\N		0	1586879275
-624	0	webservice_soap	\N	2018120300	Starting plugin installation	\N		0	1586879275
-625	0	webservice_soap	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-626	0	webservice_soap	2018120300	2018120300	Plugin installed	\N		0	1586879275
-627	0	webservice_xmlrpc	\N	2018120300	Starting plugin installation	\N		0	1586879275
-628	0	webservice_xmlrpc	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-629	0	webservice_xmlrpc	2018120300	2018120300	Plugin installed	\N		0	1586879275
-630	0	repository_areafiles	\N	2018120300	Starting plugin installation	\N		0	1586879275
-631	0	repository_areafiles	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-632	0	repository_areafiles	2018120300	2018120300	Plugin installed	\N		0	1586879275
-633	0	repository_coursefiles	\N	2018120300	Starting plugin installation	\N		0	1586879275
-634	0	repository_coursefiles	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-635	0	repository_coursefiles	2018120300	2018120300	Plugin installed	\N		0	1586879275
-636	0	repository_equella	\N	2018120300	Starting plugin installation	\N		0	1586879275
-637	0	repository_equella	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-638	0	repository_equella	2018120300	2018120300	Plugin installed	\N		0	1586879275
-639	0	repository_filesystem	\N	2018120300	Starting plugin installation	\N		0	1586879275
-640	0	repository_filesystem	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-641	0	repository_filesystem	2018120300	2018120300	Plugin installed	\N		0	1586879275
-642	0	repository_local	\N	2018120300	Starting plugin installation	\N		0	1586879275
-643	0	repository_local	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-644	0	repository_local	2018120300	2018120300	Plugin installed	\N		0	1586879275
-645	0	repository_nextcloud	\N	2018120300	Starting plugin installation	\N		0	1586879275
-646	0	repository_nextcloud	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-647	0	repository_nextcloud	2018120300	2018120300	Plugin installed	\N		0	1586879275
-648	0	repository_recent	\N	2018120300	Starting plugin installation	\N		0	1586879275
-649	0	repository_recent	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-650	0	repository_recent	2018120300	2018120300	Plugin installed	\N		0	1586879275
-651	0	repository_s3	\N	2018120300	Starting plugin installation	\N		0	1586879275
-652	0	repository_s3	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-653	0	repository_s3	2018120300	2018120300	Plugin installed	\N		0	1586879275
-654	0	repository_upload	\N	2018120300	Starting plugin installation	\N		0	1586879275
-655	0	repository_upload	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-656	0	repository_upload	2018120300	2018120300	Plugin installed	\N		0	1586879275
-657	0	repository_url	\N	2018120300	Starting plugin installation	\N		0	1586879275
-658	0	repository_url	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-659	0	repository_url	2018120300	2018120300	Plugin installed	\N		0	1586879275
-660	0	repository_user	\N	2018120300	Starting plugin installation	\N		0	1586879275
-661	0	repository_user	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-662	0	repository_user	2018120300	2018120300	Plugin installed	\N		0	1586879275
-663	0	repository_webdav	\N	2018120300	Starting plugin installation	\N		0	1586879275
-664	0	repository_webdav	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-665	0	repository_webdav	2018120300	2018120300	Plugin installed	\N		0	1586879275
-666	0	repository_wikimedia	\N	2018120300	Starting plugin installation	\N		0	1586879275
-667	0	repository_wikimedia	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-668	0	repository_wikimedia	2018120300	2018120300	Plugin installed	\N		0	1586879275
-669	0	repository_youtube	\N	2018120300	Starting plugin installation	\N		0	1586879275
-670	0	repository_youtube	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-671	0	repository_youtube	2018120300	2018120300	Plugin installed	\N		0	1586879275
-672	0	portfolio_boxnet	\N	2018120300	Starting plugin installation	\N		0	1586879275
-673	0	portfolio_boxnet	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-674	0	portfolio_boxnet	2018120300	2018120300	Plugin installed	\N		0	1586879275
-675	0	portfolio_download	\N	2018120300	Starting plugin installation	\N		0	1586879275
-676	0	portfolio_download	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-677	0	portfolio_download	2018120300	2018120300	Plugin installed	\N		0	1586879275
-678	0	portfolio_flickr	\N	2018120300	Starting plugin installation	\N		0	1586879275
-679	0	portfolio_flickr	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-680	0	portfolio_flickr	2018120300	2018120300	Plugin installed	\N		0	1586879275
-681	0	portfolio_googledocs	\N	2018120300	Starting plugin installation	\N		0	1586879275
-682	0	portfolio_googledocs	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-683	0	portfolio_googledocs	2018120300	2018120300	Plugin installed	\N		0	1586879275
-684	0	portfolio_mahara	\N	2018120300	Starting plugin installation	\N		0	1586879275
-685	0	portfolio_mahara	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879275
-686	0	portfolio_mahara	2018120300	2018120300	Plugin installed	\N		0	1586879276
-687	0	portfolio_picasa	\N	2018120300	Starting plugin installation	\N		0	1586879276
-688	0	portfolio_picasa	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-689	0	portfolio_picasa	2018120300	2018120300	Plugin installed	\N		0	1586879276
-690	0	search_simpledb	\N	2018120300	Starting plugin installation	\N		0	1586879276
-691	0	search_simpledb	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-692	0	search_simpledb	2018120300	2018120300	Plugin installed	\N		0	1586879276
-693	0	search_solr	\N	2018120300	Starting plugin installation	\N		0	1586879276
-694	0	search_solr	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-695	0	search_solr	2018120300	2018120300	Plugin installed	\N		0	1586879276
-696	0	qbehaviour_adaptive	\N	2018120300	Starting plugin installation	\N		0	1586879276
-697	0	qbehaviour_adaptive	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-698	0	qbehaviour_adaptive	2018120300	2018120300	Plugin installed	\N		0	1586879276
-699	0	qbehaviour_adaptivenopenalty	\N	2018120300	Starting plugin installation	\N		0	1586879276
-700	0	qbehaviour_adaptivenopenalty	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-701	0	qbehaviour_adaptivenopenalty	2018120300	2018120300	Plugin installed	\N		0	1586879276
-702	0	qbehaviour_deferredcbm	\N	2018120300	Starting plugin installation	\N		0	1586879276
-703	0	qbehaviour_deferredcbm	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-704	0	qbehaviour_deferredcbm	2018120300	2018120300	Plugin installed	\N		0	1586879276
-705	0	qbehaviour_deferredfeedback	\N	2018120300	Starting plugin installation	\N		0	1586879276
-706	0	qbehaviour_deferredfeedback	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-707	0	qbehaviour_deferredfeedback	2018120300	2018120300	Plugin installed	\N		0	1586879276
-708	0	qbehaviour_immediatecbm	\N	2018120300	Starting plugin installation	\N		0	1586879276
-709	0	qbehaviour_immediatecbm	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-710	0	qbehaviour_immediatecbm	2018120300	2018120300	Plugin installed	\N		0	1586879276
-711	0	qbehaviour_immediatefeedback	\N	2018120300	Starting plugin installation	\N		0	1586879276
-712	0	qbehaviour_immediatefeedback	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-713	0	qbehaviour_immediatefeedback	2018120300	2018120300	Plugin installed	\N		0	1586879276
-714	0	qbehaviour_informationitem	\N	2018120300	Starting plugin installation	\N		0	1586879276
-715	0	qbehaviour_informationitem	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-716	0	qbehaviour_informationitem	2018120300	2018120300	Plugin installed	\N		0	1586879276
-717	0	qbehaviour_interactive	\N	2018120300	Starting plugin installation	\N		0	1586879276
-718	0	qbehaviour_interactive	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-719	0	qbehaviour_interactive	2018120300	2018120300	Plugin installed	\N		0	1586879276
-720	0	qbehaviour_interactivecountback	\N	2018120300	Starting plugin installation	\N		0	1586879276
-721	0	qbehaviour_interactivecountback	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-722	0	qbehaviour_interactivecountback	2018120300	2018120300	Plugin installed	\N		0	1586879276
-723	0	qbehaviour_manualgraded	\N	2018120300	Starting plugin installation	\N		0	1586879276
-724	0	qbehaviour_manualgraded	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-725	0	qbehaviour_manualgraded	2018120300	2018120300	Plugin installed	\N		0	1586879276
-726	0	qbehaviour_missing	\N	2018120300	Starting plugin installation	\N		0	1586879276
-727	0	qbehaviour_missing	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-728	0	qbehaviour_missing	2018120300	2018120300	Plugin installed	\N		0	1586879276
-729	0	qformat_aiken	\N	2018120300	Starting plugin installation	\N		0	1586879276
-730	0	qformat_aiken	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-731	0	qformat_aiken	2018120300	2018120300	Plugin installed	\N		0	1586879276
-732	0	qformat_blackboard_six	\N	2018120300	Starting plugin installation	\N		0	1586879276
-733	0	qformat_blackboard_six	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-734	0	qformat_blackboard_six	2018120300	2018120300	Plugin installed	\N		0	1586879276
-735	0	qformat_examview	\N	2018120300	Starting plugin installation	\N		0	1586879276
-736	0	qformat_examview	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-737	0	qformat_examview	2018120300	2018120300	Plugin installed	\N		0	1586879276
-738	0	qformat_gift	\N	2018120300	Starting plugin installation	\N		0	1586879276
-739	0	qformat_gift	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-740	0	qformat_gift	2018120300	2018120300	Plugin installed	\N		0	1586879276
-741	0	qformat_missingword	\N	2018120300	Starting plugin installation	\N		0	1586879276
-742	0	qformat_missingword	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-743	0	qformat_missingword	2018120300	2018120300	Plugin installed	\N		0	1586879276
-744	0	qformat_multianswer	\N	2018120300	Starting plugin installation	\N		0	1586879276
-745	0	qformat_multianswer	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-746	0	qformat_multianswer	2018120300	2018120300	Plugin installed	\N		0	1586879276
-747	0	qformat_webct	\N	2018120300	Starting plugin installation	\N		0	1586879276
-748	0	qformat_webct	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-749	0	qformat_webct	2018120300	2018120300	Plugin installed	\N		0	1586879276
-750	0	qformat_xhtml	\N	2018120300	Starting plugin installation	\N		0	1586879276
-751	0	qformat_xhtml	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-752	0	qformat_xhtml	2018120300	2018120300	Plugin installed	\N		0	1586879276
-753	0	qformat_xml	\N	2018120300	Starting plugin installation	\N		0	1586879276
-754	0	qformat_xml	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-755	0	qformat_xml	2018120300	2018120300	Plugin installed	\N		0	1586879276
-756	0	tool_analytics	\N	2018120300	Starting plugin installation	\N		0	1586879276
-757	0	tool_analytics	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-758	0	tool_analytics	2018120300	2018120300	Plugin installed	\N		0	1586879276
-759	0	tool_availabilityconditions	\N	2018120300	Starting plugin installation	\N		0	1586879276
-760	0	tool_availabilityconditions	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-761	0	tool_availabilityconditions	2018120300	2018120300	Plugin installed	\N		0	1586879276
-762	0	tool_behat	\N	2018120300	Starting plugin installation	\N		0	1586879276
-763	0	tool_behat	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-764	0	tool_behat	2018120300	2018120300	Plugin installed	\N		0	1586879276
-765	0	tool_capability	\N	2018120300	Starting plugin installation	\N		0	1586879276
-766	0	tool_capability	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-767	0	tool_capability	2018120300	2018120300	Plugin installed	\N		0	1586879276
-768	0	tool_cohortroles	\N	2018120300	Starting plugin installation	\N		0	1586879276
-769	0	tool_cohortroles	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-770	0	tool_cohortroles	2018120300	2018120300	Plugin installed	\N		0	1586879276
-771	0	tool_customlang	\N	2018120300	Starting plugin installation	\N		0	1586879276
-772	0	tool_customlang	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-773	0	tool_customlang	2018120300	2018120300	Plugin installed	\N		0	1586879276
-774	0	tool_dataprivacy	\N	2018120300	Starting plugin installation	\N		0	1586879276
-775	0	tool_dataprivacy	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-776	0	tool_dataprivacy	2018120300	2018120300	Plugin installed	\N		0	1586879276
-777	0	tool_dbtransfer	\N	2018120300	Starting plugin installation	\N		0	1586879276
-778	0	tool_dbtransfer	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-779	0	tool_dbtransfer	2018120300	2018120300	Plugin installed	\N		0	1586879276
-780	0	tool_filetypes	\N	2018120300	Starting plugin installation	\N		0	1586879276
-781	0	tool_filetypes	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-782	0	tool_filetypes	2018120300	2018120300	Plugin installed	\N		0	1586879276
-783	0	tool_generator	\N	2018120300	Starting plugin installation	\N		0	1586879276
-784	0	tool_generator	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-785	0	tool_generator	2018120300	2018120300	Plugin installed	\N		0	1586879276
-786	0	tool_health	\N	2018120300	Starting plugin installation	\N		0	1586879276
-787	0	tool_health	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879276
-788	0	tool_health	2018120300	2018120300	Plugin installed	\N		0	1586879277
-789	0	tool_httpsreplace	\N	2018120300	Starting plugin installation	\N		0	1586879277
-790	0	tool_httpsreplace	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-791	0	tool_httpsreplace	2018120300	2018120300	Plugin installed	\N		0	1586879277
-792	0	tool_innodb	\N	2018120300	Starting plugin installation	\N		0	1586879277
-793	0	tool_innodb	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-794	0	tool_innodb	2018120300	2018120300	Plugin installed	\N		0	1586879277
-795	0	tool_installaddon	\N	2018120300	Starting plugin installation	\N		0	1586879277
-796	0	tool_installaddon	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-797	0	tool_installaddon	2018120300	2018120300	Plugin installed	\N		0	1586879277
-798	0	tool_langimport	\N	2018120300	Starting plugin installation	\N		0	1586879277
-799	0	tool_langimport	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-800	0	tool_langimport	2018120300	2018120300	Plugin installed	\N		0	1586879277
-801	0	tool_log	\N	2018120300	Starting plugin installation	\N		0	1586879277
-802	0	tool_log	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-803	0	tool_log	2018120300	2018120300	Plugin installed	\N		0	1586879277
-804	0	tool_lp	\N	2018120300	Starting plugin installation	\N		0	1586879277
-805	0	tool_lp	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-806	0	tool_lp	2018120300	2018120300	Plugin installed	\N		0	1586879277
-807	0	tool_lpimportcsv	\N	2018120300	Starting plugin installation	\N		0	1586879277
-808	0	tool_lpimportcsv	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-809	0	tool_lpimportcsv	2018120300	2018120300	Plugin installed	\N		0	1586879277
-810	0	tool_lpmigrate	\N	2018120300	Starting plugin installation	\N		0	1586879277
-811	0	tool_lpmigrate	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-812	0	tool_lpmigrate	2018120300	2018120300	Plugin installed	\N		0	1586879277
-813	0	tool_messageinbound	\N	2018120300	Starting plugin installation	\N		0	1586879277
-814	0	tool_messageinbound	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-815	0	tool_messageinbound	2018120300	2018120300	Plugin installed	\N		0	1586879277
-816	0	tool_mobile	\N	2018120300	Starting plugin installation	\N		0	1586879277
-817	0	tool_mobile	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-818	0	tool_mobile	2018120300	2018120300	Plugin installed	\N		0	1586879277
-819	0	tool_monitor	\N	2018120300	Starting plugin installation	\N		0	1586879277
-820	0	tool_monitor	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-821	0	tool_monitor	2018120300	2018120300	Plugin installed	\N		0	1586879277
-822	0	tool_multilangupgrade	\N	2018120300	Starting plugin installation	\N		0	1586879277
-823	0	tool_multilangupgrade	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-824	0	tool_multilangupgrade	2018120300	2018120300	Plugin installed	\N		0	1586879277
-825	0	tool_oauth2	\N	2018120300	Starting plugin installation	\N		0	1586879277
-826	0	tool_oauth2	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-827	0	tool_oauth2	2018120300	2018120300	Plugin installed	\N		0	1586879277
-828	0	tool_oauth2owncloud	\N	2017032700	Starting plugin installation	\N		0	1586879277
-829	0	tool_oauth2owncloud	2017032700	2017032700	Upgrade savepoint reached	\N		0	1586879277
-830	0	tool_oauth2owncloud	2017032700	2017032700	Plugin installed	\N		0	1586879277
-831	0	tool_opcache	\N	2019050500	Starting plugin installation	\N		0	1586879277
-832	0	tool_opcache	2019050500	2019050500	Upgrade savepoint reached	\N		0	1586879277
-833	0	tool_opcache	2019050500	2019050500	Plugin installed	\N		0	1586879277
-834	0	tool_phpunit	\N	2018120300	Starting plugin installation	\N		0	1586879277
-835	0	tool_phpunit	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-836	0	tool_phpunit	2018120300	2018120300	Plugin installed	\N		0	1586879277
-837	0	tool_policy	\N	2018120300	Starting plugin installation	\N		0	1586879277
-838	0	tool_policy	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-839	0	tool_policy	2018120300	2018120300	Plugin installed	\N		0	1586879277
-840	0	tool_profiling	\N	2018120300	Starting plugin installation	\N		0	1586879277
-841	0	tool_profiling	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-842	0	tool_profiling	2018120300	2018120300	Plugin installed	\N		0	1586879277
-843	0	tool_recyclebin	\N	2018120300	Starting plugin installation	\N		0	1586879277
-844	0	tool_recyclebin	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-845	0	tool_recyclebin	2018120300	2018120300	Plugin installed	\N		0	1586879277
-846	0	tool_replace	\N	2018120300	Starting plugin installation	\N		0	1586879277
-847	0	tool_replace	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-848	0	tool_replace	2018120300	2018120300	Plugin installed	\N		0	1586879277
-849	0	tool_spamcleaner	\N	2018120300	Starting plugin installation	\N		0	1586879277
-850	0	tool_spamcleaner	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-851	0	tool_spamcleaner	2018120300	2018120300	Plugin installed	\N		0	1586879277
-852	0	tool_task	\N	2018120300	Starting plugin installation	\N		0	1586879277
-853	0	tool_task	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-854	0	tool_task	2018120300	2018120300	Plugin installed	\N		0	1586879277
-855	0	tool_templatelibrary	\N	2018120300	Starting plugin installation	\N		0	1586879277
-856	0	tool_templatelibrary	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-857	0	tool_templatelibrary	2018120300	2018120300	Plugin installed	\N		0	1586879277
-858	0	tool_unsuproles	\N	2018120300	Starting plugin installation	\N		0	1586879277
-859	0	tool_unsuproles	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-860	0	tool_unsuproles	2018120300	2018120300	Plugin installed	\N		0	1586879277
-861	0	tool_uploadcourse	\N	2018120300	Starting plugin installation	\N		0	1586879277
-862	0	tool_uploadcourse	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-863	0	tool_uploadcourse	2018120300	2018120300	Plugin installed	\N		0	1586879277
-864	0	tool_uploaduser	\N	2018120300	Starting plugin installation	\N		0	1586879277
-865	0	tool_uploaduser	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879277
-866	0	tool_uploaduser	2018120300	2018120300	Plugin installed	\N		0	1586879278
-867	0	tool_usertours	\N	2018120301	Starting plugin installation	\N		0	1586879278
-868	0	tool_usertours	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586879278
-869	0	tool_usertours	2018120301	2018120301	Plugin installed	\N		0	1586879278
-870	0	tool_webanalytics	\N	2019030700	Starting plugin installation	\N		0	1586879278
-871	0	tool_webanalytics	2019030700	2019030700	Upgrade savepoint reached	\N		0	1586879278
-872	0	tool_webanalytics	2019030700	2019030700	Plugin installed	\N		0	1586879278
-873	0	tool_xmldb	\N	2018120300	Starting plugin installation	\N		0	1586879278
-874	0	tool_xmldb	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-875	0	tool_xmldb	2018120300	2018120300	Plugin installed	\N		0	1586879278
-876	0	cachestore_apcu	\N	2018120300	Starting plugin installation	\N		0	1586879278
-877	0	cachestore_apcu	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-878	0	cachestore_apcu	2018120300	2018120300	Plugin installed	\N		0	1586879278
-879	0	cachestore_file	\N	2018120300	Starting plugin installation	\N		0	1586879278
-880	0	cachestore_file	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-881	0	cachestore_file	2018120300	2018120300	Plugin installed	\N		0	1586879278
-882	0	cachestore_memcached	\N	2018120300	Starting plugin installation	\N		0	1586879278
-883	0	cachestore_memcached	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-884	0	cachestore_memcached	2018120300	2018120300	Plugin installed	\N		0	1586879278
-885	0	cachestore_mongodb	\N	2018120300	Starting plugin installation	\N		0	1586879278
-886	0	cachestore_mongodb	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-887	0	cachestore_mongodb	2018120300	2018120300	Plugin installed	\N		0	1586879278
-888	0	cachestore_redis	\N	2018120300	Starting plugin installation	\N		0	1586879278
-889	0	cachestore_redis	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-890	0	cachestore_redis	2018120300	2018120300	Plugin installed	\N		0	1586879278
-891	0	cachestore_session	\N	2018120300	Starting plugin installation	\N		0	1586879278
-892	0	cachestore_session	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-893	0	cachestore_session	2018120300	2018120300	Plugin installed	\N		0	1586879278
-894	0	cachestore_static	\N	2018120300	Starting plugin installation	\N		0	1586879278
-895	0	cachestore_static	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-896	0	cachestore_static	2018120300	2018120300	Plugin installed	\N		0	1586879278
-897	0	cachelock_file	\N	2018120300	Starting plugin installation	\N		0	1586879278
-898	0	cachelock_file	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-899	0	cachelock_file	2018120300	2018120300	Plugin installed	\N		0	1586879278
-900	0	fileconverter_googledrive	\N	2018120300	Starting plugin installation	\N		0	1586879278
-901	0	fileconverter_googledrive	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-902	0	fileconverter_googledrive	2018120300	2018120300	Plugin installed	\N		0	1586879278
-903	0	fileconverter_unoconv	\N	2018120300	Starting plugin installation	\N		0	1586879278
-904	0	fileconverter_unoconv	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-905	0	fileconverter_unoconv	2018120300	2018120300	Plugin installed	\N		0	1586879278
-906	0	theme_academi	\N	2019012601	Starting plugin installation	\N		0	1586879278
-907	0	theme_academi	2019012601	2019012601	Upgrade savepoint reached	\N		0	1586879278
-908	0	theme_academi	2019012601	2019012601	Plugin installed	\N		0	1586879278
-909	0	theme_boost	\N	2018120300	Starting plugin installation	\N		0	1586879278
-910	0	theme_boost	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-911	0	theme_boost	2018120300	2018120300	Plugin installed	\N		0	1586879278
-912	0	theme_bootstrapbase	\N	2018120300	Starting plugin installation	\N		0	1586879278
-913	0	theme_bootstrapbase	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-914	0	theme_bootstrapbase	2018120300	2018120300	Plugin installed	\N		0	1586879278
-915	0	theme_clean	\N	2018120300	Starting plugin installation	\N		0	1586879278
-916	0	theme_clean	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-917	0	theme_clean	2018120300	2018120300	Plugin installed	\N		0	1586879278
-918	0	theme_essential	\N	2018121704	Starting plugin installation	\N		0	1586879278
-919	0	theme_essential	2018121704	2018121704	Upgrade savepoint reached	\N		0	1586879278
-920	0	theme_essential	2018121704	2018121704	Plugin installed	\N		0	1586879278
-921	0	theme_fordson	\N	2019111003	Starting plugin installation	\N		0	1586879278
-922	0	theme_fordson	2019111003	2019111003	Upgrade savepoint reached	\N		0	1586879278
-923	0	theme_fordson	2019111003	2019111003	Plugin installed	\N		0	1586879278
-924	0	theme_klass	\N	2019012601	Starting plugin installation	\N		0	1586879278
-925	0	theme_klass	2019012601	2019012601	Upgrade savepoint reached	\N		0	1586879278
-926	0	theme_klass	2019012601	2019012601	Plugin installed	\N		0	1586879278
-927	0	theme_more	\N	2018120300	Starting plugin installation	\N		0	1586879278
-928	0	theme_more	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-929	0	theme_more	2018120300	2018120300	Plugin installed	\N		0	1586879278
-930	0	assignsubmission_comments	\N	2018120300	Starting plugin installation	\N		0	1586879278
-931	0	assignsubmission_comments	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-932	0	assignsubmission_comments	2018120300	2018120300	Plugin installed	\N		0	1586879278
-933	0	assignsubmission_file	\N	2018120300	Starting plugin installation	\N		0	1586879278
-934	0	assignsubmission_file	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-935	0	assignsubmission_file	2018120300	2018120300	Plugin installed	\N		0	1586879278
-936	0	assignsubmission_onlinetext	\N	2018120300	Starting plugin installation	\N		0	1586879278
-937	0	assignsubmission_onlinetext	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-938	0	assignsubmission_onlinetext	2018120300	2018120300	Plugin installed	\N		0	1586879278
-939	0	assignfeedback_comments	\N	2018120300	Starting plugin installation	\N		0	1586879278
-940	0	assignfeedback_comments	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879278
-941	0	assignfeedback_comments	2018120300	2018120300	Plugin installed	\N		0	1586879278
-942	0	assignfeedback_editpdf	\N	2018120300	Starting plugin installation	\N		0	1586879278
-943	0	assignfeedback_editpdf	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-944	0	assignfeedback_editpdf	2018120300	2018120300	Plugin installed	\N		0	1586879279
-945	0	assignfeedback_file	\N	2018120300	Starting plugin installation	\N		0	1586879279
-946	0	assignfeedback_file	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-947	0	assignfeedback_file	2018120300	2018120300	Plugin installed	\N		0	1586879279
-948	0	assignfeedback_offline	\N	2018120300	Starting plugin installation	\N		0	1586879279
-949	0	assignfeedback_offline	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-950	0	assignfeedback_offline	2018120300	2018120300	Plugin installed	\N		0	1586879279
-951	0	assignment_offline	\N	2018120300	Starting plugin installation	\N		0	1586879279
-952	0	assignment_offline	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-953	0	assignment_offline	2018120300	2018120300	Plugin installed	\N		0	1586879279
-954	0	assignment_online	\N	2018120300	Starting plugin installation	\N		0	1586879279
-955	0	assignment_online	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-956	0	assignment_online	2018120300	2018120300	Plugin installed	\N		0	1586879279
-957	0	assignment_upload	\N	2018120300	Starting plugin installation	\N		0	1586879279
-958	0	assignment_upload	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-959	0	assignment_upload	2018120300	2018120300	Plugin installed	\N		0	1586879279
-960	0	assignment_uploadsingle	\N	2018120300	Starting plugin installation	\N		0	1586879279
-961	0	assignment_uploadsingle	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-962	0	assignment_uploadsingle	2018120300	2018120300	Plugin installed	\N		0	1586879279
-963	0	booktool_exportimscp	\N	2018120300	Starting plugin installation	\N		0	1586879279
-964	0	booktool_exportimscp	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-965	0	booktool_exportimscp	2018120300	2018120300	Plugin installed	\N		0	1586879279
-966	0	booktool_importhtml	\N	2018120300	Starting plugin installation	\N		0	1586879279
-967	0	booktool_importhtml	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-968	0	booktool_importhtml	2018120300	2018120300	Plugin installed	\N		0	1586879279
-969	0	booktool_print	\N	2018120300	Starting plugin installation	\N		0	1586879279
-970	0	booktool_print	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-971	0	booktool_print	2018120300	2018120300	Plugin installed	\N		0	1586879279
-972	0	datafield_checkbox	\N	2018120300	Starting plugin installation	\N		0	1586879279
-973	0	datafield_checkbox	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-974	0	datafield_checkbox	2018120300	2018120300	Plugin installed	\N		0	1586879279
-975	0	datafield_date	\N	2018120300	Starting plugin installation	\N		0	1586879279
-976	0	datafield_date	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-977	0	datafield_date	2018120300	2018120300	Plugin installed	\N		0	1586879279
-978	0	datafield_file	\N	2018120300	Starting plugin installation	\N		0	1586879279
-979	0	datafield_file	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-980	0	datafield_file	2018120300	2018120300	Plugin installed	\N		0	1586879279
-981	0	datafield_latlong	\N	2018120300	Starting plugin installation	\N		0	1586879279
-982	0	datafield_latlong	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-983	0	datafield_latlong	2018120300	2018120300	Plugin installed	\N		0	1586879279
-984	0	datafield_menu	\N	2018120300	Starting plugin installation	\N		0	1586879279
-985	0	datafield_menu	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-986	0	datafield_menu	2018120300	2018120300	Plugin installed	\N		0	1586879279
-987	0	datafield_multimenu	\N	2018120300	Starting plugin installation	\N		0	1586879279
-988	0	datafield_multimenu	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-989	0	datafield_multimenu	2018120300	2018120300	Plugin installed	\N		0	1586879279
-990	0	datafield_number	\N	2018120300	Starting plugin installation	\N		0	1586879279
-991	0	datafield_number	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-992	0	datafield_number	2018120300	2018120300	Plugin installed	\N		0	1586879279
-993	0	datafield_picture	\N	2018120300	Starting plugin installation	\N		0	1586879279
-994	0	datafield_picture	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-995	0	datafield_picture	2018120300	2018120300	Plugin installed	\N		0	1586879279
-996	0	datafield_radiobutton	\N	2018120300	Starting plugin installation	\N		0	1586879279
-997	0	datafield_radiobutton	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-998	0	datafield_radiobutton	2018120300	2018120300	Plugin installed	\N		0	1586879279
-999	0	datafield_text	\N	2018120300	Starting plugin installation	\N		0	1586879279
-1000	0	datafield_text	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-1001	0	datafield_text	2018120300	2018120300	Plugin installed	\N		0	1586879279
-1002	0	datafield_textarea	\N	2018120300	Starting plugin installation	\N		0	1586879279
-1003	0	datafield_textarea	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-1004	0	datafield_textarea	2018120300	2018120300	Plugin installed	\N		0	1586879279
-1005	0	datafield_url	\N	2018120300	Starting plugin installation	\N		0	1586879279
-1006	0	datafield_url	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-1007	0	datafield_url	2018120300	2018120300	Plugin installed	\N		0	1586879279
-1008	0	datapreset_imagegallery	\N	2018120300	Starting plugin installation	\N		0	1586879279
-1009	0	datapreset_imagegallery	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-1010	0	datapreset_imagegallery	2018120300	2018120300	Plugin installed	\N		0	1586879279
-1011	0	hotpotattempt_hp	\N	2010112400	Starting plugin installation	\N		0	1586879279
-1012	0	hotpotattempt_hp	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586879279
-1013	0	hotpotattempt_hp	2010112400	2010112400	Plugin installed	\N		0	1586879279
-1014	0	hotpotattempt_html	\N	2010112400	Starting plugin installation	\N		0	1586879279
-1015	0	hotpotattempt_html	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586879279
-1016	0	hotpotattempt_html	2010112400	2010112400	Plugin installed	\N		0	1586879279
-1017	0	hotpotattempt_qedoc	\N	2010112400	Starting plugin installation	\N		0	1586879279
-1018	0	hotpotattempt_qedoc	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586879279
-1019	0	hotpotattempt_qedoc	2010112400	2010112400	Plugin installed	\N		0	1586879279
-1020	0	hotpotsource_hp	\N	2010112400	Starting plugin installation	\N		0	1586879279
-1021	0	hotpotsource_hp	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586879279
-1022	0	hotpotsource_hp	2010112400	2010112400	Plugin installed	\N		0	1586879279
-1023	0	hotpotsource_html	\N	2010112400	Starting plugin installation	\N		0	1586879279
-1024	0	hotpotsource_html	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586879279
-1025	0	hotpotsource_html	2010112400	2010112400	Plugin installed	\N		0	1586879279
-1026	0	hotpotsource_qedoc	\N	2010112400	Starting plugin installation	\N		0	1586879279
-1027	0	hotpotsource_qedoc	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586879279
-1028	0	hotpotsource_qedoc	2010112400	2010112400	Plugin installed	\N		0	1586879279
-1029	0	hotpotreport_analysis	\N	2010112400	Starting plugin installation	\N		0	1586879279
-1030	0	hotpotreport_analysis	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586879279
-1031	0	hotpotreport_analysis	2010112400	2010112400	Plugin installed	\N		0	1586879279
-1032	0	hotpotreport_clicktrail	\N	2010112400	Starting plugin installation	\N		0	1586879279
-1033	0	hotpotreport_clicktrail	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586879279
-1034	0	hotpotreport_clicktrail	2010112400	2010112400	Plugin installed	\N		0	1586879279
-1035	0	hotpotreport_overview	\N	2010112400	Starting plugin installation	\N		0	1586879279
-1036	0	hotpotreport_overview	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586879279
-1037	0	hotpotreport_overview	2010112400	2010112400	Plugin installed	\N		0	1586879279
-1038	0	hotpotreport_responses	\N	2010112400	Starting plugin installation	\N		0	1586879279
-1039	0	hotpotreport_responses	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586879279
-1040	0	hotpotreport_responses	2010112400	2010112400	Plugin installed	\N		0	1586879279
-1041	0	hotpotreport_scores	\N	2010112400	Starting plugin installation	\N		0	1586879279
-1042	0	hotpotreport_scores	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586879279
-1043	0	hotpotreport_scores	2010112400	2010112400	Plugin installed	\N		0	1586879279
-1044	0	ltiservice_gradebookservices	\N	2018120300	Starting plugin installation	\N		0	1586879279
-1045	0	ltiservice_gradebookservices	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-1046	0	ltiservice_gradebookservices	2018120300	2018120300	Plugin installed	\N		0	1586879279
-1047	0	ltiservice_memberships	\N	2018120300	Starting plugin installation	\N		0	1586879279
-1048	0	ltiservice_memberships	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-1049	0	ltiservice_memberships	2018120300	2018120300	Plugin installed	\N		0	1586879279
-1050	0	ltiservice_profile	\N	2018120300	Starting plugin installation	\N		0	1586879279
-1051	0	ltiservice_profile	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-1052	0	ltiservice_profile	2018120300	2018120300	Plugin installed	\N		0	1586879279
-1053	0	ltiservice_toolproxy	\N	2018120300	Starting plugin installation	\N		0	1586879279
-1054	0	ltiservice_toolproxy	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879279
-1055	0	ltiservice_toolproxy	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1056	0	ltiservice_toolsettings	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1057	0	ltiservice_toolsettings	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1058	0	ltiservice_toolsettings	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1059	0	quiz_grading	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1060	0	quiz_grading	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1061	0	quiz_grading	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1062	0	quiz_overview	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1063	0	quiz_overview	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1064	0	quiz_overview	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1065	0	quiz_responses	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1066	0	quiz_responses	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1067	0	quiz_responses	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1068	0	quiz_statistics	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1069	0	quiz_statistics	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1070	0	quiz_statistics	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1071	0	quizaccess_delaybetweenattempts	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1072	0	quizaccess_delaybetweenattempts	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1073	0	quizaccess_delaybetweenattempts	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1074	0	quizaccess_ipaddress	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1075	0	quizaccess_ipaddress	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1076	0	quizaccess_ipaddress	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1077	0	quizaccess_numattempts	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1078	0	quizaccess_numattempts	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1079	0	quizaccess_numattempts	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1080	0	quizaccess_offlineattempts	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1081	0	quizaccess_offlineattempts	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1082	0	quizaccess_offlineattempts	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1083	0	quizaccess_openclosedate	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1084	0	quizaccess_openclosedate	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1085	0	quizaccess_openclosedate	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1086	0	quizaccess_password	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1087	0	quizaccess_password	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1088	0	quizaccess_password	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1089	0	quizaccess_safebrowser	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1090	0	quizaccess_safebrowser	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1091	0	quizaccess_safebrowser	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1092	0	quizaccess_securewindow	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1093	0	quizaccess_securewindow	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1094	0	quizaccess_securewindow	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1095	0	quizaccess_timelimit	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1096	0	quizaccess_timelimit	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1097	0	quizaccess_timelimit	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1098	0	scormreport_basic	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1099	0	scormreport_basic	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1100	0	scormreport_basic	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1101	0	scormreport_graphs	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1102	0	scormreport_graphs	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1103	0	scormreport_graphs	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1104	0	scormreport_interactions	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1105	0	scormreport_interactions	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1106	0	scormreport_interactions	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1107	0	scormreport_objectives	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1108	0	scormreport_objectives	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1109	0	scormreport_objectives	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1110	0	workshopform_accumulative	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1111	0	workshopform_accumulative	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1112	0	workshopform_accumulative	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1113	0	workshopform_comments	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1114	0	workshopform_comments	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1115	0	workshopform_comments	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1116	0	workshopform_numerrors	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1117	0	workshopform_numerrors	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1118	0	workshopform_numerrors	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1119	0	workshopform_rubric	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1120	0	workshopform_rubric	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1121	0	workshopform_rubric	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1122	0	workshopallocation_manual	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1123	0	workshopallocation_manual	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1124	0	workshopallocation_manual	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1125	0	workshopallocation_random	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1126	0	workshopallocation_random	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1127	0	workshopallocation_random	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1128	0	workshopallocation_scheduled	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1129	0	workshopallocation_scheduled	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1130	0	workshopallocation_scheduled	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1131	0	workshopeval_best	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1132	0	workshopeval_best	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1133	0	workshopeval_best	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1134	0	atto_accessibilitychecker	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1135	0	atto_accessibilitychecker	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1136	0	atto_accessibilitychecker	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1137	0	atto_accessibilityhelper	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1138	0	atto_accessibilityhelper	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1139	0	atto_accessibilityhelper	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1140	0	atto_align	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1141	0	atto_align	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1142	0	atto_align	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1143	0	atto_backcolor	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1144	0	atto_backcolor	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1145	0	atto_backcolor	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1146	0	atto_bold	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1147	0	atto_bold	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1148	0	atto_bold	2018120300	2018120300	Plugin installed	\N		0	1586879280
-1149	0	atto_charmap	\N	2018120300	Starting plugin installation	\N		0	1586879280
-1150	0	atto_charmap	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879280
-1151	0	atto_charmap	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1152	0	atto_clear	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1153	0	atto_clear	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1154	0	atto_clear	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1155	0	atto_collapse	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1156	0	atto_collapse	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1157	0	atto_collapse	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1158	0	atto_emoticon	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1159	0	atto_emoticon	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1160	0	atto_emoticon	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1161	0	atto_equation	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1162	0	atto_equation	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1163	0	atto_equation	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1164	0	atto_fontcolor	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1165	0	atto_fontcolor	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1166	0	atto_fontcolor	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1167	0	atto_html	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1168	0	atto_html	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1169	0	atto_html	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1170	0	atto_image	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1171	0	atto_image	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1172	0	atto_image	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1173	0	atto_indent	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1174	0	atto_indent	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1175	0	atto_indent	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1176	0	atto_italic	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1177	0	atto_italic	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1178	0	atto_italic	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1179	0	atto_link	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1180	0	atto_link	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1181	0	atto_link	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1182	0	atto_managefiles	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1183	0	atto_managefiles	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1184	0	atto_managefiles	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1185	0	atto_media	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1186	0	atto_media	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1187	0	atto_media	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1188	0	atto_noautolink	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1189	0	atto_noautolink	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1190	0	atto_noautolink	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1191	0	atto_orderedlist	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1192	0	atto_orderedlist	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1193	0	atto_orderedlist	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1194	0	atto_recordrtc	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1195	0	atto_recordrtc	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1196	0	atto_recordrtc	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1197	0	atto_rtl	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1198	0	atto_rtl	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1199	0	atto_rtl	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1200	0	atto_strike	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1201	0	atto_strike	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1202	0	atto_strike	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1203	0	atto_subscript	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1204	0	atto_subscript	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1205	0	atto_subscript	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1206	0	atto_superscript	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1207	0	atto_superscript	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1208	0	atto_superscript	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1209	0	atto_table	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1210	0	atto_table	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1211	0	atto_table	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1212	0	atto_title	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1213	0	atto_title	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1214	0	atto_title	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1215	0	atto_underline	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1216	0	atto_underline	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1217	0	atto_underline	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1218	0	atto_undo	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1219	0	atto_undo	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1220	0	atto_undo	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1221	0	atto_unorderedlist	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1222	0	atto_unorderedlist	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1223	0	atto_unorderedlist	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1224	0	tinymce_ctrlhelp	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1225	0	tinymce_ctrlhelp	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1226	0	tinymce_ctrlhelp	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1227	0	tinymce_managefiles	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1228	0	tinymce_managefiles	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1229	0	tinymce_managefiles	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1230	0	tinymce_moodleemoticon	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1231	0	tinymce_moodleemoticon	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1232	0	tinymce_moodleemoticon	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1233	0	tinymce_moodleimage	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1234	0	tinymce_moodleimage	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1235	0	tinymce_moodleimage	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1236	0	tinymce_moodlemedia	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1237	0	tinymce_moodlemedia	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1238	0	tinymce_moodlemedia	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1239	0	tinymce_moodlenolink	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1240	0	tinymce_moodlenolink	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1241	0	tinymce_moodlenolink	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1242	0	tinymce_pdw	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1243	0	tinymce_pdw	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1244	0	tinymce_pdw	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1245	0	tinymce_spellchecker	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1246	0	tinymce_spellchecker	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1247	0	tinymce_spellchecker	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1248	0	tinymce_wrap	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1249	0	tinymce_wrap	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1250	0	tinymce_wrap	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1251	0	logstore_database	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1252	0	logstore_database	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1253	0	logstore_database	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1254	0	logstore_legacy	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1255	0	logstore_legacy	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1256	0	logstore_legacy	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1257	0	logstore_standard	\N	2018120300	Starting plugin installation	\N		0	1586879281
-1258	0	logstore_standard	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879281
-1259	0	logstore_standard	2018120300	2018120300	Plugin installed	\N		0	1586879281
-1260	0	watool_ganalytics	\N	2018062400	Starting plugin installation	\N		0	1586879281
-1261	0	watool_ganalytics	2018062400	2018062400	Upgrade savepoint reached	\N		0	1586879281
-1262	0	watool_ganalytics	2018062400	2018062400	Plugin installed	\N		0	1586879281
-1263	0	watool_gtagmanager	\N	2018062400	Starting plugin installation	\N		0	1586879281
-1264	0	watool_gtagmanager	2018062400	2018062400	Upgrade savepoint reached	\N		0	1586879281
-1265	0	watool_gtagmanager	2018062400	2018062400	Plugin installed	\N		0	1586879281
-1266	0	watool_guniversal	\N	2018062400	Starting plugin installation	\N		0	1586879281
-1267	0	watool_guniversal	2018062400	2018062400	Upgrade savepoint reached	\N		0	1586879281
-1268	0	watool_guniversal	2018062400	2018062400	Plugin installed	\N		0	1586879281
-1269	0	watool_matomo	\N	2018062400	Starting plugin installation	\N		0	1586879281
-1270	0	watool_matomo	2018062400	2018062400	Upgrade savepoint reached	\N		0	1586879281
-1271	0	watool_matomo	2018062400	2018062400	Plugin installed	\N		0	1586879281
-1272	0	local_analytics	\N	2018092400	Starting plugin installation	\N		0	1586879281
-1273	0	local_analytics	2018092400	2018092400	Upgrade savepoint reached	\N		0	1586879281
-1274	0	local_analytics	2018092400	2018092400	Plugin installed	\N		0	1586879281
-1275	0	local_course_templates	\N	2019120800	Starting plugin installation	\N		0	1586879281
-1276	0	local_course_templates	2019120800	2019120800	Upgrade savepoint reached	\N		0	1586879281
-1277	0	local_course_templates	2019120800	2019120800	Plugin installed	\N		0	1586879282
-1278	0	local_mailtest	\N	2019111700	Starting plugin installation	\N		0	1586879282
-1279	0	local_mailtest	2019111700	2019111700	Upgrade savepoint reached	\N		0	1586879282
-1280	0	local_mailtest	2019111700	2019111700	Plugin installed	\N		0	1586879282
-1281	0	local_mobile	\N	2018120300	Starting plugin installation	\N		0	1586879282
-1282	0	local_mobile	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586879282
-1283	0	local_mobile	2018120300	2018120300	Plugin installed	\N		0	1586879282
-1284	0	local_userenrols	\N	2018052008	Starting plugin installation	\N		0	1586879282
-1285	0	local_userenrols	2018052008	2018052008	Upgrade savepoint reached	\N		0	1586879282
-1286	0	local_userenrols	2018052008	2018052008	Plugin installed	\N		0	1586879282
+1	0	core	2018120309	2018120309	Upgrade savepoint reached	\N		0	1586902581
+2	0	core	2018120309	2018120309	Core installed	\N		0	1586902592
+3	0	antivirus_clamav	\N	2018120300	Starting plugin installation	\N		0	1586902592
+4	0	antivirus_clamav	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+5	0	antivirus_clamav	2018120300	2018120300	Plugin installed	\N		0	1586902592
+6	0	availability_completion	\N	2018120300	Starting plugin installation	\N		0	1586902592
+7	0	availability_completion	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+8	0	availability_completion	2018120300	2018120300	Plugin installed	\N		0	1586902592
+9	0	availability_date	\N	2018120300	Starting plugin installation	\N		0	1586902592
+10	0	availability_date	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+11	0	availability_date	2018120300	2018120300	Plugin installed	\N		0	1586902592
+12	0	availability_grade	\N	2018120300	Starting plugin installation	\N		0	1586902592
+13	0	availability_grade	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+14	0	availability_grade	2018120300	2018120300	Plugin installed	\N		0	1586902592
+15	0	availability_group	\N	2018120300	Starting plugin installation	\N		0	1586902592
+16	0	availability_group	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+17	0	availability_group	2018120300	2018120300	Plugin installed	\N		0	1586902592
+18	0	availability_grouping	\N	2018120300	Starting plugin installation	\N		0	1586902592
+19	0	availability_grouping	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+20	0	availability_grouping	2018120300	2018120300	Plugin installed	\N		0	1586902592
+21	0	availability_mobileapp	\N	2019061900	Starting plugin installation	\N		0	1586902592
+22	0	availability_mobileapp	2019061900	2019061900	Upgrade savepoint reached	\N		0	1586902592
+23	0	availability_mobileapp	2019061900	2019061900	Plugin installed	\N		0	1586902592
+24	0	availability_profile	\N	2018120300	Starting plugin installation	\N		0	1586902592
+25	0	availability_profile	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+26	0	availability_profile	2018120300	2018120300	Plugin installed	\N		0	1586902592
+27	0	qtype_calculated	\N	2018120300	Starting plugin installation	\N		0	1586902592
+28	0	qtype_calculated	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+29	0	qtype_calculated	2018120300	2018120300	Plugin installed	\N		0	1586902592
+30	0	qtype_calculatedmulti	\N	2018120300	Starting plugin installation	\N		0	1586902592
+31	0	qtype_calculatedmulti	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+32	0	qtype_calculatedmulti	2018120300	2018120300	Plugin installed	\N		0	1586902592
+33	0	qtype_calculatedsimple	\N	2018120300	Starting plugin installation	\N		0	1586902592
+34	0	qtype_calculatedsimple	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+35	0	qtype_calculatedsimple	2018120300	2018120300	Plugin installed	\N		0	1586902592
+36	0	qtype_ddimageortext	\N	2018120300	Starting plugin installation	\N		0	1586902592
+37	0	qtype_ddimageortext	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+38	0	qtype_ddimageortext	2018120300	2018120300	Plugin installed	\N		0	1586902592
+39	0	qtype_ddmarker	\N	2018120300	Starting plugin installation	\N		0	1586902592
+40	0	qtype_ddmarker	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+41	0	qtype_ddmarker	2018120300	2018120300	Plugin installed	\N		0	1586902592
+42	0	qtype_ddwtos	\N	2018120300	Starting plugin installation	\N		0	1586902592
+43	0	qtype_ddwtos	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+44	0	qtype_ddwtos	2018120300	2018120300	Plugin installed	\N		0	1586902592
+45	0	qtype_description	\N	2018120300	Starting plugin installation	\N		0	1586902592
+46	0	qtype_description	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+47	0	qtype_description	2018120300	2018120300	Plugin installed	\N		0	1586902592
+48	0	qtype_essay	\N	2018120300	Starting plugin installation	\N		0	1586902592
+49	0	qtype_essay	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+50	0	qtype_essay	2018120300	2018120300	Plugin installed	\N		0	1586902592
+51	0	qtype_gapselect	\N	2018120300	Starting plugin installation	\N		0	1586902592
+52	0	qtype_gapselect	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+53	0	qtype_gapselect	2018120300	2018120300	Plugin installed	\N		0	1586902592
+54	0	qtype_match	\N	2018120300	Starting plugin installation	\N		0	1586902592
+55	0	qtype_match	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+56	0	qtype_match	2018120300	2018120300	Plugin installed	\N		0	1586902592
+57	0	qtype_missingtype	\N	2018120300	Starting plugin installation	\N		0	1586902592
+58	0	qtype_missingtype	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+59	0	qtype_missingtype	2018120300	2018120300	Plugin installed	\N		0	1586902592
+60	0	qtype_multianswer	\N	2018120301	Starting plugin installation	\N		0	1586902592
+61	0	qtype_multianswer	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586902592
+62	0	qtype_multianswer	2018120301	2018120301	Plugin installed	\N		0	1586902592
+63	0	qtype_multichoice	\N	2018120300	Starting plugin installation	\N		0	1586902592
+64	0	qtype_multichoice	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+65	0	qtype_multichoice	2018120300	2018120300	Plugin installed	\N		0	1586902592
+66	0	qtype_numerical	\N	2018120300	Starting plugin installation	\N		0	1586902592
+67	0	qtype_numerical	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+68	0	qtype_numerical	2018120300	2018120300	Plugin installed	\N		0	1586902592
+69	0	qtype_random	\N	2018120301	Starting plugin installation	\N		0	1586902592
+70	0	qtype_random	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586902592
+71	0	qtype_random	2018120301	2018120301	Plugin installed	\N		0	1586902592
+72	0	qtype_randomsamatch	\N	2018120300	Starting plugin installation	\N		0	1586902592
+73	0	qtype_randomsamatch	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+74	0	qtype_randomsamatch	2018120300	2018120300	Plugin installed	\N		0	1586902592
+75	0	qtype_shortanswer	\N	2018120300	Starting plugin installation	\N		0	1586902592
+76	0	qtype_shortanswer	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+77	0	qtype_shortanswer	2018120300	2018120300	Plugin installed	\N		0	1586902592
+78	0	qtype_truefalse	\N	2018120300	Starting plugin installation	\N		0	1586902592
+79	0	qtype_truefalse	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902592
+80	0	qtype_truefalse	2018120300	2018120300	Plugin installed	\N		0	1586902592
+81	0	mod_assign	\N	2018120300	Starting plugin installation	\N		0	1586902592
+82	0	mod_assign	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902593
+83	0	mod_assign	2018120300	2018120300	Plugin installed	\N		0	1586902593
+84	0	mod_assignment	\N	2018120300	Starting plugin installation	\N		0	1586902593
+85	0	mod_assignment	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902593
+86	0	mod_assignment	2018120300	2018120300	Plugin installed	\N		0	1586902593
+87	0	mod_attendance	\N	2019052801	Starting plugin installation	\N		0	1586902593
+88	0	mod_attendance	2019052801	2019052801	Upgrade savepoint reached	\N		0	1586902593
+89	0	mod_attendance	2019052801	2019052801	Plugin installed	\N		0	1586902593
+90	0	mod_bigbluebuttonbn	\N	2019042008	Starting plugin installation	\N		0	1586902593
+91	0	mod_bigbluebuttonbn	2019042008	2019042008	Upgrade savepoint reached	\N		0	1586902593
+92	0	mod_bigbluebuttonbn	2019042008	2019042008	Plugin installed	\N		0	1586902593
+93	0	mod_book	\N	2018120300	Starting plugin installation	\N		0	1586902593
+94	0	mod_book	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902593
+95	0	mod_book	2018120300	2018120300	Plugin installed	\N		0	1586902593
+96	0	mod_chat	\N	2018120300	Starting plugin installation	\N		0	1586902593
+97	0	mod_chat	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902593
+98	0	mod_chat	2018120300	2018120300	Plugin installed	\N		0	1586902594
+99	0	mod_choice	\N	2018120300	Starting plugin installation	\N		0	1586902594
+100	0	mod_choice	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902594
+101	0	mod_choice	2018120300	2018120300	Plugin installed	\N		0	1586902594
+102	0	mod_data	\N	2018120301	Starting plugin installation	\N		0	1586902594
+103	0	mod_data	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586902594
+104	0	mod_data	2018120301	2018120301	Plugin installed	\N		0	1586902594
+105	0	mod_feedback	\N	2018120300	Starting plugin installation	\N		0	1586902594
+106	0	mod_feedback	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902594
+107	0	mod_feedback	2018120300	2018120300	Plugin installed	\N		0	1586902594
+108	0	mod_folder	\N	2018120300	Starting plugin installation	\N		0	1586902594
+109	0	mod_folder	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902594
+110	0	mod_folder	2018120300	2018120300	Plugin installed	\N		0	1586902594
+111	0	mod_forum	\N	2018120300	Starting plugin installation	\N		0	1586902594
+112	0	mod_forum	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902594
+113	0	mod_forum	2018120300	2018120300	Plugin installed	\N		0	1586902595
+114	0	mod_glossary	\N	2018120300	Starting plugin installation	\N		0	1586902595
+115	0	mod_glossary	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902595
+116	0	mod_glossary	2018120300	2018120300	Plugin installed	\N		0	1586902595
+117	0	mod_hotpot	\N	2019071739	Starting plugin installation	\N		0	1586902595
+118	0	mod_hotpot	2019071739	2019071739	Upgrade savepoint reached	\N		0	1586902595
+119	0	mod_hotpot	2019071739	2019071739	Plugin installed	\N		0	1586902595
+120	0	mod_imscp	\N	2018120300	Starting plugin installation	\N		0	1586902595
+121	0	mod_imscp	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902595
+122	0	mod_imscp	2018120300	2018120300	Plugin installed	\N		0	1586902595
+123	0	mod_jitsi	\N	2020040900	Starting plugin installation	\N		0	1586902595
+124	0	mod_jitsi	2020040900	2020040900	Upgrade savepoint reached	\N		0	1586902595
+125	0	mod_jitsi	2020040900	2020040900	Plugin installed	\N		0	1586902595
+126	0	mod_label	\N	2018120300	Starting plugin installation	\N		0	1586902595
+127	0	mod_label	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902596
+128	0	mod_label	2018120300	2018120300	Plugin installed	\N		0	1586902596
+129	0	mod_lesson	\N	2018120301	Starting plugin installation	\N		0	1586902596
+130	0	mod_lesson	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586902596
+131	0	mod_lesson	2018120301	2018120301	Plugin installed	\N		0	1586902596
+132	0	mod_lti	\N	2018120300	Starting plugin installation	\N		0	1586902596
+133	0	mod_lti	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902596
+134	0	mod_lti	2018120300	2018120300	Plugin installed	\N		0	1586902596
+135	0	mod_page	\N	2018120300	Starting plugin installation	\N		0	1586902596
+136	0	mod_page	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902596
+137	0	mod_page	2018120300	2018120300	Plugin installed	\N		0	1586902596
+138	0	mod_questionnaire	\N	2019101705	Starting plugin installation	\N		0	1586902596
+139	0	mod_questionnaire	2019101705	2019101705	Upgrade savepoint reached	\N		0	1586902596
+140	0	mod_questionnaire	2019101705	2019101705	Plugin installed	\N		0	1586902596
+141	0	mod_quiz	\N	2018120301	Starting plugin installation	\N		0	1586902596
+142	0	mod_quiz	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586902597
+143	0	mod_quiz	2018120301	2018120301	Plugin installed	\N		0	1586902597
+144	0	mod_resource	\N	2018120300	Starting plugin installation	\N		0	1586902597
+145	0	mod_resource	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902597
+146	0	mod_resource	2018120300	2018120300	Plugin installed	\N		0	1586902597
+147	0	mod_scorm	\N	2018120300	Starting plugin installation	\N		0	1586902597
+148	0	mod_scorm	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902597
+149	0	mod_scorm	2018120300	2018120300	Plugin installed	\N		0	1586902597
+150	0	mod_survey	\N	2018120300	Starting plugin installation	\N		0	1586902597
+151	0	mod_survey	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902597
+152	0	mod_survey	2018120300	2018120300	Plugin installed	\N		0	1586902597
+153	0	mod_turnitintooltwo	\N	2019070201	Starting plugin installation	\N		0	1586902597
+154	0	mod_turnitintooltwo	2019070201	2019070201	Upgrade savepoint reached	\N		0	1586902597
+155	0	mod_turnitintooltwo	2019070201	2019070201	Plugin installed	\N		0	1586902597
+156	0	mod_url	\N	2018120300	Starting plugin installation	\N		0	1586902597
+157	0	mod_url	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902597
+158	0	mod_url	2018120300	2018120300	Plugin installed	\N		0	1586902598
+159	0	mod_webexactivity	\N	2019120500	Starting plugin installation	\N		0	1586902598
+160	0	mod_webexactivity	2019120500	2019120500	Upgrade savepoint reached	\N		0	1586902598
+161	0	mod_webexactivity	2019120500	2019120500	Plugin installed	\N		0	1586902598
+162	0	mod_wiki	\N	2018120300	Starting plugin installation	\N		0	1586902598
+163	0	mod_wiki	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902598
+164	0	mod_wiki	2018120300	2018120300	Plugin installed	\N		0	1586902598
+165	0	mod_workshop	\N	2018120300	Starting plugin installation	\N		0	1586902598
+166	0	mod_workshop	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902598
+167	0	mod_workshop	2018120300	2018120300	Plugin installed	\N		0	1586902599
+168	0	auth_cas	\N	2018120300	Starting plugin installation	\N		0	1586902599
+169	0	auth_cas	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+170	0	auth_cas	2018120300	2018120300	Plugin installed	\N		0	1586902599
+171	0	auth_db	\N	2018120300	Starting plugin installation	\N		0	1586902599
+172	0	auth_db	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+173	0	auth_db	2018120300	2018120300	Plugin installed	\N		0	1586902599
+174	0	auth_email	\N	2018120300	Starting plugin installation	\N		0	1586902599
+175	0	auth_email	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+176	0	auth_email	2018120300	2018120300	Plugin installed	\N		0	1586902599
+177	0	auth_ldap	\N	2018120300	Starting plugin installation	\N		0	1586902599
+178	0	auth_ldap	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+179	0	auth_ldap	2018120300	2018120300	Plugin installed	\N		0	1586902599
+180	0	auth_lti	\N	2018120300	Starting plugin installation	\N		0	1586902599
+181	0	auth_lti	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+182	0	auth_lti	2018120300	2018120300	Plugin installed	\N		0	1586902599
+183	0	auth_manual	\N	2018120300	Starting plugin installation	\N		0	1586902599
+184	0	auth_manual	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+185	0	auth_manual	2018120300	2018120300	Plugin installed	\N		0	1586902599
+186	0	auth_mnet	\N	2018120300	Starting plugin installation	\N		0	1586902599
+187	0	auth_mnet	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+188	0	auth_mnet	2018120300	2018120300	Plugin installed	\N		0	1586902599
+189	0	auth_nologin	\N	2018120300	Starting plugin installation	\N		0	1586902599
+190	0	auth_nologin	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+191	0	auth_nologin	2018120300	2018120300	Plugin installed	\N		0	1586902599
+192	0	auth_none	\N	2018120300	Starting plugin installation	\N		0	1586902599
+193	0	auth_none	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+194	0	auth_none	2018120300	2018120300	Plugin installed	\N		0	1586902599
+195	0	auth_oauth2	\N	2018120301	Starting plugin installation	\N		0	1586902599
+196	0	auth_oauth2	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586902599
+197	0	auth_oauth2	2018120301	2018120301	Plugin installed	\N		0	1586902599
+198	0	auth_shibboleth	\N	2018120300	Starting plugin installation	\N		0	1586902599
+199	0	auth_shibboleth	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+200	0	auth_shibboleth	2018120300	2018120300	Plugin installed	\N		0	1586902599
+201	0	auth_webservice	\N	2018120300	Starting plugin installation	\N		0	1586902599
+202	0	auth_webservice	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+203	0	auth_webservice	2018120300	2018120300	Plugin installed	\N		0	1586902599
+204	0	calendartype_gregorian	\N	2018120300	Starting plugin installation	\N		0	1586902599
+205	0	calendartype_gregorian	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+206	0	calendartype_gregorian	2018120300	2018120300	Plugin installed	\N		0	1586902599
+207	0	enrol_category	\N	2018120300	Starting plugin installation	\N		0	1586902599
+208	0	enrol_category	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+209	0	enrol_category	2018120300	2018120300	Plugin installed	\N		0	1586902599
+210	0	enrol_cohort	\N	2018120300	Starting plugin installation	\N		0	1586902599
+211	0	enrol_cohort	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+212	0	enrol_cohort	2018120300	2018120300	Plugin installed	\N		0	1586902599
+213	0	enrol_database	\N	2018120300	Starting plugin installation	\N		0	1586902599
+214	0	enrol_database	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+215	0	enrol_database	2018120300	2018120300	Plugin installed	\N		0	1586902599
+216	0	enrol_flatfile	\N	2018120300	Starting plugin installation	\N		0	1586902599
+217	0	enrol_flatfile	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+218	0	enrol_flatfile	2018120300	2018120300	Plugin installed	\N		0	1586902599
+219	0	enrol_guest	\N	2018120300	Starting plugin installation	\N		0	1586902599
+220	0	enrol_guest	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+221	0	enrol_guest	2018120300	2018120300	Plugin installed	\N		0	1586902599
+222	0	enrol_imsenterprise	\N	2018120300	Starting plugin installation	\N		0	1586902599
+223	0	enrol_imsenterprise	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+224	0	enrol_imsenterprise	2018120300	2018120300	Plugin installed	\N		0	1586902599
+225	0	enrol_ldap	\N	2018120300	Starting plugin installation	\N		0	1586902599
+226	0	enrol_ldap	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+227	0	enrol_ldap	2018120300	2018120300	Plugin installed	\N		0	1586902599
+228	0	enrol_lti	\N	2018120300	Starting plugin installation	\N		0	1586902599
+229	0	enrol_lti	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+230	0	enrol_lti	2018120300	2018120300	Plugin installed	\N		0	1586902599
+231	0	enrol_manual	\N	2018120300	Starting plugin installation	\N		0	1586902599
+232	0	enrol_manual	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902599
+233	0	enrol_manual	2018120300	2018120300	Plugin installed	\N		0	1586902600
+234	0	enrol_meta	\N	2018120300	Starting plugin installation	\N		0	1586902600
+235	0	enrol_meta	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902600
+236	0	enrol_meta	2018120300	2018120300	Plugin installed	\N		0	1586902600
+237	0	enrol_mnet	\N	2018120300	Starting plugin installation	\N		0	1586902600
+238	0	enrol_mnet	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902600
+239	0	enrol_mnet	2018120300	2018120300	Plugin installed	\N		0	1586902600
+240	0	enrol_paypal	\N	2018120300	Starting plugin installation	\N		0	1586902600
+241	0	enrol_paypal	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902600
+242	0	enrol_paypal	2018120300	2018120300	Plugin installed	\N		0	1586902600
+243	0	enrol_self	\N	2018120300	Starting plugin installation	\N		0	1586902600
+244	0	enrol_self	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902600
+245	0	enrol_self	2018120300	2018120300	Plugin installed	\N		0	1586902600
+246	0	message_airnotifier	\N	2018120300	Starting plugin installation	\N		0	1586902600
+247	0	message_airnotifier	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902600
+248	0	message_airnotifier	2018120300	2018120300	Plugin installed	\N		0	1586902600
+249	0	message_email	\N	2018120300	Starting plugin installation	\N		0	1586902600
+250	0	message_email	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902600
+251	0	message_email	2018120300	2018120300	Plugin installed	\N		0	1586902600
+252	0	message_jabber	\N	2018120300	Starting plugin installation	\N		0	1586902600
+253	0	message_jabber	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902600
+254	0	message_jabber	2018120300	2018120300	Plugin installed	\N		0	1586902600
+255	0	message_popup	\N	2018120300	Starting plugin installation	\N		0	1586902600
+256	0	message_popup	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902600
+257	0	message_popup	2018120300	2018120300	Plugin installed	\N		0	1586902601
+258	0	message_telegram	\N	2017040405	Starting plugin installation	\N		0	1586902601
+259	0	message_telegram	2017040405	2017040405	Upgrade savepoint reached	\N		0	1586902601
+260	0	message_telegram	2017040405	2017040405	Plugin installed	\N		0	1586902601
+261	0	block_activity_modules	\N	2018120300	Starting plugin installation	\N		0	1586902601
+262	0	block_activity_modules	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+263	0	block_activity_modules	2018120300	2018120300	Plugin installed	\N		0	1586902601
+264	0	block_activity_results	\N	2018120300	Starting plugin installation	\N		0	1586902601
+265	0	block_activity_results	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+266	0	block_activity_results	2018120300	2018120300	Plugin installed	\N		0	1586902601
+267	0	block_admin_bookmarks	\N	2018120300	Starting plugin installation	\N		0	1586902601
+268	0	block_admin_bookmarks	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+269	0	block_admin_bookmarks	2018120300	2018120300	Plugin installed	\N		0	1586902601
+270	0	block_badges	\N	2018120300	Starting plugin installation	\N		0	1586902601
+271	0	block_badges	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+272	0	block_badges	2018120300	2018120300	Plugin installed	\N		0	1586902601
+273	0	block_blog_menu	\N	2018120300	Starting plugin installation	\N		0	1586902601
+274	0	block_blog_menu	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+275	0	block_blog_menu	2018120300	2018120300	Plugin installed	\N		0	1586902601
+276	0	block_blog_recent	\N	2018120300	Starting plugin installation	\N		0	1586902601
+277	0	block_blog_recent	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+278	0	block_blog_recent	2018120300	2018120300	Plugin installed	\N		0	1586902601
+279	0	block_blog_tags	\N	2018120300	Starting plugin installation	\N		0	1586902601
+280	0	block_blog_tags	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+281	0	block_blog_tags	2018120300	2018120300	Plugin installed	\N		0	1586902601
+282	0	block_calendar_month	\N	2018120300	Starting plugin installation	\N		0	1586902601
+283	0	block_calendar_month	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+284	0	block_calendar_month	2018120300	2018120300	Plugin installed	\N		0	1586902601
+285	0	block_calendar_upcoming	\N	2018120300	Starting plugin installation	\N		0	1586902601
+286	0	block_calendar_upcoming	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+287	0	block_calendar_upcoming	2018120300	2018120300	Plugin installed	\N		0	1586902601
+288	0	block_comments	\N	2018120300	Starting plugin installation	\N		0	1586902601
+289	0	block_comments	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+290	0	block_comments	2018120300	2018120300	Plugin installed	\N		0	1586902601
+291	0	block_community	\N	2018120300	Starting plugin installation	\N		0	1586902601
+292	0	block_community	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+293	0	block_community	2018120300	2018120300	Plugin installed	\N		0	1586902601
+294	0	block_completionstatus	\N	2018120300	Starting plugin installation	\N		0	1586902601
+295	0	block_completionstatus	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+296	0	block_completionstatus	2018120300	2018120300	Plugin installed	\N		0	1586902601
+297	0	block_course_list	\N	2018120300	Starting plugin installation	\N		0	1586902601
+298	0	block_course_list	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+299	0	block_course_list	2018120300	2018120300	Plugin installed	\N		0	1586902601
+300	0	block_course_summary	\N	2018120300	Starting plugin installation	\N		0	1586902601
+301	0	block_course_summary	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+302	0	block_course_summary	2018120300	2018120300	Plugin installed	\N		0	1586902601
+303	0	block_feedback	\N	2018120300	Starting plugin installation	\N		0	1586902601
+304	0	block_feedback	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+305	0	block_feedback	2018120300	2018120300	Plugin installed	\N		0	1586902601
+306	0	block_globalsearch	\N	2018120300	Starting plugin installation	\N		0	1586902601
+307	0	block_globalsearch	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+308	0	block_globalsearch	2018120300	2018120300	Plugin installed	\N		0	1586902601
+309	0	block_glossary_random	\N	2018120300	Starting plugin installation	\N		0	1586902601
+310	0	block_glossary_random	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+311	0	block_glossary_random	2018120300	2018120300	Plugin installed	\N		0	1586902601
+312	0	block_html	\N	2018120300	Starting plugin installation	\N		0	1586902601
+313	0	block_html	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+314	0	block_html	2018120300	2018120300	Plugin installed	\N		0	1586902601
+315	0	block_login	\N	2018120300	Starting plugin installation	\N		0	1586902601
+316	0	block_login	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+317	0	block_login	2018120300	2018120300	Plugin installed	\N		0	1586902601
+318	0	block_lp	\N	2018120300	Starting plugin installation	\N		0	1586902601
+319	0	block_lp	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902601
+320	0	block_lp	2018120300	2018120300	Plugin installed	\N		0	1586902602
+321	0	block_mentees	\N	2018120300	Starting plugin installation	\N		0	1586902602
+322	0	block_mentees	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+323	0	block_mentees	2018120300	2018120300	Plugin installed	\N		0	1586902602
+324	0	block_mnet_hosts	\N	2018120300	Starting plugin installation	\N		0	1586902602
+325	0	block_mnet_hosts	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+326	0	block_mnet_hosts	2018120300	2018120300	Plugin installed	\N		0	1586902602
+327	0	block_myoverview	\N	2018120301	Starting plugin installation	\N		0	1586902602
+328	0	block_myoverview	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586902602
+329	0	block_myoverview	2018120301	2018120301	Plugin installed	\N		0	1586902602
+330	0	block_myprofile	\N	2018120300	Starting plugin installation	\N		0	1586902602
+331	0	block_myprofile	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+332	0	block_myprofile	2018120300	2018120300	Plugin installed	\N		0	1586902602
+333	0	block_navigation	\N	2018120300	Starting plugin installation	\N		0	1586902602
+334	0	block_navigation	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+335	0	block_navigation	2018120300	2018120300	Plugin installed	\N		0	1586902602
+336	0	block_news_items	\N	2018120300	Starting plugin installation	\N		0	1586902602
+337	0	block_news_items	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+338	0	block_news_items	2018120300	2018120300	Plugin installed	\N		0	1586902602
+339	0	block_online_users	\N	2018120300	Starting plugin installation	\N		0	1586902602
+340	0	block_online_users	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+341	0	block_online_users	2018120300	2018120300	Plugin installed	\N		0	1586902602
+342	0	block_participants	\N	2018120300	Starting plugin installation	\N		0	1586902602
+343	0	block_participants	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+344	0	block_participants	2018120300	2018120300	Plugin installed	\N		0	1586902602
+345	0	block_private_files	\N	2018120300	Starting plugin installation	\N		0	1586902602
+346	0	block_private_files	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+347	0	block_private_files	2018120300	2018120300	Plugin installed	\N		0	1586902602
+348	0	block_qrcode	\N	2019112100	Starting plugin installation	\N		0	1586902602
+349	0	block_qrcode	2019112100	2019112100	Upgrade savepoint reached	\N		0	1586902602
+350	0	block_qrcode	2019112100	2019112100	Plugin installed	\N		0	1586902602
+351	0	block_quiz_results	\N	2018120300	Starting plugin installation	\N		0	1586902602
+352	0	block_quiz_results	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+353	0	block_quiz_results	2018120300	2018120300	Plugin installed	\N		0	1586902602
+354	0	block_recent_activity	\N	2018120300	Starting plugin installation	\N		0	1586902602
+355	0	block_recent_activity	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+356	0	block_recent_activity	2018120300	2018120300	Plugin installed	\N		0	1586902602
+357	0	block_recentlyaccessedcourses	\N	2018120300	Starting plugin installation	\N		0	1586902602
+358	0	block_recentlyaccessedcourses	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+359	0	block_recentlyaccessedcourses	2018120300	2018120300	Plugin installed	\N		0	1586902602
+360	0	block_recentlyaccesseditems	\N	2018120302	Starting plugin installation	\N		0	1586902602
+361	0	block_recentlyaccesseditems	2018120302	2018120302	Upgrade savepoint reached	\N		0	1586902602
+362	0	block_recentlyaccesseditems	2018120302	2018120302	Plugin installed	\N		0	1586902602
+363	0	block_rss_client	\N	2018120300	Starting plugin installation	\N		0	1586902602
+364	0	block_rss_client	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+365	0	block_rss_client	2018120300	2018120300	Plugin installed	\N		0	1586902602
+366	0	block_search_forums	\N	2018120300	Starting plugin installation	\N		0	1586902602
+367	0	block_search_forums	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+368	0	block_search_forums	2018120300	2018120300	Plugin installed	\N		0	1586902602
+369	0	block_section_links	\N	2018120300	Starting plugin installation	\N		0	1586902602
+370	0	block_section_links	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+371	0	block_section_links	2018120300	2018120300	Plugin installed	\N		0	1586902602
+372	0	block_selfcompletion	\N	2018120300	Starting plugin installation	\N		0	1586902602
+373	0	block_selfcompletion	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902602
+374	0	block_selfcompletion	2018120300	2018120300	Plugin installed	\N		0	1586902603
+375	0	block_settings	\N	2018120300	Starting plugin installation	\N		0	1586902603
+376	0	block_settings	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+377	0	block_settings	2018120300	2018120300	Plugin installed	\N		0	1586902603
+378	0	block_site_main_menu	\N	2018120300	Starting plugin installation	\N		0	1586902603
+379	0	block_site_main_menu	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+380	0	block_site_main_menu	2018120300	2018120300	Plugin installed	\N		0	1586902603
+381	0	block_sitenews	\N	2019052701	Starting plugin installation	\N		0	1586902603
+382	0	block_sitenews	2019052701	2019052701	Upgrade savepoint reached	\N		0	1586902603
+383	0	block_sitenews	2019052701	2019052701	Plugin installed	\N		0	1586902603
+384	0	block_social_activities	\N	2018120300	Starting plugin installation	\N		0	1586902603
+385	0	block_social_activities	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+386	0	block_social_activities	2018120300	2018120300	Plugin installed	\N		0	1586902603
+387	0	block_starredcourses	\N	2018120300	Starting plugin installation	\N		0	1586902603
+388	0	block_starredcourses	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+389	0	block_starredcourses	2018120300	2018120300	Plugin installed	\N		0	1586902603
+390	0	block_tag_flickr	\N	2018120300	Starting plugin installation	\N		0	1586902603
+391	0	block_tag_flickr	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+392	0	block_tag_flickr	2018120300	2018120300	Plugin installed	\N		0	1586902603
+393	0	block_tag_youtube	\N	2018120300	Starting plugin installation	\N		0	1586902603
+394	0	block_tag_youtube	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+395	0	block_tag_youtube	2018120300	2018120300	Plugin installed	\N		0	1586902603
+396	0	block_tags	\N	2018120300	Starting plugin installation	\N		0	1586902603
+397	0	block_tags	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+398	0	block_tags	2018120300	2018120300	Plugin installed	\N		0	1586902603
+399	0	block_timeline	\N	2018120300	Starting plugin installation	\N		0	1586902603
+400	0	block_timeline	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+401	0	block_timeline	2018120300	2018120300	Plugin installed	\N		0	1586902603
+402	0	media_html5audio	\N	2018120300	Starting plugin installation	\N		0	1586902603
+403	0	media_html5audio	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+404	0	media_html5audio	2018120300	2018120300	Plugin installed	\N		0	1586902603
+405	0	media_html5video	\N	2018120300	Starting plugin installation	\N		0	1586902603
+406	0	media_html5video	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+407	0	media_html5video	2018120300	2018120300	Plugin installed	\N		0	1586902603
+408	0	media_swf	\N	2018120300	Starting plugin installation	\N		0	1586902603
+409	0	media_swf	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+410	0	media_swf	2018120300	2018120300	Plugin installed	\N		0	1586902603
+411	0	media_videojs	\N	2018120300	Starting plugin installation	\N		0	1586902603
+412	0	media_videojs	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+413	0	media_videojs	2018120300	2018120300	Plugin installed	\N		0	1586902603
+414	0	media_vimeo	\N	2018120300	Starting plugin installation	\N		0	1586902603
+415	0	media_vimeo	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+416	0	media_vimeo	2018120300	2018120300	Plugin installed	\N		0	1586902603
+417	0	media_youtube	\N	2018120300	Starting plugin installation	\N		0	1586902603
+418	0	media_youtube	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+419	0	media_youtube	2018120300	2018120300	Plugin installed	\N		0	1586902603
+420	0	filter_activitynames	\N	2018120300	Starting plugin installation	\N		0	1586902603
+421	0	filter_activitynames	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+422	0	filter_activitynames	2018120300	2018120300	Plugin installed	\N		0	1586902603
+423	0	filter_algebra	\N	2018120300	Starting plugin installation	\N		0	1586902603
+424	0	filter_algebra	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+425	0	filter_algebra	2018120300	2018120300	Plugin installed	\N		0	1586902603
+426	0	filter_censor	\N	2018120300	Starting plugin installation	\N		0	1586902603
+427	0	filter_censor	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+428	0	filter_censor	2018120300	2018120300	Plugin installed	\N		0	1586902603
+429	0	filter_data	\N	2018120300	Starting plugin installation	\N		0	1586902603
+430	0	filter_data	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+431	0	filter_data	2018120300	2018120300	Plugin installed	\N		0	1586902603
+432	0	filter_emailprotect	\N	2018120300	Starting plugin installation	\N		0	1586902603
+433	0	filter_emailprotect	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+434	0	filter_emailprotect	2018120300	2018120300	Plugin installed	\N		0	1586902603
+435	0	filter_emoticon	\N	2018120300	Starting plugin installation	\N		0	1586902603
+436	0	filter_emoticon	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+437	0	filter_emoticon	2018120300	2018120300	Plugin installed	\N		0	1586902603
+438	0	filter_glossary	\N	2018120300	Starting plugin installation	\N		0	1586902603
+439	0	filter_glossary	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+440	0	filter_glossary	2018120300	2018120300	Plugin installed	\N		0	1586902603
+441	0	filter_mathjaxloader	\N	2018120300	Starting plugin installation	\N		0	1586902603
+442	0	filter_mathjaxloader	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+443	0	filter_mathjaxloader	2018120300	2018120300	Plugin installed	\N		0	1586902603
+444	0	filter_mediaplugin	\N	2018120300	Starting plugin installation	\N		0	1586902603
+445	0	filter_mediaplugin	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+446	0	filter_mediaplugin	2018120300	2018120300	Plugin installed	\N		0	1586902603
+447	0	filter_multilang	\N	2018120300	Starting plugin installation	\N		0	1586902603
+448	0	filter_multilang	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+449	0	filter_multilang	2018120300	2018120300	Plugin installed	\N		0	1586902603
+450	0	filter_tex	\N	2018120300	Starting plugin installation	\N		0	1586902603
+451	0	filter_tex	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+452	0	filter_tex	2018120300	2018120300	Plugin installed	\N		0	1586902603
+453	0	filter_tidy	\N	2018120300	Starting plugin installation	\N		0	1586902603
+454	0	filter_tidy	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902603
+455	0	filter_tidy	2018120300	2018120300	Plugin installed	\N		0	1586902604
+456	0	filter_urltolink	\N	2018120300	Starting plugin installation	\N		0	1586902604
+457	0	filter_urltolink	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+458	0	filter_urltolink	2018120300	2018120300	Plugin installed	\N		0	1586902604
+459	0	filter_wiris	\N	2020022400	Starting plugin installation	\N		0	1586902604
+460	0	filter_wiris	2020022400	2020022400	Upgrade savepoint reached	\N		0	1586902604
+461	0	filter_wiris	2020022400	2020022400	Plugin installed	\N		0	1586902604
+462	0	editor_atto	\N	2018120300	Starting plugin installation	\N		0	1586902604
+463	0	editor_atto	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+464	0	editor_atto	2018120300	2018120300	Plugin installed	\N		0	1586902604
+465	0	editor_textarea	\N	2018120300	Starting plugin installation	\N		0	1586902604
+466	0	editor_textarea	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+467	0	editor_textarea	2018120300	2018120300	Plugin installed	\N		0	1586902604
+468	0	editor_tinymce	\N	2018120300	Starting plugin installation	\N		0	1586902604
+469	0	editor_tinymce	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+470	0	editor_tinymce	2018120300	2018120300	Plugin installed	\N		0	1586902604
+471	0	format_singleactivity	\N	2018120300	Starting plugin installation	\N		0	1586902604
+472	0	format_singleactivity	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+473	0	format_singleactivity	2018120300	2018120300	Plugin installed	\N		0	1586902604
+474	0	format_social	\N	2018120300	Starting plugin installation	\N		0	1586902604
+475	0	format_social	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+476	0	format_social	2018120300	2018120300	Plugin installed	\N		0	1586902604
+477	0	format_topics	\N	2018120300	Starting plugin installation	\N		0	1586902604
+478	0	format_topics	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+479	0	format_topics	2018120300	2018120300	Plugin installed	\N		0	1586902604
+480	0	format_weeks	\N	2018120300	Starting plugin installation	\N		0	1586902604
+481	0	format_weeks	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+482	0	format_weeks	2018120300	2018120300	Plugin installed	\N		0	1586902604
+483	0	dataformat_csv	\N	2018120300	Starting plugin installation	\N		0	1586902604
+484	0	dataformat_csv	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+485	0	dataformat_csv	2018120300	2018120300	Plugin installed	\N		0	1586902604
+486	0	dataformat_excel	\N	2018120300	Starting plugin installation	\N		0	1586902604
+487	0	dataformat_excel	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+488	0	dataformat_excel	2018120300	2018120300	Plugin installed	\N		0	1586902604
+489	0	dataformat_html	\N	2018120300	Starting plugin installation	\N		0	1586902604
+490	0	dataformat_html	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+491	0	dataformat_html	2018120300	2018120300	Plugin installed	\N		0	1586902604
+492	0	dataformat_json	\N	2018120300	Starting plugin installation	\N		0	1586902604
+493	0	dataformat_json	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+494	0	dataformat_json	2018120300	2018120300	Plugin installed	\N		0	1586902604
+495	0	dataformat_ods	\N	2018120300	Starting plugin installation	\N		0	1586902604
+496	0	dataformat_ods	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+497	0	dataformat_ods	2018120300	2018120300	Plugin installed	\N		0	1586902604
+498	0	profilefield_checkbox	\N	2018120300	Starting plugin installation	\N		0	1586902604
+499	0	profilefield_checkbox	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+500	0	profilefield_checkbox	2018120300	2018120300	Plugin installed	\N		0	1586902604
+501	0	profilefield_datetime	\N	2018120300	Starting plugin installation	\N		0	1586902604
+502	0	profilefield_datetime	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+503	0	profilefield_datetime	2018120300	2018120300	Plugin installed	\N		0	1586902604
+504	0	profilefield_menu	\N	2018120300	Starting plugin installation	\N		0	1586902604
+505	0	profilefield_menu	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+506	0	profilefield_menu	2018120300	2018120300	Plugin installed	\N		0	1586902604
+507	0	profilefield_text	\N	2018120300	Starting plugin installation	\N		0	1586902604
+508	0	profilefield_text	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+509	0	profilefield_text	2018120300	2018120300	Plugin installed	\N		0	1586902604
+510	0	profilefield_textarea	\N	2018120300	Starting plugin installation	\N		0	1586902604
+511	0	profilefield_textarea	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+512	0	profilefield_textarea	2018120300	2018120300	Plugin installed	\N		0	1586902604
+513	0	report_backups	\N	2018120300	Starting plugin installation	\N		0	1586902604
+514	0	report_backups	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+515	0	report_backups	2018120300	2018120300	Plugin installed	\N		0	1586902604
+516	0	report_benchmark	\N	2020022400	Starting plugin installation	\N		0	1586902604
+517	0	report_benchmark	2020022400	2020022400	Upgrade savepoint reached	\N		0	1586902604
+518	0	report_benchmark	2020022400	2020022400	Plugin installed	\N		0	1586902604
+519	0	report_competency	\N	2018120300	Starting plugin installation	\N		0	1586902604
+520	0	report_competency	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+521	0	report_competency	2018120300	2018120300	Plugin installed	\N		0	1586902604
+522	0	report_completion	\N	2018120300	Starting plugin installation	\N		0	1586902604
+523	0	report_completion	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+524	0	report_completion	2018120300	2018120300	Plugin installed	\N		0	1586902604
+525	0	report_configlog	\N	2018120300	Starting plugin installation	\N		0	1586902604
+526	0	report_configlog	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+527	0	report_configlog	2018120300	2018120300	Plugin installed	\N		0	1586902604
+528	0	report_courseoverview	\N	2018120300	Starting plugin installation	\N		0	1586902604
+529	0	report_courseoverview	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+530	0	report_courseoverview	2018120300	2018120300	Plugin installed	\N		0	1586902604
+531	0	report_eventlist	\N	2018120300	Starting plugin installation	\N		0	1586902604
+532	0	report_eventlist	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+533	0	report_eventlist	2018120300	2018120300	Plugin installed	\N		0	1586902604
+534	0	report_insights	\N	2018120300	Starting plugin installation	\N		0	1586902604
+535	0	report_insights	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+536	0	report_insights	2018120300	2018120300	Plugin installed	\N		0	1586902604
+537	0	report_log	\N	2018120300	Starting plugin installation	\N		0	1586902604
+538	0	report_log	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+539	0	report_log	2018120300	2018120300	Plugin installed	\N		0	1586902604
+540	0	report_loglive	\N	2018120300	Starting plugin installation	\N		0	1586902604
+541	0	report_loglive	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+542	0	report_loglive	2018120300	2018120300	Plugin installed	\N		0	1586902604
+543	0	report_outline	\N	2018120300	Starting plugin installation	\N		0	1586902604
+544	0	report_outline	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+545	0	report_outline	2018120300	2018120300	Plugin installed	\N		0	1586902604
+546	0	report_participation	\N	2018120300	Starting plugin installation	\N		0	1586902604
+547	0	report_participation	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902604
+548	0	report_participation	2018120300	2018120300	Plugin installed	\N		0	1586902605
+549	0	report_performance	\N	2018120300	Starting plugin installation	\N		0	1586902605
+550	0	report_performance	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+551	0	report_performance	2018120300	2018120300	Plugin installed	\N		0	1586902605
+552	0	report_progress	\N	2018120300	Starting plugin installation	\N		0	1586902605
+553	0	report_progress	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+554	0	report_progress	2018120300	2018120300	Plugin installed	\N		0	1586902605
+555	0	report_questioninstances	\N	2018120300	Starting plugin installation	\N		0	1586902605
+556	0	report_questioninstances	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+557	0	report_questioninstances	2018120300	2018120300	Plugin installed	\N		0	1586902605
+558	0	report_security	\N	2018120300	Starting plugin installation	\N		0	1586902605
+559	0	report_security	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+560	0	report_security	2018120300	2018120300	Plugin installed	\N		0	1586902605
+561	0	report_stats	\N	2018120300	Starting plugin installation	\N		0	1586902605
+562	0	report_stats	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+563	0	report_stats	2018120300	2018120300	Plugin installed	\N		0	1586902605
+564	0	report_usersessions	\N	2018120300	Starting plugin installation	\N		0	1586902605
+565	0	report_usersessions	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+566	0	report_usersessions	2018120300	2018120300	Plugin installed	\N		0	1586902605
+567	0	gradeexport_ods	\N	2018120300	Starting plugin installation	\N		0	1586902605
+568	0	gradeexport_ods	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+569	0	gradeexport_ods	2018120300	2018120300	Plugin installed	\N		0	1586902605
+570	0	gradeexport_txt	\N	2018120300	Starting plugin installation	\N		0	1586902605
+571	0	gradeexport_txt	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+572	0	gradeexport_txt	2018120300	2018120300	Plugin installed	\N		0	1586902605
+573	0	gradeexport_xls	\N	2018120300	Starting plugin installation	\N		0	1586902605
+574	0	gradeexport_xls	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+575	0	gradeexport_xls	2018120300	2018120300	Plugin installed	\N		0	1586902605
+576	0	gradeexport_xml	\N	2018120300	Starting plugin installation	\N		0	1586902605
+577	0	gradeexport_xml	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+578	0	gradeexport_xml	2018120300	2018120300	Plugin installed	\N		0	1586902605
+579	0	gradeimport_csv	\N	2018120300	Starting plugin installation	\N		0	1586902605
+580	0	gradeimport_csv	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+581	0	gradeimport_csv	2018120300	2018120300	Plugin installed	\N		0	1586902605
+582	0	gradeimport_direct	\N	2018120300	Starting plugin installation	\N		0	1586902605
+583	0	gradeimport_direct	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+584	0	gradeimport_direct	2018120300	2018120300	Plugin installed	\N		0	1586902605
+585	0	gradeimport_xml	\N	2018120300	Starting plugin installation	\N		0	1586902605
+586	0	gradeimport_xml	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+587	0	gradeimport_xml	2018120300	2018120300	Plugin installed	\N		0	1586902605
+588	0	gradereport_grader	\N	2018120300	Starting plugin installation	\N		0	1586902605
+589	0	gradereport_grader	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+590	0	gradereport_grader	2018120300	2018120300	Plugin installed	\N		0	1586902605
+591	0	gradereport_history	\N	2018120300	Starting plugin installation	\N		0	1586902605
+592	0	gradereport_history	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+593	0	gradereport_history	2018120300	2018120300	Plugin installed	\N		0	1586902605
+594	0	gradereport_outcomes	\N	2018120300	Starting plugin installation	\N		0	1586902605
+595	0	gradereport_outcomes	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+596	0	gradereport_outcomes	2018120300	2018120300	Plugin installed	\N		0	1586902605
+597	0	gradereport_overview	\N	2018120300	Starting plugin installation	\N		0	1586902605
+598	0	gradereport_overview	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+599	0	gradereport_overview	2018120300	2018120300	Plugin installed	\N		0	1586902605
+600	0	gradereport_singleview	\N	2018120300	Starting plugin installation	\N		0	1586902605
+601	0	gradereport_singleview	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+602	0	gradereport_singleview	2018120300	2018120300	Plugin installed	\N		0	1586902605
+603	0	gradereport_user	\N	2018120300	Starting plugin installation	\N		0	1586902605
+604	0	gradereport_user	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+605	0	gradereport_user	2018120300	2018120300	Plugin installed	\N		0	1586902605
+606	0	gradingform_guide	\N	2018120300	Starting plugin installation	\N		0	1586902605
+607	0	gradingform_guide	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+608	0	gradingform_guide	2018120300	2018120300	Plugin installed	\N		0	1586902605
+609	0	gradingform_rubric	\N	2018120300	Starting plugin installation	\N		0	1586902605
+610	0	gradingform_rubric	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902605
+611	0	gradingform_rubric	2018120300	2018120300	Plugin installed	\N		0	1586902606
+612	0	mlbackend_php	\N	2018120300	Starting plugin installation	\N		0	1586902606
+613	0	mlbackend_php	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+614	0	mlbackend_php	2018120300	2018120300	Plugin installed	\N		0	1586902606
+615	0	mlbackend_python	\N	2018120300	Starting plugin installation	\N		0	1586902606
+616	0	mlbackend_python	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+617	0	mlbackend_python	2018120300	2018120300	Plugin installed	\N		0	1586902606
+618	0	mnetservice_enrol	\N	2018120300	Starting plugin installation	\N		0	1586902606
+619	0	mnetservice_enrol	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+620	0	mnetservice_enrol	2018120300	2018120300	Plugin installed	\N		0	1586902606
+621	0	webservice_rest	\N	2018120300	Starting plugin installation	\N		0	1586902606
+622	0	webservice_rest	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+623	0	webservice_rest	2018120300	2018120300	Plugin installed	\N		0	1586902606
+624	0	webservice_soap	\N	2018120300	Starting plugin installation	\N		0	1586902606
+625	0	webservice_soap	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+626	0	webservice_soap	2018120300	2018120300	Plugin installed	\N		0	1586902606
+627	0	webservice_xmlrpc	\N	2018120300	Starting plugin installation	\N		0	1586902606
+628	0	webservice_xmlrpc	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+629	0	webservice_xmlrpc	2018120300	2018120300	Plugin installed	\N		0	1586902606
+630	0	repository_areafiles	\N	2018120300	Starting plugin installation	\N		0	1586902606
+631	0	repository_areafiles	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+632	0	repository_areafiles	2018120300	2018120300	Plugin installed	\N		0	1586902606
+633	0	repository_coursefiles	\N	2018120300	Starting plugin installation	\N		0	1586902606
+634	0	repository_coursefiles	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+635	0	repository_coursefiles	2018120300	2018120300	Plugin installed	\N		0	1586902606
+636	0	repository_equella	\N	2018120300	Starting plugin installation	\N		0	1586902606
+637	0	repository_equella	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+638	0	repository_equella	2018120300	2018120300	Plugin installed	\N		0	1586902606
+639	0	repository_filesystem	\N	2018120300	Starting plugin installation	\N		0	1586902606
+640	0	repository_filesystem	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+641	0	repository_filesystem	2018120300	2018120300	Plugin installed	\N		0	1586902606
+642	0	repository_local	\N	2018120300	Starting plugin installation	\N		0	1586902606
+643	0	repository_local	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+644	0	repository_local	2018120300	2018120300	Plugin installed	\N		0	1586902606
+645	0	repository_nextcloud	\N	2018120300	Starting plugin installation	\N		0	1586902606
+646	0	repository_nextcloud	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+647	0	repository_nextcloud	2018120300	2018120300	Plugin installed	\N		0	1586902606
+648	0	repository_recent	\N	2018120300	Starting plugin installation	\N		0	1586902606
+649	0	repository_recent	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+650	0	repository_recent	2018120300	2018120300	Plugin installed	\N		0	1586902606
+651	0	repository_s3	\N	2018120300	Starting plugin installation	\N		0	1586902606
+652	0	repository_s3	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+653	0	repository_s3	2018120300	2018120300	Plugin installed	\N		0	1586902606
+654	0	repository_upload	\N	2018120300	Starting plugin installation	\N		0	1586902606
+655	0	repository_upload	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+656	0	repository_upload	2018120300	2018120300	Plugin installed	\N		0	1586902606
+657	0	repository_url	\N	2018120300	Starting plugin installation	\N		0	1586902606
+658	0	repository_url	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+659	0	repository_url	2018120300	2018120300	Plugin installed	\N		0	1586902606
+660	0	repository_user	\N	2018120300	Starting plugin installation	\N		0	1586902606
+661	0	repository_user	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+662	0	repository_user	2018120300	2018120300	Plugin installed	\N		0	1586902606
+663	0	repository_webdav	\N	2018120300	Starting plugin installation	\N		0	1586902606
+664	0	repository_webdav	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+665	0	repository_webdav	2018120300	2018120300	Plugin installed	\N		0	1586902606
+666	0	repository_wikimedia	\N	2018120300	Starting plugin installation	\N		0	1586902606
+667	0	repository_wikimedia	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+668	0	repository_wikimedia	2018120300	2018120300	Plugin installed	\N		0	1586902606
+669	0	repository_youtube	\N	2018120300	Starting plugin installation	\N		0	1586902606
+670	0	repository_youtube	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+671	0	repository_youtube	2018120300	2018120300	Plugin installed	\N		0	1586902606
+672	0	portfolio_boxnet	\N	2018120300	Starting plugin installation	\N		0	1586902606
+673	0	portfolio_boxnet	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+674	0	portfolio_boxnet	2018120300	2018120300	Plugin installed	\N		0	1586902606
+675	0	portfolio_download	\N	2018120300	Starting plugin installation	\N		0	1586902606
+676	0	portfolio_download	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+677	0	portfolio_download	2018120300	2018120300	Plugin installed	\N		0	1586902606
+678	0	portfolio_flickr	\N	2018120300	Starting plugin installation	\N		0	1586902606
+679	0	portfolio_flickr	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+680	0	portfolio_flickr	2018120300	2018120300	Plugin installed	\N		0	1586902606
+681	0	portfolio_googledocs	\N	2018120300	Starting plugin installation	\N		0	1586902606
+682	0	portfolio_googledocs	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+683	0	portfolio_googledocs	2018120300	2018120300	Plugin installed	\N		0	1586902606
+684	0	portfolio_mahara	\N	2018120300	Starting plugin installation	\N		0	1586902606
+685	0	portfolio_mahara	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902606
+686	0	portfolio_mahara	2018120300	2018120300	Plugin installed	\N		0	1586902606
+687	0	portfolio_picasa	\N	2018120300	Starting plugin installation	\N		0	1586902606
+688	0	portfolio_picasa	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+689	0	portfolio_picasa	2018120300	2018120300	Plugin installed	\N		0	1586902607
+690	0	search_simpledb	\N	2018120300	Starting plugin installation	\N		0	1586902607
+691	0	search_simpledb	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+692	0	search_simpledb	2018120300	2018120300	Plugin installed	\N		0	1586902607
+693	0	search_solr	\N	2018120300	Starting plugin installation	\N		0	1586902607
+694	0	search_solr	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+695	0	search_solr	2018120300	2018120300	Plugin installed	\N		0	1586902607
+696	0	qbehaviour_adaptive	\N	2018120300	Starting plugin installation	\N		0	1586902607
+697	0	qbehaviour_adaptive	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+698	0	qbehaviour_adaptive	2018120300	2018120300	Plugin installed	\N		0	1586902607
+699	0	qbehaviour_adaptivenopenalty	\N	2018120300	Starting plugin installation	\N		0	1586902607
+700	0	qbehaviour_adaptivenopenalty	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+701	0	qbehaviour_adaptivenopenalty	2018120300	2018120300	Plugin installed	\N		0	1586902607
+702	0	qbehaviour_deferredcbm	\N	2018120300	Starting plugin installation	\N		0	1586902607
+703	0	qbehaviour_deferredcbm	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+704	0	qbehaviour_deferredcbm	2018120300	2018120300	Plugin installed	\N		0	1586902607
+705	0	qbehaviour_deferredfeedback	\N	2018120300	Starting plugin installation	\N		0	1586902607
+706	0	qbehaviour_deferredfeedback	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+707	0	qbehaviour_deferredfeedback	2018120300	2018120300	Plugin installed	\N		0	1586902607
+708	0	qbehaviour_immediatecbm	\N	2018120300	Starting plugin installation	\N		0	1586902607
+709	0	qbehaviour_immediatecbm	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+710	0	qbehaviour_immediatecbm	2018120300	2018120300	Plugin installed	\N		0	1586902607
+711	0	qbehaviour_immediatefeedback	\N	2018120300	Starting plugin installation	\N		0	1586902607
+712	0	qbehaviour_immediatefeedback	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+713	0	qbehaviour_immediatefeedback	2018120300	2018120300	Plugin installed	\N		0	1586902607
+714	0	qbehaviour_informationitem	\N	2018120300	Starting plugin installation	\N		0	1586902607
+715	0	qbehaviour_informationitem	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+716	0	qbehaviour_informationitem	2018120300	2018120300	Plugin installed	\N		0	1586902607
+717	0	qbehaviour_interactive	\N	2018120300	Starting plugin installation	\N		0	1586902607
+718	0	qbehaviour_interactive	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+719	0	qbehaviour_interactive	2018120300	2018120300	Plugin installed	\N		0	1586902607
+720	0	qbehaviour_interactivecountback	\N	2018120300	Starting plugin installation	\N		0	1586902607
+721	0	qbehaviour_interactivecountback	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+722	0	qbehaviour_interactivecountback	2018120300	2018120300	Plugin installed	\N		0	1586902607
+723	0	qbehaviour_manualgraded	\N	2018120300	Starting plugin installation	\N		0	1586902607
+724	0	qbehaviour_manualgraded	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+725	0	qbehaviour_manualgraded	2018120300	2018120300	Plugin installed	\N		0	1586902607
+726	0	qbehaviour_missing	\N	2018120300	Starting plugin installation	\N		0	1586902607
+727	0	qbehaviour_missing	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+728	0	qbehaviour_missing	2018120300	2018120300	Plugin installed	\N		0	1586902607
+729	0	qformat_aiken	\N	2018120300	Starting plugin installation	\N		0	1586902607
+730	0	qformat_aiken	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+731	0	qformat_aiken	2018120300	2018120300	Plugin installed	\N		0	1586902607
+732	0	qformat_blackboard_six	\N	2018120300	Starting plugin installation	\N		0	1586902607
+733	0	qformat_blackboard_six	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+734	0	qformat_blackboard_six	2018120300	2018120300	Plugin installed	\N		0	1586902607
+735	0	qformat_examview	\N	2018120300	Starting plugin installation	\N		0	1586902607
+736	0	qformat_examview	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+737	0	qformat_examview	2018120300	2018120300	Plugin installed	\N		0	1586902607
+738	0	qformat_gift	\N	2018120300	Starting plugin installation	\N		0	1586902607
+739	0	qformat_gift	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+740	0	qformat_gift	2018120300	2018120300	Plugin installed	\N		0	1586902607
+741	0	qformat_missingword	\N	2018120300	Starting plugin installation	\N		0	1586902607
+742	0	qformat_missingword	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+743	0	qformat_missingword	2018120300	2018120300	Plugin installed	\N		0	1586902607
+744	0	qformat_multianswer	\N	2018120300	Starting plugin installation	\N		0	1586902607
+745	0	qformat_multianswer	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+746	0	qformat_multianswer	2018120300	2018120300	Plugin installed	\N		0	1586902607
+747	0	qformat_webct	\N	2018120300	Starting plugin installation	\N		0	1586902607
+748	0	qformat_webct	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+749	0	qformat_webct	2018120300	2018120300	Plugin installed	\N		0	1586902607
+750	0	qformat_xhtml	\N	2018120300	Starting plugin installation	\N		0	1586902607
+751	0	qformat_xhtml	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+752	0	qformat_xhtml	2018120300	2018120300	Plugin installed	\N		0	1586902607
+753	0	qformat_xml	\N	2018120300	Starting plugin installation	\N		0	1586902607
+754	0	qformat_xml	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+755	0	qformat_xml	2018120300	2018120300	Plugin installed	\N		0	1586902607
+756	0	tool_analytics	\N	2018120300	Starting plugin installation	\N		0	1586902607
+757	0	tool_analytics	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+758	0	tool_analytics	2018120300	2018120300	Plugin installed	\N		0	1586902607
+759	0	tool_availabilityconditions	\N	2018120300	Starting plugin installation	\N		0	1586902607
+760	0	tool_availabilityconditions	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+761	0	tool_availabilityconditions	2018120300	2018120300	Plugin installed	\N		0	1586902607
+762	0	tool_behat	\N	2018120300	Starting plugin installation	\N		0	1586902607
+763	0	tool_behat	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+764	0	tool_behat	2018120300	2018120300	Plugin installed	\N		0	1586902607
+765	0	tool_capability	\N	2018120300	Starting plugin installation	\N		0	1586902607
+766	0	tool_capability	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+767	0	tool_capability	2018120300	2018120300	Plugin installed	\N		0	1586902607
+768	0	tool_cohortroles	\N	2018120300	Starting plugin installation	\N		0	1586902607
+769	0	tool_cohortroles	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+770	0	tool_cohortroles	2018120300	2018120300	Plugin installed	\N		0	1586902607
+771	0	tool_customlang	\N	2018120300	Starting plugin installation	\N		0	1586902607
+772	0	tool_customlang	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+773	0	tool_customlang	2018120300	2018120300	Plugin installed	\N		0	1586902607
+774	0	tool_dataprivacy	\N	2018120300	Starting plugin installation	\N		0	1586902607
+775	0	tool_dataprivacy	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+776	0	tool_dataprivacy	2018120300	2018120300	Plugin installed	\N		0	1586902607
+777	0	tool_dbtransfer	\N	2018120300	Starting plugin installation	\N		0	1586902607
+778	0	tool_dbtransfer	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+779	0	tool_dbtransfer	2018120300	2018120300	Plugin installed	\N		0	1586902607
+780	0	tool_filetypes	\N	2018120300	Starting plugin installation	\N		0	1586902607
+781	0	tool_filetypes	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902607
+782	0	tool_filetypes	2018120300	2018120300	Plugin installed	\N		0	1586902608
+783	0	tool_generator	\N	2018120300	Starting plugin installation	\N		0	1586902608
+784	0	tool_generator	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+785	0	tool_generator	2018120300	2018120300	Plugin installed	\N		0	1586902608
+786	0	tool_health	\N	2018120300	Starting plugin installation	\N		0	1586902608
+787	0	tool_health	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+788	0	tool_health	2018120300	2018120300	Plugin installed	\N		0	1586902608
+789	0	tool_httpsreplace	\N	2018120300	Starting plugin installation	\N		0	1586902608
+790	0	tool_httpsreplace	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+791	0	tool_httpsreplace	2018120300	2018120300	Plugin installed	\N		0	1586902608
+792	0	tool_innodb	\N	2018120300	Starting plugin installation	\N		0	1586902608
+793	0	tool_innodb	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+794	0	tool_innodb	2018120300	2018120300	Plugin installed	\N		0	1586902608
+795	0	tool_installaddon	\N	2018120300	Starting plugin installation	\N		0	1586902608
+796	0	tool_installaddon	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+797	0	tool_installaddon	2018120300	2018120300	Plugin installed	\N		0	1586902608
+798	0	tool_langimport	\N	2018120300	Starting plugin installation	\N		0	1586902608
+799	0	tool_langimport	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+800	0	tool_langimport	2018120300	2018120300	Plugin installed	\N		0	1586902608
+801	0	tool_log	\N	2018120300	Starting plugin installation	\N		0	1586902608
+802	0	tool_log	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+803	0	tool_log	2018120300	2018120300	Plugin installed	\N		0	1586902608
+804	0	tool_lp	\N	2018120300	Starting plugin installation	\N		0	1586902608
+805	0	tool_lp	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+806	0	tool_lp	2018120300	2018120300	Plugin installed	\N		0	1586902608
+807	0	tool_lpimportcsv	\N	2018120300	Starting plugin installation	\N		0	1586902608
+808	0	tool_lpimportcsv	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+809	0	tool_lpimportcsv	2018120300	2018120300	Plugin installed	\N		0	1586902608
+810	0	tool_lpmigrate	\N	2018120300	Starting plugin installation	\N		0	1586902608
+811	0	tool_lpmigrate	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+812	0	tool_lpmigrate	2018120300	2018120300	Plugin installed	\N		0	1586902608
+813	0	tool_messageinbound	\N	2018120300	Starting plugin installation	\N		0	1586902608
+814	0	tool_messageinbound	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+815	0	tool_messageinbound	2018120300	2018120300	Plugin installed	\N		0	1586902608
+816	0	tool_mobile	\N	2018120300	Starting plugin installation	\N		0	1586902608
+817	0	tool_mobile	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+818	0	tool_mobile	2018120300	2018120300	Plugin installed	\N		0	1586902608
+819	0	tool_monitor	\N	2018120300	Starting plugin installation	\N		0	1586902608
+820	0	tool_monitor	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+821	0	tool_monitor	2018120300	2018120300	Plugin installed	\N		0	1586902608
+822	0	tool_multilangupgrade	\N	2018120300	Starting plugin installation	\N		0	1586902608
+823	0	tool_multilangupgrade	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+824	0	tool_multilangupgrade	2018120300	2018120300	Plugin installed	\N		0	1586902608
+825	0	tool_oauth2	\N	2018120300	Starting plugin installation	\N		0	1586902608
+826	0	tool_oauth2	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+827	0	tool_oauth2	2018120300	2018120300	Plugin installed	\N		0	1586902608
+828	0	tool_oauth2owncloud	\N	2017032700	Starting plugin installation	\N		0	1586902608
+829	0	tool_oauth2owncloud	2017032700	2017032700	Upgrade savepoint reached	\N		0	1586902608
+830	0	tool_oauth2owncloud	2017032700	2017032700	Plugin installed	\N		0	1586902608
+831	0	tool_opcache	\N	2019050500	Starting plugin installation	\N		0	1586902608
+832	0	tool_opcache	2019050500	2019050500	Upgrade savepoint reached	\N		0	1586902608
+833	0	tool_opcache	2019050500	2019050500	Plugin installed	\N		0	1586902608
+834	0	tool_phpunit	\N	2018120300	Starting plugin installation	\N		0	1586902608
+835	0	tool_phpunit	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+836	0	tool_phpunit	2018120300	2018120300	Plugin installed	\N		0	1586902608
+837	0	tool_policy	\N	2018120300	Starting plugin installation	\N		0	1586902608
+838	0	tool_policy	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+839	0	tool_policy	2018120300	2018120300	Plugin installed	\N		0	1586902608
+840	0	tool_profiling	\N	2018120300	Starting plugin installation	\N		0	1586902608
+841	0	tool_profiling	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+842	0	tool_profiling	2018120300	2018120300	Plugin installed	\N		0	1586902608
+843	0	tool_recyclebin	\N	2018120300	Starting plugin installation	\N		0	1586902608
+844	0	tool_recyclebin	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+845	0	tool_recyclebin	2018120300	2018120300	Plugin installed	\N		0	1586902608
+846	0	tool_replace	\N	2018120300	Starting plugin installation	\N		0	1586902608
+847	0	tool_replace	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+848	0	tool_replace	2018120300	2018120300	Plugin installed	\N		0	1586902608
+849	0	tool_spamcleaner	\N	2018120300	Starting plugin installation	\N		0	1586902608
+850	0	tool_spamcleaner	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+851	0	tool_spamcleaner	2018120300	2018120300	Plugin installed	\N		0	1586902608
+852	0	tool_task	\N	2018120300	Starting plugin installation	\N		0	1586902608
+853	0	tool_task	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+854	0	tool_task	2018120300	2018120300	Plugin installed	\N		0	1586902608
+855	0	tool_templatelibrary	\N	2018120300	Starting plugin installation	\N		0	1586902608
+856	0	tool_templatelibrary	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+857	0	tool_templatelibrary	2018120300	2018120300	Plugin installed	\N		0	1586902608
+858	0	tool_unsuproles	\N	2018120300	Starting plugin installation	\N		0	1586902608
+859	0	tool_unsuproles	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+860	0	tool_unsuproles	2018120300	2018120300	Plugin installed	\N		0	1586902608
+861	0	tool_uploadcourse	\N	2018120300	Starting plugin installation	\N		0	1586902608
+862	0	tool_uploadcourse	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902608
+863	0	tool_uploadcourse	2018120300	2018120300	Plugin installed	\N		0	1586902609
+864	0	tool_uploaduser	\N	2018120300	Starting plugin installation	\N		0	1586902609
+865	0	tool_uploaduser	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+866	0	tool_uploaduser	2018120300	2018120300	Plugin installed	\N		0	1586902609
+867	0	tool_usertours	\N	2018120301	Starting plugin installation	\N		0	1586902609
+868	0	tool_usertours	2018120301	2018120301	Upgrade savepoint reached	\N		0	1586902609
+869	0	tool_usertours	2018120301	2018120301	Plugin installed	\N		0	1586902609
+870	0	tool_webanalytics	\N	2019030700	Starting plugin installation	\N		0	1586902609
+871	0	tool_webanalytics	2019030700	2019030700	Upgrade savepoint reached	\N		0	1586902609
+872	0	tool_webanalytics	2019030700	2019030700	Plugin installed	\N		0	1586902609
+873	0	tool_xmldb	\N	2018120300	Starting plugin installation	\N		0	1586902609
+874	0	tool_xmldb	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+875	0	tool_xmldb	2018120300	2018120300	Plugin installed	\N		0	1586902609
+876	0	cachestore_apcu	\N	2018120300	Starting plugin installation	\N		0	1586902609
+877	0	cachestore_apcu	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+878	0	cachestore_apcu	2018120300	2018120300	Plugin installed	\N		0	1586902609
+879	0	cachestore_file	\N	2018120300	Starting plugin installation	\N		0	1586902609
+880	0	cachestore_file	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+881	0	cachestore_file	2018120300	2018120300	Plugin installed	\N		0	1586902609
+882	0	cachestore_memcached	\N	2018120300	Starting plugin installation	\N		0	1586902609
+883	0	cachestore_memcached	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+884	0	cachestore_memcached	2018120300	2018120300	Plugin installed	\N		0	1586902609
+885	0	cachestore_mongodb	\N	2018120300	Starting plugin installation	\N		0	1586902609
+886	0	cachestore_mongodb	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+887	0	cachestore_mongodb	2018120300	2018120300	Plugin installed	\N		0	1586902609
+888	0	cachestore_redis	\N	2018120300	Starting plugin installation	\N		0	1586902609
+889	0	cachestore_redis	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+890	0	cachestore_redis	2018120300	2018120300	Plugin installed	\N		0	1586902609
+891	0	cachestore_session	\N	2018120300	Starting plugin installation	\N		0	1586902609
+892	0	cachestore_session	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+893	0	cachestore_session	2018120300	2018120300	Plugin installed	\N		0	1586902609
+894	0	cachestore_static	\N	2018120300	Starting plugin installation	\N		0	1586902609
+895	0	cachestore_static	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+896	0	cachestore_static	2018120300	2018120300	Plugin installed	\N		0	1586902609
+897	0	cachelock_file	\N	2018120300	Starting plugin installation	\N		0	1586902609
+898	0	cachelock_file	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+899	0	cachelock_file	2018120300	2018120300	Plugin installed	\N		0	1586902609
+900	0	fileconverter_googledrive	\N	2018120300	Starting plugin installation	\N		0	1586902609
+901	0	fileconverter_googledrive	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+902	0	fileconverter_googledrive	2018120300	2018120300	Plugin installed	\N		0	1586902609
+903	0	fileconverter_unoconv	\N	2018120300	Starting plugin installation	\N		0	1586902609
+904	0	fileconverter_unoconv	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+905	0	fileconverter_unoconv	2018120300	2018120300	Plugin installed	\N		0	1586902609
+906	0	theme_academi	\N	2019012601	Starting plugin installation	\N		0	1586902609
+907	0	theme_academi	2019012601	2019012601	Upgrade savepoint reached	\N		0	1586902609
+908	0	theme_academi	2019012601	2019012601	Plugin installed	\N		0	1586902609
+909	0	theme_boost	\N	2018120300	Starting plugin installation	\N		0	1586902609
+910	0	theme_boost	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+911	0	theme_boost	2018120300	2018120300	Plugin installed	\N		0	1586902609
+912	0	theme_bootstrapbase	\N	2018120300	Starting plugin installation	\N		0	1586902609
+913	0	theme_bootstrapbase	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+914	0	theme_bootstrapbase	2018120300	2018120300	Plugin installed	\N		0	1586902609
+915	0	theme_clean	\N	2018120300	Starting plugin installation	\N		0	1586902609
+916	0	theme_clean	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+917	0	theme_clean	2018120300	2018120300	Plugin installed	\N		0	1586902609
+918	0	theme_essential	\N	2018121704	Starting plugin installation	\N		0	1586902609
+919	0	theme_essential	2018121704	2018121704	Upgrade savepoint reached	\N		0	1586902609
+920	0	theme_essential	2018121704	2018121704	Plugin installed	\N		0	1586902609
+921	0	theme_fordson	\N	2019111003	Starting plugin installation	\N		0	1586902609
+922	0	theme_fordson	2019111003	2019111003	Upgrade savepoint reached	\N		0	1586902609
+923	0	theme_fordson	2019111003	2019111003	Plugin installed	\N		0	1586902609
+924	0	theme_klass	\N	2019012601	Starting plugin installation	\N		0	1586902609
+925	0	theme_klass	2019012601	2019012601	Upgrade savepoint reached	\N		0	1586902609
+926	0	theme_klass	2019012601	2019012601	Plugin installed	\N		0	1586902609
+927	0	theme_more	\N	2018120300	Starting plugin installation	\N		0	1586902609
+928	0	theme_more	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+929	0	theme_more	2018120300	2018120300	Plugin installed	\N		0	1586902609
+930	0	assignsubmission_comments	\N	2018120300	Starting plugin installation	\N		0	1586902609
+931	0	assignsubmission_comments	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+932	0	assignsubmission_comments	2018120300	2018120300	Plugin installed	\N		0	1586902609
+933	0	assignsubmission_file	\N	2018120300	Starting plugin installation	\N		0	1586902609
+934	0	assignsubmission_file	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+935	0	assignsubmission_file	2018120300	2018120300	Plugin installed	\N		0	1586902609
+936	0	assignsubmission_onlinetext	\N	2018120300	Starting plugin installation	\N		0	1586902609
+937	0	assignsubmission_onlinetext	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+938	0	assignsubmission_onlinetext	2018120300	2018120300	Plugin installed	\N		0	1586902609
+939	0	assignfeedback_comments	\N	2018120300	Starting plugin installation	\N		0	1586902609
+940	0	assignfeedback_comments	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+941	0	assignfeedback_comments	2018120300	2018120300	Plugin installed	\N		0	1586902609
+942	0	assignfeedback_editpdf	\N	2018120300	Starting plugin installation	\N		0	1586902609
+943	0	assignfeedback_editpdf	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902609
+944	0	assignfeedback_editpdf	2018120300	2018120300	Plugin installed	\N		0	1586902610
+945	0	assignfeedback_file	\N	2018120300	Starting plugin installation	\N		0	1586902610
+946	0	assignfeedback_file	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+947	0	assignfeedback_file	2018120300	2018120300	Plugin installed	\N		0	1586902610
+948	0	assignfeedback_offline	\N	2018120300	Starting plugin installation	\N		0	1586902610
+949	0	assignfeedback_offline	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+950	0	assignfeedback_offline	2018120300	2018120300	Plugin installed	\N		0	1586902610
+951	0	assignment_offline	\N	2018120300	Starting plugin installation	\N		0	1586902610
+952	0	assignment_offline	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+953	0	assignment_offline	2018120300	2018120300	Plugin installed	\N		0	1586902610
+954	0	assignment_online	\N	2018120300	Starting plugin installation	\N		0	1586902610
+955	0	assignment_online	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+956	0	assignment_online	2018120300	2018120300	Plugin installed	\N		0	1586902610
+957	0	assignment_upload	\N	2018120300	Starting plugin installation	\N		0	1586902610
+958	0	assignment_upload	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+959	0	assignment_upload	2018120300	2018120300	Plugin installed	\N		0	1586902610
+960	0	assignment_uploadsingle	\N	2018120300	Starting plugin installation	\N		0	1586902610
+961	0	assignment_uploadsingle	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+962	0	assignment_uploadsingle	2018120300	2018120300	Plugin installed	\N		0	1586902610
+963	0	booktool_exportimscp	\N	2018120300	Starting plugin installation	\N		0	1586902610
+964	0	booktool_exportimscp	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+965	0	booktool_exportimscp	2018120300	2018120300	Plugin installed	\N		0	1586902610
+966	0	booktool_importhtml	\N	2018120300	Starting plugin installation	\N		0	1586902610
+967	0	booktool_importhtml	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+968	0	booktool_importhtml	2018120300	2018120300	Plugin installed	\N		0	1586902610
+969	0	booktool_print	\N	2018120300	Starting plugin installation	\N		0	1586902610
+970	0	booktool_print	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+971	0	booktool_print	2018120300	2018120300	Plugin installed	\N		0	1586902610
+972	0	datafield_checkbox	\N	2018120300	Starting plugin installation	\N		0	1586902610
+973	0	datafield_checkbox	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+974	0	datafield_checkbox	2018120300	2018120300	Plugin installed	\N		0	1586902610
+975	0	datafield_date	\N	2018120300	Starting plugin installation	\N		0	1586902610
+976	0	datafield_date	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+977	0	datafield_date	2018120300	2018120300	Plugin installed	\N		0	1586902610
+978	0	datafield_file	\N	2018120300	Starting plugin installation	\N		0	1586902610
+979	0	datafield_file	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+980	0	datafield_file	2018120300	2018120300	Plugin installed	\N		0	1586902610
+981	0	datafield_latlong	\N	2018120300	Starting plugin installation	\N		0	1586902610
+982	0	datafield_latlong	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+983	0	datafield_latlong	2018120300	2018120300	Plugin installed	\N		0	1586902610
+984	0	datafield_menu	\N	2018120300	Starting plugin installation	\N		0	1586902610
+985	0	datafield_menu	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+986	0	datafield_menu	2018120300	2018120300	Plugin installed	\N		0	1586902610
+987	0	datafield_multimenu	\N	2018120300	Starting plugin installation	\N		0	1586902610
+988	0	datafield_multimenu	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+989	0	datafield_multimenu	2018120300	2018120300	Plugin installed	\N		0	1586902610
+990	0	datafield_number	\N	2018120300	Starting plugin installation	\N		0	1586902610
+991	0	datafield_number	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+992	0	datafield_number	2018120300	2018120300	Plugin installed	\N		0	1586902610
+993	0	datafield_picture	\N	2018120300	Starting plugin installation	\N		0	1586902610
+994	0	datafield_picture	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+995	0	datafield_picture	2018120300	2018120300	Plugin installed	\N		0	1586902610
+996	0	datafield_radiobutton	\N	2018120300	Starting plugin installation	\N		0	1586902610
+997	0	datafield_radiobutton	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+998	0	datafield_radiobutton	2018120300	2018120300	Plugin installed	\N		0	1586902610
+999	0	datafield_text	\N	2018120300	Starting plugin installation	\N		0	1586902610
+1000	0	datafield_text	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+1001	0	datafield_text	2018120300	2018120300	Plugin installed	\N		0	1586902610
+1002	0	datafield_textarea	\N	2018120300	Starting plugin installation	\N		0	1586902610
+1003	0	datafield_textarea	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+1004	0	datafield_textarea	2018120300	2018120300	Plugin installed	\N		0	1586902610
+1005	0	datafield_url	\N	2018120300	Starting plugin installation	\N		0	1586902610
+1006	0	datafield_url	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+1007	0	datafield_url	2018120300	2018120300	Plugin installed	\N		0	1586902610
+1008	0	datapreset_imagegallery	\N	2018120300	Starting plugin installation	\N		0	1586902610
+1009	0	datapreset_imagegallery	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902610
+1010	0	datapreset_imagegallery	2018120300	2018120300	Plugin installed	\N		0	1586902610
+1011	0	hotpotattempt_hp	\N	2010112400	Starting plugin installation	\N		0	1586902610
+1012	0	hotpotattempt_hp	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586902610
+1013	0	hotpotattempt_hp	2010112400	2010112400	Plugin installed	\N		0	1586902610
+1014	0	hotpotattempt_html	\N	2010112400	Starting plugin installation	\N		0	1586902610
+1015	0	hotpotattempt_html	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586902610
+1016	0	hotpotattempt_html	2010112400	2010112400	Plugin installed	\N		0	1586902610
+1017	0	hotpotattempt_qedoc	\N	2010112400	Starting plugin installation	\N		0	1586902610
+1018	0	hotpotattempt_qedoc	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586902610
+1019	0	hotpotattempt_qedoc	2010112400	2010112400	Plugin installed	\N		0	1586902610
+1020	0	hotpotsource_hp	\N	2010112400	Starting plugin installation	\N		0	1586902610
+1021	0	hotpotsource_hp	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586902610
+1022	0	hotpotsource_hp	2010112400	2010112400	Plugin installed	\N		0	1586902610
+1023	0	hotpotsource_html	\N	2010112400	Starting plugin installation	\N		0	1586902610
+1024	0	hotpotsource_html	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586902610
+1025	0	hotpotsource_html	2010112400	2010112400	Plugin installed	\N		0	1586902610
+1026	0	hotpotsource_qedoc	\N	2010112400	Starting plugin installation	\N		0	1586902610
+1027	0	hotpotsource_qedoc	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586902610
+1028	0	hotpotsource_qedoc	2010112400	2010112400	Plugin installed	\N		0	1586902610
+1029	0	hotpotreport_analysis	\N	2010112400	Starting plugin installation	\N		0	1586902610
+1030	0	hotpotreport_analysis	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586902610
+1031	0	hotpotreport_analysis	2010112400	2010112400	Plugin installed	\N		0	1586902610
+1032	0	hotpotreport_clicktrail	\N	2010112400	Starting plugin installation	\N		0	1586902610
+1033	0	hotpotreport_clicktrail	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586902610
+1034	0	hotpotreport_clicktrail	2010112400	2010112400	Plugin installed	\N		0	1586902610
+1035	0	hotpotreport_overview	\N	2010112400	Starting plugin installation	\N		0	1586902610
+1036	0	hotpotreport_overview	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586902610
+1037	0	hotpotreport_overview	2010112400	2010112400	Plugin installed	\N		0	1586902610
+1038	0	hotpotreport_responses	\N	2010112400	Starting plugin installation	\N		0	1586902610
+1039	0	hotpotreport_responses	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586902610
+1040	0	hotpotreport_responses	2010112400	2010112400	Plugin installed	\N		0	1586902610
+1041	0	hotpotreport_scores	\N	2010112400	Starting plugin installation	\N		0	1586902610
+1042	0	hotpotreport_scores	2010112400	2010112400	Upgrade savepoint reached	\N		0	1586902610
+1043	0	hotpotreport_scores	2010112400	2010112400	Plugin installed	\N		0	1586902610
+1044	0	ltiservice_gradebookservices	\N	2018120300	Starting plugin installation	\N		0	1586902610
+1045	0	ltiservice_gradebookservices	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1046	0	ltiservice_gradebookservices	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1047	0	ltiservice_memberships	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1048	0	ltiservice_memberships	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1049	0	ltiservice_memberships	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1050	0	ltiservice_profile	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1051	0	ltiservice_profile	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1052	0	ltiservice_profile	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1053	0	ltiservice_toolproxy	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1054	0	ltiservice_toolproxy	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1055	0	ltiservice_toolproxy	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1056	0	ltiservice_toolsettings	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1057	0	ltiservice_toolsettings	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1058	0	ltiservice_toolsettings	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1059	0	quiz_grading	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1060	0	quiz_grading	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1061	0	quiz_grading	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1062	0	quiz_overview	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1063	0	quiz_overview	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1064	0	quiz_overview	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1065	0	quiz_responses	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1066	0	quiz_responses	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1067	0	quiz_responses	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1068	0	quiz_statistics	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1069	0	quiz_statistics	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1070	0	quiz_statistics	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1071	0	quizaccess_delaybetweenattempts	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1072	0	quizaccess_delaybetweenattempts	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1073	0	quizaccess_delaybetweenattempts	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1074	0	quizaccess_ipaddress	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1075	0	quizaccess_ipaddress	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1076	0	quizaccess_ipaddress	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1077	0	quizaccess_numattempts	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1078	0	quizaccess_numattempts	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1079	0	quizaccess_numattempts	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1080	0	quizaccess_offlineattempts	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1081	0	quizaccess_offlineattempts	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1082	0	quizaccess_offlineattempts	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1083	0	quizaccess_openclosedate	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1084	0	quizaccess_openclosedate	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1085	0	quizaccess_openclosedate	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1086	0	quizaccess_password	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1087	0	quizaccess_password	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1088	0	quizaccess_password	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1089	0	quizaccess_safebrowser	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1090	0	quizaccess_safebrowser	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1091	0	quizaccess_safebrowser	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1092	0	quizaccess_securewindow	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1093	0	quizaccess_securewindow	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1094	0	quizaccess_securewindow	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1095	0	quizaccess_timelimit	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1096	0	quizaccess_timelimit	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1097	0	quizaccess_timelimit	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1098	0	scormreport_basic	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1099	0	scormreport_basic	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1100	0	scormreport_basic	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1101	0	scormreport_graphs	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1102	0	scormreport_graphs	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1103	0	scormreport_graphs	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1104	0	scormreport_interactions	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1105	0	scormreport_interactions	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1106	0	scormreport_interactions	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1107	0	scormreport_objectives	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1108	0	scormreport_objectives	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1109	0	scormreport_objectives	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1110	0	workshopform_accumulative	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1111	0	workshopform_accumulative	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1112	0	workshopform_accumulative	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1113	0	workshopform_comments	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1114	0	workshopform_comments	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1115	0	workshopform_comments	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1116	0	workshopform_numerrors	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1117	0	workshopform_numerrors	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1118	0	workshopform_numerrors	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1119	0	workshopform_rubric	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1120	0	workshopform_rubric	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1121	0	workshopform_rubric	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1122	0	workshopallocation_manual	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1123	0	workshopallocation_manual	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1124	0	workshopallocation_manual	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1125	0	workshopallocation_random	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1126	0	workshopallocation_random	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1127	0	workshopallocation_random	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1128	0	workshopallocation_scheduled	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1129	0	workshopallocation_scheduled	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1130	0	workshopallocation_scheduled	2018120300	2018120300	Plugin installed	\N		0	1586902611
+1131	0	workshopeval_best	\N	2018120300	Starting plugin installation	\N		0	1586902611
+1132	0	workshopeval_best	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902611
+1133	0	workshopeval_best	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1134	0	atto_accessibilitychecker	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1135	0	atto_accessibilitychecker	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1136	0	atto_accessibilitychecker	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1137	0	atto_accessibilityhelper	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1138	0	atto_accessibilityhelper	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1139	0	atto_accessibilityhelper	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1140	0	atto_align	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1141	0	atto_align	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1142	0	atto_align	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1143	0	atto_backcolor	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1144	0	atto_backcolor	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1145	0	atto_backcolor	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1146	0	atto_bold	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1147	0	atto_bold	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1148	0	atto_bold	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1149	0	atto_charmap	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1150	0	atto_charmap	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1151	0	atto_charmap	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1152	0	atto_clear	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1153	0	atto_clear	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1154	0	atto_clear	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1155	0	atto_collapse	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1156	0	atto_collapse	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1157	0	atto_collapse	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1158	0	atto_emoticon	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1159	0	atto_emoticon	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1160	0	atto_emoticon	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1161	0	atto_equation	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1162	0	atto_equation	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1163	0	atto_equation	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1164	0	atto_fontcolor	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1165	0	atto_fontcolor	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1166	0	atto_fontcolor	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1167	0	atto_html	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1168	0	atto_html	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1169	0	atto_html	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1170	0	atto_image	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1171	0	atto_image	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1172	0	atto_image	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1173	0	atto_indent	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1174	0	atto_indent	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1175	0	atto_indent	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1176	0	atto_italic	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1177	0	atto_italic	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1178	0	atto_italic	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1179	0	atto_link	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1180	0	atto_link	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1181	0	atto_link	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1182	0	atto_managefiles	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1183	0	atto_managefiles	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1184	0	atto_managefiles	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1185	0	atto_media	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1186	0	atto_media	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1187	0	atto_media	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1188	0	atto_noautolink	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1189	0	atto_noautolink	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1190	0	atto_noautolink	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1191	0	atto_orderedlist	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1192	0	atto_orderedlist	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1193	0	atto_orderedlist	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1194	0	atto_recordrtc	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1195	0	atto_recordrtc	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1196	0	atto_recordrtc	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1197	0	atto_rtl	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1198	0	atto_rtl	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1199	0	atto_rtl	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1200	0	atto_strike	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1201	0	atto_strike	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1202	0	atto_strike	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1203	0	atto_subscript	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1204	0	atto_subscript	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1205	0	atto_subscript	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1206	0	atto_superscript	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1207	0	atto_superscript	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1208	0	atto_superscript	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1209	0	atto_table	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1210	0	atto_table	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1211	0	atto_table	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1212	0	atto_title	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1213	0	atto_title	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1214	0	atto_title	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1215	0	atto_underline	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1216	0	atto_underline	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1217	0	atto_underline	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1218	0	atto_undo	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1219	0	atto_undo	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1220	0	atto_undo	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1221	0	atto_unorderedlist	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1222	0	atto_unorderedlist	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1223	0	atto_unorderedlist	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1224	0	tinymce_ctrlhelp	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1225	0	tinymce_ctrlhelp	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1226	0	tinymce_ctrlhelp	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1227	0	tinymce_managefiles	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1228	0	tinymce_managefiles	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1229	0	tinymce_managefiles	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1230	0	tinymce_moodleemoticon	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1231	0	tinymce_moodleemoticon	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1232	0	tinymce_moodleemoticon	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1233	0	tinymce_moodleimage	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1234	0	tinymce_moodleimage	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1235	0	tinymce_moodleimage	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1236	0	tinymce_moodlemedia	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1237	0	tinymce_moodlemedia	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1238	0	tinymce_moodlemedia	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1239	0	tinymce_moodlenolink	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1240	0	tinymce_moodlenolink	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1241	0	tinymce_moodlenolink	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1242	0	tinymce_pdw	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1243	0	tinymce_pdw	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1244	0	tinymce_pdw	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1245	0	tinymce_spellchecker	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1246	0	tinymce_spellchecker	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1247	0	tinymce_spellchecker	2018120300	2018120300	Plugin installed	\N		0	1586902612
+1248	0	tinymce_wrap	\N	2018120300	Starting plugin installation	\N		0	1586902612
+1249	0	tinymce_wrap	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902612
+1250	0	tinymce_wrap	2018120300	2018120300	Plugin installed	\N		0	1586902613
+1251	0	logstore_database	\N	2018120300	Starting plugin installation	\N		0	1586902613
+1252	0	logstore_database	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902613
+1253	0	logstore_database	2018120300	2018120300	Plugin installed	\N		0	1586902613
+1254	0	logstore_legacy	\N	2018120300	Starting plugin installation	\N		0	1586902613
+1255	0	logstore_legacy	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902613
+1256	0	logstore_legacy	2018120300	2018120300	Plugin installed	\N		0	1586902613
+1257	0	logstore_standard	\N	2018120300	Starting plugin installation	\N		0	1586902613
+1258	0	logstore_standard	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902613
+1259	0	logstore_standard	2018120300	2018120300	Plugin installed	\N		0	1586902613
+1260	0	watool_ganalytics	\N	2018062400	Starting plugin installation	\N		0	1586902613
+1261	0	watool_ganalytics	2018062400	2018062400	Upgrade savepoint reached	\N		0	1586902613
+1262	0	watool_ganalytics	2018062400	2018062400	Plugin installed	\N		0	1586902613
+1263	0	watool_gtagmanager	\N	2018062400	Starting plugin installation	\N		0	1586902613
+1264	0	watool_gtagmanager	2018062400	2018062400	Upgrade savepoint reached	\N		0	1586902613
+1265	0	watool_gtagmanager	2018062400	2018062400	Plugin installed	\N		0	1586902613
+1266	0	watool_guniversal	\N	2018062400	Starting plugin installation	\N		0	1586902613
+1267	0	watool_guniversal	2018062400	2018062400	Upgrade savepoint reached	\N		0	1586902613
+1268	0	watool_guniversal	2018062400	2018062400	Plugin installed	\N		0	1586902613
+1269	0	watool_matomo	\N	2018062400	Starting plugin installation	\N		0	1586902613
+1270	0	watool_matomo	2018062400	2018062400	Upgrade savepoint reached	\N		0	1586902613
+1271	0	watool_matomo	2018062400	2018062400	Plugin installed	\N		0	1586902613
+1272	0	local_analytics	\N	2018092400	Starting plugin installation	\N		0	1586902613
+1273	0	local_analytics	2018092400	2018092400	Upgrade savepoint reached	\N		0	1586902613
+1274	0	local_analytics	2018092400	2018092400	Plugin installed	\N		0	1586902613
+1275	0	local_course_templates	\N	2019120800	Starting plugin installation	\N		0	1586902613
+1276	0	local_course_templates	2019120800	2019120800	Upgrade savepoint reached	\N		0	1586902613
+1277	0	local_course_templates	2019120800	2019120800	Plugin installed	\N		0	1586902613
+1278	0	local_mailtest	\N	2019111700	Starting plugin installation	\N		0	1586902613
+1279	0	local_mailtest	2019111700	2019111700	Upgrade savepoint reached	\N		0	1586902613
+1280	0	local_mailtest	2019111700	2019111700	Plugin installed	\N		0	1586902613
+1281	0	local_mobile	\N	2018120300	Starting plugin installation	\N		0	1586902613
+1282	0	local_mobile	2018120300	2018120300	Upgrade savepoint reached	\N		0	1586902613
+1283	0	local_mobile	2018120300	2018120300	Plugin installed	\N		0	1586902613
+1284	0	local_userenrols	\N	2018052008	Starting plugin installation	\N		0	1586902613
+1285	0	local_userenrols	2018052008	2018052008	Upgrade savepoint reached	\N		0	1586902613
+1286	0	local_userenrols	2018052008	2018052008	Plugin installed	\N		0	1586902613
 \.
 
 
@@ -38636,8 +38461,8 @@ COPY public.mdl_url (id, course, name, intro, introformat, externalurl, display,
 --
 
 COPY public.mdl_user (id, auth, confirmed, policyagreed, deleted, suspended, mnethostid, username, password, idnumber, firstname, lastname, email, emailstop, icq, skype, yahoo, aim, msn, phone1, phone2, institution, department, address, city, country, lang, calendartype, theme, timezone, firstaccess, lastaccess, lastlogin, currentlogin, lastip, secret, picture, url, description, descriptionformat, mailformat, maildigest, maildisplay, autosubscribe, trackforums, timecreated, timemodified, trustbitmask, imagealt, lastnamephonetic, firstnamephonetic, middlename, alternatename) FROM stdin;
-1	manual	1	0	0	0	1	guest	$2y$10$XjtB4fD6Uw.mKj7qsfc.b.nFxtjM/Vq/IlKYtqH1qNESDFpco7IWK		Guest user	 	root@localhost	0													en	gregorian		99	0	0	0	0			0		This user is a special user that allows read-only access to some courses.	1	1	0	2	1	0	0	1586879246	0	\N	\N	\N	\N	\N
-2	manual	1	0	0	0	1	admin	$2y$10$0NxuChVSQPQH5TENQBCvyeMGIGGpZEkRgUluWVjAqJaysjiHlMUwy		Admin	User	admin@moodlecloud.id	0											Jember	ID	en	gregorian		Asia/Jakarta	1586879339	1586879653	1586879339	1586879653	10.30.2.20		0		\N	1	1	0	1	1	0	0	1586879386	0	\N				
+1	manual	1	0	0	0	1	guest	$2y$10$wsEWEgxLrhsaiXLTaHZjauHBgYYxGhpiYp5Tay1hchLXo6dY.49y.		Guest user	 	root@localhost	0													en	gregorian		99	0	0	0	0			0		This user is a special user that allows read-only access to some courses.	1	1	0	2	1	0	0	1586902577	0	\N	\N	\N	\N	\N
+2	manual	1	0	0	0	1	admin	$2y$10$XsCNxkL0ksPU4vrg0e9kq.wkx7CBt0eK5qkvjjEUnen4uXIW8K0yC		Admin	User		0													en	gregorian		99	0	0	0	0	0.0.0.0		0		\N	1	1	0	1	1	0	0	1586902577	0	\N	\N	\N	\N	\N
 \.
 
 
@@ -38710,11 +38535,6 @@ COPY public.mdl_user_password_resets (id, userid, timerequested, timererequested
 --
 
 COPY public.mdl_user_preferences (id, userid, name, value) FROM stdin;
-1	2	login_failed_count_since_success	1
-2	2	core_message_migrate_data	1
-3	2	email_bounce_count	1
-4	2	email_send_count	1
-5	2	tool_usertours_tour_completion_time_2	1586879659
 \.
 
 
@@ -39293,7 +39113,7 @@ SELECT pg_catalog.setval('public.mdl_block_id_seq', 47, true);
 -- Name: mdl_block_instances_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_block_instances_id_seq', 24, true);
+SELECT pg_catalog.setval('public.mdl_block_instances_id_seq', 12, true);
 
 
 --
@@ -39363,7 +39183,7 @@ SELECT pg_catalog.setval('public.mdl_cache_filters_id_seq', 1, false);
 -- Name: mdl_cache_flags_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_cache_flags_id_seq', 1, true);
+SELECT pg_catalog.setval('public.mdl_cache_flags_id_seq', 1, false);
 
 
 --
@@ -39566,28 +39386,28 @@ SELECT pg_catalog.setval('public.mdl_competency_userevidencecomp_id_seq', 1, fal
 -- Name: mdl_config_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_config_id_seq', 531, true);
+SELECT pg_catalog.setval('public.mdl_config_id_seq', 527, true);
 
 
 --
 -- Name: mdl_config_log_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_config_log_id_seq', 2280, true);
+SELECT pg_catalog.setval('public.mdl_config_log_id_seq', 2241, true);
 
 
 --
 -- Name: mdl_config_plugins_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_config_plugins_id_seq', 2613, true);
+SELECT pg_catalog.setval('public.mdl_config_plugins_id_seq', 2577, true);
 
 
 --
 -- Name: mdl_context_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_context_id_seq', 30, true);
+SELECT pg_catalog.setval('public.mdl_context_id_seq', 17, true);
 
 
 --
@@ -39657,7 +39477,7 @@ SELECT pg_catalog.setval('public.mdl_course_modules_completion_id_seq', 1, false
 -- Name: mdl_course_modules_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_course_modules_id_seq', 1, true);
+SELECT pg_catalog.setval('public.mdl_course_modules_id_seq', 1, false);
 
 
 --
@@ -39678,7 +39498,7 @@ SELECT pg_catalog.setval('public.mdl_course_request_id_seq', 1, false);
 -- Name: mdl_course_sections_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_course_sections_id_seq', 1, true);
+SELECT pg_catalog.setval('public.mdl_course_sections_id_seq', 1, false);
 
 
 --
@@ -39713,7 +39533,7 @@ SELECT pg_catalog.setval('public.mdl_data_records_id_seq', 1, false);
 -- Name: mdl_editor_atto_autosave_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_editor_atto_autosave_id_seq', 5, true);
+SELECT pg_catalog.setval('public.mdl_editor_atto_autosave_id_seq', 1, false);
 
 
 --
@@ -40014,7 +39834,7 @@ SELECT pg_catalog.setval('public.mdl_forum_discussions_id_seq', 1, false);
 -- Name: mdl_forum_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_forum_id_seq', 1, true);
+SELECT pg_catalog.setval('public.mdl_forum_id_seq', 1, false);
 
 
 --
@@ -40413,7 +40233,7 @@ SELECT pg_catalog.setval('public.mdl_license_id_seq', 9, true);
 -- Name: mdl_lock_db_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_lock_db_id_seq', 3, true);
+SELECT pg_catalog.setval('public.mdl_lock_db_id_seq', 1, false);
 
 
 --
@@ -40441,7 +40261,7 @@ SELECT pg_catalog.setval('public.mdl_log_queries_id_seq', 1, false);
 -- Name: mdl_logstore_standard_log_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_logstore_standard_log_id_seq', 63, true);
+SELECT pg_catalog.setval('public.mdl_logstore_standard_log_id_seq', 1, false);
 
 
 --
@@ -40714,7 +40534,7 @@ SELECT pg_catalog.setval('public.mdl_modules_id_seq', 29, true);
 -- Name: mdl_my_pages_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_my_pages_id_seq', 3, true);
+SELECT pg_catalog.setval('public.mdl_my_pages_id_seq', 2, true);
 
 
 --
@@ -41484,7 +41304,7 @@ SELECT pg_catalog.setval('public.mdl_search_simpledb_index_id_seq', 1, false);
 -- Name: mdl_sessions_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_sessions_id_seq', 8, true);
+SELECT pg_catalog.setval('public.mdl_sessions_id_seq', 1, false);
 
 
 --
@@ -41883,7 +41703,7 @@ SELECT pg_catalog.setval('public.mdl_user_password_resets_id_seq', 1, false);
 -- Name: mdl_user_preferences_id_seq; Type: SEQUENCE SET; Schema: public; Owner: sister
 --
 
-SELECT pg_catalog.setval('public.mdl_user_preferences_id_seq', 5, true);
+SELECT pg_catalog.setval('public.mdl_user_preferences_id_seq', 1, false);
 
 
 --

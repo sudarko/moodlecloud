@@ -12,7 +12,7 @@ $CFG->dbpass    = 'pass_CLOUD';
 $CFG->prefix    = 'mdl_';
 $CFG->dbhost    = 'db';
 
-$CFG->wwwroot   = 'http://www.moodlecloud.id';
+$CFG->wwwroot   = 'http://moodlecloud.id';
 
 $CFG->dataroot  = '/var/www/moodledata';
 $CFG->localcachedir = '/var/www/localcache'; 

@@ -1,6 +1,7 @@
 # moodlecloud
 Deploy moodle with docker-compose
 
+0. siapkan VM/baremetal ubuntu 16.04
 1. install docker (https://docs.docker.com/engine/install/ubuntu/)
 2. install docker-compose (https://docs.docker.com/compose/install/)
 3. jalankan perintah sudo docker swarm init

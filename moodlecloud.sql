@@ -23,7 +23,7 @@ SET row_security = off;
 CREATE DATABASE moodlecloud WITH TEMPLATE = template0 ENCODING = 'UTF8' LC_COLLATE = 'en_US.UTF-8' LC_CTYPE = 'en_US.UTF-8';
 
 
-ALTER DATABASE moodlecloud OWNER TO sister;
+ALTER DATABASE moodlecloud OWNER TO moodle;
 
 \connect moodlecloud
 
@@ -59,7 +59,7 @@ CREATE TABLE public.mdl_analytics_indicator_calc (
 );
 
 
-ALTER TABLE public.mdl_analytics_indicator_calc OWNER TO sister;
+ALTER TABLE public.mdl_analytics_indicator_calc OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_analytics_indicator_calc; Type: COMMENT; Schema: public; Owner: sister
@@ -80,7 +80,7 @@ CREATE SEQUENCE public.mdl_analytics_indicator_calc_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_indicator_calc_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_analytics_indicator_calc_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_analytics_indicator_calc_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -108,7 +108,7 @@ CREATE TABLE public.mdl_analytics_models (
 );
 
 
-ALTER TABLE public.mdl_analytics_models OWNER TO sister;
+ALTER TABLE public.mdl_analytics_models OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_analytics_models; Type: COMMENT; Schema: public; Owner: sister
@@ -129,7 +129,7 @@ CREATE SEQUENCE public.mdl_analytics_models_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_models_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_analytics_models_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_analytics_models_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -157,7 +157,7 @@ CREATE TABLE public.mdl_analytics_models_log (
 );
 
 
-ALTER TABLE public.mdl_analytics_models_log OWNER TO sister;
+ALTER TABLE public.mdl_analytics_models_log OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_analytics_models_log; Type: COMMENT; Schema: public; Owner: sister
@@ -178,7 +178,7 @@ CREATE SEQUENCE public.mdl_analytics_models_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_models_log_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_analytics_models_log_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_analytics_models_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -203,7 +203,7 @@ CREATE TABLE public.mdl_analytics_predict_samples (
 );
 
 
-ALTER TABLE public.mdl_analytics_predict_samples OWNER TO sister;
+ALTER TABLE public.mdl_analytics_predict_samples OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_analytics_predict_samples; Type: COMMENT; Schema: public; Owner: sister
@@ -224,7 +224,7 @@ CREATE SEQUENCE public.mdl_analytics_predict_samples_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_predict_samples_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_analytics_predict_samples_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_analytics_predict_samples_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -246,7 +246,7 @@ CREATE TABLE public.mdl_analytics_prediction_actions (
 );
 
 
-ALTER TABLE public.mdl_analytics_prediction_actions OWNER TO sister;
+ALTER TABLE public.mdl_analytics_prediction_actions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_analytics_prediction_actions; Type: COMMENT; Schema: public; Owner: sister
@@ -267,7 +267,7 @@ CREATE SEQUENCE public.mdl_analytics_prediction_actions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_prediction_actions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_analytics_prediction_actions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_analytics_prediction_actions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -295,7 +295,7 @@ CREATE TABLE public.mdl_analytics_predictions (
 );
 
 
-ALTER TABLE public.mdl_analytics_predictions OWNER TO sister;
+ALTER TABLE public.mdl_analytics_predictions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_analytics_predictions; Type: COMMENT; Schema: public; Owner: sister
@@ -316,7 +316,7 @@ CREATE SEQUENCE public.mdl_analytics_predictions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_predictions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_analytics_predictions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_analytics_predictions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -340,7 +340,7 @@ CREATE TABLE public.mdl_analytics_train_samples (
 );
 
 
-ALTER TABLE public.mdl_analytics_train_samples OWNER TO sister;
+ALTER TABLE public.mdl_analytics_train_samples OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_analytics_train_samples; Type: COMMENT; Schema: public; Owner: sister
@@ -361,7 +361,7 @@ CREATE SEQUENCE public.mdl_analytics_train_samples_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_train_samples_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_analytics_train_samples_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_analytics_train_samples_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -383,7 +383,7 @@ CREATE TABLE public.mdl_analytics_used_analysables (
 );
 
 
-ALTER TABLE public.mdl_analytics_used_analysables OWNER TO sister;
+ALTER TABLE public.mdl_analytics_used_analysables OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_analytics_used_analysables; Type: COMMENT; Schema: public; Owner: sister
@@ -404,7 +404,7 @@ CREATE SEQUENCE public.mdl_analytics_used_analysables_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_used_analysables_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_analytics_used_analysables_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_analytics_used_analysables_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -426,7 +426,7 @@ CREATE TABLE public.mdl_analytics_used_files (
 );
 
 
-ALTER TABLE public.mdl_analytics_used_files OWNER TO sister;
+ALTER TABLE public.mdl_analytics_used_files OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_analytics_used_files; Type: COMMENT; Schema: public; Owner: sister
@@ -447,7 +447,7 @@ CREATE SEQUENCE public.mdl_analytics_used_files_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_analytics_used_files_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_analytics_used_files_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_analytics_used_files_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -493,7 +493,7 @@ CREATE TABLE public.mdl_assign (
 );
 
 
-ALTER TABLE public.mdl_assign OWNER TO sister;
+ALTER TABLE public.mdl_assign OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assign; Type: COMMENT; Schema: public; Owner: sister
@@ -518,7 +518,7 @@ CREATE TABLE public.mdl_assign_grades (
 );
 
 
-ALTER TABLE public.mdl_assign_grades OWNER TO sister;
+ALTER TABLE public.mdl_assign_grades OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assign_grades; Type: COMMENT; Schema: public; Owner: sister
@@ -539,7 +539,7 @@ CREATE SEQUENCE public.mdl_assign_grades_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_grades_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assign_grades_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assign_grades_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -560,7 +560,7 @@ CREATE SEQUENCE public.mdl_assign_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assign_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assign_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -585,7 +585,7 @@ CREATE TABLE public.mdl_assign_overrides (
 );
 
 
-ALTER TABLE public.mdl_assign_overrides OWNER TO sister;
+ALTER TABLE public.mdl_assign_overrides OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assign_overrides; Type: COMMENT; Schema: public; Owner: sister
@@ -606,7 +606,7 @@ CREATE SEQUENCE public.mdl_assign_overrides_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_overrides_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assign_overrides_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assign_overrides_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -629,7 +629,7 @@ CREATE TABLE public.mdl_assign_plugin_config (
 );
 
 
-ALTER TABLE public.mdl_assign_plugin_config OWNER TO sister;
+ALTER TABLE public.mdl_assign_plugin_config OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assign_plugin_config; Type: COMMENT; Schema: public; Owner: sister
@@ -650,7 +650,7 @@ CREATE SEQUENCE public.mdl_assign_plugin_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_plugin_config_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assign_plugin_config_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assign_plugin_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -676,7 +676,7 @@ CREATE TABLE public.mdl_assign_submission (
 );
 
 
-ALTER TABLE public.mdl_assign_submission OWNER TO sister;
+ALTER TABLE public.mdl_assign_submission OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assign_submission; Type: COMMENT; Schema: public; Owner: sister
@@ -697,7 +697,7 @@ CREATE SEQUENCE public.mdl_assign_submission_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_submission_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assign_submission_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assign_submission_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -722,7 +722,7 @@ CREATE TABLE public.mdl_assign_user_flags (
 );
 
 
-ALTER TABLE public.mdl_assign_user_flags OWNER TO sister;
+ALTER TABLE public.mdl_assign_user_flags OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assign_user_flags; Type: COMMENT; Schema: public; Owner: sister
@@ -743,7 +743,7 @@ CREATE SEQUENCE public.mdl_assign_user_flags_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_user_flags_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assign_user_flags_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assign_user_flags_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -763,7 +763,7 @@ CREATE TABLE public.mdl_assign_user_mapping (
 );
 
 
-ALTER TABLE public.mdl_assign_user_mapping OWNER TO sister;
+ALTER TABLE public.mdl_assign_user_mapping OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assign_user_mapping; Type: COMMENT; Schema: public; Owner: sister
@@ -784,7 +784,7 @@ CREATE SEQUENCE public.mdl_assign_user_mapping_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assign_user_mapping_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assign_user_mapping_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assign_user_mapping_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -806,7 +806,7 @@ CREATE TABLE public.mdl_assignfeedback_comments (
 );
 
 
-ALTER TABLE public.mdl_assignfeedback_comments OWNER TO sister;
+ALTER TABLE public.mdl_assignfeedback_comments OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assignfeedback_comments; Type: COMMENT; Schema: public; Owner: sister
@@ -827,7 +827,7 @@ CREATE SEQUENCE public.mdl_assignfeedback_comments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignfeedback_comments_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assignfeedback_comments_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assignfeedback_comments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -855,7 +855,7 @@ CREATE TABLE public.mdl_assignfeedback_editpdf_annot (
 );
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_annot OWNER TO sister;
+ALTER TABLE public.mdl_assignfeedback_editpdf_annot OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assignfeedback_editpdf_annot; Type: COMMENT; Schema: public; Owner: sister
@@ -876,7 +876,7 @@ CREATE SEQUENCE public.mdl_assignfeedback_editpdf_annot_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_annot_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assignfeedback_editpdf_annot_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assignfeedback_editpdf_annot_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -902,7 +902,7 @@ CREATE TABLE public.mdl_assignfeedback_editpdf_cmnt (
 );
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_cmnt OWNER TO sister;
+ALTER TABLE public.mdl_assignfeedback_editpdf_cmnt OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assignfeedback_editpdf_cmnt; Type: COMMENT; Schema: public; Owner: sister
@@ -923,7 +923,7 @@ CREATE SEQUENCE public.mdl_assignfeedback_editpdf_cmnt_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_cmnt_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assignfeedback_editpdf_cmnt_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assignfeedback_editpdf_cmnt_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -944,7 +944,7 @@ CREATE TABLE public.mdl_assignfeedback_editpdf_queue (
 );
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_queue OWNER TO sister;
+ALTER TABLE public.mdl_assignfeedback_editpdf_queue OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assignfeedback_editpdf_queue; Type: COMMENT; Schema: public; Owner: sister
@@ -965,7 +965,7 @@ CREATE SEQUENCE public.mdl_assignfeedback_editpdf_queue_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_queue_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assignfeedback_editpdf_queue_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assignfeedback_editpdf_queue_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -987,7 +987,7 @@ CREATE TABLE public.mdl_assignfeedback_editpdf_quick (
 );
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_quick OWNER TO sister;
+ALTER TABLE public.mdl_assignfeedback_editpdf_quick OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assignfeedback_editpdf_quick; Type: COMMENT; Schema: public; Owner: sister
@@ -1008,7 +1008,7 @@ CREATE SEQUENCE public.mdl_assignfeedback_editpdf_quick_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignfeedback_editpdf_quick_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assignfeedback_editpdf_quick_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assignfeedback_editpdf_quick_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1029,7 +1029,7 @@ CREATE TABLE public.mdl_assignfeedback_file (
 );
 
 
-ALTER TABLE public.mdl_assignfeedback_file OWNER TO sister;
+ALTER TABLE public.mdl_assignfeedback_file OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assignfeedback_file; Type: COMMENT; Schema: public; Owner: sister
@@ -1050,7 +1050,7 @@ CREATE SEQUENCE public.mdl_assignfeedback_file_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignfeedback_file_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assignfeedback_file_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assignfeedback_file_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1086,7 +1086,7 @@ CREATE TABLE public.mdl_assignment (
 );
 
 
-ALTER TABLE public.mdl_assignment OWNER TO sister;
+ALTER TABLE public.mdl_assignment OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assignment; Type: COMMENT; Schema: public; Owner: sister
@@ -1107,7 +1107,7 @@ CREATE SEQUENCE public.mdl_assignment_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignment_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assignment_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assignment_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1138,7 +1138,7 @@ CREATE TABLE public.mdl_assignment_submissions (
 );
 
 
-ALTER TABLE public.mdl_assignment_submissions OWNER TO sister;
+ALTER TABLE public.mdl_assignment_submissions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assignment_submissions; Type: COMMENT; Schema: public; Owner: sister
@@ -1159,7 +1159,7 @@ CREATE SEQUENCE public.mdl_assignment_submissions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignment_submissions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assignment_submissions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assignment_submissions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1182,7 +1182,7 @@ CREATE TABLE public.mdl_assignment_upgrade (
 );
 
 
-ALTER TABLE public.mdl_assignment_upgrade OWNER TO sister;
+ALTER TABLE public.mdl_assignment_upgrade OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assignment_upgrade; Type: COMMENT; Schema: public; Owner: sister
@@ -1203,7 +1203,7 @@ CREATE SEQUENCE public.mdl_assignment_upgrade_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignment_upgrade_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assignment_upgrade_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assignment_upgrade_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1224,7 +1224,7 @@ CREATE TABLE public.mdl_assignsubmission_file (
 );
 
 
-ALTER TABLE public.mdl_assignsubmission_file OWNER TO sister;
+ALTER TABLE public.mdl_assignsubmission_file OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assignsubmission_file; Type: COMMENT; Schema: public; Owner: sister
@@ -1245,7 +1245,7 @@ CREATE SEQUENCE public.mdl_assignsubmission_file_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignsubmission_file_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assignsubmission_file_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assignsubmission_file_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1267,7 +1267,7 @@ CREATE TABLE public.mdl_assignsubmission_onlinetext (
 );
 
 
-ALTER TABLE public.mdl_assignsubmission_onlinetext OWNER TO sister;
+ALTER TABLE public.mdl_assignsubmission_onlinetext OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_assignsubmission_onlinetext; Type: COMMENT; Schema: public; Owner: sister
@@ -1288,7 +1288,7 @@ CREATE SEQUENCE public.mdl_assignsubmission_onlinetext_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_assignsubmission_onlinetext_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_assignsubmission_onlinetext_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_assignsubmission_onlinetext_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1316,7 +1316,7 @@ CREATE TABLE public.mdl_attendance (
 );
 
 
-ALTER TABLE public.mdl_attendance OWNER TO sister;
+ALTER TABLE public.mdl_attendance OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_attendance; Type: COMMENT; Schema: public; Owner: sister
@@ -1337,7 +1337,7 @@ CREATE SEQUENCE public.mdl_attendance_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_attendance_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_attendance_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1363,7 +1363,7 @@ CREATE TABLE public.mdl_attendance_log (
 );
 
 
-ALTER TABLE public.mdl_attendance_log OWNER TO sister;
+ALTER TABLE public.mdl_attendance_log OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_attendance_log; Type: COMMENT; Schema: public; Owner: sister
@@ -1384,7 +1384,7 @@ CREATE SEQUENCE public.mdl_attendance_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_log_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_attendance_log_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_attendance_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1424,7 +1424,7 @@ CREATE TABLE public.mdl_attendance_sessions (
 );
 
 
-ALTER TABLE public.mdl_attendance_sessions OWNER TO sister;
+ALTER TABLE public.mdl_attendance_sessions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_attendance_sessions; Type: COMMENT; Schema: public; Owner: sister
@@ -1445,7 +1445,7 @@ CREATE SEQUENCE public.mdl_attendance_sessions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_sessions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_attendance_sessions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_attendance_sessions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1472,7 +1472,7 @@ CREATE TABLE public.mdl_attendance_statuses (
 );
 
 
-ALTER TABLE public.mdl_attendance_statuses OWNER TO sister;
+ALTER TABLE public.mdl_attendance_statuses OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_attendance_statuses; Type: COMMENT; Schema: public; Owner: sister
@@ -1493,7 +1493,7 @@ CREATE SEQUENCE public.mdl_attendance_statuses_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_statuses_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_attendance_statuses_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_attendance_statuses_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1516,7 +1516,7 @@ CREATE TABLE public.mdl_attendance_tempusers (
 );
 
 
-ALTER TABLE public.mdl_attendance_tempusers OWNER TO sister;
+ALTER TABLE public.mdl_attendance_tempusers OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_attendance_tempusers; Type: COMMENT; Schema: public; Owner: sister
@@ -1537,7 +1537,7 @@ CREATE SEQUENCE public.mdl_attendance_tempusers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_tempusers_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_attendance_tempusers_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_attendance_tempusers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1564,7 +1564,7 @@ CREATE TABLE public.mdl_attendance_warning (
 );
 
 
-ALTER TABLE public.mdl_attendance_warning OWNER TO sister;
+ALTER TABLE public.mdl_attendance_warning OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_attendance_warning; Type: COMMENT; Schema: public; Owner: sister
@@ -1585,7 +1585,7 @@ CREATE TABLE public.mdl_attendance_warning_done (
 );
 
 
-ALTER TABLE public.mdl_attendance_warning_done OWNER TO sister;
+ALTER TABLE public.mdl_attendance_warning_done OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_attendance_warning_done; Type: COMMENT; Schema: public; Owner: sister
@@ -1606,7 +1606,7 @@ CREATE SEQUENCE public.mdl_attendance_warning_done_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_warning_done_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_attendance_warning_done_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_attendance_warning_done_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1627,7 +1627,7 @@ CREATE SEQUENCE public.mdl_attendance_warning_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_attendance_warning_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_attendance_warning_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_attendance_warning_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1654,7 +1654,7 @@ CREATE TABLE public.mdl_auth_oauth2_linked_login (
 );
 
 
-ALTER TABLE public.mdl_auth_oauth2_linked_login OWNER TO sister;
+ALTER TABLE public.mdl_auth_oauth2_linked_login OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_auth_oauth2_linked_login; Type: COMMENT; Schema: public; Owner: sister
@@ -1675,7 +1675,7 @@ CREATE SEQUENCE public.mdl_auth_oauth2_linked_login_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_auth_oauth2_linked_login_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_auth_oauth2_linked_login_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_auth_oauth2_linked_login_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1708,7 +1708,7 @@ CREATE TABLE public.mdl_backup_controllers (
 );
 
 
-ALTER TABLE public.mdl_backup_controllers OWNER TO sister;
+ALTER TABLE public.mdl_backup_controllers OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_backup_controllers; Type: COMMENT; Schema: public; Owner: sister
@@ -1729,7 +1729,7 @@ CREATE SEQUENCE public.mdl_backup_controllers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_backup_controllers_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_backup_controllers_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_backup_controllers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1752,7 +1752,7 @@ CREATE TABLE public.mdl_backup_courses (
 );
 
 
-ALTER TABLE public.mdl_backup_courses OWNER TO sister;
+ALTER TABLE public.mdl_backup_courses OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_backup_courses; Type: COMMENT; Schema: public; Owner: sister
@@ -1773,7 +1773,7 @@ CREATE SEQUENCE public.mdl_backup_courses_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_backup_courses_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_backup_courses_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_backup_courses_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1795,7 +1795,7 @@ CREATE TABLE public.mdl_backup_logs (
 );
 
 
-ALTER TABLE public.mdl_backup_logs OWNER TO sister;
+ALTER TABLE public.mdl_backup_logs OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_backup_logs; Type: COMMENT; Schema: public; Owner: sister
@@ -1816,7 +1816,7 @@ CREATE SEQUENCE public.mdl_backup_logs_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_backup_logs_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_backup_logs_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_backup_logs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1859,7 +1859,7 @@ CREATE TABLE public.mdl_badge (
 );
 
 
-ALTER TABLE public.mdl_badge OWNER TO sister;
+ALTER TABLE public.mdl_badge OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_badge; Type: COMMENT; Schema: public; Owner: sister
@@ -1883,7 +1883,7 @@ CREATE TABLE public.mdl_badge_backpack (
 );
 
 
-ALTER TABLE public.mdl_badge_backpack OWNER TO sister;
+ALTER TABLE public.mdl_badge_backpack OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_badge_backpack; Type: COMMENT; Schema: public; Owner: sister
@@ -1904,7 +1904,7 @@ CREATE SEQUENCE public.mdl_badge_backpack_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_backpack_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_badge_backpack_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_badge_backpack_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1928,7 +1928,7 @@ CREATE TABLE public.mdl_badge_competencies (
 );
 
 
-ALTER TABLE public.mdl_badge_competencies OWNER TO sister;
+ALTER TABLE public.mdl_badge_competencies OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_badge_competencies; Type: COMMENT; Schema: public; Owner: sister
@@ -1949,7 +1949,7 @@ CREATE SEQUENCE public.mdl_badge_competencies_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_competencies_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_badge_competencies_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_badge_competencies_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -1972,7 +1972,7 @@ CREATE TABLE public.mdl_badge_criteria (
 );
 
 
-ALTER TABLE public.mdl_badge_criteria OWNER TO sister;
+ALTER TABLE public.mdl_badge_criteria OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_badge_criteria; Type: COMMENT; Schema: public; Owner: sister
@@ -1993,7 +1993,7 @@ CREATE SEQUENCE public.mdl_badge_criteria_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_criteria_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_badge_criteria_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_badge_criteria_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2015,7 +2015,7 @@ CREATE TABLE public.mdl_badge_criteria_met (
 );
 
 
-ALTER TABLE public.mdl_badge_criteria_met OWNER TO sister;
+ALTER TABLE public.mdl_badge_criteria_met OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_badge_criteria_met; Type: COMMENT; Schema: public; Owner: sister
@@ -2036,7 +2036,7 @@ CREATE SEQUENCE public.mdl_badge_criteria_met_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_criteria_met_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_badge_criteria_met_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_badge_criteria_met_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2057,7 +2057,7 @@ CREATE TABLE public.mdl_badge_criteria_param (
 );
 
 
-ALTER TABLE public.mdl_badge_criteria_param OWNER TO sister;
+ALTER TABLE public.mdl_badge_criteria_param OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_badge_criteria_param; Type: COMMENT; Schema: public; Owner: sister
@@ -2078,7 +2078,7 @@ CREATE SEQUENCE public.mdl_badge_criteria_param_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_criteria_param_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_badge_criteria_param_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_badge_criteria_param_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2103,7 +2103,7 @@ CREATE TABLE public.mdl_badge_endorsement (
 );
 
 
-ALTER TABLE public.mdl_badge_endorsement OWNER TO sister;
+ALTER TABLE public.mdl_badge_endorsement OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_badge_endorsement; Type: COMMENT; Schema: public; Owner: sister
@@ -2124,7 +2124,7 @@ CREATE SEQUENCE public.mdl_badge_endorsement_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_endorsement_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_badge_endorsement_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_badge_endorsement_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2144,7 +2144,7 @@ CREATE TABLE public.mdl_badge_external (
 );
 
 
-ALTER TABLE public.mdl_badge_external OWNER TO sister;
+ALTER TABLE public.mdl_badge_external OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_badge_external; Type: COMMENT; Schema: public; Owner: sister
@@ -2165,7 +2165,7 @@ CREATE SEQUENCE public.mdl_badge_external_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_external_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_badge_external_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_badge_external_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2186,7 +2186,7 @@ CREATE SEQUENCE public.mdl_badge_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_badge_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_badge_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2211,7 +2211,7 @@ CREATE TABLE public.mdl_badge_issued (
 );
 
 
-ALTER TABLE public.mdl_badge_issued OWNER TO sister;
+ALTER TABLE public.mdl_badge_issued OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_badge_issued; Type: COMMENT; Schema: public; Owner: sister
@@ -2232,7 +2232,7 @@ CREATE SEQUENCE public.mdl_badge_issued_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_issued_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_badge_issued_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_badge_issued_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2255,7 +2255,7 @@ CREATE TABLE public.mdl_badge_manual_award (
 );
 
 
-ALTER TABLE public.mdl_badge_manual_award OWNER TO sister;
+ALTER TABLE public.mdl_badge_manual_award OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_badge_manual_award; Type: COMMENT; Schema: public; Owner: sister
@@ -2276,7 +2276,7 @@ CREATE SEQUENCE public.mdl_badge_manual_award_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_manual_award_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_badge_manual_award_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_badge_manual_award_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2296,7 +2296,7 @@ CREATE TABLE public.mdl_badge_related (
 );
 
 
-ALTER TABLE public.mdl_badge_related OWNER TO sister;
+ALTER TABLE public.mdl_badge_related OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_badge_related; Type: COMMENT; Schema: public; Owner: sister
@@ -2317,7 +2317,7 @@ CREATE SEQUENCE public.mdl_badge_related_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_badge_related_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_badge_related_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_badge_related_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2362,7 +2362,7 @@ CREATE TABLE public.mdl_bigbluebuttonbn (
 );
 
 
-ALTER TABLE public.mdl_bigbluebuttonbn OWNER TO sister;
+ALTER TABLE public.mdl_bigbluebuttonbn OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_bigbluebuttonbn; Type: COMMENT; Schema: public; Owner: sister
@@ -2383,7 +2383,7 @@ CREATE SEQUENCE public.mdl_bigbluebuttonbn_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_bigbluebuttonbn_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_bigbluebuttonbn_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_bigbluebuttonbn_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2408,7 +2408,7 @@ CREATE TABLE public.mdl_bigbluebuttonbn_logs (
 );
 
 
-ALTER TABLE public.mdl_bigbluebuttonbn_logs OWNER TO sister;
+ALTER TABLE public.mdl_bigbluebuttonbn_logs OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_bigbluebuttonbn_logs; Type: COMMENT; Schema: public; Owner: sister
@@ -2429,7 +2429,7 @@ CREATE SEQUENCE public.mdl_bigbluebuttonbn_logs_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_bigbluebuttonbn_logs_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_bigbluebuttonbn_logs_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_bigbluebuttonbn_logs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2451,7 +2451,7 @@ CREATE TABLE public.mdl_block (
 );
 
 
-ALTER TABLE public.mdl_block OWNER TO sister;
+ALTER TABLE public.mdl_block OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_block; Type: COMMENT; Schema: public; Owner: sister
@@ -2474,7 +2474,7 @@ CREATE TABLE public.mdl_block_community (
 );
 
 
-ALTER TABLE public.mdl_block_community OWNER TO sister;
+ALTER TABLE public.mdl_block_community OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_block_community; Type: COMMENT; Schema: public; Owner: sister
@@ -2495,7 +2495,7 @@ CREATE SEQUENCE public.mdl_block_community_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_community_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_block_community_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_block_community_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2516,7 +2516,7 @@ CREATE SEQUENCE public.mdl_block_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_block_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_block_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2545,7 +2545,7 @@ CREATE TABLE public.mdl_block_instances (
 );
 
 
-ALTER TABLE public.mdl_block_instances OWNER TO sister;
+ALTER TABLE public.mdl_block_instances OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_block_instances; Type: COMMENT; Schema: public; Owner: sister
@@ -2566,7 +2566,7 @@ CREATE SEQUENCE public.mdl_block_instances_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_instances_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_block_instances_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_block_instances_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2591,7 +2591,7 @@ CREATE TABLE public.mdl_block_positions (
 );
 
 
-ALTER TABLE public.mdl_block_positions OWNER TO sister;
+ALTER TABLE public.mdl_block_positions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_block_positions; Type: COMMENT; Schema: public; Owner: sister
@@ -2612,7 +2612,7 @@ CREATE SEQUENCE public.mdl_block_positions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_positions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_block_positions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_block_positions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2636,7 +2636,7 @@ CREATE TABLE public.mdl_block_recent_activity (
 );
 
 
-ALTER TABLE public.mdl_block_recent_activity OWNER TO sister;
+ALTER TABLE public.mdl_block_recent_activity OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_block_recent_activity; Type: COMMENT; Schema: public; Owner: sister
@@ -2657,7 +2657,7 @@ CREATE SEQUENCE public.mdl_block_recent_activity_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_recent_activity_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_block_recent_activity_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_block_recent_activity_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2679,7 +2679,7 @@ CREATE TABLE public.mdl_block_recentlyaccesseditems (
 );
 
 
-ALTER TABLE public.mdl_block_recentlyaccesseditems OWNER TO sister;
+ALTER TABLE public.mdl_block_recentlyaccesseditems OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_block_recentlyaccesseditems; Type: COMMENT; Schema: public; Owner: sister
@@ -2700,7 +2700,7 @@ CREATE SEQUENCE public.mdl_block_recentlyaccesseditems_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_recentlyaccesseditems_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_block_recentlyaccesseditems_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_block_recentlyaccesseditems_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2726,7 +2726,7 @@ CREATE TABLE public.mdl_block_rss_client (
 );
 
 
-ALTER TABLE public.mdl_block_rss_client OWNER TO sister;
+ALTER TABLE public.mdl_block_rss_client OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_block_rss_client; Type: COMMENT; Schema: public; Owner: sister
@@ -2747,7 +2747,7 @@ CREATE SEQUENCE public.mdl_block_rss_client_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_block_rss_client_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_block_rss_client_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_block_rss_client_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2767,7 +2767,7 @@ CREATE TABLE public.mdl_blog_association (
 );
 
 
-ALTER TABLE public.mdl_blog_association OWNER TO sister;
+ALTER TABLE public.mdl_blog_association OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_blog_association; Type: COMMENT; Schema: public; Owner: sister
@@ -2788,7 +2788,7 @@ CREATE SEQUENCE public.mdl_blog_association_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_blog_association_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_blog_association_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_blog_association_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2814,7 +2814,7 @@ CREATE TABLE public.mdl_blog_external (
 );
 
 
-ALTER TABLE public.mdl_blog_external OWNER TO sister;
+ALTER TABLE public.mdl_blog_external OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_blog_external; Type: COMMENT; Schema: public; Owner: sister
@@ -2835,7 +2835,7 @@ CREATE SEQUENCE public.mdl_blog_external_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_blog_external_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_blog_external_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_blog_external_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2863,7 +2863,7 @@ CREATE TABLE public.mdl_book (
 );
 
 
-ALTER TABLE public.mdl_book OWNER TO sister;
+ALTER TABLE public.mdl_book OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_book; Type: COMMENT; Schema: public; Owner: sister
@@ -2891,7 +2891,7 @@ CREATE TABLE public.mdl_book_chapters (
 );
 
 
-ALTER TABLE public.mdl_book_chapters OWNER TO sister;
+ALTER TABLE public.mdl_book_chapters OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_book_chapters; Type: COMMENT; Schema: public; Owner: sister
@@ -2912,7 +2912,7 @@ CREATE SEQUENCE public.mdl_book_chapters_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_book_chapters_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_book_chapters_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_book_chapters_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2933,7 +2933,7 @@ CREATE SEQUENCE public.mdl_book_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_book_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_book_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_book_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -2956,7 +2956,7 @@ CREATE TABLE public.mdl_cache_filters (
 );
 
 
-ALTER TABLE public.mdl_cache_filters OWNER TO sister;
+ALTER TABLE public.mdl_cache_filters OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_cache_filters; Type: COMMENT; Schema: public; Owner: sister
@@ -2977,7 +2977,7 @@ CREATE SEQUENCE public.mdl_cache_filters_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_cache_filters_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_cache_filters_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_cache_filters_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3000,7 +3000,7 @@ CREATE TABLE public.mdl_cache_flags (
 );
 
 
-ALTER TABLE public.mdl_cache_flags OWNER TO sister;
+ALTER TABLE public.mdl_cache_flags OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_cache_flags; Type: COMMENT; Schema: public; Owner: sister
@@ -3021,7 +3021,7 @@ CREATE SEQUENCE public.mdl_cache_flags_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_cache_flags_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_cache_flags_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_cache_flags_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3044,7 +3044,7 @@ CREATE TABLE public.mdl_capabilities (
 );
 
 
-ALTER TABLE public.mdl_capabilities OWNER TO sister;
+ALTER TABLE public.mdl_capabilities OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_capabilities; Type: COMMENT; Schema: public; Owner: sister
@@ -3065,7 +3065,7 @@ CREATE SEQUENCE public.mdl_capabilities_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_capabilities_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_capabilities_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_capabilities_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3092,7 +3092,7 @@ CREATE TABLE public.mdl_chat (
 );
 
 
-ALTER TABLE public.mdl_chat OWNER TO sister;
+ALTER TABLE public.mdl_chat OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_chat; Type: COMMENT; Schema: public; Owner: sister
@@ -3113,7 +3113,7 @@ CREATE SEQUENCE public.mdl_chat_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_chat_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_chat_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_chat_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3137,7 +3137,7 @@ CREATE TABLE public.mdl_chat_messages (
 );
 
 
-ALTER TABLE public.mdl_chat_messages OWNER TO sister;
+ALTER TABLE public.mdl_chat_messages OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_chat_messages; Type: COMMENT; Schema: public; Owner: sister
@@ -3161,7 +3161,7 @@ CREATE TABLE public.mdl_chat_messages_current (
 );
 
 
-ALTER TABLE public.mdl_chat_messages_current OWNER TO sister;
+ALTER TABLE public.mdl_chat_messages_current OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_chat_messages_current; Type: COMMENT; Schema: public; Owner: sister
@@ -3182,7 +3182,7 @@ CREATE SEQUENCE public.mdl_chat_messages_current_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_chat_messages_current_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_chat_messages_current_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_chat_messages_current_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3203,7 +3203,7 @@ CREATE SEQUENCE public.mdl_chat_messages_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_chat_messages_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_chat_messages_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_chat_messages_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3232,7 +3232,7 @@ CREATE TABLE public.mdl_chat_users (
 );
 
 
-ALTER TABLE public.mdl_chat_users OWNER TO sister;
+ALTER TABLE public.mdl_chat_users OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_chat_users; Type: COMMENT; Schema: public; Owner: sister
@@ -3253,7 +3253,7 @@ CREATE SEQUENCE public.mdl_chat_users_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_chat_users_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_chat_users_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_chat_users_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3288,7 +3288,7 @@ CREATE TABLE public.mdl_choice (
 );
 
 
-ALTER TABLE public.mdl_choice OWNER TO sister;
+ALTER TABLE public.mdl_choice OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_choice; Type: COMMENT; Schema: public; Owner: sister
@@ -3310,7 +3310,7 @@ CREATE TABLE public.mdl_choice_answers (
 );
 
 
-ALTER TABLE public.mdl_choice_answers OWNER TO sister;
+ALTER TABLE public.mdl_choice_answers OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_choice_answers; Type: COMMENT; Schema: public; Owner: sister
@@ -3331,7 +3331,7 @@ CREATE SEQUENCE public.mdl_choice_answers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_choice_answers_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_choice_answers_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_choice_answers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3352,7 +3352,7 @@ CREATE SEQUENCE public.mdl_choice_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_choice_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_choice_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_choice_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3374,7 +3374,7 @@ CREATE TABLE public.mdl_choice_options (
 );
 
 
-ALTER TABLE public.mdl_choice_options OWNER TO sister;
+ALTER TABLE public.mdl_choice_options OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_choice_options; Type: COMMENT; Schema: public; Owner: sister
@@ -3395,7 +3395,7 @@ CREATE SEQUENCE public.mdl_choice_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_choice_options_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_choice_options_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_choice_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3423,7 +3423,7 @@ CREATE TABLE public.mdl_cohort (
 );
 
 
-ALTER TABLE public.mdl_cohort OWNER TO sister;
+ALTER TABLE public.mdl_cohort OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_cohort; Type: COMMENT; Schema: public; Owner: sister
@@ -3444,7 +3444,7 @@ CREATE SEQUENCE public.mdl_cohort_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_cohort_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_cohort_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_cohort_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3465,7 +3465,7 @@ CREATE TABLE public.mdl_cohort_members (
 );
 
 
-ALTER TABLE public.mdl_cohort_members OWNER TO sister;
+ALTER TABLE public.mdl_cohort_members OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_cohort_members; Type: COMMENT; Schema: public; Owner: sister
@@ -3486,7 +3486,7 @@ CREATE SEQUENCE public.mdl_cohort_members_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_cohort_members_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_cohort_members_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_cohort_members_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3512,7 +3512,7 @@ CREATE TABLE public.mdl_comments (
 );
 
 
-ALTER TABLE public.mdl_comments OWNER TO sister;
+ALTER TABLE public.mdl_comments OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_comments; Type: COMMENT; Schema: public; Owner: sister
@@ -3533,7 +3533,7 @@ CREATE SEQUENCE public.mdl_comments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_comments_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_comments_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_comments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3567,7 +3567,7 @@ CREATE TABLE public.mdl_competency (
 );
 
 
-ALTER TABLE public.mdl_competency OWNER TO sister;
+ALTER TABLE public.mdl_competency OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency; Type: COMMENT; Schema: public; Owner: sister
@@ -3592,7 +3592,7 @@ CREATE TABLE public.mdl_competency_coursecomp (
 );
 
 
-ALTER TABLE public.mdl_competency_coursecomp OWNER TO sister;
+ALTER TABLE public.mdl_competency_coursecomp OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_coursecomp; Type: COMMENT; Schema: public; Owner: sister
@@ -3613,7 +3613,7 @@ CREATE SEQUENCE public.mdl_competency_coursecomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_coursecomp_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_coursecomp_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_coursecomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3636,7 +3636,7 @@ CREATE TABLE public.mdl_competency_coursecompsetting (
 );
 
 
-ALTER TABLE public.mdl_competency_coursecompsetting OWNER TO sister;
+ALTER TABLE public.mdl_competency_coursecompsetting OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_coursecompsetting; Type: COMMENT; Schema: public; Owner: sister
@@ -3657,7 +3657,7 @@ CREATE SEQUENCE public.mdl_competency_coursecompsetting_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_coursecompsetting_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_coursecompsetting_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_coursecompsetting_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3688,7 +3688,7 @@ CREATE TABLE public.mdl_competency_evidence (
 );
 
 
-ALTER TABLE public.mdl_competency_evidence OWNER TO sister;
+ALTER TABLE public.mdl_competency_evidence OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_evidence; Type: COMMENT; Schema: public; Owner: sister
@@ -3709,7 +3709,7 @@ CREATE SEQUENCE public.mdl_competency_evidence_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_evidence_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_evidence_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_evidence_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3739,7 +3739,7 @@ CREATE TABLE public.mdl_competency_framework (
 );
 
 
-ALTER TABLE public.mdl_competency_framework OWNER TO sister;
+ALTER TABLE public.mdl_competency_framework OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_framework; Type: COMMENT; Schema: public; Owner: sister
@@ -3760,7 +3760,7 @@ CREATE SEQUENCE public.mdl_competency_framework_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_framework_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_framework_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_framework_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3781,7 +3781,7 @@ CREATE SEQUENCE public.mdl_competency_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3806,7 +3806,7 @@ CREATE TABLE public.mdl_competency_modulecomp (
 );
 
 
-ALTER TABLE public.mdl_competency_modulecomp OWNER TO sister;
+ALTER TABLE public.mdl_competency_modulecomp OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_modulecomp; Type: COMMENT; Schema: public; Owner: sister
@@ -3827,7 +3827,7 @@ CREATE SEQUENCE public.mdl_competency_modulecomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_modulecomp_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_modulecomp_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_modulecomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3857,7 +3857,7 @@ CREATE TABLE public.mdl_competency_plan (
 );
 
 
-ALTER TABLE public.mdl_competency_plan OWNER TO sister;
+ALTER TABLE public.mdl_competency_plan OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_plan; Type: COMMENT; Schema: public; Owner: sister
@@ -3878,7 +3878,7 @@ CREATE SEQUENCE public.mdl_competency_plan_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_plan_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_plan_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_plan_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3902,7 +3902,7 @@ CREATE TABLE public.mdl_competency_plancomp (
 );
 
 
-ALTER TABLE public.mdl_competency_plancomp OWNER TO sister;
+ALTER TABLE public.mdl_competency_plancomp OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_plancomp; Type: COMMENT; Schema: public; Owner: sister
@@ -3923,7 +3923,7 @@ CREATE SEQUENCE public.mdl_competency_plancomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_plancomp_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_plancomp_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_plancomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3946,7 +3946,7 @@ CREATE TABLE public.mdl_competency_relatedcomp (
 );
 
 
-ALTER TABLE public.mdl_competency_relatedcomp OWNER TO sister;
+ALTER TABLE public.mdl_competency_relatedcomp OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_relatedcomp; Type: COMMENT; Schema: public; Owner: sister
@@ -3967,7 +3967,7 @@ CREATE SEQUENCE public.mdl_competency_relatedcomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_relatedcomp_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_relatedcomp_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_relatedcomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -3994,7 +3994,7 @@ CREATE TABLE public.mdl_competency_template (
 );
 
 
-ALTER TABLE public.mdl_competency_template OWNER TO sister;
+ALTER TABLE public.mdl_competency_template OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_template; Type: COMMENT; Schema: public; Owner: sister
@@ -4015,7 +4015,7 @@ CREATE SEQUENCE public.mdl_competency_template_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_template_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_template_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_template_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4038,7 +4038,7 @@ CREATE TABLE public.mdl_competency_templatecohort (
 );
 
 
-ALTER TABLE public.mdl_competency_templatecohort OWNER TO sister;
+ALTER TABLE public.mdl_competency_templatecohort OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_templatecohort; Type: COMMENT; Schema: public; Owner: sister
@@ -4059,7 +4059,7 @@ CREATE SEQUENCE public.mdl_competency_templatecohort_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_templatecohort_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_templatecohort_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_templatecohort_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4083,7 +4083,7 @@ CREATE TABLE public.mdl_competency_templatecomp (
 );
 
 
-ALTER TABLE public.mdl_competency_templatecomp OWNER TO sister;
+ALTER TABLE public.mdl_competency_templatecomp OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_templatecomp; Type: COMMENT; Schema: public; Owner: sister
@@ -4104,7 +4104,7 @@ CREATE SEQUENCE public.mdl_competency_templatecomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_templatecomp_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_templatecomp_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_templatecomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4131,7 +4131,7 @@ CREATE TABLE public.mdl_competency_usercomp (
 );
 
 
-ALTER TABLE public.mdl_competency_usercomp OWNER TO sister;
+ALTER TABLE public.mdl_competency_usercomp OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_usercomp; Type: COMMENT; Schema: public; Owner: sister
@@ -4152,7 +4152,7 @@ CREATE SEQUENCE public.mdl_competency_usercomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_usercomp_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_usercomp_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_usercomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4178,7 +4178,7 @@ CREATE TABLE public.mdl_competency_usercompcourse (
 );
 
 
-ALTER TABLE public.mdl_competency_usercompcourse OWNER TO sister;
+ALTER TABLE public.mdl_competency_usercompcourse OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_usercompcourse; Type: COMMENT; Schema: public; Owner: sister
@@ -4199,7 +4199,7 @@ CREATE SEQUENCE public.mdl_competency_usercompcourse_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_usercompcourse_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_usercompcourse_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_usercompcourse_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4226,7 +4226,7 @@ CREATE TABLE public.mdl_competency_usercompplan (
 );
 
 
-ALTER TABLE public.mdl_competency_usercompplan OWNER TO sister;
+ALTER TABLE public.mdl_competency_usercompplan OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_usercompplan; Type: COMMENT; Schema: public; Owner: sister
@@ -4247,7 +4247,7 @@ CREATE SEQUENCE public.mdl_competency_usercompplan_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_usercompplan_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_usercompplan_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_usercompplan_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4273,7 +4273,7 @@ CREATE TABLE public.mdl_competency_userevidence (
 );
 
 
-ALTER TABLE public.mdl_competency_userevidence OWNER TO sister;
+ALTER TABLE public.mdl_competency_userevidence OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_userevidence; Type: COMMENT; Schema: public; Owner: sister
@@ -4294,7 +4294,7 @@ CREATE SEQUENCE public.mdl_competency_userevidence_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_userevidence_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_userevidence_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_userevidence_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4317,7 +4317,7 @@ CREATE TABLE public.mdl_competency_userevidencecomp (
 );
 
 
-ALTER TABLE public.mdl_competency_userevidencecomp OWNER TO sister;
+ALTER TABLE public.mdl_competency_userevidencecomp OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_competency_userevidencecomp; Type: COMMENT; Schema: public; Owner: sister
@@ -4338,7 +4338,7 @@ CREATE SEQUENCE public.mdl_competency_userevidencecomp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_competency_userevidencecomp_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_competency_userevidencecomp_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_competency_userevidencecomp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4358,7 +4358,7 @@ CREATE TABLE public.mdl_config (
 );
 
 
-ALTER TABLE public.mdl_config OWNER TO sister;
+ALTER TABLE public.mdl_config OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_config; Type: COMMENT; Schema: public; Owner: sister
@@ -4379,7 +4379,7 @@ CREATE SEQUENCE public.mdl_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_config_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_config_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4403,7 +4403,7 @@ CREATE TABLE public.mdl_config_log (
 );
 
 
-ALTER TABLE public.mdl_config_log OWNER TO sister;
+ALTER TABLE public.mdl_config_log OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_config_log; Type: COMMENT; Schema: public; Owner: sister
@@ -4424,7 +4424,7 @@ CREATE SEQUENCE public.mdl_config_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_config_log_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_config_log_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_config_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4445,7 +4445,7 @@ CREATE TABLE public.mdl_config_plugins (
 );
 
 
-ALTER TABLE public.mdl_config_plugins OWNER TO sister;
+ALTER TABLE public.mdl_config_plugins OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_config_plugins; Type: COMMENT; Schema: public; Owner: sister
@@ -4466,7 +4466,7 @@ CREATE SEQUENCE public.mdl_config_plugins_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_config_plugins_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_config_plugins_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_config_plugins_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4489,7 +4489,7 @@ CREATE TABLE public.mdl_context (
 );
 
 
-ALTER TABLE public.mdl_context OWNER TO sister;
+ALTER TABLE public.mdl_context OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_context; Type: COMMENT; Schema: public; Owner: sister
@@ -4510,7 +4510,7 @@ CREATE SEQUENCE public.mdl_context_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_context_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_context_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_context_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4531,7 +4531,7 @@ CREATE TABLE public.mdl_context_temp (
 );
 
 
-ALTER TABLE public.mdl_context_temp OWNER TO sister;
+ALTER TABLE public.mdl_context_temp OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_context_temp; Type: COMMENT; Schema: public; Owner: sister
@@ -4579,7 +4579,7 @@ CREATE TABLE public.mdl_course (
 );
 
 
-ALTER TABLE public.mdl_course OWNER TO sister;
+ALTER TABLE public.mdl_course OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_course; Type: COMMENT; Schema: public; Owner: sister
@@ -4610,7 +4610,7 @@ CREATE TABLE public.mdl_course_categories (
 );
 
 
-ALTER TABLE public.mdl_course_categories OWNER TO sister;
+ALTER TABLE public.mdl_course_categories OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_course_categories; Type: COMMENT; Schema: public; Owner: sister
@@ -4631,7 +4631,7 @@ CREATE SEQUENCE public.mdl_course_categories_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_categories_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_course_categories_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_course_categories_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4653,7 +4653,7 @@ CREATE TABLE public.mdl_course_completion_aggr_methd (
 );
 
 
-ALTER TABLE public.mdl_course_completion_aggr_methd OWNER TO sister;
+ALTER TABLE public.mdl_course_completion_aggr_methd OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_course_completion_aggr_methd; Type: COMMENT; Schema: public; Owner: sister
@@ -4674,7 +4674,7 @@ CREATE SEQUENCE public.mdl_course_completion_aggr_methd_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_completion_aggr_methd_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_course_completion_aggr_methd_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_course_completion_aggr_methd_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4698,7 +4698,7 @@ CREATE TABLE public.mdl_course_completion_crit_compl (
 );
 
 
-ALTER TABLE public.mdl_course_completion_crit_compl OWNER TO sister;
+ALTER TABLE public.mdl_course_completion_crit_compl OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_course_completion_crit_compl; Type: COMMENT; Schema: public; Owner: sister
@@ -4719,7 +4719,7 @@ CREATE SEQUENCE public.mdl_course_completion_crit_compl_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_completion_crit_compl_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_course_completion_crit_compl_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_course_completion_crit_compl_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4746,7 +4746,7 @@ CREATE TABLE public.mdl_course_completion_criteria (
 );
 
 
-ALTER TABLE public.mdl_course_completion_criteria OWNER TO sister;
+ALTER TABLE public.mdl_course_completion_criteria OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_course_completion_criteria; Type: COMMENT; Schema: public; Owner: sister
@@ -4767,7 +4767,7 @@ CREATE SEQUENCE public.mdl_course_completion_criteria_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_completion_criteria_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_course_completion_criteria_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_course_completion_criteria_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4792,7 +4792,7 @@ CREATE TABLE public.mdl_course_completion_defaults (
 );
 
 
-ALTER TABLE public.mdl_course_completion_defaults OWNER TO sister;
+ALTER TABLE public.mdl_course_completion_defaults OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_course_completion_defaults; Type: COMMENT; Schema: public; Owner: sister
@@ -4813,7 +4813,7 @@ CREATE SEQUENCE public.mdl_course_completion_defaults_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_completion_defaults_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_course_completion_defaults_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_course_completion_defaults_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4837,7 +4837,7 @@ CREATE TABLE public.mdl_course_completions (
 );
 
 
-ALTER TABLE public.mdl_course_completions OWNER TO sister;
+ALTER TABLE public.mdl_course_completions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_course_completions; Type: COMMENT; Schema: public; Owner: sister
@@ -4858,7 +4858,7 @@ CREATE SEQUENCE public.mdl_course_completions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_completions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_course_completions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_course_completions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4881,7 +4881,7 @@ CREATE TABLE public.mdl_course_format_options (
 );
 
 
-ALTER TABLE public.mdl_course_format_options OWNER TO sister;
+ALTER TABLE public.mdl_course_format_options OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_course_format_options; Type: COMMENT; Schema: public; Owner: sister
@@ -4902,7 +4902,7 @@ CREATE SEQUENCE public.mdl_course_format_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_format_options_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_course_format_options_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_course_format_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4923,7 +4923,7 @@ CREATE SEQUENCE public.mdl_course_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_course_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_course_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -4961,7 +4961,7 @@ CREATE TABLE public.mdl_course_modules (
 );
 
 
-ALTER TABLE public.mdl_course_modules OWNER TO sister;
+ALTER TABLE public.mdl_course_modules OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_course_modules; Type: COMMENT; Schema: public; Owner: sister
@@ -4985,7 +4985,7 @@ CREATE TABLE public.mdl_course_modules_completion (
 );
 
 
-ALTER TABLE public.mdl_course_modules_completion OWNER TO sister;
+ALTER TABLE public.mdl_course_modules_completion OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_course_modules_completion; Type: COMMENT; Schema: public; Owner: sister
@@ -5006,7 +5006,7 @@ CREATE SEQUENCE public.mdl_course_modules_completion_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_modules_completion_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_course_modules_completion_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_course_modules_completion_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5027,7 +5027,7 @@ CREATE SEQUENCE public.mdl_course_modules_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_modules_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_course_modules_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_course_modules_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5052,7 +5052,7 @@ CREATE TABLE public.mdl_course_published (
 );
 
 
-ALTER TABLE public.mdl_course_published OWNER TO sister;
+ALTER TABLE public.mdl_course_published OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_course_published; Type: COMMENT; Schema: public; Owner: sister
@@ -5073,7 +5073,7 @@ CREATE SEQUENCE public.mdl_course_published_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_published_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_course_published_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_course_published_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5099,7 +5099,7 @@ CREATE TABLE public.mdl_course_request (
 );
 
 
-ALTER TABLE public.mdl_course_request OWNER TO sister;
+ALTER TABLE public.mdl_course_request OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_course_request; Type: COMMENT; Schema: public; Owner: sister
@@ -5120,7 +5120,7 @@ CREATE SEQUENCE public.mdl_course_request_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_request_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_course_request_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_course_request_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5147,7 +5147,7 @@ CREATE TABLE public.mdl_course_sections (
 );
 
 
-ALTER TABLE public.mdl_course_sections OWNER TO sister;
+ALTER TABLE public.mdl_course_sections OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_course_sections; Type: COMMENT; Schema: public; Owner: sister
@@ -5168,7 +5168,7 @@ CREATE SEQUENCE public.mdl_course_sections_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_course_sections_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_course_sections_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_course_sections_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5222,7 +5222,7 @@ CREATE TABLE public.mdl_data (
 );
 
 
-ALTER TABLE public.mdl_data OWNER TO sister;
+ALTER TABLE public.mdl_data OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_data; Type: COMMENT; Schema: public; Owner: sister
@@ -5247,7 +5247,7 @@ CREATE TABLE public.mdl_data_content (
 );
 
 
-ALTER TABLE public.mdl_data_content OWNER TO sister;
+ALTER TABLE public.mdl_data_content OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_data_content; Type: COMMENT; Schema: public; Owner: sister
@@ -5268,7 +5268,7 @@ CREATE SEQUENCE public.mdl_data_content_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_data_content_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_data_content_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_data_content_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5301,7 +5301,7 @@ CREATE TABLE public.mdl_data_fields (
 );
 
 
-ALTER TABLE public.mdl_data_fields OWNER TO sister;
+ALTER TABLE public.mdl_data_fields OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_data_fields; Type: COMMENT; Schema: public; Owner: sister
@@ -5322,7 +5322,7 @@ CREATE SEQUENCE public.mdl_data_fields_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_data_fields_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_data_fields_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_data_fields_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5343,7 +5343,7 @@ CREATE SEQUENCE public.mdl_data_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_data_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_data_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_data_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5367,7 +5367,7 @@ CREATE TABLE public.mdl_data_records (
 );
 
 
-ALTER TABLE public.mdl_data_records OWNER TO sister;
+ALTER TABLE public.mdl_data_records OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_data_records; Type: COMMENT; Schema: public; Owner: sister
@@ -5388,7 +5388,7 @@ CREATE SEQUENCE public.mdl_data_records_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_data_records_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_data_records_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_data_records_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5414,7 +5414,7 @@ CREATE TABLE public.mdl_editor_atto_autosave (
 );
 
 
-ALTER TABLE public.mdl_editor_atto_autosave OWNER TO sister;
+ALTER TABLE public.mdl_editor_atto_autosave OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_editor_atto_autosave; Type: COMMENT; Schema: public; Owner: sister
@@ -5435,7 +5435,7 @@ CREATE SEQUENCE public.mdl_editor_atto_autosave_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_editor_atto_autosave_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_editor_atto_autosave_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_editor_atto_autosave_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5487,7 +5487,7 @@ CREATE TABLE public.mdl_enrol (
 );
 
 
-ALTER TABLE public.mdl_enrol OWNER TO sister;
+ALTER TABLE public.mdl_enrol OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_enrol; Type: COMMENT; Schema: public; Owner: sister
@@ -5512,7 +5512,7 @@ CREATE TABLE public.mdl_enrol_flatfile (
 );
 
 
-ALTER TABLE public.mdl_enrol_flatfile OWNER TO sister;
+ALTER TABLE public.mdl_enrol_flatfile OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_enrol_flatfile; Type: COMMENT; Schema: public; Owner: sister
@@ -5533,7 +5533,7 @@ CREATE SEQUENCE public.mdl_enrol_flatfile_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_flatfile_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_enrol_flatfile_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_enrol_flatfile_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5554,7 +5554,7 @@ CREATE SEQUENCE public.mdl_enrol_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_enrol_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_enrol_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5590,7 +5590,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_consumer (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_consumer OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_consumer OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_consumer; Type: COMMENT; Schema: public; Owner: sister
@@ -5611,7 +5611,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_consumer_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_consumer_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_consumer_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_enrol_lti_lti2_consumer_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5635,7 +5635,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_context (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_context OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_context OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_context; Type: COMMENT; Schema: public; Owner: sister
@@ -5656,7 +5656,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_context_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_context_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_context_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_enrol_lti_lti2_context_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5677,7 +5677,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_nonce (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_nonce OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_nonce OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_nonce; Type: COMMENT; Schema: public; Owner: sister
@@ -5698,7 +5698,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_nonce_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_nonce_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_nonce_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_enrol_lti_lti2_nonce_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5724,7 +5724,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_resource_link (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_resource_link OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_resource_link OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_resource_link; Type: COMMENT; Schema: public; Owner: sister
@@ -5745,7 +5745,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_resource_link_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_resource_link_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_resource_link_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_enrol_lti_lti2_resource_link_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5767,7 +5767,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_share_key (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_share_key OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_share_key OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_share_key; Type: COMMENT; Schema: public; Owner: sister
@@ -5788,7 +5788,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_share_key_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_share_key_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_share_key_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_enrol_lti_lti2_share_key_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5811,7 +5811,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_tool_proxy (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_tool_proxy OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_tool_proxy OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_tool_proxy; Type: COMMENT; Schema: public; Owner: sister
@@ -5832,7 +5832,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_tool_proxy_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_tool_proxy_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_tool_proxy_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_enrol_lti_lti2_tool_proxy_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5855,7 +5855,7 @@ CREATE TABLE public.mdl_enrol_lti_lti2_user_result (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_user_result OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_user_result OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_enrol_lti_lti2_user_result; Type: COMMENT; Schema: public; Owner: sister
@@ -5876,7 +5876,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_lti2_user_result_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_lti2_user_result_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_lti2_user_result_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_enrol_lti_lti2_user_result_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5896,7 +5896,7 @@ CREATE TABLE public.mdl_enrol_lti_tool_consumer_map (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_tool_consumer_map OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_tool_consumer_map OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_enrol_lti_tool_consumer_map; Type: COMMENT; Schema: public; Owner: sister
@@ -5917,7 +5917,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_tool_consumer_map_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_tool_consumer_map_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_tool_consumer_map_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_enrol_lti_tool_consumer_map_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -5953,7 +5953,7 @@ CREATE TABLE public.mdl_enrol_lti_tools (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_tools OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_tools OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_enrol_lti_tools; Type: COMMENT; Schema: public; Owner: sister
@@ -5974,7 +5974,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_tools_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_tools_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_tools_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_enrol_lti_tools_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6003,7 +6003,7 @@ CREATE TABLE public.mdl_enrol_lti_users (
 );
 
 
-ALTER TABLE public.mdl_enrol_lti_users OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_users OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_enrol_lti_users; Type: COMMENT; Schema: public; Owner: sister
@@ -6024,7 +6024,7 @@ CREATE SEQUENCE public.mdl_enrol_lti_users_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_lti_users_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_enrol_lti_users_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_enrol_lti_users_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6062,7 +6062,7 @@ CREATE TABLE public.mdl_enrol_paypal (
 );
 
 
-ALTER TABLE public.mdl_enrol_paypal OWNER TO sister;
+ALTER TABLE public.mdl_enrol_paypal OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_enrol_paypal; Type: COMMENT; Schema: public; Owner: sister
@@ -6083,7 +6083,7 @@ CREATE SEQUENCE public.mdl_enrol_paypal_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_enrol_paypal_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_enrol_paypal_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_enrol_paypal_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6123,7 +6123,7 @@ CREATE TABLE public.mdl_event (
 );
 
 
-ALTER TABLE public.mdl_event OWNER TO sister;
+ALTER TABLE public.mdl_event OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_event; Type: COMMENT; Schema: public; Owner: sister
@@ -6144,7 +6144,7 @@ CREATE SEQUENCE public.mdl_event_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_event_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_event_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_event_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6171,7 +6171,7 @@ CREATE TABLE public.mdl_event_subscriptions (
 );
 
 
-ALTER TABLE public.mdl_event_subscriptions OWNER TO sister;
+ALTER TABLE public.mdl_event_subscriptions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_event_subscriptions; Type: COMMENT; Schema: public; Owner: sister
@@ -6192,7 +6192,7 @@ CREATE SEQUENCE public.mdl_event_subscriptions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_event_subscriptions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_event_subscriptions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_event_subscriptions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6217,7 +6217,7 @@ CREATE TABLE public.mdl_events_handlers (
 );
 
 
-ALTER TABLE public.mdl_events_handlers OWNER TO sister;
+ALTER TABLE public.mdl_events_handlers OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_events_handlers; Type: COMMENT; Schema: public; Owner: sister
@@ -6238,7 +6238,7 @@ CREATE SEQUENCE public.mdl_events_handlers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_events_handlers_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_events_handlers_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_events_handlers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6260,7 +6260,7 @@ CREATE TABLE public.mdl_events_queue (
 );
 
 
-ALTER TABLE public.mdl_events_queue OWNER TO sister;
+ALTER TABLE public.mdl_events_queue OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_events_queue; Type: COMMENT; Schema: public; Owner: sister
@@ -6283,7 +6283,7 @@ CREATE TABLE public.mdl_events_queue_handlers (
 );
 
 
-ALTER TABLE public.mdl_events_queue_handlers OWNER TO sister;
+ALTER TABLE public.mdl_events_queue_handlers OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_events_queue_handlers; Type: COMMENT; Schema: public; Owner: sister
@@ -6304,7 +6304,7 @@ CREATE SEQUENCE public.mdl_events_queue_handlers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_events_queue_handlers_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_events_queue_handlers_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_events_queue_handlers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6325,7 +6325,7 @@ CREATE SEQUENCE public.mdl_events_queue_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_events_queue_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_events_queue_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_events_queue_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6350,7 +6350,7 @@ CREATE TABLE public.mdl_external_functions (
 );
 
 
-ALTER TABLE public.mdl_external_functions OWNER TO sister;
+ALTER TABLE public.mdl_external_functions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_external_functions; Type: COMMENT; Schema: public; Owner: sister
@@ -6371,7 +6371,7 @@ CREATE SEQUENCE public.mdl_external_functions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_external_functions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_external_functions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_external_functions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6399,7 +6399,7 @@ CREATE TABLE public.mdl_external_services (
 );
 
 
-ALTER TABLE public.mdl_external_services OWNER TO sister;
+ALTER TABLE public.mdl_external_services OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_external_services; Type: COMMENT; Schema: public; Owner: sister
@@ -6419,7 +6419,7 @@ CREATE TABLE public.mdl_external_services_functions (
 );
 
 
-ALTER TABLE public.mdl_external_services_functions OWNER TO sister;
+ALTER TABLE public.mdl_external_services_functions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_external_services_functions; Type: COMMENT; Schema: public; Owner: sister
@@ -6440,7 +6440,7 @@ CREATE SEQUENCE public.mdl_external_services_functions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_external_services_functions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_external_services_functions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_external_services_functions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6461,7 +6461,7 @@ CREATE SEQUENCE public.mdl_external_services_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_external_services_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_external_services_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_external_services_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6484,7 +6484,7 @@ CREATE TABLE public.mdl_external_services_users (
 );
 
 
-ALTER TABLE public.mdl_external_services_users OWNER TO sister;
+ALTER TABLE public.mdl_external_services_users OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_external_services_users; Type: COMMENT; Schema: public; Owner: sister
@@ -6505,7 +6505,7 @@ CREATE SEQUENCE public.mdl_external_services_users_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_external_services_users_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_external_services_users_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_external_services_users_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6535,7 +6535,7 @@ CREATE TABLE public.mdl_external_tokens (
 );
 
 
-ALTER TABLE public.mdl_external_tokens OWNER TO sister;
+ALTER TABLE public.mdl_external_tokens OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_external_tokens; Type: COMMENT; Schema: public; Owner: sister
@@ -6556,7 +6556,7 @@ CREATE SEQUENCE public.mdl_external_tokens_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_external_tokens_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_external_tokens_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_external_tokens_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6582,7 +6582,7 @@ CREATE TABLE public.mdl_favourite (
 );
 
 
-ALTER TABLE public.mdl_favourite OWNER TO sister;
+ALTER TABLE public.mdl_favourite OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_favourite; Type: COMMENT; Schema: public; Owner: sister
@@ -6603,7 +6603,7 @@ CREATE SEQUENCE public.mdl_favourite_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_favourite_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_favourite_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_favourite_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6637,7 +6637,7 @@ CREATE TABLE public.mdl_feedback (
 );
 
 
-ALTER TABLE public.mdl_feedback OWNER TO sister;
+ALTER TABLE public.mdl_feedback OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_feedback; Type: COMMENT; Schema: public; Owner: sister
@@ -6661,7 +6661,7 @@ CREATE TABLE public.mdl_feedback_completed (
 );
 
 
-ALTER TABLE public.mdl_feedback_completed OWNER TO sister;
+ALTER TABLE public.mdl_feedback_completed OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_feedback_completed; Type: COMMENT; Schema: public; Owner: sister
@@ -6682,7 +6682,7 @@ CREATE SEQUENCE public.mdl_feedback_completed_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_completed_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_feedback_completed_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_feedback_completed_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6707,7 +6707,7 @@ CREATE TABLE public.mdl_feedback_completedtmp (
 );
 
 
-ALTER TABLE public.mdl_feedback_completedtmp OWNER TO sister;
+ALTER TABLE public.mdl_feedback_completedtmp OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_feedback_completedtmp; Type: COMMENT; Schema: public; Owner: sister
@@ -6728,7 +6728,7 @@ CREATE SEQUENCE public.mdl_feedback_completedtmp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_completedtmp_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_feedback_completedtmp_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_feedback_completedtmp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6749,7 +6749,7 @@ CREATE SEQUENCE public.mdl_feedback_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_feedback_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_feedback_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6779,7 +6779,7 @@ CREATE TABLE public.mdl_feedback_item (
 );
 
 
-ALTER TABLE public.mdl_feedback_item OWNER TO sister;
+ALTER TABLE public.mdl_feedback_item OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_feedback_item; Type: COMMENT; Schema: public; Owner: sister
@@ -6800,7 +6800,7 @@ CREATE SEQUENCE public.mdl_feedback_item_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_item_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_feedback_item_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_feedback_item_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6820,7 +6820,7 @@ CREATE TABLE public.mdl_feedback_sitecourse_map (
 );
 
 
-ALTER TABLE public.mdl_feedback_sitecourse_map OWNER TO sister;
+ALTER TABLE public.mdl_feedback_sitecourse_map OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_feedback_sitecourse_map; Type: COMMENT; Schema: public; Owner: sister
@@ -6841,7 +6841,7 @@ CREATE SEQUENCE public.mdl_feedback_sitecourse_map_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_sitecourse_map_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_feedback_sitecourse_map_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_feedback_sitecourse_map_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6862,7 +6862,7 @@ CREATE TABLE public.mdl_feedback_template (
 );
 
 
-ALTER TABLE public.mdl_feedback_template OWNER TO sister;
+ALTER TABLE public.mdl_feedback_template OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_feedback_template; Type: COMMENT; Schema: public; Owner: sister
@@ -6883,7 +6883,7 @@ CREATE SEQUENCE public.mdl_feedback_template_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_template_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_feedback_template_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_feedback_template_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6906,7 +6906,7 @@ CREATE TABLE public.mdl_feedback_value (
 );
 
 
-ALTER TABLE public.mdl_feedback_value OWNER TO sister;
+ALTER TABLE public.mdl_feedback_value OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_feedback_value; Type: COMMENT; Schema: public; Owner: sister
@@ -6927,7 +6927,7 @@ CREATE SEQUENCE public.mdl_feedback_value_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_value_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_feedback_value_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_feedback_value_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6950,7 +6950,7 @@ CREATE TABLE public.mdl_feedback_valuetmp (
 );
 
 
-ALTER TABLE public.mdl_feedback_valuetmp OWNER TO sister;
+ALTER TABLE public.mdl_feedback_valuetmp OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_feedback_valuetmp; Type: COMMENT; Schema: public; Owner: sister
@@ -6971,7 +6971,7 @@ CREATE SEQUENCE public.mdl_feedback_valuetmp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_feedback_valuetmp_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_feedback_valuetmp_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_feedback_valuetmp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -6999,7 +6999,7 @@ CREATE TABLE public.mdl_file_conversion (
 );
 
 
-ALTER TABLE public.mdl_file_conversion OWNER TO sister;
+ALTER TABLE public.mdl_file_conversion OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_file_conversion; Type: COMMENT; Schema: public; Owner: sister
@@ -7020,7 +7020,7 @@ CREATE SEQUENCE public.mdl_file_conversion_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_file_conversion_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_file_conversion_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_file_conversion_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7057,7 +7057,7 @@ CREATE TABLE public.mdl_files (
 );
 
 
-ALTER TABLE public.mdl_files OWNER TO sister;
+ALTER TABLE public.mdl_files OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_files; Type: COMMENT; Schema: public; Owner: sister
@@ -7078,7 +7078,7 @@ CREATE SEQUENCE public.mdl_files_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_files_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_files_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_files_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7100,7 +7100,7 @@ CREATE TABLE public.mdl_files_reference (
 );
 
 
-ALTER TABLE public.mdl_files_reference OWNER TO sister;
+ALTER TABLE public.mdl_files_reference OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_files_reference; Type: COMMENT; Schema: public; Owner: sister
@@ -7121,7 +7121,7 @@ CREATE SEQUENCE public.mdl_files_reference_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_files_reference_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_files_reference_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_files_reference_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7143,7 +7143,7 @@ CREATE TABLE public.mdl_filter_active (
 );
 
 
-ALTER TABLE public.mdl_filter_active OWNER TO sister;
+ALTER TABLE public.mdl_filter_active OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_filter_active; Type: COMMENT; Schema: public; Owner: sister
@@ -7164,7 +7164,7 @@ CREATE SEQUENCE public.mdl_filter_active_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_filter_active_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_filter_active_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_filter_active_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7186,7 +7186,7 @@ CREATE TABLE public.mdl_filter_config (
 );
 
 
-ALTER TABLE public.mdl_filter_config OWNER TO sister;
+ALTER TABLE public.mdl_filter_config OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_filter_config; Type: COMMENT; Schema: public; Owner: sister
@@ -7207,7 +7207,7 @@ CREATE SEQUENCE public.mdl_filter_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_filter_config_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_filter_config_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_filter_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7230,7 +7230,7 @@ CREATE TABLE public.mdl_filter_wiris_formulas (
 );
 
 
-ALTER TABLE public.mdl_filter_wiris_formulas OWNER TO sister;
+ALTER TABLE public.mdl_filter_wiris_formulas OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_filter_wiris_formulas; Type: COMMENT; Schema: public; Owner: sister
@@ -7251,7 +7251,7 @@ CREATE SEQUENCE public.mdl_filter_wiris_formulas_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_filter_wiris_formulas_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_filter_wiris_formulas_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_filter_wiris_formulas_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7278,7 +7278,7 @@ CREATE TABLE public.mdl_folder (
 );
 
 
-ALTER TABLE public.mdl_folder OWNER TO sister;
+ALTER TABLE public.mdl_folder OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_folder; Type: COMMENT; Schema: public; Owner: sister
@@ -7299,7 +7299,7 @@ CREATE SEQUENCE public.mdl_folder_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_folder_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_folder_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_folder_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7341,7 +7341,7 @@ CREATE TABLE public.mdl_forum (
 );
 
 
-ALTER TABLE public.mdl_forum OWNER TO sister;
+ALTER TABLE public.mdl_forum OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_forum; Type: COMMENT; Schema: public; Owner: sister
@@ -7362,7 +7362,7 @@ CREATE TABLE public.mdl_forum_digests (
 );
 
 
-ALTER TABLE public.mdl_forum_digests OWNER TO sister;
+ALTER TABLE public.mdl_forum_digests OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_forum_digests; Type: COMMENT; Schema: public; Owner: sister
@@ -7383,7 +7383,7 @@ CREATE SEQUENCE public.mdl_forum_digests_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_digests_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_forum_digests_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_forum_digests_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7405,7 +7405,7 @@ CREATE TABLE public.mdl_forum_discussion_subs (
 );
 
 
-ALTER TABLE public.mdl_forum_discussion_subs OWNER TO sister;
+ALTER TABLE public.mdl_forum_discussion_subs OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_forum_discussion_subs; Type: COMMENT; Schema: public; Owner: sister
@@ -7426,7 +7426,7 @@ CREATE SEQUENCE public.mdl_forum_discussion_subs_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_discussion_subs_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_forum_discussion_subs_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_forum_discussion_subs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7456,7 +7456,7 @@ CREATE TABLE public.mdl_forum_discussions (
 );
 
 
-ALTER TABLE public.mdl_forum_discussions OWNER TO sister;
+ALTER TABLE public.mdl_forum_discussions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_forum_discussions; Type: COMMENT; Schema: public; Owner: sister
@@ -7477,7 +7477,7 @@ CREATE SEQUENCE public.mdl_forum_discussions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_discussions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_forum_discussions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_forum_discussions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7498,7 +7498,7 @@ CREATE SEQUENCE public.mdl_forum_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_forum_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_forum_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7530,7 +7530,7 @@ CREATE TABLE public.mdl_forum_posts (
 );
 
 
-ALTER TABLE public.mdl_forum_posts OWNER TO sister;
+ALTER TABLE public.mdl_forum_posts OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_forum_posts; Type: COMMENT; Schema: public; Owner: sister
@@ -7551,7 +7551,7 @@ CREATE SEQUENCE public.mdl_forum_posts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_posts_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_forum_posts_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_forum_posts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7573,7 +7573,7 @@ CREATE TABLE public.mdl_forum_queue (
 );
 
 
-ALTER TABLE public.mdl_forum_queue OWNER TO sister;
+ALTER TABLE public.mdl_forum_queue OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_forum_queue; Type: COMMENT; Schema: public; Owner: sister
@@ -7594,7 +7594,7 @@ CREATE SEQUENCE public.mdl_forum_queue_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_queue_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_forum_queue_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_forum_queue_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7618,7 +7618,7 @@ CREATE TABLE public.mdl_forum_read (
 );
 
 
-ALTER TABLE public.mdl_forum_read OWNER TO sister;
+ALTER TABLE public.mdl_forum_read OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_forum_read; Type: COMMENT; Schema: public; Owner: sister
@@ -7639,7 +7639,7 @@ CREATE SEQUENCE public.mdl_forum_read_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_read_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_forum_read_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_forum_read_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7659,7 +7659,7 @@ CREATE TABLE public.mdl_forum_subscriptions (
 );
 
 
-ALTER TABLE public.mdl_forum_subscriptions OWNER TO sister;
+ALTER TABLE public.mdl_forum_subscriptions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_forum_subscriptions; Type: COMMENT; Schema: public; Owner: sister
@@ -7680,7 +7680,7 @@ CREATE SEQUENCE public.mdl_forum_subscriptions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_subscriptions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_forum_subscriptions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_forum_subscriptions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7700,7 +7700,7 @@ CREATE TABLE public.mdl_forum_track_prefs (
 );
 
 
-ALTER TABLE public.mdl_forum_track_prefs OWNER TO sister;
+ALTER TABLE public.mdl_forum_track_prefs OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_forum_track_prefs; Type: COMMENT; Schema: public; Owner: sister
@@ -7721,7 +7721,7 @@ CREATE SEQUENCE public.mdl_forum_track_prefs_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_forum_track_prefs_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_forum_track_prefs_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_forum_track_prefs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7766,7 +7766,7 @@ CREATE TABLE public.mdl_glossary (
 );
 
 
-ALTER TABLE public.mdl_glossary OWNER TO sister;
+ALTER TABLE public.mdl_glossary OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_glossary; Type: COMMENT; Schema: public; Owner: sister
@@ -7786,7 +7786,7 @@ CREATE TABLE public.mdl_glossary_alias (
 );
 
 
-ALTER TABLE public.mdl_glossary_alias OWNER TO sister;
+ALTER TABLE public.mdl_glossary_alias OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_glossary_alias; Type: COMMENT; Schema: public; Owner: sister
@@ -7807,7 +7807,7 @@ CREATE SEQUENCE public.mdl_glossary_alias_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_glossary_alias_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_glossary_alias_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_glossary_alias_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7828,7 +7828,7 @@ CREATE TABLE public.mdl_glossary_categories (
 );
 
 
-ALTER TABLE public.mdl_glossary_categories OWNER TO sister;
+ALTER TABLE public.mdl_glossary_categories OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_glossary_categories; Type: COMMENT; Schema: public; Owner: sister
@@ -7849,7 +7849,7 @@ CREATE SEQUENCE public.mdl_glossary_categories_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_glossary_categories_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_glossary_categories_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_glossary_categories_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7882,7 +7882,7 @@ CREATE TABLE public.mdl_glossary_entries (
 );
 
 
-ALTER TABLE public.mdl_glossary_entries OWNER TO sister;
+ALTER TABLE public.mdl_glossary_entries OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_glossary_entries; Type: COMMENT; Schema: public; Owner: sister
@@ -7902,7 +7902,7 @@ CREATE TABLE public.mdl_glossary_entries_categories (
 );
 
 
-ALTER TABLE public.mdl_glossary_entries_categories OWNER TO sister;
+ALTER TABLE public.mdl_glossary_entries_categories OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_glossary_entries_categories; Type: COMMENT; Schema: public; Owner: sister
@@ -7923,7 +7923,7 @@ CREATE SEQUENCE public.mdl_glossary_entries_categories_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_glossary_entries_categories_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_glossary_entries_categories_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_glossary_entries_categories_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7944,7 +7944,7 @@ CREATE SEQUENCE public.mdl_glossary_entries_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_glossary_entries_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_glossary_entries_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_glossary_entries_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -7971,7 +7971,7 @@ CREATE TABLE public.mdl_glossary_formats (
 );
 
 
-ALTER TABLE public.mdl_glossary_formats OWNER TO sister;
+ALTER TABLE public.mdl_glossary_formats OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_glossary_formats; Type: COMMENT; Schema: public; Owner: sister
@@ -7992,7 +7992,7 @@ CREATE SEQUENCE public.mdl_glossary_formats_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_glossary_formats_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_glossary_formats_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_glossary_formats_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8013,7 +8013,7 @@ CREATE SEQUENCE public.mdl_glossary_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_glossary_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_glossary_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_glossary_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8044,7 +8044,7 @@ CREATE TABLE public.mdl_grade_categories (
 );
 
 
-ALTER TABLE public.mdl_grade_categories OWNER TO sister;
+ALTER TABLE public.mdl_grade_categories OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grade_categories; Type: COMMENT; Schema: public; Owner: sister
@@ -8079,7 +8079,7 @@ CREATE TABLE public.mdl_grade_categories_history (
 );
 
 
-ALTER TABLE public.mdl_grade_categories_history OWNER TO sister;
+ALTER TABLE public.mdl_grade_categories_history OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grade_categories_history; Type: COMMENT; Schema: public; Owner: sister
@@ -8100,7 +8100,7 @@ CREATE SEQUENCE public.mdl_grade_categories_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_categories_history_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grade_categories_history_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grade_categories_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8121,7 +8121,7 @@ CREATE SEQUENCE public.mdl_grade_categories_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_categories_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grade_categories_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grade_categories_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8161,7 +8161,7 @@ CREATE TABLE public.mdl_grade_grades (
 );
 
 
-ALTER TABLE public.mdl_grade_grades OWNER TO sister;
+ALTER TABLE public.mdl_grade_grades OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grade_grades; Type: COMMENT; Schema: public; Owner: sister
@@ -8202,7 +8202,7 @@ CREATE TABLE public.mdl_grade_grades_history (
 );
 
 
-ALTER TABLE public.mdl_grade_grades_history OWNER TO sister;
+ALTER TABLE public.mdl_grade_grades_history OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grade_grades_history; Type: COMMENT; Schema: public; Owner: sister
@@ -8223,7 +8223,7 @@ CREATE SEQUENCE public.mdl_grade_grades_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_grades_history_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grade_grades_history_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grade_grades_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8244,7 +8244,7 @@ CREATE SEQUENCE public.mdl_grade_grades_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_grades_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grade_grades_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grade_grades_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8265,7 +8265,7 @@ CREATE TABLE public.mdl_grade_import_newitem (
 );
 
 
-ALTER TABLE public.mdl_grade_import_newitem OWNER TO sister;
+ALTER TABLE public.mdl_grade_import_newitem OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grade_import_newitem; Type: COMMENT; Schema: public; Owner: sister
@@ -8286,7 +8286,7 @@ CREATE SEQUENCE public.mdl_grade_import_newitem_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_import_newitem_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grade_import_newitem_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grade_import_newitem_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8312,7 +8312,7 @@ CREATE TABLE public.mdl_grade_import_values (
 );
 
 
-ALTER TABLE public.mdl_grade_import_values OWNER TO sister;
+ALTER TABLE public.mdl_grade_import_values OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grade_import_values; Type: COMMENT; Schema: public; Owner: sister
@@ -8333,7 +8333,7 @@ CREATE SEQUENCE public.mdl_grade_import_values_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_import_values_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grade_import_values_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grade_import_values_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8381,7 +8381,7 @@ CREATE TABLE public.mdl_grade_items (
 );
 
 
-ALTER TABLE public.mdl_grade_items OWNER TO sister;
+ALTER TABLE public.mdl_grade_items OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grade_items; Type: COMMENT; Schema: public; Owner: sister
@@ -8432,7 +8432,7 @@ CREATE TABLE public.mdl_grade_items_history (
 );
 
 
-ALTER TABLE public.mdl_grade_items_history OWNER TO sister;
+ALTER TABLE public.mdl_grade_items_history OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grade_items_history; Type: COMMENT; Schema: public; Owner: sister
@@ -8453,7 +8453,7 @@ CREATE SEQUENCE public.mdl_grade_items_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_items_history_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grade_items_history_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grade_items_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8474,7 +8474,7 @@ CREATE SEQUENCE public.mdl_grade_items_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_items_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grade_items_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grade_items_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8495,7 +8495,7 @@ CREATE TABLE public.mdl_grade_letters (
 );
 
 
-ALTER TABLE public.mdl_grade_letters OWNER TO sister;
+ALTER TABLE public.mdl_grade_letters OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grade_letters; Type: COMMENT; Schema: public; Owner: sister
@@ -8516,7 +8516,7 @@ CREATE SEQUENCE public.mdl_grade_letters_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_letters_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grade_letters_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grade_letters_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8543,7 +8543,7 @@ CREATE TABLE public.mdl_grade_outcomes (
 );
 
 
-ALTER TABLE public.mdl_grade_outcomes OWNER TO sister;
+ALTER TABLE public.mdl_grade_outcomes OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grade_outcomes; Type: COMMENT; Schema: public; Owner: sister
@@ -8563,7 +8563,7 @@ CREATE TABLE public.mdl_grade_outcomes_courses (
 );
 
 
-ALTER TABLE public.mdl_grade_outcomes_courses OWNER TO sister;
+ALTER TABLE public.mdl_grade_outcomes_courses OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grade_outcomes_courses; Type: COMMENT; Schema: public; Owner: sister
@@ -8584,7 +8584,7 @@ CREATE SEQUENCE public.mdl_grade_outcomes_courses_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_outcomes_courses_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grade_outcomes_courses_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grade_outcomes_courses_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8613,7 +8613,7 @@ CREATE TABLE public.mdl_grade_outcomes_history (
 );
 
 
-ALTER TABLE public.mdl_grade_outcomes_history OWNER TO sister;
+ALTER TABLE public.mdl_grade_outcomes_history OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grade_outcomes_history; Type: COMMENT; Schema: public; Owner: sister
@@ -8634,7 +8634,7 @@ CREATE SEQUENCE public.mdl_grade_outcomes_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_outcomes_history_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grade_outcomes_history_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grade_outcomes_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8655,7 +8655,7 @@ CREATE SEQUENCE public.mdl_grade_outcomes_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_outcomes_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grade_outcomes_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grade_outcomes_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8676,7 +8676,7 @@ CREATE TABLE public.mdl_grade_settings (
 );
 
 
-ALTER TABLE public.mdl_grade_settings OWNER TO sister;
+ALTER TABLE public.mdl_grade_settings OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grade_settings; Type: COMMENT; Schema: public; Owner: sister
@@ -8697,7 +8697,7 @@ CREATE SEQUENCE public.mdl_grade_settings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grade_settings_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grade_settings_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grade_settings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8719,7 +8719,7 @@ CREATE TABLE public.mdl_grading_areas (
 );
 
 
-ALTER TABLE public.mdl_grading_areas OWNER TO sister;
+ALTER TABLE public.mdl_grading_areas OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grading_areas; Type: COMMENT; Schema: public; Owner: sister
@@ -8740,7 +8740,7 @@ CREATE SEQUENCE public.mdl_grading_areas_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grading_areas_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grading_areas_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grading_areas_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8771,7 +8771,7 @@ CREATE TABLE public.mdl_grading_definitions (
 );
 
 
-ALTER TABLE public.mdl_grading_definitions OWNER TO sister;
+ALTER TABLE public.mdl_grading_definitions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grading_definitions; Type: COMMENT; Schema: public; Owner: sister
@@ -8792,7 +8792,7 @@ CREATE SEQUENCE public.mdl_grading_definitions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grading_definitions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grading_definitions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grading_definitions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8818,7 +8818,7 @@ CREATE TABLE public.mdl_grading_instances (
 );
 
 
-ALTER TABLE public.mdl_grading_instances OWNER TO sister;
+ALTER TABLE public.mdl_grading_instances OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_grading_instances; Type: COMMENT; Schema: public; Owner: sister
@@ -8839,7 +8839,7 @@ CREATE SEQUENCE public.mdl_grading_instances_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_grading_instances_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_grading_instances_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_grading_instances_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8861,7 +8861,7 @@ CREATE TABLE public.mdl_gradingform_guide_comments (
 );
 
 
-ALTER TABLE public.mdl_gradingform_guide_comments OWNER TO sister;
+ALTER TABLE public.mdl_gradingform_guide_comments OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_gradingform_guide_comments; Type: COMMENT; Schema: public; Owner: sister
@@ -8882,7 +8882,7 @@ CREATE SEQUENCE public.mdl_gradingform_guide_comments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_gradingform_guide_comments_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_gradingform_guide_comments_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_gradingform_guide_comments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8908,7 +8908,7 @@ CREATE TABLE public.mdl_gradingform_guide_criteria (
 );
 
 
-ALTER TABLE public.mdl_gradingform_guide_criteria OWNER TO sister;
+ALTER TABLE public.mdl_gradingform_guide_criteria OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_gradingform_guide_criteria; Type: COMMENT; Schema: public; Owner: sister
@@ -8929,7 +8929,7 @@ CREATE SEQUENCE public.mdl_gradingform_guide_criteria_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_gradingform_guide_criteria_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_gradingform_guide_criteria_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_gradingform_guide_criteria_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8952,7 +8952,7 @@ CREATE TABLE public.mdl_gradingform_guide_fillings (
 );
 
 
-ALTER TABLE public.mdl_gradingform_guide_fillings OWNER TO sister;
+ALTER TABLE public.mdl_gradingform_guide_fillings OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_gradingform_guide_fillings; Type: COMMENT; Schema: public; Owner: sister
@@ -8973,7 +8973,7 @@ CREATE SEQUENCE public.mdl_gradingform_guide_fillings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_gradingform_guide_fillings_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_gradingform_guide_fillings_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_gradingform_guide_fillings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -8995,7 +8995,7 @@ CREATE TABLE public.mdl_gradingform_rubric_criteria (
 );
 
 
-ALTER TABLE public.mdl_gradingform_rubric_criteria OWNER TO sister;
+ALTER TABLE public.mdl_gradingform_rubric_criteria OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_gradingform_rubric_criteria; Type: COMMENT; Schema: public; Owner: sister
@@ -9016,7 +9016,7 @@ CREATE SEQUENCE public.mdl_gradingform_rubric_criteria_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_gradingform_rubric_criteria_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_gradingform_rubric_criteria_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_gradingform_rubric_criteria_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9039,7 +9039,7 @@ CREATE TABLE public.mdl_gradingform_rubric_fillings (
 );
 
 
-ALTER TABLE public.mdl_gradingform_rubric_fillings OWNER TO sister;
+ALTER TABLE public.mdl_gradingform_rubric_fillings OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_gradingform_rubric_fillings; Type: COMMENT; Schema: public; Owner: sister
@@ -9060,7 +9060,7 @@ CREATE SEQUENCE public.mdl_gradingform_rubric_fillings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_gradingform_rubric_fillings_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_gradingform_rubric_fillings_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_gradingform_rubric_fillings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9082,7 +9082,7 @@ CREATE TABLE public.mdl_gradingform_rubric_levels (
 );
 
 
-ALTER TABLE public.mdl_gradingform_rubric_levels OWNER TO sister;
+ALTER TABLE public.mdl_gradingform_rubric_levels OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_gradingform_rubric_levels; Type: COMMENT; Schema: public; Owner: sister
@@ -9103,7 +9103,7 @@ CREATE SEQUENCE public.mdl_gradingform_rubric_levels_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_gradingform_rubric_levels_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_gradingform_rubric_levels_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_gradingform_rubric_levels_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9129,7 +9129,7 @@ CREATE TABLE public.mdl_groupings (
 );
 
 
-ALTER TABLE public.mdl_groupings OWNER TO sister;
+ALTER TABLE public.mdl_groupings OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_groupings; Type: COMMENT; Schema: public; Owner: sister
@@ -9150,7 +9150,7 @@ CREATE TABLE public.mdl_groupings_groups (
 );
 
 
-ALTER TABLE public.mdl_groupings_groups OWNER TO sister;
+ALTER TABLE public.mdl_groupings_groups OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_groupings_groups; Type: COMMENT; Schema: public; Owner: sister
@@ -9171,7 +9171,7 @@ CREATE SEQUENCE public.mdl_groupings_groups_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_groupings_groups_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_groupings_groups_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_groupings_groups_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9192,7 +9192,7 @@ CREATE SEQUENCE public.mdl_groupings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_groupings_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_groupings_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_groupings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9220,7 +9220,7 @@ CREATE TABLE public.mdl_groups (
 );
 
 
-ALTER TABLE public.mdl_groups OWNER TO sister;
+ALTER TABLE public.mdl_groups OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_groups; Type: COMMENT; Schema: public; Owner: sister
@@ -9241,7 +9241,7 @@ CREATE SEQUENCE public.mdl_groups_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_groups_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_groups_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_groups_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9264,7 +9264,7 @@ CREATE TABLE public.mdl_groups_members (
 );
 
 
-ALTER TABLE public.mdl_groups_members OWNER TO sister;
+ALTER TABLE public.mdl_groups_members OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_groups_members; Type: COMMENT; Schema: public; Owner: sister
@@ -9285,7 +9285,7 @@ CREATE SEQUENCE public.mdl_groups_members_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_groups_members_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_groups_members_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_groups_members_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9352,7 +9352,7 @@ CREATE TABLE public.mdl_hotpot (
 );
 
 
-ALTER TABLE public.mdl_hotpot OWNER TO sister;
+ALTER TABLE public.mdl_hotpot OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_hotpot; Type: COMMENT; Schema: public; Owner: sister
@@ -9382,7 +9382,7 @@ CREATE TABLE public.mdl_hotpot_attempts (
 );
 
 
-ALTER TABLE public.mdl_hotpot_attempts OWNER TO sister;
+ALTER TABLE public.mdl_hotpot_attempts OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_hotpot_attempts; Type: COMMENT; Schema: public; Owner: sister
@@ -9403,7 +9403,7 @@ CREATE SEQUENCE public.mdl_hotpot_attempts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_attempts_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_hotpot_attempts_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_hotpot_attempts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9454,7 +9454,7 @@ CREATE TABLE public.mdl_hotpot_cache (
 );
 
 
-ALTER TABLE public.mdl_hotpot_cache OWNER TO sister;
+ALTER TABLE public.mdl_hotpot_cache OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_hotpot_cache; Type: COMMENT; Schema: public; Owner: sister
@@ -9475,7 +9475,7 @@ CREATE SEQUENCE public.mdl_hotpot_cache_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_cache_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_hotpot_cache_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_hotpot_cache_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9495,7 +9495,7 @@ CREATE TABLE public.mdl_hotpot_details (
 );
 
 
-ALTER TABLE public.mdl_hotpot_details OWNER TO sister;
+ALTER TABLE public.mdl_hotpot_details OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_hotpot_details; Type: COMMENT; Schema: public; Owner: sister
@@ -9516,7 +9516,7 @@ CREATE SEQUENCE public.mdl_hotpot_details_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_details_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_hotpot_details_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_hotpot_details_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9537,7 +9537,7 @@ CREATE SEQUENCE public.mdl_hotpot_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_hotpot_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_hotpot_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9560,7 +9560,7 @@ CREATE TABLE public.mdl_hotpot_questions (
 );
 
 
-ALTER TABLE public.mdl_hotpot_questions OWNER TO sister;
+ALTER TABLE public.mdl_hotpot_questions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_hotpot_questions; Type: COMMENT; Schema: public; Owner: sister
@@ -9581,7 +9581,7 @@ CREATE SEQUENCE public.mdl_hotpot_questions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_questions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_hotpot_questions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_hotpot_questions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9609,7 +9609,7 @@ CREATE TABLE public.mdl_hotpot_responses (
 );
 
 
-ALTER TABLE public.mdl_hotpot_responses OWNER TO sister;
+ALTER TABLE public.mdl_hotpot_responses OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_hotpot_responses; Type: COMMENT; Schema: public; Owner: sister
@@ -9630,7 +9630,7 @@ CREATE SEQUENCE public.mdl_hotpot_responses_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_responses_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_hotpot_responses_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_hotpot_responses_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9650,7 +9650,7 @@ CREATE TABLE public.mdl_hotpot_strings (
 );
 
 
-ALTER TABLE public.mdl_hotpot_strings OWNER TO sister;
+ALTER TABLE public.mdl_hotpot_strings OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_hotpot_strings; Type: COMMENT; Schema: public; Owner: sister
@@ -9671,7 +9671,7 @@ CREATE SEQUENCE public.mdl_hotpot_strings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_hotpot_strings_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_hotpot_strings_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_hotpot_strings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9697,7 +9697,7 @@ CREATE TABLE public.mdl_imscp (
 );
 
 
-ALTER TABLE public.mdl_imscp OWNER TO sister;
+ALTER TABLE public.mdl_imscp OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_imscp; Type: COMMENT; Schema: public; Owner: sister
@@ -9718,7 +9718,7 @@ CREATE SEQUENCE public.mdl_imscp_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_imscp_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_imscp_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_imscp_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9744,7 +9744,7 @@ CREATE TABLE public.mdl_jitsi (
 );
 
 
-ALTER TABLE public.mdl_jitsi OWNER TO sister;
+ALTER TABLE public.mdl_jitsi OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_jitsi; Type: COMMENT; Schema: public; Owner: sister
@@ -9765,7 +9765,7 @@ CREATE SEQUENCE public.mdl_jitsi_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_jitsi_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_jitsi_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_jitsi_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9788,7 +9788,7 @@ CREATE TABLE public.mdl_label (
 );
 
 
-ALTER TABLE public.mdl_label OWNER TO sister;
+ALTER TABLE public.mdl_label OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_label; Type: COMMENT; Schema: public; Owner: sister
@@ -9809,7 +9809,7 @@ CREATE SEQUENCE public.mdl_label_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_label_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_label_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_label_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9868,7 +9868,7 @@ CREATE TABLE public.mdl_lesson (
 );
 
 
-ALTER TABLE public.mdl_lesson OWNER TO sister;
+ALTER TABLE public.mdl_lesson OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lesson; Type: COMMENT; Schema: public; Owner: sister
@@ -9898,7 +9898,7 @@ CREATE TABLE public.mdl_lesson_answers (
 );
 
 
-ALTER TABLE public.mdl_lesson_answers OWNER TO sister;
+ALTER TABLE public.mdl_lesson_answers OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lesson_answers; Type: COMMENT; Schema: public; Owner: sister
@@ -9919,7 +9919,7 @@ CREATE SEQUENCE public.mdl_lesson_answers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_answers_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lesson_answers_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lesson_answers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9945,7 +9945,7 @@ CREATE TABLE public.mdl_lesson_attempts (
 );
 
 
-ALTER TABLE public.mdl_lesson_attempts OWNER TO sister;
+ALTER TABLE public.mdl_lesson_attempts OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lesson_attempts; Type: COMMENT; Schema: public; Owner: sister
@@ -9966,7 +9966,7 @@ CREATE SEQUENCE public.mdl_lesson_attempts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_attempts_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lesson_attempts_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lesson_attempts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -9991,7 +9991,7 @@ CREATE TABLE public.mdl_lesson_branch (
 );
 
 
-ALTER TABLE public.mdl_lesson_branch OWNER TO sister;
+ALTER TABLE public.mdl_lesson_branch OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lesson_branch; Type: COMMENT; Schema: public; Owner: sister
@@ -10012,7 +10012,7 @@ CREATE SEQUENCE public.mdl_lesson_branch_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_branch_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lesson_branch_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lesson_branch_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10035,7 +10035,7 @@ CREATE TABLE public.mdl_lesson_grades (
 );
 
 
-ALTER TABLE public.mdl_lesson_grades OWNER TO sister;
+ALTER TABLE public.mdl_lesson_grades OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lesson_grades; Type: COMMENT; Schema: public; Owner: sister
@@ -10056,7 +10056,7 @@ CREATE SEQUENCE public.mdl_lesson_grades_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_grades_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lesson_grades_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lesson_grades_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10077,7 +10077,7 @@ CREATE SEQUENCE public.mdl_lesson_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lesson_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lesson_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10105,7 +10105,7 @@ CREATE TABLE public.mdl_lesson_overrides (
 );
 
 
-ALTER TABLE public.mdl_lesson_overrides OWNER TO sister;
+ALTER TABLE public.mdl_lesson_overrides OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lesson_overrides; Type: COMMENT; Schema: public; Owner: sister
@@ -10126,7 +10126,7 @@ CREATE SEQUENCE public.mdl_lesson_overrides_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_overrides_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lesson_overrides_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lesson_overrides_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10156,7 +10156,7 @@ CREATE TABLE public.mdl_lesson_pages (
 );
 
 
-ALTER TABLE public.mdl_lesson_pages OWNER TO sister;
+ALTER TABLE public.mdl_lesson_pages OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lesson_pages; Type: COMMENT; Schema: public; Owner: sister
@@ -10177,7 +10177,7 @@ CREATE SEQUENCE public.mdl_lesson_pages_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_pages_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lesson_pages_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lesson_pages_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10201,7 +10201,7 @@ CREATE TABLE public.mdl_lesson_timer (
 );
 
 
-ALTER TABLE public.mdl_lesson_timer OWNER TO sister;
+ALTER TABLE public.mdl_lesson_timer OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lesson_timer; Type: COMMENT; Schema: public; Owner: sister
@@ -10222,7 +10222,7 @@ CREATE SEQUENCE public.mdl_lesson_timer_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lesson_timer_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lesson_timer_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lesson_timer_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10245,7 +10245,7 @@ CREATE TABLE public.mdl_license (
 );
 
 
-ALTER TABLE public.mdl_license OWNER TO sister;
+ALTER TABLE public.mdl_license OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_license; Type: COMMENT; Schema: public; Owner: sister
@@ -10266,7 +10266,7 @@ CREATE SEQUENCE public.mdl_license_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_license_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_license_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_license_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10287,7 +10287,7 @@ CREATE TABLE public.mdl_lock_db (
 );
 
 
-ALTER TABLE public.mdl_lock_db OWNER TO sister;
+ALTER TABLE public.mdl_lock_db OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lock_db; Type: COMMENT; Schema: public; Owner: sister
@@ -10308,7 +10308,7 @@ CREATE SEQUENCE public.mdl_lock_db_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lock_db_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lock_db_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lock_db_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10335,7 +10335,7 @@ CREATE TABLE public.mdl_log (
 );
 
 
-ALTER TABLE public.mdl_log OWNER TO sister;
+ALTER TABLE public.mdl_log OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_log; Type: COMMENT; Schema: public; Owner: sister
@@ -10358,7 +10358,7 @@ CREATE TABLE public.mdl_log_display (
 );
 
 
-ALTER TABLE public.mdl_log_display OWNER TO sister;
+ALTER TABLE public.mdl_log_display OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_log_display; Type: COMMENT; Schema: public; Owner: sister
@@ -10379,7 +10379,7 @@ CREATE SEQUENCE public.mdl_log_display_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_log_display_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_log_display_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_log_display_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10400,7 +10400,7 @@ CREATE SEQUENCE public.mdl_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_log_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_log_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10426,7 +10426,7 @@ CREATE TABLE public.mdl_log_queries (
 );
 
 
-ALTER TABLE public.mdl_log_queries OWNER TO sister;
+ALTER TABLE public.mdl_log_queries OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_log_queries; Type: COMMENT; Schema: public; Owner: sister
@@ -10447,7 +10447,7 @@ CREATE SEQUENCE public.mdl_log_queries_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_log_queries_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_log_queries_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_log_queries_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10485,7 +10485,7 @@ CREATE TABLE public.mdl_logstore_standard_log (
 );
 
 
-ALTER TABLE public.mdl_logstore_standard_log OWNER TO sister;
+ALTER TABLE public.mdl_logstore_standard_log OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_logstore_standard_log; Type: COMMENT; Schema: public; Owner: sister
@@ -10506,7 +10506,7 @@ CREATE SEQUENCE public.mdl_logstore_standard_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_logstore_standard_log_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_logstore_standard_log_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_logstore_standard_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10549,7 +10549,7 @@ CREATE TABLE public.mdl_lti (
 );
 
 
-ALTER TABLE public.mdl_lti OWNER TO sister;
+ALTER TABLE public.mdl_lti OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lti; Type: COMMENT; Schema: public; Owner: sister
@@ -10570,7 +10570,7 @@ CREATE SEQUENCE public.mdl_lti_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lti_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lti_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lti_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10596,7 +10596,7 @@ CREATE TABLE public.mdl_lti_submission (
 );
 
 
-ALTER TABLE public.mdl_lti_submission OWNER TO sister;
+ALTER TABLE public.mdl_lti_submission OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lti_submission; Type: COMMENT; Schema: public; Owner: sister
@@ -10617,7 +10617,7 @@ CREATE SEQUENCE public.mdl_lti_submission_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lti_submission_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lti_submission_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lti_submission_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10647,7 +10647,7 @@ CREATE TABLE public.mdl_lti_tool_proxies (
 );
 
 
-ALTER TABLE public.mdl_lti_tool_proxies OWNER TO sister;
+ALTER TABLE public.mdl_lti_tool_proxies OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lti_tool_proxies; Type: COMMENT; Schema: public; Owner: sister
@@ -10668,7 +10668,7 @@ CREATE SEQUENCE public.mdl_lti_tool_proxies_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lti_tool_proxies_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lti_tool_proxies_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lti_tool_proxies_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10692,7 +10692,7 @@ CREATE TABLE public.mdl_lti_tool_settings (
 );
 
 
-ALTER TABLE public.mdl_lti_tool_settings OWNER TO sister;
+ALTER TABLE public.mdl_lti_tool_settings OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lti_tool_settings; Type: COMMENT; Schema: public; Owner: sister
@@ -10713,7 +10713,7 @@ CREATE SEQUENCE public.mdl_lti_tool_settings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lti_tool_settings_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lti_tool_settings_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lti_tool_settings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10746,7 +10746,7 @@ CREATE TABLE public.mdl_lti_types (
 );
 
 
-ALTER TABLE public.mdl_lti_types OWNER TO sister;
+ALTER TABLE public.mdl_lti_types OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lti_types; Type: COMMENT; Schema: public; Owner: sister
@@ -10767,7 +10767,7 @@ CREATE TABLE public.mdl_lti_types_config (
 );
 
 
-ALTER TABLE public.mdl_lti_types_config OWNER TO sister;
+ALTER TABLE public.mdl_lti_types_config OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_lti_types_config; Type: COMMENT; Schema: public; Owner: sister
@@ -10788,7 +10788,7 @@ CREATE SEQUENCE public.mdl_lti_types_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lti_types_config_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lti_types_config_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lti_types_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10809,7 +10809,7 @@ CREATE SEQUENCE public.mdl_lti_types_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_lti_types_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_lti_types_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_lti_types_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10834,7 +10834,7 @@ CREATE TABLE public.mdl_ltiservice_gradebookservices (
 );
 
 
-ALTER TABLE public.mdl_ltiservice_gradebookservices OWNER TO sister;
+ALTER TABLE public.mdl_ltiservice_gradebookservices OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_ltiservice_gradebookservices; Type: COMMENT; Schema: public; Owner: sister
@@ -10855,7 +10855,7 @@ CREATE SEQUENCE public.mdl_ltiservice_gradebookservices_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_ltiservice_gradebookservices_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_ltiservice_gradebookservices_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_ltiservice_gradebookservices_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10888,7 +10888,7 @@ CREATE TABLE public.mdl_message (
 );
 
 
-ALTER TABLE public.mdl_message OWNER TO sister;
+ALTER TABLE public.mdl_message OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_message; Type: COMMENT; Schema: public; Owner: sister
@@ -10908,7 +10908,7 @@ CREATE TABLE public.mdl_message_airnotifier_devices (
 );
 
 
-ALTER TABLE public.mdl_message_airnotifier_devices OWNER TO sister;
+ALTER TABLE public.mdl_message_airnotifier_devices OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_message_airnotifier_devices; Type: COMMENT; Schema: public; Owner: sister
@@ -10929,7 +10929,7 @@ CREATE SEQUENCE public.mdl_message_airnotifier_devices_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_airnotifier_devices_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_message_airnotifier_devices_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_message_airnotifier_devices_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10950,7 +10950,7 @@ CREATE TABLE public.mdl_message_contact_requests (
 );
 
 
-ALTER TABLE public.mdl_message_contact_requests OWNER TO sister;
+ALTER TABLE public.mdl_message_contact_requests OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_message_contact_requests; Type: COMMENT; Schema: public; Owner: sister
@@ -10971,7 +10971,7 @@ CREATE SEQUENCE public.mdl_message_contact_requests_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_contact_requests_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_message_contact_requests_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_message_contact_requests_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -10992,7 +10992,7 @@ CREATE TABLE public.mdl_message_contacts (
 );
 
 
-ALTER TABLE public.mdl_message_contacts OWNER TO sister;
+ALTER TABLE public.mdl_message_contacts OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_message_contacts; Type: COMMENT; Schema: public; Owner: sister
@@ -11013,7 +11013,7 @@ CREATE SEQUENCE public.mdl_message_contacts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_contacts_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_message_contacts_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_message_contacts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11034,7 +11034,7 @@ CREATE TABLE public.mdl_message_conversation_members (
 );
 
 
-ALTER TABLE public.mdl_message_conversation_members OWNER TO sister;
+ALTER TABLE public.mdl_message_conversation_members OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_message_conversation_members; Type: COMMENT; Schema: public; Owner: sister
@@ -11055,7 +11055,7 @@ CREATE SEQUENCE public.mdl_message_conversation_members_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_conversation_members_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_message_conversation_members_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_message_conversation_members_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11083,7 +11083,7 @@ CREATE TABLE public.mdl_message_conversations (
 );
 
 
-ALTER TABLE public.mdl_message_conversations OWNER TO sister;
+ALTER TABLE public.mdl_message_conversations OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_message_conversations; Type: COMMENT; Schema: public; Owner: sister
@@ -11104,7 +11104,7 @@ CREATE SEQUENCE public.mdl_message_conversations_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_conversations_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_message_conversations_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_message_conversations_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11125,7 +11125,7 @@ CREATE SEQUENCE public.mdl_message_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_message_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_message_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11145,7 +11145,7 @@ CREATE TABLE public.mdl_message_popup (
 );
 
 
-ALTER TABLE public.mdl_message_popup OWNER TO sister;
+ALTER TABLE public.mdl_message_popup OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_message_popup; Type: COMMENT; Schema: public; Owner: sister
@@ -11166,7 +11166,7 @@ CREATE SEQUENCE public.mdl_message_popup_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_popup_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_message_popup_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_message_popup_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11185,7 +11185,7 @@ CREATE TABLE public.mdl_message_popup_notifications (
 );
 
 
-ALTER TABLE public.mdl_message_popup_notifications OWNER TO sister;
+ALTER TABLE public.mdl_message_popup_notifications OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_message_popup_notifications; Type: COMMENT; Schema: public; Owner: sister
@@ -11206,7 +11206,7 @@ CREATE SEQUENCE public.mdl_message_popup_notifications_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_popup_notifications_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_message_popup_notifications_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_message_popup_notifications_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11226,7 +11226,7 @@ CREATE TABLE public.mdl_message_processors (
 );
 
 
-ALTER TABLE public.mdl_message_processors OWNER TO sister;
+ALTER TABLE public.mdl_message_processors OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_message_processors; Type: COMMENT; Schema: public; Owner: sister
@@ -11247,7 +11247,7 @@ CREATE SEQUENCE public.mdl_message_processors_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_processors_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_message_processors_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_message_processors_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11268,7 +11268,7 @@ CREATE TABLE public.mdl_message_providers (
 );
 
 
-ALTER TABLE public.mdl_message_providers OWNER TO sister;
+ALTER TABLE public.mdl_message_providers OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_message_providers; Type: COMMENT; Schema: public; Owner: sister
@@ -11289,7 +11289,7 @@ CREATE SEQUENCE public.mdl_message_providers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_providers_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_message_providers_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_message_providers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11323,7 +11323,7 @@ CREATE TABLE public.mdl_message_read (
 );
 
 
-ALTER TABLE public.mdl_message_read OWNER TO sister;
+ALTER TABLE public.mdl_message_read OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_message_read; Type: COMMENT; Schema: public; Owner: sister
@@ -11344,7 +11344,7 @@ CREATE SEQUENCE public.mdl_message_read_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_read_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_message_read_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_message_read_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11366,7 +11366,7 @@ CREATE TABLE public.mdl_message_user_actions (
 );
 
 
-ALTER TABLE public.mdl_message_user_actions OWNER TO sister;
+ALTER TABLE public.mdl_message_user_actions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_message_user_actions; Type: COMMENT; Schema: public; Owner: sister
@@ -11387,7 +11387,7 @@ CREATE SEQUENCE public.mdl_message_user_actions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_user_actions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_message_user_actions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_message_user_actions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11408,7 +11408,7 @@ CREATE TABLE public.mdl_message_users_blocked (
 );
 
 
-ALTER TABLE public.mdl_message_users_blocked OWNER TO sister;
+ALTER TABLE public.mdl_message_users_blocked OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_message_users_blocked; Type: COMMENT; Schema: public; Owner: sister
@@ -11429,7 +11429,7 @@ CREATE SEQUENCE public.mdl_message_users_blocked_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_message_users_blocked_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_message_users_blocked_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_message_users_blocked_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11452,7 +11452,7 @@ CREATE TABLE public.mdl_messageinbound_datakeys (
 );
 
 
-ALTER TABLE public.mdl_messageinbound_datakeys OWNER TO sister;
+ALTER TABLE public.mdl_messageinbound_datakeys OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_messageinbound_datakeys; Type: COMMENT; Schema: public; Owner: sister
@@ -11473,7 +11473,7 @@ CREATE SEQUENCE public.mdl_messageinbound_datakeys_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_messageinbound_datakeys_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_messageinbound_datakeys_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_messageinbound_datakeys_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11496,7 +11496,7 @@ CREATE TABLE public.mdl_messageinbound_handlers (
 );
 
 
-ALTER TABLE public.mdl_messageinbound_handlers OWNER TO sister;
+ALTER TABLE public.mdl_messageinbound_handlers OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_messageinbound_handlers; Type: COMMENT; Schema: public; Owner: sister
@@ -11517,7 +11517,7 @@ CREATE SEQUENCE public.mdl_messageinbound_handlers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_messageinbound_handlers_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_messageinbound_handlers_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_messageinbound_handlers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11539,7 +11539,7 @@ CREATE TABLE public.mdl_messageinbound_messagelist (
 );
 
 
-ALTER TABLE public.mdl_messageinbound_messagelist OWNER TO sister;
+ALTER TABLE public.mdl_messageinbound_messagelist OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_messageinbound_messagelist; Type: COMMENT; Schema: public; Owner: sister
@@ -11560,7 +11560,7 @@ CREATE SEQUENCE public.mdl_messageinbound_messagelist_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_messageinbound_messagelist_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_messageinbound_messagelist_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_messageinbound_messagelist_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11586,7 +11586,7 @@ CREATE TABLE public.mdl_messages (
 );
 
 
-ALTER TABLE public.mdl_messages OWNER TO sister;
+ALTER TABLE public.mdl_messages OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_messages; Type: COMMENT; Schema: public; Owner: sister
@@ -11607,7 +11607,7 @@ CREATE SEQUENCE public.mdl_messages_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_messages_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_messages_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_messages_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11630,7 +11630,7 @@ CREATE TABLE public.mdl_mnet_application (
 );
 
 
-ALTER TABLE public.mdl_mnet_application OWNER TO sister;
+ALTER TABLE public.mdl_mnet_application OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_mnet_application; Type: COMMENT; Schema: public; Owner: sister
@@ -11651,7 +11651,7 @@ CREATE SEQUENCE public.mdl_mnet_application_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_application_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_mnet_application_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_mnet_application_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11683,7 +11683,7 @@ CREATE TABLE public.mdl_mnet_host (
 );
 
 
-ALTER TABLE public.mdl_mnet_host OWNER TO sister;
+ALTER TABLE public.mdl_mnet_host OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_mnet_host; Type: COMMENT; Schema: public; Owner: sister
@@ -11705,7 +11705,7 @@ CREATE TABLE public.mdl_mnet_host2service (
 );
 
 
-ALTER TABLE public.mdl_mnet_host2service OWNER TO sister;
+ALTER TABLE public.mdl_mnet_host2service OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_mnet_host2service; Type: COMMENT; Schema: public; Owner: sister
@@ -11726,7 +11726,7 @@ CREATE SEQUENCE public.mdl_mnet_host2service_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_host2service_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_mnet_host2service_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_mnet_host2service_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11747,7 +11747,7 @@ CREATE SEQUENCE public.mdl_mnet_host_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_host_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_mnet_host_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_mnet_host_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11777,7 +11777,7 @@ CREATE TABLE public.mdl_mnet_log (
 );
 
 
-ALTER TABLE public.mdl_mnet_log OWNER TO sister;
+ALTER TABLE public.mdl_mnet_log OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_mnet_log; Type: COMMENT; Schema: public; Owner: sister
@@ -11798,7 +11798,7 @@ CREATE SEQUENCE public.mdl_mnet_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_log_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_mnet_log_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_mnet_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11821,7 +11821,7 @@ CREATE TABLE public.mdl_mnet_remote_rpc (
 );
 
 
-ALTER TABLE public.mdl_mnet_remote_rpc OWNER TO sister;
+ALTER TABLE public.mdl_mnet_remote_rpc OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_mnet_remote_rpc; Type: COMMENT; Schema: public; Owner: sister
@@ -11842,7 +11842,7 @@ CREATE SEQUENCE public.mdl_mnet_remote_rpc_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_remote_rpc_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_mnet_remote_rpc_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_mnet_remote_rpc_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11862,7 +11862,7 @@ CREATE TABLE public.mdl_mnet_remote_service2rpc (
 );
 
 
-ALTER TABLE public.mdl_mnet_remote_service2rpc OWNER TO sister;
+ALTER TABLE public.mdl_mnet_remote_service2rpc OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_mnet_remote_service2rpc; Type: COMMENT; Schema: public; Owner: sister
@@ -11883,7 +11883,7 @@ CREATE SEQUENCE public.mdl_mnet_remote_service2rpc_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_remote_service2rpc_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_mnet_remote_service2rpc_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_mnet_remote_service2rpc_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11911,7 +11911,7 @@ CREATE TABLE public.mdl_mnet_rpc (
 );
 
 
-ALTER TABLE public.mdl_mnet_rpc OWNER TO sister;
+ALTER TABLE public.mdl_mnet_rpc OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_mnet_rpc; Type: COMMENT; Schema: public; Owner: sister
@@ -11932,7 +11932,7 @@ CREATE SEQUENCE public.mdl_mnet_rpc_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_rpc_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_mnet_rpc_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_mnet_rpc_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -11954,7 +11954,7 @@ CREATE TABLE public.mdl_mnet_service (
 );
 
 
-ALTER TABLE public.mdl_mnet_service OWNER TO sister;
+ALTER TABLE public.mdl_mnet_service OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_mnet_service; Type: COMMENT; Schema: public; Owner: sister
@@ -11974,7 +11974,7 @@ CREATE TABLE public.mdl_mnet_service2rpc (
 );
 
 
-ALTER TABLE public.mdl_mnet_service2rpc OWNER TO sister;
+ALTER TABLE public.mdl_mnet_service2rpc OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_mnet_service2rpc; Type: COMMENT; Schema: public; Owner: sister
@@ -11995,7 +11995,7 @@ CREATE SEQUENCE public.mdl_mnet_service2rpc_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_service2rpc_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_mnet_service2rpc_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_mnet_service2rpc_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12016,7 +12016,7 @@ CREATE SEQUENCE public.mdl_mnet_service_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_service_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_mnet_service_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_mnet_service_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12042,7 +12042,7 @@ CREATE TABLE public.mdl_mnet_session (
 );
 
 
-ALTER TABLE public.mdl_mnet_session OWNER TO sister;
+ALTER TABLE public.mdl_mnet_session OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_mnet_session; Type: COMMENT; Schema: public; Owner: sister
@@ -12063,7 +12063,7 @@ CREATE SEQUENCE public.mdl_mnet_session_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_session_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_mnet_session_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_mnet_session_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12084,7 +12084,7 @@ CREATE TABLE public.mdl_mnet_sso_access_control (
 );
 
 
-ALTER TABLE public.mdl_mnet_sso_access_control OWNER TO sister;
+ALTER TABLE public.mdl_mnet_sso_access_control OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_mnet_sso_access_control; Type: COMMENT; Schema: public; Owner: sister
@@ -12105,7 +12105,7 @@ CREATE SEQUENCE public.mdl_mnet_sso_access_control_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnet_sso_access_control_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_mnet_sso_access_control_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_mnet_sso_access_control_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12136,7 +12136,7 @@ CREATE TABLE public.mdl_mnetservice_enrol_courses (
 );
 
 
-ALTER TABLE public.mdl_mnetservice_enrol_courses OWNER TO sister;
+ALTER TABLE public.mdl_mnetservice_enrol_courses OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_mnetservice_enrol_courses; Type: COMMENT; Schema: public; Owner: sister
@@ -12157,7 +12157,7 @@ CREATE SEQUENCE public.mdl_mnetservice_enrol_courses_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnetservice_enrol_courses_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_mnetservice_enrol_courses_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_mnetservice_enrol_courses_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12181,7 +12181,7 @@ CREATE TABLE public.mdl_mnetservice_enrol_enrolments (
 );
 
 
-ALTER TABLE public.mdl_mnetservice_enrol_enrolments OWNER TO sister;
+ALTER TABLE public.mdl_mnetservice_enrol_enrolments OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_mnetservice_enrol_enrolments; Type: COMMENT; Schema: public; Owner: sister
@@ -12202,7 +12202,7 @@ CREATE SEQUENCE public.mdl_mnetservice_enrol_enrolments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_mnetservice_enrol_enrolments_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_mnetservice_enrol_enrolments_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_mnetservice_enrol_enrolments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12225,7 +12225,7 @@ CREATE TABLE public.mdl_modules (
 );
 
 
-ALTER TABLE public.mdl_modules OWNER TO sister;
+ALTER TABLE public.mdl_modules OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_modules; Type: COMMENT; Schema: public; Owner: sister
@@ -12246,7 +12246,7 @@ CREATE SEQUENCE public.mdl_modules_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_modules_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_modules_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_modules_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12268,7 +12268,7 @@ CREATE TABLE public.mdl_my_pages (
 );
 
 
-ALTER TABLE public.mdl_my_pages OWNER TO sister;
+ALTER TABLE public.mdl_my_pages OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_my_pages; Type: COMMENT; Schema: public; Owner: sister
@@ -12289,7 +12289,7 @@ CREATE SEQUENCE public.mdl_my_pages_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_my_pages_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_my_pages_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_my_pages_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12320,7 +12320,7 @@ CREATE TABLE public.mdl_notifications (
 );
 
 
-ALTER TABLE public.mdl_notifications OWNER TO sister;
+ALTER TABLE public.mdl_notifications OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_notifications; Type: COMMENT; Schema: public; Owner: sister
@@ -12341,7 +12341,7 @@ CREATE SEQUENCE public.mdl_notifications_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_notifications_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_notifications_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_notifications_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12366,7 +12366,7 @@ CREATE TABLE public.mdl_oauth2_access_token (
 );
 
 
-ALTER TABLE public.mdl_oauth2_access_token OWNER TO sister;
+ALTER TABLE public.mdl_oauth2_access_token OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_oauth2_access_token; Type: COMMENT; Schema: public; Owner: sister
@@ -12387,7 +12387,7 @@ CREATE SEQUENCE public.mdl_oauth2_access_token_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_oauth2_access_token_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_oauth2_access_token_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_oauth2_access_token_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12411,7 +12411,7 @@ CREATE TABLE public.mdl_oauth2_endpoint (
 );
 
 
-ALTER TABLE public.mdl_oauth2_endpoint OWNER TO sister;
+ALTER TABLE public.mdl_oauth2_endpoint OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_oauth2_endpoint; Type: COMMENT; Schema: public; Owner: sister
@@ -12432,7 +12432,7 @@ CREATE SEQUENCE public.mdl_oauth2_endpoint_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_oauth2_endpoint_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_oauth2_endpoint_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_oauth2_endpoint_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12469,7 +12469,7 @@ CREATE TABLE public.mdl_oauth2_issuer (
 );
 
 
-ALTER TABLE public.mdl_oauth2_issuer OWNER TO sister;
+ALTER TABLE public.mdl_oauth2_issuer OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_oauth2_issuer; Type: COMMENT; Schema: public; Owner: sister
@@ -12490,7 +12490,7 @@ CREATE SEQUENCE public.mdl_oauth2_issuer_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_oauth2_issuer_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_oauth2_issuer_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_oauth2_issuer_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12516,7 +12516,7 @@ CREATE TABLE public.mdl_oauth2_system_account (
 );
 
 
-ALTER TABLE public.mdl_oauth2_system_account OWNER TO sister;
+ALTER TABLE public.mdl_oauth2_system_account OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_oauth2_system_account; Type: COMMENT; Schema: public; Owner: sister
@@ -12537,7 +12537,7 @@ CREATE SEQUENCE public.mdl_oauth2_system_account_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_oauth2_system_account_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_oauth2_system_account_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_oauth2_system_account_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12561,7 +12561,7 @@ CREATE TABLE public.mdl_oauth2_user_field_mapping (
 );
 
 
-ALTER TABLE public.mdl_oauth2_user_field_mapping OWNER TO sister;
+ALTER TABLE public.mdl_oauth2_user_field_mapping OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_oauth2_user_field_mapping; Type: COMMENT; Schema: public; Owner: sister
@@ -12582,7 +12582,7 @@ CREATE SEQUENCE public.mdl_oauth2_user_field_mapping_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_oauth2_user_field_mapping_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_oauth2_user_field_mapping_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_oauth2_user_field_mapping_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12612,7 +12612,7 @@ CREATE TABLE public.mdl_page (
 );
 
 
-ALTER TABLE public.mdl_page OWNER TO sister;
+ALTER TABLE public.mdl_page OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_page; Type: COMMENT; Schema: public; Owner: sister
@@ -12633,7 +12633,7 @@ CREATE SEQUENCE public.mdl_page_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_page_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_page_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_page_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12654,7 +12654,7 @@ CREATE TABLE public.mdl_portfolio_instance (
 );
 
 
-ALTER TABLE public.mdl_portfolio_instance OWNER TO sister;
+ALTER TABLE public.mdl_portfolio_instance OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_portfolio_instance; Type: COMMENT; Schema: public; Owner: sister
@@ -12675,7 +12675,7 @@ CREATE TABLE public.mdl_portfolio_instance_config (
 );
 
 
-ALTER TABLE public.mdl_portfolio_instance_config OWNER TO sister;
+ALTER TABLE public.mdl_portfolio_instance_config OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_portfolio_instance_config; Type: COMMENT; Schema: public; Owner: sister
@@ -12696,7 +12696,7 @@ CREATE SEQUENCE public.mdl_portfolio_instance_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_portfolio_instance_config_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_portfolio_instance_config_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_portfolio_instance_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12717,7 +12717,7 @@ CREATE SEQUENCE public.mdl_portfolio_instance_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_portfolio_instance_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_portfolio_instance_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_portfolio_instance_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12739,7 +12739,7 @@ CREATE TABLE public.mdl_portfolio_instance_user (
 );
 
 
-ALTER TABLE public.mdl_portfolio_instance_user OWNER TO sister;
+ALTER TABLE public.mdl_portfolio_instance_user OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_portfolio_instance_user; Type: COMMENT; Schema: public; Owner: sister
@@ -12760,7 +12760,7 @@ CREATE SEQUENCE public.mdl_portfolio_instance_user_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_portfolio_instance_user_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_portfolio_instance_user_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_portfolio_instance_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12788,7 +12788,7 @@ CREATE TABLE public.mdl_portfolio_log (
 );
 
 
-ALTER TABLE public.mdl_portfolio_log OWNER TO sister;
+ALTER TABLE public.mdl_portfolio_log OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_portfolio_log; Type: COMMENT; Schema: public; Owner: sister
@@ -12809,7 +12809,7 @@ CREATE SEQUENCE public.mdl_portfolio_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_portfolio_log_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_portfolio_log_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_portfolio_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12829,7 +12829,7 @@ CREATE TABLE public.mdl_portfolio_mahara_queue (
 );
 
 
-ALTER TABLE public.mdl_portfolio_mahara_queue OWNER TO sister;
+ALTER TABLE public.mdl_portfolio_mahara_queue OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_portfolio_mahara_queue; Type: COMMENT; Schema: public; Owner: sister
@@ -12850,7 +12850,7 @@ CREATE SEQUENCE public.mdl_portfolio_mahara_queue_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_portfolio_mahara_queue_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_portfolio_mahara_queue_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_portfolio_mahara_queue_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12873,7 +12873,7 @@ CREATE TABLE public.mdl_portfolio_tempdata (
 );
 
 
-ALTER TABLE public.mdl_portfolio_tempdata OWNER TO sister;
+ALTER TABLE public.mdl_portfolio_tempdata OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_portfolio_tempdata; Type: COMMENT; Schema: public; Owner: sister
@@ -12894,7 +12894,7 @@ CREATE SEQUENCE public.mdl_portfolio_tempdata_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_portfolio_tempdata_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_portfolio_tempdata_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_portfolio_tempdata_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12930,7 +12930,7 @@ CREATE TABLE public.mdl_post (
 );
 
 
-ALTER TABLE public.mdl_post OWNER TO sister;
+ALTER TABLE public.mdl_post OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_post; Type: COMMENT; Schema: public; Owner: sister
@@ -12951,7 +12951,7 @@ CREATE SEQUENCE public.mdl_post_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_post_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_post_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_post_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -12979,7 +12979,7 @@ CREATE TABLE public.mdl_profiling (
 );
 
 
-ALTER TABLE public.mdl_profiling OWNER TO sister;
+ALTER TABLE public.mdl_profiling OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_profiling; Type: COMMENT; Schema: public; Owner: sister
@@ -13000,7 +13000,7 @@ CREATE SEQUENCE public.mdl_profiling_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_profiling_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_profiling_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_profiling_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13027,7 +13027,7 @@ CREATE TABLE public.mdl_qtype_ddimageortext (
 );
 
 
-ALTER TABLE public.mdl_qtype_ddimageortext OWNER TO sister;
+ALTER TABLE public.mdl_qtype_ddimageortext OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_qtype_ddimageortext; Type: COMMENT; Schema: public; Owner: sister
@@ -13050,7 +13050,7 @@ CREATE TABLE public.mdl_qtype_ddimageortext_drags (
 );
 
 
-ALTER TABLE public.mdl_qtype_ddimageortext_drags OWNER TO sister;
+ALTER TABLE public.mdl_qtype_ddimageortext_drags OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_qtype_ddimageortext_drags; Type: COMMENT; Schema: public; Owner: sister
@@ -13071,7 +13071,7 @@ CREATE SEQUENCE public.mdl_qtype_ddimageortext_drags_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_ddimageortext_drags_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_qtype_ddimageortext_drags_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_qtype_ddimageortext_drags_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13095,7 +13095,7 @@ CREATE TABLE public.mdl_qtype_ddimageortext_drops (
 );
 
 
-ALTER TABLE public.mdl_qtype_ddimageortext_drops OWNER TO sister;
+ALTER TABLE public.mdl_qtype_ddimageortext_drops OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_qtype_ddimageortext_drops; Type: COMMENT; Schema: public; Owner: sister
@@ -13116,7 +13116,7 @@ CREATE SEQUENCE public.mdl_qtype_ddimageortext_drops_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_ddimageortext_drops_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_qtype_ddimageortext_drops_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_qtype_ddimageortext_drops_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13137,7 +13137,7 @@ CREATE SEQUENCE public.mdl_qtype_ddimageortext_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_ddimageortext_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_qtype_ddimageortext_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_qtype_ddimageortext_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13165,7 +13165,7 @@ CREATE TABLE public.mdl_qtype_ddmarker (
 );
 
 
-ALTER TABLE public.mdl_qtype_ddmarker OWNER TO sister;
+ALTER TABLE public.mdl_qtype_ddmarker OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_qtype_ddmarker; Type: COMMENT; Schema: public; Owner: sister
@@ -13188,7 +13188,7 @@ CREATE TABLE public.mdl_qtype_ddmarker_drags (
 );
 
 
-ALTER TABLE public.mdl_qtype_ddmarker_drags OWNER TO sister;
+ALTER TABLE public.mdl_qtype_ddmarker_drags OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_qtype_ddmarker_drags; Type: COMMENT; Schema: public; Owner: sister
@@ -13209,7 +13209,7 @@ CREATE SEQUENCE public.mdl_qtype_ddmarker_drags_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_ddmarker_drags_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_qtype_ddmarker_drags_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_qtype_ddmarker_drags_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13232,7 +13232,7 @@ CREATE TABLE public.mdl_qtype_ddmarker_drops (
 );
 
 
-ALTER TABLE public.mdl_qtype_ddmarker_drops OWNER TO sister;
+ALTER TABLE public.mdl_qtype_ddmarker_drops OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_qtype_ddmarker_drops; Type: COMMENT; Schema: public; Owner: sister
@@ -13253,7 +13253,7 @@ CREATE SEQUENCE public.mdl_qtype_ddmarker_drops_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_ddmarker_drops_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_qtype_ddmarker_drops_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_qtype_ddmarker_drops_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13274,7 +13274,7 @@ CREATE SEQUENCE public.mdl_qtype_ddmarker_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_ddmarker_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_qtype_ddmarker_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_qtype_ddmarker_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13303,7 +13303,7 @@ CREATE TABLE public.mdl_qtype_essay_options (
 );
 
 
-ALTER TABLE public.mdl_qtype_essay_options OWNER TO sister;
+ALTER TABLE public.mdl_qtype_essay_options OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_qtype_essay_options; Type: COMMENT; Schema: public; Owner: sister
@@ -13324,7 +13324,7 @@ CREATE SEQUENCE public.mdl_qtype_essay_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_essay_options_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_qtype_essay_options_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_qtype_essay_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13351,7 +13351,7 @@ CREATE TABLE public.mdl_qtype_match_options (
 );
 
 
-ALTER TABLE public.mdl_qtype_match_options OWNER TO sister;
+ALTER TABLE public.mdl_qtype_match_options OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_qtype_match_options; Type: COMMENT; Schema: public; Owner: sister
@@ -13372,7 +13372,7 @@ CREATE SEQUENCE public.mdl_qtype_match_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_match_options_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_qtype_match_options_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_qtype_match_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13394,7 +13394,7 @@ CREATE TABLE public.mdl_qtype_match_subquestions (
 );
 
 
-ALTER TABLE public.mdl_qtype_match_subquestions OWNER TO sister;
+ALTER TABLE public.mdl_qtype_match_subquestions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_qtype_match_subquestions; Type: COMMENT; Schema: public; Owner: sister
@@ -13415,7 +13415,7 @@ CREATE SEQUENCE public.mdl_qtype_match_subquestions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_match_subquestions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_qtype_match_subquestions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_qtype_match_subquestions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13445,7 +13445,7 @@ CREATE TABLE public.mdl_qtype_multichoice_options (
 );
 
 
-ALTER TABLE public.mdl_qtype_multichoice_options OWNER TO sister;
+ALTER TABLE public.mdl_qtype_multichoice_options OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_qtype_multichoice_options; Type: COMMENT; Schema: public; Owner: sister
@@ -13466,7 +13466,7 @@ CREATE SEQUENCE public.mdl_qtype_multichoice_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_multichoice_options_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_qtype_multichoice_options_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_qtype_multichoice_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13494,7 +13494,7 @@ CREATE TABLE public.mdl_qtype_randomsamatch_options (
 );
 
 
-ALTER TABLE public.mdl_qtype_randomsamatch_options OWNER TO sister;
+ALTER TABLE public.mdl_qtype_randomsamatch_options OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_qtype_randomsamatch_options; Type: COMMENT; Schema: public; Owner: sister
@@ -13515,7 +13515,7 @@ CREATE SEQUENCE public.mdl_qtype_randomsamatch_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_randomsamatch_options_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_qtype_randomsamatch_options_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_qtype_randomsamatch_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13535,7 +13535,7 @@ CREATE TABLE public.mdl_qtype_shortanswer_options (
 );
 
 
-ALTER TABLE public.mdl_qtype_shortanswer_options OWNER TO sister;
+ALTER TABLE public.mdl_qtype_shortanswer_options OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_qtype_shortanswer_options; Type: COMMENT; Schema: public; Owner: sister
@@ -13556,7 +13556,7 @@ CREATE SEQUENCE public.mdl_qtype_shortanswer_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_qtype_shortanswer_options_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_qtype_shortanswer_options_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_qtype_shortanswer_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13593,7 +13593,7 @@ CREATE TABLE public.mdl_question (
 );
 
 
-ALTER TABLE public.mdl_question OWNER TO sister;
+ALTER TABLE public.mdl_question OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question; Type: COMMENT; Schema: public; Owner: sister
@@ -13617,7 +13617,7 @@ CREATE TABLE public.mdl_question_answers (
 );
 
 
-ALTER TABLE public.mdl_question_answers OWNER TO sister;
+ALTER TABLE public.mdl_question_answers OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_answers; Type: COMMENT; Schema: public; Owner: sister
@@ -13638,7 +13638,7 @@ CREATE SEQUENCE public.mdl_question_answers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_answers_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_answers_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_answers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13659,7 +13659,7 @@ CREATE TABLE public.mdl_question_attempt_step_data (
 );
 
 
-ALTER TABLE public.mdl_question_attempt_step_data OWNER TO sister;
+ALTER TABLE public.mdl_question_attempt_step_data OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_attempt_step_data; Type: COMMENT; Schema: public; Owner: sister
@@ -13680,7 +13680,7 @@ CREATE SEQUENCE public.mdl_question_attempt_step_data_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_attempt_step_data_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_attempt_step_data_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_attempt_step_data_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13704,7 +13704,7 @@ CREATE TABLE public.mdl_question_attempt_steps (
 );
 
 
-ALTER TABLE public.mdl_question_attempt_steps OWNER TO sister;
+ALTER TABLE public.mdl_question_attempt_steps OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_attempt_steps; Type: COMMENT; Schema: public; Owner: sister
@@ -13725,7 +13725,7 @@ CREATE SEQUENCE public.mdl_question_attempt_steps_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_attempt_steps_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_attempt_steps_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_attempt_steps_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13756,7 +13756,7 @@ CREATE TABLE public.mdl_question_attempts (
 );
 
 
-ALTER TABLE public.mdl_question_attempts OWNER TO sister;
+ALTER TABLE public.mdl_question_attempts OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_attempts; Type: COMMENT; Schema: public; Owner: sister
@@ -13777,7 +13777,7 @@ CREATE SEQUENCE public.mdl_question_attempts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_attempts_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_attempts_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_attempts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13801,7 +13801,7 @@ CREATE TABLE public.mdl_question_calculated (
 );
 
 
-ALTER TABLE public.mdl_question_calculated OWNER TO sister;
+ALTER TABLE public.mdl_question_calculated OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_calculated; Type: COMMENT; Schema: public; Owner: sister
@@ -13822,7 +13822,7 @@ CREATE SEQUENCE public.mdl_question_calculated_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_calculated_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_calculated_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_calculated_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13852,7 +13852,7 @@ CREATE TABLE public.mdl_question_calculated_options (
 );
 
 
-ALTER TABLE public.mdl_question_calculated_options OWNER TO sister;
+ALTER TABLE public.mdl_question_calculated_options OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_calculated_options; Type: COMMENT; Schema: public; Owner: sister
@@ -13873,7 +13873,7 @@ CREATE SEQUENCE public.mdl_question_calculated_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_calculated_options_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_calculated_options_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_calculated_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13899,7 +13899,7 @@ CREATE TABLE public.mdl_question_categories (
 );
 
 
-ALTER TABLE public.mdl_question_categories OWNER TO sister;
+ALTER TABLE public.mdl_question_categories OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_categories; Type: COMMENT; Schema: public; Owner: sister
@@ -13920,7 +13920,7 @@ CREATE SEQUENCE public.mdl_question_categories_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_categories_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_categories_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_categories_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13943,7 +13943,7 @@ CREATE TABLE public.mdl_question_dataset_definitions (
 );
 
 
-ALTER TABLE public.mdl_question_dataset_definitions OWNER TO sister;
+ALTER TABLE public.mdl_question_dataset_definitions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_dataset_definitions; Type: COMMENT; Schema: public; Owner: sister
@@ -13964,7 +13964,7 @@ CREATE SEQUENCE public.mdl_question_dataset_definitions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_dataset_definitions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_dataset_definitions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_dataset_definitions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -13985,7 +13985,7 @@ CREATE TABLE public.mdl_question_dataset_items (
 );
 
 
-ALTER TABLE public.mdl_question_dataset_items OWNER TO sister;
+ALTER TABLE public.mdl_question_dataset_items OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_dataset_items; Type: COMMENT; Schema: public; Owner: sister
@@ -14006,7 +14006,7 @@ CREATE SEQUENCE public.mdl_question_dataset_items_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_dataset_items_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_dataset_items_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_dataset_items_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14026,7 +14026,7 @@ CREATE TABLE public.mdl_question_datasets (
 );
 
 
-ALTER TABLE public.mdl_question_datasets OWNER TO sister;
+ALTER TABLE public.mdl_question_datasets OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_datasets; Type: COMMENT; Schema: public; Owner: sister
@@ -14047,7 +14047,7 @@ CREATE SEQUENCE public.mdl_question_datasets_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_datasets_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_datasets_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_datasets_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14074,7 +14074,7 @@ CREATE TABLE public.mdl_question_ddwtos (
 );
 
 
-ALTER TABLE public.mdl_question_ddwtos OWNER TO sister;
+ALTER TABLE public.mdl_question_ddwtos OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_ddwtos; Type: COMMENT; Schema: public; Owner: sister
@@ -14095,7 +14095,7 @@ CREATE SEQUENCE public.mdl_question_ddwtos_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_ddwtos_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_ddwtos_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_ddwtos_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14122,7 +14122,7 @@ CREATE TABLE public.mdl_question_gapselect (
 );
 
 
-ALTER TABLE public.mdl_question_gapselect OWNER TO sister;
+ALTER TABLE public.mdl_question_gapselect OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_gapselect; Type: COMMENT; Schema: public; Owner: sister
@@ -14143,7 +14143,7 @@ CREATE SEQUENCE public.mdl_question_gapselect_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_gapselect_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_gapselect_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_gapselect_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14167,7 +14167,7 @@ CREATE TABLE public.mdl_question_hints (
 );
 
 
-ALTER TABLE public.mdl_question_hints OWNER TO sister;
+ALTER TABLE public.mdl_question_hints OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_hints; Type: COMMENT; Schema: public; Owner: sister
@@ -14188,7 +14188,7 @@ CREATE SEQUENCE public.mdl_question_hints_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_hints_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_hints_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_hints_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14209,7 +14209,7 @@ CREATE SEQUENCE public.mdl_question_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14229,7 +14229,7 @@ CREATE TABLE public.mdl_question_multianswer (
 );
 
 
-ALTER TABLE public.mdl_question_multianswer OWNER TO sister;
+ALTER TABLE public.mdl_question_multianswer OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_multianswer; Type: COMMENT; Schema: public; Owner: sister
@@ -14250,7 +14250,7 @@ CREATE SEQUENCE public.mdl_question_multianswer_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_multianswer_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_multianswer_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_multianswer_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14271,7 +14271,7 @@ CREATE TABLE public.mdl_question_numerical (
 );
 
 
-ALTER TABLE public.mdl_question_numerical OWNER TO sister;
+ALTER TABLE public.mdl_question_numerical OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_numerical; Type: COMMENT; Schema: public; Owner: sister
@@ -14292,7 +14292,7 @@ CREATE SEQUENCE public.mdl_question_numerical_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_numerical_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_numerical_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_numerical_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14315,7 +14315,7 @@ CREATE TABLE public.mdl_question_numerical_options (
 );
 
 
-ALTER TABLE public.mdl_question_numerical_options OWNER TO sister;
+ALTER TABLE public.mdl_question_numerical_options OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_numerical_options; Type: COMMENT; Schema: public; Owner: sister
@@ -14336,7 +14336,7 @@ CREATE SEQUENCE public.mdl_question_numerical_options_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_numerical_options_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_numerical_options_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_numerical_options_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14357,7 +14357,7 @@ CREATE TABLE public.mdl_question_numerical_units (
 );
 
 
-ALTER TABLE public.mdl_question_numerical_units OWNER TO sister;
+ALTER TABLE public.mdl_question_numerical_units OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_numerical_units; Type: COMMENT; Schema: public; Owner: sister
@@ -14378,7 +14378,7 @@ CREATE SEQUENCE public.mdl_question_numerical_units_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_numerical_units_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_numerical_units_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_numerical_units_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14405,7 +14405,7 @@ CREATE TABLE public.mdl_question_response_analysis (
 );
 
 
-ALTER TABLE public.mdl_question_response_analysis OWNER TO sister;
+ALTER TABLE public.mdl_question_response_analysis OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_response_analysis; Type: COMMENT; Schema: public; Owner: sister
@@ -14426,7 +14426,7 @@ CREATE SEQUENCE public.mdl_question_response_analysis_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_response_analysis_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_response_analysis_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_response_analysis_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14447,7 +14447,7 @@ CREATE TABLE public.mdl_question_response_count (
 );
 
 
-ALTER TABLE public.mdl_question_response_count OWNER TO sister;
+ALTER TABLE public.mdl_question_response_count OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_response_count; Type: COMMENT; Schema: public; Owner: sister
@@ -14468,7 +14468,7 @@ CREATE SEQUENCE public.mdl_question_response_count_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_response_count_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_response_count_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_response_count_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14503,7 +14503,7 @@ CREATE TABLE public.mdl_question_statistics (
 );
 
 
-ALTER TABLE public.mdl_question_statistics OWNER TO sister;
+ALTER TABLE public.mdl_question_statistics OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_statistics; Type: COMMENT; Schema: public; Owner: sister
@@ -14524,7 +14524,7 @@ CREATE SEQUENCE public.mdl_question_statistics_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_statistics_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_statistics_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_statistics_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14545,7 +14545,7 @@ CREATE TABLE public.mdl_question_truefalse (
 );
 
 
-ALTER TABLE public.mdl_question_truefalse OWNER TO sister;
+ALTER TABLE public.mdl_question_truefalse OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_truefalse; Type: COMMENT; Schema: public; Owner: sister
@@ -14566,7 +14566,7 @@ CREATE SEQUENCE public.mdl_question_truefalse_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_truefalse_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_truefalse_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_truefalse_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14587,7 +14587,7 @@ CREATE TABLE public.mdl_question_usages (
 );
 
 
-ALTER TABLE public.mdl_question_usages OWNER TO sister;
+ALTER TABLE public.mdl_question_usages OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_question_usages; Type: COMMENT; Schema: public; Owner: sister
@@ -14608,7 +14608,7 @@ CREATE SEQUENCE public.mdl_question_usages_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_question_usages_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_question_usages_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_question_usages_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14644,7 +14644,7 @@ CREATE TABLE public.mdl_questionnaire (
 );
 
 
-ALTER TABLE public.mdl_questionnaire OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire; Type: COMMENT; Schema: public; Owner: sister
@@ -14668,7 +14668,7 @@ CREATE TABLE public.mdl_questionnaire_dependency (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_dependency OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_dependency OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_dependency; Type: COMMENT; Schema: public; Owner: sister
@@ -14689,7 +14689,7 @@ CREATE SEQUENCE public.mdl_questionnaire_dependency_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_dependency_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_dependency_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_dependency_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14713,7 +14713,7 @@ CREATE TABLE public.mdl_questionnaire_fb_sections (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_fb_sections OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_fb_sections OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_fb_sections; Type: COMMENT; Schema: public; Owner: sister
@@ -14734,7 +14734,7 @@ CREATE SEQUENCE public.mdl_questionnaire_fb_sections_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_fb_sections_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_fb_sections_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_fb_sections_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14758,7 +14758,7 @@ CREATE TABLE public.mdl_questionnaire_feedback (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_feedback OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_feedback OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_feedback; Type: COMMENT; Schema: public; Owner: sister
@@ -14779,7 +14779,7 @@ CREATE SEQUENCE public.mdl_questionnaire_feedback_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_feedback_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_feedback_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_feedback_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14800,7 +14800,7 @@ CREATE SEQUENCE public.mdl_questionnaire_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14821,7 +14821,7 @@ CREATE TABLE public.mdl_questionnaire_quest_choice (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_quest_choice OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_quest_choice OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_quest_choice; Type: COMMENT; Schema: public; Owner: sister
@@ -14842,7 +14842,7 @@ CREATE SEQUENCE public.mdl_questionnaire_quest_choice_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_quest_choice_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_quest_choice_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_quest_choice_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14871,7 +14871,7 @@ CREATE TABLE public.mdl_questionnaire_question (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_question OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_question OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_question; Type: COMMENT; Schema: public; Owner: sister
@@ -14892,7 +14892,7 @@ CREATE SEQUENCE public.mdl_questionnaire_question_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_question_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_question_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_question_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14914,7 +14914,7 @@ CREATE TABLE public.mdl_questionnaire_question_type (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_question_type OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_question_type OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_question_type; Type: COMMENT; Schema: public; Owner: sister
@@ -14935,7 +14935,7 @@ CREATE SEQUENCE public.mdl_questionnaire_question_type_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_question_type_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_question_type_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_question_type_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14956,7 +14956,7 @@ CREATE TABLE public.mdl_questionnaire_resp_multiple (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_resp_multiple OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_resp_multiple OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_resp_multiple; Type: COMMENT; Schema: public; Owner: sister
@@ -14977,7 +14977,7 @@ CREATE SEQUENCE public.mdl_questionnaire_resp_multiple_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_resp_multiple_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_resp_multiple_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_resp_multiple_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -14998,7 +14998,7 @@ CREATE TABLE public.mdl_questionnaire_resp_single (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_resp_single OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_resp_single OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_resp_single; Type: COMMENT; Schema: public; Owner: sister
@@ -15019,7 +15019,7 @@ CREATE SEQUENCE public.mdl_questionnaire_resp_single_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_resp_single_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_resp_single_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_resp_single_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15042,7 +15042,7 @@ CREATE TABLE public.mdl_questionnaire_response (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_response OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_response OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_response; Type: COMMENT; Schema: public; Owner: sister
@@ -15063,7 +15063,7 @@ CREATE TABLE public.mdl_questionnaire_response_bool (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_response_bool OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_response_bool OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_response_bool; Type: COMMENT; Schema: public; Owner: sister
@@ -15084,7 +15084,7 @@ CREATE SEQUENCE public.mdl_questionnaire_response_bool_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_response_bool_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_response_bool_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_response_bool_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15105,7 +15105,7 @@ CREATE TABLE public.mdl_questionnaire_response_date (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_response_date OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_response_date OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_response_date; Type: COMMENT; Schema: public; Owner: sister
@@ -15126,7 +15126,7 @@ CREATE SEQUENCE public.mdl_questionnaire_response_date_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_response_date_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_response_date_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_response_date_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15147,7 +15147,7 @@ CREATE SEQUENCE public.mdl_questionnaire_response_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_response_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_response_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_response_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15169,7 +15169,7 @@ CREATE TABLE public.mdl_questionnaire_response_other (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_response_other OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_response_other OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_response_other; Type: COMMENT; Schema: public; Owner: sister
@@ -15190,7 +15190,7 @@ CREATE SEQUENCE public.mdl_questionnaire_response_other_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_response_other_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_response_other_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_response_other_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15212,7 +15212,7 @@ CREATE TABLE public.mdl_questionnaire_response_rank (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_response_rank OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_response_rank OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_response_rank; Type: COMMENT; Schema: public; Owner: sister
@@ -15233,7 +15233,7 @@ CREATE SEQUENCE public.mdl_questionnaire_response_rank_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_response_rank_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_response_rank_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_response_rank_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15254,7 +15254,7 @@ CREATE TABLE public.mdl_questionnaire_response_text (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_response_text OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_response_text OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_response_text; Type: COMMENT; Schema: public; Owner: sister
@@ -15275,7 +15275,7 @@ CREATE SEQUENCE public.mdl_questionnaire_response_text_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_response_text_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_response_text_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_response_text_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15309,7 +15309,7 @@ CREATE TABLE public.mdl_questionnaire_survey (
 );
 
 
-ALTER TABLE public.mdl_questionnaire_survey OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_survey OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_questionnaire_survey; Type: COMMENT; Schema: public; Owner: sister
@@ -15330,7 +15330,7 @@ CREATE SEQUENCE public.mdl_questionnaire_survey_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_questionnaire_survey_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_questionnaire_survey_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_questionnaire_survey_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15388,7 +15388,7 @@ CREATE TABLE public.mdl_quiz (
 );
 
 
-ALTER TABLE public.mdl_quiz OWNER TO sister;
+ALTER TABLE public.mdl_quiz OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_quiz; Type: COMMENT; Schema: public; Owner: sister
@@ -15420,7 +15420,7 @@ CREATE TABLE public.mdl_quiz_attempts (
 );
 
 
-ALTER TABLE public.mdl_quiz_attempts OWNER TO sister;
+ALTER TABLE public.mdl_quiz_attempts OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_quiz_attempts; Type: COMMENT; Schema: public; Owner: sister
@@ -15441,7 +15441,7 @@ CREATE SEQUENCE public.mdl_quiz_attempts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_attempts_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_quiz_attempts_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_quiz_attempts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15464,7 +15464,7 @@ CREATE TABLE public.mdl_quiz_feedback (
 );
 
 
-ALTER TABLE public.mdl_quiz_feedback OWNER TO sister;
+ALTER TABLE public.mdl_quiz_feedback OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_quiz_feedback; Type: COMMENT; Schema: public; Owner: sister
@@ -15485,7 +15485,7 @@ CREATE SEQUENCE public.mdl_quiz_feedback_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_feedback_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_quiz_feedback_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_quiz_feedback_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15507,7 +15507,7 @@ CREATE TABLE public.mdl_quiz_grades (
 );
 
 
-ALTER TABLE public.mdl_quiz_grades OWNER TO sister;
+ALTER TABLE public.mdl_quiz_grades OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_quiz_grades; Type: COMMENT; Schema: public; Owner: sister
@@ -15528,7 +15528,7 @@ CREATE SEQUENCE public.mdl_quiz_grades_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_grades_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_quiz_grades_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_quiz_grades_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15549,7 +15549,7 @@ CREATE SEQUENCE public.mdl_quiz_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_quiz_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_quiz_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15575,7 +15575,7 @@ CREATE TABLE public.mdl_quiz_overrides (
 );
 
 
-ALTER TABLE public.mdl_quiz_overrides OWNER TO sister;
+ALTER TABLE public.mdl_quiz_overrides OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_quiz_overrides; Type: COMMENT; Schema: public; Owner: sister
@@ -15596,7 +15596,7 @@ CREATE SEQUENCE public.mdl_quiz_overrides_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_overrides_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_quiz_overrides_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_quiz_overrides_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15620,7 +15620,7 @@ CREATE TABLE public.mdl_quiz_overview_regrades (
 );
 
 
-ALTER TABLE public.mdl_quiz_overview_regrades OWNER TO sister;
+ALTER TABLE public.mdl_quiz_overview_regrades OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_quiz_overview_regrades; Type: COMMENT; Schema: public; Owner: sister
@@ -15641,7 +15641,7 @@ CREATE SEQUENCE public.mdl_quiz_overview_regrades_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_overview_regrades_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_quiz_overview_regrades_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_quiz_overview_regrades_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15662,7 +15662,7 @@ CREATE TABLE public.mdl_quiz_reports (
 );
 
 
-ALTER TABLE public.mdl_quiz_reports OWNER TO sister;
+ALTER TABLE public.mdl_quiz_reports OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_quiz_reports; Type: COMMENT; Schema: public; Owner: sister
@@ -15683,7 +15683,7 @@ CREATE SEQUENCE public.mdl_quiz_reports_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_reports_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_quiz_reports_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_quiz_reports_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15705,7 +15705,7 @@ CREATE TABLE public.mdl_quiz_sections (
 );
 
 
-ALTER TABLE public.mdl_quiz_sections OWNER TO sister;
+ALTER TABLE public.mdl_quiz_sections OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_quiz_sections; Type: COMMENT; Schema: public; Owner: sister
@@ -15726,7 +15726,7 @@ CREATE SEQUENCE public.mdl_quiz_sections_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_sections_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_quiz_sections_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_quiz_sections_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15747,7 +15747,7 @@ CREATE TABLE public.mdl_quiz_slot_tags (
 );
 
 
-ALTER TABLE public.mdl_quiz_slot_tags OWNER TO sister;
+ALTER TABLE public.mdl_quiz_slot_tags OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_quiz_slot_tags; Type: COMMENT; Schema: public; Owner: sister
@@ -15768,7 +15768,7 @@ CREATE SEQUENCE public.mdl_quiz_slot_tags_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_slot_tags_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_quiz_slot_tags_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_quiz_slot_tags_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15794,7 +15794,7 @@ CREATE TABLE public.mdl_quiz_slots (
 );
 
 
-ALTER TABLE public.mdl_quiz_slots OWNER TO sister;
+ALTER TABLE public.mdl_quiz_slots OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_quiz_slots; Type: COMMENT; Schema: public; Owner: sister
@@ -15815,7 +15815,7 @@ CREATE SEQUENCE public.mdl_quiz_slots_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_slots_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_quiz_slots_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_quiz_slots_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15851,7 +15851,7 @@ CREATE TABLE public.mdl_quiz_statistics (
 );
 
 
-ALTER TABLE public.mdl_quiz_statistics OWNER TO sister;
+ALTER TABLE public.mdl_quiz_statistics OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_quiz_statistics; Type: COMMENT; Schema: public; Owner: sister
@@ -15872,7 +15872,7 @@ CREATE SEQUENCE public.mdl_quiz_statistics_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_quiz_statistics_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_quiz_statistics_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_quiz_statistics_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15899,7 +15899,7 @@ CREATE TABLE public.mdl_rating (
 );
 
 
-ALTER TABLE public.mdl_rating OWNER TO sister;
+ALTER TABLE public.mdl_rating OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_rating; Type: COMMENT; Schema: public; Owner: sister
@@ -15920,7 +15920,7 @@ CREATE SEQUENCE public.mdl_rating_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_rating_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_rating_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_rating_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15944,7 +15944,7 @@ CREATE TABLE public.mdl_registration_hubs (
 );
 
 
-ALTER TABLE public.mdl_registration_hubs OWNER TO sister;
+ALTER TABLE public.mdl_registration_hubs OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_registration_hubs; Type: COMMENT; Schema: public; Owner: sister
@@ -15965,7 +15965,7 @@ CREATE SEQUENCE public.mdl_registration_hubs_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_registration_hubs_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_registration_hubs_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_registration_hubs_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -15986,7 +15986,7 @@ CREATE TABLE public.mdl_repository (
 );
 
 
-ALTER TABLE public.mdl_repository OWNER TO sister;
+ALTER TABLE public.mdl_repository OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_repository; Type: COMMENT; Schema: public; Owner: sister
@@ -16007,7 +16007,7 @@ CREATE SEQUENCE public.mdl_repository_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_repository_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_repository_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_repository_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16028,7 +16028,7 @@ CREATE TABLE public.mdl_repository_instance_config (
 );
 
 
-ALTER TABLE public.mdl_repository_instance_config OWNER TO sister;
+ALTER TABLE public.mdl_repository_instance_config OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_repository_instance_config; Type: COMMENT; Schema: public; Owner: sister
@@ -16049,7 +16049,7 @@ CREATE SEQUENCE public.mdl_repository_instance_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_repository_instance_config_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_repository_instance_config_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_repository_instance_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16076,7 +16076,7 @@ CREATE TABLE public.mdl_repository_instances (
 );
 
 
-ALTER TABLE public.mdl_repository_instances OWNER TO sister;
+ALTER TABLE public.mdl_repository_instances OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_repository_instances; Type: COMMENT; Schema: public; Owner: sister
@@ -16097,7 +16097,7 @@ CREATE SEQUENCE public.mdl_repository_instances_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_repository_instances_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_repository_instances_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_repository_instances_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16127,7 +16127,7 @@ CREATE TABLE public.mdl_resource (
 );
 
 
-ALTER TABLE public.mdl_resource OWNER TO sister;
+ALTER TABLE public.mdl_resource OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_resource; Type: COMMENT; Schema: public; Owner: sister
@@ -16148,7 +16148,7 @@ CREATE SEQUENCE public.mdl_resource_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_resource_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_resource_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_resource_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16181,7 +16181,7 @@ CREATE TABLE public.mdl_resource_old (
 );
 
 
-ALTER TABLE public.mdl_resource_old OWNER TO sister;
+ALTER TABLE public.mdl_resource_old OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_resource_old; Type: COMMENT; Schema: public; Owner: sister
@@ -16202,7 +16202,7 @@ CREATE SEQUENCE public.mdl_resource_old_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_resource_old_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_resource_old_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_resource_old_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16225,7 +16225,7 @@ CREATE TABLE public.mdl_role (
 );
 
 
-ALTER TABLE public.mdl_role OWNER TO sister;
+ALTER TABLE public.mdl_role OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_role; Type: COMMENT; Schema: public; Owner: sister
@@ -16245,7 +16245,7 @@ CREATE TABLE public.mdl_role_allow_assign (
 );
 
 
-ALTER TABLE public.mdl_role_allow_assign OWNER TO sister;
+ALTER TABLE public.mdl_role_allow_assign OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_role_allow_assign; Type: COMMENT; Schema: public; Owner: sister
@@ -16266,7 +16266,7 @@ CREATE SEQUENCE public.mdl_role_allow_assign_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_allow_assign_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_role_allow_assign_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_role_allow_assign_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16286,7 +16286,7 @@ CREATE TABLE public.mdl_role_allow_override (
 );
 
 
-ALTER TABLE public.mdl_role_allow_override OWNER TO sister;
+ALTER TABLE public.mdl_role_allow_override OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_role_allow_override; Type: COMMENT; Schema: public; Owner: sister
@@ -16307,7 +16307,7 @@ CREATE SEQUENCE public.mdl_role_allow_override_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_allow_override_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_role_allow_override_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_role_allow_override_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16327,7 +16327,7 @@ CREATE TABLE public.mdl_role_allow_switch (
 );
 
 
-ALTER TABLE public.mdl_role_allow_switch OWNER TO sister;
+ALTER TABLE public.mdl_role_allow_switch OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_role_allow_switch; Type: COMMENT; Schema: public; Owner: sister
@@ -16348,7 +16348,7 @@ CREATE SEQUENCE public.mdl_role_allow_switch_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_allow_switch_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_role_allow_switch_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_role_allow_switch_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16368,7 +16368,7 @@ CREATE TABLE public.mdl_role_allow_view (
 );
 
 
-ALTER TABLE public.mdl_role_allow_view OWNER TO sister;
+ALTER TABLE public.mdl_role_allow_view OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_role_allow_view; Type: COMMENT; Schema: public; Owner: sister
@@ -16389,7 +16389,7 @@ CREATE SEQUENCE public.mdl_role_allow_view_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_allow_view_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_role_allow_view_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_role_allow_view_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16415,7 +16415,7 @@ CREATE TABLE public.mdl_role_assignments (
 );
 
 
-ALTER TABLE public.mdl_role_assignments OWNER TO sister;
+ALTER TABLE public.mdl_role_assignments OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_role_assignments; Type: COMMENT; Schema: public; Owner: sister
@@ -16436,7 +16436,7 @@ CREATE SEQUENCE public.mdl_role_assignments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_assignments_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_role_assignments_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_role_assignments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16460,7 +16460,7 @@ CREATE TABLE public.mdl_role_capabilities (
 );
 
 
-ALTER TABLE public.mdl_role_capabilities OWNER TO sister;
+ALTER TABLE public.mdl_role_capabilities OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_role_capabilities; Type: COMMENT; Schema: public; Owner: sister
@@ -16481,7 +16481,7 @@ CREATE SEQUENCE public.mdl_role_capabilities_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_capabilities_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_role_capabilities_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_role_capabilities_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16501,7 +16501,7 @@ CREATE TABLE public.mdl_role_context_levels (
 );
 
 
-ALTER TABLE public.mdl_role_context_levels OWNER TO sister;
+ALTER TABLE public.mdl_role_context_levels OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_role_context_levels; Type: COMMENT; Schema: public; Owner: sister
@@ -16522,7 +16522,7 @@ CREATE SEQUENCE public.mdl_role_context_levels_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_context_levels_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_role_context_levels_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_role_context_levels_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16543,7 +16543,7 @@ CREATE SEQUENCE public.mdl_role_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_role_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_role_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16564,7 +16564,7 @@ CREATE TABLE public.mdl_role_names (
 );
 
 
-ALTER TABLE public.mdl_role_names OWNER TO sister;
+ALTER TABLE public.mdl_role_names OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_role_names; Type: COMMENT; Schema: public; Owner: sister
@@ -16585,7 +16585,7 @@ CREATE SEQUENCE public.mdl_role_names_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_names_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_role_names_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_role_names_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16607,7 +16607,7 @@ CREATE TABLE public.mdl_role_sortorder (
 );
 
 
-ALTER TABLE public.mdl_role_sortorder OWNER TO sister;
+ALTER TABLE public.mdl_role_sortorder OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_role_sortorder; Type: COMMENT; Schema: public; Owner: sister
@@ -16628,7 +16628,7 @@ CREATE SEQUENCE public.mdl_role_sortorder_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_role_sortorder_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_role_sortorder_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_role_sortorder_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16653,7 +16653,7 @@ CREATE TABLE public.mdl_scale (
 );
 
 
-ALTER TABLE public.mdl_scale OWNER TO sister;
+ALTER TABLE public.mdl_scale OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_scale; Type: COMMENT; Schema: public; Owner: sister
@@ -16681,7 +16681,7 @@ CREATE TABLE public.mdl_scale_history (
 );
 
 
-ALTER TABLE public.mdl_scale_history OWNER TO sister;
+ALTER TABLE public.mdl_scale_history OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_scale_history; Type: COMMENT; Schema: public; Owner: sister
@@ -16702,7 +16702,7 @@ CREATE SEQUENCE public.mdl_scale_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scale_history_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_scale_history_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_scale_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16723,7 +16723,7 @@ CREATE SEQUENCE public.mdl_scale_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scale_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_scale_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_scale_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16782,7 +16782,7 @@ CREATE TABLE public.mdl_scorm (
 );
 
 
-ALTER TABLE public.mdl_scorm OWNER TO sister;
+ALTER TABLE public.mdl_scorm OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_scorm; Type: COMMENT; Schema: public; Owner: sister
@@ -16811,7 +16811,7 @@ CREATE TABLE public.mdl_scorm_aicc_session (
 );
 
 
-ALTER TABLE public.mdl_scorm_aicc_session OWNER TO sister;
+ALTER TABLE public.mdl_scorm_aicc_session OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_scorm_aicc_session; Type: COMMENT; Schema: public; Owner: sister
@@ -16832,7 +16832,7 @@ CREATE SEQUENCE public.mdl_scorm_aicc_session_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_aicc_session_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_scorm_aicc_session_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_scorm_aicc_session_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16853,7 +16853,7 @@ CREATE SEQUENCE public.mdl_scorm_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_scorm_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_scorm_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16880,7 +16880,7 @@ CREATE TABLE public.mdl_scorm_scoes (
 );
 
 
-ALTER TABLE public.mdl_scorm_scoes OWNER TO sister;
+ALTER TABLE public.mdl_scorm_scoes OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_scorm_scoes; Type: COMMENT; Schema: public; Owner: sister
@@ -16901,7 +16901,7 @@ CREATE TABLE public.mdl_scorm_scoes_data (
 );
 
 
-ALTER TABLE public.mdl_scorm_scoes_data OWNER TO sister;
+ALTER TABLE public.mdl_scorm_scoes_data OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_scorm_scoes_data; Type: COMMENT; Schema: public; Owner: sister
@@ -16922,7 +16922,7 @@ CREATE SEQUENCE public.mdl_scorm_scoes_data_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_scoes_data_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_scorm_scoes_data_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_scorm_scoes_data_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16943,7 +16943,7 @@ CREATE SEQUENCE public.mdl_scorm_scoes_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_scoes_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_scorm_scoes_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_scorm_scoes_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -16968,7 +16968,7 @@ CREATE TABLE public.mdl_scorm_scoes_track (
 );
 
 
-ALTER TABLE public.mdl_scorm_scoes_track OWNER TO sister;
+ALTER TABLE public.mdl_scorm_scoes_track OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_scorm_scoes_track; Type: COMMENT; Schema: public; Owner: sister
@@ -16989,7 +16989,7 @@ CREATE SEQUENCE public.mdl_scorm_scoes_track_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_scoes_track_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_scorm_scoes_track_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_scorm_scoes_track_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17014,7 +17014,7 @@ CREATE TABLE public.mdl_scorm_seq_mapinfo (
 );
 
 
-ALTER TABLE public.mdl_scorm_seq_mapinfo OWNER TO sister;
+ALTER TABLE public.mdl_scorm_seq_mapinfo OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_scorm_seq_mapinfo; Type: COMMENT; Schema: public; Owner: sister
@@ -17035,7 +17035,7 @@ CREATE SEQUENCE public.mdl_scorm_seq_mapinfo_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_seq_mapinfo_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_scorm_seq_mapinfo_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_scorm_seq_mapinfo_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17058,7 +17058,7 @@ CREATE TABLE public.mdl_scorm_seq_objective (
 );
 
 
-ALTER TABLE public.mdl_scorm_seq_objective OWNER TO sister;
+ALTER TABLE public.mdl_scorm_seq_objective OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_scorm_seq_objective; Type: COMMENT; Schema: public; Owner: sister
@@ -17079,7 +17079,7 @@ CREATE SEQUENCE public.mdl_scorm_seq_objective_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_seq_objective_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_scorm_seq_objective_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_scorm_seq_objective_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17103,7 +17103,7 @@ CREATE TABLE public.mdl_scorm_seq_rolluprule (
 );
 
 
-ALTER TABLE public.mdl_scorm_seq_rolluprule OWNER TO sister;
+ALTER TABLE public.mdl_scorm_seq_rolluprule OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_scorm_seq_rolluprule; Type: COMMENT; Schema: public; Owner: sister
@@ -17124,7 +17124,7 @@ CREATE SEQUENCE public.mdl_scorm_seq_rolluprule_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_seq_rolluprule_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_scorm_seq_rolluprule_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_scorm_seq_rolluprule_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17146,7 +17146,7 @@ CREATE TABLE public.mdl_scorm_seq_rolluprulecond (
 );
 
 
-ALTER TABLE public.mdl_scorm_seq_rolluprulecond OWNER TO sister;
+ALTER TABLE public.mdl_scorm_seq_rolluprulecond OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_scorm_seq_rolluprulecond; Type: COMMENT; Schema: public; Owner: sister
@@ -17167,7 +17167,7 @@ CREATE SEQUENCE public.mdl_scorm_seq_rolluprulecond_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_seq_rolluprulecond_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_scorm_seq_rolluprulecond_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_scorm_seq_rolluprulecond_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17191,7 +17191,7 @@ CREATE TABLE public.mdl_scorm_seq_rulecond (
 );
 
 
-ALTER TABLE public.mdl_scorm_seq_rulecond OWNER TO sister;
+ALTER TABLE public.mdl_scorm_seq_rulecond OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_scorm_seq_rulecond; Type: COMMENT; Schema: public; Owner: sister
@@ -17212,7 +17212,7 @@ CREATE SEQUENCE public.mdl_scorm_seq_rulecond_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_seq_rulecond_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_scorm_seq_rulecond_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_scorm_seq_rulecond_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17234,7 +17234,7 @@ CREATE TABLE public.mdl_scorm_seq_ruleconds (
 );
 
 
-ALTER TABLE public.mdl_scorm_seq_ruleconds OWNER TO sister;
+ALTER TABLE public.mdl_scorm_seq_ruleconds OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_scorm_seq_ruleconds; Type: COMMENT; Schema: public; Owner: sister
@@ -17255,7 +17255,7 @@ CREATE SEQUENCE public.mdl_scorm_seq_ruleconds_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_scorm_seq_ruleconds_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_scorm_seq_ruleconds_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_scorm_seq_ruleconds_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17279,7 +17279,7 @@ CREATE TABLE public.mdl_search_index_requests (
 );
 
 
-ALTER TABLE public.mdl_search_index_requests OWNER TO sister;
+ALTER TABLE public.mdl_search_index_requests OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_search_index_requests; Type: COMMENT; Schema: public; Owner: sister
@@ -17300,7 +17300,7 @@ CREATE SEQUENCE public.mdl_search_index_requests_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_search_index_requests_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_search_index_requests_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_search_index_requests_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17331,7 +17331,7 @@ CREATE TABLE public.mdl_search_simpledb_index (
 );
 
 
-ALTER TABLE public.mdl_search_simpledb_index OWNER TO sister;
+ALTER TABLE public.mdl_search_simpledb_index OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_search_simpledb_index; Type: COMMENT; Schema: public; Owner: sister
@@ -17352,7 +17352,7 @@ CREATE SEQUENCE public.mdl_search_simpledb_index_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_search_simpledb_index_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_search_simpledb_index_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_search_simpledb_index_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17378,7 +17378,7 @@ CREATE TABLE public.mdl_sessions (
 );
 
 
-ALTER TABLE public.mdl_sessions OWNER TO sister;
+ALTER TABLE public.mdl_sessions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_sessions; Type: COMMENT; Schema: public; Owner: sister
@@ -17399,7 +17399,7 @@ CREATE SEQUENCE public.mdl_sessions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_sessions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_sessions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_sessions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17423,7 +17423,7 @@ CREATE TABLE public.mdl_stats_daily (
 );
 
 
-ALTER TABLE public.mdl_stats_daily OWNER TO sister;
+ALTER TABLE public.mdl_stats_daily OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_stats_daily; Type: COMMENT; Schema: public; Owner: sister
@@ -17444,7 +17444,7 @@ CREATE SEQUENCE public.mdl_stats_daily_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_stats_daily_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_stats_daily_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_stats_daily_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17468,7 +17468,7 @@ CREATE TABLE public.mdl_stats_monthly (
 );
 
 
-ALTER TABLE public.mdl_stats_monthly OWNER TO sister;
+ALTER TABLE public.mdl_stats_monthly OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_stats_monthly; Type: COMMENT; Schema: public; Owner: sister
@@ -17489,7 +17489,7 @@ CREATE SEQUENCE public.mdl_stats_monthly_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_stats_monthly_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_stats_monthly_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_stats_monthly_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17514,7 +17514,7 @@ CREATE TABLE public.mdl_stats_user_daily (
 );
 
 
-ALTER TABLE public.mdl_stats_user_daily OWNER TO sister;
+ALTER TABLE public.mdl_stats_user_daily OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_stats_user_daily; Type: COMMENT; Schema: public; Owner: sister
@@ -17535,7 +17535,7 @@ CREATE SEQUENCE public.mdl_stats_user_daily_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_stats_user_daily_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_stats_user_daily_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_stats_user_daily_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17560,7 +17560,7 @@ CREATE TABLE public.mdl_stats_user_monthly (
 );
 
 
-ALTER TABLE public.mdl_stats_user_monthly OWNER TO sister;
+ALTER TABLE public.mdl_stats_user_monthly OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_stats_user_monthly; Type: COMMENT; Schema: public; Owner: sister
@@ -17581,7 +17581,7 @@ CREATE SEQUENCE public.mdl_stats_user_monthly_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_stats_user_monthly_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_stats_user_monthly_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_stats_user_monthly_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17606,7 +17606,7 @@ CREATE TABLE public.mdl_stats_user_weekly (
 );
 
 
-ALTER TABLE public.mdl_stats_user_weekly OWNER TO sister;
+ALTER TABLE public.mdl_stats_user_weekly OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_stats_user_weekly; Type: COMMENT; Schema: public; Owner: sister
@@ -17627,7 +17627,7 @@ CREATE SEQUENCE public.mdl_stats_user_weekly_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_stats_user_weekly_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_stats_user_weekly_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_stats_user_weekly_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17651,7 +17651,7 @@ CREATE TABLE public.mdl_stats_weekly (
 );
 
 
-ALTER TABLE public.mdl_stats_weekly OWNER TO sister;
+ALTER TABLE public.mdl_stats_weekly OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_stats_weekly; Type: COMMENT; Schema: public; Owner: sister
@@ -17672,7 +17672,7 @@ CREATE SEQUENCE public.mdl_stats_weekly_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_stats_weekly_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_stats_weekly_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_stats_weekly_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17700,7 +17700,7 @@ CREATE TABLE public.mdl_survey (
 );
 
 
-ALTER TABLE public.mdl_survey OWNER TO sister;
+ALTER TABLE public.mdl_survey OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_survey; Type: COMMENT; Schema: public; Owner: sister
@@ -17721,7 +17721,7 @@ CREATE TABLE public.mdl_survey_analysis (
 );
 
 
-ALTER TABLE public.mdl_survey_analysis OWNER TO sister;
+ALTER TABLE public.mdl_survey_analysis OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_survey_analysis; Type: COMMENT; Schema: public; Owner: sister
@@ -17742,7 +17742,7 @@ CREATE SEQUENCE public.mdl_survey_analysis_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_survey_analysis_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_survey_analysis_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_survey_analysis_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17766,7 +17766,7 @@ CREATE TABLE public.mdl_survey_answers (
 );
 
 
-ALTER TABLE public.mdl_survey_answers OWNER TO sister;
+ALTER TABLE public.mdl_survey_answers OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_survey_answers; Type: COMMENT; Schema: public; Owner: sister
@@ -17787,7 +17787,7 @@ CREATE SEQUENCE public.mdl_survey_answers_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_survey_answers_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_survey_answers_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_survey_answers_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17808,7 +17808,7 @@ CREATE SEQUENCE public.mdl_survey_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_survey_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_survey_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_survey_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17832,7 +17832,7 @@ CREATE TABLE public.mdl_survey_questions (
 );
 
 
-ALTER TABLE public.mdl_survey_questions OWNER TO sister;
+ALTER TABLE public.mdl_survey_questions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_survey_questions; Type: COMMENT; Schema: public; Owner: sister
@@ -17853,7 +17853,7 @@ CREATE SEQUENCE public.mdl_survey_questions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_survey_questions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_survey_questions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_survey_questions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17880,7 +17880,7 @@ CREATE TABLE public.mdl_tag (
 );
 
 
-ALTER TABLE public.mdl_tag OWNER TO sister;
+ALTER TABLE public.mdl_tag OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tag; Type: COMMENT; Schema: public; Owner: sister
@@ -17906,7 +17906,7 @@ CREATE TABLE public.mdl_tag_area (
 );
 
 
-ALTER TABLE public.mdl_tag_area OWNER TO sister;
+ALTER TABLE public.mdl_tag_area OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tag_area; Type: COMMENT; Schema: public; Owner: sister
@@ -17927,7 +17927,7 @@ CREATE SEQUENCE public.mdl_tag_area_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tag_area_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tag_area_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tag_area_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17951,7 +17951,7 @@ CREATE TABLE public.mdl_tag_coll (
 );
 
 
-ALTER TABLE public.mdl_tag_coll OWNER TO sister;
+ALTER TABLE public.mdl_tag_coll OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tag_coll; Type: COMMENT; Schema: public; Owner: sister
@@ -17972,7 +17972,7 @@ CREATE SEQUENCE public.mdl_tag_coll_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tag_coll_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tag_coll_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tag_coll_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -17992,7 +17992,7 @@ CREATE TABLE public.mdl_tag_correlation (
 );
 
 
-ALTER TABLE public.mdl_tag_correlation OWNER TO sister;
+ALTER TABLE public.mdl_tag_correlation OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tag_correlation; Type: COMMENT; Schema: public; Owner: sister
@@ -18013,7 +18013,7 @@ CREATE SEQUENCE public.mdl_tag_correlation_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tag_correlation_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tag_correlation_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tag_correlation_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18034,7 +18034,7 @@ CREATE SEQUENCE public.mdl_tag_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tag_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tag_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tag_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18061,7 +18061,7 @@ CREATE TABLE public.mdl_tag_instance (
 );
 
 
-ALTER TABLE public.mdl_tag_instance OWNER TO sister;
+ALTER TABLE public.mdl_tag_instance OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tag_instance; Type: COMMENT; Schema: public; Owner: sister
@@ -18082,7 +18082,7 @@ CREATE SEQUENCE public.mdl_tag_instance_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tag_instance_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tag_instance_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tag_instance_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18107,7 +18107,7 @@ CREATE TABLE public.mdl_task_adhoc (
 );
 
 
-ALTER TABLE public.mdl_task_adhoc OWNER TO sister;
+ALTER TABLE public.mdl_task_adhoc OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_task_adhoc; Type: COMMENT; Schema: public; Owner: sister
@@ -18128,7 +18128,7 @@ CREATE SEQUENCE public.mdl_task_adhoc_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_task_adhoc_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_task_adhoc_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_task_adhoc_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18159,7 +18159,7 @@ CREATE TABLE public.mdl_task_scheduled (
 );
 
 
-ALTER TABLE public.mdl_task_scheduled OWNER TO sister;
+ALTER TABLE public.mdl_task_scheduled OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_task_scheduled; Type: COMMENT; Schema: public; Owner: sister
@@ -18180,7 +18180,7 @@ CREATE SEQUENCE public.mdl_task_scheduled_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_task_scheduled_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_task_scheduled_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_task_scheduled_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18204,7 +18204,7 @@ CREATE TABLE public.mdl_tool_cohortroles (
 );
 
 
-ALTER TABLE public.mdl_tool_cohortroles OWNER TO sister;
+ALTER TABLE public.mdl_tool_cohortroles OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_cohortroles; Type: COMMENT; Schema: public; Owner: sister
@@ -18225,7 +18225,7 @@ CREATE SEQUENCE public.mdl_tool_cohortroles_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_cohortroles_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_cohortroles_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_cohortroles_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18253,7 +18253,7 @@ CREATE TABLE public.mdl_tool_customlang (
 );
 
 
-ALTER TABLE public.mdl_tool_customlang OWNER TO sister;
+ALTER TABLE public.mdl_tool_customlang OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_customlang; Type: COMMENT; Schema: public; Owner: sister
@@ -18273,7 +18273,7 @@ CREATE TABLE public.mdl_tool_customlang_components (
 );
 
 
-ALTER TABLE public.mdl_tool_customlang_components OWNER TO sister;
+ALTER TABLE public.mdl_tool_customlang_components OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_customlang_components; Type: COMMENT; Schema: public; Owner: sister
@@ -18294,7 +18294,7 @@ CREATE SEQUENCE public.mdl_tool_customlang_components_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_customlang_components_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_customlang_components_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_customlang_components_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18315,7 +18315,7 @@ CREATE SEQUENCE public.mdl_tool_customlang_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_customlang_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_customlang_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_customlang_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18339,7 +18339,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_category (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_category OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_category OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_category; Type: COMMENT; Schema: public; Owner: sister
@@ -18360,7 +18360,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_category_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_category_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_category_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_dataprivacy_category_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18386,7 +18386,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_ctxexpired (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_ctxexpired OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_ctxexpired OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_ctxexpired; Type: COMMENT; Schema: public; Owner: sister
@@ -18407,7 +18407,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_ctxexpired_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_ctxexpired_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_ctxexpired_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_dataprivacy_ctxexpired_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18431,7 +18431,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_ctxinstance (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_ctxinstance OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_ctxinstance OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_ctxinstance; Type: COMMENT; Schema: public; Owner: sister
@@ -18452,7 +18452,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_ctxinstance_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_ctxinstance_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_ctxinstance_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_dataprivacy_ctxinstance_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18476,7 +18476,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_ctxlevel (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_ctxlevel OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_ctxlevel OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_ctxlevel; Type: COMMENT; Schema: public; Owner: sister
@@ -18497,7 +18497,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_ctxlevel_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_ctxlevel_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_ctxlevel_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_dataprivacy_ctxlevel_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18525,7 +18525,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_purpose (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_purpose OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_purpose OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_purpose; Type: COMMENT; Schema: public; Owner: sister
@@ -18546,7 +18546,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_purpose_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_purpose_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_purpose_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_dataprivacy_purpose_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18573,7 +18573,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_purposerole (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_purposerole OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_purposerole OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_purposerole; Type: COMMENT; Schema: public; Owner: sister
@@ -18594,7 +18594,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_purposerole_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_purposerole_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_purposerole_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_dataprivacy_purposerole_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18625,7 +18625,7 @@ CREATE TABLE public.mdl_tool_dataprivacy_request (
 );
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_request OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_request OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_dataprivacy_request; Type: COMMENT; Schema: public; Owner: sister
@@ -18646,7 +18646,7 @@ CREATE SEQUENCE public.mdl_tool_dataprivacy_request_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_dataprivacy_request_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_dataprivacy_request_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_dataprivacy_request_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18671,7 +18671,7 @@ CREATE TABLE public.mdl_tool_monitor_events (
 );
 
 
-ALTER TABLE public.mdl_tool_monitor_events OWNER TO sister;
+ALTER TABLE public.mdl_tool_monitor_events OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_monitor_events; Type: COMMENT; Schema: public; Owner: sister
@@ -18692,7 +18692,7 @@ CREATE SEQUENCE public.mdl_tool_monitor_events_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_monitor_events_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_monitor_events_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_monitor_events_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18713,7 +18713,7 @@ CREATE TABLE public.mdl_tool_monitor_history (
 );
 
 
-ALTER TABLE public.mdl_tool_monitor_history OWNER TO sister;
+ALTER TABLE public.mdl_tool_monitor_history OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_monitor_history; Type: COMMENT; Schema: public; Owner: sister
@@ -18734,7 +18734,7 @@ CREATE SEQUENCE public.mdl_tool_monitor_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_monitor_history_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_monitor_history_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_monitor_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18765,7 +18765,7 @@ CREATE TABLE public.mdl_tool_monitor_rules (
 );
 
 
-ALTER TABLE public.mdl_tool_monitor_rules OWNER TO sister;
+ALTER TABLE public.mdl_tool_monitor_rules OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_monitor_rules; Type: COMMENT; Schema: public; Owner: sister
@@ -18786,7 +18786,7 @@ CREATE SEQUENCE public.mdl_tool_monitor_rules_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_monitor_rules_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_monitor_rules_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_monitor_rules_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18811,7 +18811,7 @@ CREATE TABLE public.mdl_tool_monitor_subscriptions (
 );
 
 
-ALTER TABLE public.mdl_tool_monitor_subscriptions OWNER TO sister;
+ALTER TABLE public.mdl_tool_monitor_subscriptions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_monitor_subscriptions; Type: COMMENT; Schema: public; Owner: sister
@@ -18832,7 +18832,7 @@ CREATE SEQUENCE public.mdl_tool_monitor_subscriptions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_monitor_subscriptions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_monitor_subscriptions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_monitor_subscriptions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18852,7 +18852,7 @@ CREATE TABLE public.mdl_tool_policy (
 );
 
 
-ALTER TABLE public.mdl_tool_policy OWNER TO sister;
+ALTER TABLE public.mdl_tool_policy OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_policy; Type: COMMENT; Schema: public; Owner: sister
@@ -18878,7 +18878,7 @@ CREATE TABLE public.mdl_tool_policy_acceptances (
 );
 
 
-ALTER TABLE public.mdl_tool_policy_acceptances OWNER TO sister;
+ALTER TABLE public.mdl_tool_policy_acceptances OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_policy_acceptances; Type: COMMENT; Schema: public; Owner: sister
@@ -18899,7 +18899,7 @@ CREATE SEQUENCE public.mdl_tool_policy_acceptances_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_policy_acceptances_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_policy_acceptances_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_policy_acceptances_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18920,7 +18920,7 @@ CREATE SEQUENCE public.mdl_tool_policy_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_policy_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_policy_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_policy_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18953,7 +18953,7 @@ CREATE TABLE public.mdl_tool_policy_versions (
 );
 
 
-ALTER TABLE public.mdl_tool_policy_versions OWNER TO sister;
+ALTER TABLE public.mdl_tool_policy_versions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_policy_versions; Type: COMMENT; Schema: public; Owner: sister
@@ -18974,7 +18974,7 @@ CREATE SEQUENCE public.mdl_tool_policy_versions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_policy_versions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_policy_versions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_policy_versions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -18996,7 +18996,7 @@ CREATE TABLE public.mdl_tool_recyclebin_category (
 );
 
 
-ALTER TABLE public.mdl_tool_recyclebin_category OWNER TO sister;
+ALTER TABLE public.mdl_tool_recyclebin_category OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_recyclebin_category; Type: COMMENT; Schema: public; Owner: sister
@@ -19017,7 +19017,7 @@ CREATE SEQUENCE public.mdl_tool_recyclebin_category_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_recyclebin_category_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_recyclebin_category_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_recyclebin_category_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19040,7 +19040,7 @@ CREATE TABLE public.mdl_tool_recyclebin_course (
 );
 
 
-ALTER TABLE public.mdl_tool_recyclebin_course OWNER TO sister;
+ALTER TABLE public.mdl_tool_recyclebin_course OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_recyclebin_course; Type: COMMENT; Schema: public; Owner: sister
@@ -19061,7 +19061,7 @@ CREATE SEQUENCE public.mdl_tool_recyclebin_course_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_recyclebin_course_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_recyclebin_course_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_recyclebin_course_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19086,7 +19086,7 @@ CREATE TABLE public.mdl_tool_usertours_steps (
 );
 
 
-ALTER TABLE public.mdl_tool_usertours_steps OWNER TO sister;
+ALTER TABLE public.mdl_tool_usertours_steps OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_usertours_steps; Type: COMMENT; Schema: public; Owner: sister
@@ -19107,7 +19107,7 @@ CREATE SEQUENCE public.mdl_tool_usertours_steps_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_usertours_steps_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_usertours_steps_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_usertours_steps_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19131,7 +19131,7 @@ CREATE TABLE public.mdl_tool_usertours_tours (
 );
 
 
-ALTER TABLE public.mdl_tool_usertours_tours OWNER TO sister;
+ALTER TABLE public.mdl_tool_usertours_tours OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_usertours_tours; Type: COMMENT; Schema: public; Owner: sister
@@ -19152,7 +19152,7 @@ CREATE SEQUENCE public.mdl_tool_usertours_tours_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_usertours_tours_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_usertours_tours_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_usertours_tours_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19177,7 +19177,7 @@ CREATE TABLE public.mdl_tool_webanalytics (
 );
 
 
-ALTER TABLE public.mdl_tool_webanalytics OWNER TO sister;
+ALTER TABLE public.mdl_tool_webanalytics OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_tool_webanalytics; Type: COMMENT; Schema: public; Owner: sister
@@ -19198,7 +19198,7 @@ CREATE SEQUENCE public.mdl_tool_webanalytics_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_tool_webanalytics_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_tool_webanalytics_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_tool_webanalytics_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19268,7 +19268,7 @@ CREATE TABLE public.mdl_turnitintooltwo (
 );
 
 
-ALTER TABLE public.mdl_turnitintooltwo OWNER TO sister;
+ALTER TABLE public.mdl_turnitintooltwo OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_turnitintooltwo; Type: COMMENT; Schema: public; Owner: sister
@@ -19291,7 +19291,7 @@ CREATE TABLE public.mdl_turnitintooltwo_courses (
 );
 
 
-ALTER TABLE public.mdl_turnitintooltwo_courses OWNER TO sister;
+ALTER TABLE public.mdl_turnitintooltwo_courses OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_turnitintooltwo_courses; Type: COMMENT; Schema: public; Owner: sister
@@ -19312,7 +19312,7 @@ CREATE SEQUENCE public.mdl_turnitintooltwo_courses_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_turnitintooltwo_courses_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_turnitintooltwo_courses_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_turnitintooltwo_courses_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19333,7 +19333,7 @@ CREATE SEQUENCE public.mdl_turnitintooltwo_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_turnitintooltwo_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_turnitintooltwo_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_turnitintooltwo_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19363,7 +19363,7 @@ CREATE TABLE public.mdl_turnitintooltwo_parts (
 );
 
 
-ALTER TABLE public.mdl_turnitintooltwo_parts OWNER TO sister;
+ALTER TABLE public.mdl_turnitintooltwo_parts OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_turnitintooltwo_parts; Type: COMMENT; Schema: public; Owner: sister
@@ -19384,7 +19384,7 @@ CREATE SEQUENCE public.mdl_turnitintooltwo_parts_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_turnitintooltwo_parts_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_turnitintooltwo_parts_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_turnitintooltwo_parts_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19414,7 +19414,7 @@ CREATE TABLE public.mdl_turnitintooltwo_peermarks (
 );
 
 
-ALTER TABLE public.mdl_turnitintooltwo_peermarks OWNER TO sister;
+ALTER TABLE public.mdl_turnitintooltwo_peermarks OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_turnitintooltwo_peermarks; Type: COMMENT; Schema: public; Owner: sister
@@ -19435,7 +19435,7 @@ CREATE SEQUENCE public.mdl_turnitintooltwo_peermarks_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_turnitintooltwo_peermarks_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_turnitintooltwo_peermarks_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_turnitintooltwo_peermarks_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19478,7 +19478,7 @@ CREATE TABLE public.mdl_turnitintooltwo_submissions (
 );
 
 
-ALTER TABLE public.mdl_turnitintooltwo_submissions OWNER TO sister;
+ALTER TABLE public.mdl_turnitintooltwo_submissions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_turnitintooltwo_submissions; Type: COMMENT; Schema: public; Owner: sister
@@ -19499,7 +19499,7 @@ CREATE SEQUENCE public.mdl_turnitintooltwo_submissions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_turnitintooltwo_submissions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_turnitintooltwo_submissions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_turnitintooltwo_submissions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19523,7 +19523,7 @@ CREATE TABLE public.mdl_turnitintooltwo_users (
 );
 
 
-ALTER TABLE public.mdl_turnitintooltwo_users OWNER TO sister;
+ALTER TABLE public.mdl_turnitintooltwo_users OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_turnitintooltwo_users; Type: COMMENT; Schema: public; Owner: sister
@@ -19544,7 +19544,7 @@ CREATE SEQUENCE public.mdl_turnitintooltwo_users_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_turnitintooltwo_users_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_turnitintooltwo_users_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_turnitintooltwo_users_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19571,7 +19571,7 @@ CREATE TABLE public.mdl_upgrade_log (
 );
 
 
-ALTER TABLE public.mdl_upgrade_log OWNER TO sister;
+ALTER TABLE public.mdl_upgrade_log OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_upgrade_log; Type: COMMENT; Schema: public; Owner: sister
@@ -19592,7 +19592,7 @@ CREATE SEQUENCE public.mdl_upgrade_log_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_upgrade_log_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_upgrade_log_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_upgrade_log_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19619,7 +19619,7 @@ CREATE TABLE public.mdl_url (
 );
 
 
-ALTER TABLE public.mdl_url OWNER TO sister;
+ALTER TABLE public.mdl_url OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_url; Type: COMMENT; Schema: public; Owner: sister
@@ -19640,7 +19640,7 @@ CREATE SEQUENCE public.mdl_url_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_url_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_url_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_url_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19710,7 +19710,7 @@ CREATE TABLE public.mdl_user (
 );
 
 
-ALTER TABLE public.mdl_user OWNER TO sister;
+ALTER TABLE public.mdl_user OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_user; Type: COMMENT; Schema: public; Owner: sister
@@ -19738,7 +19738,7 @@ CREATE TABLE public.mdl_user_devices (
 );
 
 
-ALTER TABLE public.mdl_user_devices OWNER TO sister;
+ALTER TABLE public.mdl_user_devices OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_user_devices; Type: COMMENT; Schema: public; Owner: sister
@@ -19759,7 +19759,7 @@ CREATE SEQUENCE public.mdl_user_devices_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_devices_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_user_devices_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_user_devices_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19785,7 +19785,7 @@ CREATE TABLE public.mdl_user_enrolments (
 );
 
 
-ALTER TABLE public.mdl_user_enrolments OWNER TO sister;
+ALTER TABLE public.mdl_user_enrolments OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_user_enrolments; Type: COMMENT; Schema: public; Owner: sister
@@ -19806,7 +19806,7 @@ CREATE SEQUENCE public.mdl_user_enrolments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_enrolments_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_user_enrolments_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_user_enrolments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19827,7 +19827,7 @@ CREATE SEQUENCE public.mdl_user_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_user_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19847,7 +19847,7 @@ CREATE TABLE public.mdl_user_info_category (
 );
 
 
-ALTER TABLE public.mdl_user_info_category OWNER TO sister;
+ALTER TABLE public.mdl_user_info_category OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_user_info_category; Type: COMMENT; Schema: public; Owner: sister
@@ -19868,7 +19868,7 @@ CREATE SEQUENCE public.mdl_user_info_category_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_info_category_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_user_info_category_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_user_info_category_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19890,7 +19890,7 @@ CREATE TABLE public.mdl_user_info_data (
 );
 
 
-ALTER TABLE public.mdl_user_info_data OWNER TO sister;
+ALTER TABLE public.mdl_user_info_data OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_user_info_data; Type: COMMENT; Schema: public; Owner: sister
@@ -19911,7 +19911,7 @@ CREATE SEQUENCE public.mdl_user_info_data_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_info_data_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_user_info_data_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_user_info_data_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19948,7 +19948,7 @@ CREATE TABLE public.mdl_user_info_field (
 );
 
 
-ALTER TABLE public.mdl_user_info_field OWNER TO sister;
+ALTER TABLE public.mdl_user_info_field OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_user_info_field; Type: COMMENT; Schema: public; Owner: sister
@@ -19969,7 +19969,7 @@ CREATE SEQUENCE public.mdl_user_info_field_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_info_field_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_user_info_field_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_user_info_field_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -19990,7 +19990,7 @@ CREATE TABLE public.mdl_user_lastaccess (
 );
 
 
-ALTER TABLE public.mdl_user_lastaccess OWNER TO sister;
+ALTER TABLE public.mdl_user_lastaccess OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_user_lastaccess; Type: COMMENT; Schema: public; Owner: sister
@@ -20011,7 +20011,7 @@ CREATE SEQUENCE public.mdl_user_lastaccess_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_lastaccess_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_user_lastaccess_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_user_lastaccess_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20032,7 +20032,7 @@ CREATE TABLE public.mdl_user_password_history (
 );
 
 
-ALTER TABLE public.mdl_user_password_history OWNER TO sister;
+ALTER TABLE public.mdl_user_password_history OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_user_password_history; Type: COMMENT; Schema: public; Owner: sister
@@ -20053,7 +20053,7 @@ CREATE SEQUENCE public.mdl_user_password_history_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_password_history_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_user_password_history_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_user_password_history_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20075,7 +20075,7 @@ CREATE TABLE public.mdl_user_password_resets (
 );
 
 
-ALTER TABLE public.mdl_user_password_resets OWNER TO sister;
+ALTER TABLE public.mdl_user_password_resets OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_user_password_resets; Type: COMMENT; Schema: public; Owner: sister
@@ -20096,7 +20096,7 @@ CREATE SEQUENCE public.mdl_user_password_resets_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_password_resets_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_user_password_resets_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_user_password_resets_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20117,7 +20117,7 @@ CREATE TABLE public.mdl_user_preferences (
 );
 
 
-ALTER TABLE public.mdl_user_preferences OWNER TO sister;
+ALTER TABLE public.mdl_user_preferences OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_user_preferences; Type: COMMENT; Schema: public; Owner: sister
@@ -20138,7 +20138,7 @@ CREATE SEQUENCE public.mdl_user_preferences_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_preferences_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_user_preferences_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_user_preferences_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20163,7 +20163,7 @@ CREATE TABLE public.mdl_user_private_key (
 );
 
 
-ALTER TABLE public.mdl_user_private_key OWNER TO sister;
+ALTER TABLE public.mdl_user_private_key OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_user_private_key; Type: COMMENT; Schema: public; Owner: sister
@@ -20184,7 +20184,7 @@ CREATE SEQUENCE public.mdl_user_private_key_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_user_private_key_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_user_private_key_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_user_private_key_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20224,7 +20224,7 @@ CREATE TABLE public.mdl_webexactivity (
 );
 
 
-ALTER TABLE public.mdl_webexactivity OWNER TO sister;
+ALTER TABLE public.mdl_webexactivity OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_webexactivity; Type: COMMENT; Schema: public; Owner: sister
@@ -20245,7 +20245,7 @@ CREATE SEQUENCE public.mdl_webexactivity_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_webexactivity_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_webexactivity_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_webexactivity_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20276,7 +20276,7 @@ CREATE TABLE public.mdl_webexactivity_recording (
 );
 
 
-ALTER TABLE public.mdl_webexactivity_recording OWNER TO sister;
+ALTER TABLE public.mdl_webexactivity_recording OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_webexactivity_recording; Type: COMMENT; Schema: public; Owner: sister
@@ -20297,7 +20297,7 @@ CREATE SEQUENCE public.mdl_webexactivity_recording_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_webexactivity_recording_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_webexactivity_recording_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_webexactivity_recording_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20324,7 +20324,7 @@ CREATE TABLE public.mdl_webexactivity_user (
 );
 
 
-ALTER TABLE public.mdl_webexactivity_user OWNER TO sister;
+ALTER TABLE public.mdl_webexactivity_user OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_webexactivity_user; Type: COMMENT; Schema: public; Owner: sister
@@ -20345,7 +20345,7 @@ CREATE SEQUENCE public.mdl_webexactivity_user_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_webexactivity_user_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_webexactivity_user_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_webexactivity_user_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20375,7 +20375,7 @@ CREATE TABLE public.mdl_wiki (
 );
 
 
-ALTER TABLE public.mdl_wiki OWNER TO sister;
+ALTER TABLE public.mdl_wiki OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_wiki; Type: COMMENT; Schema: public; Owner: sister
@@ -20396,7 +20396,7 @@ CREATE SEQUENCE public.mdl_wiki_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_wiki_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_wiki_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20418,7 +20418,7 @@ CREATE TABLE public.mdl_wiki_links (
 );
 
 
-ALTER TABLE public.mdl_wiki_links OWNER TO sister;
+ALTER TABLE public.mdl_wiki_links OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_wiki_links; Type: COMMENT; Schema: public; Owner: sister
@@ -20439,7 +20439,7 @@ CREATE SEQUENCE public.mdl_wiki_links_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_links_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_wiki_links_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_wiki_links_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20461,7 +20461,7 @@ CREATE TABLE public.mdl_wiki_locks (
 );
 
 
-ALTER TABLE public.mdl_wiki_locks OWNER TO sister;
+ALTER TABLE public.mdl_wiki_locks OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_wiki_locks; Type: COMMENT; Schema: public; Owner: sister
@@ -20482,7 +20482,7 @@ CREATE SEQUENCE public.mdl_wiki_locks_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_locks_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_wiki_locks_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_wiki_locks_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20509,7 +20509,7 @@ CREATE TABLE public.mdl_wiki_pages (
 );
 
 
-ALTER TABLE public.mdl_wiki_pages OWNER TO sister;
+ALTER TABLE public.mdl_wiki_pages OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_wiki_pages; Type: COMMENT; Schema: public; Owner: sister
@@ -20530,7 +20530,7 @@ CREATE SEQUENCE public.mdl_wiki_pages_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_pages_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_wiki_pages_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_wiki_pages_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20551,7 +20551,7 @@ CREATE TABLE public.mdl_wiki_subwikis (
 );
 
 
-ALTER TABLE public.mdl_wiki_subwikis OWNER TO sister;
+ALTER TABLE public.mdl_wiki_subwikis OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_wiki_subwikis; Type: COMMENT; Schema: public; Owner: sister
@@ -20572,7 +20572,7 @@ CREATE SEQUENCE public.mdl_wiki_subwikis_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_subwikis_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_wiki_subwikis_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_wiki_subwikis_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20593,7 +20593,7 @@ CREATE TABLE public.mdl_wiki_synonyms (
 );
 
 
-ALTER TABLE public.mdl_wiki_synonyms OWNER TO sister;
+ALTER TABLE public.mdl_wiki_synonyms OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_wiki_synonyms; Type: COMMENT; Schema: public; Owner: sister
@@ -20614,7 +20614,7 @@ CREATE SEQUENCE public.mdl_wiki_synonyms_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_synonyms_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_wiki_synonyms_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_wiki_synonyms_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20638,7 +20638,7 @@ CREATE TABLE public.mdl_wiki_versions (
 );
 
 
-ALTER TABLE public.mdl_wiki_versions OWNER TO sister;
+ALTER TABLE public.mdl_wiki_versions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_wiki_versions; Type: COMMENT; Schema: public; Owner: sister
@@ -20659,7 +20659,7 @@ CREATE SEQUENCE public.mdl_wiki_versions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_wiki_versions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_wiki_versions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_wiki_versions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20713,7 +20713,7 @@ CREATE TABLE public.mdl_workshop (
 );
 
 
-ALTER TABLE public.mdl_workshop OWNER TO sister;
+ALTER TABLE public.mdl_workshop OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshop; Type: COMMENT; Schema: public; Owner: sister
@@ -20735,7 +20735,7 @@ CREATE TABLE public.mdl_workshop_aggregations (
 );
 
 
-ALTER TABLE public.mdl_workshop_aggregations OWNER TO sister;
+ALTER TABLE public.mdl_workshop_aggregations OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshop_aggregations; Type: COMMENT; Schema: public; Owner: sister
@@ -20756,7 +20756,7 @@ CREATE SEQUENCE public.mdl_workshop_aggregations_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshop_aggregations_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshop_aggregations_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshop_aggregations_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20788,7 +20788,7 @@ CREATE TABLE public.mdl_workshop_assessments (
 );
 
 
-ALTER TABLE public.mdl_workshop_assessments OWNER TO sister;
+ALTER TABLE public.mdl_workshop_assessments OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshop_assessments; Type: COMMENT; Schema: public; Owner: sister
@@ -20809,7 +20809,7 @@ CREATE SEQUENCE public.mdl_workshop_assessments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshop_assessments_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshop_assessments_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshop_assessments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20833,7 +20833,7 @@ CREATE TABLE public.mdl_workshop_grades (
 );
 
 
-ALTER TABLE public.mdl_workshop_grades OWNER TO sister;
+ALTER TABLE public.mdl_workshop_grades OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshop_grades; Type: COMMENT; Schema: public; Owner: sister
@@ -20854,7 +20854,7 @@ CREATE SEQUENCE public.mdl_workshop_grades_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshop_grades_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshop_grades_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshop_grades_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20875,7 +20875,7 @@ CREATE SEQUENCE public.mdl_workshop_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshop_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshop_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshop_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20911,7 +20911,7 @@ CREATE TABLE public.mdl_workshop_submissions (
 );
 
 
-ALTER TABLE public.mdl_workshop_submissions OWNER TO sister;
+ALTER TABLE public.mdl_workshop_submissions OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshop_submissions; Type: COMMENT; Schema: public; Owner: sister
@@ -20932,7 +20932,7 @@ CREATE SEQUENCE public.mdl_workshop_submissions_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshop_submissions_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshop_submissions_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshop_submissions_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20958,7 +20958,7 @@ CREATE TABLE public.mdl_workshopallocation_scheduled (
 );
 
 
-ALTER TABLE public.mdl_workshopallocation_scheduled OWNER TO sister;
+ALTER TABLE public.mdl_workshopallocation_scheduled OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshopallocation_scheduled; Type: COMMENT; Schema: public; Owner: sister
@@ -20979,7 +20979,7 @@ CREATE SEQUENCE public.mdl_workshopallocation_scheduled_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopallocation_scheduled_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshopallocation_scheduled_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshopallocation_scheduled_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -20999,7 +20999,7 @@ CREATE TABLE public.mdl_workshopeval_best_settings (
 );
 
 
-ALTER TABLE public.mdl_workshopeval_best_settings OWNER TO sister;
+ALTER TABLE public.mdl_workshopeval_best_settings OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshopeval_best_settings; Type: COMMENT; Schema: public; Owner: sister
@@ -21020,7 +21020,7 @@ CREATE SEQUENCE public.mdl_workshopeval_best_settings_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopeval_best_settings_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshopeval_best_settings_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshopeval_best_settings_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21044,7 +21044,7 @@ CREATE TABLE public.mdl_workshopform_accumulative (
 );
 
 
-ALTER TABLE public.mdl_workshopform_accumulative OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_accumulative OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshopform_accumulative; Type: COMMENT; Schema: public; Owner: sister
@@ -21065,7 +21065,7 @@ CREATE SEQUENCE public.mdl_workshopform_accumulative_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_accumulative_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_accumulative_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshopform_accumulative_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21087,7 +21087,7 @@ CREATE TABLE public.mdl_workshopform_comments (
 );
 
 
-ALTER TABLE public.mdl_workshopform_comments OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_comments OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshopform_comments; Type: COMMENT; Schema: public; Owner: sister
@@ -21108,7 +21108,7 @@ CREATE SEQUENCE public.mdl_workshopform_comments_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_comments_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_comments_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshopform_comments_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21134,7 +21134,7 @@ CREATE TABLE public.mdl_workshopform_numerrors (
 );
 
 
-ALTER TABLE public.mdl_workshopform_numerrors OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_numerrors OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshopform_numerrors; Type: COMMENT; Schema: public; Owner: sister
@@ -21155,7 +21155,7 @@ CREATE SEQUENCE public.mdl_workshopform_numerrors_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_numerrors_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_numerrors_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshopform_numerrors_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21176,7 +21176,7 @@ CREATE TABLE public.mdl_workshopform_numerrors_map (
 );
 
 
-ALTER TABLE public.mdl_workshopform_numerrors_map OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_numerrors_map OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshopform_numerrors_map; Type: COMMENT; Schema: public; Owner: sister
@@ -21197,7 +21197,7 @@ CREATE SEQUENCE public.mdl_workshopform_numerrors_map_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_numerrors_map_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_numerrors_map_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshopform_numerrors_map_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21219,7 +21219,7 @@ CREATE TABLE public.mdl_workshopform_rubric (
 );
 
 
-ALTER TABLE public.mdl_workshopform_rubric OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_rubric OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshopform_rubric; Type: COMMENT; Schema: public; Owner: sister
@@ -21239,7 +21239,7 @@ CREATE TABLE public.mdl_workshopform_rubric_config (
 );
 
 
-ALTER TABLE public.mdl_workshopform_rubric_config OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_rubric_config OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshopform_rubric_config; Type: COMMENT; Schema: public; Owner: sister
@@ -21260,7 +21260,7 @@ CREATE SEQUENCE public.mdl_workshopform_rubric_config_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_rubric_config_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_rubric_config_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshopform_rubric_config_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21281,7 +21281,7 @@ CREATE SEQUENCE public.mdl_workshopform_rubric_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_rubric_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_rubric_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshopform_rubric_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister
@@ -21303,7 +21303,7 @@ CREATE TABLE public.mdl_workshopform_rubric_levels (
 );
 
 
-ALTER TABLE public.mdl_workshopform_rubric_levels OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_rubric_levels OWNER TO moodle;
 
 --
 -- Name: TABLE mdl_workshopform_rubric_levels; Type: COMMENT; Schema: public; Owner: sister
@@ -21324,7 +21324,7 @@ CREATE SEQUENCE public.mdl_workshopform_rubric_levels_id_seq
     CACHE 1;
 
 
-ALTER TABLE public.mdl_workshopform_rubric_levels_id_seq OWNER TO sister;
+ALTER TABLE public.mdl_workshopform_rubric_levels_id_seq OWNER TO moodle;
 
 --
 -- Name: mdl_workshopform_rubric_levels_id_seq; Type: SEQUENCE OWNED BY; Schema: public; Owner: sister

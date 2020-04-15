@@ -20,7 +20,7 @@ services:
     networks:
       - moodle
   moodlecloud:
-    image: sudarko/moodlecloud:0.1 
+    image: sudarko/moodlecloud:0.2 
     networks:
       - moodle
     volumes:

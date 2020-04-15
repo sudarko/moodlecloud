@@ -27,7 +27,7 @@ services:
       - ./config.php:/var/www/html/config.php
       - moodledata:/var/www/moodledata
     ports:
-      - "8088:80"
+      - "80:80"
 networks:
   moodle:
 volumes:

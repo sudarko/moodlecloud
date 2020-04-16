@@ -25,6 +25,7 @@ services:
       - moodle
     volumes:
       - ./config.php:/var/www/html/config.php
+      - ./www.conf:/etc/php/7.3/php-fpm.d/www.conf
       - moodledata:/var/www/moodledata
     ports:
       - "80:80"

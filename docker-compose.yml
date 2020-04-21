@@ -4,8 +4,7 @@ services:
     image: postgres:11.5
 #    deploy:
 #      placement:
-#        constraints:
-#          - node.labels.namalabel == labelnya
+#        constraints: [node.hostname == hostname]
     networks:
       - moodle
     environment:
@@ -20,10 +19,19 @@ services:
     networks:
       - moodle
   moodlecloud:
-    image: sudarko/moodlecloud:0.2 
+    image: sudarko/moodlecloud:0.3 
+    deploy:
+      resources:
+        limits:
+          cpus: '7'
+          memory: 15G
+        reservations:
+          cpus: '1'
+          memory: 1G
     networks:
       - moodle
     volumes:
+#     - ./html:/var/www/html
       - ./config.php:/var/www/html/config.php
       - ./www.conf:/etc/php/7.3/php-fpm.d/www.conf
       - moodledata:/var/www/moodledata

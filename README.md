@@ -8,7 +8,7 @@ Deploy moodle with docker-compose
 4. cd moodlecloud
 5. edit config.php (ganti domain misalnya), atau bisa juga edit www.conf jika mau disesuaikan hardwarenya
 6. jika ada VM kedua, joinkan ke swarm dengan perintah sudo docker swarm join ...
-7. sudo docker stack deploy --compose-file docker-compose.yml moodle
+7. sudo docker stack deploy moodle -c docker-compose.yml
 8. login to http://domain (nama domain sesuai di config.php), user: admin pSw: MoodleCloud!
 8. sudo docker service ls
 9. sudo docker service scale nama-service=jumlah

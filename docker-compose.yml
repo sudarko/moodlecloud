@@ -4,11 +4,11 @@ services:
     image: postgres:11.5
     deploy:
       placement:
-        constraints: [node.hostname == kube1] # ganti check hostname dengan perintah sudo docker node ls
+        constraints: [node.hostname == node1] # ganti check hostname dengan perintah sudo docker node ls
       resources:
         limits:
-          cpus: '4'
-          memory: 4G
+          cpus: '2'
+          memory: 2G
         reservations:
           cpus: '1'
           memory: 1G
@@ -29,12 +29,12 @@ services:
     image: sudarko/moodlecloud:0.3 
     deploy:
       replicas: 1
-      placement:
-        constraints: [node.hostname == kube1] # ganti dengan check hostname dengan perintah sudo docker node ls
+#      placement:
+#        constraints: [node.hostname == kube1] # ganti dengan check hostname dengan perintah sudo docker node ls
       resources:
         limits:
-          cpus: '4'
-          memory: 4G
+          cpus: '2'
+          memory: 2G
         reservations:
           cpus: '1'
           memory: 1G
